@@ -1,7 +1,7 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
   "versions": [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43],
-  "sortIndex": 953,
+  "sortIndex": 954,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -76,7 +76,6 @@
           "devices": {
             "E5823": "Sony E5823",
             "F5321": "Sony F5321",
-            "HUAWEI NXT-AL10": "Huawei NXT-AL10",
             "PRA-LX1": "Huawei PRA-LX1",
             "Pixel C": "Google Pixel C",
             "SM-G935F": "Samsung SM-G935F",
@@ -100,17 +99,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "SM-J320F*": "Samsung SM-J320F"
-          },
-          "platforms": [
-            "Android_7_0",
-            "Android_6_0",
-            "Android_5_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
+            "ALE-L21*": "Huawei ALE-L21",
             "Micromax Q409": "Micromax Q409",
             "PS8106PG": "Digma PS8106PG",
             "Redmi 3S": "Xiaomi Redmi 3S"
@@ -134,7 +123,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "ALE-L21*": "Huawei ALE-L21"
+            "SM-A5000": "Samsung SM-A5000",
+            "SM-A500F": "Samsung SM-A500F",
+            "SM-A500FU*": "Samsung SM-A500FU",
+            "SM-A500G": "Samsung SM-A500G",
+            "SM-A500H": "Samsung SM-A500H",
+            "SM-A500K*": "Samsung SM-A500K",
+            "SM-A500L": "Samsung SM-A500L",
+            "SM-A500M": "Samsung SM-A500M",
+            "SM-A500S": "Samsung SM-A500S",
+            "SM-A500W*": "Samsung SM-A500W",
+            "SM-A500Y": "Samsung SM-A500Y"
           },
           "platforms": [
             "Android_6_0",
@@ -144,54 +143,24 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "SM-A5000": "Samsung SM-A5000",
-            "SM-A500F": "Samsung SM-A500F",
-            "SM-A500F1": "Samsung SM-A500F1",
-            "SM-A500FU*": "Samsung SM-A500FU",
-            "SM-A500G": "Samsung SM-A500G",
-            "SM-A500H": "Samsung SM-A500H",
-            "SM-A500K*": "Samsung SM-A500K",
-            "SM-A500L": "Samsung SM-A500L",
-            "SM-A500M": "Samsung SM-A500M",
-            "SM-A500S": "Samsung SM-A500S",
-            "SM-A500W*": "Samsung SM-A500W",
-            "SM-A500Y": "Samsung SM-A500Y",
-            "SM-A500YZ": "Samsung SM-A500YZ"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "HTC One_M8*": "HTC M8",
-            "HTC One_E8*": "HTC E8",
             "SM-G800A": "Samsung SM-G800A",
             "SM-T705*": "Samsung SM-T705",
             "SM-T807V": "Samsung SM-T807V"
           },
           "platforms": [
             "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4"
+            "Android_5_1", "Android_5_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A8-50LC": "Lenovo A8-50LC",
-            "Bmobile_AX810": "Bmobile AX810",
-            "Micromax E352": "Micromax E352",
-            "Micromax E481": "Micromax E481",
             "Micromax Q332": "Micromax Q332",
-            "Micromax Q383": "Micromax Q383",
             "MZ-MX5": "Meizu MX5",
+            "SM-J320F*": "Samsung SM-J320F",
             "SM-J320M": "Samsung SM-J320M",
-            "SM-T817A": "Samsung SM-T817A",
-            "XT1254": "Motorola XT1254"
+            "SM-T817A": "Samsung SM-T817A"
           },
           "platforms": [
             "Android_5_1"
@@ -201,50 +170,22 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 5*": "LG Nexus 5",
-            "Nexus5*": "LG Nexus 5",
             "SM-T337V": "Samsung SM-T337V"
           },
           "platforms": [
-            "Android_5_1", "Android_5_0",
-            "Android_4_4"
+            "Android_5_1", "Android_5_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Nexus 4": "LG Nexus 4"
-          },
-          "platforms": [
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Nexus 7": "Asus Nexus 7"
-          },
-          "platforms": [
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ASUS_Z00AD": "Asus Z00AD",
             "D6503": "Sony D6503",
-            "HTC_Butterfly_s_901s": "HTC Butterfly S 901s",
-            "IQ4415 Quad": "Fly IQ4415",
+            "K00E": "Asus K00E",
             "Lenovo A7000-a": "Lenovo A7000-A",
-            "LG-D856": "LG D856",
-            "LG-V700": "LG V700",
-            "Micromax A107": "Micromax A107",
-            "Micromax AQ5001": "Micromax AQ5001",
-            "Micromax P480": "Micromax P480",
-            "Micromax Q391": "Micromax Q391",
-            "Redmi Note 3": "Xiaomi Redmi Note 3",
-            "Rivo RHYTHM RX75": "Rivo RHYTHM RX75"
+            "Micromax A99": "Micromax A99",
+            "Micromax A106": "Micromax A106",
+            "SM-G900F*": "Samsung SM-G900F",
+            "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
             "Android_5_0"
@@ -253,418 +194,27 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "K00E": "Asus K00E",
-            "Micromax A99": "Micromax A99",
-            "Micromax A106": "Micromax A106",
-            "SM-G900F*": "Samsung SM-G900F"
+            "C6903": "Sony C6903"
           },
           "platforms": [
-            "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "SM-N900A": "Samsung SM-N900A"
-          },
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "SGH-I337": "Samsung SGH-I337"
-          },
-          "platforms": [
-            "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "HTC One 801e": "HTC 801E",
-            "HTC One 801s": "HTC 801S"
-          },
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "GT-I9505G": "Samsung GT-I9505G",
             "Nexus 10": "Samsung Nexus 10"
           },
           "platforms": [
-            "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "A1000s": "XOLO A1000s",
-            "AdTab 7 Lite": "Adspec AdTab 7 Lite",
-            "ARK Benefit M2": "ARK Benefit M2",
-            "BQS-4007": "BQ BQS-4007",
-            "Coolpad 8297-C00": "Coolpad 8297-C00",
-            "D5303": "Sony D5303",
-            "FLY IQ4410 Quad Phoenix": "Fly IQ4410",
-            "G3": "LG G3",
-            "GT-I9301I": "Samsung GT-I9301I",
-            "GT-I9515*": "Samsung GT-I9515",
-            "gxt_dongle_3188": "Andoer CX919",
-            "HIT HT7070MG": "Digma HT7070MG",
-            "i-mobile i-Tab Fun*": "i-mobile i-Tab Fun",
-            "IM-A900K": "Pantech IM-A900K",
-            "iris708": "AIS Iris 708",
-            "L50u": "Sony L50u",
-            "L930": "CIOtCUD L930",
-            "Lenovo A319": "Lenovo A319",
-            "Lenovo A328": "Lenovo A328",
-            "Lenovo A328t": "Lenovo A328t",
-            "Lenovo A338t": "Lenovo A338t",
-            "Lenovo A3500-F": "Lenovo A3500-F",
-            "Lenovo A3500-FL": "Lenovo A3500-FL",
-            "Lenovo A3500-H": "Lenovo A3500-H",
-            "Lenovo A358t": "Lenovo A358t",
-            "Lenovo A360t": "Lenovo A360t",
-            "Lenovo A399": "Lenovo A399",
-            "Lenovo A5000": "Lenovo A5000",
-            "Lenovo A536": "Lenovo A536",
-            "Lenovo A5500-F": "Lenovo A5500-F",
-            "Lenovo A5500-H": "Lenovo A5500-H",
-            "Lenovo A5500-HV": "Lenovo A5500-HV",
-            "Lenovo A6000": "Lenovo A6000",
-            "Lenovo A606": "Lenovo A606",
-            "Lenovo A7600-F": "Lenovo A7600-F",
-            "Lenovo A7600-H": "Lenovo A7600-H",
-            "Lenovo A806": "Lenovo A806",
-            "Lenovo A916": "Lenovo A916",
-            "LG-D280": "LG D280",
-            "LG-D295": "LG D295",
-            "LG-D325": "LG D325",
-            "LG-D405": "LG D405",
-            "LG-D410": "LG D410",
-            "LG-D610AR": "LG D610AR",
-            "LG-D618": "LG D618",
-            "LG-D690": "LG D690",
-            "LG-D958": "LG D958",
-            "LG-F200K": "LG F200K",
-            "LG-F410S": "LG F410S",
-            "LGL16C": "LG L16C",
-            "Lenovo B6000-H": "Lenovo B6000-H",
-            "LIFETAB_S1033X": "Lenovo LifeTab S1033X",
-            "LIFETAB_S785X": "Lenovo Lifetab S785X",
-            "M74CG": "Supra M74CG",
-            "Micromax A064": "Micromax A064",
-            "Micromax A065": "Micromax A065",
-            "Micromax A066": "Micromax A066",
-            "Micromax A067": "Micromax A067",
-            "Micromax A069": "Micromax A069",
-            "Micromax A091": "Micromax A091",
-            "Micromax A093": "Micromax A093",
-            "Micromax A104": "Micromax A104",
-            "Micromax A105": "Micromax A105",
-            "Micromax A108": "Micromax A108",
-            "Micromax A109": "Micromax A109",
-            "Micromax A120": "Micromax A120",
-            "Micromax A190": "Micromax A190",
-            "Micromax A290": "Micromax A290",
-            "Micromax A300": "Micromax A300",
-            "Micromax A310": "Micromax A310",
-            "Micromax A311": "Micromax A311",
-            "Micromax A315": "Micromax A315",
-            "Micromax AQ4501": "Micromax AQ4501",
-            "Micromax AQ5000": "Micromax AQ5000",
-            "Micromax AD3520": "Micromax AD3520",
-            "Micromax AD4500": "Micromax AD4500",
-            "Micromax D321": "Micromax D321",
-            "Micromax Q371": "Micromax Q371",
-            "MTC SMART Run": "MTC SMART Run",
-            "Oysters T72H 3G": "Oysters T72H 3G",
-            "Oysters T72M 3G": "Oysters T72M 3G",
-            "P7-L10": "Huawei P7-L10",
-            "PSP5504DUO": "Prestigio PSP5504DUO",
-            "SC-02F": "Samsung SC-02F",
-            "SGH-I337M": "Samsung SGH-I337M",
-            "SGH-I467": "Samsung SGH-I467",
-            "SGH-M919": "Samsung SGH-M919",
-            "SM-G313HU": "Samsung SM-G313HU",
-            "SM-G355H": "Samsung SM-G355H",
-            "SM-G800F*": "Samsung SM-G800F",
-            "SM-G850F*": "Samsung SM-G850F",
-            "SM-G870A": "Samsung SM-G870A",
-            "SM-G900A*": "Samsung SM-G900A",
-            "SM-G900H": "Samsung SM-G900H",
-            "SM-G900T*": "Samsung SM-G900T",
-            "SM-G900T1": "Samsung SM-G900T1",
-            "SM-G901F*": "Samsung SM-G901F",
-            "SM-N910F*": "Samsung SM-N910F",
-            "SM-N910G": "Samsung SM-N910G",
-            "SM-N910V 4G": "Samsung SM-N910V",
-            "SM-P601": "Samsung SM-P601",
-            "SM-P900": "Samsung SM-P900",
-            "SM-P905": "Samsung SM-P905",
-            "SM-T230": "Samsung SM-T230",
-            "SM-T230NU": "Samsung SM-T230NU",
-            "SM-T331": "Samsung SM-T331",
-            "SM-T520": "Samsung SM-T520",
-            "SM-T525": "Samsung SM-T525",
-            "SM-T530": "Samsung SM-T530",
-            "SM-T530NU": "Samsung SM-T530NU",
-            "SM-T531": "Samsung SM-T531",
-            "SM-T535": "Samsung SM-T535",
-            "SM-T800": "Samsung SM-T800",
-            "SM-T805": "Samsung SM-T805",
-            "SM-T900": "Samsung SM-T900",
-            "SMART-E5": "eFOX SMART E5",
-            "T700i_3G": "4Good T700i 3G",
-            "TAB917QC-8GB": "Sunstech TAB917QC 8GB",
-            "TCL S950": "TCL S950",
-            "TE_7512": "oblio mint",
-            "Tornado": "KAZAM Tornado 348",
-            "TPC-PA10.1M": "PiPO PA10.1M",
-            "Vodafone Smart Tab 3G": "Lenovo Smart Tab 3G",
-            "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G",
-            "Y635-L21": "Huawei Y635-L21",
-            "itel it1407": "Itel IT1407",
-            "Lenovo TAB S8-50F": "Lenovo S8-50F",
-            "Lenovo TAB S8-50L": "Lenovo S8-50L",
-            "LG-D415": "LG D415",
-            "LG-D800*": "LG D800",
-            "LG-F320K*": "LG F320K",
-            "LG-F320L": "LG F320L",
-            "LG-F320S": "LG F320S",
-            "LGL31L*": "LG L31L",
-            "LGL34C*": "LG L34C"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "SCH-I545": "Samsung SCH-I545",
-            "SM-N7505": "Samsung SM-N7505",
-            "SM-N9005*": "Samsung SM-N9005",
-            "SM-N900V": "Samsung SM-N900V",
-            "SM-P600": "Samsung SM-P600",
-            "SM-P605*": "Samsung SM-P605",
-            "SPH-L720": "Samsung SPH-L720"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "A1-810": "Acer A1-810",
-            "C6903": "Sony C6903",
-            "GT-I9295*": "Samsung GT-I9295",
-            "GT-I9506*": "Samsung GT-I9506",
-            "GT-P5220*": "Samsung GT-P5220",
-            "HUAWEI P6-U06": "Huawei P6-U06",
-            "LG-D802*": "LG D802",
-            "Micromax A102": "Micromax A102",
-            "Micromax A350": "Micromax A350",
-            "SM-T310": "Samsung SM-T310",
-            "SM-T315*": "Samsung SM-T315",
-            "SM-T320": "Samsung SM-T320"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Galaxy Nexus": "Samsung Galaxy Nexus",
-            "PadFone 2": "Asus A68"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "SM-T211*": "Samsung SM-T211"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "C6603": "Sony C6603",
-            "GT-I9195*": "Samsung GT-I9195",
-            "GT-I9300*": "Samsung GT-I9300",
-            "GT-I9505*": "Samsung GT-I9505",
-            "GT-N5100": "Samsung GT-N5100",
-            "GT-N5110": "Samsung GT-N5110",
-            "GT-N7100*": "Samsung GT-N7100",
-            "GT-N7105*": "Samsung GT-N7105",
-            "GT-N8000": "Samsung GT-N8000",
-            "GT-N8020*": "Samsung GT-N8020",
-            "GT-P5200": "Samsung GT-P5200",
-            "GT-P5210*": "Samsung GT-P5210",
-            "GT-S7562": "Samsung GT-S7562",
-            "HTC?One*": "HTC M7",
-            "HTC One": "HTC M7",
-            "HTC_One": "HTC M7",
-            "HTC_One*": "HTC M7",
-            "HTC?One?mini*": "HTC One Mini",
-            "HTC_One_M8*": "HTC M8",
-            "LG-L160L": "LG L160L",
-            "SCH-I605": "Samsung SCH-I605"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "HUAWEI Y530-U00": "Huawei Y530-U00",
-            "SM-G710L": "Samsung SM-G710L",
-            "SPH-L710": "Samsung SPH-L710"
-          },
-          "platforms": [
-            "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "BN NookHD+": "Barnes & Noble Nook HD+",
-            "IdeaTab A3000-H": "Lenovo A3000-H",
-            "Lenovo S6000L-F": "Lenovo S6000L-F"
-          },
-          "platforms": [
-            "Android_4_3", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "C6503": "SonyEricsson C6503",
-            "GT-I8190N": "Samsung GT-I8190N",
-            "GT-N8013": "Samsung GT-N8013",
-            "ME301T": "Asus ME301T",
-            "SGP321": "Sony SGP321"
-          },
-          "platforms": [
-            "Android_4_3", "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "A511": "Acer A511",
-            "ALCATEL ONE TOUCH 6010D": "Alcatel OT-6010D",
-            "ALCATEL ONE TOUCH 6030D": "Alcatel OT-6030D",
-            "ALCATEL ONE TOUCH 6033X": "Alcatel OT-6033X",
-            "Archos 80 Xenon": "Archos 80 Xenon",
-            "ARCHOS FAMILYPAD 2": "Archos Family Pad 2",
-            "ASUS Transformer Pad TF300TG": "Asus TF300TG",
-            "ASUS Transformer Pad TF700T": "Asus TF700T",
-            "C1505": "Sony C1505",
-            "C2105": "Sony C2105",
-            "GT-I8190*": "Samsung GT-I8190",
-            "GT-I8730": "Samsung GT-I8730",
-            "GT-I9003": "Samsung GT-I9003",
-            "GT-I9082L": "Samsung GT-I9082L",
-            "GT-I9000*": "Samsung GT-I9000",
-            "GT-I9100*": "Samsung GT-I9100",
-            "GT-I9100G": "Samsung GT-I9100G",
-            "GT-I9100T": "Samsung GT-I9100T",
-            "GT-I9103": "Samsung GT-I9103",
-            "GT-I9105P*": "Samsung GT-I9105P",
-            "GT-I9192": "Samsung GT-I9192",
-            "GT-I9205": "Samsung GT-I9205",
-            "GT-I9305*": "Samsung GT-I9305",
-            "GT-I9305T*": "Samsung GT-I9305T",
-            "GT-I9500": "Samsung GT-I9500",
-            "GT-I9505X*": "Samsung GT-I9505X",
             "GT-N7000*": "Samsung GT-N7000",
-            "GT-N7108": "Samsung GT-N7108",
-            "GT-N8010": "Samsung GT-N8010",
-            "GT-P1000*": "Samsung GT-P1000",
-            "GT-P3100": "Samsung GT-P3100",
-            "GT-P3113": "Samsung GT-P3113",
-            "GT-P5110": "Samsung GT-P5110",
-            "GT-P7310": "Samsung GT-P7310",
-            "GT-P7500": "Samsung GT-P7500",
-            "GT-S5830*": "Samsung GT-S5830",
-            "GT-S7710": "Samsung GT-S7710",
-            "HTC Desire X": "HTC T328E",
-            "HTC One S*": "HTC PJ401",
-            "HTC One X": "HTC PJ83100",
-            "HTC One X+": "HTC PM63100",
-            "HTC6435LVW": "HTC HTC6435LVW",
-            "HTC_Desire_X*": "HTC T328E",
-            "HTC_One_S*": "HTC PJ401",
-            "HTC_One_V*": "HTC One V",
-            "HTC_One_X*": "HTC PJ83100",
-            "HTC_OneSV": "HTC One SV",
-            "HTC_OneXplus": "HTC PM63100",
-            "HUAWEI G510-*": "Huawei G510",
-            "HUAWEI U8950D": "Huawei U8950D",
-            "IdeaTabA2109A": "Lenovo A2109A",
-            "IdeaTabS2110AF": "Lenovo S2110AF",
-            "K1": "Lenovo K1",
-            "LG-E610*": "LG E610",
-            "LG-E975*": "LG E975",
-            "LG-F100L": "LG F100L",
-            "LG-P700*": "LG P700",
             "LG-P895*": "LG P895",
-            "LG-P990*": "LG P990",
-            "LT22i": "Sony LT22i",
-            "LT25i": "Sony LT25i",
-            "LT28h": "SonyEricsson LT28h",
-            "ME302C": "Asus ME302C",
-            "ME371MG": "Asus ME371MG",
-            "MediaPad 10 LINK": "Huawei MediaPad 10",
-            "MOT-XT910": "Motorola XT910",
-            "MZ601": "Motorola MZ601",
-            "MZ604": "Motorola MZ604",
-            "N90FHDRK": "YUANDAO N90FHDRK",
-            "Nexus S": "Samsung NexusS",
-            "NOON": "Odys Noon",
-            "One S*": "HTC PJ401",
-            "PJ83100*": "HTC PJ83100",
-            "S500": "Acer S500",
-            "SGPT13": "Sony SGPT13",
-            "Sony Tablet S": "Sony Tablet S",
-            "SonyC1505": "Sony C1505",
-            "SonyLT26i": "Sony LT26i",
-            "SonyST26i*": "Sony ST26i",
-            "ST18i": "SonyEricsson ST18i",
-            "ST21i": "Sony ST21i",
-            "ST26i*": "Sony ST26i",
-            "ST27i": "SonyEricsson ST27i",
-            "TouchPad": "HP Touchpad",
-            "Transformer Prime TF201": "Asus TF201",
-            "U30GT 2": "Cube U30GT2",
-            "U30GT-H": "Cube U30GT",
-            "U9200": "Huawei U9200",
-            "VS840 4G": "LG VS840 4G",
-            "Xelio 10 Pro": "Odys Xelio 10 Pro",
-            "XELIO7PRO": "Odys Xelio 7 Pro",
-            "XENO10": "Odys Xeno 10",
-            "Xoom": "Motorola MZ604",
-            "XT907": "Motorola XT907",
-            "XT910": "Motorola XT910",
-            "ZP900": "ZOPO ZP900"
+            "LT25i": "Sony LT25i"
           },
           "platforms": [
             "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
@@ -673,159 +223,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "A1-811": "Acer A1-811",
-            "A3-A10": "Acer A3-A10",
-            "ARNOVA 101 G4": "Arnova 101G4",
-            "Cynus F4": "Mobistel MT-7521S",
-            "Cynus T5": "Mobistel Cynus T5",
-            "FP1": "Fairphone FP1",
-            "GT-I9060": "Samsung GT-I9060",
-            "GT-I9082": "Samsung GT-I9082",
-            "GT-S7275R": "Samsung GT-S7275R",
-            "GT-S7580": "Samsung GT-S7580",
-            "HUAWEI G700-U10": "Huawei G700-U10",
-            "IdeaTab S6000-F": "Lenovo S6000-F",
-            "IdeaTab S6000-H": "Lenovo S6000-H",
-            "Lenovo A3000-H": "Lenovo A3000-H",
-            "Lenovo A369i": "Lenovo A369i",
-            "Lenovo A516": "Lenovo A516",
-            "LG-D805": "LG D805",
-            "LIFETAB_E10312": "Medion LifeTab E10312",
-            "LIFETAB_E10316": "Medion LifeTab E10316",
-            "LIFETAB_E10320": "Medion E10320",
-            "LIFETAB_E7312": "Medion LifeTab E7312",
-            "LIFETAB_E7316": "Medion LifeTab E7316",
-            "ME173X": "Asus ME173X",
-            "RAINBOW": "Wiko Rainbow",
-            "SGH-T999": "Samsung SGH-T999",
-            "SM-G350": "Samsung SM-G350",
-            "SM-T110": "Samsung SM-T110",
-            "SM-T111": "Samsung SM-T111",
-            "SM-T311": "Samsung SM-T311",
-            "UNO_X10": "Odys Uno X10",
-            "Vodafone 785": "Vodafone 785",
-            "Vodafone Smart 4G": "Vodafone Smart 4G",
-            "Vodafone Smart Tab III 10": "Lenovo Smart Tab III 10",
-            "VT10416-1": "TrekStor VT10416-1",
-            "VT10416-2": "TrekStor VT10416-2"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "A700": "Acer A700",
-            "ARCHOS 101G10": "Archos 101 G10",
-            "ASUS Transformer Pad TF300T": "Asus TF300T",
-            "B1-710": "Acer B1-710",
-            "C6602": "SonyEricsson C6602",
-            "GT-I9100P": "Samsung GT-I9100P",
-            "GT-P3110": "Samsung GT-P3110",
-            "GT-P5100*": "Samsung GT-P5100",
-            "GT-S5301": "Samsung GT-S5301",
-            "HTC?One?XL*": "HTC One XL",
-            "HUAWEI Y300*": "Huawei Y300",
-            "LG-P880*": "LG P880",
-            "LT18i": "SonyEricsson LT18i",
-            "SCH-I200": "Samsung SCH-I200",
-            "SGH-I777": "Samsung SGH-I777"
-          },
-          "platforms": [
-            "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
-            "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
-            "AT300SE": "Toshiba AT300SE",
-            "Cynus F3": "Mobistel Cynus F3",
-            "DROID RAZR": "Motorola Razr",
-            "GT-I8262": "Samsung GT-I8262",
-            "GT-S5280": "Samsung GT-S5280",
-            "GT-S6310": "Samsung GT-S6310",
-            "GT-S6310N": "Samsung GT-S6310N",
-            "GT-S6312": "Samsung GT-S6312",
-            "GT-S6810P": "Samsung GT-S6810P",
-            "HTC_Desire_500": "HTC Desire 500",
-            "HUAWEI G525-U00": "Huawei G525-U00",
-            "LG-E430": "LG E430",
-            "LG-E440": "LG E440",
-            "LG-E460": "LG E460",
-            "LG-E612": "LG E612",
-            "LG-P710": "LG P710",
-            "LGMS500": "LG MS500",
-            "LIFETAB_E10310": "Medion E10310",
-            "ME172V": "Asus ME172V",
-            "SGH-T889": "Samsung SGH-T889",
-            "SHV-E160S": "Samsung SHV-E160S",
-            "SM-T210": "Samsung SM-T210",
-            "ST10216-2": "TrekStor ST10216-2",
-            "TechniPad_10-3G": "TechniSat TechniPad 10 3G",
-            "TP10.1-1500DC*": "I-ONIK TP10",
-            "Xelio 7 pro": "Odys Xelio 7 Pro"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "A100": "Acer A100",
-            "A210": "Acer A210",
-            "A211": "Acer A211",
-            "A500": "Acer A500",
-            "A501": "Acer A501",
-            "A510": "Acer A510",
-            "A701": "Acer A701",
-            "ARCHOS 101G9": "Archos 101 G9",
-            "ASUS Transformer Pad TF300TL": "Asus TF300TL",
-            "AT200": "Toshiba AT200",
-            "AT300": "Toshiba AT300",
-            "B1-A71": "Acer B1-A71",
-            "Cynus T2": "Mobistel Cynus T2",
-            "DROID RAZR 4G": "Motorola XT912B",
-            "folio100": "Toshiba Folio 100",
-            "GT-I8160": "Samsung GT-I8160",
-            "GT-I8160P": "Samsung GT-I8160P",
-            "GT-I9070": "Samsung GT-I9070",
-            "GT-I9070P*": "Samsung GT-I9070P",
-            "GT-P5113": "Samsung GT-P5113",
-            "GT-P7500*": "Samsung GT-P7500",
-            "GT-P7510": "Samsung GT-P7510",
-            "HTC One SV*": "HTC One SV",
-            "LG-P760*": "LG P760",
-            "LG-P940*": "LG P940",
-            "LIFETAB_P9514": "Medion LifeTab P9514",
-            "LIFETAB_S9512": "Medion LifeTab S9512",
-            "LIFETAB_S9714": "Medion LifeTab S9714",
-            "LOOX Plus": "Odys Loox Plus",
-            "LT26i": "SonyEricsson LT26i",
-            "LT30p": "Sony LT30p",
-            "MD_LIFETAB_P9516": "Medion LifeTab P9516",
-            "MID1125": "Coby MID1125",
-            "MID1126": "Coby MID1126",
-            "MID7022": "Coby MID7022",
-            "MID8127": "Coby MID8127",
-            "MK16i": "SonyEricsson MK16i",
-            "ODYS-NOON": "Odys Noon",
-            "POV_TAB-PROTAB30-IPS10": "Point of View Protab 3 XXL",
-            "SCH-I535*": "Samsung SCH-I535",
-            "SGPT12": "Sony SGPT12",
-            "SonyEricssonLT26i": "SonyEricsson LT26i",
-            "SonyEricssonST21i": "Sony ST21i",
-            "SonyEricssonST25i": "SonyEricsson ST25i",
-            "SonyST21i": "Sony ST21i",
-            "SonyST21i2": "Sony ST21i2",
-            "SonyST21iv": "Sony ST21iv",
-            "ST23i": "Sony ST23i",
-            "ST25i": "SonyEricsson ST25i",
-            "U8825*": "Huawei U8825",
-            "X10.Dual": "Pearl X10.Dual",
             "XT890": "Motorola XT890"
           },
           "platforms": [
@@ -835,138 +232,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "A101": "Acer A101",
-            "A1_07": "Lenovo IdeaPad A1",
-            "A200": "Acer A200",
-            "ALCATEL ONE TOUCH 992D": "Alcatel OT-992D",
-            "ALCATEL ONE TOUCH 997D": "Alcatel OT-997D",
-            "AN9G2I": "Arnova 9G2",
-            "ARCHOS 80G9": "Archos 80 G9",
-            "ARCHOS 97 CARBON": "Archos 97 carbon",
-            "AT100": "Toshiba AT100",
-            "AX540": "Bmobile AX540",
-            "BASE_Lutea_3": "ZTE Lutea 3",
-            "Cat Tablet Galactica X*": "CatSound Galactica X",
-            "Cat Tablet*": "CatSound Tablet",
-            "cm_tenderloin": "HP Touchpad",
-            "Cynus T1": "Mobistel Cynus T1",
-            "dL1": "Panasonic dL1",
-            "DROID BIONIC 4G": "Motorola XT875",
-            "EVO3D_X515m": "HTC X515m",
-            "GT-I9001*": "Samsung GT-I9001",
-            "GT-P6201": "Samsung GT-P6201",
-            "GT-P6800": "Samsung GT-P6800",
-            "GT-P7100": "Samsung GT-P7100",
-            "GT-P7501*": "Samsung GT-P7501",
-            "GT-P7511": "Samsung GT-P7511",
-            "GT-S5660": "Samsung GT-S5660",
-            "GT-S7560": "Samsung GT-S7560",
-            "HTC EVO 3D X515m": "HTC X515m",
-            "HTC Incredible S": "HTC S710E",
-            "HTC One V*": "HTC One V",
             "HTC One VX": "HTC One VX",
-            "HTC?One_XL*": "HTC One XL",
             "HTC Sensation XE with Beats Audio Z715e": "HTC Z715e",
-            "HTC Sensation XL with Beats Audio X315e": "HTC X315e",
-            "HTC Sensation Z710e": "HTC Z710e",
-            "HTC Sensation": "HTC Z710",
-            "HTC/EVO_3D*": "HTC X515m",
-            "HTC/Sensation/*": "HTC Z710",
-            "HTC_Desire_C*": "HTC Desire C",
-            "HTC_DesireS": "HTC Desire S",
-            "HTC_Sensation": "HTC Z710",
-            "HTC_Sensation_Z710e": "HTC Z710e",
-            "HTC_SensationXE_Beats": "HTC Sensation XE",
-            "HTC_SensationXL_Beats*": "HTC X315e",
-            "HUAWEI MediaPad": "Huawei S7-301w",
-            "HUAWEI U8666E": "Huawei U8666E",
-            "HUAWEI U8950N-1": "Huawei U8950N",
-            "HUAWEI U9508": "Huawei U9508",
-            "IdeaTab A2107A-H": "Lenovo A2107A-H",
-            "IncredibleS_S710e": "HTC S710E",
-            "KFOT": "Amazon KFOT",
-            "Lenovo A660": "Lenovo IdeaPad A660",
-            "LG-E510*": "LG E510",
-            "LG-LS860": "LG LS860",
-            "LG-P690*": "LG P690",
-            "LG-P970*": "LG P970",
-            "LT15i": "SonyEricsson LT15i",
-            "MediaPad 7 Lite": "Huawei MediaPad 7 Lite",
-            "MEDION LIFE P4012": "Medion LifeTab P4012",
-            "MEDION LIFE P4310": "Medion LifeTab P4310",
-            "MT15i": "SonyEricsson MT15i",
-            "MT27i": "SonyEricsson MT27i",
-            "NEXT": "Nextbook Next",
-            "ODYS-Q": "Odys Q",
-            "PMP5080CPRO": "Prestigio PMP5080CPRO",
-            "PMP5580C": "Prestigio PMP5580C",
-            "PMP7100D3G": "Prestigio PMP7100D3G",
-            "Sensation_Z710e": "HTC Z710e",
-            "SensationXE_Beats_Z715e": "HTC Z715e",
-            "SensationXL_Beats_X315e": "HTC X315e",
-            "SHW-M380W": "Samsung SHW-M380W",
-            "SK17i": "SonyEricsson SK17i",
-            "Slider SL101": "Asus SL101",
-            "SmartTabII10": "Lenovo SmartTab II 10",
-            "SonyEricssonLT15i": "SonyEricsson LT15i",
-            "SonyEricssonLT15iv": "SonyEricsson LT15iv",
-            "SonyEricssonLT18iv": "SonyEricsson LT18iv",
-            "SonyEricssonMK16i": "SonyEricsson MK16i",
-            "SonyEricssonMT11i": "SonyEricsson MT11i",
-            "SonyEricssonMT15iv": "SonyEricsson MT15iv",
-            "SonyEricssonMT27i": "SonyEricsson MT27i",
-            "SonyEricssonSK17iv": "SonyEricsson SK17iv",
-            "SonyEricssonST15i": "SonyEricsson ST15i",
-            "SonyEricssonST17i": "SonyEricsson ST17i",
-            "SonyEricssonST18iv": "SonyEricsson ST18iv",
-            "SonyEricssonWT19i": "SonyEricsson WT19i",
-            "SPH-D710": "Samsung SPH-D710",
-            "SPH-D710BST": "Samsung SPH-D710BST",
-            "Sprint APX515CKT": "HTC X515",
-            "SurfTab_7.0": "TrekStor ST701041",
-            "ThinkPad Tablet": "Lenovo 1838",
-            "Transformer TF101": "Asus TF101",
-            "Transformer TF101G": "Asus TF101G",
-            "U8860": "Huawei U8860",
-            "Vodafone SmartTab II 10": "Lenovo SmartTab II 10",
-            "X10": "SonyEricsson X10",
-            "XOOM 2 ME": "Motorola Xoom 2 ME",
-            "XOOM 2": "Motorola Xoom 2",
-            "ZP910": "ZOPO ZP910"
+            "HTC Sensation XL with Beats Audio X315e": "HTC X315e"
           },
           "platforms": [
             "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "KFTT": "Amazon KFTT"
-          },
-          "platforms": [
-            "Android_4_0"
-          ],
-          "properties": {
-            "Browser_Modus": "Desktop Mode"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "AT100": "Toshiba AT100"
-          },
-          "platforms": [
-            "Android_3_2", "Android_3_1", "Android_3_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Desire HD": "HTC Desire HD",
-            "HTC Desire": "HTC A8181"
-          },
-          "platforms": [
-            "Android_2_3", "Android_2_2"
           ]
         },
         {
@@ -977,8 +248,6 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2", "Android_3_1", "Android_3_0",
-            "Android_2_3", "Android_2_2",
             "Android"
           ]
         },
@@ -990,293 +259,7 @@
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2", "Android_3_1", "Android_3_0",
-            "Android_2_3", "Android_2_2",
             "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SM-T705*": "Samsung SM-T705"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SM-N900A": "Samsung SM-N900A"
-          },
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SGH-I337": "Samsung SGH-I337"
-          },
-          "platforms": [
-            "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "SM-G850F": "Samsung SM-G850F"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "GT-I9300*": "Samsung GT-I9300"
-          },
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile*Safari*Chrome*",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "MZ616": "Motorola MZ616"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ST10216-1": "TrekStor ST10216"
-          },
-          "platforms": [
-            "Android_4_2", "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "TAB10-400": "Yarvik TAB10-400"
-          },
-          "platforms": [
-            "Android_4_1"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Lenovo B8000-F": "Lenovo B8000-F"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "Lenovo A3300-HV": "Lenovo A3300-HV"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "LG-D855": "LG D855"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Lenovo A390": "Lenovo A390"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit*(*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Nuqleo; Zaffire 1010": "Nuqleo Zaffire 1010",
-            "Nuqleo; Zaffire 785": "Nuqleo Zaffire 785"
-          },
-          "platforms": [
-            "Android_4_2"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "SM-N915G": "Samsung SM-N915G"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khmtl*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "AX540": "Bmobile AX540"
-          },
-          "platforms": [
-            "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Fly IQ4409 Quad": "Fly IQ4409 Quad"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Micromax A064": "Micromax A064",
-            "Micromax A065": "Micromax A065",
-            "Micromax A102": "Micromax A102"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ATH-AL00": "Huawei ATH-AL00"
-          },
-          "platforms": [
-            "Android_6_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ALCATEL ONETOUCH 6050A": "Alcatel OT-6050A",
-            "CHC-U03": "Huawei CHC-U03"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "HUAWEI ALE-21": "Huawei ALE-21"
-          },
-          "platforms": [
-            "Android_5_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_4_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_4_4",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "Nexus 5": "LG Nexus 5"
-          },
-          "platforms": [
-            "Android_4_4"
           ]
         }
       ]

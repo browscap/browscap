@@ -41,20 +41,22 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
-    'issue-584 (lite)' => [
+    'issue-584 (standard + lite)' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; SM-T230NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 30.0',
+            'Comment' => 'Android WebView Generic',
             'Browser' => 'Android WebView',
-            'Version' => '30.0',
+            'Browser_Maker' => 'Google Inc',
+            'Version' => '0.0',
             'Platform' => 'Android',
             'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
         ],
         'lite' => true,
-        'standard' => false,
+        'standard' => true,
         'full' => false,
     ],
 ];

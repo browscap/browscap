@@ -44,19 +44,4 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-824 (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; de-de; SM-G850F Build/KTU84P) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16 Chrome/33.0.0.0',
-        'properties' => [
-            'Comment' => 'Android WebView 33.0',
-            'Browser' => 'Android WebView',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '33.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Tablet',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
 ];
