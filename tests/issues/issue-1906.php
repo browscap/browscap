@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1906-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 EdgiOS/42.1.1.0 Mobile/15F79 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Edge 42.0',
+            'Browser' => 'Edge',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '42.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1906-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 EdgiOS/42.1.1.0 Mobile/15D100 Safari/604.5.6',
         'properties' => [
@@ -86,6 +101,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1906-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0 EdgiOS/42.1.1.0 Mobile/15D100 Safari/604.5.6',
+        'properties' => [
+            'Comment' => 'Edge 42.0',
+            'Browser' => 'Edge',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '42.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1906-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Focus/4.1 Mobile/15F79',
@@ -130,6 +160,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1906-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Focus/4.1 Mobile/15F79',
+        'properties' => [
+            'Comment' => 'Firefox Focus 4.1',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '4.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1906-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5308e Instagram 51.0.0.31.168 (iPhone7,2; iOS 12_0; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
@@ -172,6 +217,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1906-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5308e Instagram 51.0.0.31.168 (iPhone7,2; iOS 12_0; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
+        'properties' => [
+            'Comment' => 'Instagram App 51.0 for iOS',
+            'Browser' => 'Instagram App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '51.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1906-E' => [
         'ua' => 'Mozilla/5.0 (SMART-TV; Linux; Tizen 4.0) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/56.0.2924.0 TV Safari/537.36',

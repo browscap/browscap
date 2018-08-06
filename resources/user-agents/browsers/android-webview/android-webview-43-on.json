@@ -1,7 +1,7 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [4],
-  "sortIndex": 954,
+  "versions": [71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43],
+  "sortIndex": 953,
   "lite": true,
   "standard": true,
   "userAgents": [
@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Pixel 2": "Google Pixel 2",
             "Pixel 2 XL": "Google Pixel 2 XL"
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
@@ -40,7 +40,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "TA-1021": "Nokia TA-1021",
             "TA-1053": "Nokia TA-1053"
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 9*": "HTC Nexus 9",
             "SM-J510FN": "Samsung SM-J510FN"
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "E5823": "Sony E5823",
             "F5321": "Sony F5321",
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "NEM-L51": "Huawei NEM-L51"
           },
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-J320F*": "Samsung SM-J320F"
           },
@@ -109,7 +109,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Micromax Q409": "Micromax Q409",
             "PS8106PG": "Digma PS8106PG",
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
@@ -132,7 +132,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALE-L21*": "Huawei ALE-L21"
           },
@@ -142,7 +142,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-A5000": "Samsung SM-A5000",
             "SM-A500F": "Samsung SM-A500F",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "HTC One_M8*": "HTC M8",
             "HTC One_E8*": "HTC E8",
@@ -180,7 +180,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A8-50LC": "Lenovo A8-50LC",
             "Bmobile_AX810": "Bmobile AX810",
@@ -198,7 +198,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 5*": "LG Nexus 5",
             "Nexus5*": "LG Nexus 5",
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 4": "LG Nexus 4"
           },
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 7": "Asus Nexus 7"
           },
@@ -230,7 +230,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ASUS_Z00AD": "Asus Z00AD",
             "D6503": "Sony D6503",
@@ -241,6 +241,7 @@
             "LG-V700": "LG V700",
             "Micromax A107": "Micromax A107",
             "Micromax AQ5001": "Micromax AQ5001",
+            "Micromax P480": "Micromax P480",
             "Micromax Q391": "Micromax Q391",
             "Redmi Note 3": "Xiaomi Redmi Note 3",
             "Rivo RHYTHM RX75": "Rivo RHYTHM RX75"
@@ -250,7 +251,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "K00E": "Asus K00E",
             "Micromax A99": "Micromax A99",
@@ -263,7 +264,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
@@ -273,7 +274,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SGH-I337": "Samsung SGH-I337"
           },
@@ -283,7 +284,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "HTC One 801e": "HTC 801E",
             "HTC One 801s": "HTC 801S"
@@ -294,7 +295,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "GT-I9505G": "Samsung GT-I9505G",
             "Nexus 10": "Samsung Nexus 10"
@@ -305,7 +306,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A1000s": "XOLO A1000s",
             "AdTab 7 Lite": "Adspec AdTab 7 Lite",
@@ -431,14 +432,24 @@
             "TPC-PA10.1M": "PiPO PA10.1M",
             "Vodafone Smart Tab 3G": "Lenovo Smart Tab 3G",
             "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G",
-            "Y635-L21": "Huawei Y635-L21"
+            "Y635-L21": "Huawei Y635-L21",
+            "itel it1407": "Itel IT1407",
+            "Lenovo TAB S8-50F": "Lenovo S8-50F",
+            "Lenovo TAB S8-50L": "Lenovo S8-50L",
+            "LG-D415": "LG D415",
+            "LG-D800*": "LG D800",
+            "LG-F320K*": "LG F320K",
+            "LG-F320L": "LG F320L",
+            "LG-F320S": "LG F320S",
+            "LGL31L*": "LG L31L",
+            "LGL34C*": "LG L34C"
           },
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SCH-I545": "Samsung SCH-I545",
             "SM-N7505": "Samsung SM-N7505",
@@ -453,7 +464,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A1-810": "Acer A1-810",
             "C6903": "Sony C6903",
@@ -473,7 +484,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Galaxy Nexus": "Samsung Galaxy Nexus",
             "PadFone 2": "Asus A68"
@@ -483,7 +494,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-T211*": "Samsung SM-T211"
           },
@@ -492,7 +503,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "C6603": "Sony C6603",
             "GT-I9195*": "Samsung GT-I9195",
@@ -508,6 +519,9 @@
             "GT-P5210*": "Samsung GT-P5210",
             "GT-S7562": "Samsung GT-S7562",
             "HTC?One*": "HTC M7",
+            "HTC One": "HTC M7",
+            "HTC_One": "HTC M7",
+            "HTC_One*": "HTC M7",
             "HTC?One?mini*": "HTC One Mini",
             "HTC_One_M8*": "HTC M8",
             "LG-L160L": "LG L160L",
@@ -518,7 +532,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "HUAWEI Y530-U00": "Huawei Y530-U00",
             "SM-G710L": "Samsung SM-G710L",
@@ -529,7 +543,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "BN NookHD+": "Barnes & Noble Nook HD+",
             "IdeaTab A3000-H": "Lenovo A3000-H",
@@ -540,7 +554,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "C6503": "SonyEricsson C6503",
             "GT-I8190N": "Samsung GT-I8190N",
@@ -553,7 +567,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A511": "Acer A511",
             "ALCATEL ONE TOUCH 6010D": "Alcatel OT-6010D",
@@ -657,7 +671,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A1-811": "Acer A1-811",
             "A3-A10": "Acer A3-A10",
@@ -700,7 +714,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A700": "Acer A700",
             "ARCHOS 101G10": "Archos 101 G10",
@@ -723,7 +737,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALCATEL ONE TOUCH 4030D": "Alcatel OT-4030D",
             "ALCATEL ONE TOUCH 5020D": "Alcatel OT-5020D",
@@ -759,7 +773,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A100": "Acer A100",
             "A210": "Acer A210",
@@ -819,7 +833,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "A101": "Acer A101",
             "A1_07": "Lenovo IdeaPad A1",
@@ -851,6 +865,7 @@
             "HTC Incredible S": "HTC S710E",
             "HTC One V*": "HTC One V",
             "HTC One VX": "HTC One VX",
+            "HTC?One_XL*": "HTC One XL",
             "HTC Sensation XE with Beats Audio Z715e": "HTC Z715e",
             "HTC Sensation XL with Beats Audio X315e": "HTC X315e",
             "HTC Sensation Z710e": "HTC Z710e",
@@ -924,7 +939,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "KFTT": "Amazon KFTT"
           },
@@ -936,21 +951,55 @@
           }
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "AT100": "Toshiba AT100"
+          },
+          "platforms": [
+            "Android_3_2", "Android_3_1", "Android_3_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Desire HD": "HTC Desire HD",
+            "HTC Desire": "HTC A8181"
+          },
+          "platforms": [
+            "Android_2_3", "Android_2_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_2_3", "Android_2_2",
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_3_2", "Android_3_1", "Android_3_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
-            "Android_8_1", "Android_8_0",
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -959,7 +1008,18 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-T705*": "Samsung SM-T705"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
@@ -969,7 +1029,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SGH-I337": "Samsung SGH-I337"
           },
@@ -979,7 +1039,16 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-G850F": "Samsung SM-G850F"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
           "devices": {
             "GT-I9300*": "Samsung GT-I9300"
           },
@@ -999,7 +1068,18 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
+          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "device": "general Tablet",
           "platforms": [
             "Android_8_0",
@@ -1011,30 +1091,7 @@
           ]
         },
         {
-          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
-          "device": "general Tablet",
-          "platforms": [
-            "Android_8_0",
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#XOOM 2 Build/*#DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "MZ616": "Motorola MZ616"
           },
@@ -1043,7 +1100,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ST10216-1": "TrekStor ST10216"
           },
@@ -1052,7 +1109,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "TAB10-400": "Yarvik TAB10-400"
           },
@@ -1061,7 +1118,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Lenovo B8000-F": "Lenovo B8000-F"
           },
@@ -1070,7 +1127,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Lenovo A3300-HV": "Lenovo A3300-HV"
           },
@@ -1079,7 +1136,7 @@
           ]
         },
         {
-          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "LG-D855": "LG D855"
           },
@@ -1088,7 +1145,7 @@
           ]
         },
         {
-          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "#DEVICE#*Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Lenovo A390": "Lenovo A390"
           },
@@ -1097,7 +1154,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit*(*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit*(*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nuqleo; Zaffire 1010": "Nuqleo Zaffire 1010",
             "Nuqleo; Zaffire 785": "Nuqleo Zaffire 785"
@@ -1107,7 +1164,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "SM-N915G": "Samsung SM-N915G"
           },
@@ -1116,7 +1173,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khmtl*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khmtl*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "AX540": "Bmobile AX540"
           },
@@ -1125,7 +1182,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Fly IQ4409 Quad": "Fly IQ4409 Quad"
           },
@@ -1134,7 +1191,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Micromax A064": "Micromax A064",
             "Micromax A065": "Micromax A065",
@@ -1145,7 +1202,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ATH-AL00": "Huawei ATH-AL00"
           },
@@ -1154,7 +1211,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ALCATEL ONETOUCH 6050A": "Alcatel OT-6050A",
             "CHC-U03": "Huawei CHC-U03"
@@ -1164,7 +1221,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "HUAWEI ALE-21": "Huawei ALE-21"
           },
@@ -1173,27 +1230,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
-          "devices": {
-            "SM-T705*": "Samsung SM-T705"
-          },
-          "platforms": [
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*Chrome*",
-          "devices": {
-            "SM-G850F": "Samsung SM-G850F"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "device": "general Tablet",
           "platforms": [
             "Android_4_2",
@@ -1201,29 +1238,45 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM# Android/* Release/* Browser/applewebkit* Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_4",
             "Android"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*kthml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*kthml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_4"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khmtl*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "platforms": [
             "Android_4_0",
             "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0(#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "platforms": [
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# *Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "Nexus 5": "LG Nexus 5"
+          },
+          "platforms": [
+            "Android_4_4"
           ]
         }
       ]

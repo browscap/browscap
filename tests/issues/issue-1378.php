@@ -213,7 +213,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-G' => [
@@ -256,7 +256,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-H' => [
@@ -299,7 +299,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-I' => [
@@ -385,7 +385,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-K' => [
@@ -428,7 +428,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-L' => [
@@ -471,7 +471,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-M' => [
@@ -514,7 +514,7 @@ return [
             'RenderingEngine_Maker' => 'unknown',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1378-N' => [

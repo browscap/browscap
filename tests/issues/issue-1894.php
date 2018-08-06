@@ -44,6 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1894-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Safari 12.0',
+            'Browser' => 'Safari',
+            'Version' => '12.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1894-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1',
         'properties' => [
@@ -86,6 +99,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1894-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.0',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1894-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Mobile/15E148 Safari/604.1',
@@ -173,6 +201,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1894-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q',
+        'properties' => [
+            'Comment' => 'Mobile Safari UIWebView',
+            'Browser' => 'Mobile Safari UIWebView',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1894-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q [FBAN/MessengerForiOS;FBAV/167.0.0.57.96;FBBV/109575372;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/12.0;FBSS/3;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
         'properties' => [
@@ -216,6 +259,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1894-E (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q [FBAN/MessengerForiOS;FBAV/167.0.0.57.96;FBBV/109575372;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/12.0;FBSS/3;FBCR/AT&T;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
+        'properties' => [
+            'Comment' => 'Facebook Messenger App for iOS',
+            'Browser' => 'Facebook Messenger',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1894-F' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q [FBAN/FBIOS;FBAV/175.0.0.47.102;FBBV/112197024;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/12.0;FBSS/3;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
         'properties' => [
@@ -258,6 +316,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1894-F (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q [FBAN/FBIOS;FBAV/175.0.0.47.102;FBBV/112197024;FBDV/iPhone10,2;FBMD/iPhone;FBSN/iOS;FBSV/12.0;FBSS/3;FBCR/Sprint;FBID/phone;FBLC/en_US;FBOP/5;FBRV/0]',
+        'properties' => [
+            'Comment' => 'Facebook App for iOS',
+            'Browser' => 'Facebook App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1894-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5288q Listia/2.57',

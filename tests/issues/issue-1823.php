@@ -4603,4 +4603,3 @@ return [
         'full' => true,
     ],
 ];
-

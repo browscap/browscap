@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1903-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL4044T; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0',
+        'properties' => [
+            'Comment' => 'Firefox 37.0 for FirefoxOS 2.2',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '37.0',
+            'Platform' => 'FirefoxOS',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1903-B' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATEL4044O; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0',
         'properties' => [
@@ -86,6 +101,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1903-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL4044O; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0',
+        'properties' => [
+            'Comment' => 'Firefox 37.0 for FirefoxOS 2.2',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '37.0',
+            'Platform' => 'FirefoxOS',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1903-C' => [
         'ua' => 'Mozilla/5.0 (Mobile; LYF/F90M/LYF-F90M-000-02-28-130318; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0',
@@ -172,6 +202,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1903-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL4044C; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0',
+        'properties' => [
+            'Comment' => 'Firefox 37.0 for FirefoxOS 2.2',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '37.0',
+            'Platform' => 'FirefoxOS',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1903-E' => [
         'ua' => 'Mozilla/5.0 (Mobile; LYF/LF-2403N/LYF-LF2403N-000-01-3D-120318;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0',
@@ -559,6 +604,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1903-M (standard)' => [
+        'ua' => 'Mozilla/5.0 (Mobile; ALCATEL4044V; rv:37.0) Gecko/37.0 Firefox/37.0 KaiOS/1.0',
+        'properties' => [
+            'Comment' => 'Firefox 37.0 for FirefoxOS 2.2',
+            'Browser' => 'Firefox',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '37.0',
+            'Platform' => 'FirefoxOS',
+            'Device_Type' => 'Mobile Phone',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1903-N' => [
         'ua' => 'Mozilla/5.0 (Mobile; LYF/F10Q/LYF-F10Q-000-01-12-220518; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.0',

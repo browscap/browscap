@@ -4551,13 +4551,13 @@ return [
     'issue-993-DB' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0; Rivo RHYTHM RX75 Build/LRX21M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36; | 2016-04-07 14:37:04',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 30.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '30.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.0',
             'Platform_Description' => 'Android OS',

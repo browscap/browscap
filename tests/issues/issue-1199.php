@@ -4,13 +4,13 @@ return [
     'issue-1199' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 43.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '43.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',

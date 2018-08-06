@@ -44,6 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.1)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-B' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.2)',
         'properties' => [
@@ -87,6 +100,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.2)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-C' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2)',
         'properties' => [
@@ -129,6 +155,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-C (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-D' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)',
@@ -302,6 +341,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-G (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-H' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1)',
         'properties' => [
@@ -474,6 +526,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-K (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-L' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64)',
         'properties' => [
@@ -559,6 +624,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-M (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows 98; Trident/3.0)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-N' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2) Toolbar/',
@@ -688,6 +768,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-P (standard + lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows 98; Alexa Toolbar)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-Q' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64',
@@ -1076,6 +1171,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-Y (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.2; Trident/5.0)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-Z' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.0; Trident/3.0)',
         'properties' => [
@@ -1119,6 +1227,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1846-Z (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.0; Trident/3.0)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1846-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 4.0; Trident/5.0)',
         'properties' => [
@@ -1161,6 +1284,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-AA (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 4.0; Trident/5.0)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-AB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; Trident/4.0)',
@@ -1764,6 +1902,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1846-AO (standard + lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.01; Trident/4.0)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1846-AP' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 10.0; Trident/7.0)',
         'properties' => [
@@ -1850,6 +2003,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-AQ (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64) Toolbar/',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-AR' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64) Toolbar/',
         'properties' => [
@@ -1935,6 +2101,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-AS (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; Win64; x64; SV1)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-AT' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; Touch; rv:11.0) like Gecko',
@@ -2193,6 +2372,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-AY (standard + lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-AZ' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/6.0)',
@@ -2796,6 +2990,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-BM (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.2; .NET CLR 3.0.30729)',
+        'properties' => [
+            'Comment' => 'IE 7.0b',
+            'Browser' => 'IE',
+            'Version' => '7.0b',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-BN' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Win64; x64) Toolbar/',
         'properties' => [
@@ -2838,6 +3045,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-BN (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Win64; x64) Toolbar/',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-BO' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 10.0; WOW64; Trident/7.0)',
@@ -3226,6 +3446,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-BW (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-BX' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)',
         'properties' => [
@@ -3268,6 +3501,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-BX (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-BY' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Win64; x64; Trident/5.0)',
@@ -3570,6 +3816,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-CE (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; SLCC1; .NET CLR 1.1.4322)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-CF' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 10.0; Win64; x64; Trident/7.0)',
         'properties' => [
@@ -3655,6 +3914,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-CG (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64; .NET CLR 2.0.50727)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-CH' => [
         'ua' => 'Mozilla/5.0 (compatible;FW 2.0.5754.p; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
@@ -4473,6 +4745,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-CZ (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0b; Windows NT 5.1; .NET CLR 1.1.4322; Alexa Toolbar)',
+        'properties' => [
+            'Comment' => 'IE 7.0b',
+            'Browser' => 'IE',
+            'Version' => '7.0b',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-DA' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727; InfoPath.1)',
         'properties' => [
@@ -4515,6 +4800,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-DA (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727; InfoPath.1)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-DB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/6.0; .NET4.0E; .NET4.0C)',
@@ -4731,6 +5029,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1846-DF (standard + lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; WOW64; Trident/4.0; .NET4.0E; .NET4.0C)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1846-DG' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; WOW64; Trident/4.0; .NET4.0E; .NET4.0C)',
         'properties' => [
@@ -4773,6 +5086,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-DG (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; WOW64; Trident/4.0; .NET4.0E; .NET4.0C)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-DH' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.2WOW64; Trident/6.0; ARM; Touch; WPDesktop)',
@@ -5118,6 +5444,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-DO (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; SLCC1; .NET CLR 2.0.50727; InfoPath.3)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-DP' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/7.0; tb-webde/2.6.6; (webde/1.4.0.0))',
         'properties' => [
@@ -5204,6 +5543,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-DQ (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-DR' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; WOW64; Media Center PC 4.0; InfoPath.2; en-MT)',
         'properties' => [
@@ -5246,6 +5598,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-DR (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; WOW64; Media Center PC 4.0; InfoPath.2; en-MT)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-DS' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727)',
@@ -5375,6 +5740,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-DU (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.2; Media Center PC 4.0; SLCC1; .NET CLR 3.0.04320)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-DV' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/7.0; .NET4.0E; .NET4.0C; InfoPath.3)',
@@ -5634,6 +6012,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-EA (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win64',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-EB' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)',
         'properties' => [
@@ -5676,6 +6067,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-EB (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-EC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; WOW64; Trident/4.0; GTB7.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
@@ -5720,6 +6124,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-EC (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; WOW64; Trident/4.0; GTB7.5; .NET CLR 1.1.4322; .NET CLR 2.0.50727)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-ED' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.10; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)',
         'properties' => [
@@ -5762,6 +6179,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-ED (standard + lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.10; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-EE' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.0.30729)',
@@ -6150,6 +6582,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-EM (lite)' => [
+        'ua' => 'Mozilla/5.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; InfoPath.2; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 223DA792)',
+        'properties' => [
+            'Comment' => 'IE 8.0',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-EN' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; .NET CLR 2.0.50727; SLCC1; Media Center PC 5.0; .NET CLR 3.0.04506; .NET CLR 3.5.21022)',
         'properties' => [
@@ -6364,6 +6809,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-ER (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; Win64; x64; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-ES' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729)',
@@ -6665,6 +7123,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-EY (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET4.0C; .NET4.0E; .NET CLR 3.5.30729; .NET CLR 3.0.30729)',
+        'properties' => [
+            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win64',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-EZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; InfoPath.3)',
@@ -7310,6 +7781,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-FN (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; Win64; x64; Trident/4.0; GTB7.5; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win64',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-FO' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; WOW64; Trident/4.0; .NET CLR 2.0.50727; SLCC1; Media Center PC 5.0; .NET CLR 3.0.30618; .NET CLR 3.5.30729; .NET4.0C)',
@@ -8902,6 +9386,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1846-GY (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.04506.648; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 7.0',
+            'Browser' => 'IE',
+            'Version' => '7.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1846-GZ' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0; WOW64; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; eSobiSubscriber 2.0.4.16; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET4.0C; BRI/1)',
         'properties' => [
@@ -9030,6 +9527,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1846-HB (standard + lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 4.0; WOW64; Trident/4.0; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; ; NCLIENT50_AAPCC2658B09F2; ; NCLIENT50_AAPD05C71AA697)',
+        'properties' => [
+            'Comment' => 'IE 6.0',
+            'Browser' => 'IE',
+            'Browser_Maker' => 'Microsoft Corporation',
+            'Version' => '6.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => true,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1846-HC' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Win64; x64; Trident/4.0; .NET CLR 2.0.50727; SLCC1; Media Center PC 5.0; .NET CLR 3.5.21022; .NET CLR 3.5.30729; MDDC; .NET4.0C; .NET CLR 3.0.30729; .NET4.0E)',
@@ -9202,6 +9714,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1846-HF (lite)' => [
+        'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2; Trident/4.0; Data Center; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)',
+        'properties' => [
+            'Comment' => 'IE 8.0 in IE 7.0 Compatibility Mode',
+            'Browser' => 'IE',
+            'Version' => '8.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1846-HG' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 6.1; WOW64; Trident/7.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; BRI/1; MDDC; .NET4.0C; eMusic DLM/4; BRI/2; .NET4.0E; GWX:RESERVED)',

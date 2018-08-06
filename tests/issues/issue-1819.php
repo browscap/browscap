@@ -45,4 +45,3 @@ return [
         'full' => true,
     ],
 ];
-

@@ -133,13 +133,13 @@ return [
     'issue-1767-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-J320M Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 63.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '63.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',

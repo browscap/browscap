@@ -133,13 +133,13 @@ return [
     'issue-1546-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 55.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '55.0',
             'Platform' => 'Android',
             'Platform_Version' => '7.0',
             'Platform_Description' => 'Android OS',

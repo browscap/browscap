@@ -1180,13 +1180,13 @@ return [
     'issue-865-AB' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 5.0;HUAWEI ALE-21/ALE-L21AUTC674B130)AppleWebKit/537.36 (KHTML, likeGecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 37.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '37.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.0',
             'Platform_Description' => 'Android OS',
