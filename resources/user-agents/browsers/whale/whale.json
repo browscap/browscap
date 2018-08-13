@@ -79,6 +79,26 @@
           ]
         }
       ]
-    }
+    },
+    {
+        "userAgent": "Whale Browser for Android",
+        "browser": "whale browser",
+        "platform": "Android",
+        "engine": "Blink",
+        "device": "general Mobile Phone (Touch)",
+        "properties": {
+          "Parent": "DefaultProperties",
+          "Comment": "Whale Browser"
+        },
+        "children": [
+          {
+            "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit/* (*khtml*like*gecko*) Chrome/* Whale/* Mobile Safari/*",
+            "platforms": [
+              "Android_6_0",
+              "Android"
+            ]
+          }
+        ]
+      }
   ]
 }
