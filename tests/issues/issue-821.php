@@ -879,13 +879,13 @@ return [
     'issue-821-BA' => [
         'ua' => 'Mozilla/5.0(Linux; Android 4.4.2; Micromax A102 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 30.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '30.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',
@@ -915,8 +915,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
         'full' => true,
     ],
     'issue-821-BB' => [
@@ -1451,13 +1451,13 @@ return [
     'issue-821-BS' => [
         'ua' => 'Mozilla/5.0(Linux;Android 4.4.2; en-ca; ALCATEL ONETOUCH 6050A Build/KVT49L)AppleWebKit/537.36(KHTML,like Gecko) Version/4.0 Chrome/30.0.1599.36 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 30.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '30.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',
@@ -1487,8 +1487,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
         'full' => true,
     ],
     'issue-821-BT' => [

@@ -4,13 +4,13 @@ return [
     'issue-1126' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-T817A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 52.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '52.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
@@ -40,8 +40,21 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1126 (lite)' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SAMSUNG-SM-T817A Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.98 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Android WebView 52.0',
+            'Browser' => 'Android WebView',
+            'Version' => '52.0',
+            'Platform' => 'Android',
+            'Device_Type' => 'Mobile Phone',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

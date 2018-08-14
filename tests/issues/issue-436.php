@@ -3755,21 +3755,6 @@ return [
         'standard' => false,
         'full' => false,
     ],
-    'issue-436-CK (standard + lite)' => [
-        'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT)',
-        'properties' => [
-            'Comment' => 'IE 6.0',
-            'Browser' => 'IE',
-            'Browser_Maker' => 'Microsoft Corporation',
-            'Version' => '6.0',
-            'Platform' => 'Win32',
-            'Device_Type' => 'Desktop',
-            'Device_Pointing_Method' => 'mouse',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-436-CL' => [
         'ua' => 'Opera/9.30 (Nintendo Wii; U; ; 3642; de)',
         'properties' => [
@@ -4186,7 +4171,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-436-CT' => [

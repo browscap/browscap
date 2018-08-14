@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1917-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Whale/0.9.1.679 Mobile/15D100 Safari/604.5.6',
+        'properties' => [
+            'Comment' => 'Whale Browser',
+            'Browser' => 'Whale Browser',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1917-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Whale/0.9.1.679 Mobile/15G77 Safari/605.1.15',
         'properties' => [
@@ -86,6 +101,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1917-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Whale/0.9.1.679 Mobile/15G77 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Whale Browser',
+            'Browser' => 'Whale Browser',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1917-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.220 Whale/1.3.50.3 Safari/537.36',

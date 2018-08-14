@@ -44,6 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-1848-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Safari 11.1',
+            'Browser' => 'Safari',
+            'Version' => '11.1',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
     'issue-1848-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15',
         'properties' => [
@@ -86,6 +99,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1848-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Safari 11.1',
+            'Browser' => 'Safari',
+            'Version' => '11.1',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1848-C' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15',

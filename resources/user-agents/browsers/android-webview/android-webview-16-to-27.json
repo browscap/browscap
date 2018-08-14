@@ -1,0 +1,49 @@
+{
+  "division": "Android WebView #MAJORVER#.#MINORVER#",
+  "versions": [27, 26, 25, 18, 16],
+  "sortIndex": 956,
+  "lite": false,
+  "standard": false,
+  "userAgents": [
+    {
+      "userAgent": "Android WebView #MAJORVER#.#MINORVER#",
+      "browser": "android webview",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Android WebView #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "SM-A500FU*": "Samsung SM-A500FU"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "SM-N910G": "Samsung SM-N910G"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

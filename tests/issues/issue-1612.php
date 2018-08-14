@@ -406,13 +406,13 @@ return [
     'issue-1612-J' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; Lenovo A6000 Build/KTU84P; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36 OPR/17.0.2211.105178',
         'properties' => [
-            'Comment' => 'Opera Mobile 17.0 for Android',
-            'Browser' => 'Opera Mobile',
+            'Comment' => 'Android WebView 33.0',
+            'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Opera Software ASA',
+            'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '17.0',
+            'Version' => '33.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',
@@ -443,7 +443,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1612-K' => [

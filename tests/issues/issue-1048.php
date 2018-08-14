@@ -4,13 +4,13 @@ return [
     'issue-1048-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; MZ-MX5 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/45.0.2454.94 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 45.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '45.0',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
@@ -133,13 +133,13 @@ return [
     'issue-1048-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Redmi 3S Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/46.0.2490.76 Mobile Safari/537.36 tieba/7.7.2',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 46.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '46.0',
             'Platform' => 'Android',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Android OS',
@@ -348,13 +348,13 @@ return [
     'issue-1048-I' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; L50u Build/17.1.1.F.0.43) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 tieba/7.8.0',
         'properties' => [
-            'Comment' => 'Android WebView 4.0',
+            'Comment' => 'Android WebView 30.0',
             'Browser' => 'Android WebView',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '4.0',
+            'Version' => '30.0',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',
@@ -384,8 +384,8 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
-        'standard' => true,
+        'lite' => false,
+        'standard' => false,
         'full' => true,
     ],
 ];
