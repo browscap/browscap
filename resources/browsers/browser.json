@@ -242,6 +242,15 @@
     "lite": false,
     "standard": true
   },
+  "basilisk": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Basilisk",
+      "Browser_Maker": "Moonchild Productions"
+    },
+    "lite": false,
+    "standard": true
+  },
   "battle.net overlay": {
     "type": "browser",
     "properties": {
