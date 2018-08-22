@@ -501,6 +501,12 @@
         "RenderingEngine_Version": "3.0"
       }
     },
+    "Goanna_4": {
+      "inherits": "Goanna",
+      "properties": {
+        "RenderingEngine_Version": "4.0"
+      }
+    },
     "Clecko": {
       "properties": {
         "RenderingEngine_Name": "Clecko",
