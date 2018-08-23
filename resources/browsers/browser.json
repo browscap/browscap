@@ -1197,6 +1197,15 @@
     "lite": false,
     "standard": true
   },
+  "kiwi": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Kiwi",
+      "Browser_Maker": "Geometry OU"
+    },
+    "lite": false,
+    "standard": true
+  },
   "kkman": {
     "type": "browser",
     "properties": {
