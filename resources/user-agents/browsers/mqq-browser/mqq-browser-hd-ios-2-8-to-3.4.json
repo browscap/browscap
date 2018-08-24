@@ -1,0 +1,38 @@
+{
+  "division": "MQQBrowser #MAJORVER#.#MINORVER# HD for iOS",
+  "versions": ["3.4", "3.3", "3.2", "3.1", 3, "2.8"],
+  "sortIndex": 1007,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# HD for iOS",
+      "browser": "qqbrowser",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
+            "iOS_C_5_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
+          "platforms": [
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

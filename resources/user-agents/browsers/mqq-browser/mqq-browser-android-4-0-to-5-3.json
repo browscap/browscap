@@ -1,0 +1,102 @@
+{
+  "division": "MQQBrowser #MAJORVER#.#MINORVER# for Android",
+  "versions": ["5.3", "5.2", "5.1", 5, "4.5", "4.4", "4.3", "4.2", "4.1", 4],
+  "sortIndex": 1006,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQBrowser #MAJORVER#.#MINORVER# for Android",
+      "browser": "qqbrowser",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "GT-I9100": "Samsung GT-I9100",
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_4_1", "Android_4_0",
+            "Android_2_3"
+          ]
+        },
+        {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "A5000": "Sony A5000"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 *Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "devices": {
+            "MI 4LTE": "Xiaomi Mi 4 LTE"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "KIW-UL00": "Huawei KIW-UL00"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "SGH-I337": "Samsung SGH-I337"
+          },
+          "platforms": [
+            "Android_4_3", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3", "Android_2_2",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
