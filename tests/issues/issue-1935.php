@@ -3452,7 +3452,7 @@ return [
             'Browser_Modus' => 'unknown',
             'Version' => '7.6',
             'Platform' => 'iOS',
-            'Platform_Version' => 'unknown',
+            'Platform_Version' => '12.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',

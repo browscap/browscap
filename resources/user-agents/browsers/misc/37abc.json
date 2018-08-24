@@ -20,10 +20,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) 37abc/* Chrome/* Safari/*",
           "platforms": [
+            "Win10_x64_B", "Win10_64_B",
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",
             "Vista_64", "Vista_32",
-            "WinXPa_32"
+            "WinXPa_32",
+            "Windows"
           ]
         }
       ]
