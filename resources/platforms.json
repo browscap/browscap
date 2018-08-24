@@ -5033,6 +5033,15 @@
         "Platform_Version": "4.0"
       }
     },
+    "Android_I_2_3": {
+      "match": "*Linux* 2.3*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "2.3"
+      }
+    },
     "Android_I": {
       "match": "*Linux*",
       "lite": false,

@@ -1,6 +1,6 @@
 {
   "division": "MQQBrowser #MAJORVER#.#MINORVER# for iOS",
-  "versions": [8, "7.9", "7.7", "7.4", "7.3", "7.2", "7.1", 7, "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6, "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.6"],
+  "versions": ["8.6", "8.5", "8.4", "8.2", 8, "7.9", "7.7", "7.6", "7.4", "7.3", "7.2", "7.1", 7, "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6, "5.9", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3", "5.2", "5.1", 5, "4.8", "4.7", "4.6", "4.5"],
   "sortIndex": 1006,
   "lite": false,
   "standard": true,
@@ -20,13 +20,13 @@
           "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* MQQBrowser/#MAJORVER#.#MINORVER#* Mobile* Safari*",
           "device": "iPhone",
           "platforms": [
-            "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A_6_1", "iOS_A_6_0",
-            "iOS_A_5_1",
+            "iOS_A_5_1", "iOS_A_5_0",
             "iOS_A"
           ]
         },
@@ -37,10 +37,13 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (iPhone#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* QQ/#MAJORVER#.#MINORVER#*",
-          "device": "iPhone",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* QQ/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
-            "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
