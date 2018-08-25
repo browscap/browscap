@@ -1,6 +1,6 @@
 {
   "division": "QtWebEngine #MAJORVER#.#MINORVER#",
-  "versions": ["5.9", "5.8", "5.7", "5.6", "5.3", "5.2"],
+  "versions": ["5.11", "5.10", "5.9", "5.8", "5.7", "5.6", "5.3", "5.2"],
   "sortIndex": 1178,
   "lite": false,
   "standard": true,
@@ -32,6 +32,15 @@
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/#MAJORVER#.#MINORVER#*Chrome/*Safari/*",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_13", "OSX_10_12",
+            "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7",
+            "OSX"
           ]
         }
       ]

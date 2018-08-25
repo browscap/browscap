@@ -1,6 +1,6 @@
 {
   "division": "2345 Browser #MAJORVER#.#MINORVER#",
-  "versions": ["8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
+  "versions": ["9.5", "9.3", "9.1", "8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -39,7 +39,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*",
           "platforms": [
-            "Android_7_0",
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
