@@ -82,6 +82,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SurfBrowser/*",
           "browser": "surf browser",
           "platforms": [
+            "Android_H_8_0", 
             "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",
             "Android_H_5_1", "Android_H_5_0",
