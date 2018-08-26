@@ -593,18 +593,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "platforms": [
-            "Android_7_1", "Android_7_0",
-            "Android_6_0",
-            "Android_5_1", "Android_5_0",
-            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
-            "Android_3_2", "Android_3_1", "Android_3_0",
-            "Android_2_3", "Android_2_2",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_7_1", "Android_7_0",
@@ -665,6 +653,23 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Mobile*Safari*Chrome/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Safari*Chrome/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
           "match": "*Mozilla/5.0 (#PLATFORM#) applewebkit*khtml*like*gecko*) Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -681,42 +686,17 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
-            "Fly IQ4409 Quad": "Fly IQ4409 Quad"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
+            "ALCATEL ONETOUCH 6050A": "Alcatel OT-6050A",
+            "CHC-U03": "Huawei CHC-U03",
+            "Fly IQ4409 Quad": "Fly IQ4409 Quad",
             "Micromax A064": "Micromax A064",
             "Micromax A065": "Micromax A065",
             "Micromax A102": "Micromax A102"
           },
           "platforms": [
             "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "ALCATEL ONETOUCH 6050A": "Alcatel OT-6050A",
-            "CHC-U03": "Huawei CHC-U03"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "HUAWEI ALE-21": "Huawei ALE-21"
-          },
-          "platforms": [
-            "Android_5_0"
           ]
         },
         {
@@ -727,10 +707,12 @@
           ]
         },
         {
-          "match": "Mozilla/5.0(#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "HUAWEI ALE-21": "Huawei ALE-21"
+          },
           "platforms": [
-            "Android_4_4",
-            "Android"
+            "Android_5_0"
           ]
         },
         {

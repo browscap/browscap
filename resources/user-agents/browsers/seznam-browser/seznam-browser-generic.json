@@ -83,7 +83,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
-            "Android_7_0",
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
@@ -94,7 +95,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/*",
           "device": "general Tablet",
           "platforms": [
-            "Android_7_0",
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
@@ -105,7 +107,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Tablet SznProhlizec/*",
           "device": "general Tablet",
           "platforms": [
-            "Android_7_0",
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4",
