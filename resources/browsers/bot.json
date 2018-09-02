@@ -1655,6 +1655,15 @@
     "lite": false,
     "standard": true
   },
+  "bloomberg bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Bloomberg bot",
+      "Browser_Maker": "Bloomberg"
+    },
+    "lite": false,
+    "standard": true
+  },
   "blue coat systems": {
     "type": "bot",
     "properties": {

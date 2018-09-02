@@ -2012,6 +2012,17 @@
         {
           "match": "Mozilla/5.0 (compatible; Coveobot/*",
           "browser": "coveobot"
+        },
+        {
+          "match": "BLP_bbot/0.1*",
+          "browser": "bloomberg bot",
+          "properties": {
+            "Version": "0.1"
+          }
+        },
+        {
+          "match": "BLP_bbot/*",
+          "browser": "bloomberg bot"
         }
       ]
     }
