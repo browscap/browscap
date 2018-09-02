@@ -111,6 +111,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SGP771": "Sony SGP771",
             "TA-1000": "Nokia TA-1000",
             "TA-1003": "Nokia TA-1003",
             "TA-1035": "Nokia TA-1035"
