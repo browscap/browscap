@@ -1,0 +1,106 @@
+{
+  "division": "ShopKeep App #MAJORVER#.#MINORVER#",
+  "versions": ["4.4"],
+  "sortIndex": 9752,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ShopKeep App #MAJORVER#.#MINORVER# for Android",
+      "browser": "shopkeep",
+      "engine": "WebKit",
+      "platform": "Android_H",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ShopKeep App #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "Pixel": "Google Pixel"
+          },
+          "platforms": [
+            "Android_H_8_1"
+          ]
+        },
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "XT1650": "Motorola XT1650"
+          },
+          "platforms": [
+            "Android_H_7_1"
+          ]
+        },
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "LG-H820": "LG H820",
+            "SM-N920P": "Samsung SM-N920P"
+          },
+          "platforms": [
+            "Android_H_7_0"
+          ]
+        },
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "Moto G Play": "Motorola Moto G Play"
+          },
+          "platforms": [
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#*",
+          "platforms": [
+            "Android_H_8_1", "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "ShopKeep App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "shopkeep",
+      "engine": "WebKit",
+      "platform": "iOS_J",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ShopKeep App #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "Apple iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_J_11_1", "iOS_J_11_0",
+            "iOS_J_10_3",
+            "iOS_J"
+          ]
+        },
+        {
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#*",
+          "platforms": [
+            "iOS_J_11_1", "iOS_J_11_0",
+            "iOS_J_10_3",
+            "iOS_J"
+          ]
+        }
+      ]
+    }
+  ]
+}
