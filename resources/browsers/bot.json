@@ -2717,6 +2717,15 @@
     "lite": false,
     "standard": true
   },
+  "criteo bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Criteo Bot",
+      "Browser_Maker": "Criteo SA"
+    },
+    "lite": false,
+    "standard": true
+  },
   "crystalsemanticsbot": {
     "type": "bot",
     "properties": {
