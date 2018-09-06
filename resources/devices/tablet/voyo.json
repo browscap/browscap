@@ -1,0 +1,13 @@
+{
+  "Voyo i8Max 4G": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "i8Max 4G",
+      "Device_Code_Name": "i8Max 4G",
+      "Device_Maker": "Voyo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Voyo"
+    },
+    "standard": true
+  }
+}
