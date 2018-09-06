@@ -1169,6 +1169,15 @@
     "lite": false,
     "standard": true
   },
+  "shopkeep": {
+    "type": "application",
+    "properties": {
+      "Browser": "ShopKeep App",
+      "Browser_Maker": "ShopKeep Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "sitecon": {
     "type": "application",
     "properties": {

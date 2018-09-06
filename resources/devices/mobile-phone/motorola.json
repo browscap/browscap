@@ -791,6 +791,17 @@
     },
     "standard": false
   },
+  "Motorola Moto G Play": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G Play",
+      "Device_Code_Name": "Moto G Play",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
   "Motorola K1": {
     "type": "mobile-phone",
     "properties": {

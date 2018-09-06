@@ -2515,6 +2515,33 @@
       "standard": true,
       "inherits": "iOS"
     },
+    "iOS_J_11_1": {
+      "match": "iOS/11.1*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.1"
+      }
+    },
+    "iOS_J_11_0": {
+      "match": "iOS/11.0*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "11.0"
+      }
+    },
+    "iOS_J_10_3": {
+      "match": "iOS/10.3*",
+      "lite": false,
+      "standard": true,
+      "inherits": "iOS",
+      "properties": {
+        "Platform_Version": "10.3"
+      }
+    },
     "iOS_J_8_0": {
       "match": "iOS/8.0*",
       "lite": false,
@@ -4188,6 +4215,15 @@
         "Win64": false,
         "Browser_Bits": 32,
         "Platform_Bits": 32
+      }
+    },
+    "Android_H_8_1": {
+      "match": "*Android?8.1*",
+      "lite": false,
+      "standard": false,
+      "inherits": "Android",
+      "properties": {
+        "Platform_Version": "8.1"
       }
     },
     "Android_H_8_0": {
