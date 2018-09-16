@@ -1,0 +1,44 @@
+{
+  "division": "Waterfox #MAJORVER#.#MINORVER# for Android",
+  "versions": ["56.1", "55.2"],
+  "sortIndex": 3142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Waterfox #MAJORVER#.#MINORVER# for Android",
+      "browser": "waterfox",
+      "platform": "Android",
+      "engine": "Gecko_Major_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Waterfox #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/#MAJORVER#.#MINORVER#* Waterfox/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "AndroidMobile_8_1", "AndroidMobile_8_0",
+            "AndroidMobile_7_1", "AndroidMobile_7_0",
+            "AndroidMobile_6_0",
+            "AndroidMobile_5_1", "AndroidMobile_5_0",
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/#MAJORVER#.#MINORVER#* Waterfox/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet_8_1", "AndroidTablet_8_0",
+            "AndroidTablet_7_1", "AndroidTablet_7_0",
+            "AndroidTablet_6_0",
+            "AndroidTablet_5_1", "AndroidTablet_5_0",
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

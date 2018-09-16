@@ -1,28 +1,30 @@
 {
-  "division": "Waterfox Generic",
-  "sortIndex": 3146,
+  "division": "Waterfox #MAJORVER#.#MINORVER#",
+  "versions": ["56.2"],
+  "sortIndex": 3141,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Waterfox Generic",
+      "userAgent": "Waterfox #MAJORVER#.#MINORVER#",
       "browser": "waterfox",
-      "engine": "Gecko_Dynamic",
+      "engine": "Gecko_Major_Dynamic",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Waterfox Generic"
+        "Comment": "Waterfox #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -35,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Waterfox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12",
@@ -44,14 +46,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# rv:*; Waterfox) Gecko/* Firefox/*",
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.*; Waterfox) Gecko/* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64", "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# rv:*; Waterfox) Gecko/* Firefox/*",
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.*; Waterfox) Gecko/* Firefox/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
@@ -64,34 +66,12 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# rv:*; Waterfox) Gecko/* Firefox/*",
+          "match": "Mozilla/5.0 (#PLATFORM# rv:#MAJORVER#.*; Waterfox) Gecko/* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12",
             "OSX_10_11", "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5",
             "OSX"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Waterfox/*",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "AndroidMobile_8_1", "AndroidMobile_8_0",
-            "AndroidMobile_7_1", "AndroidMobile_7_0",
-            "AndroidMobile_6_0",
-            "AndroidMobile_5_1", "AndroidMobile_5_0",
-            "AndroidMobile"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Firefox/* Waterfox/*",
-          "device": "general Tablet",
-          "platforms": [
-            "AndroidTablet_8_1", "AndroidTablet_8_0",
-            "AndroidTablet_7_1", "AndroidTablet_7_0",
-            "AndroidTablet_6_0",
-            "AndroidTablet_5_1", "AndroidTablet_5_0",
-            "AndroidTablet"
           ]
         }
       ]
