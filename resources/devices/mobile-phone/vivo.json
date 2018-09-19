@@ -1,4 +1,26 @@
 {
+  "vivo V5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V5",
+      "Device_Code_Name": "V5",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
+    },
+    "standard": false
+  },
+  "vivo X21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X21",
+      "Device_Code_Name": "X21",
+      "Device_Maker": "vivo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "vivo"
+    },
+    "standard": false
+  },
   "vivo X3L": {
     "type": "mobile-phone",
     "properties": {
@@ -32,22 +54,22 @@
     },
     "standard": false
   },
-  "vivo Y55L": {
+  "vivo Y52": {
     "type": "mobile-phone",
     "properties": {
-      "Device_Name": "Y55L",
-      "Device_Code_Name": "1603",
+      "Device_Name": "Y52",
+      "Device_Code_Name": "1707",
       "Device_Maker": "vivo",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "vivo"
     },
     "standard": false
   },
-  "vivo V5": {
+  "vivo Y55L": {
     "type": "mobile-phone",
     "properties": {
-      "Device_Name": "V5",
-      "Device_Code_Name": "V5",
+      "Device_Name": "Y55L",
+      "Device_Code_Name": "1603",
       "Device_Maker": "vivo",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "vivo"

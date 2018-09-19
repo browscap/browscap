@@ -2565,6 +2565,15 @@
     "lite": false,
     "standard": true
   },
+  "vivo": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Vivo Browser",
+      "Browser_Maker": "Vivo Global"
+    },
+    "lite": false,
+    "standard": true
+  },
   "vmware browser": {
     "type": "browser",
     "properties": {
