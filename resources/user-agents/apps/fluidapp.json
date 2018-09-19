@@ -1,0 +1,31 @@
+{
+  "division": "Fluid App",
+  "sortIndex": 1184,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Fluid App",
+      "browser": "fluid app",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Fluid App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) FluidApp Version/* Safari/*",
+          "platforms": [
+            "OSX_10_13", "OSX_10_12", "OSX_10_11", "OSX_10_10",
+            "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

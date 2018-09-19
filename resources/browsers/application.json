@@ -521,6 +521,15 @@
     "lite": false,
     "standard": true
   },
+  "fluid app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Fluid App",
+      "Browser_Maker": "Todd Ditchendorf"
+    },
+    "lite": false,
+    "standard": true
+  },
   "frontpage": {
     "type": "application",
     "properties": {
