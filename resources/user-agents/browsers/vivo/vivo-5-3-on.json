@@ -1,0 +1,50 @@
+{
+  "division": "Vivo Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.6", "5.5", "5.4", "5.3"],
+  "sortIndex": 1141,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vivo Browser #MAJORVER#.#MINORVER#",
+      "browser": "vivo",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vivo Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo X21*": "vivo X21"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.* Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}

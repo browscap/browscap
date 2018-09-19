@@ -1,0 +1,69 @@
+{
+  "division": "Vivo Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.2", "5.1", 5],
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Vivo Browser #MAJORVER#.#MINORVER#",
+      "browser": "vivo",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Vivo Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo Y55L": "vivo Y55L"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo 1707": "vivo Y52"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.* Chrome/*",
+          "properties": {
+            "Browser_Modus": "Desktop Mode"
+          }
+        }
+      ]
+    }
+  ]
+}
