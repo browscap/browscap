@@ -224,6 +224,15 @@
     "lite": false,
     "standard": true
   },
+  "citrix chrome app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Citrix Chrome App",
+      "Browser_Maker": "Citrix"
+    },
+    "lite": false,
+    "standard": true
+  },
   "clipish": {
     "type": "application",
     "properties": {

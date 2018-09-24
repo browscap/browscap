@@ -1,0 +1,36 @@
+{
+  "division": "Citrix Chrome App",
+  "sortIndex": 10840,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Citrix Chrome App",
+      "browser": "citrix chrome app",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Citrix Chrome App",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/* CitrixChromeApp",
+          "device": "Linux Desktop",
+          "platforms": [
+            "ChromeOS_64_ARM_fake_windows", "ChromeOS_x64_fake_windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/*Safari/* CitrixChromeApp",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}
