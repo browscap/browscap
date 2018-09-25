@@ -1543,7 +1543,7 @@ return [
             'Browser' => 'Hatena::Bookmark',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
             'Version' => '2.0',
             'Platform' => 'unknown',
