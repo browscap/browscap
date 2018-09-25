@@ -21,6 +21,10 @@
           ]
         },
         {
+          "match": "LightspeedSystemsCrawler*",
+          "browser": "lightspeed systems crawler"
+        },
+        {
           "match": "LSSRocketCrawler/1.0 LightspeedSystems*",
           "properties": {
             "Version": "1.0"

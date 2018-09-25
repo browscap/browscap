@@ -692,6 +692,15 @@
     "lite": false,
     "standard": true
   },
+  "alphabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AlphaBot",
+      "Browser_Maker": "alphaseobot.com"
+    },
+    "lite": false,
+    "standard": true
+  },
   "altervista.org": {
     "type": "bot",
     "properties": {
@@ -751,6 +760,15 @@
     "properties": {
       "Browser": "Anders Pink Bot",
       "Browser_Maker": "Anders Pink"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "anglesharp": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AngleSharp",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
@@ -1979,6 +1997,15 @@
     "lite": false,
     "standard": true
   },
+  "buff library": {
+    "type": "bot",
+    "properties": {
+      "Browser": "buff library",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "buibui-bot": {
     "type": "bot",
     "properties": {
@@ -2285,6 +2312,15 @@
     "lite": false,
     "standard": true
   },
+  "cipacrawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "CipaCrawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "cipinetbot": {
     "type": "bot",
     "properties": {
@@ -2506,6 +2542,15 @@
     "properties": {
       "Browser": "Comodo SSL Checker",
       "Browser_Maker": "Comodo Group Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "companybook crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Companybook Crawler",
+      "Browser_Maker": "Companybook (Europe) Limited"
     },
     "lite": false,
     "standard": true
@@ -3181,6 +3226,15 @@
     "properties": {
       "Browser": "DNS-Digger",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "docbase crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DocBase Crawler",
+      "Browser_Maker": "DocBase"
     },
     "lite": false,
     "standard": true
@@ -5376,7 +5430,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5385,7 +5439,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena Antenna",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5394,7 +5448,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena Bookmark",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5403,7 +5457,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena Crawler",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5412,7 +5466,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena-Mobile-Gateway",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5421,7 +5475,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Hatena::Bookmark",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -5430,7 +5484,61 @@
     "type": "bot",
     "properties": {
       "Browser": "HatenaScreenshot",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena pagetitle agent": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena Pagetitle Agent",
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena star useragent": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena Star UserAgent",
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena favicon": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena Favicon",
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena::fetcher": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena::Fetcher",
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena::scissors": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena::Scissors",
+      "Browser_Maker": "Hatena Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hatena::useragent": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Hatena::UserAgent",
+      "Browser_Maker": "Hatena Co., Ltd."
     },
     "lite": false,
     "standard": true
@@ -6943,6 +7051,15 @@
     "properties": {
       "Browser": "Lincoln State Web Browser",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "linqiametadatadownloaderbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "LinqiaMetadataDownloaderBot",
+      "Browser_Maker": "Linqia, Inc"
     },
     "lite": false,
     "standard": true
@@ -15529,6 +15646,231 @@
     "properties": {
       "Browser": "12345",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "website security scanner": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Website Security Scanner",
+      "Browser_Maker": "Vistex Ltd"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "letsearchbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "LetsearchBot",
+      "Browser_Maker": "LetSearch.ru"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "mappy": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Mappy",
+      "Browser_Maker": "Core Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "nimbostratus bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Nimbostratus Bot",
+      "Browser_Maker": "Cloud System Networks"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "tracemyfile": {
+    "type": "bot",
+    "properties": {
+      "Browser": "tracemyfile",
+      "Browser_Maker": "Tracemyfile Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ninjabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "NinjaBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "onpagebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "OnPageBot",
+      "Browser_Maker": "Ryte GmbH"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ryte bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Ryte Bot",
+      "Browser_Maker": "Ryte GmbH"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "rankingbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "RankingBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "seobilitybot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SeobilityBot",
+      "Browser_Maker": "seobility GmbH"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "serf": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Serf",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "superpagesurlverifybot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SuperPagesUrlVerifyBot",
+      "Browser_Maker": "Dex Media, Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "the knowledge ai": {
+    "type": "bot",
+    "properties": {
+      "Browser": "The Knowledge AI",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "upflow": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Upflow",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "yooo bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Yooo Bot",
+      "Browser_Maker": "Yooo!"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "adstxtlab.com crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "adstxtlab.com Crawler",
+      "Browser_Maker": "Jaohawi AB"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "axios": {
+    "type": "bot",
+    "properties": {
+      "Browser": "axios",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bidswitchbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "bidswitchbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bluetooth scanner": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Bluetooth Diagnostic & Discovery Tool",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "nominet bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "nominet bot",
+      "Browser_Maker": "Nominet UK"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "muhstik-scan": {
+    "type": "bot",
+    "properties": {
+      "Browser": "muhstik scanner",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "nanagogo-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "nanagogo-bot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "struts-pwn": {
+    "type": "bot",
+    "properties": {
+      "Browser": "struts-pwn",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "twieve": {
+    "type": "bot",
+    "properties": {
+      "Browser": "twieve bot",
+      "Browser_Maker": "Twieve"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "zoomsquare robot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "zoomsquare robot",
+      "Browser_Maker": "zoomsquare GmbH"
     },
     "lite": false,
     "standard": true

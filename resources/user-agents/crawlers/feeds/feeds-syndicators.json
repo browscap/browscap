@@ -504,6 +504,10 @@
         {
           "match": "Mozilla/5.0 (X11; U; Linux*; en-US; rv:*) Gecko/* Firefox/* Specificfeeds- http://www.specificfeeds.com",
           "browser": "specificfeeds aggregator"
+        },
+        {
+          "match": "Feedspot*",
+          "browser": "feedspot"
         }
       ]
     }

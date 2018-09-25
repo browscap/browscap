@@ -217,6 +217,26 @@
         {
           "match": "TA SEO Crawler v* URLData.pm (smcquaker@tripadvisor.com)",
           "browser": "tripadvisor seo crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AlphaBot/*",
+          "browser": "alphabot"
+        },
+        {
+          "match": "OnPageBot*",
+          "browser": "onpagebot"
+        },
+        {
+          "match": "RyteBot/*",
+          "browser": "ryte bot"
+        },
+        {
+          "match": "RankingBot*",
+          "browser": "rankingbot"
+        },
+        {
+          "match": "Seobility*",
+          "browser": "seobilitybot"
         }
       ]
     }

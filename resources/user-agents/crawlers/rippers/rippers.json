@@ -956,6 +956,28 @@
         {
           "match": "Mozilla/5.0 (*Linux*x86_64*) AppleWebKit/* (KHTML, like Gecko) splash Version/* Safari/*",
           "browser": "splash"
+        },
+        {
+          "match": "Serf/1.3*",
+          "browser": "serf",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
+          "match": "Serf/*",
+          "browser": "serf"
+        },
+        {
+          "match": "axios/0.18*",
+          "browser": "axios",
+          "properties": {
+            "Version": "0.18"
+          }
+        },
+        {
+          "match": "axios/*",
+          "browser": "axios"
         }
       ]
     }

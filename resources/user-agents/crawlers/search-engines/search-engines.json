@@ -843,6 +843,18 @@
         {
           "match": "Mozilla/5.0 (*Windows NT *; rv:* trendictionbot*; *) Gecko/* Firefox/*",
           "browser": "trendiction bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; LetsearchBot/*",
+          "browser": "letsearchbot"
+        },
+        {
+          "match": "Yooo! Search Engine Bot*",
+          "browser": "yooo bot"
+        },
+        {
+          "match": "zoomRank/*",
+          "browser": "zoomsquare robot"
         }
       ]
     }
