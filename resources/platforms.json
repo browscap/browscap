@@ -3260,8 +3260,24 @@
       "standard": false,
       "inherits": "ChromeOS"
     },
+    "ChromeOS_64_ARM_fake_windows": {
+      "match": "*Windows aarch64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "ChromeOS"
+    },
     "ChromeOS_x64": {
       "match": "*CrOS x86_64*",
+      "lite": false,
+      "standard": false,
+      "inherits": "ChromeOS",
+      "properties": {
+        "Browser_Bits": 64,
+        "Platform_Bits": 64
+      }
+    },
+    "ChromeOS_x64_fake_windows": {
+      "match": "*Windows x86_64*",
       "lite": false,
       "standard": false,
       "inherits": "ChromeOS",
