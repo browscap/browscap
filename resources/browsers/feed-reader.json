@@ -26,6 +26,15 @@
     "lite": false,
     "standard": true
   },
+  "feedspot": {
+    "type": "feed-reader",
+    "properties": {
+      "Browser": "Feedspot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "quite rss": {
     "type": "feed-reader",
     "properties": {

@@ -25,11 +25,30 @@
           "browser": "hatena bookmark"
         },
         {
+          "match": "Hatena::Bookmark/*",
+          "browser": "hatena::bookmark"
+        },
+        {
+          "match": "HatenaBookmark/4.0*",
+          "browser": "hatena::bookmark",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "HatenaBookmark/*",
+          "browser": "hatena::bookmark"
+        },
+        {
           "match": "Hatena RSS/*",
           "browser": "hatena rss"
         },
         {
           "match": "Hatena::Crawler/*",
+          "browser": "hatena crawler"
+        },
+        {
+          "match": "Hatena::Russia::Crawler/*",
           "browser": "hatena crawler"
         },
         {
@@ -54,6 +73,51 @@
           "properties": {
             "Version": "2.0"
           }
+        },
+        {
+          "match": "Hatena Pagetitle Agent/1.0*",
+          "browser": "hatena pagetitle agent",
+          "properties": {
+            "Version": "1.0"
+          }
+        },
+        {
+          "match": "Hatena Pagetitle Agent/*",
+          "browser": "hatena pagetitle agent"
+        },
+        {
+          "match": "Hatena Star UserAgent/2*",
+          "browser": "hatena star useragent",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Hatena Star UserAgent*",
+          "browser": "hatena star useragent"
+        },
+        {
+          "match": "Hatena-Favicon2*",
+          "browser": "hatena favicon",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Hatena-Favicon*",
+          "browser": "hatena favicon"
+        },
+        {
+          "match": "Hatena::Fetcher*",
+          "browser": "hatena::fetcher"
+        },
+        {
+          "match": "Hatena::Scissors*",
+          "browser": "hatena::scissors"
+        },
+        {
+          "match": "Hatena::UserAgent*",
+          "browser": "hatena::useragent"
         }
       ]
     }

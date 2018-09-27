@@ -26,6 +26,17 @@
         },
         {
           "match": "DomainCrawler/*"
+        },
+        {
+          "match": "CipaCrawler/3.*",
+          "browser": "cipacrawler",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
+          "match": "CipaCrawler/*",
+          "browser": "cipacrawler"
         }
       ]
     }

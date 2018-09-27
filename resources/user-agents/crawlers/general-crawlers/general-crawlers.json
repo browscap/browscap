@@ -2023,6 +2023,66 @@
         {
           "match": "BLP_bbot/*",
           "browser": "bloomberg bot"
+        },
+        {
+          "match": "AngleSharp/*",
+          "browser": "anglesharp"
+        },
+        {
+          "match": "BUFF library*",
+          "browser": "buff library"
+        },
+        {
+          "match": "Companybook-Crawler*",
+          "browser": "companybook crawler"
+        },
+        {
+          "match": "LinqiaMetadataDownloaderBot/*",
+          "browser": "linqiametadatadownloaderbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Mappy/*",
+          "browser": "mappy"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Nimbostratus-Bot/*",
+          "browser": "nimbostratus bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; tracemyfile/*",
+          "browser": "tracemyfile"
+        },
+        {
+          "match": "NinjaBot/*",
+          "browser": "ninjabot"
+        },
+        {
+          "match": "SuperPagesUrlVerifyBot/*",
+          "browser": "superpagesurlverifybot"
+        },
+        {
+          "match": "The Knowledge AI*",
+          "browser": "the knowledge ai"
+        },
+        {
+          "match": "Upflow/*",
+          "browser": "upflow"
+        },
+        {
+          "match": "adstxtlab.com Crawler*",
+          "browser": "adstxtlab.com crawler"
+        },
+        {
+          "match": "bidswitchbot/*",
+          "browser": "bidswitchbot"
+        },
+        {
+          "match": "http://www.nominet.org.uk/privacypolicy*",
+          "browser": "nominet bot"
+        },
+        {
+          "match": "nanagogo-bot*",
+          "browser": "nanagogo-bot"
         }
       ]
     }

@@ -673,5 +673,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "poddirectory": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "poddirectory",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }

@@ -413,6 +413,17 @@
           "platforms": [
             "OSX"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; poddirectory/2.1*",
+          "browser": "poddirectory",
+          "properties": {
+            "Version": "2.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; poddirectory/*",
+          "browser": "poddirectory"
         }
       ]
     }
