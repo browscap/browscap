@@ -1,6 +1,6 @@
 {
   "division": "2345 Browser #MAJORVER#.#MINORVER#",
-  "versions": ["9.5", "9.3", "9.1", "8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
+  "versions": ["9.6", "9.5", "9.3", "9.1", "8.9", "8.7", "8.5", "8.4", "7.5", "6.7"],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
