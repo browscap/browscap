@@ -7,8 +7,8 @@
     {
       "userAgent": "Vivo Browser Generic",
       "browser": "vivo",
-      "engine": "Blink",
       "platform": "Android",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",

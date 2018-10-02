@@ -1,13 +1,13 @@
 {
-    "Freelander PX2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "PX2",
-            "Device_Code_Name": "PX2",
-            "Device_Maker": "Freelander",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Freelander"
-        },
-        "standard": true
-    }
+  "Freelander PX2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "PX2",
+      "Device_Code_Name": "PX2",
+      "Device_Maker": "Freelander",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Freelander"
+    },
+    "standard": true
+  }
 }

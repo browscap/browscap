@@ -4,6 +4,7 @@ vendor/
 .settings
 .project
 .php_cs.cache
+.phpunit.result.cache
 composer.phar
 test*.txt
 /coverage

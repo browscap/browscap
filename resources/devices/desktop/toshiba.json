@@ -1,13 +1,13 @@
 {
-    "Toshiba CB35-C3300": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "Chromebook 2 - 2015 Edition",
-            "Device_Code_Name": "CB35-C3300",
-            "Device_Maker": "Toshiba",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "Toshiba"
-        },
-        "standard": true
-    }
+  "Toshiba CB35-C3300": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "Chromebook 2 - 2015 Edition",
+      "Device_Code_Name": "CB35-C3300",
+      "Device_Maker": "Toshiba",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Toshiba"
+    },
+    "standard": true
+  }
 }

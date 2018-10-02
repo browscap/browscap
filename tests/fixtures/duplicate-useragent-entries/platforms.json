@@ -1,27 +1,25 @@
 {
-  "platforms": {
-    "Platform1": {
-      "match": "*Platform1*",
-      "lite": true,
-      "standard": true,
-      "properties": {
-        "Platform": "Platform1",
-        "Platform_Description": "The first test platform",
-        "Platform_Bits": 0,
-        "Platform_Maker": "unknown",
-        "Win32": false
-      }
-    },
-    "Platform2": {
-      "match": "*Platform2*",
-      "lite": true,
-      "standard": true,
-      "properties": {
-        "Platform": "Platform2",
-        "Platform_Bits": 0,
-        "Platform_Maker": "unknown",
-        "Win32": false
-      }
+  "Platform1": {
+    "match": "*Platform1*",
+    "lite": true,
+    "standard": true,
+    "properties": {
+      "Platform": "Platform1",
+      "Platform_Description": "The first test platform",
+      "Platform_Bits": 0,
+      "Platform_Maker": "unknown",
+      "Win32": false
+    }
+  },
+  "Platform2": {
+    "match": "*Platform2*",
+    "lite": true,
+    "standard": true,
+    "properties": {
+      "Platform": "Platform2",
+      "Platform_Bits": 0,
+      "Platform_Maker": "unknown",
+      "Win32": false
     }
   }
 }

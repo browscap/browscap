@@ -17,7 +17,8 @@
           "match": "Mozilla/5.0 (#PLATFORM# Viera*) applewebkit* (*khtml*like*gecko*) Viera/* Chrome/*Safari/*",
           "engine": "WebKit",
           "platforms": [
-            "FreeBSD", "Linux"
+            "FreeBSD",
+            "Linux"
           ]
         },
         {

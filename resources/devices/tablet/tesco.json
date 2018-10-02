@@ -1,13 +1,13 @@
 {
-    "Tesco Hudl 2": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Hudl 2",
-            "Device_Code_Name": "Hudl 2",
-            "Device_Maker": "Tesco",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Tesco"
-        },
-        "standard": true
-    }
+  "Tesco Hudl 2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Hudl 2",
+      "Device_Code_Name": "Hudl 2",
+      "Device_Maker": "Tesco",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tesco"
+    },
+    "standard": true
+  }
 }

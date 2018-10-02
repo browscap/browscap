@@ -22,7 +22,7 @@ final class PlatformFactory
      */
     public function build(array $platformData, array $dataAllPlatforms, string $platformName) : Platform
     {
-        Assertion::isArray($platformData, 'each entry inside the "platforms" structure has to be an array');
+        Assertion::isArray($platformData, 'each entry has to be an array');
         Assertion::keyExists($platformData, 'lite', 'the value for "lite" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'standard', 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'match', 'the value for the "match" key is missing for the platform with the key "' . $platformName . '"');

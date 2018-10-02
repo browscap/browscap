@@ -1,13 +1,13 @@
 {
-    "Ferguson FBOX ATV": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "FBOX ATV",
-            "Device_Code_Name": "FBOX ATV",
-            "Device_Maker": "Ferguson sp. z o.o.",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Ferguson"
-        },
-        "standard": true
-    }
+  "Ferguson FBOX ATV": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "FBOX ATV",
+      "Device_Code_Name": "FBOX ATV",
+      "Device_Maker": "Ferguson sp. z o.o.",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Ferguson"
+    },
+    "standard": true
+  }
 }
