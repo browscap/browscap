@@ -1,13 +1,13 @@
 <?php
 declare(strict_types = 1);
-namespace Browscap\Command;
+namespace Browscap\Command\Helper;
 
 use JsonClass\Json;
 use Symfony\Component\Console\Helper\Helper;
 
 class Sorter extends Helper
 {
-    public function getName(): string
+    public function getName() : string
     {
         return 'sorter';
     }
