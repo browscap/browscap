@@ -46,7 +46,9 @@ final class ProcessorTest extends TestCase
      */
     public function testJsonStructure(string $fileName, array $expected) : void
     {
-        $coverage = $this->object->processFile($fileName, file_get_contents($this->resourceDir . $fileName), []);
+        /** @var string $content */
+        $content  = file_get_contents($this->resourceDir . $fileName);
+        $coverage = $this->object->processFile($fileName, $content, []);
 
         self::assertSame($expected['statementCount'], count($coverage['statementMap']));
         self::assertSame($expected['statementCount'], count($coverage['s']));
@@ -127,11 +129,9 @@ final class ProcessorTest extends TestCase
      */
     public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
     {
-        $coverage = $this->object->processFile(
-            $fileName,
-            file_get_contents($this->resourceDir . $fileName),
-            $coveredIds
-        );
+        /** @var string $content */
+        $content  = file_get_contents($this->resourceDir . $fileName);
+        $coverage = $this->object->processFile($fileName, $content, $coveredIds);
 
         self::assertSame($expected['s'], array_sum($coverage['s']));
         self::assertSame($expected['f'], array_sum($coverage['f']));

@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
+use JsonClass\Json;
 
 /**
  * this formatter is responsible to format the output into the "json" version of the browscap files
@@ -41,7 +42,7 @@ class JsonFormatter implements FormatterInterface
      */
     public function formatPropertyName(string $name) : string
     {
-        return json_encode($name);
+        return (new Json())->encode($name);
     }
 
     /**
@@ -58,7 +59,7 @@ class JsonFormatter implements FormatterInterface
     {
         switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = json_encode(trim((string) $value));
+                $valueOutput = (new Json())->encode(trim((string) $value));
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
@@ -73,14 +74,14 @@ class JsonFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = json_encode($this->propertyHolder->checkValueInArray($property, (string) $value));
+                    $valueOutput = (new Json())->encode($this->propertyHolder->checkValueInArray($property, (string) $value));
                 } catch (\InvalidArgumentException $ex) {
                     $valueOutput = '""';
                 }
 
                 break;
             default:
-                $valueOutput = json_encode($value);
+                $valueOutput = (new Json())->encode($value);
 
                 break;
         }

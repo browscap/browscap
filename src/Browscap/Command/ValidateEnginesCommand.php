@@ -42,9 +42,12 @@ class ValidateEnginesCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/engines.json';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $browserResourcePath = $resources . '/engines.json';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schemaStorage   = new SchemaStorage();
         $schemaValidator = new Validator\SchemaValidator(
@@ -77,13 +80,13 @@ class ValidateEnginesCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($input->getOption('resources'));
+        $finder->in($resources);
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            $json = $file->getContents();
 
             try {
                 $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);

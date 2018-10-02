@@ -5,9 +5,9 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
+use ExceptionalJSON\DecodeErrorException;
+use JsonClass\Json;
 use Psr\Log\LoggerInterface;
-use Seld\JsonLint\JsonParser;
-use Seld\JsonLint\ParsingException;
 
 class DataCollectionFactory
 {
@@ -137,7 +137,10 @@ class DataCollectionFactory
         foreach (array_keys($decodedFileContent) as $platformName) {
             $platformData = $decodedFileContent[$platformName];
 
-            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent, $platformName));
+            $this->collection->addPlatform(
+                (string) $platformName,
+                $platformFactory->build($platformData, $decodedFileContent, (string) $platformName)
+            );
         }
     }
 
@@ -159,7 +162,10 @@ class DataCollectionFactory
         foreach (array_keys($decodedFileContent) as $engineName) {
             $engineData = $decodedFileContent[$engineName];
 
-            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent, $engineName));
+            $this->collection->addEngine(
+                (string) $engineName,
+                $engineFactory->build($engineData, $decodedFileContent, (string) $engineName)
+            );
         }
     }
 
@@ -294,17 +300,17 @@ class DataCollectionFactory
 
         Assertion::string($fileContent);
 
-        if (preg_match('/[^ -~\s]/', $fileContent)) {
+        if (preg_match('/[^ -~\s]/', (string) $fileContent)) {
             throw new \RuntimeException('File "' . $filename . '" contains Non-ASCII-Characters.');
         }
 
-        $jsonParser = new JsonParser();
+        $json = new Json();
 
         try {
-            return $jsonParser->parse($fileContent, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
-        } catch (ParsingException $e) {
+            return $json->decode((string) $fileContent, true);
+        } catch (DecodeErrorException $e) {
             throw new \RuntimeException(
-                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']',
+                'File "' . $filename . '" had invalid JSON.',
                 0,
                 $e
             );

@@ -38,9 +38,12 @@ class RewriteCoreDivisionsCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/core';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $coreResourcePath = $resources . '/core';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/core-divisions.json');
 
@@ -58,12 +61,12 @@ class RewriteCoreDivisionsCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
+        $finder->in($coreResourcePath);
 
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            $json = $file->getContents();
 
             try {
                 $normalized = $normalizer->normalize($json);

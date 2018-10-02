@@ -49,7 +49,7 @@ class RewriteTestFixturesCommand extends Command
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            $json = $file->getContents();
 
             try {
                 $normalized = $normalizer->normalize($json);

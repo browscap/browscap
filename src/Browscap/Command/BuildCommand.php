@@ -55,14 +55,18 @@ class BuildCommand extends Command
 
         $logger->info('Build started.');
 
+        /** @var string $buildFolder */
         $buildFolder = $input->getOption('output');
+
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
         $dataCollectionFactory   = new DataCollectionFactory($logger);
 
         $buildGenerator = new BuildGenerator(
-            $input->getOption('resources'),
+            $resources,
             $buildFolder,
             $logger,
             $writerCollection,
@@ -79,7 +83,10 @@ class BuildCommand extends Command
             $createZip = false;
         }
 
-        $buildGenerator->run($input->getArgument('version'), $createZip);
+        /** @var string $version */
+        $version = $input->getArgument('version');
+
+        $buildGenerator->run($version, $createZip);
 
         $logger->info('Build done.');
 

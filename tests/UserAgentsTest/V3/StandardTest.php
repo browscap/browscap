@@ -51,7 +51,6 @@ class StandardTest extends TestCase
     private static $writer;
 
     /**
-     * @throws \BrowscapPHP\Exception
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */

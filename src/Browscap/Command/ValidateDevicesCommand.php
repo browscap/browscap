@@ -42,9 +42,12 @@ class ValidateDevicesCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/devices';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $browserResourcePath = $resources . '/devices';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schemaStorage   = new SchemaStorage();
         $schemaValidator = new Validator\SchemaValidator(
@@ -83,7 +86,7 @@ class ValidateDevicesCommand extends Command
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            $json = $file->getContents();
 
             try {
                 $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);

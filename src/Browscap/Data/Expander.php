@@ -69,7 +69,7 @@ class Expander
                         'tried to add section "%s" for division "%s" in file "%s", but this was already added before',
                         $ua,
                         $division->getName(),
-                        $division->getFileName()
+                        (string) realpath((string) $division->getFileName())
                     )
                 );
             }
@@ -576,15 +576,8 @@ class Expander
 
         $completeVersions = explode('.', $properties['Version'], 2);
 
-        $properties['MajorVer'] = (string) $completeVersions[0];
-
-        if (isset($completeVersions[1])) {
-            $minorVersion = (string) $completeVersions[1];
-        } else {
-            $minorVersion = '0';
-        }
-
-        $properties['MinorVer'] = $minorVersion;
+        $properties['MajorVer'] = $completeVersions[0];
+        $properties['MinorVer'] = $completeVersions[1] ?? '0';
 
         return $properties;
     }

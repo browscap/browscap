@@ -58,6 +58,8 @@ class DataCollection
 
     /**
      * @param LoggerInterface $logger
+     *
+     * @throws \Exception
      */
     public function __construct(LoggerInterface $logger)
     {

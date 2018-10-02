@@ -1,8 +1,22 @@
 parameters:
+  includes:
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - vendor/phpstan/phpstan-phpunit/rules.neon
+    - vendor/pepakriz/phpstan-exception-rules/extension.neon
+    - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+    - vendor/phpstan/phpstan-beberlei-assert/extension.neon
+  parameters:
+    exceptionRules:
+      reportUnusedCatchesOfUncheckedExceptions: false
+      uncheckedExceptions: []
   excludes_analyse:
     - */tests/*/data/*
     - */V3/*Test.php
   ignoreErrors:
-    - '~Parameter #2 \$sort_order of function array_multisort is passed by reference, so it expects variables only.~'
-    - '~Parameter #3 \$sort_flags of function array_multisort is passed by reference, so it expects variables only.~'
+    - '~is not subtype of Throwable~'
+    - '~expects string, Exception given~'
+    - '~expects string, Twig_Error_Loader|Twig_Error_Runtime|Twig_Error_Syntax given~'
+    - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
+    - '~Result of && is always false~'
     - '~MockObject~'
