@@ -132,15 +132,12 @@ class DataCollectionFactory
     {
         $decodedFileContent = $this->loadFile($filename);
 
-        Assertion::keyExists($decodedFileContent, 'platforms', 'required "platforms" structure is missing');
-        Assertion::isArray($decodedFileContent['platforms'], 'required "platforms" structure has to be an array');
-
         $platformFactory = new PlatformFactory();
 
-        foreach (array_keys($decodedFileContent['platforms']) as $platformName) {
-            $platformData = $decodedFileContent['platforms'][$platformName];
+        foreach (array_keys($decodedFileContent) as $platformName) {
+            $platformData = $decodedFileContent[$platformName];
 
-            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent['platforms'], $platformName));
+            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent, $platformName));
         }
     }
 
@@ -157,15 +154,12 @@ class DataCollectionFactory
     {
         $decodedFileContent = $this->loadFile($filename);
 
-        Assertion::keyExists($decodedFileContent, 'engines', 'required "engines" structure is missing');
-        Assertion::isArray($decodedFileContent['engines'], 'required "engines" structure has to be an array');
-
         $engineFactory = new EngineFactory();
 
-        foreach (array_keys($decodedFileContent['engines']) as $engineName) {
-            $engineData = $decodedFileContent['engines'][$engineName];
+        foreach (array_keys($decodedFileContent) as $engineName) {
+            $engineData = $decodedFileContent[$engineName];
 
-            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent['engines'], $engineName));
+            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent, $engineName));
         }
     }
 

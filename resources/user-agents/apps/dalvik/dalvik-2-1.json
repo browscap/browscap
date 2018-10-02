@@ -251,8 +251,7 @@
           "platforms": [
             "Android_7_0",
             "Android_6_0",
-            "Android_5_1",
-            "Android_5_0"
+            "Android_5_1", "Android_5_0"
           ]
         },
         {
@@ -456,8 +455,7 @@
             "SGP311": "Sony SGP311"
           },
           "platforms": [
-            "Android_5_1",
-            "Android_5_0"
+            "Android_5_1", "Android_5_0"
           ]
         },
         {

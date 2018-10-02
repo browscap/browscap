@@ -1,24 +1,24 @@
 {
-    "ShySky X96": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "X96",
-            "Device_Code_Name": "X96",
-            "Device_Maker": "ShySky",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "ShySky"
-        },
-        "standard": true
+  "ShySky X96": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "X96",
+      "Device_Code_Name": "X96",
+      "Device_Maker": "ShySky",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "ShySky"
     },
-    "ShySky X96 mini": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "X96 mini",
-            "Device_Code_Name": "X96 mini",
-            "Device_Maker": "ShySky",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "ShySky"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "ShySky X96 mini": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "X96 mini",
+      "Device_Code_Name": "X96 mini",
+      "Device_Maker": "ShySky",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "ShySky"
+    },
+    "standard": true
+  }
 }

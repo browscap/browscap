@@ -1,13 +1,13 @@
 {
-    "Edal KM8 Pro": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "KM8 Pro",
-            "Device_Code_Name": "KM8 Pro",
-            "Device_Maker": "Edal",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Edal"
-        },
-        "standard": true
-    }
+  "Edal KM8 Pro": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "KM8 Pro",
+      "Device_Code_Name": "KM8 Pro",
+      "Device_Maker": "Edal",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Edal"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Bluebiit 2RockeR+": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "2RockeR+",
-            "Device_Code_Name": "2RockeR+",
-            "Device_Maker": "Bluebiit",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Bluebiit"
-        },
-        "standard": true
-    }
+  "Bluebiit 2RockeR+": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "2RockeR+",
+      "Device_Code_Name": "2RockeR+",
+      "Device_Maker": "Bluebiit",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Bluebiit"
+    },
+    "standard": true
+  }
 }

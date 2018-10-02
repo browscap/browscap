@@ -32,13 +32,13 @@
             "LYF?F81E": "Lyf F81E"
           },
           "platforms": [
-              "KaiOS_2_0"
+            "KaiOS_2_0"
           ]
         },
         {
           "match": "Mozilla/5.0 (Mobile; *rv:#MAJORVER#.#MINORVER#*)*Gecko/#MAJORVER#.#MINORVER#*Firefox/#MAJORVER#.#MINORVER##PLATFORM#",
           "platforms": [
-              "KaiOS_2_0"
+            "KaiOS_2_0"
           ]
         }
       ]

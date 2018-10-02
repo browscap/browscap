@@ -1,13 +1,13 @@
 {
-    "WeTek Play 2": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Play 2",
-            "Device_Code_Name": "Play 2",
-            "Device_Maker": "WeTek",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "WeTek"
-        },
-        "standard": true
-    }
+  "WeTek Play 2": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Play 2",
+      "Device_Code_Name": "Play 2",
+      "Device_Maker": "WeTek",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "WeTek"
+    },
+    "standard": true
+  }
 }

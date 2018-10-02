@@ -1,13 +1,13 @@
 {
-    "TizzBird N1": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "N1",
-            "Device_Code_Name": "N1",
-            "Device_Maker": "TizzBird",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "TizzBird"
-        },
-        "standard": true
-    }
+  "TizzBird N1": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "N1",
+      "Device_Code_Name": "N1",
+      "Device_Maker": "TizzBird",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "TizzBird"
+    },
+    "standard": true
+  }
 }

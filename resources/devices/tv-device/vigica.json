@@ -1,24 +1,24 @@
 {
-    "VIGICA MX9": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MX9",
-            "Device_Code_Name": "MX9",
-            "Device_Maker": "VIGICA",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "VIGICA"
-        },
-        "standard": true
+  "VIGICA MX9": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MX9",
+      "Device_Code_Name": "MX9",
+      "Device_Maker": "VIGICA",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "VIGICA"
     },
-    "VIGICA MX9 Pro": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MX9 Pro",
-            "Device_Code_Name": "MX9 Pro",
-            "Device_Maker": "VIGICA",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "VIGICA"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "VIGICA MX9 Pro": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MX9 Pro",
+      "Device_Code_Name": "MX9 Pro",
+      "Device_Maker": "VIGICA",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "VIGICA"
+    },
+    "standard": true
+  }
 }

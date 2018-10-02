@@ -1,13 +1,13 @@
 {
-    "GDIPPO P706": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "P706",
-            "Device_Code_Name": "P706",
-            "Device_Maker": "GDIPPO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "GDIPPO"
-        },
-        "standard": true
-    }
+  "GDIPPO P706": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "P706",
+      "Device_Code_Name": "P706",
+      "Device_Maker": "GDIPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "GDIPPO"
+    },
+    "standard": true
+  }
 }

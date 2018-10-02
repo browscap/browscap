@@ -7,8 +7,8 @@
     {
       "userAgent": "ShopKeep App Generic for Android",
       "browser": "shopkeep",
-      "engine": "WebKit",
       "platform": "Android_H",
+      "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
@@ -32,8 +32,8 @@
     {
       "userAgent": "ShopKeep App Generic for iOS",
       "browser": "shopkeep",
-      "engine": "WebKit",
       "platform": "iOS_J",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
