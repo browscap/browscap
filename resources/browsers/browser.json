@@ -549,6 +549,15 @@
     "lite": false,
     "standard": true
   },
+  "deg-degan": {
+    "type": "browser",
+    "properties": {
+      "Browser": "deg-degan Browser",
+      "Browser_Maker": "Coc Coc Company Limited"
+    },
+    "lite": false,
+    "standard": true
+  },
   "diglo": {
     "type": "browser",
     "properties": {
