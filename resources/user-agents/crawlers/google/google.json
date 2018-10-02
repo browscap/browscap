@@ -117,6 +117,10 @@
         {
           "match": "Mozilla/5.0 (Linux; Android * Build/*) applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* Chrome-Lighthouse",
           "browser": "google lighthouse"
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Chrome-Lighthouse",
+          "browser": "google lighthouse"
         }
       ]
     }
