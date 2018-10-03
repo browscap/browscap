@@ -15,6 +15,9 @@ class Sorter extends Helper
     /**
      * @param string $json
      *
+     * @throws \ExceptionalJSON\DecodeErrorException when the decode operation fails
+     * @throws \ExceptionalJSON\EncodeErrorException When the encode operation fails
+     *
      * @return string
      */
     public function sort(string $json) : string

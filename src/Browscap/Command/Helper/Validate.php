@@ -46,8 +46,7 @@ class Validate extends Helper
             return true;
         }
 
-        $failed = false;
-
+        $failed     = false;
         $jsonParser = new JsonParser();
 
         $finder = new Finder();
