@@ -4,10 +4,10 @@ namespace Browscap\Command\Helper;
 
 use ExceptionalJSON\DecodeErrorException;
 use ExceptionalJSON\EncodeErrorException;
+use Localheinz\Json\Normalizer;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Console\Helper\Helper;
 use Symfony\Component\Finder\Finder;
-use Localheinz\Json\Normalizer;
 
 class Rewrite extends Helper
 {
@@ -17,10 +17,10 @@ class Rewrite extends Helper
     }
 
     /**
-     * @param \Psr\Log\LoggerInterface              $logger
-     * @param string                                $resources
-     * @param string                                $schema
-     * @param bool                                  $sort
+     * @param \Psr\Log\LoggerInterface $logger
+     * @param string                   $resources
+     * @param string                   $schema
+     * @param bool                     $sort
      */
     public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false) : void
     {
@@ -48,6 +48,7 @@ class Rewrite extends Helper
                 $json = $file->getContents();
             } catch (\RuntimeException $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not readable', $file->getPathname()), 0, $e));
+
                 continue;
             }
 
@@ -59,6 +60,7 @@ class Rewrite extends Helper
                     $json = $sorterHelper->sort($json);
                 } catch (DecodeErrorException | EncodeErrorException $e) {
                     $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+
                     continue;
                 }
             }
@@ -67,6 +69,7 @@ class Rewrite extends Helper
                 $normalized = $normalizer->normalize($json);
             } catch (\InvalidArgumentException $e) {
                 $logger->critical(new \Exception(sprintf('an error occured while nomalizing file "%s"', $file->getPathname()), 0, $e));
+
                 continue;
             }
 

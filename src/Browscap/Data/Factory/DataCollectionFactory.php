@@ -69,14 +69,18 @@ class DataCollectionFactory
      */
     public function createDataCollection(string $resourceFolder) : DataCollection
     {
-        $iterator = static function(string $directory, callable $function) {
+        $iterator = static function (string $directory, LoggerInterface $logger, callable $function) : void {
+            if (!file_exists($directory)) {
+                throw new \RuntimeException('Directory "' . $directory . '" does not exist.');
+            }
+
             foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($directory)) as $file) {
                 /** @var $file \SplFileInfo */
                 if (!$file->isFile() || 'json' !== $file->getExtension()) {
                     continue;
                 }
 
-                $this->logger->debug('add file ' . $file->getPathname());
+                $logger->debug('add file ' . $file->getPathname());
                 $function($file->getPathname());
             }
         };
@@ -85,7 +89,8 @@ class DataCollectionFactory
 
         $iterator(
             $resourceFolder . '/platforms',
-            function($file) {
+            $this->logger,
+            function ($file) : void {
                 $this->addPlatformsFile($file);
             }
         );
@@ -94,7 +99,8 @@ class DataCollectionFactory
 
         $iterator(
             $resourceFolder . '/engines',
-            function($file) {
+            $this->logger,
+            function ($file) : void {
                 $this->addEnginesFile($file);
             }
         );
@@ -107,21 +113,24 @@ class DataCollectionFactory
 
         $iterator(
             $resourceFolder . '/devices',
-            function($file) {
+            $this->logger,
+            function ($file) : void {
                 $this->addDevicesFile($file);
             }
         );
 
         $iterator(
             $resourceFolder . '/browsers',
-            function($file) {
+            $this->logger,
+            function ($file) : void {
                 $this->addBrowserFile($file);
             }
         );
 
         $iterator(
             $resourceFolder . '/user-agents',
-            function($file) {
+            $this->logger,
+            function ($file) : void {
                 $this->addSourceFile($file);
             }
         );

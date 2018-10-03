@@ -8,8 +8,8 @@ use Localheinz\Json\Normalizer\Validator;
 use Psr\Log\LoggerInterface;
 use Seld\JsonLint\JsonParser;
 use Seld\JsonLint\ParsingException;
-use Symfony\Component\Finder\Finder;
 use Symfony\Component\Console\Helper\Helper;
+use Symfony\Component\Finder\Finder;
 
 class Validate extends Helper
 {
@@ -68,6 +68,7 @@ class Validate extends Helper
             } catch (\RuntimeException $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not readable', $file->getPathname()), 0, $e));
                 $failed = true;
+
                 continue;
             }
 

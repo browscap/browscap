@@ -17,10 +17,11 @@ class DataCollectionFactoryTest extends TestCase
     private $object;
 
     /**
-     * @throws \ReflectionException
+     * @throws \Exception
      */
     public function setUp() : void
     {
+        /** @var Logger $logger */
         $logger       = $this->createMock(Logger::class);
         $this->object = new DataCollectionFactory($logger);
     }
@@ -30,12 +31,10 @@ class DataCollectionFactoryTest extends TestCase
      *
      * @throws \Assert\AssertionFailedException
      * @throws \ReflectionException
+     * @throws \Exception
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $this->expectException(RuntimeException::class);
-        $this->expectExceptionMessage('File "./platforms.json" does not exist.');
-
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
@@ -48,6 +47,9 @@ class DataCollectionFactoryTest extends TestCase
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage('Directory "./platforms" does not exist.');
 
         $this->object->createDataCollection('.');
     }
@@ -87,7 +89,7 @@ class DataCollectionFactoryTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures');
+        $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures/build-ok');
 
         self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
