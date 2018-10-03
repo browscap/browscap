@@ -74,6 +74,8 @@ class DataCollectionFactory
                 throw new \RuntimeException('Directory "' . $directory . '" does not exist.');
             }
 
+            $addedFiles = 0;
+
             foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($directory)) as $file) {
                 /** @var $file \SplFileInfo */
                 if (!$file->isFile() || 'json' !== $file->getExtension()) {
@@ -82,6 +84,11 @@ class DataCollectionFactory
 
                 $logger->debug('add file ' . $file->getPathname());
                 $function($file->getPathname());
+                ++$addedFiles;
+            }
+
+            if (!$addedFiles) {
+                throw new \RuntimeException('Directory "' . $directory . '" was empty.');
             }
         };
 

@@ -124,4 +124,64 @@ class DataCollectionFactoryTest extends TestCase
             __DIR__ . '/../../../fixtures/duplicate-browser-entries'
         );
     }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfMissingFiles() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/missing-file';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" does not exist.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfInvalidChars() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/non-ascii-chars';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" contains Non-ASCII-Characters.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfInvalidJson() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/invalid-json';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" had invalid JSON.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfEmptyDirectory() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/empty-directory';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('Directory "%s/browsers" was empty.', $path));
+
+        $this->object->createDataCollection($path);
+    }
 }
