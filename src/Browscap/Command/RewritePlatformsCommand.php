@@ -3,9 +3,6 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use ExceptionalJSON\DecodeErrorException;
-use ExceptionalJSON\EncodeErrorException;
-use JsonClass\Json;
 use Localheinz\Json\Normalizer;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -44,54 +41,16 @@ class RewritePlatformsCommand extends Command
         /** @var string $resources */
         $resources = $input->getOption('resources');
 
+        $platformsResourcePath = $resources . '/platforms';
+
         $logger->info('Resource folder: ' . $resources);
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/platforms.json');
 
-        $normalizer = new Normalizer\ChainNormalizer(
-            new Normalizer\SchemaNormalizer($schema),
-            new Normalizer\JsonEncodeNormalizer(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
-            new Normalizer\IndentNormalizer('  '),
-            new Normalizer\FinalNewLineNormalizer()
-        );
+        /** @var \Browscap\Command\Helper\Rewrite $rewriteHelper */
+        $rewriteHelper = $this->getHelper('rewrite');
 
-        $finder = new Finder();
-        $finder->files();
-        $finder->name('platforms.json');
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($resources);
-
-        $jsonClass = new Json();
-
-        foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = $file->getContents();
-
-            try {
-                $platforms = $jsonClass->decode($json, true);
-            } catch (DecodeErrorException $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
-
-                continue;
-            }
-
-            ksort($platforms['platforms']);
-
-            try {
-                $normalized = $normalizer->normalize($jsonClass->encode($platforms));
-            } catch (EncodeErrorException $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
-
-                continue;
-            }
-
-            file_put_contents($file->getPathname(), $normalized);
-        }
+        $rewriteHelper->rewrite($logger, $platformsResourcePath, $schema, true);
 
         $output->writeln('Done');
 

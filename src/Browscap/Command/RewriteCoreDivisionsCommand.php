@@ -47,37 +47,10 @@ class RewriteCoreDivisionsCommand extends Command
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/core-divisions.json');
 
-        $normalizer = new Normalizer\ChainNormalizer(
-            new Normalizer\SchemaNormalizer($schema),
-            new Normalizer\JsonEncodeNormalizer(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
-            new Normalizer\IndentNormalizer('  '),
-            new Normalizer\FinalNewLineNormalizer()
-        );
+        /** @var \Browscap\Command\Helper\Rewrite $rewriteHelper */
+        $rewriteHelper = $this->getHelper('rewrite');
 
-        $finder = new Finder();
-        $finder->files();
-        $finder->name('*.json');
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($coreResourcePath);
-
-        foreach ($finder as $file) {
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = $file->getContents();
-
-            try {
-                $normalized = $normalizer->normalize($json);
-            } catch (\Throwable $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
-
-                continue;
-            }
-
-            file_put_contents($file->getPathname(), $normalized);
-        }
+        $rewriteHelper->rewrite($logger, $coreResourcePath, $schema, false);
 
         $output->writeln('Done');
 

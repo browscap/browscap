@@ -43,6 +43,8 @@ class DataCollectionFactory
 
     /**
      * @param LoggerInterface $logger
+     *
+     * @throws \Exception
      */
     public function __construct(LoggerInterface $logger)
     {
@@ -67,11 +69,35 @@ class DataCollectionFactory
      */
     public function createDataCollection(string $resourceFolder) : DataCollection
     {
+        $iterator = static function(string $directory, callable $function) {
+            foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($directory)) as $file) {
+                /** @var $file \SplFileInfo */
+                if (!$file->isFile() || 'json' !== $file->getExtension()) {
+                    continue;
+                }
+
+                $this->logger->debug('add file ' . $file->getPathname());
+                $function($file->getPathname());
+            }
+        };
+
         $this->logger->debug('add platform file');
-        $this->addPlatformsFile($resourceFolder . '/platforms.json');
+
+        $iterator(
+            $resourceFolder . '/platforms',
+            function($file) {
+                $this->addPlatformsFile($file);
+            }
+        );
 
         $this->logger->debug('add engine file');
-        $this->addEnginesFile($resourceFolder . '/engines.json');
+
+        $iterator(
+            $resourceFolder . '/engines',
+            function($file) {
+                $this->addEnginesFile($file);
+            }
+        );
 
         $this->logger->debug('add file for default properties');
         $this->setDefaultProperties($resourceFolder . '/core/default-properties.json');
@@ -79,41 +105,26 @@ class DataCollectionFactory
         $this->logger->debug('add file for default browser');
         $this->setDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
-        $deviceDirectory = $resourceFolder . '/devices';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($deviceDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/devices',
+            function($file) {
+                $this->addDevicesFile($file);
             }
+        );
 
-            $this->logger->debug('add device file ' . $file->getPathname());
-            $this->addDevicesFile($file->getPathname());
-        }
-
-        $browserDirectory = $resourceFolder . '/browsers';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($browserDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/browsers',
+            function($file) {
+                $this->addBrowserFile($file);
             }
+        );
 
-            $this->logger->debug('add browser file ' . $file->getPathname());
-            $this->addBrowserFile($file->getPathname());
-        }
-
-        $uaSourceDirectory = $resourceFolder . '/user-agents';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($uaSourceDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/user-agents',
+            function($file) {
+                $this->addSourceFile($file);
             }
-
-            $this->logger->debug('add source file ' . $file->getPathname());
-            $this->addSourceFile($file->getPathname());
-        }
+        );
 
         return $this->collection;
     }

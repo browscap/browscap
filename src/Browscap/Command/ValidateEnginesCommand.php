@@ -45,64 +45,19 @@ class ValidateEnginesCommand extends Command
         /** @var string $resources */
         $resources = $input->getOption('resources');
 
-        $browserResourcePath = $resources . '/engines.json';
+        $enginesResourcePath = $resources . '/engines';
 
         $logger->info('Resource folder: ' . $resources);
 
-        $schemaStorage   = new SchemaStorage();
-        $schemaValidator = new Validator\SchemaValidator(
-            new \JsonSchema\Validator(
-                new Constraints\Factory(
-                    $schemaStorage,
-                    $schemaStorage->getUriRetriever()
-                )
-            )
-        );
+        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/engines.json');
 
-        $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/engines.json');
+        /** @var \Browscap\Command\Helper\Validate $validateHelper */
+        $validateHelper = $this->getHelper('validate');
 
-        try {
-            /** @var \stdClass $schema */
-            $schema = $schemaStorage->getSchema($schemaUri);
-        } catch (\Throwable $exception) {
-            $logger->critical('the schema file is invalid');
-
-            return 1;
-        }
-        $failed = false;
-
-        $jsonParser = new JsonParser();
-
-        $finder = new Finder();
-        $finder->files();
-        $finder->name($browserResourcePath);
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($resources);
-
-        foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = $file->getContents();
-
-            try {
-                $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
-
-                if (!$schemaValidator->isValid($decoded, $schema)) {
-                    $logger->critical(sprintf('file "%s" is not valid', $file->getPathname()));
-                    $failed = true;
-                }
-            } catch (ParsingException $e) {
-                $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
-                $failed = true;
-            }
-        }
+        $failed = $validateHelper->validate($logger, $enginesResourcePath, $schema);
 
         if (!$failed) {
-            $output->writeln('the engines file is valid');
+            $output->writeln('the engines files are valid');
         }
 
         return (int) $failed;

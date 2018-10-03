@@ -45,61 +45,16 @@ class ValidateDevicesCommand extends Command
         /** @var string $resources */
         $resources = $input->getOption('resources');
 
-        $browserResourcePath = $resources . '/devices';
+        $devicesResourcePath = $resources . '/devices';
 
         $logger->info('Resource folder: ' . $resources);
 
-        $schemaStorage   = new SchemaStorage();
-        $schemaValidator = new Validator\SchemaValidator(
-            new \JsonSchema\Validator(
-                new Constraints\Factory(
-                    $schemaStorage,
-                    $schemaStorage->getUriRetriever()
-                )
-            )
-        );
+        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/devices.json');
 
-        $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/devices.json');
+        /** @var \Browscap\Command\Helper\Validate $validateHelper */
+        $validateHelper = $this->getHelper('validate');
 
-        try {
-            /** @var \stdClass $schema */
-            $schema = $schemaStorage->getSchema($schemaUri);
-        } catch (\Throwable $exception) {
-            $logger->critical('the schema file is invalid');
-
-            return 1;
-        }
-        $failed = false;
-
-        $jsonParser = new JsonParser();
-
-        $finder = new Finder();
-        $finder->files();
-        $finder->name('*.json');
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
-
-        foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = $file->getContents();
-
-            try {
-                $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
-
-                if (!$schemaValidator->isValid($decoded, $schema)) {
-                    $logger->critical(sprintf('file "%s" is not valid', $file->getPathname()));
-                    $failed = true;
-                }
-            } catch (ParsingException $e) {
-                $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
-                $failed = true;
-            }
-        }
+        $failed = $validateHelper->validate($logger, $devicesResourcePath, $schema);
 
         if (!$failed) {
             $output->writeln('the devices files are valid');
