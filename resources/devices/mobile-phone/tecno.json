@@ -31,5 +31,82 @@
       "Device_Brand_Name": "Tecno"
     },
     "standard": false
+  },
+  "Tecno IN5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Camon I",
+      "Device_Code_Name": "IN5",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno Camon CX Air": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Camon CX Air",
+      "Device_Code_Name": "Camon CX Air",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno i3 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "i3 Pro",
+      "Device_Code_Name": "i3 Pro",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno LA7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pouvoir 2",
+      "Device_Code_Name": "LA7",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno IN2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Camon I",
+      "Device_Code_Name": "IN2",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno i3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "i3",
+      "Device_Code_Name": "i3",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
+  },
+  "Tecno K7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Spark",
+      "Device_Code_Name": "K7",
+      "Device_Maker": "Tecno",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Tecno"
+    },
+    "standard": false
   }
 }

@@ -669,5 +669,27 @@
       "Device_Brand_Name": "Alcatel"
     },
     "standard": false
+  },
+  "Alcatel 8050D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Touch Pixi 4(6)",
+      "Device_Code_Name": "8050D",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": false
+  },
+  "Alcatel 6070K": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Idol 4S",
+      "Device_Code_Name": "6070K",
+      "Device_Maker": "Alcatel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Alcatel"
+    },
+    "standard": false
   }
 }

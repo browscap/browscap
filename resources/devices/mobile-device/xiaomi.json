@@ -1,0 +1,13 @@
+{
+    "Xiaomi Amazfit A1603": {
+        "type": "mobile-device",
+        "properties": {
+            "Device_Name": "Amazfit A1603",
+            "Device_Code_Name": "Amazfit A1603",
+            "Device_Maker": "Xiaomi Tech",
+            "Device_Pointing_Method": "touchscreen",
+            "Device_Brand_Name": "Xiaomi"
+        },
+        "standard": true
+    }
+}

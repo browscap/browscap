@@ -30,6 +30,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "Redmi Note 5 pro": "Xiaomi Redmi Note 5 Pro"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "ATU-L22": "Huawei ATU-L22",
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
             "Pixel": "Google Pixel",
@@ -42,6 +52,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "F5321": "Sony F5321"
+          },
+          "platforms": [
+            "Android_8_0",
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "CPH1717": "OPPO CPH1717",
+            "Redmi Note 5": "Xiaomi Redmi Note 5",
             "TA-1021": "Nokia TA-1021",
             "TA-1053": "Nokia TA-1053"
           },
@@ -77,11 +99,11 @@
             "4G-Universal version": "Voyo i8Max 4G",
             "AGS-L09": "Huawei AGS-L09",
             "E5823": "Sony E5823",
-            "F5321": "Sony F5321",
             "PRA-LX1": "Huawei PRA-LX1",
             "Pixel C": "Google Pixel C",
             "SM-G935F": "Samsung SM-G935F",
             "SM-G950F": "Samsung SM-G950F",
+            "SM-J701F": "Samsung SM-J701F",
             "SM-T820": "Samsung SM-T820"
           },
           "platforms": [
@@ -101,10 +123,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "Acer One 7": "Acer One 7",
             "ALE-L21*": "Huawei ALE-L21",
+            "Coolpad 3505I": "Coolpad 3505I",
+            "HTC Desire 626*": "HTC Desire 626",
+            "M1": "Meizu M1",
             "Micromax Q409": "Micromax Q409",
             "PS8106PG": "Digma PS8106PG",
-            "Redmi 3S": "Xiaomi Redmi 3S"
+            "QMobile E1": "QMobile E1",
+            "Redmi 3S": "Xiaomi Redmi 3S",
+            "vivo 1603": "vivo Y55L"
           },
           "platforms": [
             "Android_6_0"
@@ -157,9 +185,14 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "A33fw": "OPPO A33fw",
             "A8-50LC": "Lenovo A8-50LC",
+            "itel it1408": "Itel IT1408",
             "Micromax Q332": "Micromax Q332",
             "MZ-MX5": "Meizu MX5",
+            "SM-J105F": "Samsung SM-J105F",
+            "SM-J110F": "Samsung SM-J110F",
+            "SM-J200G": "Samsung SM-J200G",
             "SM-J320F*": "Samsung SM-J320F",
             "SM-J320M": "Samsung SM-J320M",
             "SM-T817A": "Samsung SM-T817A"
@@ -172,7 +205,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 5*": "LG Nexus 5",
-            "SM-T337V": "Samsung SM-T337V"
+            "SM-T337V": "Samsung SM-T337V",
+            "vivo Y51": "vivo Y51"
           },
           "platforms": [
             "Android_5_1", "Android_5_0"

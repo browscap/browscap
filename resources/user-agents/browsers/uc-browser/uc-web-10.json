@@ -31,6 +31,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
             "HTC One M9": "HTC 0PJA2",
+            "Lenovo K50a40": "Lenovo K50a40",
             "XT1068": "Motorola XT1068"
           },
           "platforms": [
@@ -52,6 +53,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "3600I": "Coolpad 3600I",
             "SM-A5000": "Samsung SM-A5000",
             "SM-A500F": "Samsung SM-A500F",
             "SM-A500FU*": "Samsung SM-A500FU",
@@ -71,7 +73,8 @@
             "Micromax E481": "Micromax E481",
             "Micromax Q392": "Micromax Q392",
             "Micromax Q413": "Micromax Q413",
-            "XT1021": "Motorola XT1021"
+            "XT1021": "Motorola XT1021",
+            "vivo Y21": "vivo Y21"
           },
           "platforms": [
             "Android_5_1"
@@ -128,6 +131,7 @@
             "BQ 7056G": "BQ 7056G",
             "Coolpad 8297-T01": "Coolpad 8297-T01",
             "Coolpad 8675": "Coolpad 8675",
+            "Coolpad Y82-520": "Coolpad Y82-520",
             "E380": "Acer E380",
             "GT-I9105P": "Samsung GT-I9105P",
             "HUAWEI P7-L09": "Huawei P7-L09",
@@ -436,6 +440,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "devices": {
+            "SM-G570F": "Samsung SM-G570F"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
             "GT-P5200": "Samsung GT-P5200"
           },
           "platforms": [
@@ -492,6 +506,16 @@
           "engine": "U2",
           "platforms": [
             "Android"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#* U2/*",
+          "engine": "U2",
+          "devices": {
+            "Redmi_Note_5A": "Xiaomi Redmi Note 5A"
+          },
+          "platforms": [
+            "Android_E_7_1"
           ]
         },
         {

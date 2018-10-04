@@ -20,5 +20,82 @@
       "Device_Brand_Name": "Infinix"
     },
     "standard": false
+  },
+  "Infinix Hot 4 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hot 4 Pro",
+      "Device_Code_Name": "Hot 4 Pro",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X606B": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hot 6",
+      "Device_Code_Name": "X606B",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X573": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hot S3",
+      "Device_Code_Name": "X573",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X608": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hot 6 Pro",
+      "Device_Code_Name": "X608",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X559C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hot 5 Lite Dual SIM",
+      "Device_Code_Name": "X559C",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X5515F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart 2",
+      "Device_Code_Name": "X5515F",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
+  },
+  "Infinix X552": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zero 3",
+      "Device_Code_Name": "X552",
+      "Device_Maker": "Infinix",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Infinix"
+    },
+    "standard": false
   }
 }

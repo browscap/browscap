@@ -1,0 +1,13 @@
+{
+  "LeEco Le X526": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Le X526",
+      "Device_Code_Name": "Le X526",
+      "Device_Maker": "LeEco",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LeEco"
+    },
+    "standard": true
+  }
+}

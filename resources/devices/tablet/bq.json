@@ -42,5 +42,16 @@
       "Device_Brand_Name": "BQ"
     },
     "standard": true
+  },
+  "BQ Edison 3": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Edison 3",
+      "Device_Code_Name": "Edison 3",
+      "Device_Maker": "BQ",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BQ"
+    },
+    "standard": true
   }
 }

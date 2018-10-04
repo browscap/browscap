@@ -1,0 +1,13 @@
+{
+  "Comio S1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S1",
+      "Device_Code_Name": "S1",
+      "Device_Maker": "Comio",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Comio"
+    },
+    "standard": false
+  }
+}

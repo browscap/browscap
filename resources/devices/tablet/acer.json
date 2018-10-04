@@ -405,5 +405,16 @@
       "Device_Brand_Name": "Acer"
     },
     "standard": true
+  },
+  "Acer One 7": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "One 7",
+      "Device_Code_Name": "One 7",
+      "Device_Maker": "Acer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Acer"
+    },
+    "standard": true
   }
 }

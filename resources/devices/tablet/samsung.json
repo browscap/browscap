@@ -1318,5 +1318,38 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": true
+  },
+  "Samsung SM-T385L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab A 8.0 LTE (2017)",
+      "Device_Code_Name": "SM-T385L",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T385": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab A 8.0 LTE (2017)",
+      "Device_Code_Name": "SM-T385",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-J100MU": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy J1 4G",
+      "Device_Code_Name": "SM-J100MU",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
   }
 }

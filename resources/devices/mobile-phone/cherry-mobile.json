@@ -1,0 +1,13 @@
+{
+  "Cherry Mobile Flare HD Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Flare HD Max",
+      "Device_Code_Name": "Flare HD Max",
+      "Device_Maker": "Cherry Mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Cherry Mobile"
+    },
+    "standard": false
+  }
+}

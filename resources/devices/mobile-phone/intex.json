@@ -86,5 +86,38 @@
       "Device_Brand_Name": "Intex"
     },
     "standard": false
+  },
+  "Intex Aqua Lions 3G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Lions 3G",
+      "Device_Code_Name": "Aqua Lions 3G",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
+    },
+    "standard": false
+  },
+  "Intex Aqua Supreme+": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Supreme+",
+      "Device_Code_Name": "Aqua Supreme+",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
+    },
+    "standard": false
+  },
+  "Intex Aqua Life II": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Aqua Life II",
+      "Device_Code_Name": "Aqua Life II",
+      "Device_Maker": "Intex",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Intex"
+    },
+    "standard": false
   }
 }

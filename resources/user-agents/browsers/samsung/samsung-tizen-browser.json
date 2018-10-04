@@ -44,7 +44,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
-            "SM-Z200Y": "Samsung SM-Z200Y"
+            "SM-Z200Y": "Samsung SM-Z200Y",
+            "SM-Z300H": "Samsung SM-Z300H"
           },
           "platforms": [
             "Tizen_2_4"

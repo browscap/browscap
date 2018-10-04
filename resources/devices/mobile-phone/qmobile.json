@@ -9,5 +9,27 @@
       "Device_Brand_Name": "QMobile"
     },
     "standard": false
+  },
+  "QMobile E1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Noir",
+      "Device_Code_Name": "E1",
+      "Device_Maker": "QMobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "QMobile"
+    },
+    "standard": false
+  },
+  "QMobile S6s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Noir",
+      "Device_Code_Name": "S6s",
+      "Device_Maker": "QMobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "QMobile"
+    },
+    "standard": false
   }
 }

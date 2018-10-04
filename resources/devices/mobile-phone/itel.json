@@ -31,5 +31,27 @@
       "Device_Brand_Name": "Itel"
     },
     "standard": false
+  },
+  "Itel IT1408": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "IT1408",
+      "Device_Code_Name": "IT1408",
+      "Device_Maker": "Itel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Itel"
+    },
+    "standard": false
+  },
+  "Itel S32": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S32",
+      "Device_Code_Name": "S32",
+      "Device_Maker": "Itel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Itel"
+    },
+    "standard": false
   }
 }

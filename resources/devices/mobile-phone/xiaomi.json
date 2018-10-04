@@ -10,6 +10,17 @@
     },
     "standard": false
   },
+  "Xiaomi HM 1S": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "HM 1S",
+      "Device_Code_Name": "HM 1S",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
   "Xiaomi HM 1SC": {
     "type": "mobile-phone",
     "properties": {
@@ -197,6 +208,61 @@
     },
     "standard": false
   },
+  "Xiaomi Redmi 5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 5",
+      "Device_Code_Name": "Redmi 5",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 5A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 5A",
+      "Device_Code_Name": "Redmi 5A",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 5 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 5 Plus",
+      "Device_Code_Name": "Redmi 5 Plus",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 4A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 4A",
+      "Device_Code_Name": "Redmi 4A",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 4",
+      "Device_Code_Name": "Redmi 4",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
   "Xiaomi Redmi 3": {
     "type": "mobile-phone",
     "properties": {
@@ -241,11 +307,187 @@
     },
     "standard": false
   },
+  "Xiaomi Redmi Note 5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 5",
+      "Device_Code_Name": "Redmi Note 5",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Note 5 Pro": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 5 Pro",
+      "Device_Code_Name": "Redmi Note 5 Pro",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
   "Xiaomi Mi Mix 2": {
     "type": "mobile-phone",
     "properties": {
       "Device_Name": "Mi Mix 2",
       "Device_Code_Name": "Mi Mix 2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Mi A1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi A1",
+      "Device_Code_Name": "Mi A1",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Y1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Y1",
+      "Device_Code_Name": "Redmi Y1",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Y2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Y2",
+      "Device_Code_Name": "Redmi Y2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi 2014818": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 2",
+      "Device_Code_Name": "2014818",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Pocophone F1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pocophone F1",
+      "Device_Code_Name": "Pocophone F1",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Y1 Lite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Y1 Lite",
+      "Device_Code_Name": "Redmi Y1 Lite",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Mi Max 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi Max 2",
+      "Device_Code_Name": "Mi Max 2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 4X": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 4X",
+      "Device_Code_Name": "Redmi 4X",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 6",
+      "Device_Code_Name": "Redmi 6",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Note 5A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 5A",
+      "Device_Code_Name": "Redmi Note 5A",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Note 5A Prime": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 5A Prime",
+      "Device_Code_Name": "Redmi Note 5A Prime",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi S2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi S2",
+      "Device_Code_Name": "Redmi S2",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Note 4X": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 4X",
+      "Device_Code_Name": "Redmi Note 4X",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi MI 5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "MI 5",
+      "Device_Code_Name": "MI 5",
       "Device_Maker": "Xiaomi Tech",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Xiaomi"

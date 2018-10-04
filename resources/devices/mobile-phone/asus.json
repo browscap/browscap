@@ -75,5 +75,104 @@
       "Device_Brand_Name": "Asus"
     },
     "standard": false
+  },
+  "Asus X00TD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone Max Pro M1",
+      "Device_Code_Name": "X00TD",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus X00DDB": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 3 Max",
+      "Device_Code_Name": "X00DDB",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus Z00UD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone Selfie",
+      "Device_Code_Name": "Z00UD",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus Z010D": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone Max",
+      "Device_Code_Name": "Z010D",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus Z01HDA": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 3 Zoom (ZE553KL)",
+      "Device_Code_Name": "Z01HDA",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus Z01BDA": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 3 Laser (ZC551KL)",
+      "Device_Code_Name": "Z01BDA",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus X00BD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone Go (ZB500KG)",
+      "Device_Code_Name": "X00BD",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus X00AD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone Go (ZB500KL)",
+      "Device_Code_Name": "X00AD",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
+  },
+  "Asus Z012DA": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ZenFone 3",
+      "Device_Code_Name": "Z012DA",
+      "Device_Maker": "Asus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Asus"
+    },
+    "standard": false
   }
 }

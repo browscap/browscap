@@ -1,0 +1,46 @@
+{
+  "InFocus M535": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M535",
+      "Device_Code_Name": "M535",
+      "Device_Maker": "InFocus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "InFocus"
+    },
+    "standard": false
+  },
+  "InFocus M430": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Bingo 21",
+      "Device_Code_Name": "M430",
+      "Device_Maker": "InFocus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "InFocus"
+    },
+    "standard": false
+  },
+  "InFocus IF9031": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vision 3 Dual SIM",
+      "Device_Code_Name": "IF9031",
+      "Device_Maker": "InFocus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "InFocus"
+    },
+    "standard": false
+  },
+  "InFocus IF9021": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Turbo 5 Plus Dual SIM",
+      "Device_Code_Name": "IF9021",
+      "Device_Maker": "InFocus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "InFocus"
+    },
+    "standard": false
+  }
+}

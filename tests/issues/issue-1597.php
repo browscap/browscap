@@ -12022,7 +12022,7 @@ return [
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ZUMinternet Corp',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.0',
+            'Version' => '0.0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',

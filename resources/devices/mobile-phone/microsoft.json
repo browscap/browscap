@@ -163,5 +163,16 @@
       "Device_Brand_Name": "Microsoft"
     },
     "standard": false
+  },
+  "Microsoft Lumia 550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Lumia 550",
+      "Device_Code_Name": "Lumia 550",
+      "Device_Maker": "Microsoft Corporation",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Microsoft"
+    },
+    "standard": false
   }
 }

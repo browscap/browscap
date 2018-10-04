@@ -29,6 +29,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "HUAWEI MLA-AL10": "Huawei MLA-AL10"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "OPPO R7s*": "OPPO R7s"
           },
           "platforms": [
@@ -55,7 +64,19 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* T7/* baiduboxapp/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
           "platforms": [
             "Android_8_0",
             "Android_7_1", "Android_7_0",

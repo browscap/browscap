@@ -592,5 +592,115 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": false
+  },
+  "Sony SO-03H": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Z5 Premium",
+      "Device_Code_Name": "SO-03H",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony G8141": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XZ Premium",
+      "Device_Code_Name": "G8141",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony G3416": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XA1 Plus Dual",
+      "Device_Code_Name": "G3416",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony F5122": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia X Dual",
+      "Device_Code_Name": "F5122",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony D5322": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia T2 Ultra",
+      "Device_Code_Name": "D5322",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony C6916": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia Z1s",
+      "Device_Code_Name": "C6916",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony F3311": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia E5",
+      "Device_Code_Name": "F3311",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony F8332": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XZ Dual SIM",
+      "Device_Code_Name": "F8332",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony F3112": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XA Dual SIM",
+      "Device_Code_Name": "F3112",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony E5533": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia C5 Ultra Dual SIM",
+      "Device_Code_Name": "E5533",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
   }
 }

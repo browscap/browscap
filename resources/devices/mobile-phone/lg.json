@@ -1858,6 +1858,17 @@
     },
     "standard": false
   },
+  "LG H873": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G6",
+      "Device_Code_Name": "H873",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  },
   "LG H900": {
     "type": "mobile-phone",
     "properties": {
@@ -4052,6 +4063,50 @@
     "properties": {
       "Device_Name": "L60",
       "Device_Code_Name": "X135",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  },
+  "LG M250": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K10 (2017)",
+      "Device_Code_Name": "M250",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  },
+  "LG K580": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X Cam",
+      "Device_Code_Name": "K580",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  },
+  "LG K520": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Stylus 2",
+      "Device_Code_Name": "K520",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": false
+  },
+  "LG H860": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G5",
+      "Device_Code_Name": "H860",
       "Device_Maker": "LG",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "LG"

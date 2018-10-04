@@ -108,5 +108,247 @@
       "Device_Brand_Name": "OPPO"
     },
     "standard": false
+  },
+  "OPPO CPH1701": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A57 Dual SIM",
+      "Device_Code_Name": "CPH1701",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1819": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F7 Dual SIM",
+      "Device_Code_Name": "CPH1819",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1861": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Realme 1",
+      "Device_Code_Name": "CPH1861",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1859": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F7 Youth Edition Dual SIM",
+      "Device_Code_Name": "CPH1859",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1609": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F3",
+      "Device_Code_Name": "CPH1609",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1729": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A83",
+      "Device_Code_Name": "CPH1729",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO F1f": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F1 Global Dual SIM",
+      "Device_Code_Name": "F1f",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1723": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F5",
+      "Device_Code_Name": "CPH1723",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO A37fw": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A37",
+      "Device_Code_Name": "A37fw",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO A37f": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A37",
+      "Device_Code_Name": "A37f",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1803": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A3s Dual SIM",
+      "Device_Code_Name": "CPH1803",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO A33f": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A33",
+      "Device_Code_Name": "A33f",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO A33fw": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A33",
+      "Device_Code_Name": "A33fw",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO R9s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R9s",
+      "Device_Code_Name": "R9s",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1727": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F5 Dual SIM",
+      "Device_Code_Name": "CPH1727",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1801": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A71",
+      "Device_Code_Name": "CPH1801",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1717": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A71",
+      "Device_Code_Name": "CPH1717",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1715": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A77",
+      "Device_Code_Name": "CPH1715",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO A59m": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A59",
+      "Device_Code_Name": "A59m",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO RMX1805": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Realme 2",
+      "Device_Code_Name": "RMX1805",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO CPH1607": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R9s",
+      "Device_Code_Name": "CPH1607",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
+  "OPPO R11": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "R11",
+      "Device_Code_Name": "R11",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
   }
 }

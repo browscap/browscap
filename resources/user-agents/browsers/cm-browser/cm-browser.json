@@ -19,6 +19,28 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "engine": "Blink",
           "devices": {
+            "Redmi Note 5": "Xiaomi Redmi Note 5"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-J810G": "Samsung SM-J810G"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
+          "devices": {
+            "MI MAX": "Xiaomi Mi Max",
+            "MI MAX 2": "Xiaomi Mi Max 2",
             "TA-1021": "Nokia TA-1021"
           },
           "platforms": [
@@ -52,6 +74,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "engine": "Blink",
           "devices": {
+            "LG-M250": "LG M250"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
+          "engine": "Blink",
+          "devices": {
             "NEM-L51": "Huawei NEM-L51"
           },
           "platforms": [
@@ -63,6 +95,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "engine": "Blink",
           "devices": {
+            "BLU Studio G HD": "BLU Studio G HD",
             "SM-G920P": "Samsung SM-G920P",
             "SM-G930A": "Samsung SM-G930A",
             "SM-G935P": "Samsung SM-G935P",

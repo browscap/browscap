@@ -19,6 +19,15 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi 3S": "Xiaomi Redmi 3S"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "WebKit",
           "platforms": [
             "Android_5_0",
@@ -33,6 +42,15 @@
           },
           "platforms": [
             "Android_7_1", "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi 3S": "Xiaomi Redmi 3S"
+          },
+          "platforms": [
             "Android_6_0"
           ]
         },

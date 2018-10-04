@@ -20,6 +20,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi 5 Plus": "Xiaomi Redmi 5 Plus",
+            "Redmi Note 5": "Xiaomi Redmi Note 5"
+          },
+          "platforms": [
+            "Android_8_1",
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Redmi 4": "Xiaomi Redmi 4",
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
           "platforms": [
@@ -30,6 +42,38 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "Redmi 5": "Xiaomi Redmi 5",
+            "Redmi 5A": "Xiaomi Redmi 5A",
+            "Redmi Note 5 pro": "Xiaomi Redmi Note 5 Pro"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MI 5": "Xiaomi MI 5"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "MI MAX": "Xiaomi Mi Max",
+            "Redmi 3S": "Xiaomi Redmi 3S",
+            "Redmi 4A": "Xiaomi Redmi 4A"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HM NOTE 1LTE": "Xiaomi HM NOTE 1LTE",
             "MI PAD": "Xiaomi Mi Pad"
           },
           "platforms": [

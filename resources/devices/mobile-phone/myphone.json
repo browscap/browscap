@@ -1,0 +1,13 @@
+{
+  "MyPhone Agua Rio Fun": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Agua Rio Fun",
+      "Device_Code_Name": "Agua Rio Fun",
+      "Device_Maker": "MyPhone",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "MyPhone"
+    },
+    "standard": false
+  }
+}

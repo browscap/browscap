@@ -20,6 +20,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-A300FU*": "Samsung SM-A300FU",
             "SM-G388F": "Samsung SM-G388F",
             "SM-J100F": "Samsung SM-J100F",
             "SM-J100H": "Samsung SM-J100H",
@@ -66,6 +67,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/34.0.* Safari*",
           "devices": {
             "GT-I9195I": "Samsung GT-I9195I",
+            "SM-A300FU*": "Samsung SM-A300FU",
             "SM-A500FU*": "Samsung SM-A500FU",
             "SM-A500K*": "Samsung SM-A500K",
             "SM-A500L": "Samsung SM-A500L",

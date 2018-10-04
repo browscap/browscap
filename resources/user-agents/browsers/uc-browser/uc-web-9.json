@@ -93,7 +93,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "WebKit",
           "devices": {
-            "Lenovo A320t": "Lenovo A320t"
+            "Lenovo A320t": "Lenovo A320t",
+            "SM-G530H": "Samsung SM-G530H"
           },
           "platforms": [
             "Android_4_4"

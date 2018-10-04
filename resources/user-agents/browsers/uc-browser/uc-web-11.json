@@ -71,6 +71,7 @@
           "devices": {
             "Eluga_Arc_2": "Panasonic Eluga Arc 2",
             "F103 Pro": "Gionee F103 Pro",
+            "Lenovo K50a40": "Lenovo K50a40",
             "Lenovo P2a42": "Lenovo P2a42",
             "LG-H422": "LG H422",
             "MotoE2(4G-LTE)": "Motorola XT1524",
@@ -78,7 +79,8 @@
             "SM-A700FD": "Samsung SM-A700FD",
             "SM-G550FY": "Samsung SM-G550FY",
             "SM-J710F": "Samsung SM-J710F",
-            "vivo 1603": "vivo Y55L"
+            "vivo 1603": "vivo Y55L",
+            "XT1706": "Motorola XT1706"
           },
           "platforms": [
             "Android_6_0"
@@ -125,6 +127,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* UCBrowser/#MAJORVER#.#MINORVER#* U3/* Safari/*",
           "devices": {
+            "A37f": "OPPO A37f",
             "Aqua Trend": "Intex Aqua Trend",
             "CP8298_I00": "Coolpad CP8298_I00",
             "CP8676_I02": "Coolpad CP8676_I02",
@@ -134,6 +137,7 @@
             "LS-4005": "Lyf LS-4005",
             "LS-4503": "Lyf LS-4503",
             "LS-4505": "Lyf LS-4505",
+            "M5_lite": "Gionee M5 Lite",
             "N9132": "ZTE Prestige",
             "PacificVS": "Oysters Pacific VS",
             "Pixel V2+": "Lava Pixel V2+",
@@ -147,6 +151,7 @@
             "SM-J320G": "Samsung SM-J320G",
             "SM-J500F": "Samsung SM-J500F",
             "SM-J700F": "Samsung SM-J700F",
+            "vivo Y21L": "vivo Y21L",
             "vivo Y31L": "vivo Y31L"
           },
           "platforms": [
@@ -158,6 +163,7 @@
           "devices": {
             "GT-I9515": "Samsung GT-I9515",
             "HTC One ME dual sim": "HTC One ME",
+            "Lenovo A7000-a": "Lenovo A7000-A",
             "Micromax A107": "Micromax A107",
             "Micromax E455": "Micromax E455",
             "SM-A300H": "Samsung SM-A300H",
@@ -281,6 +287,17 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
+            "vivo 1801": "vivo 1801",
+            "vivo 1802": "vivo 1802"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
             "TA-1021": "Nokia TA-1021"
           },
           "platforms": [
@@ -327,7 +344,11 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
-            "Micromax Q354": "Micromax Q354"
+            "Micromax Q354": "Micromax Q354",
+            "Redmi 3S": "Xiaomi Redmi 3S",
+            "SM-G532G": "Samsung SM-G532G",
+            "SM-J700F": "Samsung SM-J700F",
+            "XT1706": "Motorola XT1706"
           },
           "platforms": [
             "Android_6_0"
@@ -376,10 +397,34 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "devices": {
+            "A1603": "Xiaomi Amazfit A1603",
+            "A74A": "Evercoss A74A",
+            "A8-50LC": "Lenovo A8-50LC",
+            "LS-5020": "Lyf LS-5020"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
             "SM-N900A": "Samsung SM-N900A"
           },
           "platforms": [
             "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "devices": {
+            "Che1-CL10": "Huawei Che1-CL10",
+            "HUAWEI ALE-CL00": "Huawei ALE-CL00"
+          },
+          "platforms": [
+            "Android_4_4"
           ]
         },
         {
@@ -432,6 +477,38 @@
           ]
         },
         {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "devices": {
+            "Primo_GH7": "Walton Primo GH7",
+            "Redmi_Note_4": "Xiaomi Redmi Note 4",
+            "SM-J701F": "Samsung SM-J701F"
+          },
+          "platforms": [
+            "Android_E_7_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "devices": {
+            "ASUS_Z010D": "Asus Z010D"
+          },
+          "platforms": [
+            "Android_E_6_0"
+          ]
+        },
+        {
+          "match": "UCWEB/*(#PLATFORM##DEVICE#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "U2",
+          "devices": {
+            "MotoE2": "Motorola XT1523"
+          },
+          "platforms": [
+            "Android_E_5_1"
+          ]
+        },
+        {
           "match": "UCWEB/*(#PLATFORM#) U2/* UCBrowser/#MAJORVER#.#MINORVER#*",
           "engine": "U2",
           "platforms": [
@@ -450,6 +527,16 @@
           },
           "platforms": [
             "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)* Version/* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
+          "devices": {
+            "ASUS_Z010D": "Asus Z010D"
+          },
+          "platforms": [
+            "Android_6_0"
           ]
         },
         {

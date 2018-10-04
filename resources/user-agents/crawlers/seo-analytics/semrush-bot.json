@@ -55,6 +55,12 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; SemrushBot/2*",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; SemrushBot/1.2*",
           "properties": {
             "Version": "1.2"

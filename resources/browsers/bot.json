@@ -15910,5 +15910,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "zgrab": {
+    "type": "bot",
+    "properties": {
+      "Browser": "zgrab",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }

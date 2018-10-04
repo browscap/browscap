@@ -22,10 +22,39 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
           "devices": {
+            "vivo 1724": "vivo 1724",
             "vivo X21*": "vivo X21"
           },
           "platforms": [
             "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo 1716": "vivo 1716"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo 1713": "vivo 1713"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo 1606": "vivo 1606"
+          },
+          "platforms": [
+            "Android_6_0"
           ]
         },
         {

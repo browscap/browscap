@@ -4,7 +4,7 @@
     "properties": {
       "Device_Name": "Majestic 2.4D",
       "Device_Code_Name": "Majestic 2.4D",
-      "Device_Maker": "SHAAN",
+      "Device_Maker": "iBall",
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "iBall"
     },
@@ -15,6 +15,17 @@
     "properties": {
       "Device_Name": "Andi 4F ARC3",
       "Device_Code_Name": "Andi 4F ARC3",
+      "Device_Maker": "iBall",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iBall"
+    },
+    "standard": false
+  },
+  "iBall Slide Snap 4G2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Slide Snap 4G2",
+      "Device_Code_Name": "Slide Snap 4G2",
       "Device_Maker": "iBall",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "iBall"

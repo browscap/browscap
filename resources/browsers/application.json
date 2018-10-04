@@ -44,6 +44,15 @@
     "lite": false,
     "standard": true
   },
+  "alitrip": {
+    "type": "application",
+    "properties": {
+      "Browser": "AliTrip",
+      "Browser_Maker": "Alibaba"
+    },
+    "lite": false,
+    "standard": true
+  },
   "alltop app": {
     "type": "application",
     "properties": {

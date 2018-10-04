@@ -43,6 +43,7 @@
             "6045O;": "Alcatel 6045O",
             "LGMS428;": "LG MS428",
             "Nexus 5X": "LG Nexus 5X",
+            "PLK-AL10": "Huawei PLK-AL10",
             "SM-N910T;": "Samsung SM-N910T"
           },
           "platforms": [
@@ -90,6 +91,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "HTC?One_M8*": "HTC M8",
             "Nexus 7": "Asus Nexus 7"
           },
           "platforms": [
@@ -326,6 +328,7 @@
             "SGP511": "Sony SGP511",
             "SGP512": "Sony SGP512",
             "SGP521": "Sony SGP521",
+            "SM-G316HU": "Samsung SM-G316HU",
             "SM-G800F*": "Samsung SM-G800F",
             "SM-G900A*": "Samsung SM-G900A",
             "SM-G900F*": "Samsung SM-G900F",
@@ -478,7 +481,6 @@
             "GT-P5210*": "Samsung GT-P5210",
             "HTC One": "HTC M7",
             "HTC?One?mini*": "HTC One Mini",
-            "HTC?One_M8*": "HTC M8",
             "Kindle Fire": "Amazon Kindle Fire",
             "Nexus S": "Samsung NexusS",
             "One S": "HTC PJ401",

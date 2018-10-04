@@ -32,6 +32,17 @@
     },
     "standard": false
   },
+  "Huawei AUM-AL20": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor Changwan 7A Dual SIM",
+      "Device_Code_Name": "AUM-AL20",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
   "Huawei CAN-L11": {
     "type": "mobile-phone",
     "properties": {
@@ -961,6 +972,424 @@
     "properties": {
       "Device_Name": "P10",
       "Device_Code_Name": "P10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei DRA-LX2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y5 Prime 2018 Dual SIM",
+      "Device_Code_Name": "DRA-LX2",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei LDN-LX2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Nova 2 Lite Dual SIM",
+      "Device_Code_Name": "LDN-LX2",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei LLD-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 9 Lite",
+      "Device_Code_Name": "LLD-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei RNE-L22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Nova 2i Dual SIM",
+      "Device_Code_Name": "RNE-L22",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei RNE-L21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 10 Lite Dual SIM",
+      "Device_Code_Name": "RNE-L21",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ANE-LX1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P20 Lite",
+      "Device_Code_Name": "ANE-LX1",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei PRA-AL00X": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 8 Lite",
+      "Device_Code_Name": "PRA-AL00X",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei LLD-AL20": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 9I",
+      "Device_Code_Name": "LLD-AL20",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VTR-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P10 Dual SIM",
+      "Device_Code_Name": "VTR-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BLN-L22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 6X Dual SIM",
+      "Device_Code_Name": "BLN-L22",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BLN-AL20": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 6X Premium Edition Dual SIM",
+      "Device_Code_Name": "BLN-AL20",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BAC-L21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Nova 2 Plus Dual SIM",
+      "Device_Code_Name": "BAC-L21",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ALE-CL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P8 Lite Dual SIM",
+      "Device_Code_Name": "ALE-CL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei Che1-CL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 4X",
+      "Device_Code_Name": "Che1-CL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei CAG-L02": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y3 (2018)",
+      "Device_Code_Name": "CAG-L02",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei LND-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 7C Pro (2018)",
+      "Device_Code_Name": "LND-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BND-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 7X",
+      "Device_Code_Name": "BND-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ATU-L31": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y6 Prime (2018)",
+      "Device_Code_Name": "ATU-L31",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ATU-L22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y6 (2018)",
+      "Device_Code_Name": "ATU-L22",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei WAS-LX1A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P10 Lite",
+      "Device_Code_Name": "WAS-LX1A",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VEN-L22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 8 Smart",
+      "Device_Code_Name": "VEN-L22",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei NEM-L21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 7 Lite (2016)",
+      "Device_Code_Name": "NEM-L21",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei FRD-L19": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 8 Dual",
+      "Device_Code_Name": "FRD-L19",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BLN-L24": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 6x",
+      "Device_Code_Name": "BLN-L24",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei PLK-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 7",
+      "Device_Code_Name": "PLK-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei MYA-L22": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y5 Dual SIM (2017)",
+      "Device_Code_Name": "MYA-L22",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei CUN-U29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y5 II",
+      "Device_Code_Name": "CUN-U29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei G7-L01": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Ascend G7",
+      "Device_Code_Name": "G7-L01",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei MHA-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 9 Dual SIM",
+      "Device_Code_Name": "MHA-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei BND-L21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 7X",
+      "Device_Code_Name": "BND-L21",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei PRA-LA1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P8 Lite (2017)",
+      "Device_Code_Name": "PRA-LA1",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei INE-LX2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Nova 3i",
+      "Device_Code_Name": "INE-LX2",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei INE-LX1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P Smart+ Dual SIM",
+      "Device_Code_Name": "INE-LX1",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei EML-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P20 Dual SIM",
+      "Device_Code_Name": "EML-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei WAS-LX2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P10 Lite LTE",
+      "Device_Code_Name": "WAS-LX2",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ATU-L21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y6 Dual SIM (2018)",
+      "Device_Code_Name": "ATU-L21",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei CHC-U01": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "G Play Mini",
+      "Device_Code_Name": "CHC-U01",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei MLA-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Maimang 5",
+      "Device_Code_Name": "MLA-AL10",
       "Device_Maker": "Huawei",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Huawei"

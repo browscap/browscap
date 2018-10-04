@@ -1,0 +1,13 @@
+{
+  "Mobicel Cosmo": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cosmo",
+      "Device_Code_Name": "Cosmo",
+      "Device_Maker": "Mobicel",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Mobicel"
+    },
+    "standard": false
+  }
+}

@@ -659,6 +659,28 @@
     },
     "standard": false
   },
+  "Lenovo K8 Note": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K8 Note",
+      "Device_Code_Name": "K8 Note",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo K8 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K8 Plus",
+      "Device_Code_Name": "K8 Plus",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
   "Lenovo K900": {
     "type": "mobile-phone",
     "properties": {
@@ -796,6 +818,83 @@
     "properties": {
       "Device_Name": "Vibe X",
       "Device_Code_Name": "S960",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo A7020a48": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vibe K5 Note",
+      "Device_Code_Name": "A7020a48",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo K33a42": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K6 Power",
+      "Device_Code_Name": "K33a42",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo A6020a46": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Vibe K5 Plus Dual SIM",
+      "Device_Code_Name": "A6020a46",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo K10a40": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C2 Power",
+      "Device_Code_Name": "K10a40",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo K53a48": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K6 Note Dual SIM",
+      "Device_Code_Name": "K53a48",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo A7010a48": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K4 Note",
+      "Device_Code_Name": "A7010a48",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lenovo"
+    },
+    "standard": false
+  },
+  "Lenovo K50a40": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "K3 Note",
+      "Device_Code_Name": "K50a40",
       "Device_Maker": "Lenovo",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Lenovo"

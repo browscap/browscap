@@ -176,8 +176,9 @@
           ]
         },
         {
-          "match": "#DEVICE#*Linux/* Android/4.2* Release/* Browser/applewebkit*",
+          "match": "#DEVICE#*Linux/* Android/#MAJORVER#.#MINORVER#* Release/* Browser/applewebkit*",
           "devices": {
+            "HTC_V1": "HTC V1",
             "Lenovo-A880": "Lenovo A880",
             "Lenovo-A889": "Lenovo A889"
           },
@@ -186,7 +187,7 @@
           ]
         },
         {
-          "match": "#DEVICE#/*Linux/* Android/4.2* Release/* Browser/applewebkit* Mobile Safari*",
+          "match": "#DEVICE#/*Linux/* Android/#MAJORVER#.#MINORVER#* Release/* Browser/applewebkit* Mobile Safari*",
           "devices": {
             "NGM Dynamic Racing 2": "NGM Dynamic Racing GP"
           },

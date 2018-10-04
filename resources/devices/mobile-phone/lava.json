@@ -109,6 +109,28 @@
     },
     "standard": false
   },
+  "Lava Pixel V1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel V1",
+      "Device_Code_Name": "Pixel V1",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
+  "Lava Pixel V2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel V2",
+      "Device_Code_Name": "Pixel V2",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
   "Lava Pixel V2+": {
     "type": "mobile-phone",
     "properties": {
@@ -125,6 +147,50 @@
     "properties": {
       "Device_Name": "Spark 284",
       "Device_Code_Name": "Spark 284",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
+  "Lava RI": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "RI",
+      "Device_Code_Name": "RI",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
+  "Lava Z70": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z70",
+      "Device_Code_Name": "Z70",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
+  "Lava X41 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "X41 Plus",
+      "Device_Code_Name": "X41 Plus",
+      "Device_Maker": "Lava",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Lava"
+    },
+    "standard": false
+  },
+  "Lava Z60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Z60",
+      "Device_Code_Name": "Z60",
       "Device_Maker": "Lava",
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Lava"

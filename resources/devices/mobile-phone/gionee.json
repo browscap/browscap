@@ -31,5 +31,71 @@
       "Device_Brand_Name": "Gionee"
     },
     "standard": false
+  },
+  "Gionee M5 Lite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M5 Lite",
+      "Device_Code_Name": "M5 Lite",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
+  },
+  "Gionee P7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P7",
+      "Device_Code_Name": "P7",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
+  },
+  "Gionee A1 Lite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A1 Lite",
+      "Device_Code_Name": "A1 Lite",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
+  },
+  "Gionee P7 Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P7 Max",
+      "Device_Code_Name": "P7 Max",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
+  },
+  "Gionee Marathon M5 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Marathon M5 Plus",
+      "Device_Code_Name": "Marathon M5 Plus",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
+  },
+  "Gionee F103": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "F103",
+      "Device_Code_Name": "F103",
+      "Device_Maker": "Gionee",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gionee"
+    },
+    "standard": false
   }
 }

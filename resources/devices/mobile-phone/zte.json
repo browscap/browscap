@@ -636,5 +636,16 @@
       "Device_Brand_Name": "ZTE"
     },
     "standard": false
+  },
+  "ZTE Blade A110": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Blade A110",
+      "Device_Code_Name": "A110",
+      "Device_Maker": "ZTE",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "ZTE"
+    },
+    "standard": false
   }
 }
