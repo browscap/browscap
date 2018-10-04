@@ -1,13 +1,13 @@
 {
-    "Yuntab K107": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "K107",
-            "Device_Code_Name": "K107",
-            "Device_Maker": "Yuntab",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Yuntab"
-        },
-        "standard": true
-    }
+  "Yuntab K107": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "K107",
+      "Device_Code_Name": "K107",
+      "Device_Maker": "Yuntab",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Yuntab"
+    },
+    "standard": true
+  }
 }

@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data;
 
+use Browscap\Data\Browser;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Division;
@@ -18,14 +19,13 @@ class ExpanderTest extends TestCase
      */
     private $object;
 
-    /**
-     * @throws \ReflectionException
-     */
     public function setUp() : void
     {
         $logger     = $this->createMock(Logger::class);
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var Logger $logger */
+        /* @var DataCollection $collection */
         $this->object = new Expander($logger, $collection);
     }
 
@@ -90,6 +90,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(0, $result);
@@ -182,6 +183,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(1, $result);
@@ -280,6 +282,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(2, $result);
@@ -402,6 +405,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
         self::assertInternalType('array', $result);
         self::assertCount(3, $result);
@@ -500,6 +504,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*']);
@@ -622,6 +627,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*']);
@@ -766,6 +772,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*abc']);
@@ -892,6 +899,7 @@ class ExpanderTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
         self::assertArrayHasKey('PatternId', $result['abc*abc']);
@@ -899,5 +907,121 @@ class ExpanderTest extends TestCase
 
         self::assertArrayHasKey('PatternId', $result['abc*def']);
         self::assertSame('tests/test.json::u0::c0::ddef::p', $result['abc*def']['PatternId']);
+    }
+
+    /**
+     * tests pattern id generation on a not empty data collection with children, platforms and devices
+     *
+     * @throws \ReflectionException
+     */
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndBrowsers() : void
+    {
+        $collection = $this->getMockBuilder(DataCollection::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getDivisions', 'getDefaultProperties', 'getBrowser'])
+            ->getMock();
+
+        $defaultProperties = $this->getMockBuilder(UserAgent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties'])
+            ->getMock();
+
+        $defaultProperties
+            ->expects(self::exactly(3))
+            ->method('getProperties')
+            ->will(self::returnValue(['avd' => 'xyz']));
+
+        $defaultProperties
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('Defaultproperties'));
+
+        $coreDivision = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents'])
+            ->getMock();
+
+        $coreDivision
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue([0 => $defaultProperties]));
+
+        $browser = $this->getMockBuilder(Browser::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getProperties', 'getType'])
+            ->getMock();
+
+        $browser
+            ->expects(self::any())
+            ->method('getProperties')
+            ->will(self::returnValue([]));
+
+        $browser
+            ->expects(self::any())
+            ->method('getType')
+            ->will(self::returnValue('browser'));
+
+        $collection
+            ->expects(self::once())
+            ->method('getDefaultProperties')
+            ->will(self::returnValue($coreDivision));
+
+        $collection
+            ->expects(self::once())
+            ->method('getBrowser')
+            ->will(self::returnValue($browser));
+
+        $useragent = $this->getMockBuilder(UserAgent::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->getMock();
+
+        $useragent
+            ->expects(self::once())
+            ->method('getUserAgent')
+            ->will(self::returnValue('abc'));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getProperties')
+            ->will(self::returnValue([
+                                         'Parent' => 'Defaultproperties',
+                                         'Version' => '1.0',
+                                         'MajorVer' => 1,
+                                         'Browser' => 'xyz',
+                                     ]));
+
+        $useragent
+            ->expects(self::once())
+            ->method('getChildren')
+            ->will(self::returnValue([
+                                         0 => [
+                                             'match' => 'abc*#DEVICE#',
+                                             'browser' => 'def',
+                                             'properties' => ['Browser' => 'xyza'],
+                                         ],
+                                     ]));
+
+        $division = $this->getMockBuilder(Division::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['getUserAgents', 'getFileName'])
+            ->getMock();
+
+        $division
+            ->expects(self::once())
+            ->method('getUserAgents')
+            ->will(self::returnValue([0 => $useragent]));
+
+        $division
+            ->expects(self::once())
+            ->method('getFileName')
+            ->will(self::returnValue('tests/test.json'));
+
+        $property = new \ReflectionProperty($this->object, 'collection');
+        $property->setAccessible(true);
+        $property->setValue($this->object, $collection);
+
+        /* @var Division $division */
+        $this->object->expand($division, 'TestDivision');
     }
 }

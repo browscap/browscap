@@ -1,13 +1,13 @@
 {
-    "JIZHAO JZ-V10L": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "JZ-V10L",
-            "Device_Code_Name": "JZ-V10L",
-            "Device_Maker": "JIZHAO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "JIZHAO"
-        },
-        "standard": true
-    }
+  "JIZHAO JZ-V10L": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "JZ-V10L",
+      "Device_Code_Name": "JZ-V10L",
+      "Device_Maker": "JIZHAO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "JIZHAO"
+    },
+    "standard": true
+  }
 }

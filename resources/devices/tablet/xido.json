@@ -1,13 +1,13 @@
 {
-    "XIDO X111": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "X111",
-            "Device_Code_Name": "X111",
-            "Device_Maker": "XIDO",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "XIDO"
-        },
-        "standard": true
-    }
+  "XIDO X111": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X111",
+      "Device_Code_Name": "X111",
+      "Device_Maker": "XIDO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XIDO"
+    },
+    "standard": true
+  }
 }

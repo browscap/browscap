@@ -1,13 +1,13 @@
 {
-    "DNA TV-hubi": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "TV-hubi",
-            "Device_Code_Name": "TV-hubi",
-            "Device_Maker": "DNA",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "DNA"
-        },
-        "standard": true
-    }
+  "DNA TV-hubi": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV-hubi",
+      "Device_Code_Name": "TV-hubi",
+      "Device_Maker": "DNA",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "DNA"
+    },
+    "standard": true
+  }
 }

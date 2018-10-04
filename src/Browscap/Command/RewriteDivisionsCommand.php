@@ -3,8 +3,8 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use Seld\JsonLint\JsonParser;
-use Seld\JsonLint\ParsingException;
+use ExceptionalJSON\DecodeErrorException;
+use JsonClass\Json;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -39,9 +39,12 @@ class RewriteDivisionsCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/user-agents';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $divisionResourcePath = $resources . '/user-agents';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $loader = new \Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
         $twig   = new \Twig_Environment($loader, [
@@ -50,12 +53,20 @@ class RewriteDivisionsCommand extends Command
             'autoescape' => false,
         ]);
 
-        $jsonParser = new JsonParser();
+        $content = file_get_contents($resources . '/platforms.json');
+
+        if (false === $content) {
+            $logger->critical('File "' . $resources . '/platforms.json" was not readable.');
+
+            return 1;
+        }
+
+        $jsonClass = new Json();
 
         try {
-            $allPlatforms = $jsonParser->parse(file_get_contents($input->getOption('resources') . '/platforms.json'), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
-        } catch (ParsingException $e) {
-            $logger->critical('File "' . $input->getOption('resources') . '/platforms.json" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
+            $allPlatforms = $jsonClass->decode($content, true);
+        } catch (DecodeErrorException $e) {
+            $logger->critical('File "' . $resources . '/platforms.json" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
 
             return 1;
         }
@@ -67,16 +78,16 @@ class RewriteDivisionsCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
+        $finder->in($divisionResourcePath);
 
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            $json = $file->getContents();
 
             try {
-                $divisionData = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
-            } catch (ParsingException $e) {
+                $divisionData = $jsonClass->decode($json, true);
+            } catch (DecodeErrorException $e) {
                 $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
 
                 continue;
@@ -128,7 +139,7 @@ class RewriteDivisionsCommand extends Command
                 );
 
                 foreach ($divisionData['versions'] as $key => $version) {
-                    $divisionData['versions'][$key] = json_encode($version);
+                    $divisionData['versions'][$key] = $jsonClass->encode($version);
                 }
             } elseif (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
                 foreach ($divisionData['versions'] as $key => $version) {
@@ -137,9 +148,9 @@ class RewriteDivisionsCommand extends Command
                     $parts = explode('.', (string) $version, 2);
 
                     if (!isset($parts[1]) || '0' === $parts[1]) {
-                        $divisionData['versions'][$key] = json_encode((int) $version);
+                        $divisionData['versions'][$key] = $jsonClass->encode((int) $version);
                     } else {
-                        $divisionData['versions'][$key] = json_encode((string) $version);
+                        $divisionData['versions'][$key] = $jsonClass->encode((string) $version);
                     }
                 }
             }
@@ -184,6 +195,10 @@ class RewriteDivisionsCommand extends Command
                         }
                     }
 
+                    if (isset($childData['devices']) && is_array($childData['devices'])) {
+                        ksort($childData['devices']);
+                    }
+
                     if (!isset($childData['platforms'])) {
                         continue;
                     }
@@ -195,20 +210,20 @@ class RewriteDivisionsCommand extends Command
                     if (1 >= count($childData['platforms'])) {
                         foreach ($childData['platforms'] as $key => $platformkey) {
                             unset($childData['platforms'][$key]);
-                            $childData['platforms'][] = [$key => json_encode($platformkey)];
+                            $childData['platforms'][] = [$key => $jsonClass->encode($platformkey)];
                         }
 
                         continue;
                     }
 
-                    $platforms = $this->sortPlatforms(array_unique($childData['platforms']), array_keys($allPlatforms['platforms']));
+                    $platforms = $this->sortPlatforms(array_unique($childData['platforms']), array_keys($allPlatforms));
 
                     $currentPlatform = ['name' => '', 'major-version' => 0, 'minor-version' => 0, 'key' => ''];
                     $currentChunk    = -1;
                     $chunk           = [];
 
                     foreach ($platforms as $key => $platformkey) {
-                        $platform = $allPlatforms['platforms'][$platformkey];
+                        $platform = $allPlatforms[$platformkey];
 
                         if ((!isset($platform['properties']['Platform']) || !isset($platform['properties']['Platform_Version']))
                             && isset($platform['inherits'])
@@ -220,7 +235,7 @@ class RewriteDivisionsCommand extends Command
                             }
 
                             do {
-                                $parentPlatform     = $allPlatforms['platforms'][$platform['inherits']];
+                                $parentPlatform     = $allPlatforms[$platform['inherits']];
                                 $platformProperties = array_merge($parentPlatform['properties'], $platformProperties);
                                 unset($platform['inherits']);
 
@@ -240,28 +255,28 @@ class RewriteDivisionsCommand extends Command
 
                         if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_C_dynamic'])) {
                             ++$currentChunk;
-                            $chunk[$currentChunk] = [json_encode($platformkey)];
+                            $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPb') && false !== mb_strpos($platformkey, 'WinXPa')) {
                             ++$currentChunk;
-                            $chunk[$currentChunk] = [json_encode($platformkey)];
+                            $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPa') && false !== mb_strpos($platformkey, 'WinXPb')) {
                             ++$currentChunk;
-                            $chunk[$currentChunk] = [json_encode($platformkey)];
+                            $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif ($platformProperties['Platform'] !== $currentPlatform['name']
                             || $split[0] !== $currentPlatform['major-version']
                         ) {
                             ++$currentChunk;
-                            $chunk[$currentChunk] = [json_encode($platformkey)];
+                            $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } elseif (is_numeric($platformProperties['Platform_Version']) && $split[1] > $currentPlatform['minor-version']) {
                             ++$currentChunk;
-                            $chunk[$currentChunk] = [json_encode($platformkey)];
+                            $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
                         } else {
-                            $chunk[$currentChunk][] = json_encode($platformkey);
+                            $chunk[$currentChunk][] = $jsonClass->encode($platformkey);
                         }
                     }
 

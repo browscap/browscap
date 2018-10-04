@@ -1,13 +1,13 @@
 {
-    "Chuwi CW-HI8-Super": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "CW-HI8-Super",
-            "Device_Code_Name": "CW-HI8-Super",
-            "Device_Maker": "Chuwi",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Chuwi"
-        },
-        "standard": true
-    }
+  "Chuwi CW-HI8-Super": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "CW-HI8-Super",
+      "Device_Code_Name": "CW-HI8-Super",
+      "Device_Maker": "Chuwi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Chuwi"
+    },
+    "standard": true
+  }
 }

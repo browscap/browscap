@@ -1,13 +1,13 @@
 {
-    "Canal Digital S70CDS": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "OnePlace",
-            "Device_Code_Name": "S70CDS",
-            "Device_Maker": "Canal Digital",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Canal Digital"
-        },
-        "standard": true
-    }
+  "Canal Digital S70CDS": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "OnePlace",
+      "Device_Code_Name": "S70CDS",
+      "Device_Maker": "Canal Digital",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Canal Digital"
+    },
+    "standard": true
+  }
 }

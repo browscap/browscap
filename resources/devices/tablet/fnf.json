@@ -1,13 +1,13 @@
 {
-    "FNF Ifive Mini 4S": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Ifive Mini 4S",
-            "Device_Code_Name": "Ifive Mini 4S",
-            "Device_Maker": "FNF",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "FNF"
-        },
-        "standard": true
-    }
+  "FNF Ifive Mini 4S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Ifive Mini 4S",
+      "Device_Code_Name": "Ifive Mini 4S",
+      "Device_Maker": "FNF",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "FNF"
+    },
+    "standard": true
+  }
 }

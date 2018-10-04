@@ -3,12 +3,10 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use Localheinz\Json\Normalizer;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Finder\Finder;
 
 class RewriteEnginesCommand extends Command
 {
@@ -38,42 +36,19 @@ class RewriteEnginesCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
+
+        $enginesResourcePath = $resources . '/engines';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/engines.json');
 
-        $normalizer = new Normalizer\ChainNormalizer(
-            new Normalizer\SchemaNormalizer($schema),
-            new Normalizer\JsonEncodeNormalizer(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
-            new Normalizer\IndentNormalizer('  '),
-            new Normalizer\FinalNewLineNormalizer()
-        );
+        /** @var \Browscap\Command\Helper\Rewrite $rewriteHelper */
+        $rewriteHelper = $this->getHelper('rewrite');
 
-        $finder = new Finder();
-        $finder->files();
-        $finder->name('engines.json');
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($input->getOption('resources'));
-
-        foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = file_get_contents($file->getPathname());
-
-            try {
-                $normalized = $normalizer->normalize($json);
-            } catch (\Throwable $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
-
-                continue;
-            }
-
-            file_put_contents($file->getPathname(), $normalized);
-        }
+        $rewriteHelper->rewrite($logger, $enginesResourcePath, $schema, true);
 
         $output->writeln('Done');
 

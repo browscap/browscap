@@ -47,7 +47,6 @@ class LiteTest extends TestCase
     private static $writer;
 
     /**
-     * @throws \BrowscapPHP\Exception
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */

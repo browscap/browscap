@@ -1,13 +1,13 @@
 {
-    "Uuvision T95Zplus": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "T95Zplus",
-            "Device_Code_Name": "T95Zplus",
-            "Device_Maker": "Uuvision",
-            "Device_Pointing_Method": "Uuvision",
-            "Device_Brand_Name": "Andoer"
-        },
-        "standard": true
-    }
+  "Uuvision T95Zplus": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "T95Zplus",
+      "Device_Code_Name": "T95Zplus",
+      "Device_Maker": "Uuvision",
+      "Device_Pointing_Method": "Uuvision",
+      "Device_Brand_Name": "Andoer"
+    },
+    "standard": true
+  }
 }

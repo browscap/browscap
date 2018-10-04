@@ -17,10 +17,11 @@ class DataCollectionFactoryTest extends TestCase
     private $object;
 
     /**
-     * @throws \ReflectionException
+     * @throws \Exception
      */
     public function setUp() : void
     {
+        /** @var Logger $logger */
         $logger       = $this->createMock(Logger::class);
         $this->object = new DataCollectionFactory($logger);
     }
@@ -30,12 +31,10 @@ class DataCollectionFactoryTest extends TestCase
      *
      * @throws \Assert\AssertionFailedException
      * @throws \ReflectionException
+     * @throws \Exception
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $this->expectException(RuntimeException::class);
-        $this->expectExceptionMessage('File "./platforms.json" does not exist.');
-
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
@@ -48,6 +47,9 @@ class DataCollectionFactoryTest extends TestCase
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage('Directory "./platforms" does not exist.');
 
         $this->object->createDataCollection('.');
     }
@@ -87,7 +89,7 @@ class DataCollectionFactoryTest extends TestCase
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures');
+        $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures/build-ok');
 
         self::assertInstanceOf(DataCollection::class, $result);
         self::assertSame($collection, $result);
@@ -121,5 +123,65 @@ class DataCollectionFactoryTest extends TestCase
         $this->object->createDataCollection(
             __DIR__ . '/../../../fixtures/duplicate-browser-entries'
         );
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfMissingFiles() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/missing-file';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" does not exist.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfInvalidChars() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/non-ascii-chars';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" contains Non-ASCII-Characters.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfInvalidJson() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/invalid-json';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" had invalid JSON.', $path));
+
+        $this->object->createDataCollection($path);
+    }
+
+    /**
+     * tests creating a data collection
+     *
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testCreateDataCollectionFailsBecauseOfEmptyDirectory() : void
+    {
+        $path = __DIR__ . '/../../../fixtures/empty-directory';
+
+        $this->expectException(RuntimeException::class);
+        $this->expectExceptionMessage(sprintf('Directory "%s/browsers" was empty.', $path));
+
+        $this->object->createDataCollection($path);
     }
 }

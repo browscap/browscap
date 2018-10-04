@@ -1,46 +1,46 @@
 {
-    "BOMIX MXQpro": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MXQ Pro",
-            "Device_Code_Name": "MXQ Pro",
-            "Device_Maker": "BOMIX",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BOMIX"
-        },
-        "standard": true
+  "BOMIX MXQpro": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MXQ Pro",
+      "Device_Code_Name": "MXQ Pro",
+      "Device_Maker": "BOMIX",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BOMIX"
     },
-    "BOMIX HX 3229": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MXQ Pro",
-            "Device_Code_Name": "HX 3229",
-            "Device_Maker": "BOMIX",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BOMIX"
-        },
-        "standard": true
+    "standard": true
+  },
+  "BOMIX HX 3229": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MXQ Pro",
+      "Device_Code_Name": "HX 3229",
+      "Device_Maker": "BOMIX",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BOMIX"
     },
-    "BOMIX MXQ": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MXQ",
-            "Device_Code_Name": "MXQ",
-            "Device_Maker": "BOMIX",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BOMIX"
-        },
-        "standard": true
+    "standard": true
+  },
+  "BOMIX MXQ": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MXQ",
+      "Device_Code_Name": "MXQ",
+      "Device_Maker": "BOMIX",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BOMIX"
     },
-    "BOMIX MXQ Pro P281": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "MXQ Pro P281",
-            "Device_Code_Name": "MXQ Pro P281",
-            "Device_Maker": "BOMIX",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "BOMIX"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "BOMIX MXQ Pro P281": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "MXQ Pro P281",
+      "Device_Code_Name": "MXQ Pro P281",
+      "Device_Maker": "BOMIX",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BOMIX"
+    },
+    "standard": true
+  }
 }

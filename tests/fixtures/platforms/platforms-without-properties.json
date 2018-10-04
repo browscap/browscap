@@ -1,7 +1,0 @@
-{
-  "platforms": {
-    "Platform1": {
-      "match": "*Platform1*"
-    }
-  }
-}

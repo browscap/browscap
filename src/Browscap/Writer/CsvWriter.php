@@ -49,7 +49,13 @@ class CsvWriter implements WriterInterface
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
-        $this->file   = fopen($file, 'w');
+        $ressource    = fopen($file, 'wb');
+
+        if (false === $ressource) {
+            throw new \InvalidArgumentException("An error occured while opening File: {$file}");
+        }
+
+        $this->file = $ressource;
     }
 
     /**
@@ -255,12 +261,7 @@ class CsvWriter implements WriterInterface
 
         $section['PropertyName'] = $sectionName;
         $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
-
-        if (in_array($sectionName, ['DefaultProperties', '*'])) {
-            $section['LiteMode'] = 'true';
-        } else {
-            $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
-        }
+        $section['LiteMode']     = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
 
         $values = [];
 

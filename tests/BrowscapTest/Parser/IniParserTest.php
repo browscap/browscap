@@ -116,6 +116,7 @@ final class IniParserTest extends TestCase
      */
     public function testGetLinesFromFileReturnsArrayWithLines() : void
     {
+        /** @var string $tmpfile */
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
         $in = <<<'HERE'
@@ -167,6 +168,7 @@ HERE;
      */
     public function testGetFileLinesReturnsLinesFromFile() : void
     {
+        /** @var string $tmpfile */
         $tmpfile = tempnam(sys_get_temp_dir(), 'browscaptest');
 
         $in = <<<'HERE'

@@ -8,6 +8,7 @@ use Browscap\Data\Helper\SplitVersion;
 use Browscap\Data\Helper\VersionNumber;
 use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
+use JsonClass\Json;
 use Psr\Log\LoggerInterface;
 
 final class BuildHelper
@@ -86,6 +87,8 @@ final class BuildHelper
         $writerCollection->renderSectionFooter($sectionName);
         $writerCollection->renderDivisionFooter();
 
+        $jsonClass = new Json();
+
         foreach ($collection->getDivisions() as $division) {
             /** @var \Browscap\Data\Division $division */
 
@@ -110,15 +113,17 @@ final class BuildHelper
 
                 $logger->info('handle division ' . $divisionName);
 
-                $encodedSections = json_encode($sections);
+                $encodedSections = $jsonClass->encode($sections);
                 $encodedSections = (new VersionNumber())->replace($encodedSections, $majorVer, $minorVer);
 
-                $sectionsWithVersion = json_decode($encodedSections, true);
+                $sectionsWithVersion = $jsonClass->decode($encodedSections, true);
                 $firstElement        = current($sectionsWithVersion);
 
                 $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
+                    $sectionName = (string) $sectionName;
+
                     if (array_key_exists($sectionName, $allSections)) {
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'

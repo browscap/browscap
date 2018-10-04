@@ -39,13 +39,16 @@ class ValidateCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
+
         $failed  = false;
         $command = $this->getApplication()->find('validate-browsers');
 
         $input = new ArrayInput(
             [
                 'command' => 'validate-browsers',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 
@@ -56,12 +59,13 @@ class ValidateCommand extends Command
 
             $failed = true;
         }
+
         $command = $this->getApplication()->find('validate-devices');
 
         $input = new ArrayInput(
             [
                 'command' => 'validate-devices',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 
@@ -78,7 +82,7 @@ class ValidateCommand extends Command
         $input = new ArrayInput(
             [
                 'command' => 'validate-engines',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 
@@ -95,7 +99,7 @@ class ValidateCommand extends Command
         $input = new ArrayInput(
             [
                 'command' => 'validate-platforms',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 
@@ -112,7 +116,7 @@ class ValidateCommand extends Command
         $input = new ArrayInput(
             [
                 'command' => 'validate-core-divisions',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 
@@ -129,7 +133,7 @@ class ValidateCommand extends Command
         $input = new ArrayInput(
             [
                 'command' => 'validate-divisions',
-                '--resources' => $input->getOption('resources'),
+                '--resources' => $resources,
             ]
         );
 

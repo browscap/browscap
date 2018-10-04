@@ -3,16 +3,10 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use JsonSchema\Constraints;
-use JsonSchema\SchemaStorage;
-use Localheinz\Json\Normalizer\Validator;
-use Seld\JsonLint\JsonParser;
-use Seld\JsonLint\ParsingException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Finder\Finder;
 
 class ValidateDivisionsCommand extends Command
 {
@@ -42,62 +36,19 @@ class ValidateDivisionsCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/user-agents';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $divisionResourcePath = $resources . '/user-agents';
 
-        $schemaStorage   = new SchemaStorage();
-        $schemaValidator = new Validator\SchemaValidator(
-            new \JsonSchema\Validator(
-                new Constraints\Factory(
-                    $schemaStorage,
-                    $schemaStorage->getUriRetriever()
-                )
-            )
-        );
+        $logger->info('Resource folder: ' . $resources);
 
-        $schemaUri = 'file://' . realpath(__DIR__ . '/../../../schema/divisions.json');
+        $schema = 'file://' . realpath(__DIR__ . '/../../../schema/divisions.json');
 
-        try {
-            /** @var \stdClass $schema */
-            $schema = $schemaStorage->getSchema($schemaUri);
-        } catch (\Throwable $exception) {
-            $logger->critical('the schema file is invalid');
+        /** @var \Browscap\Command\Helper\Validate $validateHelper */
+        $validateHelper = $this->getHelper('validate');
 
-            return 1;
-        }
-        $failed = false;
-
-        $jsonParser = new JsonParser();
-
-        $finder = new Finder();
-        $finder->files();
-        $finder->name('*.json');
-        $finder->ignoreDotFiles(true);
-        $finder->ignoreVCS(true);
-        $finder->sortByName();
-        $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
-
-        foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
-
-            $json = file_get_contents($file->getPathname());
-
-            try {
-                $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
-
-                if (!$schemaValidator->isValid($decoded, $schema)) {
-                    $logger->critical(sprintf('file "%s" is not valid', $file->getPathname()));
-                    $failed = true;
-                    exit;
-                }
-            } catch (ParsingException $e) {
-                $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
-                $failed = true;
-            }
-        }
+        $failed = $validateHelper->validate($logger, $divisionResourcePath, $schema);
 
         if (!$failed) {
             $output->writeln('the division files are valid');

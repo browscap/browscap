@@ -29,9 +29,11 @@
     }
   ],
   "require": {
+    "ext-json": "*",
     "php": "^7.1",
     "beberlei/assert": "^2.9",
     "localheinz/json-normalizer": "^0.5.2",
+    "mimmi20/json-class": "~1.0.0",
     "mimmi20/ua-browser-type": "^6.0.2",
     "mimmi20/ua-device-type": "^6.0.0",
     "monolog/monolog": "^1.23",
@@ -41,11 +43,17 @@
     "twig/twig": "^2.4"
   },
   "require-dev": {
+    "ext-zip": "*",
     "browscap/browscap-php": "^4.1",
-    "friendsofphp/php-cs-fixer": "^2.12",
+    "friendsofphp/php-cs-fixer": "^2.13",
     "mikey179/vfsStream": "^1.6",
-    "phpstan/phpstan": "^0.9",
-    "phpunit/phpunit": "^7.2"
+    "pepakriz/phpstan-exception-rules": "^0.3",
+    "phpstan/phpstan": "^0.10",
+    "phpstan/phpstan-beberlei-assert": "^0.10",
+    "phpstan/phpstan-deprecation-rules": "^0.10",
+    "phpstan/phpstan-phpunit": "^0.10",
+    "phpstan/phpstan-strict-rules": "^0.10",
+    "phpunit/phpunit": "^7.3"
   },
   "suggest": {
     "ext-zip": "to create a zip file containing all other generated files"

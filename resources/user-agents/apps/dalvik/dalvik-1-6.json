@@ -134,8 +134,7 @@
             "SM-P605*": "Samsung SM-P605"
           },
           "platforms": [
-            "Android_4_4",
-            "Android_4_3"
+            "Android_4_4", "Android_4_3"
           ]
         },
         {
@@ -154,8 +153,7 @@
             "MediaPad M1 8.0": "Huawei MediaPad M1 8.0"
           },
           "platforms": [
-            "Android_4_4",
-            "Android_4_2"
+            "Android_4_4", "Android_4_2"
           ]
         },
         {
@@ -177,8 +175,7 @@
             "SGP321": "Sony SGP321"
           },
           "platforms": [
-            "Android_4_3",
-            "Android_4_2"
+            "Android_4_3", "Android_4_2"
           ]
         },
         {
