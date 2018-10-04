@@ -195,6 +195,10 @@ class RewriteDivisionsCommand extends Command
                         }
                     }
 
+                    if (isset($childData['devices']) && is_array($childData['devices'])) {
+                        ksort($childData['devices']);
+                    }
+
                     if (!isset($childData['platforms'])) {
                         continue;
                     }
