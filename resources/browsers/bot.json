@@ -2960,6 +2960,15 @@
     "lite": false,
     "standard": true
   },
+  "datanyze": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Datanyze",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "dataprovider bot": {
     "type": "bot",
     "properties": {
@@ -7365,6 +7374,15 @@
     "type": "bot",
     "properties": {
       "Browser": "LocalcomBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "localsearch": {
+    "type": "bot",
+    "properties": {
+      "Browser": "localsearch",
       "Browser_Maker": "unknown"
     },
     "lite": false,
