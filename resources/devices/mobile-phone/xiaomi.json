@@ -493,5 +493,16 @@
       "Device_Brand_Name": "Xiaomi"
     },
     "standard": false
+  },
+  "Xiaomi Mi A1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi A1",
+      "Device_Code_Name": "Mi A1",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
   }
 }

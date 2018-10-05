@@ -1,0 +1,99 @@
+{
+  "division": "Opera Touch #MAJORVER#.#MINORVER#",
+  "versions": ["1.10", "1.9", "1.8", "1.7"],
+  "sortIndex": 1045,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera Touch #MAJORVER#.#MINORVER# for iOS",
+      "browser": "opera touch",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Touch #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*) OPT/#MAJORVER#.#MINORVER#* Mobile/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_11_4",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) OPT/#MAJORVER#.#MINORVER#* Mobile/*",
+          "platforms": [
+            "iOS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Opera Touch #MAJORVER#.#MINORVER# for Android",
+      "browser": "opera touch",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera Touch #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Mi A1": "Xiaomi Mi A1",
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "F8331": "Sony F8331"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "F3112": "Sony F3112",
+            "Moto G (4)": "Motorola G4"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Safari/* OPT/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

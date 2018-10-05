@@ -1782,6 +1782,15 @@
     "lite": false,
     "standard": true
   },
+  "opera touch": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Opera Touch",
+      "Browser_Maker": "Opera Software ASA"
+    },
+    "lite": false,
+    "standard": true
+  },
   "orca": {
     "type": "browser",
     "properties": {
