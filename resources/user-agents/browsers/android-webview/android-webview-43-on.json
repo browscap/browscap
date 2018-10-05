@@ -75,6 +75,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "4G-Universal version": "Voyo i8Max 4G",
+            "AGS-L09": "Huawei AGS-L09",
             "E5823": "Sony E5823",
             "F5321": "Sony F5321",
             "PRA-LX1": "Huawei PRA-LX1",
