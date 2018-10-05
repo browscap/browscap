@@ -11492,6 +11492,15 @@
     "lite": false,
     "standard": true
   },
+  "snapchat proxy": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Snapchat Proxy",
+      "Browser_Maker": "Snap Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "snappreviewbot": {
     "type": "bot",
     "properties": {
