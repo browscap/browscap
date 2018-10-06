@@ -69,7 +69,7 @@ class Expander
                         'tried to add section "%s" for division "%s" in file "%s", but this was already added before',
                         $ua,
                         $division->getName(),
-                        $division->getFileName()
+                        (string) realpath((string) $division->getFileName())
                     )
                 );
             }
@@ -119,15 +119,13 @@ class Expander
             $this->patternId['division']  = $division->getFileName();
             $this->patternId['useragent'] = $i;
 
-            foreach ($this->parseUserAgent(
+            yield from $this->parseUserAgent(
                 $uaData,
                 $division->isLite(),
                 $division->isStandard(),
                 $division->getSortIndex(),
                 $divisionName
-            ) as $ua => $properties) {
-                yield $ua => $properties;
-            }
+            );
             ++$i;
         }
     }
@@ -136,8 +134,8 @@ class Expander
      * parses and expands a single User Agent block
      *
      * @param UserAgent $uaData
-     * @param bool      $lite
-     * @param bool      $standard
+     * @param bool      $liteUa
+     * @param bool      $standardUa
      * @param int       $sortIndex
      * @param string    $divisionName
      *
@@ -146,9 +144,11 @@ class Expander
      *
      * @return \Generator
      */
-    private function parseUserAgent(UserAgent $uaData, bool $lite, bool $standard, int $sortIndex, string $divisionName) : \Generator
+    private function parseUserAgent(UserAgent $uaData, bool $liteUa, bool $standardUa, int $sortIndex, string $divisionName) : \Generator
     {
         $uaProperties = $uaData->getProperties();
+        $lite         = $liteUa;
+        $standard     = $standardUa;
 
         if (null !== $uaData->getPlatform()) {
             $this->patternId['platform'] = $uaData->getPlatform();
@@ -176,44 +176,17 @@ class Expander
         }
 
         if (null !== $uaData->getDevice()) {
-            $device = $this->collection->getDevice($uaData->getDevice());
+            [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaData->getDevice(), $standard);
 
-            if (!$device->isStandard()) {
-                $standard = false;
-            }
-
-            $deviceProperties = $this->getDeviceProperties($device);
+            $standard = $standard && $deviceStandard;
         } else {
             $deviceProperties = [];
         }
 
         if (null !== $uaData->getBrowser()) {
-            $browser           = $this->collection->getBrowser($uaData->getBrowser());
-            $browserProperties = $browser->getProperties();
-
-            if (!$browser->isStandard()) {
-                $standard = false;
-            }
-
-            if (!$browser->isLite()) {
-                $lite = false;
-            }
-
-            $browserTypeLoader = new BrowserTypeLoader();
-
-            try {
-                $browserType = $browserTypeLoader->load($browser->getType());
-
-                $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
-                $browserProperties['Crawler']             = $browserType->isBot();
-                $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
-            } catch (NotFoundException $e) {
-                $this->logger->critical($e);
-
-                $browserProperties['isSyndicationReader'] = false;
-                $browserProperties['Crawler']             = false;
-                $browserProperties['Browser_Type']        = 'unknown';
-            }
+            [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaData->getBrowser(), $lite, $standard);
+            $lite                                                = $lite && $browserLite;
+            $standard                                            = $standard && $browserStandard;
         } else {
             $browserProperties = [];
         }
@@ -247,16 +220,12 @@ class Expander
                     $subChild['device']        = $deviceName;
                     unset($subChild['devices']);
 
-                    foreach ($this->parseChildren($ua, $subChild, $lite, $standard) as $uaBase => $properties) {
-                        yield $uaBase => $properties;
-                    }
+                    yield from $this->parseChildren($ua, $subChild, $lite, $standard);
                 }
             } else {
                 $this->patternId['device'] = '';
 
-                foreach ($this->parseChildren($ua, $child, $lite, $standard) as $uaBase => $properties) {
-                    yield $uaBase => $properties;
-                }
+                yield from $this->parseChildren($ua, $child, $lite, $standard);
             }
 
             ++$i;
@@ -268,31 +237,33 @@ class Expander
      *
      * @param string $ua
      * @param array  $uaDataChild
-     * @param bool   $lite
-     * @param bool   $standard
+     * @param bool   $liteChild
+     * @param bool   $standardChild
      *
      * @throws \OutOfBoundsException
      * @throws \UnexpectedValueException
      *
      * @return \Generator
      */
-    private function parseChildren(string $ua, array $uaDataChild, bool $lite = true, bool $standard = true) : \Generator
+    private function parseChildren(string $ua, array $uaDataChild, bool $liteChild = true, bool $standardChild = true) : \Generator
     {
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
-            foreach ($uaDataChild['platforms'] as $platform) {
-                $this->patternId['platform'] = $platform;
-                $properties                  = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
-                $platformProperties          = $this->collection->getPlatform($platform);
+            foreach ($uaDataChild['platforms'] as $platformName) {
+                $lite     = $liteChild;
+                $standard = $standardChild;
 
-                if (!$platformProperties->isLite()) {
-                    $properties['lite'] = false;
+                $this->patternId['platform'] = $platformName;
+                $platform                    = $this->collection->getPlatform($platformName);
+
+                if (!$platform->isLite()) {
+                    $lite = false;
                 }
 
-                if (!$platformProperties->isStandard()) {
-                    $properties['standard'] = false;
+                if (!$platform->isStandard()) {
+                    $standard = false;
                 }
 
-                $uaBase = str_replace('#PLATFORM#', $platformProperties->getMatch(), $uaDataChild['match']);
+                $uaBase = str_replace('#PLATFORM#', $platform->getMatch(), $uaDataChild['match']);
 
                 if (array_key_exists('engine', $uaDataChild)) {
                     $engine           = $this->collection->getEngine($uaDataChild['engine']);
@@ -302,54 +273,30 @@ class Expander
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
-                    $device = $this->collection->getDevice($uaDataChild['device']);
-
-                    if (!$device->isStandard()) {
-                        $properties['standard'] = false;
-                    }
-
-                    $deviceProperties = $this->getDeviceProperties($device);
+                    [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaDataChild['device'], $standard);
+                    $standard                            = $standard && $deviceStandard;
                 } else {
                     $deviceProperties = [];
                 }
 
                 if (array_key_exists('browser', $uaDataChild)) {
-                    $browser           = $this->collection->getBrowser($uaDataChild['browser']);
-                    $browserProperties = $browser->getProperties();
-
-                    if (!$browser->isStandard()) {
-                        $properties['standard'] = false;
-                    }
-
-                    if (!$browser->isLite()) {
-                        $properties['lite'] = false;
-                    }
-
-                    $browserTypeLoader = new BrowserTypeLoader();
-
-                    try {
-                        $browserType = $browserTypeLoader->load($browser->getType());
-
-                        $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
-                        $browserProperties['Crawler']             = $browserType->isBot();
-                        $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
-                    } catch (NotFoundException $e) {
-                        $this->logger->critical($e);
-
-                        $browserProperties['isSyndicationReader'] = false;
-                        $browserProperties['Crawler']             = false;
-                        $browserProperties['Browser_Type']        = 'unknown';
-                    }
+                    [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaDataChild['browser'], $lite, $standard);
+                    $lite                                                = $lite && $browserLite;
+                    $standard                                            = $standard && $browserStandard;
                 } else {
                     $browserProperties = [];
                 }
 
                 $properties = array_merge(
-                    $properties,
+                    [
+                        'Parent' => $ua,
+                        'lite' => $lite,
+                        'standard' => $standard,
+                    ],
                     $engineProperties,
                     $deviceProperties,
                     $browserProperties,
-                    $platformProperties->getProperties()
+                    $platform->getProperties()
                 );
 
                 if (isset($uaDataChild['properties'])
@@ -365,7 +312,8 @@ class Expander
                 yield $uaBase => $properties;
             }
         } else {
-            $properties = ['Parent' => $ua, 'lite' => $lite, 'standard' => $standard];
+            $lite     = $liteChild;
+            $standard = $standardChild;
 
             if (array_key_exists('engine', $uaDataChild)) {
                 $engine           = $this->collection->getEngine($uaDataChild['engine']);
@@ -375,49 +323,30 @@ class Expander
             }
 
             if (array_key_exists('device', $uaDataChild)) {
-                $device = $this->collection->getDevice($uaDataChild['device']);
-
-                if (!$device->isStandard()) {
-                    $properties['standard'] = false;
-                }
-
-                $deviceProperties = $this->getDeviceProperties($device);
+                [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaDataChild['device'], $standard);
+                $standard                            = $standard && $deviceStandard;
             } else {
                 $deviceProperties = [];
             }
 
             if (array_key_exists('browser', $uaDataChild)) {
-                $browser           = $this->collection->getBrowser($uaDataChild['browser']);
-                $browserProperties = $browser->getProperties();
-
-                if (!$browser->isStandard()) {
-                    $properties['standard'] = false;
-                }
-
-                if (!$browser->isLite()) {
-                    $properties['lite'] = false;
-                }
-
-                $browserTypeLoader = new BrowserTypeLoader();
-
-                try {
-                    $browserType = $browserTypeLoader->load($browser->getType());
-
-                    $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
-                    $browserProperties['Crawler']             = $browserType->isBot();
-                    $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
-                } catch (NotFoundException $e) {
-                    $this->logger->critical($e);
-
-                    $browserProperties['isSyndicationReader'] = false;
-                    $browserProperties['Crawler']             = false;
-                    $browserProperties['Browser_Type']        = 'unknown';
-                }
+                [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaDataChild['browser'], $lite, $standard);
+                $lite                                                = $lite && $browserLite;
+                $standard                                            = $standard && $browserStandard;
             } else {
                 $browserProperties = [];
             }
 
-            $properties = array_merge($properties, $engineProperties, $deviceProperties, $browserProperties);
+            $properties = array_merge(
+                [
+                    'Parent' => $ua,
+                    'lite' => $lite,
+                    'standard' => $standard,
+                ],
+                $engineProperties,
+                $deviceProperties,
+                $browserProperties
+            );
 
             if (isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
@@ -432,6 +361,88 @@ class Expander
 
             yield $uaBase => $properties;
         }
+    }
+
+    /**
+     * @param string $devicekey
+     * @param bool   $standard
+     *
+     * @return array
+     */
+    private function getDeviceProperties(string $devicekey, bool $standard) : array
+    {
+        $device           = $this->collection->getDevice($devicekey);
+        $deviceProperties = $device->getProperties();
+
+        if (!$device->isStandard()) {
+            $standard = false;
+        }
+
+        $deviceTypeLoader = new DeviceTypeLoader();
+
+        try {
+            $deviceType = $deviceTypeLoader->load($device->getType());
+
+            $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
+            $deviceProperties['isTablet']       = $deviceType->isTablet();
+
+            if (null === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'unknown';
+            } elseif ('TV' === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'TV Device';
+            } elseif ('Mobile Console' === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'Console';
+            } else {
+                $deviceProperties['Device_Type'] = $deviceType->getName();
+            }
+        } catch (NotFoundException $e) {
+            $this->logger->critical($e);
+
+            $deviceProperties['isMobileDevice'] = false;
+            $deviceProperties['isTablet']       = false;
+            $deviceProperties['Device_Type']    = 'unknown';
+        }
+
+        return [$deviceProperties, $standard];
+    }
+
+    /**
+     * @param string $browserkey
+     * @param bool   $lite
+     * @param bool   $standard
+     *
+     * @return array
+     */
+    private function getBrowserProperties(string $browserkey, bool $lite, bool $standard) : array
+    {
+        $browser           = $this->collection->getBrowser($browserkey);
+        $browserProperties = $browser->getProperties();
+
+        if (!$browser->isStandard()) {
+            $standard = false;
+        }
+
+        if (!$browser->isLite()) {
+            $lite = false;
+        }
+
+        $browserTypeLoader = new BrowserTypeLoader();
+
+        try {
+            $browserType = $browserTypeLoader->load($browser->getType());
+
+            $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
+            $browserProperties['Crawler']             = $browserType->isBot();
+            $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
+        } catch (NotFoundException $e) {
+            $this->logger->critical($e);
+
+            $browserProperties['isSyndicationReader'] = false;
+            $browserProperties['Crawler']             = false;
+            $browserProperties['Browser_Type']        = 'unknown';
+        }
+
+        return [$browserProperties, $lite, $standard];
     }
 
     /**
@@ -535,41 +546,5 @@ class Expander
         $properties['MinorVer'] = $completeVersions[1] ?? '0';
 
         return $properties;
-    }
-
-    /**
-     * @param \Browscap\Data\Device $device
-     *
-     * @return array
-     */
-    private function getDeviceProperties(Device $device) : array
-    {
-        $deviceProperties = $device->getProperties();
-        $deviceTypeLoader = new DeviceTypeLoader();
-
-        try {
-            $deviceType = $deviceTypeLoader->load($device->getType());
-
-            $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
-            $deviceProperties['isTablet']       = $deviceType->isTablet();
-
-            if (null === $deviceType->getName()) {
-                $deviceProperties['Device_Type'] = 'unknown';
-            } elseif ('TV' === $deviceType->getName()) {
-                $deviceProperties['Device_Type'] = 'TV Device';
-            } elseif ('Mobile Console' === $deviceType->getName()) {
-                $deviceProperties['Device_Type'] = 'Console';
-            } else {
-                $deviceProperties['Device_Type'] = $deviceType->getName();
-            }
-        } catch (NotFoundException $e) {
-            $this->logger->critical($e);
-
-            $deviceProperties['isMobileDevice'] = false;
-            $deviceProperties['isTablet']       = false;
-            $deviceProperties['Device_Type']    = 'unknown';
-        }
-
-        return $deviceProperties;
     }
 }

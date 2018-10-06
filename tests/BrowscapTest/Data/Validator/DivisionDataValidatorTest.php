@@ -1495,6 +1495,76 @@ class DivisionDataValidatorTest extends TestCase
     /**
      * @throws \Assert\AssertionFailedException
      */
+    public function testPropertiesPropertyHasBrowserProperties() : void
+    {
+        $this->expectException(LogicException::class);
+        $this->expectExceptionMessage('the properties array contains browser data for key "abc2", please use the "browser" keyword');
+
+        $divisionData = [
+            'division' => 'abc',
+            'sortIndex' => 1,
+            'lite' => false,
+            'standard' => true,
+            'versions' => ['0.0'],
+            'userAgents' => [
+                [
+                    'userAgent' => 'abc',
+                    'properties' => ['Parent' => 'DefaultProperties', 'Comment' => 'test'],
+                    'children' => [
+                        [
+                            'device' => 'abc',
+                            'match' => 'abc2',
+                            'properties' => ['Version' => 'test', 'Browser' => 'test'],
+                        ],
+                    ],
+                ],
+            ],
+        ];
+
+        $allDivisions = [];
+        $fileName     = 'abc.json';
+
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
+    public function testPropertiesPropertyHasDeprecatedProperties() : void
+    {
+        $this->expectException(LogicException::class);
+        $this->expectExceptionMessage('the properties array contains deprecated properties for key "abc2"');
+
+        $divisionData = [
+            'division' => 'abc',
+            'sortIndex' => 1,
+            'lite' => false,
+            'standard' => true,
+            'versions' => ['0.0'],
+            'userAgents' => [
+                [
+                    'userAgent' => 'abc',
+                    'properties' => ['Parent' => 'DefaultProperties', 'Comment' => 'test'],
+                    'children' => [
+                        [
+                            'device' => 'abc',
+                            'match' => 'abc2',
+                            'properties' => ['Version' => 'test', 'AolVersion' => '1'],
+                        ],
+                    ],
+                ],
+            ],
+        ];
+
+        $allDivisions = [];
+        $fileName     = 'abc.json';
+
+        $this->object->validate($divisionData, $fileName, $allDivisions, false);
+    }
+
+    /**
+     * @throws \Assert\AssertionFailedException
+     */
     public function testOk() : void
     {
         $divisionData = [

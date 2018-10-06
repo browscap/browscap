@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Represents a platform as defined in the resources/platforms.json file
+ * Represents a platform as defined in the resources/platforms directory
  */
 class Platform
 {

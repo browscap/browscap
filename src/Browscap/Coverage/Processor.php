@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 namespace Browscap\Coverage;
 
+use JsonClass\Json;
 use Seld\JsonLint\Lexer;
 use Symfony\Component\Finder\Finder;
 
@@ -135,13 +136,15 @@ final class Processor implements ProcessorInterface
      */
     public function write(string $fileName) : void
     {
+        $content = (new Json())->encode($this->coverage, JSON_UNESCAPED_SLASHES);
+
         file_put_contents(
             $fileName,
             // str_replace here is to convert empty arrays into empty JS objects, which is expected by
             // codecov.io. Owner of the service said he was going to patch it, haven't tested since
             // Note: Can't use JSON_FORCE_OBJECT here as we **do** want arrays for the 'b' structure
             // which FORCE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
-            str_replace('[]', '{}', (string) json_encode($this->coverage, JSON_UNESCAPED_SLASHES))
+            str_replace('[]', '{}', $content)
         );
     }
 
@@ -625,7 +628,13 @@ final class Processor implements ProcessorInterface
         $covered = [];
 
         foreach ($ids as $id) {
-            $file = mb_substr($id, 0, (int) mb_strpos($id, '::'));
+            $pos = mb_strpos($id, '::');
+
+            if (false === $pos) {
+                continue;
+            }
+
+            $file = mb_substr($id, 0, $pos);
 
             if (!isset($covered[$file])) {
                 $covered[$file] = [];

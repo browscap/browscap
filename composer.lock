@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "36bfa00f09a9e5e130d1e18945bdbfd9",
+    "content-hash": "715aca4d98e0214bb80b92c3d7ef8336",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -67,6 +67,44 @@
                 "validation"
             ],
             "time": "2019-12-19T17:51:41+00:00"
+        },
+        {
+            "name": "daverandom/exceptional-json",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DaveRandom/ExceptionalJSON.git",
+                "reference": "fed957142b4687b079495c80975666dd1a67d61d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DaveRandom/ExceptionalJSON/zipball/fed957142b4687b079495c80975666dd1a67d61d",
+                "reference": "fed957142b4687b079495c80975666dd1a67d61d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExceptionalJSON\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Wright"
+                }
+            ],
+            "description": "JSON encoding and decoding that throws exceptions on failure",
+            "time": "2018-06-11T11:25:57+00:00"
         },
         {
             "name": "ergebnis/json-normalizer",
@@ -297,6 +335,66 @@
             ],
             "description": "the source interface for the browscap helper",
             "time": "2019-11-20T15:39:01+00:00"
+        },
+        {
+            "name": "mimmi20/json-class",
+            "version": "2.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mimmi20/json-class.git",
+                "reference": "42b627b3a5cd3b65a7ce0691d8da089d92fb3501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/42b627b3a5cd3b65a7ce0691d8da089d92fb3501",
+                "reference": "42b627b3a5cd3b65a7ce0691d8da089d92fb3501",
+                "shasum": ""
+            },
+            "require": {
+                "daverandom/exceptional-json": "^1.0.4",
+                "ext-json": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.16.0",
+                "infection/infection": "^0.13.6",
+                "localheinz/composer-normalize": "^1.3.1",
+                "localheinz/phpstan-rules": "^0.13.0",
+                "pepakriz/phpstan-exception-rules": "^0.9.0",
+                "phpstan/phpstan": "^0.11.19",
+                "phpstan/phpstan-deprecation-rules": "^0.11.2",
+                "phpstan/phpstan-phpunit": "^0.11.2",
+                "phpstan/phpstan-strict-rules": "^0.11.1",
+                "phpunit/phpunit": "^7.5.17 || ^8.4.0",
+                "squizlabs/php_codesniffer": "^3.5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JsonClass\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Müller",
+                    "homepage": "https://github.com/mimmi20",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/mimmi20/json-class/graphs/contributors"
+                }
+            ],
+            "description": "Class wrapper for ",
+            "homepage": "https://github.com/mimmi20/json-class",
+            "keywords": [
+                "json"
+            ],
+            "time": "2019-11-20T15:40:51+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
@@ -1007,16 +1105,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.2",
+            "version": "v2.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed"
+                "reference": "97b6311585cae66a26833b14b33785f5797f7d39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
-                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/97b6311585cae66a26833b14b33785f5797f7d39",
+                "reference": "97b6311585cae66a26833b14b33785f5797f7d39",
                 "shasum": ""
             },
             "require": {
@@ -1026,8 +1124,7 @@
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "^3.4|^4.2",
-                "symfony/phpunit-bridge": "^4.4@dev|^5.0"
+                "symfony/phpunit-bridge": "^4.4|^5.0"
             },
             "type": "library",
             "extra": {
@@ -1056,7 +1153,6 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 },
                 {
@@ -1070,7 +1166,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-11-11T16:52:09+00:00"
+            "time": "2019-12-28T07:12:03+00:00"
         }
     ],
     "packages-dev": [
@@ -1256,44 +1352,6 @@
                 "performance"
             ],
             "time": "2019-11-06T16:40:04+00:00"
-        },
-        {
-            "name": "daverandom/exceptional-json",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DaveRandom/ExceptionalJSON.git",
-                "reference": "fed957142b4687b079495c80975666dd1a67d61d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DaveRandom/ExceptionalJSON/zipball/fed957142b4687b079495c80975666dd1a67d61d",
-                "reference": "fed957142b4687b079495c80975666dd1a67d61d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ExceptionalJSON\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Wright"
-                }
-            ],
-            "description": "JSON encoding and decoding that throws exceptions on failure",
-            "time": "2018-06-11T11:25:57+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -1620,16 +1678,16 @@
         },
         {
             "name": "ergebnis/composer-normalize",
-            "version": "2.0.2",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd"
+                "reference": "38a8ce53a18e0c6b1e00eb3da57c27d695fe38df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd",
-                "reference": "523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/38a8ce53a18e0c6b1e00eb3da57c27d695fe38df",
+                "reference": "38a8ce53a18e0c6b1e00eb3da57c27d695fe38df",
                 "shasum": ""
             },
             "require": {
@@ -1645,11 +1703,12 @@
                 "ergebnis/php-cs-fixer-config": "~1.1.2",
                 "ergebnis/phpstan-rules": "~0.14.2",
                 "ergebnis/test-util": "~0.9.1",
-                "jangregor/phpstan-prophecy": "~0.5.0",
+                "jangregor/phpstan-prophecy": "~0.6.0",
                 "phpstan/extension-installer": "^1.0.3",
-                "phpstan/phpstan": "~0.11.19",
-                "phpstan/phpstan-deprecation-rules": "~0.11.2",
-                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpstan/phpstan": "~0.12.3",
+                "phpstan/phpstan-deprecation-rules": "~0.12.0",
+                "phpstan/phpstan-phpunit": "~0.12.3",
+                "phpstan/phpstan-strict-rules": "~0.12.0",
                 "phpunit/phpunit": "^7.5.18",
                 "symfony/filesystem": "^4.4.1"
             },
@@ -1680,7 +1739,7 @@
                 "normalizer",
                 "plugin"
             ],
-            "time": "2019-12-19T21:54:28+00:00"
+            "time": "2020-01-01T11:15:02+00:00"
         },
         {
             "name": "ergebnis/phpstan-rules",
@@ -2527,16 +2586,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.3",
+            "version": "4.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62"
+                "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
-                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/da3fd972d6bafd628114f7e7e036f45944b62e9c",
+                "reference": "da3fd972d6bafd628114f7e7e036f45944b62e9c",
                 "shasum": ""
             },
             "require": {
@@ -2548,6 +2607,7 @@
             "require-dev": {
                 "doctrine/instantiator": "^1.0.5",
                 "mockery/mockery": "^1.0",
+                "phpdocumentor/type-resolver": "0.4.*",
                 "phpunit/phpunit": "^6.4"
             },
             "type": "library",
@@ -2574,7 +2634,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2019-12-20T13:40:23+00:00"
+            "time": "2019-12-28T18:55:12+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -4573,7 +4633,9 @@
         "php": "^7.1",
         "ext-json": "*"
     },
-    "platform-dev": [],
+    "platform-dev": {
+        "ext-zip": "*"
+    },
     "platform-overrides": {
         "php": "7.1.3"
     }

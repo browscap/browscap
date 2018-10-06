@@ -34,5 +34,14 @@ class Browscap extends Application
         $this->add(new Command\ValidateCommand());
 
         $this->add(new Command\RewriteTestFixturesCommand());
+
+        $sorterHelper = new Command\Helper\Sorter();
+        $this->getHelperSet()->set($sorterHelper);
+
+        $rewriteHelper = new Command\Helper\Rewrite();
+        $this->getHelperSet()->set($rewriteHelper);
+
+        $validateHelper = new Command\Helper\Validate();
+        $this->getHelperSet()->set($validateHelper);
     }
 }
