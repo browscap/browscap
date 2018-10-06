@@ -872,6 +872,15 @@
     "lite": false,
     "standard": true
   },
+  "apache httpclient": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Apache HttpClient",
+      "Browser_Maker": "The Apache Software Foundation"
+    },
+    "lite": false,
+    "standard": true
+  },
   "apache synapse": {
     "type": "bot",
     "properties": {
