@@ -18,8 +18,10 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#SCL24 Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/*Safari/* Kamelio *",
-          "device": "Samsung SCL24",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/#MAJORVER#.#MINORVER# Chrome/*Safari/* Kamelio *",
+          "devices": {
+            "SCL24": "Samsung SCL24"
+          },
           "platforms": [
             "Android_4_4"
           ]
