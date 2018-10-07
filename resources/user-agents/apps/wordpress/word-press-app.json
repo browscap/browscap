@@ -15,8 +15,10 @@
       },
       "children": [
         {
-          "match": "wp-iphone/4.4 (#PLATFORM#, iPad) Mobile*",
-          "device": "iPad",
+          "match": "wp-iphone/4.4 (#PLATFORM#, #DEVICE#) Mobile*",
+          "devices": {
+            "iPad": "iPad"
+          },
           "platforms": [
             "iOS_K_8_0",
             "iOS_K"
@@ -26,8 +28,10 @@
           }
         },
         {
-          "match": "wp-iphone/* (#PLATFORM#, iPad) Mobile*",
-          "device": "iPad",
+          "match": "wp-iphone/* (#PLATFORM#, #DEVICE#) Mobile*",
+          "devices": {
+            "iPad": "iPad"
+          },
           "platforms": [
             "iOS_K_8_0",
             "iOS_K"
@@ -53,8 +57,10 @@
           ]
         },
         {
-          "match": "wp-android/3.0* (#PLATFORM#GT-N7100/*",
-          "device": "Samsung GT-N7100",
+          "match": "wp-android/3.0* (#PLATFORM##DEVICE#/*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
           "platforms": [
             "Android_H_4_4"
           ],
@@ -63,8 +69,10 @@
           }
         },
         {
-          "match": "wp-android/* (#PLATFORM#GT-N7100/*",
-          "device": "Samsung GT-N7100",
+          "match": "wp-android/* (#PLATFORM##DEVICE#/*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
           "platforms": [
             "Android_H_4_4"
           ]
