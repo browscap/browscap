@@ -42,6 +42,15 @@
         {
           "match": "Clickagy Intelligence Bot*",
           "browser": "clickagy intelligence bot"
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Datanyze; #PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*",
+          "browser": "datanyze",
+          "engine": "Blink",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
         }
       ]
     }

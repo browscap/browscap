@@ -855,6 +855,17 @@
         {
           "match": "zoomRank/*",
           "browser": "zoomsquare robot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; localsearch-web/2.0*",
+          "browser": "localsearch",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; localsearch-web/*",
+          "browser": "localsearch"
         }
       ]
     }
