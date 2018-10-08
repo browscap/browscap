@@ -1,0 +1,57 @@
+{
+  "division": "Apache HttpClient",
+  "sortIndex": 480,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apache HttpClient",
+      "browser": "apache httpclient",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apache HttpClient"
+      },
+      "children": [
+        {
+          "match": "Apache-HttpClient/4.5*",
+          "properties": {
+            "Version": "4.5"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/4.4*",
+          "properties": {
+            "Version": "4.4"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/4.3*",
+          "properties": {
+            "Version": "4.3"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/4.2*",
+          "properties": {
+            "Version": "4.2"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/4.1*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
+          "match": "Apache-HttpClient/*"
+        }
+      ]
+    }
+  ]
+}
