@@ -1,0 +1,21 @@
+{
+  "division": "Snapchat Proxy",
+  "sortIndex": 461,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Snapchat Proxy",
+      "browser": "snapchat proxy",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snapchat Proxy"
+      },
+      "children": [
+        {
+          "match": "AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy*"
+        }
+      ]
+    }
+  ]
+}
