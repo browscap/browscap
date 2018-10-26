@@ -1,13 +1,13 @@
 {
-    "Lonwalk T900": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "T900",
-            "Device_Code_Name": "T900",
-            "Device_Maker": "Lonwalk",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Lonwalk"
-        },
-        "standard": true
-    }
+  "Lonwalk T900": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "T900",
+      "Device_Code_Name": "T900",
+      "Device_Maker": "Lonwalk",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lonwalk"
+    },
+    "standard": true
+  }
 }

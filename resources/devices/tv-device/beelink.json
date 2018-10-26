@@ -1,24 +1,24 @@
 {
-    "Beelink GT1": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "GT1",
-            "Device_Code_Name": "GT1",
-            "Device_Maker": "Beelink",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Beelink"
-        },
-        "standard": true
+  "Beelink GT1": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "GT1",
+      "Device_Code_Name": "GT1",
+      "Device_Maker": "Beelink",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Beelink"
     },
-    "Beelink Mini MXIII II": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Mini MXIII II",
-            "Device_Code_Name": "Mini MXIII II",
-            "Device_Maker": "Beelink",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Beelink"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Beelink Mini MXIII II": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Mini MXIII II",
+      "Device_Code_Name": "Mini MXIII II",
+      "Device_Maker": "Beelink",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Beelink"
+    },
+    "standard": true
+  }
 }

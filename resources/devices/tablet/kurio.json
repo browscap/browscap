@@ -1,13 +1,13 @@
 {
-    "Kurio C15100M": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Tab 2",
-            "Device_Code_Name": "C15100M",
-            "Device_Maker": "Kurio",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Kurio"
-        },
-        "standard": true
-    }
+  "Kurio C15100M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab 2",
+      "Device_Code_Name": "C15100M",
+      "Device_Maker": "Kurio",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Kurio"
+    },
+    "standard": true
+  }
 }

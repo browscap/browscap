@@ -1,13 +1,13 @@
 {
-    "MXR Pro": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Pro",
-            "Device_Code_Name": "Pro",
-            "Device_Maker": "MXR",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "MXR"
-        },
-        "standard": true
-    }
+  "MXR Pro": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Pro",
+      "Device_Code_Name": "Pro",
+      "Device_Maker": "MXR",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "MXR"
+    },
+    "standard": true
+  }
 }

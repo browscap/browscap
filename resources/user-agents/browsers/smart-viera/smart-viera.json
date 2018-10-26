@@ -20,7 +20,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Viera*) applewebkit* (*khtml*like*gecko*) Viera/#MAJORVER#.#MINORVER#* Chrome/*Safari/*",
           "platforms": [
-            "FreeBSD", "Linux"
+            "FreeBSD",
+            "Linux"
           ]
         }
       ]

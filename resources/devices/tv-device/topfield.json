@@ -1,13 +1,13 @@
 {
-    "Topfield TF6200HD Smart": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "TF6200HD Smart",
-            "Device_Code_Name": "TF6200HD Smart",
-            "Device_Maker": "Topfield",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Topfield"
-        },
-        "standard": true
-    }
+  "Topfield TF6200HD Smart": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TF6200HD Smart",
+      "Device_Code_Name": "TF6200HD Smart",
+      "Device_Maker": "Topfield",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Topfield"
+    },
+    "standard": true
+  }
 }

@@ -201,14 +201,14 @@ class RewriteDivisionsCommand extends Command
                         continue;
                     }
 
-                    $platforms = $this->sortPlatforms(array_unique($childData['platforms']), array_keys($allPlatforms['platforms']));
+                    $platforms = $this->sortPlatforms(array_unique($childData['platforms']), array_keys($allPlatforms));
 
                     $currentPlatform = ['name' => '', 'major-version' => 0, 'minor-version' => 0, 'key' => ''];
                     $currentChunk    = -1;
                     $chunk           = [];
 
                     foreach ($platforms as $key => $platformkey) {
-                        $platform = $allPlatforms['platforms'][$platformkey];
+                        $platform = $allPlatforms[$platformkey];
 
                         if ((!isset($platform['properties']['Platform']) || !isset($platform['properties']['Platform_Version']))
                             && isset($platform['inherits'])
@@ -220,7 +220,7 @@ class RewriteDivisionsCommand extends Command
                             }
 
                             do {
-                                $parentPlatform     = $allPlatforms['platforms'][$platform['inherits']];
+                                $parentPlatform     = $allPlatforms[$platform['inherits']];
                                 $platformProperties = array_merge($parentPlatform['properties'], $platformProperties);
                                 unset($platform['inherits']);
 

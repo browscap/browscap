@@ -1,13 +1,13 @@
 {
-    "MStar Set-Top Box": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Set-Top Box",
-            "Device_Code_Name": "Set-Top Box",
-            "Device_Maker": "MStar",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "MStar"
-        },
-        "standard": true
-    }
+  "MStar Set-Top Box": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Set-Top Box",
+      "Device_Code_Name": "Set-Top Box",
+      "Device_Maker": "MStar",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "MStar"
+    },
+    "standard": true
+  }
 }

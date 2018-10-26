@@ -1,71 +1,63 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "properties": {
-    "platforms": {
-      "type": "object",
-      "minItems": 1,
-      "uniqueItems": true,
-      "items": {
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "properties": {
+      "match": {
+        "type": "string"
+      },
+      "lite": {
+        "type": "boolean"
+      },
+      "standard": {
+        "type": "boolean"
+      },
+      "inherits": {
+        "type": "string"
+      },
+      "properties": {
         "type": "object",
         "properties": {
-          "match": {
+          "Platform": {
             "type": "string"
           },
-          "lite": {
-            "type": "boolean"
-          },
-          "standard": {
-            "type": "boolean"
-          },
-          "inherits": {
+          "Platform_Version": {
             "type": "string"
           },
-          "properties": {
-            "type": "object",
-            "properties": {
-              "Platform": {
-                "type": "string"
-              },
-              "Platform_Version": {
-                "type": "string"
-              },
-              "Platform_Description": {
-                "type": "string"
-              },
-              "Platform_Maker": {
-                "type": "string"
-              },
-              "Win16": {
-                "type": "boolean"
-              },
-              "Win32": {
-                "type": "boolean"
-              },
-              "Win64": {
-                "type": "boolean"
-              },
-              "Browser_Bits": {
-                "type": "integer"
-              },
-              "Platform_Bits": {
-                "type": "integer"
-              }
-            },
-            "required": [
-              "Platform_Version"
-            ]
+          "Platform_Description": {
+            "type": "string"
+          },
+          "Platform_Maker": {
+            "type": "string"
+          },
+          "Win16": {
+            "type": "boolean"
+          },
+          "Win32": {
+            "type": "boolean"
+          },
+          "Win64": {
+            "type": "boolean"
+          },
+          "Browser_Bits": {
+            "type": "integer"
+          },
+          "Platform_Bits": {
+            "type": "integer"
           }
         },
         "required": [
-          "match",
-          "lite",
-          "standard"
+          "Platform_Version"
         ]
       }
     },
     "required": [
-      "platforms"
+      "match",
+      "lite",
+      "standard"
     ]
   }
 }

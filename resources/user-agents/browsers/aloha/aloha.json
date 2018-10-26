@@ -132,7 +132,7 @@
           "platforms": [
             "iOS_C_12_0",
             "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
-            "iOS_C_10_3",  "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
+            "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3",
             "iOS_C"
           ]

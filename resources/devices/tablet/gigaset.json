@@ -1,24 +1,24 @@
 {
-    "Gigaset QV830": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "QV830",
-            "Device_Code_Name": "QV830",
-            "Device_Maker": "Gigaset",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Gigaset"
-        },
-        "standard": true
+  "Gigaset QV830": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "QV830",
+      "Device_Code_Name": "QV830",
+      "Device_Maker": "Gigaset",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gigaset"
     },
-    "Gigaset QV1030": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "QV1030",
-            "Device_Code_Name": "QV1030",
-            "Device_Maker": "Gigaset",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Gigaset"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "Gigaset QV1030": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "QV1030",
+      "Device_Code_Name": "QV1030",
+      "Device_Maker": "Gigaset",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Gigaset"
+    },
+    "standard": true
+  }
 }

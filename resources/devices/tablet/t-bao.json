@@ -1,13 +1,13 @@
 {
-    "T-Bao X101A": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "X101A",
-            "Device_Code_Name": "X101A",
-            "Device_Maker": "T-Bao",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "T-Bao"
-        },
-        "standard": true
-    }
+  "T-Bao X101A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "X101A",
+      "Device_Code_Name": "X101A",
+      "Device_Maker": "T-Bao",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "T-Bao"
+    },
+    "standard": true
+  }
 }

@@ -1,35 +1,35 @@
 {
-    "R-TV Box S10": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "S10",
-            "Device_Code_Name": "S10",
-            "Device_Maker": "R-TV Box",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "R-TV Box"
-        },
-        "standard": true
+  "R-TV Box S10": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "S10",
+      "Device_Code_Name": "S10",
+      "Device_Maker": "R-TV Box",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "R-TV Box"
     },
-    "R-TV Box Mini+": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Mini+",
-            "Device_Code_Name": "Mini+",
-            "Device_Maker": "R-TV Box",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "R-TV Box"
-        },
-        "standard": true
+    "standard": true
+  },
+  "R-TV Box Mini+": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Mini+",
+      "Device_Code_Name": "Mini+",
+      "Device_Maker": "R-TV Box",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "R-TV Box"
     },
-    "R-TV Box Mini 00": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Mini 00",
-            "Device_Code_Name": "Mini 00",
-            "Device_Maker": "R-TV Box",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "R-TV Box"
-        },
-        "standard": true
-    }
+    "standard": true
+  },
+  "R-TV Box Mini 00": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Mini 00",
+      "Device_Code_Name": "Mini 00",
+      "Device_Maker": "R-TV Box",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "R-TV Box"
+    },
+    "standard": true
+  }
 }

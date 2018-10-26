@@ -49,7 +49,7 @@ class CsvWriter implements WriterInterface
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
-        $this->file   = fopen($file, 'w');
+        $this->file   = fopen($file, 'wb');
     }
 
     /**

@@ -1,13 +1,13 @@
 {
-    "Xgody K109": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "K109",
-            "Device_Code_Name": "K109",
-            "Device_Maker": "Xgody",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "Xgody"
-        },
-        "standard": true
-    }
+  "Xgody K109": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "K109",
+      "Device_Code_Name": "K109",
+      "Device_Maker": "Xgody",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xgody"
+    },
+    "standard": true
+  }
 }

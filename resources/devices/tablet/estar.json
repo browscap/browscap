@@ -1,13 +1,13 @@
 {
-    "eSTAR Beauty 2 HD": {
-        "type": "tablet",
-        "properties": {
-            "Device_Name": "Beauty 2 HD",
-            "Device_Code_Name": "Beauty 2 HD",
-            "Device_Maker": "eSTAR",
-            "Device_Pointing_Method": "touchscreen",
-            "Device_Brand_Name": "eSTAR"
-        },
-        "standard": true
-    }
+  "eSTAR Beauty 2 HD": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Beauty 2 HD",
+      "Device_Code_Name": "Beauty 2 HD",
+      "Device_Maker": "eSTAR",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "eSTAR"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "HP SlateBook 14": {
-        "type": "desktop",
-        "properties": {
-            "Device_Name": "SlateBook 14",
-            "Device_Code_Name": "SlateBook 14",
-            "Device_Maker": "HP",
-            "Device_Pointing_Method": "mouse",
-            "Device_Brand_Name": "HP"
-        },
-        "standard": true
-    }
+  "HP SlateBook 14": {
+    "type": "desktop",
+    "properties": {
+      "Device_Name": "SlateBook 14",
+      "Device_Code_Name": "SlateBook 14",
+      "Device_Maker": "HP",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "HP"
+    },
+    "standard": true
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "Leelbox Leelbox": {
-        "type": "tv",
-        "properties": {
-            "Device_Name": "Leelbox",
-            "Device_Code_Name": "Leelbox",
-            "Device_Maker": "Leelbox",
-            "Device_Pointing_Method": "unknown",
-            "Device_Brand_Name": "Leelbox"
-        },
-        "standard": true
-    }
+  "Leelbox Leelbox": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Leelbox",
+      "Device_Code_Name": "Leelbox",
+      "Device_Maker": "Leelbox",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Leelbox"
+    },
+    "standard": true
+  }
 }
