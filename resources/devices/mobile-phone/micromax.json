@@ -1297,6 +1297,17 @@
     },
     "standard": false
   },
+  "Micromax Q350": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Canvas Spark 2 Plus",
+      "Device_Code_Name": "Q350",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
   "Micromax Q351": {
     "type": "mobile-phone",
     "properties": {
@@ -1951,6 +1962,61 @@
     "properties": {
       "Device_Name": "X650",
       "Device_Code_Name": "X650",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
+  "Micromax Q437": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Bharat 3",
+      "Device_Code_Name": "Q437",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
+  "Micromax HS1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Canvas Infinity Life",
+      "Device_Code_Name": "HS1",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
+  "Micromax Q424": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Bolt Selfie",
+      "Device_Code_Name": "Q424",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
+  "Micromax Q402+": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Bharat 2 Plus",
+      "Device_Code_Name": "Q402+",
+      "Device_Maker": "Micromax",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Micromax"
+    },
+    "standard": false
+  },
+  "Micromax C1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Canvas 1",
+      "Device_Code_Name": "C1",
       "Device_Maker": "Micromax",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Micromax"

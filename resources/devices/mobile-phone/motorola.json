@@ -2407,5 +2407,137 @@
       "Device_Brand_Name": "Motorola"
     },
     "standard": false
+  },
+  "Motorola Moto G5 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G5 Plus",
+      "Device_Code_Name": "Moto G5 Plus",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto E4 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E4 Plus",
+      "Device_Code_Name": "Moto E4 Plus",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1706": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E3 Power",
+      "Device_Code_Name": "XT1706",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto G3 TE": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G3 Turbo Edition",
+      "Device_Code_Name": "Moto G3 TE",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto E5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E5",
+      "Device_Code_Name": "Moto E5",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto C",
+      "Device_Code_Name": "Moto C",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto G6": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G6",
+      "Device_Code_Name": "Moto G6",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto G5s Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G5s Plus",
+      "Device_Code_Name": "Moto G5s Plus",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola XT1523": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E2",
+      "Device_Code_Name": "XT1523",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto E5 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E5 Plus",
+      "Device_Code_Name": "Moto E5 Plus",
+      "Device_Maker": "Lenovo",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto G5s": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto G5s",
+      "Device_Code_Name": "Moto G5s",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
+  },
+  "Motorola Moto E4": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Moto E4",
+      "Device_Code_Name": "Moto E4",
+      "Device_Maker": "Motorola",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Motorola"
+    },
+    "standard": false
   }
 }

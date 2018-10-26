@@ -978,6 +978,10 @@
         {
           "match": "axios/*",
           "browser": "axios"
+        },
+        {
+          "match": "Mozilla/5.0 zgrab/*",
+          "browser": "zgrab"
         }
       ]
     }

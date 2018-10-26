@@ -1293,7 +1293,7 @@ return [
             'isModified' => false,
             'CssVersion' => '0',
             'Device_Name' => 'Majestic 2.4D',
-            'Device_Maker' => 'SHAAN',
+            'Device_Maker' => 'iBall',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'unknown',
             'Device_Code_Name' => 'Majestic 2.4D',

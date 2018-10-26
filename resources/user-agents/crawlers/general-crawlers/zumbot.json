@@ -13,22 +13,16 @@
       },
       "children": [
         {
-          "match": "ZumBot/1.0*",
-          "properties": {
-            "Version": "1.0"
-          }
-        },
-        {
           "match": "ZumBot/*"
         },
         {
-          "match": "Mozilla/5.0 (compatible; ZumBot/1.0*",
-          "properties": {
-            "Version": "1.0"
-          }
+          "match": "Mozilla/5.0 (compatible; ZumBot/*"
         },
         {
-          "match": "Mozilla/5.0 (compatible; ZumBot/*"
+          "match": "Mozilla/5.0 (Windows NT 10.0; ZumBot/*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Windows NT 6.1?; ZumBot/*"
         }
       ]
     }

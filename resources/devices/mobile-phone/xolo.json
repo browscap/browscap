@@ -42,5 +42,27 @@
       "Device_Brand_Name": "XOLO"
     },
     "standard": false
+  },
+  "XOLO Era 2X": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Era 2X",
+      "Device_Code_Name": "Era 2X",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
+    },
+    "standard": false
+  },
+  "XOLO Era 2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Era 2",
+      "Device_Code_Name": "Era 2",
+      "Device_Maker": "XOLO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "XOLO"
+    },
+    "standard": false
   }
 }

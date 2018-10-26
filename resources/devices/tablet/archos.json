@@ -163,5 +163,16 @@
       "Device_Brand_Name": "Archos"
     },
     "standard": true
+  },
+  "Archos Access 101 3G V2": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Access 101 3G V2",
+      "Device_Code_Name": "Access 101 3G V2",
+      "Device_Maker": "Archos",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Archos"
+    },
+    "standard": true
   }
 }

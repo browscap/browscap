@@ -1,0 +1,13 @@
+{
+  "China-Tablet I101MTK": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "I101MTK",
+      "Device_Code_Name": "I101MTK",
+      "Device_Maker": "China Tablet",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "China Tablet"
+    },
+    "standard": true
+  }
+}

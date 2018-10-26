@@ -119,5 +119,49 @@
       "Device_Brand_Name": "Coolpad"
     },
     "standard": false
+  },
+  "Coolpad C103": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Cool 1",
+      "Device_Code_Name": "C103",
+      "Device_Maker": "Coolpad",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad Y82-520": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Fengshang",
+      "Device_Code_Name": "Y82-520",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 3600I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 5",
+      "Device_Code_Name": "3600I",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
+  },
+  "Coolpad 3505I": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Note 5 Lite",
+      "Device_Code_Name": "3505I",
+      "Device_Maker": "Yulong Computer",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Coolpad"
+    },
+    "standard": false
   }
 }

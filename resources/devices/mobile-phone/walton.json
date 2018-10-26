@@ -1,0 +1,13 @@
+{
+  "Walton Primo GH7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Primo GH7",
+      "Device_Code_Name": "Primo GH7",
+      "Device_Maker": "Walton",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Walton"
+    },
+    "standard": false
+  }
+}

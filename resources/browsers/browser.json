@@ -2583,6 +2583,15 @@
     "lite": false,
     "standard": true
   },
+  "oppo": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Oppo Browser",
+      "Browser_Maker": "OPPO"
+    },
+    "lite": false,
+    "standard": true
+  },
   "vmware browser": {
     "type": "browser",
     "properties": {

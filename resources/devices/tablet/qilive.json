@@ -1,0 +1,13 @@
+{
+  "Qilive Q4T10IN": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tablet Q.4",
+      "Device_Code_Name": "Q4T10IN",
+      "Device_Maker": "Qilive",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Qilive"
+    },
+    "standard": true
+  }
+}

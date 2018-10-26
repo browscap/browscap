@@ -141,5 +141,16 @@
       "Device_Brand_Name": "Lyf"
     },
     "standard": false
+  },
+  "Lyf LS-5020": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Water 10",
+      "Device_Code_Name": "LS-5020",
+      "Device_Maker": "Lyf",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Lyf"
+    },
+    "standard": false
   }
 }

@@ -1,0 +1,13 @@
+{
+  "Swipe Elite Dual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Elite Dual",
+      "Device_Code_Name": "Elite Dual",
+      "Device_Maker": "Swipe",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Swipe"
+    },
+    "standard": false
+  }
+}

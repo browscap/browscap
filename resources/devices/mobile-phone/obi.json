@@ -1,0 +1,13 @@
+{
+  "Obi S551": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Hornbill",
+      "Device_Code_Name": "S551",
+      "Device_Maker": "Obi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Obi"
+    },
+    "standard": false
+  }
+}

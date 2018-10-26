@@ -1,0 +1,13 @@
+{
+  "Smartron T5524": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T5524",
+      "Device_Code_Name": "T5524",
+      "Device_Maker": "Smartron",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Smartron"
+    },
+    "standard": false
+  }
+}

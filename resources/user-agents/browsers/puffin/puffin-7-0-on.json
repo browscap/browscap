@@ -94,6 +94,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
           "devices": {
+            "M5_lite": "Gionee M5 Lite"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*A?*",
+          "devices": {
             "GT-I9500": "Samsung GT-I9500",
             "Lenovo A7000-a": "Lenovo A7000-A",
             "LG-D855": "LG D855",

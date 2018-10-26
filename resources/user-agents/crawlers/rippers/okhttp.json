@@ -37,6 +37,12 @@
           }
         },
         {
+          "match": "okhttp/2.5*",
+          "properties": {
+            "Version": "2.5"
+          }
+        },
+        {
           "match": "okhttp/*"
         }
       ]

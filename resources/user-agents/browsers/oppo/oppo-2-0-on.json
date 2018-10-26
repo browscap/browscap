@@ -1,0 +1,52 @@
+{
+  "division": "OPPO Browser #MAJORVER#.#MINORVER#",
+  "versions": ["4.2", "2.2", 2],
+  "sortIndex": 1141,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OPPO Browser #MAJORVER#.#MINORVER#",
+      "browser": "oppo",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OPPO Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OppoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "CPH1727": "OPPO CPH1727",
+            "CPH1729": "OPPO CPH1729"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OppoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "OPPO R9s": "OPPO R9s"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OppoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

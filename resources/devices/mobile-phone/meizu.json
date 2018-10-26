@@ -42,5 +42,16 @@
       "Device_Brand_Name": "Meizu"
     },
     "standard": false
+  },
+  "Meizu M1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M1",
+      "Device_Code_Name": "M1",
+      "Device_Maker": "Meizu Technology Co., Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Meizu"
+    },
+    "standard": false
   }
 }

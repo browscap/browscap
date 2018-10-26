@@ -20,6 +20,16 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "engine": "Blink",
           "devices": {
+            "TA-1000": "Nokia TA-1000"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "Blink",
+          "devices": {
             "GT-N7100": "Samsung GT-N7100"
           },
           "platforms": [

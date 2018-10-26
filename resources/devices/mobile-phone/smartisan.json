@@ -1,0 +1,13 @@
+{
+  "Smartisan SM801": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "T2",
+      "Device_Code_Name": "SM801",
+      "Device_Maker": "Smartisan",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Smartisan"
+    },
+    "standard": false
+  }
+}

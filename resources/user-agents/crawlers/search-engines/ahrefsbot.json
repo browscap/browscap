@@ -31,6 +31,18 @@
           }
         },
         {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.1*",
+          "properties": {
+            "Version": "5.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AhrefsBot/5.2*",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
           "match": "Mozilla/5.0 (compatible; AhrefsBot/*"
         }
       ]

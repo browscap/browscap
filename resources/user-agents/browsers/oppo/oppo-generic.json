@@ -1,0 +1,31 @@
+{
+  "division": "OPPO Browser Generic",
+  "sortIndex": 1143,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OPPO Browser Generic",
+      "browser": "oppo",
+      "engine": "Blink",
+      "platform": "Android",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OPPO Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OppoBrowser/*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

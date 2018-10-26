@@ -20,6 +20,7 @@
         {
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
+            "ASUS_X00TD": "Asus X00TD",
             "Pixel C": "Google Pixel C"
           },
           "platforms": [
@@ -45,6 +46,15 @@
           "platforms": [
             "Android_8_0",
             "Android_6_0"
+          ]
+        },
+        {
+          "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
+          "devices": {
+            "SM-G955F": "Samsung SM-G955F"
+          },
+          "platforms": [
+            "Android_8_0"
           ]
         },
         {
@@ -218,6 +228,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "BRAVIA 4K GB": "Sony Bravia 4K GB",
+            "Lenovo K33a42": "Lenovo K33a42",
             "MIBOX3": "Xiaomi Mi Box 3",
             "P00C": "Asus P00C",
             "Percee TV": "TCL Percee TV",

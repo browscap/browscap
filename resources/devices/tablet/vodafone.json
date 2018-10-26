@@ -31,5 +31,16 @@
       "Device_Brand_Name": "Vodafone"
     },
     "standard": true
+  },
+  "Vodafone Vodacom Power Tab 10": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Vodacom Power Tab 10",
+      "Device_Code_Name": "Vodacom Power Tab 10",
+      "Device_Maker": "ZTE",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": true
   }
 }

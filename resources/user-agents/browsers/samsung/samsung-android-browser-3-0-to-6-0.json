@@ -31,12 +31,22 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-J320FN*": "Samsung SM-J320FN",
             "SM-J320F*": "Samsung SM-J320F"
           },
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T350": "Samsung SM-T350"
+          },
+          "platforms": [
+            "Android_7_1"
           ]
         },
         {
@@ -76,6 +86,8 @@
             "SM-G532F": "Samsung SM-G532F",
             "SM-G532G": "Samsung SM-G532G",
             "SM-G532M": "Samsung SM-G532M",
+            "SM-G9008V": "Samsung SM-G9008V",
+            "SM-G9250": "Samsung SM-G9250",
             "SM-G930F": "Samsung SM-G930F",
             "SM-G935F": "Samsung SM-G935F",
             "SM-J120A": "Samsung SM-J120A",
@@ -144,6 +156,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "SM-G360T1": "Samsung SM-G360T1",
+            "SM-G531F": "Samsung SM-G531F",
             "SM-G920F*": "Samsung SM-G920F",
             "SM-G920I": "Samsung SM-G920I",
             "SM-G920P": "Samsung SM-G920P",
@@ -160,6 +173,7 @@
             "SM-G928R*": "Samsung SM-G928R",
             "SM-G928T": "Samsung SM-G928T",
             "SM-G928V": "Samsung SM-G928V",
+            "SM-J111F": "Samsung SM-J111F",
             "SM-J200G": "Samsung SM-J200G",
             "SM-J200GU": "Samsung SM-J200GU",
             "SM-J320M": "Samsung SM-J320M",
@@ -192,6 +206,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "SM-A300FU": "Samsung SM-A300FU",
+            "SM-A7000": "Samsung SM-A7000",
             "SM-A700F": "Samsung SM-A700F",
             "SM-A9000": "Samsung SM-A9000",
             "SM-G900F": "Samsung SM-G900F",

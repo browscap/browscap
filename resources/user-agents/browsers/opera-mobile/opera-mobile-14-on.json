@@ -20,6 +20,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "CPH1819": "OPPO CPH1819",
+            "ONEPLUS A5000": "OnePlus A5000"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
+          "devices": {
             "Nexus 6P": "Huawei Nexus 6P"
           },
           "platforms": [
@@ -31,6 +41,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "CPH1729": "OPPO CPH1729",
             "General Mobile 4G Dual": "General Mobile 4G Dual",
             "Pixel C": "Google Pixel C",
             "Pixel XL": "Google Pixel XL",
@@ -104,9 +115,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "CPH1609": "OPPO CPH1609",
+            "CPH1715": "OPPO CPH1715",
+            "GIONEE P7": "Gionee P7",
             "HUAWEI VNS-L31": "Huawei VNS-L31",
+            "Lenovo A7020a48": "Lenovo A7020a48",
             "Nexus 7": "Asus Nexus 7",
-            "Redmi 3S": "Xiaomi Redmi 3S"
+            "P024": "Asus P024",
+            "Redmi 3S": "Xiaomi Redmi 3S",
+            "Redmi 4A": "Xiaomi Redmi 4A"
           },
           "platforms": [
             "Android_6_0"
@@ -118,7 +135,8 @@
             "LGLS991": "LG LS991",
             "SM-A310F": "Samsung SM-A310F",
             "SM-A510F": "Samsung SM-A510F",
-            "SM-A710F": "Samsung SM-A710F"
+            "SM-A710F": "Samsung SM-A710F",
+            "SM-J500F": "Samsung SM-J500F"
           },
           "platforms": [
             "Android_6_0",
@@ -162,9 +180,12 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
+            "A1601": "OPPO A1601",
+            "A37f": "OPPO A37f",
             "E5823": "Sony E5823",
             "Nexus 4": "LG Nexus 4",
-            "Nexus 7": "Asus Nexus 7"
+            "Nexus 7": "Asus Nexus 7",
+            "vivo Y21L": "vivo Y21L"
           },
           "platforms": [
             "Android_5_1"

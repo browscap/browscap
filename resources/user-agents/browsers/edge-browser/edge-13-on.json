@@ -47,6 +47,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edge/#MAJORVER#.*",
           "devices": {
+            "Lumia 550": "Microsoft Lumia 550",
             "Lumia 930": "Nokia Lumia 930",
             "RM-1010": "Nokia Lumia 638 RM-1010"
           },

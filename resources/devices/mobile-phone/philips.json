@@ -119,5 +119,16 @@
       "Device_Brand_Name": "Philips"
     },
     "standard": false
+  },
+  "Philips S616": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "S616",
+      "Device_Code_Name": "S616",
+      "Device_Maker": "Philips",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Philips"
+    },
+    "standard": false
   }
 }

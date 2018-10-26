@@ -9,7 +9,7 @@
       "browser": "aliapp",
       "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Device (Touch)",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "AliApp",
@@ -28,6 +28,37 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* AliApp*",
+          "platforms": [
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/534.30 (KHTML, like Gecko) Version/* UCBrowser/* U3/* Safari/* AliApp*",
+          "engine": "U3",
+          "devices": {
+            "BLN-AL20": "Huawei BLN-AL20"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit/534.30 (KHTML, like Gecko) Version/* UCBrowser/* U3/* Safari/* AliApp*",
+          "engine": "U3",
+          "devices": {
+            "OPPO A59m": "OPPO A59m"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) AppleWebKit/534.30 (KHTML, like Gecko) Version/* UCBrowser/* U3/* Safari/* AliApp*",
+          "engine": "U3",
           "platforms": [
             "Android_7_1", "Android_7_0",
             "Android_6_0",

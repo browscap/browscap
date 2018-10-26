@@ -32,6 +32,28 @@
     },
     "standard": false
   },
+  "HTC Desire 626": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 626",
+      "Device_Code_Name": "Desire 626",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
+  "HTC Desire 826": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 826",
+      "Device_Code_Name": "Desire 826",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
   "HTC 0PM92": {
     "type": "mobile-phone",
     "properties": {
@@ -1943,6 +1965,17 @@
       "Device_Maker": "HTC",
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
+  },
+  "HTC V1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "V1",
+      "Device_Code_Name": "V1",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
     },
     "standard": false
   }

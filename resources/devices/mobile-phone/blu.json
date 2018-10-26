@@ -86,5 +86,16 @@
       "Device_Brand_Name": "BLU"
     },
     "standard": false
+  },
+  "BLU Studio G HD": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Studio G HD",
+      "Device_Code_Name": "Studio G HD",
+      "Device_Maker": "BLU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "BLU"
+    },
+    "standard": false
   }
 }

@@ -9,5 +9,16 @@
       "Device_Brand_Name": "YU"
     },
     "standard": false
+  },
+  "YU YU5011": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Yunique 2",
+      "Device_Code_Name": "YU5011",
+      "Device_Maker": "YU",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "YU"
+    },
+    "standard": false
   }
 }

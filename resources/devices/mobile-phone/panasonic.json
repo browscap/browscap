@@ -42,5 +42,49 @@
       "Device_Brand_Name": "Panasonic"
     },
     "standard": false
+  },
+  "Panasonic Eluga A3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga A3",
+      "Device_Code_Name": "Eluga A3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic Eluga I3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga I3",
+      "Device_Code_Name": "Eluga I3",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic P55 Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P55 Max",
+      "Device_Code_Name": "P55 Max",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
+  },
+  "Panasonic Eluga Ray 500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Eluga Ray 500",
+      "Device_Code_Name": "Eluga Ray 500",
+      "Device_Maker": "Panasonic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Panasonic"
+    },
+    "standard": false
   }
 }

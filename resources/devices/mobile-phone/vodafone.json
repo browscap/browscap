@@ -53,5 +53,16 @@
       "Device_Brand_Name": "Vodafone"
     },
     "standard": false
+  },
+  "Vodafone VFD 500": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Smart Turbo 7",
+      "Device_Code_Name": "VFD 500",
+      "Device_Maker": "Vodafone",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Vodafone"
+    },
+    "standard": false
   }
 }
