@@ -39,9 +39,12 @@ class RewriteDivisionsCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/user-agents';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $divisionsResourcePath = $resources . '/user-agents';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $loader = new \Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
         $twig   = new \Twig_Environment($loader, [
@@ -52,10 +55,18 @@ class RewriteDivisionsCommand extends Command
 
         $jsonParser = new JsonParser();
 
+        $content = file_get_contents($resources . '/platforms.json');
+
+        if (false === $content) {
+            $logger->critical('could not read File "' . $resources . '/platforms.json"');
+
+            return 1;
+        }
+
         try {
-            $allPlatforms = $jsonParser->parse(file_get_contents($input->getOption('resources') . '/platforms.json'), JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
+            $allPlatforms = $jsonParser->parse($content, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
         } catch (ParsingException $e) {
-            $logger->critical('File "' . $input->getOption('resources') . '/platforms.json" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
+            $logger->critical('File "' . $resources . '/platforms.json" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');
 
             return 1;
         }
@@ -67,12 +78,18 @@ class RewriteDivisionsCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
+        $finder->in($divisionsResourcePath);
 
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            try {
+                $json = $file->getContents();
+            } catch (\RuntimeException $e) {
+                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+
+                continue;
+            }
 
             try {
                 $divisionData = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);

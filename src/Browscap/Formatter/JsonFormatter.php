@@ -41,7 +41,7 @@ class JsonFormatter implements FormatterInterface
      */
     public function formatPropertyName(string $name) : string
     {
-        return json_encode($name);
+        return (string) json_encode($name);
     }
 
     /**
@@ -89,6 +89,6 @@ class JsonFormatter implements FormatterInterface
             $valueOutput = '""';
         }
 
-        return $valueOutput;
+        return (string) $valueOutput;
     }
 }

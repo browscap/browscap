@@ -21,7 +21,6 @@
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
           },
-          "device": "iPhone",
           "platforms": [
             "iOS_E_8_0",
             "iOS_E_7_1", "iOS_E_7_0",

@@ -106,11 +106,11 @@ final class BuildHelper
             foreach ($division->getVersions() as $version) {
                 [$majorVer, $minorVer] = (new SplitVersion())->getVersionParts((string) $version);
 
-                $divisionName = (new VersionNumber())->replace($division->getName(), (string) $majorVer, (string) $minorVer);
+                $divisionName = (new VersionNumber())->replace($division->getName(), $majorVer, $minorVer);
 
                 $logger->info('handle division ' . $divisionName);
 
-                $encodedSections = json_encode($sections);
+                $encodedSections = (string) json_encode($sections);
                 $encodedSections = (new VersionNumber())->replace($encodedSections, $majorVer, $minorVer);
 
                 $sectionsWithVersion = json_decode($encodedSections, true);
@@ -119,6 +119,8 @@ final class BuildHelper
                 $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 
                 foreach (array_keys($sectionsWithVersion) as $sectionName) {
+                    $sectionName = (string) $sectionName;
+
                     if (array_key_exists($sectionName, $allSections)) {
                         $logger->error(
                             'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'

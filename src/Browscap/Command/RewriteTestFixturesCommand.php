@@ -49,7 +49,13 @@ class RewriteTestFixturesCommand extends Command
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            try {
+                $json = $file->getContents();
+            } catch (\RuntimeException $e) {
+                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+
+                continue;
+            }
 
             try {
                 $normalized = $normalizer->normalize($json);

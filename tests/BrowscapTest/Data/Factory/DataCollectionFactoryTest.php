@@ -2,12 +2,12 @@
 declare(strict_types = 1);
 namespace BrowscapTest\Data\Factory;
 
+use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
-use RuntimeException;
 
 class DataCollectionFactoryTest extends TestCase
 {
@@ -16,11 +16,9 @@ class DataCollectionFactoryTest extends TestCase
      */
     private $object;
 
-    /**
-     * @throws \ReflectionException
-     */
     public function setUp() : void
     {
+        /** @var Logger $logger */
         $logger       = $this->createMock(Logger::class);
         $this->object = new DataCollectionFactory($logger);
     }
@@ -30,12 +28,10 @@ class DataCollectionFactoryTest extends TestCase
      *
      * @throws \Assert\AssertionFailedException
      * @throws \ReflectionException
+     * @throws \Exception
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
     {
-        $this->expectException(RuntimeException::class);
-        $this->expectExceptionMessage('File "./platforms.json" does not exist.');
-
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->setMethods(['getGenerationDate'])
@@ -48,6 +44,9 @@ class DataCollectionFactoryTest extends TestCase
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
+
+        $this->expectException(InvalidArgumentException::class);
+        $this->expectExceptionMessage('File "./platforms.json" does not exist.');
 
         $this->object->createDataCollection('.');
     }

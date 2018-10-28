@@ -826,7 +826,7 @@ class BuildHelperTest extends TestCase
 
         BuildHelper::run(
             'test',
-            $resourceFolder,
+            (string) $resourceFolder,
             $this->logger,
             $writerCollection,
             $dataCollectionFactory,

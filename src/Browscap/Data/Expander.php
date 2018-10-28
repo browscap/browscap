@@ -576,15 +576,8 @@ class Expander
 
         $completeVersions = explode('.', $properties['Version'], 2);
 
-        $properties['MajorVer'] = (string) $completeVersions[0];
-
-        if (isset($completeVersions[1])) {
-            $minorVersion = (string) $completeVersions[1];
-        } else {
-            $minorVersion = '0';
-        }
-
-        $properties['MinorVer'] = $minorVersion;
+        $properties['MajorVer'] = $completeVersions[0];
+        $properties['MinorVer'] = $completeVersions[1] ?? '0';
 
         return $properties;
     }

@@ -135,6 +135,7 @@ class DataCollectionFactory
         $platformFactory = new PlatformFactory();
 
         foreach (array_keys($decodedFileContent) as $platformName) {
+            $platformName = (string) $platformName;
             $platformData = $decodedFileContent[$platformName];
 
             $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent, $platformName));
@@ -157,6 +158,7 @@ class DataCollectionFactory
         $engineFactory = new EngineFactory();
 
         foreach (array_keys($decodedFileContent) as $engineName) {
+            $engineName = (string) $engineName;
             $engineData = $decodedFileContent[$engineName];
 
             $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent, $engineName));
@@ -284,12 +286,10 @@ class DataCollectionFactory
      */
     private function loadFile(string $filename) : array
     {
-        if (!file_exists($filename)) {
-            throw new \RuntimeException('File "' . $filename . '" does not exist.');
-        }
-
+        Assertion::file($filename, 'File "' . $filename . '" does not exist.');
         Assertion::readable($filename, 'File "' . $filename . '" is not readable.');
 
+        /** @var string $fileContent */
         $fileContent = file_get_contents($filename);
 
         Assertion::string($fileContent);
@@ -304,7 +304,7 @@ class DataCollectionFactory
             return $jsonParser->parse($fileContent, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
         } catch (ParsingException $e) {
             throw new \RuntimeException(
-                'File "' . $filename . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']',
+                'File "' . $filename . '" had invalid JSON.',
                 0,
                 $e
             );

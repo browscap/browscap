@@ -38,9 +38,12 @@ class RewriteBrowsersCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/browsers';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $browserResourcePath = $resources . '/browsers';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/browsers.json');
 
@@ -63,7 +66,13 @@ class RewriteBrowsersCommand extends Command
         foreach ($finder as $file) {
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            try {
+                $json = $file->getContents();
+            } catch (\RuntimeException $e) {
+                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+
+                continue;
+            }
 
             try {
                 $normalized = $normalizer->normalize($json);
