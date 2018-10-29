@@ -42,9 +42,12 @@ class ValidateDivisionsCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $browserResourcePath = $input->getOption('resources') . '/user-agents';
+        /** @var string $resources */
+        $resources = $input->getOption('resources');
 
-        $logger->info('Resource folder: ' . $input->getOption('resources'));
+        $divisionsResourcePath = $resources . '/user-agents';
+
+        $logger->info('Resource folder: ' . $resources);
 
         $schemaStorage   = new SchemaStorage();
         $schemaValidator = new Validator\SchemaValidator(
@@ -77,13 +80,19 @@ class ValidateDivisionsCommand extends Command
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($browserResourcePath);
+        $finder->in($divisionsResourcePath);
 
         foreach ($finder as $file) {
             /* @var \Symfony\Component\Finder\SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
-            $json = file_get_contents($file->getPathname());
+            try {
+                $json = $file->getContents();
+            } catch (\RuntimeException $e) {
+                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+
+                continue;
+            }
 
             try {
                 $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
@@ -91,7 +100,6 @@ class ValidateDivisionsCommand extends Command
                 if (!$schemaValidator->isValid($decoded, $schema)) {
                     $logger->critical(sprintf('file "%s" is not valid', $file->getPathname()));
                     $failed = true;
-                    exit;
                 }
             } catch (ParsingException $e) {
                 $logger->critical('File "' . $file->getPathname() . '" had invalid JSON. [JSON error: ' . json_last_error_msg() . ']');

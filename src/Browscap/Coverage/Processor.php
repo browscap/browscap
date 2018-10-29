@@ -3,6 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Coverage;
 
 use Seld\JsonLint\Lexer;
+use Symfony\Component\Finder\Finder;
 
 /**
  * This class creates coverage data for the json files in the resources directory
@@ -100,15 +101,20 @@ final class Processor implements ProcessorInterface
     {
         $this->setCoveredPatternIds($coveredIds);
 
-        $iterator = new \RecursiveDirectoryIterator($this->resourceDir);
+        $finder = new Finder();
+        $finder->files();
+        $finder->name('*.json');
+        $finder->ignoreDotFiles(true);
+        $finder->ignoreVCS(true);
+        $finder->sortByName();
+        $finder->ignoreUnreadableDirs();
+        $finder->in($this->resourceDir);
 
-        foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
-            }
+        foreach ($finder as $file) {
+            /* @var \Symfony\Component\Finder\SplFileInfo $file */
 
-            $patternFileName = mb_substr($file->getPathname(), mb_strpos($file->getPathname(), 'resources/'));
+            /** @var string $patternFileName */
+            $patternFileName = mb_substr($file->getPathname(), (int) mb_strpos($file->getPathname(), 'resources/'));
 
             if (!isset($this->coveredIds[$patternFileName])) {
                 $this->coveredIds[$patternFileName] = [];
@@ -116,7 +122,7 @@ final class Processor implements ProcessorInterface
 
             $this->coverage[$patternFileName] = $this->processFile(
                 $patternFileName,
-                file_get_contents($file->getPathname()),
+                $file->getContents(),
                 $this->coveredIds[$patternFileName]
             );
         }
@@ -135,7 +141,7 @@ final class Processor implements ProcessorInterface
             // codecov.io. Owner of the service said he was going to patch it, haven't tested since
             // Note: Can't use JSON_FORCE_OBJECT here as we **do** want arrays for the 'b' structure
             // which FORCE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
-            str_replace('[]', '{}', json_encode($this->coverage, JSON_UNESCAPED_SLASHES))
+            str_replace('[]', '{}', (string) json_encode($this->coverage, JSON_UNESCAPED_SLASHES))
         );
     }
 
@@ -583,7 +589,7 @@ final class Processor implements ProcessorInterface
         $this->fileCoverage['b'][] = $coverage;
 
         // Collect statements as well (entire branch is a statement, each location is a statement)
-        $this->collectStatement($start, $end, array_sum($coverage));
+        $this->collectStatement($start, $end, (int) array_sum($coverage));
 
         for ($i = 0, $count = count($locations); $i < $count; ++$i) {
             $this->collectStatement($locations[$i]['start'], $locations[$i]['end'], $coverage[$i]);
@@ -619,7 +625,7 @@ final class Processor implements ProcessorInterface
         $covered = [];
 
         foreach ($ids as $id) {
-            $file = mb_substr($id, 0, mb_strpos($id, '::'));
+            $file = mb_substr($id, 0, (int) mb_strpos($id, '::'));
 
             if (!isset($covered[$file])) {
                 $covered[$file] = [];

@@ -32,7 +32,6 @@ install: travis_retry composer install --optimize-autoloader --prefer-dist --no-
 script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 117 --verbose
 
 jobs:
-  fast_finish: true
   allow_failures:
     - php: nightly
   include:
@@ -61,7 +60,7 @@ jobs:
 
     - stage: static code analysis
       php: 7.1
-      script: vendor/bin/phpstan analyse -l 7 -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
+      script: vendor/bin/phpstan analyse -l max -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
 
     - stage: validate sources and tests
       php: 7.1
@@ -101,10 +100,12 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
       install:
+        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
+        - travis_retry composer require symfony/console:3.3
+        - travis_retry composer require symfony/finder:3.3
+        - travis_retry composer require symfony/filesystem:3.3
+        - travis_retry composer require browscap/browscap-php:3.1
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/console:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/finder:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:3.1
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/FullTest.php
 
     - stage: integration tests
@@ -113,10 +114,12 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
       install:
+        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
+        - travis_retry composer require symfony/console:3.3
+        - travis_retry composer require symfony/finder:3.3
+        - travis_retry composer require symfony/filesystem:3.3
+        - travis_retry composer require browscap/browscap-php:3.1
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/console:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/finder:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:3.1
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/StandardTest.php
 
     - stage: integration tests
@@ -125,8 +128,10 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
       install:
+        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
+        - travis_retry composer require symfony/console:3.3
+        - travis_retry composer require symfony/finder:3.3
+        - travis_retry composer require symfony/filesystem:3.3
+        - travis_retry composer require browscap/browscap-php:3.1
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/console:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest symfony/finder:3.3
-        - travis_retry composer require --update-with-dependencies --prefer-dist --no-suggest browscap/browscap-php:3.1
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V3/LiteTest.php

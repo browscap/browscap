@@ -7050,13 +7050,13 @@ return [
     'issue-1953-GF' => [
         'ua' => 'Apache-HttpClient/4.2.5 (java 1.5)',
         'properties' => [
-            'Comment' => 'General Crawlers',
-            'Browser' => 'General Crawlers',
+            'Comment' => 'Apache HttpClient',
+            'Browser' => 'Apache HttpClient',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'unknown',
+            'Browser_Maker' => 'The Apache Software Foundation',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '4.2',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',

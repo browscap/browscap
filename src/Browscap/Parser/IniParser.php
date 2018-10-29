@@ -77,7 +77,7 @@ final class IniParser implements ParserInterface
             throw new \InvalidArgumentException("File not found: {$filename}");
         }
 
-        return file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        return (array) file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     }
 
     /**
