@@ -340,11 +340,33 @@
     },
     "standard": false
   },
+  "Sony F3112": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XA Dual SIM",
+      "Device_Code_Name": "F3112",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
   "Sony F5321": {
     "type": "mobile-phone",
     "properties": {
       "Device_Name": "Xperia X Compact",
       "Device_Code_Name": "F5321",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
+  },
+  "Sony F8331": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XZ",
+      "Device_Code_Name": "F8331",
       "Device_Maker": "Sony",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Sony"
@@ -675,17 +697,6 @@
     "properties": {
       "Device_Name": "Xperia XZ Dual SIM",
       "Device_Code_Name": "F8332",
-      "Device_Maker": "Sony",
-      "Device_Pointing_Method": "touchscreen",
-      "Device_Brand_Name": "Sony"
-    },
-    "standard": false
-  },
-  "Sony F3112": {
-    "type": "mobile-phone",
-    "properties": {
-      "Device_Name": "Xperia XA Dual SIM",
-      "Device_Code_Name": "F3112",
       "Device_Maker": "Sony",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Sony"
