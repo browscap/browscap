@@ -40,8 +40,8 @@ return [
             'RenderingEngine_Version' => '63.0',
             'RenderingEngine_Maker' => 'Mozilla Foundation',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
-    ],
+    ]
 ];
