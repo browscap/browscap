@@ -109,6 +109,17 @@
     },
     "standard": true
   },
+  "Amazon KFKAWI": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Fire HD 8 (2018)",
+      "Device_Code_Name": "KFKAWI",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": true
+  },
   "Amazon KFMEWI": {
     "type": "tablet",
     "properties": {

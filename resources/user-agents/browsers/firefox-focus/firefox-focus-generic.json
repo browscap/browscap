@@ -35,6 +35,19 @@
             "Android_5_1", "Android_5_0",
             "Android"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*Android?9) applewebkit* (*khtml*like*gecko*) Version/* Focus/* Chrome/* Mobile Safari/*",
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*Android?9) applewebkit* (*khtml*like*gecko*) Version/* Focus/* Chrome/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_9_0"
+          ]
         }
       ]
     },
