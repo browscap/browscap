@@ -1,6 +1,6 @@
 {
   "division": "Bing Search App #MAJORVER#.#MINORVER# for Android",
-  "versions": ["8.9", "8.8", "8.7", "8.6", "8.5"],
+  "versions": ["9.1", 9, "8.9", "8.8", "8.7", "8.6", "8.5"],
   "sortIndex": 480,
   "lite": false,
   "standard": true,
@@ -41,6 +41,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

@@ -114,6 +114,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) coc_coc_browser/* Chrome/* Safari/*",
           "device": "general Mobile Device (Touch)",
           "platforms": [
+            "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",

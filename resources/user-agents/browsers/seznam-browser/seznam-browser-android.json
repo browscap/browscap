@@ -1,6 +1,6 @@
 {
   "division": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
-  "versions": ["5.4", "5.2", "5.1", 5, "4.2", "4.1", 4, "3.2"],
+  "versions": ["5.5", "5.4", "5.2", "5.1", 5, "4.2", "4.1", 4, "3.2"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
