@@ -1,0 +1,26 @@
+{
+  "division": "EvoPdf",
+  "sortIndex": 1850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "EvoPdf",
+      "browser": "evopdf",
+      "engine": "WebKit",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "EvoPdf"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* EvoPdf/*",
+          "platforms": [
+            "Win7_x64", "Win7_64", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,23 +1,21 @@
 {
-  "division": "wkhtmltopdf",
+  "division": "wkhtmltoimage",
   "sortIndex": 1850,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "wkhtmltopdf",
-      "browser": "wkhtmltopdf",
+      "userAgent": "wkhtmltoimage",
+      "browser": "wkhtmltoimage",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "wkhtmltopdf",
-        "Alpha": false,
-        "Beta": false
+        "Comment": "wkhtmltoimage"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltopdf Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltoimage Safari/*",
           "device": "Linux Desktop",
           "platforms": [
             "ChromeOS",
@@ -26,7 +24,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltopdf Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltoimage Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_1_x64", "Win8_1_64", "Win8_1_32",
@@ -39,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltopdf Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltoimage Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
@@ -47,7 +45,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltopdf Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) wkhtmltoimage Safari/*",
           "device": "general Desktop",
           "platforms": [
             "BSD Four"
