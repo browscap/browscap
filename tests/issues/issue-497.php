@@ -825,7 +825,7 @@ return [
             'Browser' => 'Daumoa',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Daum Communications Corp',
+            'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
             'Version' => '4.0',
             'Platform' => 'unknown',

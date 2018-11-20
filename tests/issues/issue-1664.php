@@ -1397,7 +1397,7 @@ return [
             'Browser' => 'Daum',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Daum Kakao Corp',
+            'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
             'Version' => '6.8',
             'Platform' => 'iOS',
@@ -1438,7 +1438,7 @@ return [
         'properties' => [
             'Comment' => 'Daum 6.8',
             'Browser' => 'Daum',
-            'Browser_Maker' => 'Daum Kakao Corp',
+            'Browser_Maker' => 'Kakao Corp',
             'Version' => '6.8',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',

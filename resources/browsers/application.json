@@ -363,7 +363,7 @@
     "type": "application",
     "properties": {
       "Browser": "Daum",
-      "Browser_Maker": "Daum Kakao Corp"
+      "Browser_Maker": "Kakao Corp"
     },
     "lite": false,
     "standard": true

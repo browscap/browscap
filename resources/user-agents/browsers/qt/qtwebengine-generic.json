@@ -37,7 +37,6 @@
     {
       "userAgent": "QtWebEngine Generic for TV",
       "browser": "qtwebengine",
-      "platform": "webOS 3.0 (LG)",
       "engine": "Blink",
       "device": "general TV Device",
       "properties": {
@@ -49,6 +48,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/* Safari/*",
           "platforms": [
             "webOS 3.0 (LG)"
+          ]
+        },
+        {
+          "match": "BrightSign/*/* (*) Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtWebEngine/* Chrome/* Safari/*",
+          "device": "BrightSign Mediaplayer",
+          "platforms": [
+            "Linux"
           ]
         }
       ]

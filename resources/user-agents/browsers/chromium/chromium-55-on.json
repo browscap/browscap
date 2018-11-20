@@ -50,6 +50,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "platforms": [
+            "Ubuntu_64", "Ubuntu",
+            "Linux_64", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (*Linux#PLATFORM#) applewebkit* Chromium/#MAJORVER#.*Safari/*",
           "platforms": [
             "Ubuntu_14_04"
@@ -65,7 +72,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Chrome/*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chromium/#MAJORVER#.*Safari/*",
           "platforms": [
             "Ubuntu_64", "Ubuntu",
             "Linux_64", "Linux"

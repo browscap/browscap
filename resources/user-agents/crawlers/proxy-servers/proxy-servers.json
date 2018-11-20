@@ -83,6 +83,10 @@
         {
           "match": "Mozilla/4.0 (compatible; MSIE *; Windows NT *; mowser; http://www.mowser.com)",
           "browser": "mowser mobile proxy"
+        },
+        {
+          "match": "YahooMailProxy*",
+          "browser": "yahoo mailproxy"
         }
       ]
     }

@@ -266,6 +266,18 @@
         {
           "match": "twieve/*",
           "browser": "twieve"
+        },
+        {
+          "match": "Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*) Chrome/* Safari/* (Refindbot/*",
+          "browser": "refindbot"
+        },
+        {
+          "match": "MagentaNews*",
+          "browser": "magentanews"
+        },
+        {
+          "match": "MeltwaterNews*",
+          "browser": "meltwaternews"
         }
       ]
     }

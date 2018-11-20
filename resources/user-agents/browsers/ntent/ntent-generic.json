@@ -5,8 +5,9 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Ntent Browser Generic",
+      "userAgent": "Ntent Browser Generic for Android",
       "browser": "ntent",
+      "platform": "Android_H",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
       "properties": {
@@ -35,6 +36,26 @@
             "Android_H_5_1", "Android_H_5_0",
             "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1", "Android_H_4_0",
             "Android_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Ntent Browser Generic for Linux",
+      "browser": "ntent",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ntent Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 X11 (#PLATFORM#) applewebkit*khtml*like*gecko* Chrome/* NTENTBrowser/* Safari/*",
+          "engine": "Blink",
+          "platforms": [
+            "Linux"
           ]
         }
       ]

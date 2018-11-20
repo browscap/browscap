@@ -3000,7 +3000,7 @@
     "type": "bot",
     "properties": {
       "Browser": "Daumoa",
-      "Browser_Maker": "Daum Communications Corp"
+      "Browser_Maker": "Kakao Corp"
     },
     "lite": false,
     "standard": true
@@ -3851,6 +3851,15 @@
     "lite": false,
     "standard": true
   },
+  "e.ventures investment crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "e.ventures Investment Crawler",
+      "Browser_Maker": "eVenture Capital Partners II, LLC"
+    },
+    "lite": false,
+    "standard": true
+  },
   "evernote clip resolver": {
     "type": "bot",
     "properties": {
@@ -4467,6 +4476,15 @@
     "type": "bot",
     "properties": {
       "Browser": "FOTOCHECKER",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "founderspider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Founderspider",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -5205,6 +5223,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Google Web Snippet",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "google widget server": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Widget Server",
       "Browser_Maker": "Google Inc"
     },
     "lite": false,
@@ -7550,6 +7577,15 @@
     "lite": false,
     "standard": true
   },
+  "magentanews": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MagentaNews",
+      "Browser_Maker": "Meltwater US Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "mahalobot": {
     "type": "bot",
     "properties": {
@@ -7600,6 +7636,15 @@
     "properties": {
       "Browser": "MailPoet Cron Service",
       "Browser_Maker": "Wysija SARL"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "manzama fetcher": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Manzama Fetcher",
+      "Browser_Maker": "Manzama Inc."
     },
     "lite": false,
     "standard": true
@@ -7663,6 +7708,15 @@
     "properties": {
       "Browser": "MaxPointCrawler",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "mazbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MAZBot",
+      "Browser_Maker": "MAZ Systems Inc."
     },
     "lite": false,
     "standard": true
@@ -7735,6 +7789,15 @@
     "properties": {
       "Browser": "MegaIndex Bot",
       "Browser_Maker": "MegaIndex.ru"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "meltwaternews": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MeltwaterNews",
+      "Browser_Maker": "Meltwater US Inc."
     },
     "lite": false,
     "standard": true
@@ -10345,6 +10408,15 @@
     "properties": {
       "Browser": "reddit pic scraper",
       "Browser_Maker": "Reddit Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "refindbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Refindbot",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
@@ -14862,6 +14934,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Yahoo Link Preview",
+      "Browser_Maker": "Yahoo! Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "yahoo mailproxy": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Yahoo MailProxy",
       "Browser_Maker": "Yahoo! Inc."
     },
     "lite": false,

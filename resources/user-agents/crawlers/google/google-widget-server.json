@@ -1,0 +1,21 @@
+{
+  "division": "Google Widget Server",
+  "sortIndex": 1122,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Widget Server",
+      "browser": "google widget server",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko? Widget Server*)*Chrome/*Safari/*"
+        }
+      ]
+    }
+  ]
+}

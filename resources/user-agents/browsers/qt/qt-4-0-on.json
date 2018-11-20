@@ -42,6 +42,7 @@
       "browser": "qt",
       "engine": "WebKit",
       "device": "general Mobile Phone (Touch)",
+      "platform": "MeeGo",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qt #MAJORVER#.#MINORVER#",
@@ -70,7 +71,7 @@
       ]
     },
     {
-      "userAgent": "Qt #MAJORVER#.#MINORVER#",
+      "userAgent": "Qt #MAJORVER#.#MINORVER# for Desktop",
       "browser": "qt",
       "engine": "WebKit",
       "device": "Windows Desktop",
@@ -138,6 +139,20 @@
           "platforms": [
             "OSX_10_10", "OSX_10_9", "OSX_10_8", "OSX_10_7", "OSX_10_6", "OSX_10_5", "OSX_10_4",
             "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Qt/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "general Desktop",
+          "platforms": [
+            "BSD Four"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Qt/#MAJORVER#.#MINORVER#*",
+          "device": "general Desktop",
+          "platforms": [
+            "BSD Four"
           ]
         },
         {

@@ -1,0 +1,26 @@
+{
+  "division": "Wappalyzer",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Wappalyzer",
+      "browser": "general crawlers",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Wappalyzer"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Wappalyzer*",
+          "browser": "wappalyzer"
+        },
+        {
+          "match": "Wappalyzer*",
+          "browser": "wappalyzer"
+        }
+      ]
+    }
+  ]
+}

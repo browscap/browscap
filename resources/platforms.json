@@ -3531,6 +3531,22 @@
       "Platform_Bits": 32
     }
   },
+  "Xubuntu": {
+    "match": "*Xubuntu*",
+    "lite": false,
+    "standard": false,
+    "properties": {
+      "Platform": "Xubuntu",
+      "Platform_Maker": "Canonical Ltd.",
+      "Platform_Description": "Xubuntu Linux",
+      "Platform_Version": "unknown",
+      "Win16": false,
+      "Win32": false,
+      "Win64": false,
+      "Browser_Bits": 32,
+      "Platform_Bits": 32
+    }
+  },
   "CentOS": {
     "match": "*CentOS*",
     "lite": false,

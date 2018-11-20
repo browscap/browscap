@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth Pro/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",

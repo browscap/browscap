@@ -1843,10 +1843,6 @@
           "browser": "mozilla metadata service"
         },
         {
-          "match": "Mozilla/5.0 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)",
-          "browser": "wappalyzer"
-        },
-        {
           "match": "Mozilla/5.0 (*Windows*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* XaxisSemanticsClassifier/*",
           "browser": "xaxis semantics classifier"
         },
@@ -2083,6 +2079,18 @@
         {
           "match": "nanagogo-bot*",
           "browser": "nanagogo-bot"
+        },
+        {
+          "match": "e.ventures Investment Crawler*",
+          "browser": "e.ventures investment crawler"
+        },
+        {
+          "match": "MAZBot*",
+          "browser": "mazbot"
+        },
+        {
+          "match": "Mozilla/5.0 Founderspider*",
+          "browser": "founderspider"
         }
       ]
     }
