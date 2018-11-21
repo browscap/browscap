@@ -1,7 +1,7 @@
 {
   "division": "Qwant Browser Generic for Android",
   "sortIndex": 3174,
-  "lite": true,
+  "lite": false,
   "standard": true,
   "userAgents": [
     {
@@ -9,7 +9,7 @@
       "browser": "qwantbrowser",
       "platform": "Android",
       "engine": "Gecko",
-      "device": "general Tablet",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Qwant Browser Generic"

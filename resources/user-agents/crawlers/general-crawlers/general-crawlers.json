@@ -2091,6 +2091,22 @@
         {
           "match": "Mozilla/5.0 Founderspider*",
           "browser": "founderspider"
+        },
+        {
+          "match": "Shamrock*",
+          "browser": "shamrock"
+        },
+        {
+          "match": "fuelbot*",
+          "browser": "fuelbot"
+        },
+        {
+          "match": "theEmployeeApp*",
+          "browser": "theemployeeapp"
+        },
+        {
+          "match": "CreateSend Screenshot Generator*",
+          "browser": "createsend screenshot generator"
         }
       ]
     }

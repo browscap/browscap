@@ -1,0 +1,27 @@
+{
+  "division": "NetCast",
+  "sortIndex": 9753,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "NetCast",
+      "browser": "netcast",
+      "platform": "Linux",
+      "engine": "WebKit",
+      "device": "LG TV",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "NetCast"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* Mobile Safari/* SmartTV/* (NetCast)*",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

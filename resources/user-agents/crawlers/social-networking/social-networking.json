@@ -278,6 +278,14 @@
         {
           "match": "MeltwaterNews*",
           "browser": "meltwaternews"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; PressRush/*",
+          "browser": "pressrush"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; EchoboxBot/*",
+          "browser": "echoboxbot"
         }
       ]
     }

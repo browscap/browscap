@@ -1953,6 +1953,15 @@
     "lite": false,
     "standard": true
   },
+  "privacybrowser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "PrivacyBrowser",
+      "Browser_Maker": "Soren Stoutner"
+    },
+    "lite": false,
+    "standard": true
+  },
   "puffin": {
     "type": "browser",
     "properties": {
@@ -2768,6 +2777,15 @@
     "properties": {
       "Browser": "Yandex Browser",
       "Browser_Maker": "Yandex LLC"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "yaanibrowser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "YaaniBrowser",
+      "Browser_Maker": "Turkcell"
     },
     "lite": false,
     "standard": true

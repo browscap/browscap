@@ -1,0 +1,21 @@
+{
+  "division": "Google Apps Script",
+  "sortIndex": 1122,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Apps Script",
+      "browser": "google apps script",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Google-Apps-Script*"
+        }
+      ]
+    }
+  ]
+}

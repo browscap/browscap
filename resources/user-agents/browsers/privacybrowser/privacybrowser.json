@@ -1,0 +1,22 @@
+{
+  "division": "PrivacyBrowser",
+  "sortIndex": 3174,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PrivacyBrowser",
+      "browser": "privacybrowser",
+      "platform": "Android",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PrivacyBrowser"
+      },
+      "children": [
+        {
+          "match": "PrivacyBrowser/*"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "division": "Qwant Browser #MAJORVER#.#MINORVER# for Android",
   "versions": [61, 60, 59, 58, 57],
   "sortIndex": 3160,
-  "lite": true,
+  "lite": false,
   "standard": true,
   "userAgents": [
     {

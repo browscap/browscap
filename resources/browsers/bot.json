@@ -2780,6 +2780,15 @@
     "lite": false,
     "standard": true
   },
+  "createsend screenshot generator": {
+    "type": "bot",
+    "properties": {
+      "Browser": "CreateSend Screenshot Generator",
+      "Browser_Maker": "Acton BV"
+    },
+    "lite": false,
+    "standard": true
+  },
   "criteo bot": {
     "type": "bot",
     "properties": {
@@ -3667,6 +3676,15 @@
     "properties": {
       "Browser": "ECCP",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "echoboxbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "EchoboxBot",
+      "Browser_Maker": "Echobox Limited"
     },
     "lite": false,
     "standard": true
@@ -4571,6 +4589,15 @@
     "lite": false,
     "standard": true
   },
+  "fuelbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "fuelbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "funnel web profiler": {
     "type": "bot",
     "properties": {
@@ -5025,6 +5052,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Google App Engine",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "google apps script": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Apps Script",
       "Browser_Maker": "Google Inc"
     },
     "lite": false,
@@ -10034,6 +10070,15 @@
     "lite": false,
     "standard": true
   },
+  "pressrush": {
+    "type": "bot",
+    "properties": {
+      "Browser": "PressRush",
+      "Browser_Maker": "Aito Software Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "privoxy": {
     "type": "bot",
     "properties": {
@@ -11101,6 +11146,15 @@
     "properties": {
       "Browser": "SeznamBot",
       "Browser_Maker": "Seznam.cz, a.s."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "shamrock": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Shamrock",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
@@ -12487,6 +12541,15 @@
     "properties": {
       "Browser": "The Crawler",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "theemployeeapp": {
+    "type": "bot",
+    "properties": {
+      "Browser": "theEmployeeApp",
+      "Browser_Maker": "APPrise Mobile"
     },
     "lite": false,
     "standard": true

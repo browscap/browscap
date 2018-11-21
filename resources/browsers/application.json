@@ -899,6 +899,15 @@
     "lite": false,
     "standard": true
   },
+  "netcast": {
+    "type": "application",
+    "properties": {
+      "Browser": "NetCast",
+      "Browser_Maker": "LG"
+    },
+    "lite": false,
+    "standard": true
+  },
   "netgem set top box": {
     "type": "application",
     "properties": {

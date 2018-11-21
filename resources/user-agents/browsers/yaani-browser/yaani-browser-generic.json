@@ -1,0 +1,36 @@
+{
+  "division": "YaaniBrowser Generic for Android",
+  "sortIndex": 3174,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YaaniBrowser Generic for Android",
+      "browser": "yaanibrowser",
+      "platform": "Android_H",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YaaniBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/* Mobile Safari/*",
+          "platforms": [
+            "Android_H_6_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_H_6_0",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}
