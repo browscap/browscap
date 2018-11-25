@@ -150,7 +150,8 @@
             "Lenovo B8000-F": "Lenovo B8000-F",
             "Lenovo B8000-H": "Lenovo B8000-H",
             "MediaPad 10 Link+": "Huawei MediaPad 10+",
-            "MediaPad M1 8.0": "Huawei MediaPad M1 8.0"
+            "MediaPad M1 8.0": "Huawei MediaPad M1 8.0",
+            "NT-1711": "Navcity NT-1711"
           },
           "platforms": [
             "Android_4_4", "Android_4_2"

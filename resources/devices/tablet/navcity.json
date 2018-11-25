@@ -1,0 +1,46 @@
+{
+  "Navcity NT-1711 Princess": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NT-1711 Princess",
+      "Device_Code_Name": "NT-1711 Princess",
+      "Device_Maker": "Navcity",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Navcity"
+    },
+    "standard": true
+  },
+  "Navcity NT-1710": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NT-1710",
+      "Device_Code_Name": "NT-1710",
+      "Device_Maker": "Navcity",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Navcity"
+    },
+    "standard": true
+  },
+  "Navcity NT-1711": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NT-1711",
+      "Device_Code_Name": "NT-1711",
+      "Device_Maker": "Navcity",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Navcity"
+    },
+    "standard": true
+  },
+  "Navcity NT-1715": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NT-1715",
+      "Device_Code_Name": "NT-1715",
+      "Device_Maker": "Navcity",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Navcity"
+    },
+    "standard": true
+  }
+}

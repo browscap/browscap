@@ -1,0 +1,68 @@
+{
+  "iconBIT NT-3503M/NT-3504M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Mercury XL",
+      "Device_Code_Name": "NT-3503M/NT-3504M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  },
+  "iconBIT NT-3506M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Mercury",
+      "Device_Code_Name": "NT-3506M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  },
+  "iconBIT NT-3509M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Mercury Q4",
+      "Device_Code_Name": "NT-3509M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  },
+  "iconBIT NT-3510M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Mercury Q5",
+      "Device_Code_Name": "NT-3510M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  },
+  "iconBIT NT-3513M/3514M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Mercury LX",
+      "Device_Code_Name": "NT-3513M/3514M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  },
+  "iconBIT NT-3603P": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "NetTAB Pocket 3G Slim",
+      "Device_Code_Name": "NT-3603P",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  }
+}

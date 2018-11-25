@@ -308,6 +308,7 @@
             "Micromax AQ4501": "Micromax AQ4501",
             "Micromax AQ5000": "Micromax AQ5000",
             "Micromax Q379": "Micromax Q379",
+            "NT-1715": "Navcity NT-1715",
             "ONDA V989": "ONDA V989",
             "OT-995": "Alcatel OT-995",
             "Oysters T84HRi 3G": "Oysters T84HRi",
@@ -452,6 +453,15 @@
           },
           "platforms": [
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "NT-1711": "Navcity NT-1711"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_2"
           ]
         },
         {
@@ -702,9 +712,20 @@
             "myTAB Mini 3G": "myTAB Mini 3G",
             "N3+": "Star N3+",
             "Norma 2": "Keneksi Norma 2",
+            "NT-0704S": "iconBIT NT-0704S",
+            "NT-0907S": "iconBIT NT-0907S",
+            "NT-0909T": "iconBIT NT-0909T",
             "NT-1009T": "iconBIT NT-1009T",
+            "NT-1017T": "iconBIT NT-1017T",
+            "NT-1020T": "iconBIT NT-1020T",
+            "NT-1501C": "iconBIT NT-1501C",
+            "NT-3503M/NT-3504M": "iconBIT NT-3503M/NT-3504M",
             "NT-3601P/3602P": "iconBIT NetTAB Pocket 3G",
             "NT-3710S": "iconBIT NT-3710S",
+            "NT-3702S": "iconBIT NT-3702S",
+            "NT-3805C": "iconBIT NT-3805C",
+            "NT-3905T": "iconBIT NT-3905T",
+            "NT-3909T": "iconBIT NT-3909T",
             "Numy 3G AX1": "Ainol Numy 3G AX1",
             "OV-Quattor 10+": "Overmax Quattor 10+",
             "OV-Solution 10II": "Overmax Solution 10 Ii 3G",
@@ -818,7 +839,9 @@
             "MID": "general Mobile Phone",
             "MX Enjoy TV BOX": "Geniatech MX Enjoy",
             "N9510": "ZTE N9510",
+            "NT-0701S": "iconBIT NT-0701S",
             "NT-3702M": "iconBIT NT-3702M",
+            "NT-3803C": "iconBIT NT-3803C",
             "NTT 611": "NTT System NTT 611 10.1",
             "NX501": "ZTE NX501",
             "OV-SteelCore-B": "Overmax SteelCore",

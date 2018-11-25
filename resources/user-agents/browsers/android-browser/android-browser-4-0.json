@@ -177,6 +177,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "NT-1711 Princess": "Navcity NT-1711 Princess",
+            "NT-1711": "Navcity NT-1711"
+          },
+          "platforms": [
+            "Android_4_4", "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
             "SM-T211*": "Samsung SM-T211"
           },
           "platforms": [
@@ -540,6 +550,18 @@
             "N-06E": "NEC N-06E",
             "NEO-X5-116A": "Minix NEO X5",
             "NEO_QUAD10": "Odys Neo Quad 10",
+            "NT-0806C": "iconBIT NT-0806C",
+            "NT-0907S": "iconBIT NT-0907S",
+            "NT-1011T": "iconBIT NT-1011T",
+            "NT-1020T": "iconBIT NT-1020T",
+            "NT-1501C": "iconBIT NT-1501C",
+            "NT-3503M/NT-3504M": "iconBIT NT-3503M/NT-3504M",
+            "NT-3506M": "iconBIT NT-3506M",
+            "NT-3513M/3514M": "iconBIT NT-3513M/3514M",
+            "NT-3602M": "iconBIT NT-3602M",
+            "NT-3702S": "iconBIT NT-3702S",
+            "NT-3805C": "iconBIT NT-3805C",
+            "NT-3909T": "iconBIT NT-3909T",
             "NX501": "ZTE NX501",
             "OYSTERS T80 3G": "Oysters T80 3G",
             "P200S": "JXD P200S",
@@ -594,6 +616,7 @@
             "ADM816KC": "Odys ADM816KC",
             "Micromax A116": "Micromax A116",
             "Micromax A116i": "Micromax A116i",
+            "NT-0902S": "iconBIT NT-0902S",
             "PMP7280C3G": "Prestigio PMP7280C3G"
           },
           "platforms": [
@@ -683,6 +706,16 @@
             "MID-721": "Mystery MID-721",
             "MODECOM FreeTAB 8001 IPS X23G": "MODECOM FreeTAB 8001 IPS X2 3G",
             "Novo10 Hero": "Ainol Novo 10 Hero",
+            "NT-0701S": "iconBIT NT-0701S",
+            "NT-0708M": "iconBIT NT-0708M",
+            "NT-0901S": "iconBIT NT-0901S",
+            "NT-1001T": "iconBIT NT-1001T",
+            "NT-1005T": "iconBIT NT-1005T",
+            "NT-1006T": "iconBIT NT-1006T",
+            "NT-3509M": "iconBIT NT-3509M",
+            "NT-3510M": "iconBIT NT-3510M",
+            "NT-3702M": "iconBIT NT-3702M",
+            "NT-3803C": "iconBIT NT-3803C",
             "O+ 8.36 Android": "O+ 8.36 Android",
             "PATG7506HD": "Perfeo PATG7506HD",
             "PER5274B": "Prestigio PER5274B",
@@ -864,6 +897,8 @@
             "Micromax A075": "Micromax A075",
             "Micromax P275": "Micromax P275",
             "NEXT": "Nextbook Next",
+            "NT-3801P": "iconBIT NT-3801P",
+            "NT-3902S": "iconBIT NT-3902S",
             "ODYS-EVO": "Odys Evo",
             "ODYS-Q": "Odys Q",
             "ONDA MID": "ONDA MID",
