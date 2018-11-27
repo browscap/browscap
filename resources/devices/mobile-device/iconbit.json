@@ -1,0 +1,13 @@
+{
+  "iconBIT NT-1501C": {
+    "type": "mobile-device",
+    "properties": {
+      "Device_Name": "Callisto 100",
+      "Device_Code_Name": "NT-1501C",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": false
+  }
+}

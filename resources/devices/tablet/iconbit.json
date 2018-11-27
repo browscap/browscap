@@ -1,9 +1,196 @@
 {
+  "iconBIT NT-0701S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Sky Net",
+      "Device_Code_Name": "NT-0701S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0704S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTab Sky LE",
+      "Device_Code_Name": "NT-0704S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0708M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Matrix HD",
+      "Device_Code_Name": "NT-0708M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0709M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Matrix DX",
+      "Device_Code_Name": "NT-0709M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0801C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB SKAT RX",
+      "Device_Code_Name": "NT-0801C",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0806C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB SKAT LE",
+      "Device_Code_Name": "NT-0806C",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0901S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Space Quad HD",
+      "Device_Code_Name": "NT-0901S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0902S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Space Quad RX",
+      "Device_Code_Name": "NT-0902S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0907S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR ZX",
+      "Device_Code_Name": "NT-0907S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-0909T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTab Thor IZ",
+      "Device_Code_Name": "NT-0909T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1001T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR LE",
+      "Device_Code_Name": "NT-1001T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1005T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR QUAD FHD",
+      "Device_Code_Name": "NT-1005T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1006T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR QUAD MX",
+      "Device_Code_Name": "NT-1006T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1008T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR 3GTS",
+      "Device_Code_Name": "NT-1008T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
   "iconBIT NT-1009T": {
     "type": "tablet",
     "properties": {
       "Device_Name": "NetTAB THOR QUAD II",
       "Device_Code_Name": "NT-1009T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1011T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Thor LE",
+      "Device_Code_Name": "NT-1011T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1017T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Thor 3G Quad",
+      "Device_Code_Name": "NT-1017T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-1020T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB THOR LX",
+      "Device_Code_Name": "NT-1020T",
       "Device_Maker": "iconBIT",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "iconBIT"
@@ -32,6 +219,17 @@
     },
     "standard": true
   },
+  "iconBIT NT-3602M": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Mercury Q7",
+      "Device_Code_Name": "NT-3602M",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
   "iconBIT NT-3702M": {
     "type": "tablet",
     "properties": {
@@ -43,11 +241,88 @@
     },
     "standard": true
   },
+  "iconBIT NT-3702S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Sky HD 3G",
+      "Device_Code_Name": "NT-3702S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
   "iconBIT NT-3710S": {
     "type": "tablet",
     "properties": {
       "Device_Name": "NetTAB SKY 3G Plus",
       "Device_Code_Name": "NT-3710S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3801P": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Parus 3G Duo",
+      "Device_Code_Name": "NT-3801P",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3803C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Skat 3G",
+      "Device_Code_Name": "NT-3803C",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3805C": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTab Skat Quad",
+      "Device_Code_Name": "NT-3805C",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3902S": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTab Space 3G Duo",
+      "Device_Code_Name": "NT-3902S",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3905T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Thor ZX 3G",
+      "Device_Code_Name": "NT-3905T",
+      "Device_Maker": "iconBIT",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "iconBIT"
+    },
+    "standard": true
+  },
+  "iconBIT NT-3909T": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "NetTAB Thor IZ",
+      "Device_Code_Name": "NT-3909T",
       "Device_Maker": "iconBIT",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "iconBIT"
