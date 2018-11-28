@@ -833,10 +833,6 @@
           "browser": "omgili bot"
         },
         {
-          "match": "Mozilla/5.0 (compatible; Daum/*",
-          "browser": "daum bot"
-        },
-        {
           "match": "Mozilla/5.0 (compatible; IDBot/*; +http://www.id-search.xyz/bot.html)",
           "browser": "idbot"
         },
