@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1937-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) 37abc/2.0.2.9 Chrome/60.0.3112.113 Safari/537.36',
+        'properties' => [
+            'Comment' => '37abc Browser',
+            'Browser' => '37abc',
+            'Browser_Maker' => 'Guangzhou Network',
+            'Version' => '0.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1937-B' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) adbeat.com/policy AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186  Safari/537.36',
         'properties' => [
@@ -86,6 +101,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1937-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) adbeat.com/policy AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186  Safari/537.36',
+        'properties' => [
+            'Comment' => 'Adbeat',
+            'Browser' => 'Adbeat Bot',
+            'Browser_Maker' => 'adbeat.com',
+            'Version' => '0.0',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1937-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Focus/6.0 Chrome/67.0.3396.87 Safari/537.36',
@@ -172,6 +202,19 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-1937-D (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/69.0.3477.0 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Headless Chrome',
+            'Browser' => 'Headless Chrome',
+            'Version' => '0.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
     'issue-1937-E' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3396.99 Safari/537.36',
@@ -474,6 +517,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1937-K (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.6.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1937-L' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.6.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
         'properties' => [
@@ -516,6 +574,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1937-L (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.6.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1937-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.5.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
@@ -560,6 +633,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1937-M (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_2 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.5.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.5 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1937-N' => [
         'ua' => 'Mozilla/5.0 (iPhone1 01; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.2.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
         'properties' => [
@@ -602,6 +690,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1937-N (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone1 01; CPU iPhone OS 11_2_5 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.2.1 Mobile/15B87 Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.2 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1937-O' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.6.0 Chrome/45.0.2454.101 Safari/537.36',
@@ -686,7 +789,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1937-Q' => [
@@ -729,7 +832,7 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1937-R' => [
@@ -817,5 +920,20 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1937-S (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/4.00 YaApp_iOS_Browser/4.00',
+        'properties' => [
+            'Comment' => 'YaApp 4.00',
+            'Browser' => 'YaApp',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '4.00',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
 ];

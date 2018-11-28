@@ -732,6 +732,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-Q (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone 4S; CPU iPhone OS 5_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/6.0 MQQBrowser/5.0.4 Mobile/9A406 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'QQBrowser 5.0 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '5.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-R' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500 QQ/5.0.0.165',
         'properties' => [
@@ -1033,6 +1048,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-X (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A405 QQ/5.4.0.454 NetType/WIFI Mem/12',
+        'properties' => [
+            'Comment' => 'QQBrowser 5.4 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '5.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-Y' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 QQ/5.4.0.454 NetType/2G Mem/9',
         'properties' => [
@@ -1076,6 +1106,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-Y (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B329 QQ/5.4.0.454 NetType/2G Mem/9',
+        'properties' => [
+            'Comment' => 'QQBrowser 5.4 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '5.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-Z' => [
         'ua' => 'Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 812 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) Version/6.0 MQQBrowser/5.6 Mobile/12B440 Safari/8536.25',
         'properties' => [
@@ -1118,6 +1163,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-Z (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone 5SGLOBAL; CPU iPhone OS 812 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) Version/6.0 MQQBrowser/5.6 Mobile/12B440 Safari/8536.25',
+        'properties' => [
+            'Comment' => 'QQBrowser 5.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '5.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-AA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/8.0 MQQBrowser/5.6.1 Mobile/14A456 Safari/600.1.4',
@@ -1247,6 +1307,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-AC (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 QQ/5.9.1.405 Pixel/1080 NetType/WIFI Mem/139',
+        'properties' => [
+            'Comment' => 'QQBrowser 5.9 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '5.9',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-AD' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;\\\\x09Trident/4.0; SLCC2;\\\\x09.NET CLR 2.0.50727; .NET CLR 3.5.30729;\\\\x09.NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E) QQBrowser/6.0',
@@ -2409,6 +2484,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BD (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 4.10 SV1 QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BE' => [
         'ua' => 'Mozilla/5.0 (compatible MSIE 11.0 Windows NT 6.3 Trident/7.0 SLCC1 .NET CLR 2.0.50727 .NET CLR 3.5.30729 .NET CLR 3.0.30729 .NET4.0C .NET4.0E QQBrowser/6.12)',
         'properties' => [
@@ -2537,6 +2627,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-BG (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 4.10 WOW64 Trident/4.0 SLCC2 .NET CLR 2.0.50727 .NET CLR 3.5.30729 .NET CLR 3.0.30729 Media Center PC 6.0 .NET4.0C InfoPath.2 .NET4.0E QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-BH' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 5.2 WOW64 Trident/7.0 SLCC2 .NET CLR 2.0.50727 .NET4.0C .NET4.0E QQBrowser/6.12)',
@@ -2667,6 +2772,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BJ (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 5.0 WOW64 Trident/4.0 SLCC2 .NET CLR 2.0.50727 .NET CLR 3.5.30729 .NET CLR 3.0.30729 .NET4.0C .NET4.0E QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BK' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 6.0 Windows NT 5.1 WOW64 Trident/7.0 .NET4.0E .NET4.0C .NET CLR 3.5.30729 .NET CLR 2.0.50727 .NET CLR 3.0.30729 Tablet PC 2.0 GWX:QUALIFIED ASU2JS QQBrowser/6.12)',
         'properties' => [
@@ -2753,6 +2873,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BL (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 6.0 Windows NT 4.0 Trident/4.0 Data Center .NET CLR 1.1.4322 .NET CLR 2.0.50727 .NET CLR 3.0.04506.648 .NET CLR 3.5.21022 .NET CLR 3.0.4506.2152 .NET CLR 3.5.30729 .NET4.0C .NET4.0E QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BM' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 7.0 Windows NT 5.0 SV1 .NET CLR 1.1.4322 .NET CLR 2.0.50727 QQBrowser/6.12)',
         'properties' => [
@@ -2796,6 +2931,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BM (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 7.0 Windows NT 5.0 SV1 .NET CLR 1.1.4322 .NET CLR 2.0.50727 QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BN' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 4.0 WOW64 Trident/7.0 .NET4.0E .NET4.0C QQBrowser/6.12)',
         'properties' => [
@@ -2838,6 +2988,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-BN (standard)' => [
+        'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 4.0 WOW64 Trident/7.0 .NET4.0E .NET4.0C QQBrowser/6.12)',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.12',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.12',
+            'Platform' => 'Win32',
+            'Device_Type' => 'Desktop',
+            'Device_Pointing_Method' => 'mouse',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-BO' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; 1107 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile MQQBrowser/6.2 TBS/036558 Safari/537.36 V1_AND_SQ_6.5.3_398_YYB_D QQ/6.5.3.2855 NetType/WIFI WebP/0.3.0 Pixel/480',
@@ -2968,6 +3133,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BQ (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13D15 QQ/6.3.0.440 V1_IPH_SQ_6.3.0_1_APP_A Pixel/750 Core/UIWebView NetType/2G',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.3 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.3',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 QQ/6.3.5.437 V1_IPH_SQ_6.3.5_1_APP_A P',
         'properties' => [
@@ -3010,6 +3190,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-BR (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 QQ/6.3.5.437 V1_IPH_SQ_6.3.5_1_APP_A P',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.3 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.3',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-BS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; zh-cn; ATH-AL00 Build/HONORATH-AL00) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/6.5 Mobile Safari/537.36',
@@ -3140,6 +3335,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1935-BU (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 QQ/6.6.2.408 V1_IPH_SQ_6.6.2_1_APP_A Pixel/750 Core/UIWebView NetType/WIFI',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1935-BV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e QQ/6.7.0.446 V1_IPH_SQ_6.7.0_1_APP_A Pixel/1080 Core/UIWebView NetType/WIFI',
         'properties' => [
@@ -3182,6 +3392,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-BV (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e QQ/6.7.0.446 V1_IPH_SQ_6.7.0_1_APP_A Pixel/1080 Core/UIWebView NetType/WIFI',
+        'properties' => [
+            'Comment' => 'QQBrowser 6.7 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.7',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-BW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; vivo X3L Build/JLS36C) AppleWebKit/537.36 (KHTML, like Gecko)Version/4.0 Chrome/37.0.0.0 MQQBrowser/7.0 Mobile Safari/537.36',
@@ -3311,6 +3536,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-BY (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 QQ/7.1.1.440 V1_IPH_SQ_7.1.1_1_APP_A Pixel/1080 Core/UIWebView NetType/WIFI',
+        'properties' => [
+            'Comment' => 'QQBrowser 7.1 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '7.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-BZ' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP08; MAAU; NP08; rv:11.0; QQBrowser/7.4.16830.400) like Gecko',
@@ -3483,6 +3723,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-CC (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5308e QQ/7.6.3.466 V1_IPH_SQ_7.6.3_1_APP_A Pixel/750 Core/UIWebView Device/Apple(iPhone 6s) NetType/3G QBWebViewType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 7.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '7.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-CD' => [
         'ua' => 'Mozilla/5.0 (compatible MSIE 10.0 Windows NT 6.2 WOW64 Trident/6.0 MASMJS QQBrowser/8.0.3197.400)',
@@ -4644,6 +4899,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1935-DD (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Version/11.0 MQQBrowser/8.6.3 Mobile/15B87 Safari/604.1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.6 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1935-DE' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.69 Safari/537.36 QQBrowser/9.0.3100.400',
