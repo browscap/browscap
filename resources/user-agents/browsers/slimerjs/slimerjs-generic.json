@@ -1,0 +1,50 @@
+{
+  "division": "SlimerJS Generic",
+  "sortIndex": 1862,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SlimerJS Generic for Linux",
+      "browser": "slimerjs",
+      "platform": "Linux",
+      "engine": "Gecko",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SlimerJS Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SlimerJS/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "SlimerJS Generic for Windows",
+      "browser": "slimerjs",
+      "platform": "Windows",
+      "engine": "Gecko",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SlimerJS Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* SlimerJS/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Win10_x64", "Win10_64", "Win10_32",
+            "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+            "Win8_x64", "Win8_64", "Win8_32",
+            "Win7_x64", "Win7_64", "Win7_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

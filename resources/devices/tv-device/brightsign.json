@@ -1,0 +1,24 @@
+{
+  "BrightSign XD233": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "XD233",
+      "Device_Code_Name": "XD233",
+      "Device_Maker": "BrightSign, LLC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BrightSign"
+    },
+    "standard": true
+  },
+  "BrightSign Mediaplayer": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Mediaplayer",
+      "Device_Code_Name": "Mediaplayer",
+      "Device_Maker": "BrightSign, LLC",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "BrightSign"
+    },
+    "standard": true
+  }
+}

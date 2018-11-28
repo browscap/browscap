@@ -91,6 +91,21 @@
             "Android_4_4",
             "Android"
           ]
+        },
+        {
+          "match": "*#DEVICE#Linux/* Android/7.1* Release/* Browser/applewebkit* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Xiaomi_MDT2*": "Xiaomi MDT2"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "*Linux/* Android/7.1* Release/* Browser/applewebkit* XiaoMi/MiuiBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_7_1"
+          ]
         }
       ]
     }

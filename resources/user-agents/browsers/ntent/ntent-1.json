@@ -1,0 +1,118 @@
+{
+  "division": "Ntent Browser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1707,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Ntent Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "ntent",
+      "platform": "Android_H",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ntent Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F"
+          },
+          "platforms": [
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "EPIC F50G": "FiGO F50G",
+            "SM-J320M": "Samsung SM-J320M",
+            "SM-J700M": "Samsung SM-J700M",
+            "U613": "Unnecto U613"
+          },
+          "platforms": [
+            "Android_H_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-J510MN": "Samsung SM-J510MN"
+          },
+          "platforms": [
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "devices": {
+            "EPIC F50G": "FiGO F50G",
+            "SM-J320M": "Samsung SM-J320M",
+            "U613": "Unnecto U613"
+          },
+          "platforms": [
+            "Android_H_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "platforms": [
+            "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1", "Android_H_4_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4", "Android_H_4_3", "Android_H_4_2", "Android_H_4_1", "Android_H_4_0",
+            "Android_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Ntent Browser #MAJORVER#.#MINORVER# for Linux",
+      "browser": "ntent",
+      "platform": "Linux",
+      "engine": "Blink",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ntent Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 X11 (#PLATFORM#) applewebkit*khtml*like*gecko* Chrome/* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "Blink",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 X11 (#PLATFORM#) applewebkit*khtml*like*gecko* NTENTBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "engine": "WebKit",
+          "platforms": [
+            "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

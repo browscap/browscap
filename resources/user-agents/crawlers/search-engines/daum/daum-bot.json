@@ -1,0 +1,42 @@
+{
+  "division": "Daum Bot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Daum Bot",
+      "browser": "daum bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Daum Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Safari/* Daum/4.1*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ],
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Safari/* Daum/*",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Daum/4.1*",
+          "properties": {
+            "Version": "4.1"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Daum/*"
+        }
+      ]
+    }
+  ]
+}

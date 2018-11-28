@@ -606,13 +606,13 @@ return [
     'issue-1378-P' => [
         'ua' => 'Mozilla/5.0 (compatible; Daum/4.1; +http://cs.daum.net/faq/15/4118.html?faqId=28966)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'Daum Bot',
             'Browser' => 'Daum Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '4.1',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',

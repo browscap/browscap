@@ -13,7 +13,7 @@
       },
       "children": [
         {
-          "match": "DuckDuckBot/*; (?http://duckduckgo.com/duckduckbot.html)",
+          "match": "DuckDuckBot/*",
           "browser": "duckduckbot"
         },
         {
@@ -26,6 +26,10 @@
         {
           "match": "Mozilla/5.0 (compatible; DuckDuckGo-Favicons-Bot/*",
           "browser": "duckduck favicons bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DuckDuckBot*",
+          "browser": "duckduckbot"
         },
         {
           "match": "DDG-Android-3.0*",

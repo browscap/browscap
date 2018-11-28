@@ -1,0 +1,47 @@
+{
+  "division": "YaaniBrowser #MAJORVER#.#MINORVER# for Android",
+  "versions": ["4.2"],
+  "sortIndex": 3160,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "YaaniBrowser #MAJORVER#.#MINORVER# for Android",
+      "browser": "yaanibrowser",
+      "platform": "Android_H",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "YaaniBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "devices": {
+            "SM-J700F": "Samsung SM-J700F"
+          },
+          "platforms": [
+            "Android_H_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "platforms": [
+            "Android_H_6_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_H_6_0",
+            "Android_H"
+          ]
+        }
+      ]
+    }
+  ]
+}

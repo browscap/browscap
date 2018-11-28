@@ -823,7 +823,7 @@ return [
     'issue-1446-S' => [
         'ua' => 'Mozilla/5.0 (compatible; Wappalyzer; +https://github.com/AliasIO/Wappalyzer)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Wappalyzer',
             'Browser' => 'Wappalyzer',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

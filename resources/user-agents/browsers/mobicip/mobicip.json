@@ -12,9 +12,7 @@
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Mobicip Safe Browser",
-        "Alpha": false,
-        "Beta": false
+        "Comment": "Mobicip Safe Browser"
       },
       "children": [
         {
@@ -53,6 +51,26 @@
           "platforms": [
             "iOS_A",
             "iOS_C"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Mobicip for Android",
+      "browser": "mobicip",
+      "platform": "Android",
+      "engine": "Gecko",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobicip Safe Browser"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko/* Mobicip/*",
+          "platforms": [
+            "AndroidMobile_7_1", "AndroidMobile_7_0",
+            "AndroidMobile"
           ]
         }
       ]

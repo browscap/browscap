@@ -1,0 +1,24 @@
+{
+  "division": "Infowars App",
+  "sortIndex": 1850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Infowars App",
+      "browser": "infowars app",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Infowars App"
+      },
+      "children": [
+        {
+          "match": "Infowars Android*",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

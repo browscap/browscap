@@ -1,0 +1,44 @@
+{
+  "division": "Qwant Browser #MAJORVER#.#MINORVER# for Android",
+  "versions": [61, 60, 59, 58, 57],
+  "sortIndex": 3160,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qwant Browser #MAJORVER#.#MINORVER# for Android",
+      "browser": "qwantbrowser",
+      "platform": "Android",
+      "engine": "Gecko_Dynamic",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qwant Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "QwantMobile/2.0 (#PLATFORM#) Gecko* Firefox* QwantBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "AndroidMobile_8_1", "AndroidMobile_8_0",
+            "AndroidMobile_7_1", "AndroidMobile_7_0",
+            "AndroidMobile_6_0",
+            "AndroidMobile_5_1", "AndroidMobile_5_0",
+            "AndroidMobile"
+          ]
+        },
+        {
+          "match": "QwantMobile/2.0 (#PLATFORM#) Gecko* Firefox* QwantBrowser/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "AndroidTablet_8_1", "AndroidTablet_8_0",
+            "AndroidTablet_7_1", "AndroidTablet_7_0",
+            "AndroidTablet_6_0",
+            "AndroidTablet_5_1", "AndroidTablet_5_0",
+            "AndroidTablet"
+          ]
+        }
+      ]
+    }
+  ]
+}

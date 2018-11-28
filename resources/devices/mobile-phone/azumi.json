@@ -1,0 +1,13 @@
+{
+  "Azumi Iro A5Q": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Iro A5Q",
+      "Device_Code_Name": "Iro A5Q",
+      "Device_Maker": "Azumi",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Azumi"
+    },
+    "standard": false
+  }
+}

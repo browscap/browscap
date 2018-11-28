@@ -363,7 +363,7 @@
     "type": "application",
     "properties": {
       "Browser": "Daum",
-      "Browser_Maker": "Daum Kakao Corp"
+      "Browser_Maker": "Kakao Corp"
     },
     "lite": false,
     "standard": true
@@ -445,6 +445,15 @@
     "properties": {
       "Browser": "Evernote App",
       "Browser_Maker": "Evernote Corporation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "evopdf": {
+    "type": "application",
+    "properties": {
+      "Browser": "EvoPdf",
+      "Browser_Maker": "No Limit Software"
     },
     "lite": false,
     "standard": true
@@ -584,11 +593,29 @@
     "lite": false,
     "standard": true
   },
+  "google earth pro": {
+    "type": "application",
+    "properties": {
+      "Browser": "Google Earth Pro",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "google+ app": {
     "type": "application",
     "properties": {
       "Browser": "Google+ App",
       "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hiqpdf": {
+    "type": "application",
+    "properties": {
+      "Browser": "HiQPdf",
+      "Browser_Maker": "HiQPdf Software"
     },
     "lite": false,
     "standard": true
@@ -633,6 +660,15 @@
     "type": "application",
     "properties": {
       "Browser": "ImageMobile",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "infowars app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Infowars App",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -863,6 +899,15 @@
     "lite": false,
     "standard": true
   },
+  "netcast": {
+    "type": "application",
+    "properties": {
+      "Browser": "NetCast",
+      "Browser_Maker": "LG"
+    },
+    "lite": false,
+    "standard": true
+  },
   "netgem set top box": {
     "type": "application",
     "properties": {
@@ -1030,6 +1075,15 @@
     "properties": {
       "Browser": "Prince",
       "Browser_Maker": "YesLogic Pty. Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "propresenter": {
+    "type": "application",
+    "properties": {
+      "Browser": "ProPresenter",
+      "Browser_Maker": "Renewed Vision, LLC"
     },
     "lite": false,
     "standard": true
@@ -1462,6 +1516,15 @@
     "properties": {
       "Browser": "wkhtmltopdf",
       "Browser_Maker": "wkhtmltopdf.org"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "wnvpdf": {
+    "type": "application",
+    "properties": {
+      "Browser": "WnvPdf",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true

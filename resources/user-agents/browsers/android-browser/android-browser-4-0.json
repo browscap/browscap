@@ -49,6 +49,15 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Mobile Safari*",
+          "devices": {
+            "Azumi_IRO_A5_Q": "Azumi Iro A5Q"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "Nexus 4": "LG Nexus 4"

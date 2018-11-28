@@ -1,26 +1,22 @@
 {
-  "division": "Google Earth #MAJORVER#.#MINORVER#",
-  "versions": ["7.1", 7, 6, 5],
-  "sortIndex": 5070,
+  "division": "Google Earth Generic",
+  "sortIndex": 5071,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Google Earth #MAJORVER#.#MINORVER#",
+      "userAgent": "Google Earth Generic",
       "browser": "google earth",
       "platform": "Windows",
       "engine": "WebKit",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Google Earth #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#",
-        "Alpha": false,
-        "Beta": false
+        "Comment": "Google Earth Generic"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth/*Safari/*",
           "device": "Windows Desktop",
           "platforms": [
             "Win8_32",
@@ -30,14 +26,14 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Google Earth/*Safari/*",
           "device": "Macintosh",
           "platforms": [
             "OSX"
           ]
         },
         {
-          "match": "GoogleEarth/#MAJORVER#.#MINORVER#*(#PLATFORM#)*",
+          "match": "GoogleEarth/*(#PLATFORM#)*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_32_2"

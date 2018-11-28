@@ -32,6 +32,13 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Xubuntu Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Xubuntu"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Windows Desktop",
           "platforms": [

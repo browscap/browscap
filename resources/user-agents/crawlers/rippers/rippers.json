@@ -982,6 +982,10 @@
         {
           "match": "Mozilla/5.0 zgrab/*",
           "browser": "zgrab"
+        },
+        {
+          "match": "Manzama Fetcher/*",
+          "browser": "manzama fetcher"
         }
       ]
     }

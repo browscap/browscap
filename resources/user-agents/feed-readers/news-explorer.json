@@ -1,0 +1,28 @@
+{
+  "division": "News Explorer",
+  "sortIndex": 380,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "News Explorer",
+      "browser": "news-explorer",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "News Explorer"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) News Explorer/*",
+          "platforms": [
+            "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

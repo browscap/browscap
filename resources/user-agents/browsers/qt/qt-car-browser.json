@@ -15,7 +15,13 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (X11; Linux) applewebkit* (*khtml*like*gecko*) QtCarBrowser Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QtCarBrowser Safari/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Tesla QtCarBrowser Safari/*",
           "platforms": [
             "Linux"
           ]

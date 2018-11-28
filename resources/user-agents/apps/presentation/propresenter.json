@@ -1,0 +1,21 @@
+{
+  "division": "ProPresenter",
+  "sortIndex": 1850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "ProPresenter",
+      "browser": "propresenter",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "ProPresenter"
+      },
+      "children": [
+        {
+          "match": "ProPresenter*"
+        }
+      ]
+    }
+  ]
+}
