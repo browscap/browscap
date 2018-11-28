@@ -20,7 +20,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PostboxApp/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PostboxApp/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_13", "OSX_10_12",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PostboxApp/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* PostboxApp/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
             "Win10_x64", "Win10_64", "Win10_32",
