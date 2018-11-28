@@ -1,18 +1,18 @@
 {
-  "division": "SlimerJS General",
+  "division": "SlimerJS Generic",
   "sortIndex": 1862,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "SlimerJS General for Linux",
+      "userAgent": "SlimerJS Generic for Linux",
       "browser": "slimerjs",
       "platform": "Linux",
       "engine": "Gecko",
       "device": "Linux Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SlimerJS General"
+        "Comment": "SlimerJS Generic"
       },
       "children": [
         {
@@ -24,14 +24,14 @@
       ]
     },
     {
-      "userAgent": "SlimerJS General for Windows",
+      "userAgent": "SlimerJS Generic for Windows",
       "browser": "slimerjs",
       "platform": "Windows",
       "engine": "Gecko",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "SlimerJS General"
+        "Comment": "SlimerJS Generic"
       },
       "children": [
         {
