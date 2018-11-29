@@ -43,5 +43,18 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ]
+    ],
+    'issue-2004-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:63.0) Gecko/20100101 Firefox/63.0',
+        'properties' => [
+            'Comment' => 'Firefox 63.0',
+            'Browser' => 'Firefox',
+            'Version' => '63.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];

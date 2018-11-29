@@ -43,5 +43,5 @@ return [
         'lite' => true,
         'standard' => true,
         'full' => true,
-    ]
+    ],
 ];

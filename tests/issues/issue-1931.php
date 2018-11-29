@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1931-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Version/11.4.1 Safari/604.1 AlohaBrowser/2.6.0b11',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1931-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Version/10.2 Safari/604.1 AlohaBrowser/2.5.1b2',
         'properties' => [
@@ -87,6 +102,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1931-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Version/10.2 Safari/604.1 AlohaBrowser/2.5.1b2',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1931-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Version/11.3.1 Safari/604.1 AlohaBrowser/2.5.1b2',
         'properties' => [
@@ -129,6 +159,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1931-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Version/11.3.1 Safari/604.1 AlohaBrowser/2.5.1b2',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1931-D' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 Version/11.4.1 Safari/604.1 AlohaBrowser/2.5.1b2',
@@ -215,6 +260,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1931-E (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C153 Version/11.2.1 Safari/604.1 AlohaBrowser/2.5.1b2',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1931-F' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Version/9.3.5 Safari/604.1 AlohaBrowser/2.6.0b11',
@@ -345,6 +405,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1931-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Version/9.3.5 Safari/604.1 AlohaBrowser/2.5.2b8',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1931-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5339e Version/12.0 Safari/604.1 AlohaBrowser/2.5.2b8',
         'properties' => [
@@ -388,6 +463,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1931-I (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5339e Version/12.0 Safari/604.1 AlohaBrowser/2.5.2b8',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1931-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 Version/10.3.3 Safari/604.1 AlohaBrowser/2.6.0b11',
         'properties' => [
@@ -430,6 +520,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1931-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 Version/10.3.3 Safari/604.1 AlohaBrowser/2.6.0b11',
+        'properties' => [
+            'Comment' => 'Aloha Browser',
+            'Browser' => 'Aloha Browser',
+            'Browser_Maker' => 'Aloha Mobile Ltd',
+            'Version' => '0.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1931-K' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 Safari/602.1 AlohaBrowser/2.0',

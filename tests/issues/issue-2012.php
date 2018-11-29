@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2012-A (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_1 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) FxiOS/1.5.6b18.04.11.13 Mobile/15C153 Safari/604.4.7',
+        'properties' => [
+            'Comment' => 'Firefox 1.5 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '1.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2012-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/4.11 YaApp_iOS_Browser/4.11',
         'properties' => [
@@ -87,6 +102,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2012-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/4.11 YaApp_iOS_Browser/4.11',
+        'properties' => [
+            'Comment' => 'YaApp 4.11',
+            'Browser' => 'YaApp',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '4.11',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2012-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/4.20 YaApp_iOS_Browser/4.20',
         'properties' => [
@@ -129,6 +159,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2012-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/4.20 YaApp_iOS_Browser/4.20',
+        'properties' => [
+            'Comment' => 'YaApp 4.20',
+            'Browser' => 'YaApp',
+            'Browser_Maker' => 'Yandex LLC',
+            'Version' => '4.20',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2012-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A404 Safari/605.1.15 SznProhlizec/5.19i',
@@ -345,6 +390,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2012-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 QQ/7.5.8.422 V1_IPH_SQ_7.5.8_1_APP_A Pixel/750 Core/UIWebView Device/Apple(iPhone 7) NetType/WIFI QBWebViewType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 7.5 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '7.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2012-I' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0.1; zh-tw; MI MAX Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.6 Mobile Safari/537.36',
         'properties' => [
@@ -430,6 +490,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2012-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A366 NAVER(inapp; search; 590; 8.8.5)',
+        'properties' => [
+            'Comment' => 'Naver 8.8 for iOS',
+            'Browser' => 'Naver',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '8.8',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2012-K' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.4; zh-cn; 1107 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.9 Mobile Safari/537.36',
@@ -646,6 +721,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2012-O (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/12.2b11231 Mobile/16A366 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Firefox 12.2 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '12.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2012-P' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16A404 Safari/605.1.15',
         'properties' => [
@@ -774,6 +864,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2012-R (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16B5059d Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Firefox 13.2 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '13.2',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2012-S' => [
         'ua' => 'Mozilla/5.0 (X11; Linux i686; rv:52.9) Goanna/4.1 PaleMoon/28.1.0',
@@ -1032,6 +1137,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2012-X (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16B5059d Instagram 64.0.0.12.96 (iPhone9,2; iOS 12_1; en_US; en-US; scale=2.61; gamut=wide; 1080x1920; 124976489)',
+        'properties' => [
+            'Comment' => 'Instagram App 64.0 for iOS',
+            'Browser' => 'Instagram App',
+            'Browser_Maker' => 'Facebook',
+            'Version' => '64.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2012-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; ALE-L21 Build/HuaweiALE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 Mobile Safari/537.36 Instagram 66.0.0.11.101 Android (21/5.0.1; 320dpi; 1196x720; HUAWEI/Huawei; ALE-L21; hwALE-H; hi6210sft; sr_RS; 127049016)',

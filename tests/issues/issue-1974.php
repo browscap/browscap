@@ -130,6 +130,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1974-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Snapchat/10.38.0.25 (iPad4,4; iOS 10.0.2; gzip)',
+        'properties' => [
+            'Comment' => 'Snapchat 10.38',
+            'Browser' => 'Snapchat',
+            'Browser_Maker' => 'Snap Inc.',
+            'Version' => '10.38',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1974-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SogouMobileBrowser/5.5.0',
         'properties' => [
@@ -173,6 +188,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1974-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SogouMobileBrowser/5.5.0',
+        'properties' => [
+            'Comment' => 'Sogou Mobile 5.5',
+            'Browser' => 'Sogou Mobile',
+            'Browser_Maker' => 'Sogou Inc',
+            'Version' => '5.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1974-E' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/1.6.4b18.08.14.13 Mobile/15G77 Safari/605.1.15 _id/000001',
         'properties' => [
@@ -215,6 +245,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1974-E (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/1.6.4b18.08.14.13 Mobile/15G77 Safari/605.1.15 _id/000001',
+        'properties' => [
+            'Comment' => 'Firefox 1.6 for iOS',
+            'Browser' => 'Firefox for iOS',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '1.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1974-F' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/1.6.4b18.08.14.13 Mobile/15G77 Safari/605.1.15 _id/000001',
@@ -345,6 +390,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1974-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15G77 NAVER(inapp; search; 590; 8.8.5; 7PLUS)',
+        'properties' => [
+            'Comment' => 'Naver 8.8 for iOS',
+            'Browser' => 'Naver',
+            'Browser_Maker' => 'NHN Corporation',
+            'Version' => '8.8',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1974-I' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.1b11805 Mobile/15G77 Safari/605.1.15',
         'properties' => [
@@ -431,6 +491,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-1974-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Focus/6.0 Mobile/16A5318d',
+        'properties' => [
+            'Comment' => 'Firefox Focus 6.0',
+            'Browser' => 'Firefox Focus',
+            'Browser_Maker' => 'Mozilla Foundation',
+            'Version' => '6.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-1974-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 MQQBrowser/8.7.1 Mobile/16A5364a Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
         'properties' => [
@@ -473,6 +548,21 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-1974-K (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 MQQBrowser/8.7.1 Mobile/16A5364a Safari/604.1 MttCustomUA/2 QBWebViewType/1 WKType/1',
+        'properties' => [
+            'Comment' => 'QQBrowser 8.7 for iOS',
+            'Browser' => 'QQBrowser',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '8.7',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1974-L' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse',
