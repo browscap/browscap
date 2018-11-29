@@ -12617,6 +12617,15 @@
     "lite": false,
     "standard": true
   },
+  "thumbnail.ws bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "thumbnail.ws Bot",
+      "Browser_Maker": "thumbnail.ws"
+    },
+    "lite": false,
+    "standard": true
+  },
   "thumbor": {
     "type": "bot",
     "properties": {
