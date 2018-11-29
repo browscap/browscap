@@ -5093,6 +5093,15 @@
     "lite": false,
     "standard": true
   },
+  "google dmca takedown tool bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google DMCA Takedown Tool Bot",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "google enterprise": {
     "type": "bot",
     "properties": {
