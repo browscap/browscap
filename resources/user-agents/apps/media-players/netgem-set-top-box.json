@@ -1,0 +1,26 @@
+{
+  "division": "Netgem",
+  "sortIndex": 2200,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Netgem",
+      "browser": "netgem set top box",
+      "platform": "Linux",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netgem"
+      },
+      "children": [
+        {
+          "match": "Mozilla/3.01 (compatible; Netgem/*"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE *; Windows*; Linux*) ?Netgem*"
+        }
+      ]
+    }
+  ]
+}

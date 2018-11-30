@@ -81,14 +81,6 @@
           }
         },
         {
-          "match": "Mozilla/3.01 (compatible; Netgem/*; Linux 2.2)",
-          "browser": "netgem set top box",
-          "device": "general TV Device",
-          "platforms": [
-            "Linux"
-          ]
-        },
-        {
           "match": "Mozilla/3.0 WebTV/1.*(compatible*; MSIE 2.0)",
           "properties": {
             "Version": "1.0"
