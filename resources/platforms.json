@@ -2427,6 +2427,15 @@
     "standard": true,
     "inherits": "iOS"
   },
+  "iOS_I_12_0": {
+    "match": "* iOS?12.0*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "11.3"
+    }
+  },
   "iOS_I_11_3": {
     "match": "* iOS?11.3*",
     "lite": false,

@@ -8,6 +8,15 @@
     "lite": false,
     "standard": true
   },
+  "acast podcast app": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Acast Podcast App",
+      "Browser_Maker": "Acast AB"
+    },
+    "lite": false,
+    "standard": true
+  },
   "alexa mediaplayer": {
     "type": "multimedia-player",
     "properties": {

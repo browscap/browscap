@@ -14,21 +14,18 @@
       "children": [
         {
           "match": "MPlayer 0.9*",
-          "browser": "mplayer",
           "properties": {
             "Version": "0.9"
           }
         },
         {
           "match": "MPlayer 1.*",
-          "browser": "mplayer",
           "properties": {
             "Version": "1.0"
           }
         },
         {
-          "match": "MPlayer HEAD CVS",
-          "browser": "mplayer"
+          "match": "MPlayer *"
         }
       ]
     }

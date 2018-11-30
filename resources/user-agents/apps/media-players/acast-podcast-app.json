@@ -1,0 +1,82 @@
+{
+  "division": "Acast Podcast App",
+  "sortIndex": 7020,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Acast Podcast App for iOS",
+      "browser": "acast podcast app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Acast Podcast App"
+      },
+      "children": [
+        {
+          "match": "Acast/* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_I_12_0",
+            "iOS_I"
+          ]
+        },
+
+        {
+          "match": "Acast/* (#PLATFORM#",
+          "platforms": [
+            "iOS_I_12_0",
+            "iOS_I"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Acast Podcast App for Android",
+      "browser": "acast podcast app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Acast Podcast App"
+      },
+      "children": [
+        {
+          "match": "Acast/* (#PLATFORM##DEVICE#*",
+          "devices": {
+            "OnePlus 5.0": "OnePlus A5000"
+          },
+          "platforms": [
+            "Android_H_8_0",
+            "Android_H"
+          ]
+        },
+        {
+          "match": "Acast/* (#PLATFORM#",
+          "platforms": [
+            "Android_H_8_0",
+            "Android_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Acast Podcast App Generic",
+      "browser": "acast podcast app",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Acast Podcast App"
+      },
+      "children": [
+        {
+          "match": "Acast/*"
+        }
+      ]
+    }
+  ]
+}
