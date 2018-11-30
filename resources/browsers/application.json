@@ -215,6 +215,15 @@
     "lite": false,
     "standard": true
   },
+  "booking.com app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Booking.com App",
+      "Browser_Maker": "Booking.com"
+    },
+    "lite": false,
+    "standard": true
+  },
   "camera 360": {
     "type": "application",
     "properties": {

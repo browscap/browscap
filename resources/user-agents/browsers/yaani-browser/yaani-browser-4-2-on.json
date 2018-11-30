@@ -20,6 +20,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "devices": {
+            "SM-G950F": "Samsung SM-G950F"
+          },
+          "platforms": [
+            "Android_H_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
+          "devices": {
             "SM-J700F": "Samsung SM-J700F"
           },
           "platforms": [
@@ -29,6 +38,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "platforms": [
+            "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",
             "Android_H"
           ]
@@ -37,6 +48,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_H_8_0",
+            "Android_H_7_1", "Android_H_7_0",
             "Android_H_6_0",
             "Android_H"
           ]
