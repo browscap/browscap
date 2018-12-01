@@ -51,8 +51,7 @@ final class BuildHelper
             'Keep up with the latest goings-on with the project:',
             'Follow us on Twitter <https://twitter.com/browscap>, or...',
             'Like us on Facebook <https://facebook.com/browscap>, or...',
-            'Collaborate on GitHub <https://github.com/browscap>, or...',
-            'Discuss on Google Groups <https://groups.google.com/forum/#!forum/browscap>.',
+            'Collaborate on GitHub <https://github.com/browscap>.',
         ];
 
         $writerCollection->fileStart();
