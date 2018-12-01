@@ -3383,6 +3383,15 @@
     "lite": false,
     "standard": true
   },
+  "domainstatsbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DomainStatsBot",
+      "Browser_Maker": "Domainstats International AB"
+    },
+    "lite": false,
+    "standard": true
+  },
   "domainwatcher bot": {
     "type": "bot",
     "properties": {
