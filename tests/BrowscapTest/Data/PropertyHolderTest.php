@@ -16,7 +16,7 @@ class PropertyHolderTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new PropertyHolder();
     }
@@ -84,7 +84,7 @@ class PropertyHolderTest extends TestCase
     public function testGetPropertyType(string $propertyName, string $expectedType) : void
     {
         $actualType = $this->object->getPropertyType($propertyName);
-        self::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
+        static::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
     }
 
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped() : void
@@ -162,12 +162,12 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_CSV));
+            ->willReturn(WriterInterface::TYPE_CSV);
 
         $actualValue = $this->object->isLiteModeProperty($propertyName, $mockWriter);
-        self::assertSame($isExtra, $actualValue);
+        static::assertSame($isExtra, $actualValue);
     }
 
     /**
@@ -181,11 +181,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
+        static::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
     }
 
     /**
@@ -252,11 +252,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
+        static::assertTrue($this->object->isLiteModeProperty('PatternId', $mockWriter));
     }
 
     /**
@@ -273,12 +273,12 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $actualValue = $this->object->isStandardModeProperty($propertyName, $mockWriter);
-        self::assertSame($isExtra, $actualValue);
+        static::assertSame($isExtra, $actualValue);
     }
 
     /**
@@ -292,11 +292,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_CSV));
+            ->willReturn(WriterInterface::TYPE_CSV);
 
-        self::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
+        static::assertTrue($this->object->isStandardModeProperty('PropertyName', $mockWriter));
     }
 
     /**
@@ -370,12 +370,12 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriterCsv
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_CSV));
+            ->willReturn(WriterInterface::TYPE_CSV);
 
         $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterCsv);
-        self::assertSame($isExtra, $actualValue);
+        static::assertSame($isExtra, $actualValue);
     }
 
     /**
@@ -389,11 +389,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriterCsv
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_CSV));
+            ->willReturn(WriterInterface::TYPE_CSV);
 
-        self::assertTrue($this->object->isOutputProperty('PropertyName', $mockWriterCsv));
+        static::assertTrue($this->object->isOutputProperty('PropertyName', $mockWriterCsv));
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -401,11 +401,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
+        static::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
     }
 
     /**
@@ -419,11 +419,11 @@ class PropertyHolderTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
+        static::assertTrue($this->object->isOutputProperty('PatternId', $mockWriterIni));
     }
 
     /**
@@ -449,7 +449,7 @@ class PropertyHolderTest extends TestCase
     public function testCheckValueInArray(string $propertyName, string $propertyValue) : void
     {
         $actualValue = $this->object->checkValueInArray($propertyName, $propertyValue);
-        self::assertSame($propertyValue, $actualValue);
+        static::assertSame($propertyValue, $actualValue);
     }
 
     public function testCheckValueInArrayExceptionUndfinedProperty() : void
@@ -533,6 +533,6 @@ class PropertyHolderTest extends TestCase
      */
     public function testIsDeprecatedProperty(string $propertyName, bool $isDeprecated) : void
     {
-        self::assertSame($isDeprecated, $this->object->isDeprecatedProperty($propertyName));
+        static::assertSame($isDeprecated, $this->object->isDeprecatedProperty($propertyName));
     }
 }

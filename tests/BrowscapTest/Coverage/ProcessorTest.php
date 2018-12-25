@@ -20,7 +20,7 @@ final class ProcessorTest extends TestCase
     /**
      * Run before each test, creates a new Processor object
      */
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new Processor($this->resourceDir);
     }
@@ -52,14 +52,14 @@ final class ProcessorTest extends TestCase
             []
         );
 
-        self::assertSame($expected['statementCount'], count($coverage['statementMap']));
-        self::assertSame($expected['statementCount'], count($coverage['s']));
+        static::assertSame($expected['statementCount'], count($coverage['statementMap']));
+        static::assertSame($expected['statementCount'], count($coverage['s']));
 
-        self::assertSame($expected['branchCount'], count($coverage['branchMap']));
-        self::assertSame($expected['branchCount'], count($coverage['b']));
+        static::assertSame($expected['branchCount'], count($coverage['branchMap']));
+        static::assertSame($expected['branchCount'], count($coverage['b']));
 
-        self::assertSame($expected['functionCount'], count($coverage['fnMap']));
-        self::assertSame($expected['functionCount'], count($coverage['f']));
+        static::assertSame($expected['functionCount'], count($coverage['fnMap']));
+        static::assertSame($expected['functionCount'], count($coverage['f']));
     }
 
     /**
@@ -137,8 +137,8 @@ final class ProcessorTest extends TestCase
             $coveredIds
         );
 
-        self::assertSame($expected['s'], array_sum($coverage['s']));
-        self::assertSame($expected['f'], array_sum($coverage['f']));
+        static::assertSame($expected['s'], array_sum($coverage['s']));
+        static::assertSame($expected['f'], array_sum($coverage['f']));
 
         $branchSum = 0;
 
@@ -146,7 +146,7 @@ final class ProcessorTest extends TestCase
             $branchSum += array_sum($branch);
         }
 
-        self::assertSame($expected['b'], $branchSum);
+        static::assertSame($expected['b'], $branchSum);
     }
 
     /**
@@ -163,7 +163,7 @@ final class ProcessorTest extends TestCase
 
         $this->object->setCoveredPatternIds($patternIds);
 
-        self::assertSame(
+        static::assertSame(
             [
                 'abc.json' => ['u0::c0::d::p', 'u0::c1::d::p'],
                 'def.json' => ['u0::c1::d::p'],

@@ -16,6 +16,6 @@ class EngineTest extends TestCase
 
         $object = new Engine($properties);
 
-        self::assertSame($properties, $object->getProperties());
+        static::assertSame($properties, $object->getProperties());
     }
 }

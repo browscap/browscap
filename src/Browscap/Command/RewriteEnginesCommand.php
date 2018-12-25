@@ -45,11 +45,12 @@ class RewriteEnginesCommand extends Command
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/engines.json');
 
-        $normalizer = new Normalizer\ChainNormalizer(
-            new Normalizer\SchemaNormalizer($schema),
-            new Normalizer\JsonEncodeNormalizer(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
-            new Normalizer\IndentNormalizer('  '),
-            new Normalizer\FinalNewLineNormalizer()
+        $normalizer = new Normalizer\SchemaNormalizer($schema);
+        $format     = new Normalizer\Format\Format(
+            Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
+            Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
+            Normalizer\Format\NewLine::fromString("\n"),
+            true
         );
 
         $finder = new Finder();
@@ -74,7 +75,7 @@ class RewriteEnginesCommand extends Command
             }
 
             try {
-                $normalized = $normalizer->normalize($json);
+                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format))->normalize(Normalizer\Json::fromEncoded($json));
             } catch (\Throwable $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 

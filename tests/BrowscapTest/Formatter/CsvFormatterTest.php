@@ -14,7 +14,7 @@ class CsvFormatterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -22,9 +22,9 @@ class CsvFormatterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new CsvFormatter($propertyHolder);
     }
@@ -34,7 +34,7 @@ class CsvFormatterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FormatterInterface::TYPE_CSV, $this->object->getType());
+        static::assertSame(FormatterInterface::TYPE_CSV, $this->object->getType());
     }
 
     /**
@@ -42,7 +42,7 @@ class CsvFormatterTest extends TestCase
      */
     public function testFormatPropertyName() : void
     {
-        self::assertSame('"text"', $this->object->formatPropertyName('text'));
+        static::assertSame('"text"', $this->object->formatPropertyName('text'));
     }
 
     /**
@@ -90,7 +90,7 @@ class CsvFormatterTest extends TestCase
     public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
-        self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
+        static::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
     }
 
     /**
@@ -101,7 +101,7 @@ class CsvFormatterTest extends TestCase
     public function testFormatPropertyValueWithException() : void
     {
         $actualValue = $this->object->formatPropertyValue('Browserx', 'Device_Pointing_Method');
-        self::assertSame('""', $actualValue);
+        static::assertSame('""', $actualValue);
     }
 
     /**
@@ -112,6 +112,6 @@ class CsvFormatterTest extends TestCase
     public function testFormatPropertyValueWithUnknownValue() : void
     {
         $actualValue = $this->object->formatPropertyValue('unknown', 'Browser_Type');
-        self::assertSame('""', $actualValue);
+        static::assertSame('""', $actualValue);
     }
 }

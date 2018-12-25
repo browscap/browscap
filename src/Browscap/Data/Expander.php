@@ -125,7 +125,7 @@ class Expander
                 $division->isStandard(),
                 $division->getSortIndex(),
                 $divisionName
-                ) as $ua => $properties) {
+            ) as $ua => $properties) {
                 yield $ua => $properties;
             }
             ++$i;

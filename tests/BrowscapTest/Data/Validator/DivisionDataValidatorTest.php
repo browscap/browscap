@@ -14,7 +14,7 @@ class DivisionDataValidatorTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new DivisionDataValidator();
     }
@@ -568,7 +568,7 @@ class DivisionDataValidatorTest extends TestCase
         $fileName     = 'abc.json';
 
         $this->object->validate($divisionData, $fileName, $allDivisions, true);
-        self::assertTrue(true);
+        static::assertTrue(true);
     }
 
     /**
@@ -1179,7 +1179,7 @@ class DivisionDataValidatorTest extends TestCase
         $fileName     = 'abc.json';
 
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
-        self::assertTrue(true);
+        static::assertTrue(true);
     }
 
     /**
@@ -1279,7 +1279,7 @@ class DivisionDataValidatorTest extends TestCase
         $fileName     = 'abc.json';
 
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
-        self::assertTrue(true);
+        static::assertTrue(true);
     }
 
     /**
@@ -1522,6 +1522,6 @@ class DivisionDataValidatorTest extends TestCase
         $fileName     = 'abc.json';
 
         $this->object->validate($divisionData, $fileName, $allDivisions, false);
-        self::assertTrue(true);
+        static::assertTrue(true);
     }
 }

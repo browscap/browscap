@@ -14,7 +14,7 @@ class BrowserFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new BrowserFactory();
     }
@@ -70,7 +70,7 @@ class BrowserFactoryTest extends TestCase
         $browserName = 'Test';
 
         $browser = $this->object->build($browserData, $browserName);
-        self::assertInstanceOf(Browser::class, $browser);
-        self::assertTrue($browser->isStandard());
+        static::assertInstanceOf(Browser::class, $browser);
+        static::assertTrue($browser->isStandard());
     }
 }

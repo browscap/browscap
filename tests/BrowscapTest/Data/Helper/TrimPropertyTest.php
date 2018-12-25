@@ -12,23 +12,23 @@ class TrimPropertyTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new TrimProperty();
     }
 
     public function testTrue() : void
     {
-        self::assertTrue($this->object->trimProperty('true'));
+        static::assertTrue($this->object->trimProperty('true'));
     }
 
     public function testFalse() : void
     {
-        self::assertFalse($this->object->trimProperty('false'));
+        static::assertFalse($this->object->trimProperty('false'));
     }
 
     public function testDefault() : void
     {
-        self::assertSame('abc', $this->object->trimProperty('  abc '));
+        static::assertSame('abc', $this->object->trimProperty('  abc '));
     }
 }

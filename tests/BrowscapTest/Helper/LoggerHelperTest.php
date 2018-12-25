@@ -16,6 +16,6 @@ class LoggerHelperTest extends TestCase
     {
         $output = new NullOutput();
         $helper = new LoggerHelper();
-        self::assertInstanceOf(Logger::class, $helper->create($output));
+        static::assertInstanceOf(Logger::class, $helper->create($output));
     }
 }

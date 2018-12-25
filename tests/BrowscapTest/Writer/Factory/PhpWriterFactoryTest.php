@@ -4,9 +4,9 @@ namespace BrowscapTest\Writer\Factory;
 
 use Browscap\Writer\Factory\PhpWriterFactory;
 use Browscap\Writer\WriterCollection;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class PhpWriterFactoryTest extends TestCase
 {
@@ -17,7 +17,7 @@ class PhpWriterFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
 
@@ -26,14 +26,13 @@ class PhpWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollection() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 }

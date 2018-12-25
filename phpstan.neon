@@ -1,15 +1,23 @@
 parameters:
+  level: max
+  paths:
+    - src
+    - tests/UserAgentsTest
+    - tests/BrowscapTest
+    - tests/fixtures
+  autoload_files:
+    - %currentWorkingDirectory%/vendor/autoload.php
   includes:
-      - vendor/phpstan/phpstan-strict-rules/rules.neon
-      - vendor/phpstan/phpstan-phpunit/extension.neon
-      - vendor/phpstan/phpstan-phpunit/rules.neon
-      - vendor/pepakriz/phpstan-exception-rules/extension.neon
-      - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-      - vendor/phpstan/phpstan-beberlei-assert/extension.neon
-  parameters:
-    exceptionRules:
-      reportUnusedCatchesOfUncheckedExceptions: false
-      uncheckedExceptions: []
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
+    - vendor/phpstan/phpstan-phpunit/extension.neon
+    - vendor/phpstan/phpstan-phpunit/rules.neon
+    - vendor/pepakriz/phpstan-exception-rules/extension.neon
+    - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+    - vendor/phpstan/phpstan-beberlei-assert/extension.neon
+    - vendor/localheinz/phpstan-rules/rules.neon
+  exceptionRules:
+    reportUnusedCatchesOfUncheckedExceptions: false
+    uncheckedExceptions: []
   excludes_analyse:
     - */tests/*/data/*
     - */V3/*Test.php

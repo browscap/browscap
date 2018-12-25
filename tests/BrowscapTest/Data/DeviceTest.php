@@ -18,8 +18,8 @@ class DeviceTest extends TestCase
 
         $object = new Device($properties, $type, $standard);
 
-        self::assertSame($properties, $object->getProperties());
-        self::assertFalse($object->isStandard());
-        self::assertSame($type, $object->getType());
+        static::assertSame($properties, $object->getProperties());
+        static::assertFalse($object->isStandard());
+        static::assertSame($type, $object->getType());
     }
 }

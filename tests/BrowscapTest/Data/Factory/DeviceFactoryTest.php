@@ -14,7 +14,7 @@ class DeviceFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new DeviceFactory();
     }
@@ -70,7 +70,7 @@ class DeviceFactoryTest extends TestCase
         $deviceName = 'Test';
 
         $device = $this->object->build($deviceData, $deviceName);
-        self::assertInstanceOf(Device::class, $device);
-        self::assertTrue($device->isStandard());
+        static::assertInstanceOf(Device::class, $device);
+        static::assertTrue($device->isStandard());
     }
 }

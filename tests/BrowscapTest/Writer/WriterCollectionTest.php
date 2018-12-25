@@ -9,10 +9,10 @@ use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamDirectory;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class WriterCollectionTest extends TestCase
 {
@@ -33,7 +33,7 @@ class WriterCollectionTest extends TestCase
      */
     private $file;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->root = vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.csv';
@@ -54,9 +54,9 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isOutput')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $division = $this->createMock(Division::class);
 
@@ -66,12 +66,14 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFilter')
-            ->will(self::returnValue($mockFilter));
+            ->willReturn($mockFilter);
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
 
+        /* @var Division $division */
         $this->object->setSilent($division);
     }
 
@@ -86,9 +88,9 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isOutputSection')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $mockDivision = [];
 
@@ -98,10 +100,11 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFilter')
-            ->will(self::returnValue($mockFilter));
+            ->willReturn($mockFilter);
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->setSilentSection($mockDivision);
     }
@@ -117,9 +120,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('fileStart');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->fileStart();
     }
@@ -135,9 +139,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('fileEnd');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->fileEnd();
     }
@@ -155,9 +160,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderHeader');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderHeader($header);
     }
@@ -165,7 +171,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \ReflectionException
+     * @throws \Exception
      */
     public function testRenderVersion() : void
     {
@@ -181,13 +187,13 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('isOutput')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
         $mockFilter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue('Test'));
+            ->willReturn('Test');
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
@@ -195,11 +201,11 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getType')
-            ->will(self::returnValue('test'));
+            ->willReturn('test');
 
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->setMethods(['getFilter', 'getFormatter'])
@@ -207,15 +213,18 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFilter')
-            ->will(self::returnValue($mockFilter));
+            ->willReturn($mockFilter);
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFormatter')
-            ->will(self::returnValue($mockFormatter));
+            ->willReturn($mockFormatter);
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
+
+        /* @var DataCollection $collection */
         $this->object->renderVersion($version, new DateTimeImmutable(), $collection);
         $this->object->close();
     }
@@ -235,10 +244,13 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderAllDivisionsHeader');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
+
+        /* @var DataCollection $collection */
         $this->object->renderAllDivisionsHeader($collection);
     }
 
@@ -253,9 +265,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderDivisionHeader');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderDivisionHeader('test');
     }
@@ -271,9 +284,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderSectionHeader');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderSectionHeader('test');
     }
@@ -298,10 +312,13 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderSectionBody');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
+
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
     }
 
@@ -316,9 +333,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderSectionFooter');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderSectionFooter();
     }
@@ -334,9 +352,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderDivisionFooter');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderDivisionFooter();
     }
@@ -352,9 +371,10 @@ class WriterCollectionTest extends TestCase
             ->getMock();
 
         $mockWriter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('renderAllDivisionsFooter');
 
+        /* @var CsvWriter $mockWriter */
         $this->object->addWriter($mockWriter);
         $this->object->renderAllDivisionsFooter();
     }

@@ -4,6 +4,8 @@ sudo: false
 php:
   - 7.1
   - 7.2
+  - 7.3
+  - 7.4snapshot
 
 os: linux
 
@@ -33,6 +35,7 @@ script: vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors --columns 
 
 jobs:
   allow_failures:
+    - php: 7.4snapshot
     - php: nightly
   include:
     - php: nightly
@@ -51,8 +54,9 @@ jobs:
 
     - stage: composer validate
       php: 7.1
-      install: skip
-      script: composer validate --strict
+      script:
+        - composer validate --strict
+        - composer normalize --dry-run
 
     - stage: style check
       php: 7.1
@@ -60,7 +64,7 @@ jobs:
 
     - stage: static code analysis
       php: 7.1
-      script: vendor/bin/phpstan analyse -l max -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
+      script: vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=768M --no-progress
 
     - stage: validate sources and tests
       php: 7.1

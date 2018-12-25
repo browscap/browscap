@@ -19,9 +19,9 @@ class BrowserTest extends TestCase
 
         $object = new Browser($properties, $type, $lite, $standard);
 
-        self::assertSame($properties, $object->getProperties());
-        self::assertFalse($object->isStandard());
-        self::assertTrue($object->isLite());
-        self::assertSame($type, $object->getType());
+        static::assertSame($properties, $object->getProperties());
+        static::assertFalse($object->isStandard());
+        static::assertTrue($object->isLite());
+        static::assertSame($type, $object->getType());
     }
 }

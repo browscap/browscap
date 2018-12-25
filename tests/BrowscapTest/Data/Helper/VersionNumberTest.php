@@ -12,7 +12,7 @@ class VersionNumberTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new VersionNumber();
     }
@@ -22,6 +22,6 @@ class VersionNumberTest extends TestCase
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
     {
-        self::assertSame('Android Browser 3.0', $this->object->replace('Android Browser #MAJORVER#.#MINORVER#', '3', '0'));
+        static::assertSame('Android Browser 3.0', $this->object->replace('Android Browser #MAJORVER#.#MINORVER#', '3', '0'));
     }
 }

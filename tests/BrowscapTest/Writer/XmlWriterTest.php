@@ -11,9 +11,9 @@ use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\WriterInterface;
 use Browscap\Writer\XmlWriter;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class XmlWriterTest extends TestCase
 {
@@ -29,20 +29,18 @@ class XmlWriterTest extends TestCase
      */
     private $file;
 
-    /**
-     * @throws \ReflectionException
-     */
-    public function setUp() : void
+    protected function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.xml';
 
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
+        /* @var LoggerInterface $logger */
         $this->object = new XmlWriter($this->file, $logger);
     }
 
-    public function teardown() : void
+    protected function teardown() : void
     {
         $this->object->close();
 
@@ -54,33 +52,31 @@ class XmlWriterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(WriterInterface::TYPE_XML, $this->object->getType());
+        static::assertSame(WriterInterface::TYPE_XML, $this->object->getType());
     }
 
     /**
      * tests setting and getting a formatter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
         $mockFormatter = $this->createMock(XmlFormatter::class);
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
-        self::assertSame($mockFormatter, $this->object->getFormatter());
+        static::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
     /**
      * tests setting and getting a filter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(FullFilter::class);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
-        self::assertSame($mockFilter, $this->object->getFilter());
+        static::assertSame($mockFilter, $this->object->getFilter());
     }
 
     /**
@@ -91,7 +87,7 @@ class XmlWriterTest extends TestCase
         $silent = true;
 
         $this->object->setSilent($silent);
-        self::assertSame($silent, $this->object->isSilent());
+        static::assertSame($silent, $this->object->isSilent());
     }
 
     /**
@@ -102,7 +98,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->fileStart();
-        self::assertSame(
+        static::assertSame(
             '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<browsercaps>' . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -116,7 +112,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->fileStart();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -127,7 +123,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->fileEnd();
-        self::assertSame('</browsercaps>' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('</browsercaps>' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -138,7 +134,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->fileEnd();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -151,7 +147,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderHeader($header);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -164,7 +160,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderHeader($header);
-        self::assertSame(
+        static::assertSame(
             '<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL
             . '</comments>' . PHP_EOL,
             file_get_contents($this->file)
@@ -186,7 +182,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderVersion($version);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -208,14 +204,15 @@ class XmlWriterTest extends TestCase
             ->setMethods(['formatPropertyName'])
             ->getMock();
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'));
+            ->willReturn('test');
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
             . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
             file_get_contents($this->file)
@@ -237,14 +234,15 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'));
+            ->willReturn('test');
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
             . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
             file_get_contents($this->file)
@@ -253,15 +251,14 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderAllDivisionsHeader($collection);
-        self::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('<browsercapitems>' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -272,7 +269,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderDivisionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -288,14 +285,15 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'));
+            ->willReturn('test');
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('<browscapitem name="test">' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -306,7 +304,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -328,21 +326,21 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Test' => 'abc',
                 'abc' => true,
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['getUserAgents'])
             ->getMock();
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -350,9 +348,9 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
@@ -360,14 +358,15 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyValue')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
@@ -382,14 +381,16 @@ class XmlWriterTest extends TestCase
         ];
 
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame(
+        static::assertSame(
             '<item name="Test" value="1"/>' . PHP_EOL . '<item name="abc" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -397,8 +398,6 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithParents() : void
     {
@@ -426,13 +425,13 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => 1,
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -440,9 +439,9 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -450,9 +449,9 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $propertyHolder = $this->createMock(PropertyHolder::class);
 
@@ -462,10 +461,11 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::exactly(3))
+            ->expects(static::exactly(3))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -481,14 +481,16 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame(
+        static::assertSame(
             '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
             . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
@@ -497,8 +499,6 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
     {
@@ -521,13 +521,13 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => '12',
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -535,9 +535,9 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -545,9 +545,9 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $propertyHolder = $this->createMock(PropertyHolder::class);
 
@@ -557,10 +557,11 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::exactly(3))
+            ->expects(static::exactly(3))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var XmlFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -576,13 +577,16 @@ class XmlWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
+
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame(
+        static::assertSame(
             '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
             . '<item name="Platform" value="bcd"/>' . PHP_EOL,
             file_get_contents($this->file)
@@ -591,8 +595,6 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -606,8 +608,9 @@ class XmlWriterTest extends TestCase
 
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -618,7 +621,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderSectionFooter();
-        self::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('</browscapitem>' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -629,7 +632,7 @@ class XmlWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -638,7 +641,7 @@ class XmlWriterTest extends TestCase
     public function testRenderDivisionFooter() : void
     {
         $this->object->renderDivisionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -647,6 +650,6 @@ class XmlWriterTest extends TestCase
     public function testRenderAllDivisionsFooter() : void
     {
         $this->object->renderAllDivisionsFooter();
-        self::assertSame('</browsercapitems>' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('</browsercapitems>' . PHP_EOL, file_get_contents($this->file));
     }
 }

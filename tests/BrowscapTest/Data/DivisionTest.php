@@ -19,14 +19,14 @@ class DivisionTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'DefaultProperties',
                 'Browser' => 'xyz',
                 'Version' => '1.0',
@@ -34,7 +34,7 @@ class DivisionTest extends TestCase
                 'Device_Type' => 'Desktop',
                 'isTablet' => 'false',
                 'isMobileDevice' => 'false',
-            ]));
+            ]);
 
         $name       = 'TestName';
         $sortIndex  = 42;
@@ -44,12 +44,12 @@ class DivisionTest extends TestCase
 
         $object = new Division($name, $sortIndex, $userAgents, true, false, $versions, $fileName);
 
-        self::assertSame($name, $object->getName());
-        self::assertSame($sortIndex, $object->getSortIndex());
-        self::assertSame($userAgents, $object->getUserAgents());
-        self::assertTrue($object->isLite());
-        self::assertFalse($object->isStandard());
-        self::assertSame($versions, $object->getVersions());
-        self::assertSame($fileName, $object->getFileName());
+        static::assertSame($name, $object->getName());
+        static::assertSame($sortIndex, $object->getSortIndex());
+        static::assertSame($userAgents, $object->getUserAgents());
+        static::assertTrue($object->isLite());
+        static::assertFalse($object->isStandard());
+        static::assertSame($versions, $object->getVersions());
+        static::assertSame($fileName, $object->getFileName());
     }
 }

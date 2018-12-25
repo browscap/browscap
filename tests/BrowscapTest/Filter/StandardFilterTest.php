@@ -17,7 +17,7 @@ class StandardFilterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,9 +25,9 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new StandardFilter($propertyHolder);
     }
@@ -37,7 +37,7 @@ class StandardFilterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FilterInterface::TYPE_STANDARD, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_STANDARD, $this->object->getType());
     }
 
     /**
@@ -51,11 +51,11 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isStandard')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
-        self::assertTrue($this->object->isOutput($division));
+        static::assertTrue($this->object->isOutput($division));
     }
 
     /**
@@ -69,11 +69,11 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isStandard')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
-        self::assertFalse($this->object->isOutput($division));
+        static::assertFalse($this->object->isOutput($division));
     }
 
     /**
@@ -143,12 +143,12 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterIni);
-        self::assertSame($isExtra, $actualValue);
+        static::assertSame($isExtra, $actualValue);
     }
 
     /**
@@ -164,9 +164,9 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isOutputProperty')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -174,12 +174,12 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $object = new StandardFilter($propertyHolder);
-        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
+        static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -187,8 +187,8 @@ class StandardFilterTest extends TestCase
      */
     public function testIsOutputSectionAlways() : void
     {
-        $this->assertTrue($this->object->isOutputSection([]));
-        $this->assertFalse($this->object->isOutputSection(['standard' => false]));
-        $this->assertTrue($this->object->isOutputSection(['standard' => true]));
+        static::assertTrue($this->object->isOutputSection([]));
+        static::assertFalse($this->object->isOutputSection(['standard' => false]));
+        static::assertTrue($this->object->isOutputSection(['standard' => true]));
     }
 }

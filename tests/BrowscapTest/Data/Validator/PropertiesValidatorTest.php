@@ -13,7 +13,7 @@ class PropertiesValidatorTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new PropertiesValidator();
     }
@@ -92,6 +92,6 @@ class PropertiesValidatorTest extends TestCase
 
         $this->object->validate($properties, 'test');
 
-        self::assertTrue(true);
+        static::assertTrue(true);
     }
 }

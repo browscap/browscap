@@ -168,7 +168,7 @@ class FullTest extends TestCase
     public function testUserAgents(string $userAgent, array $expectedProperties) : void
     {
         if (!count($expectedProperties)) {
-            self::markTestSkipped('Could not run test - no properties were defined to test');
+            static::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
@@ -182,18 +182,18 @@ class FullTest extends TestCase
                 continue;
             }
 
-            self::assertFalse(
+            static::assertFalse(
                 self::$propertyHolder->isDeprecatedProperty($propName),
                 'Actual result expects to test for deprecated property "' . $propName . '"'
             );
 
-            self::assertArrayHasKey(
+            static::assertArrayHasKey(
                 $propName,
                 $actualProps,
                 'Actual result does not have "' . $propName . '" property'
             );
 
-            self::assertSame(
+            static::assertSame(
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]

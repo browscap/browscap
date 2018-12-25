@@ -12,7 +12,7 @@ class SplitVersionTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new SplitVersion();
     }
@@ -21,7 +21,7 @@ class SplitVersionTest extends TestCase
     {
         $result = $this->object->getVersionParts('1');
 
-        self::assertInternalType('array', $result);
-        self::assertSame(['1', '0'], $result);
+        static::assertIsArray($result);
+        static::assertSame(['1', '0'], $result);
     }
 }
