@@ -1,0 +1,39 @@
+{
+  "division": "Booking.com App",
+  "sortIndex": 1850,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Booking.com App",
+      "browser": "booking.com app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Booking.com App"
+      },
+      "children": [
+        {
+          "match": "Booking.com Android App * (OS: 8.1*; Type: *; AppStore: *; Brand: *; Model: #DEVICE#*)",
+          "devices": {
+            "SM-T590": "Samsung SM-T590"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Booking.com Android App * (OS: 8.1*; Type: *; AppStore: *; Brand: *; Model: *)",
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Booking.com Android App * (OS: *; Type: *; AppStore: *; Brand: *; Model: *)"
+        }
+      ]
+    }
+  ]
+}
