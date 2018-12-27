@@ -1,0 +1,21 @@
+{
+  "division": "Google DMCA Takedown Tool Bot",
+  "sortIndex": 1071,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google DMCA Takedown Tool Bot",
+      "browser": "google dmca takedown tool bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko; Google-Assess) Chrome/* Safari/*"
+        }
+      ]
+    }
+  ]
+}
