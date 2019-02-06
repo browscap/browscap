@@ -5057,6 +5057,15 @@
     "lite": false,
     "standard": true
   },
+  "google adwords express": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Adwords Express",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "google app engine": {
     "type": "bot",
     "properties": {
