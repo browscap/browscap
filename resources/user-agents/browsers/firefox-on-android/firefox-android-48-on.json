@@ -18,6 +18,22 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-G935P": "Samsung SM-G935P"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_0",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "AndroidMobile_8_1", "AndroidMobile_8_0",
