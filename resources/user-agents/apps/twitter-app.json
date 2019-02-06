@@ -65,6 +65,12 @@
       },
       "children": [
         {
+          "match": "TwitterAndroid/* (*TA-1028*)",
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* TwitterAndroid*",
           "platforms": [
             "Android_7_1", "Android_7_0",
