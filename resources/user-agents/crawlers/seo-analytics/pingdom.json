@@ -1,0 +1,28 @@
+{
+  "division": "Pingdom Pagespeed",
+  "sortIndex": 491,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Pingdom Pagespeed",
+      "browser": "pingdom page-speed",
+      "platform": "Linux",
+      "engine": "Blink",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Pingdom Pagespeed"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (*Linux x86_64*) applewebkit* (*khtml*like*gecko*) Ubuntu* Chromium/* Chrome/* Safari/* PingdomPageSpeed/*",
+          "browser": "pingdom page-speed",
+          "platforms": [
+            "Ubuntu_64"
+          ]
+        }
+      ]
+    }
+  ]
+}
