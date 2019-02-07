@@ -51,6 +51,10 @@
           "platforms": [
             "Linux_64", "Linux"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Eyeotabot/*",
+          "browser": "eyeotabot"
         }
       ]
     }
