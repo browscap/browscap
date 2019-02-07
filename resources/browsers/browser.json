@@ -1467,6 +1467,15 @@
     "lite": false,
     "standard": true
   },
+  "mint browser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Mint Browser",
+      "Browser_Maker": "Xiaomi Tech"
+    },
+    "lite": false,
+    "standard": true
+  },
   "mitsu browser": {
     "type": "browser",
     "properties": {
