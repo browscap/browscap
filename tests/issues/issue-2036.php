@@ -4,11 +4,11 @@ return [
     'issue-2036-A' => [
         'ua' => 'Google-AdWords-Express',
         'properties' => [
-            'Comment' => 'General Crawlers',
-            'Browser' => 'DomainStatsBot',
+            'Comment' => 'Google',
+            'Browser' => 'Google Adwords Express',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Domainstats International AB',
+            'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'unknown',
