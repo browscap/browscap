@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) Gecko* Firefox/*",
           "platforms": [
             "Android_8_0",
             "Android"

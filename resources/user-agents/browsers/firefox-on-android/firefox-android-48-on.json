@@ -30,12 +30,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Android_8_0",
-            "Android"
-          ]
-        },
-        {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
-          "platforms": [
+            "Android",
             "AndroidMobile_8_1", "AndroidMobile_8_0",
             "AndroidMobile_7_1", "AndroidMobile_7_0",
             "AndroidMobile_6_0",
