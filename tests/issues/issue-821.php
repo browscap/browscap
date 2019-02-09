@@ -2845,7 +2845,7 @@ return [
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
             'Platform' => 'Android',
-            'Device_Type' => 'Mobile Device',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
         ],
         'lite' => false,

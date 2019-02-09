@@ -9,7 +9,7 @@
       "browser": "blue browser",
       "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Device (Touch)",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Blue Browser/Surf Browser/Cloud Browser (com.gl9.cloudBrowser)",

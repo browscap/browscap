@@ -58,14 +58,23 @@
       "browser": "twitter app",
       "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Device (Touch)",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Twitter App"
       },
       "children": [
         {
-          "match": "TwitterAndroid/* (*TA-1028*)",
+          "match": "TwitterAndroid/* (*#DEVICE#*",
+          "devices": {
+            "TA-1028": "Nokia TA-1028"
+          },
+          "platforms": [
+            "Android"
+          ]
+        },
+        {
+          "match": "TwitterAndroid/*",
           "platforms": [
             "Android"
           ]
