@@ -4,11 +4,11 @@ return [
     'issue-2040-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Eyeotabot/1.0; +http://www.eyeota.com) The Audience Technology Platform | Eyeota',
         'properties' => [
-            'Comment' => 'General Crawlers',
-            'Browser' => 'DomainStatsBot',
+            'Comment' => 'Data Mining',
+            'Browser' => 'Eyeotabot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'Domainstats International AB',
+            'Browser_Maker' => 'Eyeota Pte Ltd',
             'Browser_Modus' => 'unknown',
             'Version' => '0.0',
             'Platform' => 'unknown',
