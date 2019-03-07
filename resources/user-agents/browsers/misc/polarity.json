@@ -9,7 +9,7 @@
       "browser": "polarity",
       "platform": "Android",
       "engine": "Blink",
-      "device": "general Mobile Device (Touch)",
+      "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
         "Comment": "Polarity"
