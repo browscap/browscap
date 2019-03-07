@@ -4040,6 +4040,15 @@
     "lite": false,
     "standard": true
   },
+  "eyeotabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Eyeotabot",
+      "Browser_Maker": "Eyeota Pte Ltd"
+    },
+    "lite": false,
+    "standard": true
+  },
   "ez publish link validator": {
     "type": "bot",
     "properties": {
