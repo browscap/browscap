@@ -1330,6 +1330,17 @@
     },
     "standard": true
   },
+  "Samsung SM-T380": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab A 8.0 Wi-Fi (2017)",
+      "Device_Code_Name": "SM-T380",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
   "Samsung SM-T385L": {
     "type": "tablet",
     "properties": {

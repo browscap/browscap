@@ -17,7 +17,6 @@
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
-
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
@@ -28,6 +27,15 @@
             "Android_8_1", "Android_8_0",
             "Android_7_1",
             "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
+          "devices": {
+            "SM-T380": "Samsung SM-T380"
+          },
+          "platforms": [
+            "Android_7_1"
           ]
         },
         {
@@ -263,6 +271,7 @@
             "SM-J250F": "Samsung SM-J250F",
             "SM-J510H": "Samsung SM-J510H",
             "SM-N950U": "Samsung SM-N950U",
+            "SM-T380": "Samsung SM-T380",
             "SM-T385": "Samsung SM-T385",
             "SM-T385L": "Samsung SM-T385L",
             "SM-T550": "Samsung SM-T550",
