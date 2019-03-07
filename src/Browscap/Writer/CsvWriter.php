@@ -49,7 +49,7 @@ class CsvWriter implements WriterInterface
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
-        $ressource    = fopen($file, 'wb');
+        $ressource    = fopen($file, 'w');
 
         if (false === $ressource) {
             throw new \InvalidArgumentException("An error occured while opening File: {$file}");
@@ -201,14 +201,14 @@ class CsvWriter implements WriterInterface
 
         foreach ($properties as $property) {
             if (!isset($this->outputProperties[$property])) {
-                $this->outputProperties[$property] = $this->filter->isOutputProperty($property, $this);
+                $this->outputProperties[$property] = $this->filter->isOutputProperty((string) $property, $this);
             }
 
             if (!$this->outputProperties[$property]) {
                 continue;
             }
 
-            $values[] = $this->formatter->formatPropertyName($property);
+            $values[] = $this->formatter->formatPropertyName((string) $property);
         }
 
         fwrite($this->file, implode(',', $values) . PHP_EOL);

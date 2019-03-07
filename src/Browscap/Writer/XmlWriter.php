@@ -49,7 +49,7 @@ class XmlWriter implements WriterInterface
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
-        $ressource    = fopen($file, 'wb');
+        $ressource    = fopen($file, 'w');
 
         if (false === $ressource) {
             throw new \InvalidArgumentException("An error occured while opening File: {$file}");

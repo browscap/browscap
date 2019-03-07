@@ -56,7 +56,7 @@ class JsonWriter implements WriterInterface
     {
         $this->logger       = $logger;
         $this->trimProperty = new TrimProperty();
-        $ressource          = fopen($file, 'wb');
+        $ressource          = fopen($file, 'w');
 
         if (false === $ressource) {
             throw new \InvalidArgumentException("An error occured while opening File: {$file}");
