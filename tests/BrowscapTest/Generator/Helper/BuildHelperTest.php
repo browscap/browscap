@@ -423,7 +423,7 @@ class BuildHelperTest extends TestCase
             ->method('getProperties')
             ->will(
                 self::returnValue(
-                [
+                    [
                      'Comment' => 'Defaultproperties',
                      'Browser' => 'Defaultproperties',
                      'Browser_Type' => 'unknown',

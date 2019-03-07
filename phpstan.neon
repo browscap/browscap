@@ -20,3 +20,4 @@ parameters:
     - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
     - '~Result of && is always false~'
     - '~MockObject~'
+    - '~Else branch is unreachable because previous condition is always true~'

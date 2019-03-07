@@ -120,11 +120,11 @@ class Expander
             $this->patternId['useragent'] = $i;
 
             foreach ($this->parseUserAgent(
-                    $uaData,
-                    $division->isLite(),
-                    $division->isStandard(),
-                    $division->getSortIndex(),
-                    $divisionName
+                $uaData,
+                $division->isLite(),
+                $division->isStandard(),
+                $division->getSortIndex(),
+                $divisionName
                 ) as $ua => $properties) {
                 yield $ua => $properties;
             }
