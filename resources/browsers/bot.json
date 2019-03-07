@@ -9890,6 +9890,15 @@
     "lite": false,
     "standard": true
   },
+  "pingdom page-speed": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Pingdom Transaction Monitoring",
+      "Browser_Maker": "Pingdom AB."
+    },
+    "lite": false,
+    "standard": true
+  },
   "pingdom transaction monitoring": {
     "type": "bot",
     "properties": {
