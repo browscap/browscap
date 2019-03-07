@@ -1,0 +1,30 @@
+{
+  "division": "Mint Browser Generic",
+  "sortIndex": 1110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mint Browser Generic",
+      "browser": "mint browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mint Browser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* XiaoMi/*Mint Browser/*",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
