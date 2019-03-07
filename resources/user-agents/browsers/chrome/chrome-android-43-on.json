@@ -39,6 +39,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
+          "devices": {
+            "SM-A510F": "Samsung SM-A510F"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "Pixel 2": "Google Pixel 2",
@@ -430,6 +441,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-A510F": "Samsung SM-A510F"
+          },
+          "platforms": [
+            "Android_7_0",
+            "Android_6_0",
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "Nexus 6": "Motorola Nexus 6"
           },
           "platforms": [
@@ -511,7 +533,6 @@
             "F1f": "OPPO F1f",
             "Redmi Note 3": "Xiaomi Redmi Note 3",
             "SM-A310F": "Samsung SM-A310F",
-            "SM-A510F": "Samsung SM-A510F",
             "SM-A710F": "Samsung SM-A710F",
             "SM-G920V": "Samsung SM-G920V",
             "SM-J320M": "Samsung SM-J320M",
