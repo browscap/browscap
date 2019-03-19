@@ -1395,5 +1395,16 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": false
+  },
+  "Huawei COR-AL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor Play",
+      "Device_Code_Name": "COR-AL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
   }
 }
