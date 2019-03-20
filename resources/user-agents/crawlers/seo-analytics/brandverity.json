@@ -1,0 +1,24 @@
+{
+  "division": "BrandVerity Bot",
+  "sortIndex": 248,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BrandVerity Bot",
+      "browser": "brandverity bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BrandVerity Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone*CPU iPhone OS 7?* like Mac OS X*) applewebkit* (*khtml*like*gecko*) Mobile/* Twitter for iPhone*BrandVerity*"
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X 10?10*) Gecko* Firefox/* BrandVerity*"
+        }
+      ]
+    }
+  ]
+}

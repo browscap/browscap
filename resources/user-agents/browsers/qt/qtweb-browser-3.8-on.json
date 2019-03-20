@@ -1,0 +1,36 @@
+{
+  "division": "QtWeb Browser #MAJORVER#.#MINORVER#",
+  "versions": ["3.8"],
+  "sortIndex": 1174,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QtWeb Browser #MAJORVER#.#MINORVER#",
+      "browser": "qtweb browser",
+      "engine": "WebKit",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QtWeb Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)  QtWeb Internet Browser/#MAJORVER#.#MINORVER#*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win7_64", "Win7_32",
+            "NT"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)  QtWeb Internet Browser/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}

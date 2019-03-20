@@ -56,17 +56,6 @@
           }
         },
         {
-          "match": "Facebot/1.0*",
-          "browser": "facebot",
-          "properties": {
-            "Version": "1.0"
-          }
-        },
-        {
-          "match": "Facebot/*",
-          "browser": "facebot"
-        },
-        {
           "match": "facebookscraper/1.0( http*://www.facebook.com/sharescraper_help.php)*",
           "browser": "facebookscraper",
           "properties": {

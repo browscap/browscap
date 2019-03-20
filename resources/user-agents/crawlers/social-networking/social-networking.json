@@ -286,6 +286,10 @@
         {
           "match": "Mozilla/5.0 (compatible; EchoboxBot/*",
           "browser": "echoboxbot"
+        },
+        {
+          "match": "CheckMarkNetwork*",
+          "browser": "checkmarknetwork bot"
         }
       ]
     }

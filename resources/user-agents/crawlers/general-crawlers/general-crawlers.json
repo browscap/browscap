@@ -1293,10 +1293,6 @@
           "browser": "optivo nethelper"
         },
         {
-          "match": "pr-cy.ru Screenshot Bot*",
-          "browser": "screenshot bot"
-        },
-        {
           "match": "Mozilla/* (*Genieo*/1.0*webfilter*",
           "browser": "genieo web filter",
           "properties": {
@@ -1507,6 +1503,10 @@
         {
           "match": "Quora Link Preview/*",
           "browser": "quora link preview bot"
+        },
+        {
+          "match": "Quora-Bot*",
+          "browser": "quora bot"
         },
         {
           "match": "ROR Sitemap Generator*",
@@ -1851,6 +1851,10 @@
           "browser": "moat bot"
         },
         {
+          "match": "Mozilla/5.0 (*Linux*Android?4.4*Galaxy Nexus Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* moatbot",
+          "browser": "moat bot"
+        },
+        {
           "match": "Mozilla/5.0 (compatible; Discordbot/*https://discordapp.com)",
           "browser": "discord bot"
         },
@@ -1933,17 +1937,6 @@
         {
           "match": "Mozilla/4.0 (compatible; IDwhois/*; Linux; en-US; +http://idwhois.info/about)",
           "browser": "idwhois bot"
-        },
-        {
-          "match": "lua-resty-http/0.10 *",
-          "browser": "lua http client cosocket driver",
-          "properties": {
-            "Version": "0.10"
-          }
-        },
-        {
-          "match": "lua-resty-http/*",
-          "browser": "lua http client cosocket driver"
         },
         {
           "match": "Mozilla/5.0 (compatible; Taboolabot/*http://www.taboola.com*",
@@ -2111,6 +2104,102 @@
         {
           "match": "DomainStatsBot*",
           "browser": "domainstatsbot"
+        },
+        {
+          "match": "AutoApprovalBot*",
+          "browser": "autoapprovalbot"
+        },
+        {
+          "match": "CyberCycloneBot*",
+          "browser": "cybercyclonebot"
+        },
+        {
+          "match": "DemandbaseTagMonitor*",
+          "browser": "demandbasetagmonitor"
+        },
+        {
+          "match": "DistributorDataSolutionsSpider*",
+          "browser": "distributordatasolutionsspider"
+        },
+        {
+          "match": "*Archive.St*",
+          "browser": "archive.st bot"
+        },
+        {
+          "match": "KeyweeScraper*",
+          "browser": "keyweescraper"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AdCrawlerBot*",
+          "browser": "adcrawlerbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; DnyzBot*",
+          "browser": "dnyzbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; lw-fusion-crawler*",
+          "browser": "lw-fusion-crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; NewsUSA*",
+          "browser": "newsusa trackit bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; wKioskBot*",
+          "browser": "wkioskbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;contxbot*",
+          "browser": "contxbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;DS Prospectus bot*",
+          "browser": "ds prospectus bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible;Impact Radius Compliance Bot*",
+          "browser": "impact radius compliance bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X 10?10*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; KosmioBot*",
+          "browser": "kosmiobot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows NT 6.1*) Gecko* Firefox/* (IndeedBot*",
+          "browser": "indeedbot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) applewebkit* (*khtml*like*gecko*) screenshot_crawler Safari*",
+          "browser": "screenshot crawler"
+        },
+        {
+          "match": "Opendi Screenshot Bot*",
+          "browser": "opendi screenshot bot"
+        },
+        {
+          "match": "Portrayal*",
+          "browser": "portrayal screenshot"
+        },
+        {
+          "match": "pricebot*",
+          "browser": "pricebot"
+        },
+        {
+          "match": "SAP/SearchCrawler*",
+          "browser": "sap searchcrawler"
+        },
+        {
+          "match": "SmarshBot*",
+          "browser": "smarshbot"
+        },
+        {
+          "match": "Truefitbot*",
+          "browser": "truefitbot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) Gecko* Firefox/* OPBot*",
+          "browser": "opbot"
         }
       ]
     }

@@ -1,0 +1,33 @@
+{
+  "division": "dbot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "dbot",
+      "browser": "dbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Search Engines"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.1 (compatible; DBot/7.0*",
+          "browser": "dbot",
+          "properties": {
+            "Version": "7.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.1 (compatible; DBot/*",
+          "browser": "dbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; dbot*",
+          "browser": "dbot"
+        }
+      ]
+    }
+  ]
+}

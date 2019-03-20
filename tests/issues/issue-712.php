@@ -6580,7 +6580,7 @@ return [
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SimilarTech Ltd.',
             'Browser_Modus' => 'unknown',
-            'Version' => '1.0',
+            'Version' => '0.0',
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
             'Platform_Description' => 'Windows 7',

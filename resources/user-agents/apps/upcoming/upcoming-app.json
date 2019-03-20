@@ -1,0 +1,37 @@
+{
+  "division": "Upcoming App",
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Upcoming App",
+      "browser": "yahoo! app",
+      "platform": "Android",
+      "engine": "WebKit",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Upcoming App"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/*Safari*Upcoming App*",
+          "devices": {
+            "SM-G960F": "Samsung SM-G960F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/*Safari*Upcoming App*",
+          "platforms": [
+            "Android_8_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

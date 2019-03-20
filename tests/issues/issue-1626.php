@@ -4,7 +4,7 @@ return [
     'issue-1626' => [
         'ua' => 'lua-resty-http/0.10 (Lua) ngx_lua/10000',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Rippers',
             'Browser' => 'Lua HTTP client cosocket driver',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

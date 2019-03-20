@@ -1,0 +1,36 @@
+{
+  "division": "lua http client",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "lua http client",
+      "browser": "lua http client cosocket driver",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Rippers"
+      },
+      "children": [
+        {
+          "match": "lua-resty-http/0.10 *",
+          "browser": "lua http client cosocket driver",
+          "properties": {
+            "Version": "0.10"
+          }
+        },
+        {
+          "match": "lua-resty-http/0.07 *",
+          "browser": "lua http client cosocket driver",
+          "properties": {
+            "Version": "0.07"
+          }
+        },
+        {
+          "match": "lua-resty-http/*",
+          "browser": "lua http client cosocket driver"
+        }
+      ]
+    }
+  ]
+}

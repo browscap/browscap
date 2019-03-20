@@ -1,0 +1,32 @@
+{
+  "division": "Google-Shopping-Quality",
+  "sortIndex": 1070,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google-Shopping-Quality",
+      "browser": "google shopping quality bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google-Shopping-Quality"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-Shopping-Quality*",
+          "engine": "Blink",
+          "devices": {
+            "Nexus 5X": "LG Nexus 5X"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-Shopping-Quality*"
+        }
+      ]
+    }
+  ]
+}

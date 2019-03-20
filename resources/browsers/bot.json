@@ -431,6 +431,24 @@
     "lite": false,
     "standard": true
   },
+  "addsearchbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AddSearchBot",
+      "Browser_Maker": "AddSearch Oy"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "adcrawlerbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AdCrawlerBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "addthis.com robot": {
     "type": "bot",
     "properties": {
@@ -980,6 +998,15 @@
     "lite": false,
     "standard": true
   },
+  "archive.st bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "archive.st Bot",
+      "Browser_Maker": "US Support LLC"
+    },
+    "lite": false,
+    "standard": true
+  },
   "artera": {
     "type": "bot",
     "properties": {
@@ -1119,6 +1146,15 @@
     "type": "bot",
     "properties": {
       "Browser": "AugustBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "autoapprovalbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AutoApprovalBot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -1898,6 +1934,15 @@
     "lite": false,
     "standard": true
   },
+  "brandverity bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "BrandVerity Bot",
+      "Browser_Maker": "BrandVerity"
+    },
+    "lite": false,
+    "standard": true
+  },
   "branzel": {
     "type": "bot",
     "properties": {
@@ -2276,6 +2321,15 @@
     "lite": false,
     "standard": true
   },
+  "checkmarknetwork bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "CheckMarkNetwork Bot",
+      "Browser_Maker": "CheckMark Network"
+    },
+    "lite": false,
+    "standard": true
+  },
   "checksite verification agent": {
     "type": "bot",
     "properties": {
@@ -2483,6 +2537,15 @@
     "lite": false,
     "standard": true
   },
+  "cocolyzebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Cocolyzebot",
+      "Browser_Maker": "VSI innovation"
+    },
+    "lite": false,
+    "standard": true
+  },
   "cocrawler": {
     "type": "bot",
     "properties": {
@@ -2577,6 +2640,15 @@
     "type": "bot",
     "properties": {
       "Browser": "ContextAd Bot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "contxbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "contxbot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -2870,6 +2942,24 @@
     "lite": false,
     "standard": true
   },
+  "cxensebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "cXensebot",
+      "Browser_Maker": "Cxense ASA"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "cybercyclonebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "CyberCycloneBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "cyberpatrol": {
     "type": "bot",
     "properties": {
@@ -3104,6 +3194,15 @@
     "lite": false,
     "standard": true
   },
+  "demandbasetagmonitor": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DemandbaseTagMonitor",
+      "Browser_Maker": "Demandbase, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "depspid": {
     "type": "bot",
     "properties": {
@@ -3203,6 +3302,15 @@
     "lite": false,
     "standard": true
   },
+  "distributordatasolutionsspider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DistributorDataSolutionsSpider",
+      "Browser_Maker": "DDS"
+    },
+    "lite": false,
+    "standard": true
+  },
   "dkimrepbot": {
     "type": "bot",
     "properties": {
@@ -3252,6 +3360,15 @@
     "type": "bot",
     "properties": {
       "Browser": "DNS-Digger",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "dnyzbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DnyzBot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -3518,6 +3635,15 @@
     "lite": false,
     "standard": true
   },
+  "dubbotbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Dubbotbot",
+      "Browser_Maker": "DubBot"
+    },
+    "lite": false,
+    "standard": true
+  },
   "duckduck favicons bot": {
     "type": "bot",
     "properties": {
@@ -3558,6 +3684,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Dumbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ds prospectus bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DS Prospectus bot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -5246,6 +5381,15 @@
     "lite": false,
     "standard": true
   },
+  "google shopping quality bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Shopping Quality Bot",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "google search console": {
     "type": "bot",
     "properties": {
@@ -5993,6 +6137,24 @@
     "lite": false,
     "standard": true
   },
+  "hubspot single page link check": {
+    "type": "bot",
+    "properties": {
+      "Browser": "HubSpot Single Page Link Check",
+      "Browser_Maker": "HubSpot, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "hubspot website grader": {
+    "type": "bot",
+    "properties": {
+      "Browser": "HubSpot Website Grader",
+      "Browser_Maker": "HubSpot, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "hubspot webcrawler": {
     "type": "bot",
     "properties": {
@@ -6227,6 +6389,15 @@
     "lite": false,
     "standard": true
   },
+  "impact radius compliance bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Impact Radius Compliance Bot",
+      "Browser_Maker": "Impact Tech, Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "implisensebot": {
     "type": "bot",
     "properties": {
@@ -6268,6 +6439,15 @@
     "properties": {
       "Browser": "Incoming Links - WordPress Plugin",
       "Browser_Maker": "Monitor Backlinks Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "indeedbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "IndeedBot",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
@@ -6722,6 +6902,15 @@
     "lite": false,
     "standard": true
   },
+  "jobbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "JobBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "jobdiggerspider": {
     "type": "bot",
     "properties": {
@@ -6866,6 +7055,15 @@
     "lite": false,
     "standard": true
   },
+  "keyweescraper": {
+    "type": "bot",
+    "properties": {
+      "Browser": "KeyweeScraper",
+      "Browser_Maker": "Keywee Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "keyword density": {
     "type": "bot",
     "properties": {
@@ -6933,6 +7131,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Kopiczek",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "kosmiobot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "KosmioBot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -7590,6 +7797,15 @@
     "type": "bot",
     "properties": {
       "Browser": "lwp",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "lw-fusion-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "lw-fusion-crawler",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -8657,6 +8873,15 @@
     "lite": false,
     "standard": true
   },
+  "naver adsbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Naver AdsBot",
+      "Browser_Maker": "NHN Corporation"
+    },
+    "lite": false,
+    "standard": true
+  },
   "navissobot": {
     "type": "bot",
     "properties": {
@@ -8968,6 +9193,15 @@
     "properties": {
       "Browser": "newspaper",
       "Browser_Maker": "Lucas Ou-Yang"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "newsusa trackit bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "NewsUSA TrackIt Bot",
+      "Browser_Maker": "NewsUSA"
     },
     "lite": false,
     "standard": true
@@ -9350,6 +9584,15 @@
     "lite": false,
     "standard": true
   },
+  "opbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "OPBot",
+      "Browser_Maker": "Opvizor, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "open rights group probe": {
     "type": "bot",
     "properties": {
@@ -9372,6 +9615,15 @@
     "type": "bot",
     "properties": {
       "Browser": "Open Web Analytics Bot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "opendi screenshot bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Opendi Screenshot Bot",
       "Browser_Maker": "unknown"
     },
     "lite": false,
@@ -9908,10 +10160,10 @@
     "lite": false,
     "standard": true
   },
-  "pingdom page-speed": {
+  "pingdom pagespeed": {
     "type": "bot",
     "properties": {
-      "Browser": "Pingdom Transaction Monitoring",
+      "Browser": "Pingdom Pagespeed",
       "Browser_Maker": "Pingdom AB."
     },
     "lite": false,
@@ -10088,6 +10340,15 @@
     "lite": false,
     "standard": true
   },
+  "portrayal screenshot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Portrayal Screenshot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "powermapper bot": {
     "type": "bot",
     "properties": {
@@ -10115,11 +10376,29 @@
     "lite": false,
     "standard": true
   },
+  "prerender": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Prerender",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "pressrush": {
     "type": "bot",
     "properties": {
       "Browser": "PressRush",
       "Browser_Maker": "Aito Software Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pricebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "PriceBot",
+      "Browser_Maker": "Pricesearcher"
     },
     "lite": false,
     "standard": true
@@ -10354,6 +10633,15 @@
     "properties": {
       "Browser": "QuickiWiki Bot",
       "Browser_Maker": "QuickiWiki"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "quora bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Quora Bot",
+      "Browser_Maker": "Quora, Inc."
     },
     "lite": false,
     "standard": true
@@ -10754,11 +11042,29 @@
     "lite": false,
     "standard": true
   },
+  "sap searchcrawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SAP/SearchCrawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "save n keep screenshot bot": {
     "type": "bot",
     "properties": {
       "Browser": "Save n Keep Screenshot Bot",
       "Browser_Maker": "savenkeep.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "sbooksnet": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SBooksNet",
+      "Browser_Maker": "Heartlass, Inc."
     },
     "lite": false,
     "standard": true
@@ -10853,11 +11159,29 @@
     "lite": false,
     "standard": true
   },
+  "pr-cy.ru bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "pr-cy.ru Bot",
+      "Browser_Maker": "pr-cy.ru"
+    },
+    "lite": false,
+    "standard": true
+  },
   "screenshot bot": {
     "type": "bot",
     "properties": {
       "Browser": "Screenshot Bot",
       "Browser_Maker": "pr-cy.ru"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "screenshot crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Screenshot Crawler",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
@@ -11114,6 +11438,15 @@
     "lite": false,
     "standard": true
   },
+  "seomonitorbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SEOmonitorBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "seoprofiler": {
     "type": "bot",
     "properties": {
@@ -11137,6 +11470,15 @@
     "properties": {
       "Browser": "SEOstats",
       "Browser_Maker": "Stephan Schmitz"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "seositecheckup": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SeoSiteCheckup",
+      "Browser_Maker": "SEO Site Checkup LLC"
     },
     "lite": false,
     "standard": true
@@ -11245,6 +11587,15 @@
     "properties": {
       "Browser": "Shockwave Flash",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "shopit bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Shopit Bot",
+      "Browser_Maker": "shopit.com"
     },
     "lite": false,
     "standard": true
@@ -11398,6 +11749,15 @@
     "properties": {
       "Browser": "SiteBar",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "sitebulb": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Sitebulb",
+      "Browser_Maker": "Polychrome Ltd"
     },
     "lite": false,
     "standard": true
@@ -11596,6 +11956,15 @@
     "properties": {
       "Browser": "SmallProxy",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "smarshbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SmarshBot",
+      "Browser_Maker": "Smarsh Inc."
     },
     "lite": false,
     "standard": true
@@ -12869,6 +13238,15 @@
     "lite": false,
     "standard": true
   },
+  "truefitbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Truefitbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "tumblr agent": {
     "type": "bot",
     "properties": {
@@ -13976,6 +14354,24 @@
     "lite": false,
     "standard": true
   },
+  "webcookies": {
+    "type": "bot",
+    "properties": {
+      "Browser": "WebCookies",
+      "Browser_Maker": "webcookies.org"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "wkioskbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "wKioskBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "webcopier": {
     "type": "bot",
     "properties": {
@@ -14467,6 +14863,15 @@
     "properties": {
       "Browser": "WhatWeb Web Scanner",
       "Browser_Maker": "Andrew Horton"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "when.com bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "when.com Bot",
+      "Browser_Maker": "AOL"
     },
     "lite": false,
     "standard": true

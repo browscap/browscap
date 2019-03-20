@@ -16,8 +16,6 @@ parameters:
   ignoreErrors:
 #    - '~is not subtype of Throwable~'
     - '~expects string, Exception given~'
-    - '~expects string, Twig_Error_Loader|Twig_Error_Runtime|Twig_Error_Syntax given~'
+    - '~expects string, Twig\\Error\\LoaderError|Twig\\Error\\RuntimeError|Twig\\Error\\SyntaxError given~'
     - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
-    - '~Result of && is always false~'
     - '~MockObject~'
-    - '~Else branch is unreachable because previous condition is always true~'

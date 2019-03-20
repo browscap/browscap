@@ -237,6 +237,47 @@
         {
           "match": "Seobility*",
           "browser": "seobilitybot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; SEOmonitorBot*",
+          "browser": "seomonitorbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cocolyzebot*",
+          "browser": "cocolyzebot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Dubbotbot*",
+          "browser": "dubbotbot"
+        },
+        {
+          "match": "pr-cy.ru Screenshot Bot*",
+          "browser": "screenshot bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; PR-CY.RU*",
+          "browser": "pr-cy.ru bot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X*) applewebkit* (*khtml*like*gecko*) cXensebot* Safari/*",
+          "browser": "cxensebot"
+        },
+        {
+          "match": "Mozilla/5.0 (*Windows NT 10.0*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Sitebulb*",
+          "browser": "sitebulb"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) applewebkit* (*khtml*like*gecko*) HeadlessChrome/* Safari/* Prerender*",
+          "browser": "prerender",
+          "engine": "Blink"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*HubSpot Single Page link check*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
+          "browser": "hubspot single page link check"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*HubSpot Single Page link check*",
+          "browser": "hubspot single page link check"
         }
       ]
     }

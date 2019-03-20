@@ -1,0 +1,29 @@
+{
+  "division": "HubSpot Website Grader",
+  "sortIndex": 1101,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HubSpot Website Grader",
+      "browser": "hubspot website grader",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HubSpot Website Grader",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone*CPU iPhone OS 5?1* like Mac OS X*)*applewebkit*(*khtml*like*gecko*)*CriOS/*Safari/*HubSpot Website Grader*"
+        },
+        {
+          "match": "Mozilla/5.0 (*Mac OS X 10?10*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* HubSpot Website Grader*"
+        }
+      ]
+    }
+  ]
+}

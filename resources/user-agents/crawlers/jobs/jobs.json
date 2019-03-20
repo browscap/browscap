@@ -37,6 +37,10 @@
           "platforms": [
             "Linux"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) JobBot*",
+          "browser": "jobbot"
         }
       ]
     }

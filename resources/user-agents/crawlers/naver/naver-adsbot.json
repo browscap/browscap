@@ -1,0 +1,21 @@
+{
+  "division": "AdsBot-Naver",
+  "sortIndex": 800,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "AdsBot-Naver",
+      "browser": "naver adsbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AdsBot-Naver"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone*CPU iPhone OS 9?1* like Mac OS X*)*applewebkit*(*khtml*like*gecko*)*Version/9.0*Safari/*AdsBot-Naver*"
+        }
+      ]
+    }
+  ]
+}

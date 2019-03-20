@@ -31,12 +31,57 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "XBot_Senior": "X-Touch XBot Senior"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P"
           },
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1",
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "M bot tab 10": "Logicom M Bot Tab 10",
+            "M bot Tab 103": "Logicom M Bot Tab 103"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "ID bot 53": "Logicom ID Bot 53",
+            "M Bot 60": "Logicom M Bot 60"
+          },
+          "platforms": [
+            "Android_7_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "B BOT 550": "Logicom B Bot 550",
+            "B BOT 50": "Logicom B Bot 50",
+            "IDbot553PLUS": "Logicom ID Bot 553 Plus",
+            "IDbot553": "Logicom ID Bot 553",
+            "M BOT 551": "Logicom M Bot 551",
+            "M BOT TAB 101": "Logicom M Bot Tab 101",
+            "VR BOT 552 PLUS": "Logicom VR Bot 552 Plus",
+            "VR BOT 552": "Logicom VR Bot 552"
+          },
+          "platforms": [
             "Android_6_0"
           ]
         },
@@ -276,6 +321,8 @@
             "CPH1727": "OPPO CPH1727",
             "CPH1729": "OPPO CPH1729",
             "CPH1801": "OPPO CPH1801",
+            "M bot Tab 103": "Logicom M Bot Tab 103",
+            "M Bot Tab 71": "Logicom M Bot Tab 71",
             "Moto E (4) Plus": "Motorola Moto E4 Plus",
             "Moto E (4)": "Motorola Moto E4",
             "Moto G (5S) Plus": "Motorola Moto G5s Plus",
@@ -402,6 +449,7 @@
             "LGLS775": "LG LS775",
             "LGLS992": "LG LS992",
             "LGMS210": "LG MS210",
+            "M Bot 60": "Logicom M Bot 60",
             "Micromax Q437": "Micromax Q437",
             "Moto G (5) Plus": "Motorola Moto G5 Plus",
             "NEM-L21": "Huawei NEM-L21",
@@ -493,6 +541,9 @@
             "HTC Desire 820*": "HTC Desire 820",
             "HTC One_M8*": "HTC M8",
             "HUAWEI VNS-L31": "Huawei VNS-L31",
+            "IDbot553PLUS": "Logicom ID Bot 553 Plus",
+            "IDbot553": "Logicom ID Bot 553",
+            "M bot 51": "Logicom M Bot 51",
             "Infinix Zero 3": "Infinix X552",
             "InFocus M430": "InFocus M430",
             "KIW-L21": "Huawei KIW-L21",
@@ -501,6 +552,7 @@
             "LG-K428": "LG K428",
             "LG-K520": "LG K520",
             "LG-K580": "LG K580",
+            "M BOT 551": "Logicom M Bot 551",
             "Micromax Q351": "Micromax Q351",
             "Micromax Q402": "Micromax Q402",
             "Micromax Q480": "Micromax Q480",
