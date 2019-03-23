@@ -41,6 +41,10 @@
         {
           "match": "DDG-Android-*",
           "browser": "duckduck app"
+        },
+        {
+          "match": "*duckduckgo*",
+          "browser": "duckduckbot"
         }
       ]
     }

@@ -1109,7 +1109,7 @@ return [
     'issue-436-AA' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.1.1 +http://www.archive.org/details/archive.org_bot)',
         'properties' => [
-            'Comment' => 'Internet Archive',
+            'Comment' => 'Internet Archive Special Archiver',
             'Browser' => 'Internet Archive Special Archiver',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

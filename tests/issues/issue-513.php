@@ -3315,7 +3315,7 @@ return [
     'issue-513-BZ' => [
         'ua' => 'Mozilla/5.0 (compatible; special_archiver/3.3.0 +http://www.loc.gov/webarchiving/notice_to_webmasters.html)',
         'properties' => [
-            'Comment' => 'Internet Archive',
+            'Comment' => 'Internet Archive Special Archiver',
             'Browser' => 'Internet Archive Special Archiver',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

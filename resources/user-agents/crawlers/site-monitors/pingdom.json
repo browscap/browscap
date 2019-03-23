@@ -36,6 +36,10 @@
           "browser": "pingdom transaction monitoring"
         },
         {
+          "match": "Mozilla/5.0 (X11; Linux x86_64) applewebkit* (*khtml*like*gecko*) Ubuntu Chromium/* Chrome/* Safari/* PingdomPageSpeed/*",
+          "browser": "pingdom pagespeed"
+        },
+        {
           "match": "*Pingdom*"
         }
       ]

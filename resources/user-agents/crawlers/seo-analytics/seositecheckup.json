@@ -1,0 +1,28 @@
+{
+  "division": "SeoSiteCheckup",
+  "sortIndex": 248,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SeoSiteCheckup",
+      "browser": "seositecheckup",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SeoSiteCheckup"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPhone*CPU iPhone OS 9?1* like Mac OS X*)*applewebkit*(*khtml*like*gecko*)*Version/9.0*Safari/*SeoSiteCheckup*"
+        },
+        {
+          "match": "Mozilla/5.0 (*Linux*x86_64*) applewebkit* (*khtml*like*gecko*) HeadlessChrome/* Safari/* SeoSiteCheckup*",
+          "engine": "Blink"
+        }
+      ]
+    }
+  ]
+}

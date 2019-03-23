@@ -1,0 +1,13 @@
+{
+  "X-Touch XBot Senior": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "XBot Senior",
+      "Device_Code_Name": "XBot Senior",
+      "Device_Maker": "X-Touch",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "X-Touch"
+    },
+    "standard": false
+  }
+}

@@ -706,17 +706,6 @@
           "browser": "glbot"
         },
         {
-          "match": "Mozilla/5.1 (compatible; DBot/7.0*",
-          "browser": "dbot",
-          "properties": {
-            "Version": "7.0"
-          }
-        },
-        {
-          "match": "Mozilla/5.1 (compatible; DBot/*",
-          "browser": "dbot"
-        },
-        {
           "match": "Mozilla/5.1 (compatible; PWBot/1.0*",
           "browser": "pwbot",
           "properties": {
@@ -862,6 +851,22 @@
         {
           "match": "Mozilla/5.0 (compatible; localsearch-web/*",
           "browser": "localsearch"
+        },
+        {
+          "match": "AddSearchBot*",
+          "browser": "addsearchbot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; AddSearchBot*",
+          "browser": "addsearchbot"
+        },
+        {
+          "match": "*when.com*",
+          "browser": "when.com bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Shopit*",
+          "browser": "shopit bot"
         }
       ]
     }

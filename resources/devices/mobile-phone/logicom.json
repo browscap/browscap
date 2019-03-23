@@ -1,0 +1,123 @@
+{
+  "Logicom B Bot 50": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "B Bot 50",
+      "Device_Code_Name": "B Bot 50",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom B Bot 550": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "B Bot 550",
+      "Device_Code_Name": "B Bot 550",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom ID Bot 553": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ID Bot 553",
+      "Device_Code_Name": "ID Bot 553",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom ID Bot 553 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ID Bot 553 Plus",
+      "Device_Code_Name": "ID Bot 553 Plus",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom M Bot 551": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M Bot 551",
+      "Device_Code_Name": "M Bot 551",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom VR Bot 552 Plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VR Bot 552 Plus",
+      "Device_Code_Name": "VR Bot 552 Plus",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom VR Bot 552": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "VR Bot 552",
+      "Device_Code_Name": "VR Bot 552",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom ID Bot 53": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "ID Bot 53",
+      "Device_Code_Name": "ID Bot 53",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom M Bot 51": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M Bot 51",
+      "Device_Code_Name": "M Bot 51",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom M Bot 54": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M Bot 54",
+      "Device_Code_Name": "M Bot 54",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  },
+  "Logicom M Bot 60": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M Bot 60",
+      "Device_Code_Name": "M Bot 60",
+      "Device_Maker": "Logicom",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Logicom"
+    },
+    "standard": false
+  }
+}

@@ -25,29 +25,10 @@
           "match": "Mozilla/5.0 (compatible; archive.org*)"
         },
         {
-          "match": "Mozilla/5.0 (compatible; special_archiver/3.1*",
-          "browser": "internet archive special archiver",
-          "properties": {
-            "Version": "3.1"
-          }
+          "match": "Mozilla/5.0 (*Linux*x86_64*archive.org*) Gecko* Firefox/*"
         },
         {
-          "match": "Mozilla/5.0 (compatible; special_archiver/3.2*",
-          "browser": "internet archive special archiver",
-          "properties": {
-            "Version": "3.2"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; special_archiver/3.3*",
-          "browser": "internet archive special archiver",
-          "properties": {
-            "Version": "3.3"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; special_archiver/*",
-          "browser": "internet archive special archiver"
+          "match": "Mozilla/5.0 (*Linux*x86_64*archives.gov*)*applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*"
         }
       ]
     }

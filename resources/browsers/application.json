@@ -1618,5 +1618,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "upcoming app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Upcoming App",
+      "Browser_Maker": "GS Media B.V."
+    },
+    "lite": false,
+    "standard": true
   }
 }

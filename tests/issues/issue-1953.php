@@ -11763,13 +11763,13 @@ return [
     'issue-1953-KH' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/69.0.3452.0 Safari/537.36',
         'properties' => [
-            'Comment' => 'Headless Chrome',
+            'Comment' => 'Headless Chrome 69.0',
             'Browser' => 'Headless Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '69.0',
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'Linux',

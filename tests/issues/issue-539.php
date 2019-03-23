@@ -3046,7 +3046,7 @@ return [
     'issue-539-CJ' => [
         'ua' => 'pr-cy.ru Screenshot Bot',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'SEO & Analytics',
             'Browser' => 'Screenshot Bot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

@@ -55,7 +55,13 @@
           ]
         },
         {
-          "match": "HubSpot Links Crawler * http://www.hubspot.com/*"
+          "match": "HubSpot Links Crawler*"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; HubSpot Crawler*"
+        },
+        {
+          "match": "HubSpot Connect*"
         }
       ]
     }

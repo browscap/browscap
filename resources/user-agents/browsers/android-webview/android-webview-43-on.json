@@ -43,7 +43,8 @@
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
             "Pixel": "Google Pixel",
-            "Pixel XL": "Google Pixel XL"
+            "Pixel XL": "Google Pixel XL",
+            "SM-G960F": "Samsung SM-G960F"
           },
           "platforms": [
             "Android_8_0"
