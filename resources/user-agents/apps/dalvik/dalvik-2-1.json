@@ -395,6 +395,7 @@
           "match": "Dalvik/#MAJORVER#.#MINORVER#* (#PLATFORM##DEVICE# Build/*",
           "devices": {
             "9010X": "Alcatel 9010X",
+            "AEOBC": "Amazon AEOBC",
             "AFTB": "Amazon AFTB",
             "B1-850": "Acer B1-850",
             "B3-A10": "Acer B3-A10",
