@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; #DEVICE#) Opera #MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/4.0 (compatible*; MSIE 6.0;#DEVICE#) Opera #MAJORVER#.#MINORVER#*",
           "devices": {
             "KDDI-CA33": "KDDI CA33",
             "KDDI-HI35": "Hitachi W32H"

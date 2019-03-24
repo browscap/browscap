@@ -180,7 +180,7 @@
           "browser": "netpromoter link utility"
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE 6.0; Windows 98) Web Link Validator*",
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0;#PLATFORM#) Web Link Validator*",
           "browser": "web link validator",
           "platforms": [
             "Win98_2"

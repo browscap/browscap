@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*",
+          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Mozilla/4.0 (compatible*; MSIE 6.0*",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -28,7 +28,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/5.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/3.1; Xbox*",
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/3.1; Xbox*",
           "engine": "Trident_3_1",
           "device": "Microsoft Xbox 360",
           "platforms": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#Trident/3.1; Xbox; Xbox One*",
+          "match": "Mozilla/4.0 (compatible; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#Trident/3.1; Xbox; Xbox One*",
           "engine": "Trident_3_1",
           "device": "Microsoft Xbox One",
           "platforms": [

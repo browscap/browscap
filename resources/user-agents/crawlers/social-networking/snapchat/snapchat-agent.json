@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Snapchat/#MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#*",
+          "match": "Snapchat/#MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#",
           "devices": {
             "iPhone": "iPhone"
           },

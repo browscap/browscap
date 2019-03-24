@@ -20,14 +20,14 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.0; Trident/5.0; mobile version65)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;*Windows NT 6.0*; Trident/5.0; mobile version65)",
           "device": "general Mobile Phone",
           "platforms": [
             "WinPhone65"
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; Windows NT 6.1; Trident/5.0; XBLWP7; ZuneWP7)",
+          "match": "Mozilla/5.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;*Windows NT 6.1*; Trident/5.0; XBLWP7; ZuneWP7)",
           "platforms": [
             "WinPhone75"
           ],

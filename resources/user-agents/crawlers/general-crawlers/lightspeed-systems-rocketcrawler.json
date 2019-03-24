@@ -13,6 +13,14 @@
       },
       "children": [
         {
+          "match": "Mozilla/4.0 (compatible; MSIE 7.0;#PLATFORM#) Lightspeedsystems*",
+          "browser": "lightspeed systems crawler",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        },
+        {
           "match": "Mozilla/4.0 (#PLATFORM#) Lightspeedsystems*",
           "browser": "lightspeed systems crawler",
           "device": "Windows Desktop",

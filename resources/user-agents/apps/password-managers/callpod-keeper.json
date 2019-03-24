@@ -49,7 +49,7 @@
           ]
         },
         {
-          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#*",
+          "match": "Callpod Keeper for Android #MAJORVER#.#MINORVER#* Dalvik/* (#PLATFORM#",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
