@@ -630,7 +630,7 @@
           "browser": "coobybot"
         },
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 6.0; Windows NT 5.1*; CrystalSemanticsBot *",
+          "match": "Mozilla/4.0 (compatible*; MSIE 6.0;#PLATFORM#; CrystalSemanticsBot *",
           "browser": "crystalsemanticsbot",
           "device": "Windows Desktop",
           "platforms": [

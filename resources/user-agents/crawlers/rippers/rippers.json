@@ -105,7 +105,7 @@
           "browser": "disco pump"
         },
         {
-          "match": "eStyleSearch * (compatible; MSIE 6.0; Windows NT 5.0)",
+          "match": "eStyleSearch * (compatible; MSIE 6.0;#PLATFORM#)",
           "browser": "estylesearch",
           "platforms": [
             "Win2000"
@@ -227,7 +227,7 @@
           "browser": "internet exploiter"
         },
         {
-          "match": "ZiggsBot (*compatible*;*MSIE 6.0; Windows NT 5.2*)",
+          "match": "ZiggsBot (*compatible*;*MSIE 6.0;#PLATFORM#)",
           "browser": "ziggsbot",
           "platforms": [
             "WinXPb_32"

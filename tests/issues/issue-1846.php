@@ -8582,7 +8582,7 @@ return [
             'Platform' => 'WinVista',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Windows Vista',
-            'Platform_Bits' => '32',
+            'Platform_Bits' => '64',
             'Platform_Maker' => 'Microsoft Corporation',
             'Alpha' => false,
             'Beta' => false,
@@ -8609,7 +8609,7 @@ return [
             'RenderingEngine_Maker' => 'Microsoft Corporation',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1846-GH' => [

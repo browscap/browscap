@@ -64,7 +64,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0;#PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; #DEVICE#*)* UCBrowser/#MAJORVER#.#MINORVER#.*",
           "devices": {
             "NOKIA; Lumia 630": "Nokia Lumia 630"
           },
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE 10.0; #PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (compatible; MSIE 10.0;#PLATFORM#; Trident/6.0; IEMobile/10.0; ARM; Touch; *)* UCBrowser/#MAJORVER#.#MINORVER#.*",
           "engine": "Trident_6",
           "platforms": [
             "WinPhone8"

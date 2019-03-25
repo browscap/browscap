@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Shopkeep-Pocket/* (#PLATFORM#*",
+          "match": "Shopkeep-Pocket/* (#PLATFORM#",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_H_8_1", "Android_H_8_0",
@@ -43,7 +43,7 @@
       },
       "children": [
         {
-          "match": "Shopkeep-Pocket/* (#PLATFORM#*",
+          "match": "Shopkeep-Pocket/* (#PLATFORM#",
           "platforms": [
             "iOS_J_11_1", "iOS_J_11_0",
             "iOS_J_10_3",

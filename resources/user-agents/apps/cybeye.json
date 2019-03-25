@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "CybEye.com/2.0* (compatible; MSIE 9.0; #PLATFORM#; Trident/4.0; *",
+          "match": "CybEye.com/2.0* (compatible; MSIE 9.0;#PLATFORM#; Trident/4.0; *",
           "platforms": [
             "Win8_1_32",
             "Win8_32",
@@ -32,7 +32,7 @@
           }
         },
         {
-          "match": "CybEye.com/* (compatible; MSIE 9.0; #PLATFORM#; Trident/4.0; *",
+          "match": "CybEye.com/* (compatible; MSIE 9.0;#PLATFORM#; Trident/4.0; *",
           "platforms": [
             "Win8_1_32",
             "Win8_32",

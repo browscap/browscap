@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Windows Phone Search (#PLATFORM#*)",
+          "match": "Windows Phone Search (#PLATFORM#)",
           "platforms": [
             "WinPhone710",
             "WinPhone"

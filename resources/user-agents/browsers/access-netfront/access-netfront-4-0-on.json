@@ -59,7 +59,7 @@
           "match": "Mozilla/4.0 (*) *NetFront/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla/4.0 (#PLATFORM#*NetFront/#MAJORVER#.#MINORVER#*)*",
+          "match": "Mozilla/4.0 (#PLATFORM#NetFront/#MAJORVER#.#MINORVER#*)*",
           "platforms": [
             "Brew_MP"
           ]

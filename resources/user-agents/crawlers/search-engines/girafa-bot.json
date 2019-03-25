@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/4.0 (compatible*; MSIE 7.0;#PLATFORM#Trident/4.0*Mozilla/4.0 (compatible*; MSIE 6.0*Girafabot*",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (compatible; MSIE 7.0; #PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
+          "match": "Mozilla/5.0 (compatible; MSIE 7.0;#PLATFORM#Trident/4.0*Mozilla/4.0 (compatible; MSIE 6.0*Girafabot*",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",

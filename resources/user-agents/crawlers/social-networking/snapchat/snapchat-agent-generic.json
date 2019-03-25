@@ -16,7 +16,7 @@
       },
       "children": [
         {
-          "match": "Snapchat/* (#DEVICE##PLATFORM#*",
+          "match": "Snapchat/* (#DEVICE##PLATFORM#",
           "devices": {
             "iPhone": "iPhone"
           },

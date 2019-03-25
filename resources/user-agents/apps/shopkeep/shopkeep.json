@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#*",
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "Android_H_8_1", "Android_H_8_0",
             "Android_H_7_1", "Android_H_7_0",
@@ -93,7 +93,7 @@
           ]
         },
         {
-          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#*",
+          "match": "Shopkeep-Pocket/#MAJORVER#.#MINORVER#* (#PLATFORM#",
           "platforms": [
             "iOS_J_11_1", "iOS_J_11_0",
             "iOS_J_10_3",

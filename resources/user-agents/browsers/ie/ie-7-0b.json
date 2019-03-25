@@ -19,7 +19,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*; #PLATFORM#",
+          "match": "Mozilla/4.0 (compatible*; MSIE #MAJORVER#.#MINORVER#*;#PLATFORM#",
           "platforms": [
             "Vista_x64", "Vista_64", "Vista_32",
             "WinXPb_x64_3", "WinXPb_x64", "WinXPb_64", "WinXPb_32",
