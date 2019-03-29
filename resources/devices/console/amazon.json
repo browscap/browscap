@@ -1,0 +1,13 @@
+{
+  "Amazon AEOBC": {
+    "type": "console",
+    "properties": {
+      "Device_Name": "Echo Dot",
+      "Device_Code_Name": "AEOBC",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": false
+  }
+}

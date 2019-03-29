@@ -1,4 +1,15 @@
 {
+  "Amazon AEOKN": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Echo Show",
+      "Device_Code_Name": "AEOKN",
+      "Device_Maker": "Amazon.com, Inc.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Amazon"
+    },
+    "standard": true
+  },
   "Amazon KFAPWA": {
     "type": "tablet",
     "properties": {
