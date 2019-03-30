@@ -1,6 +1,6 @@
 {
   "division": "AndroidDownloadManager",
-  "versions": ["4.4", "4.3", "4.2", "4.1"],
+  "versions": ["5.1", 5,"4.4", "4.3", "4.2", "4.1"],
   "sortIndex": 2130,
   "lite": false,
   "standard": true,
@@ -19,6 +19,7 @@
         {
           "match": "AndroidDownloadManager/#MAJORVER#.#MINORVER#* (Linux; ?; Android #MAJORVER#.#MINORVER#*; #DEVICE# Build/*)*",
           "devices": {
+            "AEOBC": "Amazon AEOBC",
             "TP10.1-1500DC*": "I-ONIK TP10",
             "LIFETAB_S9714": "Medion LifeTab S9714",
             "ME302C": "Asus ME302C",
