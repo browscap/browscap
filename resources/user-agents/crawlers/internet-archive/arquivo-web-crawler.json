@@ -1,0 +1,21 @@
+{
+  "division": "FCCN Crawler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "FCCN Crawler",
+      "browser": "fccn crawler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "FCCN Crawler"
+      },
+      "children": [
+        {
+          "match": "arquivo-web-crawler (compatible; heritrix/*"
+        }
+      ]
+    }
+  ]
+}
