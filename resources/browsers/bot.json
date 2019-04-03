@@ -4427,6 +4427,15 @@
     "lite": false,
     "standard": true
   },
+  "fccn crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "FCCN Crawler",
+      "Browser_Maker": "FCCN"
+    },
+    "lite": false,
+    "standard": true
+  },
   "fdm": {
     "type": "bot",
     "properties": {
