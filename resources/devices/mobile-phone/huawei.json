@@ -98,6 +98,17 @@
     },
     "standard": false
   },
+  "Huawei EDI-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor Note 8 Premium Edition Dual SIM",
+      "Device_Code_Name": "EDI-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
   "Huawei EVA-AL10": {
     "type": "mobile-phone",
     "properties": {

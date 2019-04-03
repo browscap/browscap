@@ -40,6 +40,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "ATU-L22": "Huawei ATU-L22",
+            "EDI-AL10": "Huawei EDI-AL10",
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
             "Pixel": "Google Pixel",
