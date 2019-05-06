@@ -1,0 +1,28 @@
+{
+  "division": "Edge #MAJORVER#.#MINORVER#",
+  "versions": [75],
+  "sortIndex": 1138,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Edge #MAJORVER#.#MINORVER#",
+      "browser": "edge",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Edge #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edg/#MAJORVER#.*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B"
+          ]
+        }
+      ]
+    }
+  ]
+}
