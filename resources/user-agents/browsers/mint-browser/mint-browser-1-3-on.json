@@ -1,6 +1,6 @@
 {
   "division": "Mint Browser #MAJORVER#.#MINORVER#",
-  "versions": ["1.3"],
+  "versions": ["1.6", "1.3"],
   "sortIndex": 1111,
   "lite": false,
   "standard": true,

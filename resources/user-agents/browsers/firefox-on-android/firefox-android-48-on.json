@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER# for Android",
-  "versions": [67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, "50.1", 50, 49, 48],
+  "versions": [68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, "50.1", 50, 49, 48],
   "sortIndex": 3160,
   "lite": true,
   "standard": true,
@@ -31,6 +31,7 @@
           "platforms": [
             "Android_8_0",
             "Android",
+            "AndroidMobile_9_0",
             "AndroidMobile_8_1", "AndroidMobile_8_0",
             "AndroidMobile_7_1", "AndroidMobile_7_0",
             "AndroidMobile_6_0",
@@ -43,6 +44,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
+            "AndroidTablet_9_0",
             "AndroidTablet_8_1", "AndroidTablet_8_0",
             "AndroidTablet_7_1", "AndroidTablet_7_0",
             "AndroidTablet_6_0",

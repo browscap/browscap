@@ -1,6 +1,6 @@
 {
   "division": "Opera Touch #MAJORVER#.#MINORVER#",
-  "versions": ["1.10", "1.9", "1.8", "1.7"],
+  "versions": ["1.16", "1.15", "1.13", "1.10", "1.9", "1.8", "1.7"],
   "sortIndex": 1045,
   "lite": false,
   "standard": true,
@@ -49,6 +49,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android"
@@ -58,6 +59,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Safari/* OPT/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android"
