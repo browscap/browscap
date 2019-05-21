@@ -43,6 +43,14 @@
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edg/*",
+          "engine": "Blink",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_14", "OSX_10_13", "OSX_10_12"
+          ]
         }
       ]
     },
