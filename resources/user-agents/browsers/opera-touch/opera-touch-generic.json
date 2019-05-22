@@ -48,6 +48,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android"
@@ -57,6 +58,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Safari/* OPT/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android"

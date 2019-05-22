@@ -1,6 +1,6 @@
 {
   "division": "Bing Search App #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["6.11", "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.1"],
+  "versions": ["6.36", "6.35", "6.11", "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", "6.1"],
   "sortIndex": 487,
   "lite": false,
   "standard": true,
@@ -23,6 +23,8 @@
             "iPhone": "iPhone"
           },
           "platforms": [
+            "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2"
           ]
         },

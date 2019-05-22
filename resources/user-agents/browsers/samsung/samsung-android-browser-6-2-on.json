@@ -1,6 +1,6 @@
 {
   "division": "Samsung Browser #MAJORVER#.#MINORVER#",
-  "versions": [9, "8.2", 8, "7.4", "7.2", 7, "6.4", "6.3", "6.2"],
+  "versions": ["9.2", 9, "8.2", 8, "7.4", "7.2", 7, "6.4", "6.3", "6.2"],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
@@ -260,6 +260,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -271,6 +272,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*TV*Safari*",
           "device": "general TV Device",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -282,6 +284,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "general Tablet",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

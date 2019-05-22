@@ -18,6 +18,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Mobile Safari/* Puffin/*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -38,6 +39,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/*AT*",
           "device": "general Tablet",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -49,6 +51,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/* Chrome/*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

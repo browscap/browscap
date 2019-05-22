@@ -1,6 +1,6 @@
 {
   "division": "WKBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["4.5", "4.2", "4.1", 4, "3.2"],
+  "versions": ["4.6", "4.5", "4.2", "4.1", 4, "3.2"],
   "sortIndex": 955,
   "lite": false,
   "standard": true,
@@ -27,6 +27,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
           "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

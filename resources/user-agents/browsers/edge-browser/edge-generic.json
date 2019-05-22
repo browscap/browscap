@@ -43,6 +43,14 @@
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* Edg/*",
+          "engine": "Blink",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX_10_14", "OSX_10_13", "OSX_10_12"
+          ]
         }
       ]
     },
@@ -113,7 +121,8 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A"
