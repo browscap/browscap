@@ -16531,5 +16531,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "trackuity bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Trackuity",
+      "Browser_Maker": "Trackuity bvba"
+    },
+    "lite": false,
+    "standard": true
   }
 }

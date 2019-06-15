@@ -278,6 +278,10 @@
         {
           "match": "Mozilla/5.0 (*Linux*x86_64*HubSpot Single Page link check*",
           "browser": "hubspot single page link check"
+        },
+        {
+          "match": "Trackuity *",
+          "browser": "trackuity bot"
         }
       ]
     }
