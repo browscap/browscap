@@ -521,6 +521,15 @@
     "lite": false,
     "standard": true
   },
+  "apis google": {
+    "type": "bot",
+    "properties": {
+      "Browser": "APIs Google",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "adscanner": {
     "type": "bot",
     "properties": {

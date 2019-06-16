@@ -44,4 +44,17 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-2096-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Safari 12.1',
+            'Browser' => 'Safari',
+            'Version' => '12.1',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
 ];
