@@ -91,6 +91,7 @@
             "SM-T380": "Samsung SM-T380"
           },
           "platforms": [
+            "Android_8_1", "Android_8_0",
             "Android_7_1"
           ]
         },
