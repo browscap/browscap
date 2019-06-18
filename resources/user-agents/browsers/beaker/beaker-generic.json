@@ -1,0 +1,28 @@
+{
+  "division": "BeakerBrowser Generic",
+  "sortIndex": 2221,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "BeakerBrowser Generic",
+      "browser": "beaker",
+      "platform": "Windows",
+      "engine": "Blink",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "BeakerBrowser Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) BeakerBrowser/* Chrome/* Electron/* Safari/*",
+          "platforms": [
+            "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+            "Windows"
+          ]
+        }
+      ]
+    }
+  ]
+}
