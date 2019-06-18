@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-2081-A' => [
+    'issue-2090-A' => [
         'ua' => 'HTTPie/1.0.2',
         'properties' => [
             'Comment' => 'Rippers',
