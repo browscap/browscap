@@ -1,0 +1,24 @@
+{
+  "majestic zeus 21": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Zeus 21",
+      "Device_Code_Name": "Zeus 21",
+      "Device_Maker": "Majestic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Majestic"
+    },
+    "standard": false
+  },
+  "majestic crono 54": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Crono 54",
+      "Device_Code_Name": "Crono 54",
+      "Device_Maker": "Majestic",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Majestic"
+    },
+    "standard": false
+  }
+}
