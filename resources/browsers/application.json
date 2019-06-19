@@ -1106,6 +1106,15 @@
     "lite": false,
     "standard": true
   },
+  "qq-app": {
+    "type": "browser",
+    "properties": {
+      "Browser": "QQ-App",
+      "Browser_Maker": "Tencent Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
   "quicktime agent": {
     "type": "application",
     "properties": {

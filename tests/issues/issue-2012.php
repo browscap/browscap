@@ -350,8 +350,8 @@ return [
     'issue-2012-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 QQ/7.5.8.422 V1_IPH_SQ_7.5.8_1_APP_A Pixel/750 Core/UIWebView Device/Apple(iPhone 7) NetType/WIFI QBWebViewType/1',
         'properties' => [
-            'Comment' => 'QQBrowser 7.5 for iOS',
-            'Browser' => 'QQBrowser',
+            'Comment' => 'QQ-App 7.5 for iOS',
+            'Browser' => 'QQ-App',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Tencent Ltd.',
@@ -393,8 +393,8 @@ return [
     'issue-2012-H (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 QQ/7.5.8.422 V1_IPH_SQ_7.5.8_1_APP_A Pixel/750 Core/UIWebView Device/Apple(iPhone 7) NetType/WIFI QBWebViewType/1',
         'properties' => [
-            'Comment' => 'QQBrowser 7.5 for iOS',
-            'Browser' => 'QQBrowser',
+            'Comment' => 'QQ-App 7.5 for iOS',
+            'Browser' => 'QQ-App',
             'Browser_Maker' => 'Tencent Ltd.',
             'Version' => '7.5',
             'Platform' => 'iOS',
