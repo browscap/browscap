@@ -1,0 +1,21 @@
+{
+  "division": "APIs Google",
+  "sortIndex": 1080,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "APIs Google",
+      "browser": "apis google",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "APIs Google"
+      },
+      "children": [
+        {
+          "match": "APIs-Google *"
+        }
+      ]
+    }
+  ]
+}
