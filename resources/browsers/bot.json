@@ -5399,6 +5399,15 @@
     "lite": false,
     "standard": true
   },
+  "google read aloud bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Read Aloud Bot",
+      "Browser_Maker": "Google Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
   "google search console": {
     "type": "bot",
     "properties": {

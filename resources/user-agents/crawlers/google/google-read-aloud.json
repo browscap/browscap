@@ -1,0 +1,32 @@
+{
+  "division": "Google-Read-Aloud",
+  "sortIndex": 1070,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google-Read-Aloud",
+      "browser": "google read aloud bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google-Read-Aloud"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-Read-Aloud*",
+          "engine": "Blink",
+          "devices": {
+            "Nexus 5X": "LG Nexus 5X"
+          },
+          "platforms": [
+            "Android_6_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* (compatible; Google-Read-Aloud*"
+        }
+      ]
+    }
+  ]
+}
