@@ -6110,6 +6110,15 @@
     "lite": false,
     "standard": true
   },
+  "httpie": {
+    "type": "bot",
+    "properties": {
+      "Browser": "HTTPie",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "httping": {
     "type": "bot",
     "properties": {

@@ -986,6 +986,10 @@
         {
           "match": "Manzama Fetcher/*",
           "browser": "manzama fetcher"
+        },
+        {
+          "match": "HTTPie/*",
+          "browser": "httpie"
         }
       ]
     }
