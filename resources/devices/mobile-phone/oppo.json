@@ -21,6 +21,17 @@
     },
     "standard": false
   },
+  "OPPO A37m": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A37m",
+      "Device_Code_Name": "A37m",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
   "OPPO R7": {
     "type": "mobile-phone",
     "properties": {

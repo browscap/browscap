@@ -1417,5 +1417,16 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": false
+  },
+  "Huawei TRT-L21A": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Y7 (2017)",
+      "Device_Code_Name": "TRT-L21A",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
   }
 }

@@ -18,8 +18,19 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#HTC 802t 16GB Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
-          "device": "HTC 802T",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-J320H": "Samsung SM-J320H"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* wkbrowser #MAJORVER#.#MINORVER#*",
+          "devices": {
+            "HTC 802t*": "HTC 802T"
+          },
           "platforms": [
             "Android_4_4"
           ]

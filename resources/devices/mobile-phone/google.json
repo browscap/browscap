@@ -32,6 +32,17 @@
     },
     "standard": false
   },
+  "Google Pixel 3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel 3",
+      "Device_Code_Name": "Pixel 3",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
   "Google Pixel XL": {
     "type": "mobile-phone",
     "properties": {
