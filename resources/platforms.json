@@ -1770,6 +1770,15 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "iOS_A_12_4": {
+    "match": "*CPU iPhone OS 12?4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "12.4"
+    }
+  },
   "iOS_A_12_3": {
     "match": "*CPU iPhone OS 12?3* like Mac OS X*",
     "lite": false,
@@ -2134,6 +2143,15 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_C_12_4": {
+    "match": "*CPU OS 12_4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "12.4"
     }
   },
   "iOS_C_12_3": {
@@ -4063,6 +4081,15 @@
   },
   "Android_9_0": {
     "match": "*Linux*Android?9;*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "9.0"
+    }
+  },
+  "Android_9_0_B": {
+    "match": "*Linux*Android?9.0;*",
     "lite": false,
     "standard": true,
     "inherits": "Android",

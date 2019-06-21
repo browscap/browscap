@@ -2745,6 +2745,15 @@
     "lite": false,
     "standard": true
   },
+  "web explorer": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Web Explorer",
+      "Browser_Maker": "Kawe Apps"
+    },
+    "lite": false,
+    "standard": true
+  },
   "webkit/webos": {
     "type": "browser",
     "properties": {

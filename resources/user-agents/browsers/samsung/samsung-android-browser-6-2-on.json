@@ -20,6 +20,47 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-A105F": "Samsung SM-A105F",
+            "SM-A205F": "Samsung SM-A205F",
+            "SM-A305F": "Samsung SM-A305F",
+            "SM-A505F": "Samsung SM-A505F",
+            "SM-A600FN": "Samsung SM-A600FN",
+            "SM-A600G": "Samsung SM-A600G",
+            "SM-A605F": "Samsung SM-A605F",
+            "SM-A605FN": "Samsung SM-A605FN",
+            "SM-A605G": "Samsung SM-A605G",
+            "SM-A730F": "Samsung SM-A730F",
+            "SM-A750F": "Samsung SM-A750F",
+            "SM-A920F": "Samsung SM-A920F",
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-G960F": "Samsung SM-G960F",
+            "SM-G975F": "Samsung SM-G975F",
+            "SM-J400F": "Samsung SM-J400F",
+            "SM-J415F": "Samsung SM-J415F",
+            "SM-J600F": "Samsung SM-J600F",
+            "SM-J600G": "Samsung SM-J600G",
+            "SM-J610F": "Samsung SM-J610F",
+            "SM-J810G": "Samsung SM-J810G",
+            "SM-J810Y": "Samsung SM-J810Y",
+            "SM-N950F": "Samsung SM-N950F",
+            "SM-N960F": "Samsung SM-N960F"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-G955F": "Samsung SM-G955F"
+          },
+          "platforms": [
+            "Android_9_0", "Android_9_0_B"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "TA-1021": "Nokia TA-1021"
           },
           "platforms": [
