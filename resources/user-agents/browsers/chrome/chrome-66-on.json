@@ -59,15 +59,6 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
-          "device": "general Desktop",
-          "platforms": [
-            "FreeBSD_64", "FreeBSD_64_2", "FreeBSD",
-            "OpenBSD_64", "OpenBSD_64_2", "OpenBSD_64_3", "OpenBSD",
-            "NetBSD"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* anonymized by*",
           "device": "Windows Desktop",
           "platforms": [
