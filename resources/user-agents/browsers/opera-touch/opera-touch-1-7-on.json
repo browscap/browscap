@@ -1,6 +1,6 @@
 {
   "division": "Opera Touch #MAJORVER#.#MINORVER#",
-  "versions": ["1.16", "1.15", "1.13", "1.10", "1.9", "1.8", "1.7"],
+  "versions": ["1.17", "1.16", "1.15", "1.13", "1.10", "1.9", "1.8", "1.7"],
   "sortIndex": 1045,
   "lite": false,
   "standard": true,
@@ -40,7 +40,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OPT/#MAJORVER#.#MINORVER#*",
           "devices": {
             "F3112": "Sony F3112",
-            "Moto G (4)": "Motorola G4"
+            "Moto G (4)": "Motorola G4",
+            "SM-G610F": "Samsung SM-G610F"
           },
           "platforms": [
             "Android_7_0"

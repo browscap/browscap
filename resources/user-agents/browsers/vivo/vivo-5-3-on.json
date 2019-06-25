@@ -60,6 +60,27 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
           "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "devices": {
+            "vivo Y51L": "vivo Y51L"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
+          "platforms": [
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

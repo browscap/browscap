@@ -692,6 +692,17 @@
     },
     "standard": false
   },
+  "HTC Desire 728G Dual": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Desire 728G Dual",
+      "Device_Code_Name": "Desire 728G Dual",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
   "HTC Desire 816": {
     "type": "mobile-phone",
     "properties": {

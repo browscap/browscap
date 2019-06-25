@@ -26,6 +26,15 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Tenta/* Safari/*",
+          "devices": {
+            "HTC Desire 728G dual sim": "HTC Desire 728G Dual"
+          },
+          "platforms": [
+            "Android_5_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Tenta/* Mobile Safari/*",
           "platforms": [
             "Android_8_0",
