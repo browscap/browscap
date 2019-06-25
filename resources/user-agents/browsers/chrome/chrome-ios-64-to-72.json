@@ -1,8 +1,8 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for iOS",
-  "versions": [47, 46, 45, 44, 43, 42, 41, 40, 39, 38],
+  "versions": [72, 71, 70, 69, 68, 67, 66, 65, 64],
   "sortIndex": 1153,
-  "lite": false,
+  "lite": true,
   "standard": true,
   "userAgents": [
     {
@@ -24,10 +24,9 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
-            "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
-            "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
-            "iOS_A_7_1", "iOS_A_7_0",
             "iOS_A"
           ]
         },
@@ -37,10 +36,9 @@
             "iPad": "iPad"
           },
           "platforms": [
+            "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
+            "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
-            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
-            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
-            "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C"
           ]
         },
