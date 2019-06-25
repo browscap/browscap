@@ -1,0 +1,30 @@
+{
+  "division": "OnePlus Browser Generic",
+  "sortIndex": 1143,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OnePlus Browser Generic",
+      "browser": "oneplus",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OnePlus Browser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OnePlusBrowser/*",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

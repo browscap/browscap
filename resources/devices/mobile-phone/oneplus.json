@@ -75,5 +75,16 @@
       "Device_Brand_Name": "OnePlus"
     },
     "standard": false
+  },
+  "OnePlus GM1910": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7 Pro",
+      "Device_Code_Name": "GM1910",
+      "Device_Maker": "OnePlus",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OnePlus"
+    },
+    "standard": false
   }
 }

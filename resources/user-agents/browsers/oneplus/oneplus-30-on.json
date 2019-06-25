@@ -1,0 +1,41 @@
+{
+  "division": "OnePlus Browser #MAJORVER#.#MINORVER#",
+  "versions": ["30.5"],
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OnePlus Browser #MAJORVER#.#MINORVER#",
+      "browser": "oneplus",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OnePlus Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OnePlusBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OnePlusBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
