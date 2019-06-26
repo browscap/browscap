@@ -9170,6 +9170,15 @@
     "lite": false,
     "standard": true
   },
+  "netvigie": {
+    "type": "bot",
+    "properties": {
+      "Browser": "netvigie Bot",
+      "Browser_Maker": "netvigie.com"
+    },
+    "lite": false,
+    "standard": true
+  },
   "netvision": {
     "type": "bot",
     "properties": {

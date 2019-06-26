@@ -1,0 +1,28 @@
+{
+  "division": "netvigie Bot",
+  "sortIndex": 248,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "netvigie Bot",
+      "browser": "netvigie",
+      "engine": "Gecko",
+      "platform": "Linux",
+      "device": "Linux Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "netvigie Bot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* NETVIGIE*",
+          "platforms": [
+            "Ubuntu_64", "Ubuntu",
+            "Linux_64", "Linux"
+          ]
+        }
+      ]
+    }
+  ]
+}
