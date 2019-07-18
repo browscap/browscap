@@ -1,0 +1,36 @@
+{
+  "division": "QQ-App Generic HD for iOS",
+  "sortIndex": 1007,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQ-App Generic HD for iOS",
+      "browser": "qq-app",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQ-App HD for iOS"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (iPad#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* IPadQQ/* QQ/*",
+          "device": "iPad",
+          "platforms": [
+            "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
+            "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
+            "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* IPadQQ/* QQ/*",
+          "platforms": [
+            "iOS_C"
+          ]
+        }
+      ]
+    }
+  ]
+}

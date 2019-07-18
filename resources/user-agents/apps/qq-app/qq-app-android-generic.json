@@ -1,0 +1,36 @@
+{
+  "division": "QQ-App Generic for Android",
+  "sortIndex": 1007,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "QQ-App Generic for Android",
+      "browser": "qq-app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "QQ-App Generic for Android"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* QQ/*",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* QQ/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
