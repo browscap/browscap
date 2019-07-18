@@ -1,0 +1,28 @@
+{
+  "division": "Web Explorer",
+  "sortIndex": 950,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Web Explorer",
+      "browser": "web explorer",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Web Explorer"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Web Explorer/* Chrome/* Mobile Safari*",
+          "platforms": [
+            "Android_9_0_B",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

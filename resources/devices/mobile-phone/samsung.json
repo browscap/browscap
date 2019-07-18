@@ -5169,6 +5169,28 @@
     },
     "standard": false
   },
+  "Samsung SM-A105F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A10",
+      "Device_Code_Name": "SM-A105F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A205F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A20",
+      "Device_Code_Name": "SM-A205F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-A300FU": {
     "type": "mobile-phone",
     "properties": {
@@ -5185,6 +5207,17 @@
     "properties": {
       "Device_Name": "Galaxy A3 Duos",
       "Device_Code_Name": "SM-A300H",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A305F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A30",
+      "Device_Code_Name": "SM-A305F",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
@@ -5367,6 +5400,17 @@
     },
     "standard": false
   },
+  "Samsung SM-A505F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A50",
+      "Device_Code_Name": "SM-A505F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-A510F": {
     "type": "mobile-phone",
     "properties": {
@@ -5394,6 +5438,39 @@
     "properties": {
       "Device_Name": "Galaxy A5 (2017) (Korea)",
       "Device_Code_Name": "SM-A520S",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A600FN": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A6 (2018)",
+      "Device_Code_Name": "SM-A600FN",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A600G": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A6 (2018)",
+      "Device_Code_Name": "SM-A600G",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A605FN": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A6+",
+      "Device_Code_Name": "SM-A605FN",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
@@ -5455,6 +5532,17 @@
     },
     "standard": false
   },
+  "Samsung SM-A750F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A7 (2018)",
+      "Device_Code_Name": "SM-A750F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-A810F": {
     "type": "mobile-phone",
     "properties": {
@@ -5482,6 +5570,17 @@
     "properties": {
       "Device_Name": "Galaxy A9 LTE Duos",
       "Device_Code_Name": "SM-A9000",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A920F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A9 (2018)",
+      "Device_Code_Name": "SM-A920F",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"
@@ -8601,11 +8700,66 @@
     },
     "standard": false
   },
+  "Samsung SM-G975F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S10+ Global Dual SIM",
+      "Device_Code_Name": "SM-G975F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-J330FN": {
     "type": "mobile-phone",
     "properties": {
       "Device_Name": "Galaxy J3 (2017)",
       "Device_Code_Name": "SM-J330FN",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-J400F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy J4 (2018)",
+      "Device_Code_Name": "SM-J400F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-J415F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy J4+",
+      "Device_Code_Name": "SM-J415F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-J600F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy J6 (2018)",
+      "Device_Code_Name": "SM-J600F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-J610F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy J6+ (2018)",
+      "Device_Code_Name": "SM-J610F",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"

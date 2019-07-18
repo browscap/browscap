@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for iOS",
-  "versions": [29, 28, 27, 26],
+  "versions": [30, 29, 28, 27, 26],
   "sortIndex": 1153,
   "lite": false,
   "standard": false,
@@ -45,6 +45,13 @@
             "iOS_C_7_1", "iOS_C_7_0",
             "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C_5_1", "iOS_C_5_0",
+            "iOS_C"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*CriOS/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "iOS_A",
             "iOS_C"
           ]
         }

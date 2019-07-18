@@ -1,9 +1,9 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for iOS",
-  "versions": [47, 46, 45, 44, 43, 42, 41, 40, 39, 38],
+  "versions": [42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31],
   "sortIndex": 1153,
   "lite": false,
-  "standard": true,
+  "standard": false,
   "userAgents": [
     {
       "userAgent": "Chrome #MAJORVER#.#MINORVER# for iOS",
@@ -28,6 +28,7 @@
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",
             "iOS_A_7_1", "iOS_A_7_0",
+            "iOS_A_6_1", "iOS_A_6_0",
             "iOS_A"
           ]
         },
@@ -41,11 +42,12 @@
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",
             "iOS_C_8_4", "iOS_C_8_3", "iOS_C_8_2", "iOS_C_8_1", "iOS_C_8_0",
             "iOS_C_7_1", "iOS_C_7_0",
+            "iOS_C_6_1", "iOS_C_6_0",
             "iOS_C"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *CriOS/#MAJORVER#.#MINORVER#*Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*CriOS/#MAJORVER#.#MINORVER#*Safari/*",
           "platforms": [
             "iOS_A",
             "iOS_C"
