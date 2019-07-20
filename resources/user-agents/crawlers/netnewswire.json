@@ -16,6 +16,12 @@
       },
       "children": [
         {
+          "match": "NetNewsWire/4.0*",
+          "properties": {
+            "Version": "4.0"
+          }
+        },
+        {
           "match": "NetNewsWire/3.3*",
           "properties": {
             "Version": "3.3"

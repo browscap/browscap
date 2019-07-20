@@ -29,12 +29,6 @@
           }
         },
         {
-          "match": "IBrowse/1.22 (AmigaOS *)",
-          "properties": {
-            "Version": "1.22"
-          }
-        },
-        {
           "match": "IBrowse/2.1 (AmigaOS *)",
           "properties": {
             "Version": "2.1"
@@ -44,6 +38,12 @@
           "match": "IBrowse/2.2 (AmigaOS *)",
           "properties": {
             "Version": "2.2"
+          }
+        },
+        {
+          "match": "IBrowse/1.22 (AmigaOS *)",
+          "properties": {
+            "Version": "1.22"
           }
         },
         {

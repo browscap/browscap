@@ -57,6 +57,10 @@
           "browser": "yandexnews"
         },
         {
+          "match": "Mozilla/5.0 (compatible; YandexNewslinks/*",
+          "browser": "yandexnews"
+        },
+        {
           "match": "Mozilla/5.0 (compatible; YandexVideo/*",
           "browser": "yandexvideo"
         },

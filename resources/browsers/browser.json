@@ -2398,7 +2398,16 @@
     "type": "browser",
     "properties": {
       "Browser": "Sony",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Sony"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "sony-ce-browser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "SonyCEBrowser",
+      "Browser_Maker": "Sony"
     },
     "lite": false,
     "standard": true

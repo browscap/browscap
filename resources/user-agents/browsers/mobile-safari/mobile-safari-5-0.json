@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "iPhone": "iPhone",
             "iPod": "iPod Touch"
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "iPad": "iPad"
           },
@@ -41,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
+          "match": "Mozilla/5.0*(#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Mobile/*Safari/*",
           "platforms": [
             "iOS_A",
             "iOS_C"

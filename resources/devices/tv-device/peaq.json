@@ -1,0 +1,13 @@
+{
+  "PEAQ LF1V350": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "LF1V350",
+      "Device_Code_Name": "LF1V350",
+      "Device_Maker": "PEAQ",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "PEAQ"
+    },
+    "standard": true
+  }
+}

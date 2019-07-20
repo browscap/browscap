@@ -124,7 +124,10 @@
             "MOT-V975": "Motorola V975",
             "MOT-V980": "Motorola V980",
             "MOT-V980M": "Motorola V980M"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "#DEVICE#/* MIB/BER#MAJORVER#.#MINORVER#*",

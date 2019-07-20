@@ -19,6 +19,9 @@
       "children": [
         {
           "match": "Mozilla/5.0 (X11;) applewebkit* (*khtml*like*gecko*) akregator/#MAJORVER#.#MINORVER#* Safari/*"
+        },
+        {
+          "match": "Akregator/#MAJORVER#.#MINORVER#*"
         }
       ]
     }

@@ -68,14 +68,6 @@
           "browser": "google opensocial"
         },
         {
-          "match": "*Google Wireless Transcoder*",
-          "browser": "google wireless transcoder"
-        },
-        {
-          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko; Google Wireless Transcoder) Chrome/* Safari/*",
-          "browser": "google wireless transcoder"
-        },
-        {
           "match": "Google-Site-Verification*",
           "browser": "google-site-verification"
         },

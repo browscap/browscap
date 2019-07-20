@@ -173,6 +173,24 @@
           ]
         },
         {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Humax; hdr1000s": "Humax HDR-1000S"
+          },
+          "platforms": [
+            "Linux_MIPS"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Humax; iCord MINI": "Humax iCord Mini"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [

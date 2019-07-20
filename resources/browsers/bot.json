@@ -5435,10 +5435,10 @@
     "lite": false,
     "standard": true
   },
-  "google structured-data testingtool": {
+  "google structured-data testing tool": {
     "type": "bot",
     "properties": {
-      "Browser": "Google Structured-Data TestingTool",
+      "Browser": "Google Structured-Data Testing Tool",
       "Browser_Maker": "Google Inc"
     },
     "lite": false,
@@ -10128,6 +10128,15 @@
     "type": "bot",
     "properties": {
       "Browser": "PHP",
+      "Browser_Maker": "the PHP Group"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "php-soap": {
+    "type": "bot",
+    "properties": {
+      "Browser": "PHP Soap Client",
       "Browser_Maker": "the PHP Group"
     },
     "lite": false,
@@ -16690,6 +16699,33 @@
     "properties": {
       "Browser": "Alexa Voice Service Device SDK",
       "Browser_Maker": "Amazon.com, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "baidu transcoder": {
+    "type": "bot",
+    "properties": {
+      "Browser": "baidu Transcoder",
+      "Browser_Maker": "Baidu"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "phpcrawl": {
+    "type": "bot",
+    "properties": {
+      "Browser": "PHPCrawl",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "google partner monitoring": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Google Partner Monitoring",
+      "Browser_Maker": "Google Inc"
     },
     "lite": false,
     "standard": true

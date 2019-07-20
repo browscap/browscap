@@ -36,6 +36,13 @@
           "browser": "sogou image crawler"
         },
         {
+          "match": "Sogou Pic Spider/3.0*",
+          "browser": "sogou image crawler",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
           "match": "Sogou Pic Spider*",
           "browser": "sogou image crawler"
         },

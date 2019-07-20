@@ -28,14 +28,27 @@
           "match": "Mozilla/5.0 (compatible; linkdexbot/*"
         },
         {
-          "match": "Mozilla/5.0 (iPhone; *CPU iPhone OS 4_1*) applewebkit* (*khtml*like*gecko*) Version/4.0.5 Mobile/* Safari/* (compatible; linkdexbot-mobile/2.1*",
-          "device": "iPhone",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; linkdexbot-mobile/2.1*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "platforms": [
-            "iOS_A_4_1"
+            "iOS_A_4_1",
+            "iOS_A"
           ],
           "properties": {
             "Version": "2.1"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; linkdexbot-mobile/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_4_1",
+            "iOS_A"
+          ]
         }
       ]
     }

@@ -47,7 +47,7 @@ return [
     'issue-961-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.3a) Gecko/20030101 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -90,7 +90,7 @@ return [
     'issue-961-B (standard)' => [
         'ua' => 'Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; rv:1.3a) Gecko/20030101 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '0.0',
@@ -105,7 +105,7 @@ return [
     'issue-961-C' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -148,7 +148,7 @@ return [
     'issue-961-C (standard)' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Win98; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '0.0',
@@ -163,7 +163,7 @@ return [
     'issue-961-D' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.2b) Gecko/20021001 Phoenix/0.2',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -206,7 +206,7 @@ return [
     'issue-961-D (standard)' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.2b) Gecko/20021001 Phoenix/0.2',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '0.0',
@@ -221,7 +221,7 @@ return [
     'issue-961-E' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; de-DE; rv:1.3a) Gecko/20021207 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -264,7 +264,7 @@ return [
     'issue-961-F' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -307,7 +307,7 @@ return [
     'issue-961-F (standard)' => [
         'ua' => 'Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.3a) Gecko/20021207 Phoenix/0.5',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Maker' => 'Mozilla Foundation',
             'Version' => '0.0',
@@ -322,7 +322,7 @@ return [
     'issue-961-G' => [
         'ua' => 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.2b) Gecko/20021014 Phoenix/0.3',
         'properties' => [
-            'Comment' => 'Phoenix Generic',
+            'Comment' => 'Phoenix',
             'Browser' => 'Phoenix',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

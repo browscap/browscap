@@ -4,8 +4,8 @@ return [
     'issue-208' => [
         'ua' => 'Mozilla/5.0 (compatible; X11; Linux x86_64; Google-StructuredDataTestingTool; +http://www.google.com/webmasters/tools/richsnippets)',
         'properties' => [
-            'Comment' => 'Google Structured-Data TestingTool',
-            'Browser' => 'Google Structured-Data TestingTool',
+            'Comment' => 'Google Structured-Data Testing Tool',
+            'Browser' => 'Google Structured-Data Testing Tool',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',

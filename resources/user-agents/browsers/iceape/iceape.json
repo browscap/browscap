@@ -20,6 +20,13 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Iceape/#MAJORVER#.#MINORVER#*",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_32_on_x64", "Linux_64", "Linux"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Iceape/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Linux_64", "Linux"

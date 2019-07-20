@@ -1,0 +1,38 @@
+{
+  "division": "SonyCEBrowser #MAJORVER#.#MINORVER#",
+  "versions": [1],
+  "sortIndex": 1053,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "SonyCEBrowser #MAJORVER#.#MINORVER#",
+      "browser": "sony-ce-browser",
+      "engine": "Presto_2_8",
+      "device": "general TV Device",
+      "platform": "Linux_ARM",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "SonyCEBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Opera/9.80*(#PLATFORM#)*Version/*#DEVICE#* SonyCEBrowser/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Sony-BDP9G_AXD": "Sony BDP9G AXD"
+          },
+          "platforms": [
+            "Linux_ARM"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(#PLATFORM#)*Version/* SonyCEBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Linux_ARM"
+          ]
+        }
+      ]
+    }
+  ]
+}

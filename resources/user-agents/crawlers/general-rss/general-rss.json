@@ -33,6 +33,13 @@
           "browser": "ruunk"
         },
         {
+          "match": "UniversalFeedParser/5.2*",
+          "browser": "universalfeedparser",
+          "properties": {
+            "Version": "5.2"
+          }
+        },
+        {
           "match": "UniversalFeedParser/4.1*",
           "browser": "universalfeedparser",
           "properties": {
@@ -40,7 +47,7 @@
           }
         },
         {
-          "match": "UniversalFeedParser/4.*",
+          "match": "UniversalFeedParser/4.0*",
           "browser": "universalfeedparser",
           "properties": {
             "Version": "4.0"

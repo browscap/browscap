@@ -713,5 +713,16 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": false
+  },
+  "Sony G3123": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Xperia XA1 LTE",
+      "Device_Code_Name": "G3123",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": false
   }
 }

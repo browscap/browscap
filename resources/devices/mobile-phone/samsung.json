@@ -8831,5 +8831,16 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": false
+  },
+  "Samsung SGH-I917": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Focus",
+      "Device_Code_Name": "SGH-I917",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
   }
 }

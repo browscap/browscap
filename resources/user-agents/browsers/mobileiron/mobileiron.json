@@ -1,6 +1,6 @@
 {
   "division": "MobileIron #MAJORVER#.#MINORVER#",
-  "versions": ["2.7", "2.2", "2.1", "1.9", "1.8", "1.7", "1.6"],
+  "versions": ["2.7", "2.2", "2.1", "1.9", "1.8", "1.7", "1.6", "1.3"],
   "sortIndex": 1123,
   "lite": false,
   "standard": true,

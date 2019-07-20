@@ -97,5 +97,16 @@
       "Device_Brand_Name": "LG"
     },
     "standard": true
+  },
+  "LG 47LM9600-NA": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "47LM9600-NA",
+      "Device_Code_Name": "47LM9600-NA",
+      "Device_Maker": "LG",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "LG"
+    },
+    "standard": true
   }
 }

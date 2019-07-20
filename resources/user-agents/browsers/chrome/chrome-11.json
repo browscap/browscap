@@ -27,8 +27,15 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "devices": {
-            "NSZ-GS7/GX70": "Sony NSZ-GS7/GX70"
+            "NSZ-GS7/GX70": "Sony NSZ-GS7/GX70",
+            "VAP430": "Vizio VAP430"
           },
+          "platforms": [
+            "Android_GoogleTV_3_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.*Safari/*",
           "platforms": [
             "Android_GoogleTV_3_2",
             "Android_GoogleTV"

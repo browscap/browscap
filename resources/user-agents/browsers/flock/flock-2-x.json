@@ -1,6 +1,6 @@
 {
   "division": "Flock #MAJORVER#.#MINORVER#",
-  "versions": [2],
+  "versions": ["2.5", 2],
   "sortIndex": 3101,
   "lite": false,
   "standard": true,
@@ -17,14 +17,14 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_32_on_x64_2", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.#MINORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win7_32",
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/* Flock/#MAJORVER#.#MINORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX"

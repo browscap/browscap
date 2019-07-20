@@ -169,6 +169,15 @@
           ]
         },
         {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "PEAQ LF1V350": "PEAQ LF1V350"
+          },
+          "platforms": [
+            "Linux_ARM"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [

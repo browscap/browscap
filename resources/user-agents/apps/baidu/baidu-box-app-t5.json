@@ -30,7 +30,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Safari/* T5/* baiduboxapp/#MAJORVER#.#MINORVER#*",
           "devices": {
-            "GT-P1000": "Samsung GT-P1000"
+            "GT-P1000*": "Samsung GT-P1000"
           },
           "platforms": [
             "Android_2_2"

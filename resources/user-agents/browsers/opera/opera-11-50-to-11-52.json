@@ -204,6 +204,24 @@
           ]
         },
         {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Humax; CXHD-5100C": "Humax CXHD-5100C"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "CreNova;CNV001": "CreNova CNV001"
+          },
+          "platforms": [
+            "Linux_SH4"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [

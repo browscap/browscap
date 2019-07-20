@@ -13,6 +13,12 @@
       },
       "children": [
         {
+          "match": "SimplePie/1.3*",
+          "properties": {
+            "Version": "1.3"
+          }
+        },
+        {
           "match": "SimplePie/1.2*",
           "properties": {
             "Version": "1.2"

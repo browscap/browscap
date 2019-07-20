@@ -1,0 +1,35 @@
+{
+  "division": "Qwantify",
+  "sortIndex": 500,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Qwantify",
+      "browser": "qwantify",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Qwantify"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Qwantify/2.2*",
+          "properties": {
+            "Version": "2.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Qwantify/2.0*",
+          "browser": "qwantify",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Qwantify/*",
+          "browser": "qwantify"
+        }
+      ]
+    }
+  ]
+}

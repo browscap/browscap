@@ -1,0 +1,33 @@
+{
+  "division": "MojeekBot",
+  "sortIndex": 250,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "MojeekBot",
+      "browser": "mojeekbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "MojeekBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; MojeekBot/0.6*",
+          "properties": {
+            "Version": "0.6"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MojeekBot/0.2*",
+          "properties": {
+            "Version": "0.2"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; MojeekBot/*"
+        }
+      ]
+    }
+  ]
+}
