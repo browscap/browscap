@@ -32,6 +32,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
             "XBot_Senior": "X-Touch XBot Senior",
             "SM-T830": "Samsung SM-T830"
           },
@@ -255,7 +266,8 @@
             "SM-G950N": "Samsung SM-G950N",
             "SM-G955F": "Samsung SM-G955F",
             "SM-G955U": "Samsung SM-G955U",
-            "SM-G965F": "Samsung SM-G965F",
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F",
             "SM-J330G": "Samsung SM-J330G",
             "SM-J600G": "Samsung SM-J600G",
             "SM-N935F": "Samsung SM-N935F",

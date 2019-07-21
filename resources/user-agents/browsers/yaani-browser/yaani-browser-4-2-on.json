@@ -20,7 +20,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaaniBrowser/#MAJORVER#.#MINORVER#* Mobile Safari/*",
           "devices": {
-            "SM-G950F": "Samsung SM-G950F"
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
           },
           "platforms": [
             "Android_H_8_0"

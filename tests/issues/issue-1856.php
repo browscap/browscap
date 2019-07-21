@@ -2148,7 +2148,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1856-00050' => [
@@ -2191,7 +2191,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1856-00051' => [
@@ -2591,7 +2591,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1856-00060' => [
@@ -2720,7 +2720,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1856-00063' => [
@@ -4324,7 +4324,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1856-00102' => [

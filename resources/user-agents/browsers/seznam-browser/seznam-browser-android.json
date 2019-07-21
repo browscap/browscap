@@ -1,6 +1,6 @@
 {
   "division": "Seznam Browser #MAJORVER#.#MINORVER# for Android",
-  "versions": ["6.2", "5.5", "5.4", "5.2", "5.1", 5, "4.2", "4.1", 4, "3.2"],
+  "versions": ["6.2", 6, "5.5", "5.4", "5.2", "5.1", 5, "4.2", "4.1", 4, "3.2"],
   "sortIndex": 1018,
   "lite": false,
   "standard": true,
@@ -20,7 +20,17 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SM-J510FN": "Samsung SM-J510FN"
           },
@@ -31,7 +41,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "devices": {
             "SM-G935F": "Samsung SM-G935F"
           },
@@ -41,7 +51,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "devices": {
             "ALE-L21": "Huawei ALE-L21"
           },
@@ -50,7 +60,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "devices": {
             "Vodafone Smart Tab 4G": "Vodafone Smart Tab 4G"
           },
@@ -59,7 +69,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android_8_0",
@@ -71,7 +81,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* SznProhlizec/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_8_0",
@@ -83,7 +93,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Tablet SznProhlizec/#MAJORVER#.#MINORVER#.*",
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Tablet SznProhlizec/#MAJORVER#.#MINORVER#*",
           "device": "general Tablet",
           "platforms": [
             "Android_8_0",

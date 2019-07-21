@@ -20,6 +20,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
             "Pixel 2": "Google Pixel 2",
             "Pixel 2 XL": "Google Pixel 2 XL"
           },
@@ -44,8 +55,7 @@
             "Nexus 5X": "LG Nexus 5X",
             "Nexus 6P": "Huawei Nexus 6P",
             "Pixel": "Google Pixel",
-            "Pixel XL": "Google Pixel XL",
-            "SM-G960F": "Samsung SM-G960F"
+            "Pixel XL": "Google Pixel XL"
           },
           "platforms": [
             "Android_8_0"

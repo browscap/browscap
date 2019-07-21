@@ -1283,13 +1283,13 @@ return [
     'issue-1630-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.3; SAMSUNG-SM-N900A Build/JSS15J) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.4.2246.113571',
         'properties' => [
-            'Comment' => 'Opera Mobile 42.0 for Android',
+            'Comment' => 'Opera Mobile 42.4 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '42.0',
+            'Version' => '42.4',
             'Platform' => 'Android',
             'Platform_Version' => '4.3',
             'Platform_Description' => 'Android OS',
@@ -6159,7 +6159,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1630-EH' => [

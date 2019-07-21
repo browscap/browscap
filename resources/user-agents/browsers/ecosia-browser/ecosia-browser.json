@@ -1,0 +1,39 @@
+{
+  "division": "Ecosia",
+  "sortIndex": 1140,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Ecosia for Android",
+      "browser": "ecosia",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Ecosia for Android"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/*Ecosia android@*",
+          "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/*Ecosia android@*",
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

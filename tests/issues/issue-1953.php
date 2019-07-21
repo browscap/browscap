@@ -6418,13 +6418,13 @@ return [
     'issue-1953-FR' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; CPH1819 Build/O11019) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 OPR/47.1.2249.129326',
         'properties' => [
-            'Comment' => 'Opera Mobile 47.0 for Android',
+            'Comment' => 'Opera Mobile 47.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '47.0',
+            'Version' => '47.1',
             'Platform' => 'Android',
             'Platform_Version' => '8.1',
             'Platform_Description' => 'Android OS',
@@ -6455,7 +6455,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-FS' => [
@@ -16882,13 +16882,13 @@ return [
     'issue-1953-OT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.1.1; CPH1729 Build/N6F26Q; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 OPR/36.2.2254.130496',
         'properties' => [
-            'Comment' => 'Opera Mobile 36.0 for Android',
+            'Comment' => 'Opera Mobile 36.2 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '36.0',
+            'Version' => '36.2',
             'Platform' => 'Android',
             'Platform_Version' => '7.1',
             'Platform_Description' => 'Android OS',
@@ -16919,7 +16919,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-OU' => [
@@ -17966,7 +17966,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1953-PS' => [
@@ -19686,7 +19686,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1953-RG' => [
@@ -22395,7 +22395,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-TP' => [
@@ -26886,13 +26886,13 @@ return [
     'issue-1953-XJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 6.0; GIONEE P7 Build/MRA58K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 OPR/36.1.2254.130118',
         'properties' => [
-            'Comment' => 'Opera Mobile 36.0 for Android',
+            'Comment' => 'Opera Mobile 36.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '36.0',
+            'Version' => '36.1',
             'Platform' => 'Android',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Android OS',
@@ -26923,7 +26923,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-XK' => [
@@ -26966,7 +26966,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1953-XL' => [
@@ -27402,13 +27402,13 @@ return [
     'issue-1953-XV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; SM-J500F Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 OPR/36.2.2254.130496',
         'properties' => [
-            'Comment' => 'Opera Mobile 36.0 for Android',
+            'Comment' => 'Opera Mobile 36.2 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '36.0',
+            'Version' => '36.2',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
@@ -27439,7 +27439,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-XW' => [
@@ -27961,13 +27961,13 @@ return [
     'issue-1953-YI' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; ONEPLUS A5000 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 OPR/47.1.2249.129326',
         'properties' => [
-            'Comment' => 'Opera Mobile 47.0 for Android',
+            'Comment' => 'Opera Mobile 47.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '47.0',
+            'Version' => '47.1',
             'Platform' => 'Android',
             'Platform_Version' => '8.1',
             'Platform_Description' => 'Android OS',
@@ -27998,7 +27998,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-YJ' => [
@@ -31549,13 +31549,13 @@ return [
     'issue-1953-BBL' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Lenovo A7020a48 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36 OPR/47.1.2249.129326',
         'properties' => [
-            'Comment' => 'Opera Mobile 47.0 for Android',
+            'Comment' => 'Opera Mobile 47.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '47.0',
+            'Version' => '47.1',
             'Platform' => 'Android',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Android OS',
@@ -41059,13 +41059,13 @@ return [
     'issue-1953-BJO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 5.1.1; vivo Y21L Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 OPR/35.1.2254.128344',
         'properties' => [
-            'Comment' => 'Opera Mobile 35.0 for Android',
+            'Comment' => 'Opera Mobile 35.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '35.0',
+            'Version' => '35.1',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
@@ -41096,7 +41096,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => false,
-        'standard' => false,
+        'standard' => true,
         'full' => true,
     ],
     'issue-1953-BJP' => [
@@ -46036,13 +46036,13 @@ return [
     'issue-1953-BNX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; P024 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Safari/537.36 OPR/47.1.2249.129326',
         'properties' => [
-            'Comment' => 'Opera Mobile 47.0 for Android',
+            'Comment' => 'Opera Mobile 47.1 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '47.0',
+            'Version' => '47.1',
             'Platform' => 'Android',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Android OS',
@@ -48322,7 +48322,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1953-BPW' => [
