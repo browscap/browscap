@@ -25,10 +25,6 @@
           "browser": "vobsub"
         },
         {
-          "match": "WinampMPEG/*",
-          "browser": "winamp"
-        },
-        {
           "match": "Mozilla/5.0 (Linux; U; en-us; BeyondPod 4*",
           "browser": "beyondpod",
           "device": "general Mobile Phone (Touch)",
@@ -135,25 +131,6 @@
         {
           "match": "Radio/* (Linux;Android*",
           "browser": "radio",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ]
-        },
-        {
-          "match": "AlexaMediaPlayer/5.3* (Linux;Android*",
-          "browser": "alexa mediaplayer",
-          "device": "general Mobile Phone (Touch)",
-          "platforms": [
-            "Android"
-          ],
-          "properties": {
-            "Version": "5.3"
-          }
-        },
-        {
-          "match": "AlexaMediaPlayer/* (Linux;Android*",
-          "browser": "alexa mediaplayer",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
             "Android"
@@ -424,6 +401,18 @@
         {
           "match": "Mozilla/5.0 (compatible; poddirectory/*",
           "browser": "poddirectory"
+        },
+        {
+          "match": "Karadio/*",
+          "browser": "ka-radio"
+        },
+        {
+          "match": "AvsDeviceSdk/*",
+          "browser": "avs-device-sdk"
+        },
+        {
+          "match": "Echo/*",
+          "browser": "alexa"
         }
       ]
     }

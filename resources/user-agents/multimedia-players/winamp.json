@@ -1,0 +1,29 @@
+{
+  "division": "Winamp",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Winamp",
+      "browser": "winamp",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Winamp"
+      },
+      "children": [
+        {
+          "match": "Lavf*WinampMPEG/*",
+          "browser": "winamp"
+        },
+        {
+          "match": "WinampMPEG/*",
+          "browser": "winamp"
+        },
+        {
+          "match": "Nullsoft Winamp*"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "division": "Lavf",
+  "sortIndex": 1560,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Lavf",
+      "browser": "lavf",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Lavf"
+      },
+      "children": [
+        {
+          "match": "Lavf*"
+        }
+      ]
+    }
+  ]
+}
