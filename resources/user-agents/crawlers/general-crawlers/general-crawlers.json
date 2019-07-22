@@ -2200,6 +2200,10 @@
         {
           "match": "Mozilla/5.0 (*Linux*x86_64*) Gecko* Firefox/* OPBot*",
           "browser": "opbot"
+        },
+        {
+          "match": "PostmanRuntime/*",
+          "browser": "postman-runtime"
         }
       ]
     }

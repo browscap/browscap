@@ -5,13 +5,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "AdsBot Google-Mobile",
+      "userAgent": "AdsBot Google-Mobile for iOS",
       "browser": "adsbot google-mobile",
+      "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "AdsBot Google-Mobile"
+        "Comment": "AdsBot Google-Mobile for iOS"
       },
       "children": [
         {
@@ -38,7 +39,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Mobile/* Safari/* (compatible; AdsBot-Google-Mobile; +http://www.google.com/mobile/adsbot.html)",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Mobile* Safari* (compatible; AdsBot-Google-Mobile; *",
           "devices": {
             "iPhone": "iPhone"
           },
@@ -48,9 +49,53 @@
           ]
         },
         {
-          "match": "AdsBot?Google?Mobile*",
-          "engine": "unknown",
-          "device": "unknown"
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version* Mobile* Safari* (compatible; AdsBot-Google-Mobile; *",
+          "platforms": [
+            "iOS_A_9_1", "iOS_A_9_0",
+            "iOS_A"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "AdsBot Google-Mobile for Android",
+      "browser": "adsbot google-mobile",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AdsBot Google-Mobile for Android"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome* Mobile* Safari* (compatible; AdsBot-Google-Mobile; *",
+          "devices": {
+            "SM-G920A": "Samsung SM-G920A"
+          },
+          "platforms": [
+            "Android_5_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome* Mobile* Safari* (compatible; AdsBot-Google-Mobile; *",
+          "platforms": [
+            "Android_5_0",
+            "Android"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "AdsBot Google-Mobile",
+      "browser": "adsbot google-mobile",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "AdsBot Google-Mobile"
+      },
+      "children": [
+        {
+          "match": "AdsBot?Google?Mobile*"
         }
       ]
     }

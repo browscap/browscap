@@ -13,6 +13,12 @@
       },
       "children": [
         {
+          "match": "curl/7.54*",
+          "properties": {
+            "Version": "7.54"
+          }
+        },
+        {
           "match": "curl/7.35*",
           "properties": {
             "Version": "7.35"
