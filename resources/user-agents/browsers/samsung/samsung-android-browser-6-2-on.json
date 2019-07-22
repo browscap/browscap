@@ -18,6 +18,25 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T510": "Samsung SM-T510",
+            "SM-T720": "Samsung SM-T720"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
+            "SM-T387V": "Samsung SM-T387V"
+          },
+          "platforms": [
+            "Android_8_1"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
             "SM-A105F": "Samsung SM-A105F",
@@ -33,6 +52,7 @@
             "SM-A750F": "Samsung SM-A750F",
             "SM-A920F": "Samsung SM-A920F",
             "SM-G950F": "Samsung SM-G950F",
+            "SM-G955F": "Samsung SM-G955F",
             "SM-G960F": "Samsung SM-G960F",
             "SM-G975F": "Samsung SM-G975F",
             "SM-J400F": "Samsung SM-J400F",
@@ -43,7 +63,9 @@
             "SM-J810G": "Samsung SM-J810G",
             "SM-J810Y": "Samsung SM-J810Y",
             "SM-N950F": "Samsung SM-N950F",
-            "SM-N960F": "Samsung SM-N960F"
+            "SM-N960F": "Samsung SM-N960F",
+            "SM-T510": "Samsung SM-T510",
+            "SM-T830": "Samsung SM-T830"
           },
           "platforms": [
             "Android_9_0"
@@ -52,10 +74,10 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
-            "SM-G955F": "Samsung SM-G955F"
+            "SM-T837V": "Samsung SM-T837V"
           },
           "platforms": [
-            "Android_9_0"
+            "Android_8_1"
           ]
         },
         {
@@ -103,7 +125,8 @@
             "SM-G960U": "Samsung SM-G960U",
             "SM-G965F*": "Samsung SM-G965F",
             "SM-J600G": "Samsung SM-J600G",
-            "SM-J720F": "Samsung SM-J720F"
+            "SM-J720F": "Samsung SM-J720F",
+            "SM-T830": "Samsung SM-T830"
           },
           "platforms": [
             "Android_8_0"

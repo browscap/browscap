@@ -22,7 +22,8 @@
           "devices": {
             "COR-AL00": "Huawei COR-AL00",
             "Mi A1": "Xiaomi Mi A1",
-            "ONEPLUS A6000": "OnePlus A6000"
+            "ONEPLUS A6000": "OnePlus A6000",
+            "SM-T510": "Samsung SM-T510"
           },
           "platforms": [
             "Android_9_0"
@@ -182,6 +183,7 @@
             "Redmi 6": "Xiaomi Redmi 6",
             "Redmi S2": "Xiaomi Redmi S2",
             "SM-N960F": "Samsung SM-N960F",
+            "SM-T830": "Samsung SM-T830",
             "TECNO IN2": "Tecno IN2",
             "TECNO LA7": "Tecno LA7",
             "vivo 1723": "vivo 1723",
@@ -413,7 +415,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "Nexus 9*": "HTC Nexus 9"
+            "Nexus 9*": "HTC Nexus 9",
+            "SM-P555": "Samsung SM-P555"
           },
           "platforms": [
             "Android_7_1", "Android_7_0",
@@ -778,7 +781,6 @@
             "RCT6773W22B": "RCA RCT6773W22B",
             "SM-G530H": "Samsung SM-G530H",
             "SM-G920K": "Samsung SM-G920K",
-            "SM-P555": "Samsung SM-P555",
             "SM-T531": "Samsung SM-T531",
             "SPH-L900": "Samsung SPH-L900",
             "TB3-710F": "Lenovo TB3-710F",
