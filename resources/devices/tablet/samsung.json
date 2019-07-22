@@ -1373,5 +1373,60 @@
       "Device_Brand_Name": "Samsung"
     },
     "standard": true
+  },
+  "Samsung SM-T830": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S4 (10.5)",
+      "Device_Code_Name": "SM-T830",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T837V": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S4 (Verizon)",
+      "Device_Code_Name": "SM-T837V",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T720": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab S5e",
+      "Device_Code_Name": "SM-T720",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T510": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Tab A 10.1 Wi-Fi (2019)",
+      "Device_Code_Name": "SM-T510",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
+  },
+  "Samsung SM-T387V": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Galaxy Tab A 8.0 (2018, Verizon)",
+      "Device_Code_Name": "SM-T387V",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": true
   }
 }

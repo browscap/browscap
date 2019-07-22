@@ -22,7 +22,8 @@
           "devices": {
             "COR-AL00": "Huawei COR-AL00",
             "Mi A1": "Xiaomi Mi A1",
-            "ONEPLUS A6000": "OnePlus A6000"
+            "ONEPLUS A6000": "OnePlus A6000",
+            "SM-T510": "Samsung SM-T510"
           },
           "platforms": [
             "Android_9_0"
@@ -31,7 +32,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "XBot_Senior": "X-Touch XBot Senior"
+            "XBot_Senior": "X-Touch XBot Senior",
+            "SM-T830": "Samsung SM-T830"
           },
           "platforms": [
             "Android_8_1"
