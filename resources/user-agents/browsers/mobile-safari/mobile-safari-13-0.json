@@ -1,0 +1,51 @@
+{
+  "division": "Mobile Safari #MAJORVER#.#MINORVER#",
+  "versions": [13],
+  "sortIndex": 1955,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_13_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_13_0",
+            "ipadOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "iOS_A",
+            "ipadOS"
+          ]
+        }
+      ]
+    }
+  ]
+}
