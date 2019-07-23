@@ -1776,7 +1776,7 @@
     "match": "*CPU OS 13_0* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "ipadOS",
     "properties": {
       "Platform_Version": "13.0"
     }
