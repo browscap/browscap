@@ -54,6 +54,24 @@
           "properties": {
             "Version": "2.1"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*Mediapartners-Google) Chrome/* Safari/*",
+          "devices": {
+            "Galaxy Nexus": "Samsung Galaxy Nexus"
+          },
+          "platforms": [
+            "Android_4_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*Mediapartners-Google) Chrome/* Safari/*",
+          "engine": "Blink",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android_4_0",
+            "iOS_A"
+          ]
         }
       ]
     }
