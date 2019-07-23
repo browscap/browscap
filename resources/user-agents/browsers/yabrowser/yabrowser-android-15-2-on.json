@@ -22,6 +22,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* YaBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
             "TA-1021": "Nokia TA-1021"
           },
           "platforms": [

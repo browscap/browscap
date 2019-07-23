@@ -20,6 +20,17 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* BingWeb/#MAJORVER#.#MINORVER#*",
+          "devices": {
             "SM-G950U": "Samsung SM-G950U",
             "SM-G955U": "Samsung SM-G955U",
             "SM-G965U": "Samsung SM-G965U",

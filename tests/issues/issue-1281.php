@@ -47,13 +47,13 @@ return [
     'issue-1281-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.4; Jolla C Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
         'properties' => [
-            'Comment' => 'Opera Mobile 42.0 for Android',
+            'Comment' => 'Opera Mobile 42.7 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '42.0',
+            'Version' => '42.7',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',

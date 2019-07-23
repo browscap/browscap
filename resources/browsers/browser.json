@@ -2897,5 +2897,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "ecosia": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Ecosia",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }

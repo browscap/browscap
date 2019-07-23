@@ -6931,7 +6931,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1688-FA' => [
@@ -6974,7 +6974,7 @@ return [
             'RenderingEngine_Maker' => 'Google Inc',
         ],
         'lite' => true,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
     ],
     'issue-1688-FB' => [
@@ -7109,13 +7109,13 @@ return [
     'issue-1688-FE' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-A500FU Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.85 Mobile Safari/537.36 OPR/41.2.2246.111806',
         'properties' => [
-            'Comment' => 'Opera Mobile 41.0 for Android',
+            'Comment' => 'Opera Mobile 41.2 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '41.0',
+            'Version' => '41.2',
             'Platform' => 'Android',
             'Platform_Version' => '5.0',
             'Platform_Description' => 'Android OS',
@@ -7152,13 +7152,13 @@ return [
     'issue-1688-FF' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-A500FU Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.5.2246.114172',
         'properties' => [
-            'Comment' => 'Opera Mobile 42.0 for Android',
+            'Comment' => 'Opera Mobile 42.5 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '42.0',
+            'Version' => '42.5',
             'Platform' => 'Android',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'Android OS',

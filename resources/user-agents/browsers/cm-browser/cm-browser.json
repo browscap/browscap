@@ -29,6 +29,8 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "engine": "Blink",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F",
             "SM-J810G": "Samsung SM-J810G"
           },
           "platforms": [

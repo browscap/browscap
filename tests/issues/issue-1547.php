@@ -520,13 +520,13 @@ return [
     'issue-1547-M' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0; Nexus 6P Build/OPR6.170623.013) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
         'properties' => [
-            'Comment' => 'Opera Mobile 42.0 for Android',
+            'Comment' => 'Opera Mobile 42.7 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '42.0',
+            'Version' => '42.7',
             'Platform' => 'Android',
             'Platform_Version' => '8.0',
             'Platform_Description' => 'Android OS',

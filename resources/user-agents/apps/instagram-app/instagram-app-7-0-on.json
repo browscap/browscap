@@ -30,6 +30,16 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
           "devices": {
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G965F*": "Samsung SM-G965F"
+          },
+          "platforms": [
+            "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) version* chrome* safari* Instagram #MAJORVER#.* Android*",
+          "devices": {
             "SM-T705*": "Samsung SM-T705"
           },
           "platforms": [
