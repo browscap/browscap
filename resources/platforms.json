@@ -1020,6 +1020,17 @@
     "standard": false,
     "inherits": "OSX_PPC"
   },
+  "OSX_10_15": {
+    "match": "*Mac OS X 10?15*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "10.15"
+    }
+  },
   "OSX_10_14": {
     "match": "*Mac OS X 10?14*",
     "lite": false,
@@ -1761,6 +1772,31 @@
       "Platform_Bits": 32
     }
   },
+  "ipadOS_13_0": {
+    "match": "*CPU OS 13_0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.0"
+    }
+  },
+  "ipadOS": {
+    "match": "*CPU*OS* like Mac OS X*",
+    "lite": true,
+    "standard": true,
+    "properties": {
+      "Platform": "ipadOS",
+      "Platform_Maker": "Apple Inc",
+      "Platform_Description": "iPod, iPhone & iPad",
+      "Platform_Version": "unknown",
+      "Win16": false,
+      "Win32": false,
+      "Win64": false,
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
+    }
+  },
   "iOS_A_dynamic": {
     "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
     "lite": false,
@@ -1768,6 +1804,15 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_A_13_0": {
+    "match": "*CPU iPhone OS 13?0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "13.0"
     }
   },
   "iOS_A_12_4": {
