@@ -4,7 +4,7 @@ return [
     'issue-1532-A' => [
         'ua' => 'Snapchat/10.12.0.2 (iPhone8,1; iOS 10.3.2; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.12',
+            'Comment' => 'Snapchat Agent 10.12 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-1532-A (standard)' => [
         'ua' => 'Snapchat/10.12.0.2 (iPhone8,1; iOS 10.3.2; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.12',
+            'Comment' => 'Snapchat Agent 10.12 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Maker' => 'Snap Inc.',
             'Version' => '10.12',
@@ -62,7 +62,7 @@ return [
     'issue-1532-B' => [
         'ua' => 'Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.11',
+            'Comment' => 'Snapchat Agent 10.11 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -105,7 +105,7 @@ return [
     'issue-1532-B (standard)' => [
         'ua' => 'Snapchat/10.11.1.0 (iPhone6,1; iOS 10.2.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.11',
+            'Comment' => 'Snapchat Agent 10.11 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Maker' => 'Snap Inc.',
             'Version' => '10.11',
@@ -120,7 +120,7 @@ return [
     'issue-1532-C' => [
         'ua' => 'Snapchat/10.2.0.2 (iPhone5,1; iOS 10.1.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.2',
+            'Comment' => 'Snapchat Agent 10.2 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -163,7 +163,7 @@ return [
     'issue-1532-C (standard)' => [
         'ua' => 'Snapchat/10.2.0.2 (iPhone5,1; iOS 10.1.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 10.2',
+            'Comment' => 'Snapchat Agent 10.2 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Maker' => 'Snap Inc.',
             'Version' => '10.2',
@@ -178,7 +178,7 @@ return [
     'issue-1532-D' => [
         'ua' => 'Snapchat/9.45.10.0 (iPhone6,1; iOS 10.1.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 9.45',
+            'Comment' => 'Snapchat Agent 9.45 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -221,7 +221,7 @@ return [
     'issue-1532-D (standard)' => [
         'ua' => 'Snapchat/9.45.10.0 (iPhone6,1; iOS 10.1.1; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat Agent 9.45',
+            'Comment' => 'Snapchat Agent 9.45 for iOS',
             'Browser' => 'Snapchat Agent',
             'Browser_Maker' => 'Snap Inc.',
             'Version' => '9.45',

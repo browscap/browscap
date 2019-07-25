@@ -5,14 +5,14 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Snapchat Agent Generic",
+      "userAgent": "Snapchat Agent Generic for iOS",
       "browser": "snapchat agent",
       "platform": "iOS",
       "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Snapchat Agent Generic"
+        "Comment": "Snapchat Agent Generic for iOS"
       },
       "children": [
         {
@@ -21,11 +21,56 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_I_11_3", "iOS_I_11_2", "iOS_I_11_1", "iOS_I_11_0",
-            "iOS_I_10_3", "iOS_I_10_2", "iOS_I_10_1",
+            "iOS_I_12_3", "iOS_I_12_2", "iOS_I_12_1", "iOS_I_12_0",
+            "iOS_I_11_4", "iOS_I_11_3", "iOS_I_11_2", "iOS_I_11_1", "iOS_I_11_0",
+            "iOS_I_10_3", "iOS_I_10_2", "iOS_I_10_1", "iOS_I_10_0",
+            "iOS_I_9_3",
             "iOS_I"
           ]
         },
+        {
+          "match": "Snapchat/* (#PLATFORM#",
+          "platforms": [
+            "iOS_I_12_3", "iOS_I_12_2", "iOS_I_12_1", "iOS_I_12_0",
+            "iOS_I_11_4", "iOS_I_11_3", "iOS_I_11_2", "iOS_I_11_1", "iOS_I_11_0",
+            "iOS_I_10_3", "iOS_I_10_2", "iOS_I_10_1", "iOS_I_10_0",
+            "iOS_I_9_3",
+            "iOS_I"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Snapchat Agent Generic for Android",
+      "browser": "snapchat agent",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snapchat Agent Generic for Android"
+      },
+      "children": [
+        {
+          "match": "Snapchat/* (#PLATFORM#",
+          "platforms": [
+            "Android_H_7_0",
+            "Android_H_6_0",
+            "Android_H_5_1", "Android_H_5_0",
+            "Android_H_4_4",
+            "Android_H"
+          ]
+        }
+      ]
+    },
+    {
+      "userAgent": "Snapchat Agent Generic",
+      "browser": "snapchat agent",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Snapchat Agent Generic"
+      },
+      "children": [
         {
           "match": "Snapchat/*"
         }
