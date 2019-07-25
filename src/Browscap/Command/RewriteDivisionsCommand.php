@@ -255,7 +255,7 @@ class RewriteDivisionsCommand extends Command
                             $split[1] = 0;
                         }
 
-                        if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_C_dynamic'])) {
+                        if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_A_dynamic_11+', 'iOS_C_dynamic', 'iOS_C_dynamic_11+', 'ipadOS_dynamic'])) {
                             ++$currentChunk;
                             $chunk[$currentChunk] = [json_encode($platformkey)];
                             $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
