@@ -1,6 +1,6 @@
 {
   "division": "Instagram App #MAJORVER#.#MINORVER# for iOS",
-  "versions": [91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76],
+  "versions": [101, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76],
   "sortIndex": 1991,
   "lite": false,
   "standard": true,
@@ -24,6 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
+            "iOS_A_13_0",
             "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",

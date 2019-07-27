@@ -5,18 +5,17 @@
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "WeChat App Generic",
+      "userAgent": "WeChat App Generic for Android",
       "browser": "wechat app",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WeChat App Generic"
+        "Comment": "WeChat App Generic for Android"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/*",
-          "engine": "Blink",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -28,6 +27,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/*",
+          "engine": "WebKit",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -36,14 +36,28 @@
             "Android_4_4",
             "Android"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "WeChat App Generic for iOS",
+      "browser": "wechat app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeChat App Generic for iOS"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/*",
           "devices": {
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_12_0",
+            "iOS_A_13_0",
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
@@ -58,7 +72,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_12_0",
+            "ipadOS_13_0",
+            "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
             "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",

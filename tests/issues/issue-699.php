@@ -4,7 +4,7 @@ return [
     'issue-699-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/12F70 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-699-A (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/12F70 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '10.2',
@@ -62,7 +62,7 @@ return [
     'issue-699-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/12H143 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -105,7 +105,7 @@ return [
     'issue-699-B (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/12H143 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '10.2',

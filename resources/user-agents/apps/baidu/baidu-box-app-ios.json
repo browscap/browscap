@@ -1,6 +1,6 @@
 {
   "division": "Baidu Box App #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["9.3", "9.2", "9.1", 9, "8.6", "8.5"],
+  "versions": ["11.10", "9.3", "9.2", "9.1", 9, "8.6", "8.5"],
   "sortIndex": 1903,
   "lite": false,
   "standard": true,
@@ -23,7 +23,9 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_11_1", "iOS_A_11_0",
+            "iOS_A_13_0",
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
+            "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
             "iOS_A_8_4", "iOS_A_8_3", "iOS_A_8_2", "iOS_A_8_1", "iOS_A_8_0", "iOS_A_8_0_B",

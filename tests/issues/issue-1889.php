@@ -1562,7 +1562,7 @@ return [
     'issue-1889-32' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPiOS/16.0.9.121115 Mobile/15E216 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1605,7 +1605,7 @@ return [
     'issue-1889-32 (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPiOS/16.0.9.121115 Mobile/15E216 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '16.0',
@@ -2486,7 +2486,7 @@ return [
     'issue-1889-50' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 MicroMessenger/6.5.15 NetType/WIFI Language/en',
         'properties' => [
-            'Comment' => 'WeChat App 6.5',
+            'Comment' => 'WeChat App 6.5 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2523,13 +2523,28 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1889-50 (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 MicroMessenger/6.5.15 NetType/WIFI Language/en',
+        'properties' => [
+            'Comment' => 'WeChat App 6.5 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1889-51' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 MicroMessenger/6.6.6 NetType/WIFI Language/en',
         'properties' => [
-            'Comment' => 'WeChat App 6.6',
+            'Comment' => 'WeChat App 6.6 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2566,7 +2581,22 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1889-51 (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 MicroMessenger/6.6.6 NetType/WIFI Language/en',
+        'properties' => [
+            'Comment' => 'WeChat App 6.6 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.6',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
 ];
