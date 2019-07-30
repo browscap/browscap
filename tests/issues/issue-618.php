@@ -1081,7 +1081,7 @@ return [
     'issue-618-X' => [
         'ua' => 'Opera/9.80 (iPad; Opera Mini/9.1.0/35.6497; U; de) Presto/2.8.119 Version/11.10',
         'properties' => [
-            'Comment' => 'Opera Mini 9.1',
+            'Comment' => 'Opera Mini 9.1 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

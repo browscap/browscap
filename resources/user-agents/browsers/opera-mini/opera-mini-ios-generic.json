@@ -1,27 +1,24 @@
 {
-  "division": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
-  "versions": [16, 15, 14, 13, "12.1", 12, 11, "10.2", "10.1", 10, "9.2", "9.1", 9, "8.1", 8],
-  "sortIndex": 1927,
+  "division": "Opera Mini Generic for iOS",
+  "sortIndex": 1928,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
+      "userAgent": "Opera Mini Generic for iOS",
       "browser": "opera mini",
-      "engine": "WebKit",
       "platform": "iOS",
+      "engine": "WebKit",
       "device": "general Mobile Device (Apple)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera Mini #MAJORVER#.#MINORVER# for iOS",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Comment": "Opera Mini Generic for iOS"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
           "devices": {
-            "iPhone": "iPhone",
-            "iPod": "iPod Touch"
+            "iPhone": "iPhone"
           },
           "platforms": [
             "iOS_A_13_0",
@@ -35,7 +32,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
           "devices": {
             "iPad": "iPad"
           },
@@ -51,20 +48,10 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/#MAJORVER#.#MINORVER#* Mobile/* Safari/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OPiOS/* Mobile/* Safari/*",
           "platforms": [
             "iOS_A",
             "iOS_C"
-          ]
-        },
-        {
-          "match": "Opera/*(*#DEVICE#*Opera Mini/#MAJORVER#.#MINORVER#*",
-          "devices": {
-            "iPad": "iPad",
-            "iPhone": "iPhone"
-          },
-          "platforms": [
-            "iOS"
           ]
         }
       ]

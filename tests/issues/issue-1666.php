@@ -421,7 +421,7 @@ return [
     'issue-1666-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 MicroMessenger/6.5.18 NetType/4G Language/zh_CN',
         'properties' => [
-            'Comment' => 'WeChat App 6.5',
+            'Comment' => 'WeChat App 6.5 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -458,8 +458,23 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1666-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 MicroMessenger/6.5.18 NetType/4G Language/zh_CN',
+        'properties' => [
+            'Comment' => 'WeChat App 6.5 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.5',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1666-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Version/11.0 Safari/604.1.38 (AirWatch Browser v6.5.1)',

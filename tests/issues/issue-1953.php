@@ -48457,7 +48457,7 @@ return [
     'issue-1953-BPZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; TA-1000 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/53.0.2785.49 Mobile MQQBrowser/6.2 TBS/043128 Safari/537.36 MicroMessenger/6.5.7.1041 NetType/WIFI Language/zh_CN',
         'properties' => [
-            'Comment' => 'WeChat App 6.5',
+            'Comment' => 'WeChat App 6.5 for Android',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

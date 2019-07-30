@@ -1,24 +1,23 @@
 {
   "division": "WeChat App #MAJORVER#.#MINORVER#",
-  "versions": ["6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6],
+  "versions": [7, "6.7", "6.6", "6.5", "6.4", "6.3", "6.2", "6.1", 6],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "WeChat App #MAJORVER#.#MINORVER#",
+      "userAgent": "WeChat App #MAJORVER#.#MINORVER# for Android",
       "browser": "wechat app",
-      "engine": "WebKit",
+      "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "WeChat App #MAJORVER#.#MINORVER#",
+        "Comment": "WeChat App #MAJORVER#.#MINORVER# for Android",
         "Version": "#MAJORVER#.#MINORVER#"
       },
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "TA-1000": "Nokia TA-1000"
           },
@@ -28,7 +27,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "devices": {
             "GT-N7100": "Samsung GT-N7100"
           },
@@ -38,7 +36,6 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
-          "engine": "Blink",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -50,6 +47,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "HM NOTE 1LTETD": "Xiaomi HM NOTE 1LTETD",
             "HTC D820mu": "HTC D820mu",
@@ -63,6 +61,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "HM 1SC": "Xiaomi HM 1SC"
           },
@@ -72,6 +71,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "vivo Y22": "vivo Y22"
           },
@@ -81,6 +81,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "devices": {
             "GT-I9128V": "Samsung GT-I9128V"
           },
@@ -90,6 +91,7 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "WebKit",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -98,14 +100,29 @@
             "Android_4_4",
             "Android"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "userAgent": "WeChat App #MAJORVER#.#MINORVER# for iOS",
+      "browser": "wechat app",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "WeChat App #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
         {
           "match": "Mozilla/5.0 (#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*) Mobile/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "devices": {
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_12_0",
+            "iOS_A_13_0",
+            "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",
             "iOS_A_9_3", "iOS_A_9_2", "iOS_A_9_1", "iOS_A_9_0",
@@ -120,7 +137,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_12_0",
+            "ipadOS_13_0",
+            "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
             "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
             "iOS_C_10_3", "iOS_C_10_2", "iOS_C_10_1", "iOS_C_10_0",
             "iOS_C_9_3", "iOS_C_9_2", "iOS_C_9_1", "iOS_C_9_0",

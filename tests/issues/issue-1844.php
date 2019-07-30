@@ -722,7 +722,7 @@ return [
     'issue-1844-Q' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 MicroMessenger/6.6.3 NetType/WIFI Language/zh_CN',
         'properties' => [
-            'Comment' => 'WeChat App 6.6',
+            'Comment' => 'WeChat App 6.6 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -1992,7 +1992,7 @@ return [
     'issue-1844-AP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) OPiOS/16.0.8.121059 Mobile/15D100 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -2035,7 +2035,7 @@ return [
     'issue-1844-AP (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) OPiOS/16.0.8.121059 Mobile/15D100 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '16.0',

@@ -477,7 +477,7 @@ return [
     'issue-1495-L' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_2 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/6.0 MQQBrowser/4.1 Mobile/11A501 Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'QQBrowser 4.1 for iOS',
+            'Comment' => 'QQBrowser 4.1 HD for iOS',
             'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -520,7 +520,7 @@ return [
     'issue-1495-M' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/8.0 MQQBrowser/5.0 Mobile/13F69 Safari/600.1.4',
         'properties' => [
-            'Comment' => 'QQBrowser 5.0 for iOS',
+            'Comment' => 'QQBrowser 5.0 HD for iOS',
             'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -737,7 +737,7 @@ return [
     'issue-1495-Q' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/8.0 MQQBrowser/5.4 Mobile/14D27 Safari/600.1.4',
         'properties' => [
-            'Comment' => 'QQBrowser 5.4 for iOS',
+            'Comment' => 'QQBrowser 5.4 HD for iOS',
             'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -780,7 +780,7 @@ return [
     'issue-1495-S' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/8.0 MQQBrowser/5.7.3 Mobile/14B100 Safari/600.1.4',
         'properties' => [
-            'Comment' => 'QQBrowser 5.7 for iOS',
+            'Comment' => 'QQBrowser 5.7 HD for iOS',
             'Browser' => 'QQBrowser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

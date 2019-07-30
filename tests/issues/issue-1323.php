@@ -5580,7 +5580,7 @@ return [
     'issue-1323-DR' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_1_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/9.2.0.88656 Mobile/12B440 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 9.2',
+            'Comment' => 'Opera Mini 9.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

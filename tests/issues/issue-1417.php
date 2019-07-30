@@ -11436,7 +11436,7 @@ return [
     'issue-1417-GL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14A403 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11479,7 +11479,7 @@ return [
     'issue-1417-GL (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14A403 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '14.0',
@@ -11494,7 +11494,7 @@ return [
     'issue-1417-GM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.8 (KHTML, like Gecko) OPiOS/15.00.00000 Mobile/14B55c Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'Opera Mini 15.0',
+            'Comment' => 'Opera Mini 15.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11537,7 +11537,7 @@ return [
     'issue-1417-GM (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.8 (KHTML, like Gecko) OPiOS/15.00.00000 Mobile/14B55c Safari/7534.48.3',
         'properties' => [
-            'Comment' => 'Opera Mini 15.0',
+            'Comment' => 'Opera Mini 15.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '15.0',
@@ -11552,7 +11552,7 @@ return [
     'issue-1417-GN' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14C92 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11595,7 +11595,7 @@ return [
     'issue-1417-GN (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14C92 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '14.0',
@@ -11610,7 +11610,7 @@ return [
     'issue-1417-GO' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14E277 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11653,7 +11653,7 @@ return [
     'issue-1417-GO (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14E277 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '14.0',
@@ -11668,7 +11668,7 @@ return [
     'issue-1417-GP' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/11A465 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11711,7 +11711,7 @@ return [
     'issue-1417-GP (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) OPiOS/10.2.0.93022 Mobile/11A465 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.2',
+            'Comment' => 'Opera Mini 10.2 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '10.2',
@@ -11726,7 +11726,7 @@ return [
     'issue-1417-GQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 802 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) OPiOS/8.0.5.83168 Mobile/12A405 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 8.0',
+            'Comment' => 'Opera Mini 8.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11769,7 +11769,7 @@ return [
     'issue-1417-GQ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 802 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) OPiOS/8.0.5.83168 Mobile/12A405 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 8.0',
+            'Comment' => 'Opera Mini 8.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '8.0',
@@ -11784,7 +11784,7 @@ return [
     'issue-1417-GR' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 811 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) OPiOS/9.0.0.84587 Mobile/12B435 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 9.0',
+            'Comment' => 'Opera Mini 9.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11827,7 +11827,7 @@ return [
     'issue-1417-GR (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 811 like Mac OS X) AppleWebKit/600.1.4 (KHTML like Gecko) OPiOS/9.0.0.84587 Mobile/12B435 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 9.0',
+            'Comment' => 'Opera Mini 9.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '9.0',
@@ -11842,7 +11842,7 @@ return [
     'issue-1417-GS' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12A366 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.0',
+            'Comment' => 'Opera Mini 10.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11885,7 +11885,7 @@ return [
     'issue-1417-GS (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.0.1.90729 Mobile/12A366 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.0',
+            'Comment' => 'Opera Mini 10.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '10.0',
@@ -11900,7 +11900,7 @@ return [
     'issue-1417-GT' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/13.0.1.100754 Mobile/13B143 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 13.0',
+            'Comment' => 'Opera Mini 13.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -11943,7 +11943,7 @@ return [
     'issue-1417-GT (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/13.0.1.100754 Mobile/13B143 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 13.0',
+            'Comment' => 'Opera Mini 13.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '13.0',
@@ -11958,7 +11958,7 @@ return [
     'issue-1417-GU' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13C75 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12001,7 +12001,7 @@ return [
     'issue-1417-GU (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13C75 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '14.0',
@@ -12016,7 +12016,7 @@ return [
     'issue-1417-GV' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13E233 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12059,7 +12059,7 @@ return [
     'issue-1417-GV (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13E233 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '14.0',
@@ -12074,7 +12074,7 @@ return [
     'issue-1417-GW' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14C92 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -12117,7 +12117,7 @@ return [
     'issue-1417-GX' => [
         'ua' => 'Opera/9.80 (iPhone; Opera Mini/10.0.0/37.6334; U; en) Presto/2.12.423 Version/12.16',
         'properties' => [
-            'Comment' => 'Opera Mini 10.0',
+            'Comment' => 'Opera Mini 10.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -16397,7 +16397,7 @@ return [
     'issue-1417-JZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 MicroMessenger/6.0.2 NetType/3G+',
         'properties' => [
-            'Comment' => 'WeChat App 6.0',
+            'Comment' => 'WeChat App 6.0 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -16434,13 +16434,28 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1417-JZ (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_0_3 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B511 MicroMessenger/6.0.2 NetType/3G+',
+        'properties' => [
+            'Comment' => 'WeChat App 6.0 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1417-KA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 MicroMessenger/6.1.1 NetType/WIFI',
         'properties' => [
-            'Comment' => 'WeChat App 6.1',
+            'Comment' => 'WeChat App 6.1 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -16477,13 +16492,28 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1417-KA (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 MicroMessenger/6.1.1 NetType/WIFI',
+        'properties' => [
+            'Comment' => 'WeChat App 6.1 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1417-KB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 MicroMessenger/6.0 NetType/WIFI',
         'properties' => [
-            'Comment' => 'WeChat App 6.0',
+            'Comment' => 'WeChat App 6.0 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -16520,13 +16550,28 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1417-KB (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 MicroMessenger/6.0 NetType/WIFI',
+        'properties' => [
+            'Comment' => 'WeChat App 6.0 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1417-KC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 MicroMessenger/6.0.1 NetType/WIFI',
         'properties' => [
-            'Comment' => 'WeChat App 6.0',
+            'Comment' => 'WeChat App 6.0 for iOS',
             'Browser' => 'WeChat App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -16563,8 +16608,23 @@ return [
             'RenderingEngine_Maker' => 'Apple Inc',
         ],
         'lite' => false,
-        'standard' => true,
+        'standard' => false,
         'full' => true,
+    ],
+    'issue-1417-KC (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B411 MicroMessenger/6.0.1 NetType/WIFI',
+        'properties' => [
+            'Comment' => 'WeChat App 6.0 for iOS',
+            'Browser' => 'WeChat App',
+            'Browser_Maker' => 'Tencent Ltd.',
+            'Version' => '6.0',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-1417-KD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) YaBrowser/16.3.3.4 YaApp_iOS/3.11',
@@ -24067,7 +24127,7 @@ return [
     'issue-1417-QL' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/10.0.0.89592 Mobile/11D167 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.0',
+            'Comment' => 'Opera Mini 10.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24110,7 +24170,7 @@ return [
     'issue-1417-QM' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14E304 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24196,7 +24256,7 @@ return [
     'issue-1417-QO' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/13G36 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24239,7 +24299,7 @@ return [
     'issue-1417-QP' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14B100 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24282,7 +24342,7 @@ return [
     'issue-1417-QQ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14A456 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24325,7 +24385,7 @@ return [
     'issue-1417-QR' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) OPiOS/14.0.0.104835 Mobile/14C92 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 14.0',
+            'Comment' => 'Opera Mini 14.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24368,7 +24428,7 @@ return [
     'issue-1417-QS' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) OPiOS/12.1.1.98980 Mobile/13C75 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 12.1',
+            'Comment' => 'Opera Mini 12.1 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -24411,7 +24471,7 @@ return [
     'issue-1417-QT' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) OPiOS/10.1.1.92212 Mobile/12F69 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 10.1',
+            'Comment' => 'Opera Mini 10.1 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',

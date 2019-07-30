@@ -670,7 +670,7 @@ return [
     'issue-1939-M' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPiOS/16.0.10.121137 Mobile/15F79 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -713,7 +713,7 @@ return [
     'issue-1939-M (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPiOS/16.0.10.121137 Mobile/15F79 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 16.0',
+            'Comment' => 'Opera Mini 16.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '16.0',

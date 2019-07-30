@@ -967,7 +967,7 @@ return [
     'issue-523-U' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.80062 Mobile/11D201 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 8.0',
+            'Comment' => 'Opera Mini 8.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
@@ -1010,7 +1010,7 @@ return [
     'issue-523-U (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) OPiOS/8.0.1.80062 Mobile/11D201 Safari/9537.53',
         'properties' => [
-            'Comment' => 'Opera Mini 8.0',
+            'Comment' => 'Opera Mini 8.0 for iOS',
             'Browser' => 'Opera Mini',
             'Browser_Maker' => 'Opera Software ASA',
             'Version' => '8.0',
