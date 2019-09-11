@@ -1772,6 +1772,15 @@
       "Platform_Bits": 32
     }
   },
+  "ipadOS_dynamic": {
+    "match": "*CPU OS #MAJORVER#_#MINORVER#* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
   "ipadOS_13_0": {
     "match": "*CPU OS 13_0* like Mac OS X*",
     "lite": false,
@@ -1797,6 +1806,15 @@
       "Platform_Bits": 64
     }
   },
+  "iOS_A_dynamic_11+": {
+    "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
   "iOS_A_dynamic": {
     "match": "*CPU iPhone OS #MAJORVER#?#MINORVER#* like Mac OS X*",
     "lite": false,
@@ -1810,7 +1828,7 @@
     "match": "*CPU iPhone OS 13?0* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "13.0"
     }
@@ -1819,7 +1837,7 @@
     "match": "*CPU iPhone OS 12?4* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "12.4"
     }
@@ -1828,7 +1846,7 @@
     "match": "*CPU iPhone OS 12?3* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "12.3"
     }
@@ -1837,7 +1855,7 @@
     "match": "*CPU iPhone OS 12?2* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "12.2"
     }
@@ -1846,7 +1864,7 @@
     "match": "*CPU iPhone OS 12?1* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "12.1"
     }
@@ -1855,7 +1873,7 @@
     "match": "*CPU iPhone OS 12?0* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "12.0"
     }
@@ -1864,7 +1882,7 @@
     "match": "*CPU iPhone OS 11?4* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "11.4"
     }
@@ -1873,7 +1891,7 @@
     "match": "*CPU iPhone OS 11?3* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "11.3"
     }
@@ -1882,7 +1900,7 @@
     "match": "*CPU iPhone OS 11?2* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "11.2"
     }
@@ -1891,7 +1909,7 @@
     "match": "*CPU iPhone OS 11?1* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_A_11_0",
     "properties": {
       "Platform_Version": "11.1"
     }
@@ -1902,7 +1920,9 @@
     "standard": true,
     "inherits": "iOS",
     "properties": {
-      "Platform_Version": "11.0"
+      "Platform_Version": "11.0",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
     }
   },
   "iOS_A_10_3": {
@@ -2181,6 +2201,15 @@
     "standard": true,
     "inherits": "iOS"
   },
+  "iOS_C_dynamic_11+": {
+    "match": "*CPU OS #MAJORVER#_#MINORVER#* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_C_11_0",
+    "properties": {
+      "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
   "iOS_C_dynamic": {
     "match": "*CPU OS #MAJORVER#_#MINORVER#* like Mac OS X*",
     "lite": false,
@@ -2194,7 +2223,7 @@
     "match": "*CPU OS 12_4* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "12.4"
     }
@@ -2203,7 +2232,7 @@
     "match": "*CPU OS 12_3* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "12.3"
     }
@@ -2212,7 +2241,7 @@
     "match": "*CPU OS 12_2* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "12.2"
     }
@@ -2221,7 +2250,7 @@
     "match": "*CPU OS 12_1* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "12.1"
     }
@@ -2230,7 +2259,7 @@
     "match": "*CPU OS 12_0* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "12.0"
     }
@@ -2239,7 +2268,7 @@
     "match": "*CPU OS 11_4* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "11.4"
     }
@@ -2248,7 +2277,7 @@
     "match": "*CPU OS 11_3* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "11.3"
     }
@@ -2257,7 +2286,7 @@
     "match": "*CPU OS 11_2* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "11.2"
     }
@@ -2266,7 +2295,7 @@
     "match": "*CPU OS 11_1* like Mac OS X*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_C_11_0",
     "properties": {
       "Platform_Version": "11.1"
     }
@@ -2277,7 +2306,9 @@
     "standard": true,
     "inherits": "iOS",
     "properties": {
-      "Platform_Version": "11.0"
+      "Platform_Version": "11.0",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
     }
   },
   "iOS_C_10_3": {
@@ -2526,20 +2557,56 @@
     "standard": true,
     "inherits": "iOS"
   },
+  "iOS_I_12_3": {
+    "match": "* iOS?12.3*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_I_11_0",
+    "properties": {
+      "Platform_Version": "12.3"
+    }
+  },
+  "iOS_I_12_2": {
+    "match": "* iOS?12.2*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_I_11_0",
+    "properties": {
+      "Platform_Version": "12.2"
+    }
+  },
+  "iOS_I_12_1": {
+    "match": "* iOS?12.1*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_I_11_0",
+    "properties": {
+      "Platform_Version": "12.1"
+    }
+  },
   "iOS_I_12_0": {
     "match": "* iOS?12.0*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_I_11_0",
     "properties": {
-      "Platform_Version": "11.3"
+      "Platform_Version": "12.0"
+    }
+  },
+  "iOS_I_11_4": {
+    "match": "* iOS?11.4*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_I_11_0",
+    "properties": {
+      "Platform_Version": "11.4"
     }
   },
   "iOS_I_11_3": {
     "match": "* iOS?11.3*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_I_11_0",
     "properties": {
       "Platform_Version": "11.3"
     }
@@ -2548,7 +2615,7 @@
     "match": "* iOS?11.2*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_I_11_0",
     "properties": {
       "Platform_Version": "11.2"
     }
@@ -2557,7 +2624,7 @@
     "match": "* iOS?11.1*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_I_11_0",
     "properties": {
       "Platform_Version": "11.1"
     }
@@ -2568,7 +2635,9 @@
     "standard": true,
     "inherits": "iOS",
     "properties": {
-      "Platform_Version": "11.0"
+      "Platform_Version": "11.0",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
     }
   },
   "iOS_I_10_3": {
@@ -2596,6 +2665,24 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "10.1"
+    }
+  },
+  "iOS_I_10_0": {
+    "match": "* iOS?10.0*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "10.0"
+    }
+  },
+  "iOS_I_9_3": {
+    "match": "* iOS?9.3*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS",
+    "properties": {
+      "Platform_Version": "9.3"
     }
   },
   "iOS_I_8_4": {
@@ -2644,7 +2731,7 @@
     "match": "iOS/11.1*",
     "lite": false,
     "standard": true,
-    "inherits": "iOS",
+    "inherits": "iOS_J_11_0",
     "properties": {
       "Platform_Version": "11.1"
     }
@@ -2655,7 +2742,9 @@
     "standard": true,
     "inherits": "iOS",
     "properties": {
-      "Platform_Version": "11.0"
+      "Platform_Version": "11.0",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
     }
   },
   "iOS_J_10_3": {

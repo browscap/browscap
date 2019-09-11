@@ -1,7 +1,7 @@
 {
   "division": "Apple News #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["12.1", 12, "11.4", "11.3", "11.2", "11.1", 11, "10.3", "10.2", "10.1", 10],
-  "sortIndex": 1179,
+  "versions": ["12.4", "12.3", "12.2", "12.1", 12, "11.4", "11.3", "11.2", "11.1", 11],
+  "sortIndex": 1178,
   "lite": false,
   "standard": true,
   "userAgents": [
@@ -26,7 +26,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_dynamic"
+            "iOS_A_dynamic_11+"
           ]
         },
         {
@@ -35,14 +35,14 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_C_dynamic"
+            "iOS_C_dynamic_11+"
           ]
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) AppleNews/* Version/*",
           "platforms": [
-            "iOS_A_dynamic",
-            "iOS_C_dynamic"
+            "iOS_A_dynamic_11+",
+            "iOS_C_dynamic_11+"
           ]
         }
       ]

@@ -1,0 +1,51 @@
+{
+  "division": "Apple Mail #MAJORVER#.#MINORVER# for iOS",
+  "versions": [13],
+  "sortIndex": 1177,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Apple Mail #MAJORVER#.#MINORVER# for iOS",
+      "browser": "apple mail",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Apple Mail #MAJORVER#.#MINORVER# for iOS",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_dynamic_11+"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#DEVICE##PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_dynamic"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
+          "platforms": [
+            "iOS_A_dynamic_11+",
+            "ipadOS_dynamic"
+          ]
+        }
+      ]
+    }
+  ]
+}

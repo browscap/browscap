@@ -9,5 +9,16 @@
       "Device_Brand_Name": "General Mobile"
     },
     "standard": false
+  },
+  "General Mobile Discovery Elite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Discovery Elite",
+      "Device_Code_Name": "Discovery Elite",
+      "Device_Maker": "General Mobile",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "General Mobile"
+    },
+    "standard": false
   }
 }
