@@ -4,7 +4,7 @@ return [
     'issue-516' => [
         'ua' => 'AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari',
         'properties' => [
-            'Comment' => 'AdsBot Google-Mobile',
+            'Comment' => 'AdsBot Google-Mobile for iOS',
             'Browser' => 'AdsBot Google-Mobile',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
@@ -47,7 +47,7 @@ return [
     'issue-516 (standard)' => [
         'ua' => 'AdsBot-Google-Mobile (+http://www.google.com/mobile/adsbot.html) Mozilla (iPhone; U; CPU iPhone OS 3 0 like Mac OS X) AppleWebKit (KHTML, like Gecko) Mobile Safari',
         'properties' => [
-            'Comment' => 'AdsBot Google-Mobile',
+            'Comment' => 'AdsBot Google-Mobile for iOS',
             'Browser' => 'AdsBot Google-Mobile',
             'Browser_Maker' => 'Google Inc',
             'Version' => '0.0',
