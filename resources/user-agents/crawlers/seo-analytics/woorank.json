@@ -13,6 +13,13 @@
       },
       "children": [
         {
+          "match": "woobot/2.0*",
+          "browser": "woorank",
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
           "match": "woobot/1.1*",
           "browser": "woorank",
           "properties": {
@@ -20,11 +27,19 @@
           }
         },
         {
-          "match": "woobot/2.0*",
-          "browser": "woorank",
+          "match": "woobot*",
+          "browser": "woorank"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; woorankreview/2.0*",
+          "browser": "woorank review",
           "properties": {
             "Version": "2.0"
           }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; woorankreview/*",
+          "browser": "woorank review"
         }
       ]
     }

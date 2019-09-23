@@ -2204,6 +2204,46 @@
         {
           "match": "PostmanRuntime/*",
           "browser": "postman-runtime"
+        },
+        {
+          "match": "pyspider/*",
+          "browser": "pyspider"
+        },
+        {
+          "match": "Squirrly crawler*",
+          "browser": "squirrly crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; iSec_v2_Bot/*",
+          "browser": "isec_v2_bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; OpenindexSpider*",
+          "browser": "openindex-spider"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; OnCrawl/*",
+          "browser": "on-crawl"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; 2GDPR/*",
+          "browser": "2gdpr"
+        },
+        {
+          "match": "IVW-Crawler*",
+          "browser": "ivw-crawler"
+        },
+        {
+          "match": "Autn-WKOOP*",
+          "browser": "micro focus web-connector"
+        },
+        {
+          "match": "Alignabot*",
+          "browser": "alignabot"
+        },
+        {
+          "match": "AdsTxtCrawler/*",
+          "browser": "ads-txt-crawler"
         }
       ]
     }
