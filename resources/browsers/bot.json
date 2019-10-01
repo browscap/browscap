@@ -15110,6 +15110,15 @@
     "lite": false,
     "standard": true
   },
+  "woorank review": {
+    "type": "bot",
+    "properties": {
+      "Browser": "WooRank Review",
+      "Browser_Maker": "woorank.com"
+    },
+    "lite": false,
+    "standard": true
+  },
   "wordpress": {
     "type": "bot",
     "properties": {
@@ -16582,6 +16591,96 @@
     "properties": {
       "Browser": "Postman Runtime",
       "Browser_Maker": "Postman, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pyspider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "pyspider",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "squirrly crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Squirrly Crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "isec_v2_bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "iSec_v2_Bot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "openindex-spider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "OpenindexSpider",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "on-crawl": {
+    "type": "bot",
+    "properties": {
+      "Browser": "OnCrawl",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "2gdpr": {
+    "type": "bot",
+    "properties": {
+      "Browser": "2GDPR",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ivw-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "IVW-Crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "micro focus web-connector": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Micro Focus Web-Connector",
+      "Browser_Maker": "Micro Focus International PLC"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "alignabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Alignabot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ads-txt-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AdsTxtCrawler",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
