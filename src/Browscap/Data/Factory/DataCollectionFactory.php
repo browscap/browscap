@@ -5,6 +5,7 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
+use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 use Seld\JsonLint\JsonParser;
 use Seld\JsonLint\ParsingException;
@@ -41,17 +42,14 @@ class DataCollectionFactory
      */
     private $allDivisions = [];
 
-    /**
-     * @param LoggerInterface $logger
-     */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger, DateTimeImmutable $generationDate)
     {
         $this->logger                = $logger;
         $useragentFactory            = new UserAgentFactory();
         $this->divisionFactory       = new DivisionFactory($logger, $useragentFactory);
         $this->deviceFactory         = new DeviceFactory();
         $this->divisionDataValidator = new DivisionDataValidator();
-        $this->collection            = new DataCollection($logger);
+        $this->collection            = new DataCollection($logger, $generationDate);
     }
 
     /**

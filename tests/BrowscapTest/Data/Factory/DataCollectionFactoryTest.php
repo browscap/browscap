@@ -6,6 +6,7 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
+use DateTimeImmutable;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 
@@ -20,7 +21,7 @@ class DataCollectionFactoryTest extends TestCase
     {
         /** @var Logger $logger */
         $logger       = $this->createMock(Logger::class);
-        $this->object = new DataCollectionFactory($logger);
+        $this->object = new DataCollectionFactory($logger, new DateTimeImmutable());
     }
 
     /**
@@ -39,7 +40,7 @@ class DataCollectionFactoryTest extends TestCase
 
         $collection->expects(self::any())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
+            ->will(self::returnValue(new DateTimeImmutable()));
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
@@ -62,7 +63,7 @@ class DataCollectionFactoryTest extends TestCase
         $logger = $this->createMock(Logger::class);
 
         $collection = $this->getMockBuilder(DataCollection::class)
-            ->setConstructorArgs([$logger])
+            ->setConstructorArgs([$logger, new DateTimeImmutable()])
             ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 

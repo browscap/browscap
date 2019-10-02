@@ -9,6 +9,7 @@ use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
@@ -250,7 +251,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
+            ->will(self::returnValue(new DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -500,7 +501,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
+            ->will(self::returnValue(new DateTimeImmutable()));
         $collection
             ->expects(self::exactly(3))
             ->method('getDefaultProperties')
@@ -748,7 +749,7 @@ class BuildHelperTest extends TestCase
         $collection
             ->expects(self::once())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
+            ->will(self::returnValue(new DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -817,7 +818,7 @@ class BuildHelperTest extends TestCase
             ->method('renderSectionBody')
             ->will(self::returnSelf());
 
-        $dataCollectionFactory = new DataCollectionFactory($this->logger);
+        $dataCollectionFactory = new DataCollectionFactory($this->logger, new DateTimeImmutable());
 
         $resourceFolder = realpath(__DIR__ . '/../../../fixtures/duplicate-useragent-entries');
 

@@ -14,6 +14,7 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use DateTimeImmutable;
 use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
@@ -76,7 +77,7 @@ class LiteTest extends TestCase
             self::$writer->setFilter(self::$filter);
             $writerCollection->addWriter(self::$writer);
 
-            $dataCollectionFactory = new DataCollectionFactory($logger);
+            $dataCollectionFactory = new DataCollectionFactory($logger, new DateTimeImmutable());
 
             $buildGenerator = new BuildGenerator(
                 $resourceFolder,

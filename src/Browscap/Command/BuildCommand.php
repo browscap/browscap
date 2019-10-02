@@ -6,6 +6,7 @@ use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
+use DateTimeImmutable;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -33,6 +34,7 @@ class BuildCommand extends Command
             ->setName('build')
             ->setDescription('Parses the JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
+            ->addOption('generation-date', null, InputOption::VALUE_OPTIONAL, 'Override the generation date (defaults to "now")', 'now')
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
             ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage')
@@ -53,14 +55,18 @@ class BuildCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $logger->info('Build started.');
+        /** @var string $version */
+        $version = $input->getArgument('version');
+        $generationDate = new DateTimeImmutable($input->getOption('generation-date'));
+
+        $logger->info(sprintf('Build started (%s, generated %s).', $version, $generationDate->format(DATE_ATOM)));
 
         /** @var string $buildFolder */
         $buildFolder = $input->getOption('output');
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
-        $dataCollectionFactory   = new DataCollectionFactory($logger);
+        $dataCollectionFactory   = new DataCollectionFactory($logger, $generationDate);
 
         /** @var string $resources */
         $resources = $input->getOption('resources');
@@ -82,9 +88,6 @@ class BuildCommand extends Command
         if (false !== $input->getOption('no-zip')) {
             $createZip = false;
         }
-
-        /** @var string $version */
-        $version = $input->getArgument('version');
 
         $buildGenerator->run($version, $createZip);
 

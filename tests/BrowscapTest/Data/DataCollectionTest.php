@@ -8,6 +8,7 @@ use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Engine;
 use Browscap\Data\Platform;
+use DateTimeImmutable;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use OutOfBoundsException;
@@ -24,7 +25,7 @@ class DataCollectionTest extends TestCase
     {
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
-        $this->object = new DataCollection($logger);
+        $this->object = new DataCollection($logger, new DateTimeImmutable());
     }
 
     /**
@@ -39,7 +40,7 @@ class DataCollectionTest extends TestCase
 
         $testDateTime = $this->object->getGenerationDate();
 
-        self::assertInstanceOf(\DateTimeImmutable::class, $testDateTime);
+        self::assertInstanceOf(DateTimeImmutable::class, $testDateTime);
 
         $testTime = $testDateTime->getTimestamp();
         self::assertGreaterThanOrEqual($minTime, $testTime);

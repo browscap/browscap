@@ -2,6 +2,7 @@
 declare(strict_types = 1);
 namespace Browscap\Data;
 
+use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 
 class DataCollection
@@ -47,7 +48,7 @@ class DataCollection
     private $divisionsHaveBeenSorted = false;
 
     /**
-     * @var \DateTimeImmutable
+     * @var DateTimeImmutable
      */
     private $generationDate;
 
@@ -59,10 +60,10 @@ class DataCollection
     /**
      * @param LoggerInterface $logger
      */
-    public function __construct(LoggerInterface $logger)
+    public function __construct(LoggerInterface $logger, DateTimeImmutable $generationDate)
     {
         $this->logger         = $logger;
-        $this->generationDate = new \DateTimeImmutable();
+        $this->generationDate = $generationDate;
     }
 
     /**
@@ -305,9 +306,9 @@ class DataCollection
     /**
      * Get the generation DateTime object
      *
-     * @return \DateTimeImmutable
+     * @return DateTimeImmutable
      */
-    public function getGenerationDate() : \DateTimeImmutable
+    public function getGenerationDate() : DateTimeImmutable
     {
         return $this->generationDate;
     }

@@ -14,6 +14,7 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
@@ -84,7 +85,7 @@ class LiteTest extends TestCase
             self::$writer->setFilter(self::$filter);
             $writerCollection->addWriter(self::$writer);
 
-            $dataCollectionFactory = new DataCollectionFactory($logger);
+            $dataCollectionFactory = new DataCollectionFactory($logger, new DateTimeImmutable());
 
             $buildGenerator = new BuildGenerator(
                 $resourceFolder,
