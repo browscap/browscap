@@ -660,7 +660,7 @@
     "type": "multimedia-player",
     "properties": {
       "Browser": "WinAmp",
-      "Browser_Maker": "unknown"
+      "Browser_Maker": "Nullsoft"
     },
     "lite": false,
     "standard": true
@@ -688,6 +688,33 @@
     "properties": {
       "Browser": "poddirectory",
       "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "lavf": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Lavf",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ka-radio": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Ka-Radio",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "alexa": {
+    "type": "multimedia-player",
+    "properties": {
+      "Browser": "Alexa",
+      "Browser_Maker": "Amazon.com, Inc."
     },
     "lite": false,
     "standard": true

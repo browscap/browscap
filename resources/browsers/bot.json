@@ -16684,5 +16684,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "avs-device-sdk": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Alexa Voice Service Device SDK",
+      "Browser_Maker": "Amazon.com, Inc."
+    },
+    "lite": false,
+    "standard": true
   }
 }

@@ -133,9 +133,6 @@
           "properties": {
             "Version": "12.0"
           }
-        },
-        {
-          "match": "Lavf*"
         }
       ]
     }

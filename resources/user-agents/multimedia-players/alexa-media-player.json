@@ -1,0 +1,45 @@
+{
+  "division": "Alexa MediaPlayer",
+  "sortIndex": 1530,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Alexa MediaPlayer",
+      "browser": "alexa mediaplayer",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Alexa MediaPlayer"
+      },
+      "children": [
+        {
+          "match": "AlexaMediaPlayer/5.3* (Linux;Android*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Version": "5.3"
+          }
+        },
+        {
+          "match": "AlexaMediaPlayer/2.0* (Linux;Android*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ],
+          "properties": {
+            "Version": "2.0"
+          }
+        },
+        {
+          "match": "AlexaMediaPlayer/* (Linux;Android*",
+          "device": "general Mobile Phone (Touch)",
+          "platforms": [
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
