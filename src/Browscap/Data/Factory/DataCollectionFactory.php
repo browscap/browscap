@@ -42,14 +42,14 @@ class DataCollectionFactory
      */
     private $allDivisions = [];
 
-    public function __construct(LoggerInterface $logger, DateTimeImmutable $generationDate)
+    public function __construct(LoggerInterface $logger)
     {
         $this->logger                = $logger;
         $useragentFactory            = new UserAgentFactory();
         $this->divisionFactory       = new DivisionFactory($logger, $useragentFactory);
         $this->deviceFactory         = new DeviceFactory();
         $this->divisionDataValidator = new DivisionDataValidator();
-        $this->collection            = new DataCollection($logger, $generationDate);
+        $this->collection            = new DataCollection($logger);
     }
 
     /**

@@ -77,7 +77,7 @@ class StandardTest extends TestCase
             self::$writer->setFilter(self::$filter);
             $writerCollection->addWriter(self::$writer);
 
-            $dataCollectionFactory = new DataCollectionFactory($logger, new DateTimeImmutable());
+            $dataCollectionFactory = new DataCollectionFactory($logger);
 
             $buildGenerator = new BuildGenerator(
                 $resourceFolder,
@@ -88,7 +88,7 @@ class StandardTest extends TestCase
             );
 
             $buildGenerator->setCollectPatternIds(true);
-            $buildGenerator->run($version, false);
+            $buildGenerator->run($version, new DateTimeImmutable(), false);
 
             $memoryCache = new ArrayCache();
             $cache       = new SimpleCacheAdapter($memoryCache);

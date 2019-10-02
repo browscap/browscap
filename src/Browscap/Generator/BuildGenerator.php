@@ -69,13 +69,14 @@ final class BuildGenerator implements GeneratorInterface
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */
-    public function run(string $buildVersion, bool $createZipFile = true) : void
+    public function run(string $buildVersion, \DateTimeImmutable $generationDate, bool $createZipFile = true) : void
     {
         $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
         $this->logger->info('Build folder: ' . $this->buildFolder . '');
 
         Helper\BuildHelper::run(
             $buildVersion,
+            $generationDate,
             $this->resourceFolder,
             $this->logger,
             $this->writerCollection,

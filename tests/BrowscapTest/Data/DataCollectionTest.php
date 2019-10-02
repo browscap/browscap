@@ -28,25 +28,6 @@ class DataCollectionTest extends TestCase
         $this->object = new DataCollection($logger, new DateTimeImmutable());
     }
 
-    /**
-     * tests getting the generation date
-     */
-    public function testGetGenerationDate() : void
-    {
-        // Time isn't always exact, so allow a few seconds grace either way...
-        $currentTime = time();
-        $minTime     = $currentTime - 3;
-        $maxTime     = $currentTime + 3;
-
-        $testDateTime = $this->object->getGenerationDate();
-
-        self::assertInstanceOf(DateTimeImmutable::class, $testDateTime);
-
-        $testTime = $testDateTime->getTimestamp();
-        self::assertGreaterThanOrEqual($minTime, $testTime);
-        self::assertLessThanOrEqual($maxTime, $testTime);
-    }
-
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void
     {
         $this->expectException(OutOfBoundsException::class);

@@ -10,6 +10,7 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Generator\DirectoryMissingException;
 use Browscap\Generator\NotADirectoryException;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
@@ -236,13 +237,9 @@ class BuildGeneratorTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -306,7 +303,7 @@ class BuildGeneratorTest extends TestCase
         $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(false);
 
-        $generator->run('test', false);
+        $generator->run('test', new DateTimeImmutable(), false);
     }
 
     /**
@@ -484,13 +481,9 @@ class BuildGeneratorTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -554,6 +547,6 @@ class BuildGeneratorTest extends TestCase
         $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(true);
 
-        $generator->run('test', false);
+        $generator->run('test', new DateTimeImmutable(), false);
     }
 }

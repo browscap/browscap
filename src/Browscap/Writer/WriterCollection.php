@@ -93,13 +93,13 @@ class WriterCollection
      * @param string         $version
      * @param DataCollection $collection
      */
-    public function renderVersion(string $version, DataCollection $collection) : void
+    public function renderVersion(string $version, \DateTimeImmutable $generationDate, DataCollection $collection) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(
                 [
                     'version' => $version,
-                    'released' => $collection->getGenerationDate()->format('r'),
+                    'released' => $generationDate->format('r'),
                     'format' => $writer->getFormatter()->getType(),
                     'type' => $writer->getFilter()->getType(),
                 ]

@@ -66,7 +66,7 @@ class BuildCommand extends Command
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
-        $dataCollectionFactory   = new DataCollectionFactory($logger, $generationDate);
+        $dataCollectionFactory   = new DataCollectionFactory($logger);
 
         /** @var string $resources */
         $resources = $input->getOption('resources');
@@ -89,7 +89,7 @@ class BuildCommand extends Command
             $createZip = false;
         }
 
-        $buildGenerator->run($version, $createZip);
+        $buildGenerator->run($version, $generationDate, $createZip);
 
         $logger->info('Build done.');
 
