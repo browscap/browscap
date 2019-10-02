@@ -25,7 +25,7 @@ class DataCollectionTest extends TestCase
     {
         $logger = new Logger('browscap');
         $logger->pushHandler(new NullHandler(Logger::DEBUG));
-        $this->object = new DataCollection($logger, new DateTimeImmutable());
+        $this->object = new DataCollection($logger);
     }
 
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void

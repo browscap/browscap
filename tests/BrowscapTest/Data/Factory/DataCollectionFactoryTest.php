@@ -21,7 +21,7 @@ class DataCollectionFactoryTest extends TestCase
     {
         /** @var Logger $logger */
         $logger       = $this->createMock(Logger::class);
-        $this->object = new DataCollectionFactory($logger, new DateTimeImmutable());
+        $this->object = new DataCollectionFactory($logger);
     }
 
     /**

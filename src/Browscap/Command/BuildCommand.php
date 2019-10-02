@@ -57,7 +57,11 @@ class BuildCommand extends Command
 
         /** @var string $version */
         $version        = $input->getArgument('version');
-        $generationDate = new DateTimeImmutable($input->getOption('generation-date'));
+
+        /** @var string $rawGenerationDate */
+        $rawGenerationDate = $input->getOption('generation-date');
+
+        $generationDate = new DateTimeImmutable($rawGenerationDate);
 
         $logger->info(sprintf('Build started (%s, generated %s).', $version, $generationDate->format(DATE_ATOM)));
 

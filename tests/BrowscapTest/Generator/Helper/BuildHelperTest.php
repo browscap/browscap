@@ -806,7 +806,7 @@ class BuildHelperTest extends TestCase
             ->method('renderSectionBody')
             ->will(self::returnSelf());
 
-        $dataCollectionFactory = new DataCollectionFactory($this->logger, new DateTimeImmutable());
+        $dataCollectionFactory = new DataCollectionFactory($this->logger);
 
         $resourceFolder = realpath(__DIR__ . '/../../../fixtures/duplicate-useragent-entries');
 
