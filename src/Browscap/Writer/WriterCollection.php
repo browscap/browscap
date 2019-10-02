@@ -91,8 +91,9 @@ class WriterCollection
     /**
      * renders the version information
      *
-     * @param string         $version
-     * @param DataCollection $collection
+     * @param string            $version
+     * @param DataCollection    $collection
+     * @param DateTimeImmutable $generationDate
      */
     public function renderVersion(string $version, DateTimeImmutable $generationDate, DataCollection $collection) : void
     {

@@ -270,7 +270,7 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', new DateTimeImmutable(),'.', $this->logger, $writerCollection, $collectionCreator);
+        BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**

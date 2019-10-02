@@ -14,6 +14,14 @@ use Psr\Log\LoggerInterface;
 final class BuildHelper
 {
     /**
+     * @param string                $buildVersion
+     * @param DateTimeImmutable     $generationDate
+     * @param string                $resourceFolder
+     * @param LoggerInterface       $logger
+     * @param WriterCollection      $writerCollection
+     * @param DataCollectionFactory $dataCollectionFactory
+     * @param bool                  $collectPatternIds
+     *
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */
