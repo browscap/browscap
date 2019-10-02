@@ -4,6 +4,7 @@ namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
+use DateTimeImmutable;
 
 /**
  * a collection of writers to be able to write multiple files at once
@@ -93,7 +94,7 @@ class WriterCollection
      * @param string         $version
      * @param DataCollection $collection
      */
-    public function renderVersion(string $version, \DateTimeImmutable $generationDate, DataCollection $collection) : void
+    public function renderVersion(string $version, DateTimeImmutable $generationDate, DataCollection $collection) : void
     {
         foreach ($this->writers as $writer) {
             $writer->renderVersion(

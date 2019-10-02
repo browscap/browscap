@@ -2,7 +2,6 @@
 declare(strict_types = 1);
 namespace Browscap\Data;
 
-use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 
 class DataCollection

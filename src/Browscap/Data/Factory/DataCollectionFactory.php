@@ -5,7 +5,6 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
-use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 use Seld\JsonLint\JsonParser;
 use Seld\JsonLint\ParsingException;
