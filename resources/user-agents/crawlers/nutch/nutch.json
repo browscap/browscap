@@ -45,6 +45,12 @@
           "match": "fetch/Nutch*"
         },
         {
+          "match": "*Nutch?1.4*",
+          "properties": {
+            "Version": "1.4"
+          }
+        },
+        {
           "match": "*Nutch?1.6*",
           "properties": {
             "Version": "1.6"

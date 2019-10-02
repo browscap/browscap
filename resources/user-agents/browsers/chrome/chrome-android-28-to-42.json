@@ -143,7 +143,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "GT-P1000": "Samsung GT-P1000",
+            "GT-P1000*": "Samsung GT-P1000",
             "Huawei Y511": "Huawei Y511",
             "IQ4404": "Fly IQ4404",
             "K01E": "Asus K01E",

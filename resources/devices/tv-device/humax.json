@@ -9,5 +9,38 @@
       "Device_Brand_Name": "Humax"
     },
     "standard": true
+  },
+  "Humax CXHD-5100C": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "CXHD-5100C",
+      "Device_Code_Name": "CXHD-5100C",
+      "Device_Maker": "Humax",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Humax"
+    },
+    "standard": true
+  },
+  "Humax HDR-1000S": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "HDR-1000S",
+      "Device_Code_Name": "HDR-1000S",
+      "Device_Maker": "Humax",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Humax"
+    },
+    "standard": true
+  },
+  "Humax iCord Mini": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "iCord Mini",
+      "Device_Code_Name": "iCord Mini",
+      "Device_Maker": "Humax",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Humax"
+    },
+    "standard": true
   }
 }

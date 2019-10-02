@@ -1,6 +1,6 @@
 {
   "division": "CoolNovo #MAJORVER#.#MINORVER#",
-  "versions": [2],
+  "versions": [2, "1.6"],
   "sortIndex": 883,
   "lite": false,
   "standard": true,

@@ -348,8 +348,8 @@ return [
     'issue-865-I' => [
         'ua' => 'Mozilla/5.0 (compatible; Google-Structured-Data-Testing-Tool +http://developers.google.com/structured-data/testing-tool/)',
         'properties' => [
-            'Comment' => 'Google Structured-Data TestingTool',
-            'Browser' => 'Google Structured-Data TestingTool',
+            'Comment' => 'Google Structured-Data Testing Tool',
+            'Browser' => 'Google Structured-Data Testing Tool',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',

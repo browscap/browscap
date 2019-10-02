@@ -213,6 +213,7 @@
           "devices": {
             "HTC; 7 Mozart": "HTC T8698",
             "HTC; 7 Pro T7576": "HTC T7576",
+            "HTC; HD7 T9292": "HTC T9292",
             "HTC; Windows Phone 8S by HTC": "HTC 8S",
             "LG; LG-E900": "LG E900",
             "NOKIA; Lumia 1520*": "Nokia Lumia 1520",
@@ -222,7 +223,8 @@
             "NOKIA; Lumia 920*": "Nokia Lumia 920",
             "NOKIA; Lumia 925*": "Nokia Lumia 925",
             "NOKIA; Lumia 930*": "Nokia Lumia 930",
-            "SAMSUNG; OMNIA7": "Samsung GT-I8700"
+            "SAMSUNG; OMNIA7": "Samsung GT-I8700",
+            "SAMSUNG; SGH-i917": "Samsung SGH-I917"
           },
           "platforms": [
             "WinPhone7"

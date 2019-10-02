@@ -133,7 +133,7 @@ return [
     'issue-497-D' => [
         'ua' => 'Mozilla/5.0 (compatible; MojeekBot/0.6; +https://www.mojeek.com/bot.html)',
         'properties' => [
-            'Comment' => 'Search Engines',
+            'Comment' => 'MojeekBot',
             'Browser' => 'MojeekBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

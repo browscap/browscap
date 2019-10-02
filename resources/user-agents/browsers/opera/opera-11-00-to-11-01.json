@@ -194,6 +194,15 @@
           ]
         },
         {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Sony; KDL32CX525": "Sony KDL32CX525"
+          },
+          "platforms": [
+            "Linux_MIPS"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
           "device": "general TV Device",
           "platforms": [

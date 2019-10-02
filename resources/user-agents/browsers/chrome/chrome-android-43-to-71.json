@@ -74,6 +74,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
+            "G3123": "Sony G3123",
             "ID bot 53": "Logicom ID Bot 53",
             "M Bot 60": "Logicom M Bot 60"
           },
@@ -451,6 +452,7 @@
             "F3112": "Sony F3112",
             "Flare_HD_MAX": "Cherry Mobile Flare HD Max",
             "FRD-L19": "Huawei FRD-L19",
+            "G3123": "Sony G3123",
             "Infinix X559C": "Infinix X559C",
             "itel S32": "Itel S32",
             "Lenovo P2a42": "Lenovo P2a42",
@@ -777,7 +779,7 @@
           "devices": {
             "Alcatel 7046T": "Alcatel 7046T",
             "C6916": "Sony C6916",
-            "GT-P1000": "Samsung GT-P1000",
+            "GT-P1000*": "Samsung GT-P1000",
             "Huawei Y511": "Huawei Y511",
             "IQ4404": "Fly IQ4404",
             "K01E": "Asus K01E",

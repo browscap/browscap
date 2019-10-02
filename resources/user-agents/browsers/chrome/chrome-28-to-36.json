@@ -17,6 +17,15 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*#DEVICE#; *",
+          "devices": {
+            "CHANGHONG; TV55": "Changhong TV55"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Linux Desktop",
           "platforms": [

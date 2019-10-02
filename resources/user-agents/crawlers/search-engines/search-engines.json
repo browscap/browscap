@@ -355,10 +355,6 @@
           "browser": "earthcom"
         },
         {
-          "match": "Mozilla/5.0 (compatible; MojeekBot/*; http://www.mojeek.com/bot.html)",
-          "browser": "mojeekbot"
-        },
-        {
           "match": "NL-Crawler*",
           "browser": "northern light web search"
         },
@@ -671,17 +667,6 @@
         {
           "match": "Acoon* (*www.acoon.de)",
           "browser": "acoonbot"
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; MojeekBot/0.6*",
-          "browser": "mojeekbot",
-          "properties": {
-            "Version": "0.6"
-          }
-        },
-        {
-          "match": "Mozilla/5.0 (compatible; MojeekBot/*",
-          "browser": "mojeekbot"
         },
         {
           "match": "Mozilla/5.1 (compatible; MonoBot/1.0*",

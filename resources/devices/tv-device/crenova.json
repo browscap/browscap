@@ -1,0 +1,13 @@
+{
+  "CreNova CNV001": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "CNV001",
+      "Device_Code_Name": "CNV001",
+      "Device_Maker": "CreNova",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "CreNova"
+    },
+    "standard": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "Bang-Olufsen Audi A3": {
+    "type": "car-entertainment-system",
+    "properties": {
+      "Device_Name": "Audi A3",
+      "Device_Code_Name": "Audi A3",
+      "Device_Maker": "Bang & Olufsen",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Bang & Olufsen"
+    },
+    "standard": true
+  }
+}

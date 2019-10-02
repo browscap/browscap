@@ -1,0 +1,30 @@
+{
+  "division": "OmniWeb #MAJORVER#.#MINORVER#",
+  "versions": [7],
+  "sortIndex": 2683,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "OmniWeb #MAJORVER#.#MINORVER#",
+      "browser": "omniweb",
+      "platform": "OSX",
+      "engine": "WebKit",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OmniWeb #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko,*safari*) *Version/#MAJORVER#.#MINORVER#* Safari/* OmniWeb/*",
+          "platforms": [
+            "OSX_10_10", "OSX_10_9",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

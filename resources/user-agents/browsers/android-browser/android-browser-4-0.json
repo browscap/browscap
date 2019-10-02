@@ -253,6 +253,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
             "6036Y": "Alcatel OT-6036Y",
+            "HTC_One_max": "HTC One Max",
             "HUAWEI Y530-U00": "Huawei Y530-U00",
             "K1 turbo": "Kingzone KZ-168",
             "MediaPad T1 8.0": "Huawei S8-701u",
@@ -1831,7 +1832,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.*Safari/*",
           "devices": {
-            "Micromax A28": "Micromax A28"
+            "Micromax A28": "Micromax A28",
+            "NOOK BNTV250A": "Barnes & Noble Nook BNTV250A"
           },
           "platforms": [
             "Android_2_3"

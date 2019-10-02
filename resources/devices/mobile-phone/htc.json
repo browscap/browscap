@@ -923,6 +923,17 @@
     },
     "standard": false
   },
+  "HTC One Max": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "One Max",
+      "Device_Code_Name": "One Max",
+      "Device_Maker": "HTC",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "HTC"
+    },
+    "standard": false
+  },
   "HTC M7": {
     "type": "mobile-phone",
     "properties": {
@@ -1949,7 +1960,7 @@
   "HTC Z715e": {
     "type": "mobile-phone",
     "properties": {
-      "Device_Name": "Sensation XE Beats Z715e",
+      "Device_Name": "Sensation XE with Beats Audio",
       "Device_Code_Name": "Z715e",
       "Device_Maker": "HTC",
       "Device_Pointing_Method": "touchscreen",

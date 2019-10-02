@@ -271,11 +271,8 @@
           "browser": "rssbandit"
         },
         {
-          "match": "RssBar/1.2*",
-          "browser": "rssbar",
-          "properties": {
-            "Version": "1.2"
-          }
+          "match": "RssBar/*",
+          "browser": "rssbar"
         },
         {
           "match": "SharpReader/*",

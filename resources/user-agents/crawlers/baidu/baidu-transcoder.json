@@ -1,0 +1,36 @@
+{
+  "division": "baidu Transcoder",
+  "sortIndex": 1070,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "baidu Transcoder",
+      "browser": "baidu transcoder",
+      "device": "Windows Desktop",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "baidu Transcoder"
+      },
+      "children": [
+        {
+          "match": "*baidu Transcoder*"
+        },
+        {
+          "match": "Mozilla/4.0 (compatible; MSIE 6.0*; #PLATFORM#baidu Transcoder*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win2000"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#baidu Transcoder) Gecko* Firefox/3.6*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "WinXPa_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

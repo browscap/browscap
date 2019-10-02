@@ -162,10 +162,28 @@
           ]
         },
         {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "BANGOLUFSEN; A3": "Bang-Olufsen Audi A3"
+          },
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
           "match": "Opera/9.80*(#PLATFORM#)*Version/#MAJORVER#.#MINORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
+          ]
+        },
+        {
+          "match": "Opera/9.80*(#PLATFORM##DEVICE#; *)*Version/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "Airties;Air7210": "Airties Air7210"
+          },
+          "platforms": [
+            "Linux_MIPS"
           ]
         },
         {

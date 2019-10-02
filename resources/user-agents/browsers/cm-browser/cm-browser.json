@@ -149,7 +149,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/*Chrome/*Safari/* ACHEETAHI/*",
           "engine": "Blink",
           "devices": {
-            "GT-N7105": "Samsung GT-N7105",
+            "GT-N7105*": "Samsung GT-N7105",
             "Honor": "Huawei U8860"
           },
           "platforms": [

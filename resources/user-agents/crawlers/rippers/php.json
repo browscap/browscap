@@ -45,33 +45,42 @@
         },
         {
           "match": "PHP-SOAP/5.2*",
+          "browser": "php-soap",
           "properties": {
             "Version": "5.2"
           }
         },
         {
           "match": "PHP-SOAP/5.3*",
+          "browser": "php-soap",
           "properties": {
             "Version": "5.3"
           }
         },
         {
           "match": "PHP-SOAP/5.4*",
+          "browser": "php-soap",
           "properties": {
             "Version": "5.4"
           }
         },
         {
           "match": "PHP-SOAP/5.5*",
+          "browser": "php-soap",
           "properties": {
             "Version": "5.5"
           }
         },
         {
           "match": "PHP-SOAP/5.6*",
+          "browser": "php-soap",
           "properties": {
             "Version": "5.6"
           }
+        },
+        {
+          "match": "PHP-SOAP/*",
+          "browser": "php-soap"
         },
         {
           "match": "XML-RPC for PHP *",
@@ -143,6 +152,10 @@
         {
           "match": "Taproot*",
           "browser": "taproot bot"
+        },
+        {
+          "match": "PHPCrawl*",
+          "browser": "phpcrawl"
         }
       ]
     }

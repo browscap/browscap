@@ -108,5 +108,27 @@
       "Device_Brand_Name": "Sony"
     },
     "standard": true
+  },
+  "Sony BDP9G AXD": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "BDP9G AXD",
+      "Device_Code_Name": "BDP9G AXD",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
+  },
+  "Sony KDL32CX525": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "KDL32CX525",
+      "Device_Code_Name": "KDL32CX525",
+      "Device_Maker": "Sony",
+      "Device_Pointing_Method": "mouse",
+      "Device_Brand_Name": "Sony"
+    },
+    "standard": true
   }
 }

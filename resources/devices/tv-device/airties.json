@@ -1,0 +1,13 @@
+{
+  "Airties Air7210": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "Air7210",
+      "Device_Code_Name": "Air7210",
+      "Device_Maker": "Airties",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Airties"
+    },
+    "standard": true
+  }
+}

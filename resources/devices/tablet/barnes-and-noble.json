@@ -42,5 +42,16 @@
       "Device_Brand_Name": "Barnes & Noble"
     },
     "standard": true
+  },
+  "Barnes & Noble Nook BNTV250A": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "Nook BNTV250A",
+      "Device_Code_Name": "Nook BNTV250A",
+      "Device_Maker": "Barnes & Noble",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Barnes & Noble"
+    },
+    "standard": true
   }
 }

@@ -1,0 +1,38 @@
+{
+  "division": "LG Browser #MAJORVER#.#MINORVER#",
+  "versions": ["5.00"],
+  "sortIndex": 1773,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LG Browser #MAJORVER#.#MINORVER#",
+      "browser": "lg browser",
+      "platform": "Maemo_ARM",
+      "engine": "WebKit",
+      "device": "general TV Device",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LG Browser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* LG Browser/#MAJORVER#.#MINORVER#*#DEVICE#*",
+          "devices": {
+            "LGE; 47LM9600-NA": "LG 47LM9600-NA"
+          },
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Safari/* LG Browser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Maemo_ARM"
+          ]
+        }
+      ]
+    }
+  ]
+}

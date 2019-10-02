@@ -13,6 +13,12 @@
       },
       "children": [
         {
+          "match": "TurnitinBot/3.0*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
           "match": "TurnitinBot/2.1*",
           "properties": {
             "Version": "2.1"

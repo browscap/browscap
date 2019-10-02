@@ -13,6 +13,12 @@
       },
       "children": [
         {
+          "match": "bitlybot/3.*",
+          "properties": {
+            "Version": "3.0"
+          }
+        },
+        {
           "match": "bitlybot/2.*",
           "properties": {
             "Version": "2.0"

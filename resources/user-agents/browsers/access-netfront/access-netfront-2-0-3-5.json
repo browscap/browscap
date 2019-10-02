@@ -69,7 +69,10 @@
             "SonyEricssonW760i": "SonyEricsson W760i",
             "SonyEricssonW980": "SonyEricsson W980",
             "SonyEricssonW995": "SonyEricsson W995"
-          }
+          },
+          "platforms": [
+            "JAVA"
+          ]
         },
         {
           "match": "Mozilla/4.0 (compatible; Linux*NetFront/#MAJORVER#.#MINORVER#* #DEVICE#/*",

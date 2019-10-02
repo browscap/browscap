@@ -22,6 +22,29 @@
           "match": "Mozilla/5.0 (compatible; GrapeshotCrawler/*; +http://www.grapeshot.co.uk/crawler.php)"
         },
         {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; GrapeshotCrawler/2.0*",
+          "properties": {
+            "Version": "2.0"
+          },
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_8_3",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/* Safari/* (compatible; GrapeshotCrawler/*",
+          "devices": {
+            "iPhone": "iPhone"
+          },
+          "platforms": [
+            "iOS_A_8_3",
+            "iOS_A"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk",
           "browser": "grapefx",
           "properties": {

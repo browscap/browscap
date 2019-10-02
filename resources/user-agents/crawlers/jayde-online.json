@@ -24,6 +24,10 @@
           "browser": "exactseek crawler"
         },
         {
+          "match": "ExactSeek Crawler (nutch*",
+          "browser": "exactseek crawler"
+        },
+        {
           "match": "exactseek-pagereaper-* (crawler@exactseek.com)",
           "browser": "exactseek-pagereaper"
         },

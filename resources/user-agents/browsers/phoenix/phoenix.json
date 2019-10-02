@@ -1,17 +1,17 @@
 {
-  "division": "Phoenix Generic",
+  "division": "Phoenix",
   "sortIndex": 17582,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Phoenix Generic",
+      "userAgent": "Phoenix",
       "browser": "phoenix",
       "engine": "Gecko_1",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Phoenix Generic"
+        "Comment": "Phoenix"
       },
       "children": [
         {

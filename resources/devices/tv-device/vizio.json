@@ -1,0 +1,13 @@
+{
+  "Vizio VAP430": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "VAP430",
+      "Device_Code_Name": "VAP430",
+      "Device_Maker": "Vizio",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Vizio"
+    },
+    "standard": true
+  }
+}

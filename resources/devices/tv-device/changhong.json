@@ -1,0 +1,13 @@
+{
+  "Changhong TV55": {
+    "type": "tv",
+    "properties": {
+      "Device_Name": "TV55",
+      "Device_Code_Name": "TV55",
+      "Device_Maker": "Changhong",
+      "Device_Pointing_Method": "unknown",
+      "Device_Brand_Name": "Changhong"
+    },
+    "standard": true
+  }
+}
