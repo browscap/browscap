@@ -8,7 +8,6 @@ use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Engine;
 use Browscap\Data\Platform;
-use DateTimeImmutable;
 use Monolog\Handler\NullHandler;
 use Monolog\Logger;
 use OutOfBoundsException;

@@ -56,7 +56,7 @@ class BuildCommand extends Command
         $logger       = $loggerHelper->create($output);
 
         /** @var string $version */
-        $version        = $input->getArgument('version');
+        $version = $input->getArgument('version');
 
         /** @var string $rawGenerationDate */
         $rawGenerationDate = $input->getOption('generation-date');
