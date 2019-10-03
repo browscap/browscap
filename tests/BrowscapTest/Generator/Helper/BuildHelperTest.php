@@ -9,6 +9,7 @@ use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
@@ -244,13 +245,9 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -273,7 +270,7 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator);
+        BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
@@ -494,13 +491,9 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(3))
             ->method('getDefaultProperties')
@@ -523,7 +516,7 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator);
+        BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
@@ -742,13 +735,9 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate', 'getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
         $collection
             ->expects(self::exactly(2))
             ->method('getDefaultProperties')
@@ -771,7 +760,7 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->will(self::returnValue($collection));
 
-        BuildHelper::run('test', '.', $this->logger, $writerCollection, $collectionCreator, true);
+        BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator, true);
     }
 
     /**
@@ -826,6 +815,7 @@ class BuildHelperTest extends TestCase
 
         BuildHelper::run(
             'test',
+            new DateTimeImmutable(),
             (string) $resourceFolder,
             $this->logger,
             $writerCollection,

@@ -6,6 +6,8 @@ use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
+use DateTimeImmutable;
+use DateTimeZone;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -24,6 +26,9 @@ class BuildCommand extends Command
      */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
+    /** @var string */
+    private const DEFAULT_GENERATION_DATE = 'now';
+
     protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
@@ -33,6 +38,7 @@ class BuildCommand extends Command
             ->setName('build')
             ->setDescription('Parses the JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
+            ->addOption('generation-date', null, InputOption::VALUE_OPTIONAL, 'Override the generation date (defaults to "now")', self::DEFAULT_GENERATION_DATE)
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
             ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage')
@@ -53,7 +59,15 @@ class BuildCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        $logger->info('Build started.');
+        /** @var string $version */
+        $version = $input->getArgument('version');
+
+        /** @var string $rawGenerationDate */
+        $rawGenerationDate = $input->getOption('generation-date');
+
+        $generationDate = new DateTimeImmutable($rawGenerationDate, new DateTimeZone('UTC'));
+
+        $logger->info(sprintf('Build started (%s, generated %s).', $version, $generationDate->format(DATE_ATOM)));
 
         /** @var string $buildFolder */
         $buildFolder = $input->getOption('output');
@@ -83,10 +97,7 @@ class BuildCommand extends Command
             $createZip = false;
         }
 
-        /** @var string $version */
-        $version = $input->getArgument('version');
-
-        $buildGenerator->run($version, $createZip);
+        $buildGenerator->run($version, $generationDate, $createZip);
 
         $logger->info('Build done.');
 

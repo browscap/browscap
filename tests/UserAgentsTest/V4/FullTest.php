@@ -14,6 +14,7 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use DateTimeImmutable;
 use Doctrine\Common\Cache\ArrayCache;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
@@ -87,7 +88,7 @@ class FullTest extends TestCase
             );
 
             $buildGenerator->setCollectPatternIds(true);
-            $buildGenerator->run($version, false);
+            $buildGenerator->run($version, new DateTimeImmutable(), false);
 
             $memoryCache = new ArrayCache();
             $cache       = new SimpleCacheAdapter($memoryCache);

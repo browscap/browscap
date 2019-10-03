@@ -6,6 +6,7 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
+use DateTimeImmutable;
 use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
 
@@ -39,7 +40,7 @@ class DataCollectionFactoryTest extends TestCase
 
         $collection->expects(self::any())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
+            ->will(self::returnValue(new DateTimeImmutable()));
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);

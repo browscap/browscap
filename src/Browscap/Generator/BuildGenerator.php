@@ -4,6 +4,7 @@ namespace Browscap\Generator;
 
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
@@ -63,19 +64,21 @@ final class BuildGenerator implements GeneratorInterface
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string $buildVersion
-     * @param bool   $createZipFile
+     * @param string            $buildVersion
+     * @param DateTimeImmutable $generationDate
+     * @param bool              $createZipFile
      *
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */
-    public function run(string $buildVersion, bool $createZipFile = true) : void
+    public function run(string $buildVersion, DateTimeImmutable $generationDate, bool $createZipFile = true) : void
     {
         $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
         $this->logger->info('Build folder: ' . $this->buildFolder . '');
 
         Helper\BuildHelper::run(
             $buildVersion,
+            $generationDate,
             $this->resourceFolder,
             $this->logger,
             $this->writerCollection,

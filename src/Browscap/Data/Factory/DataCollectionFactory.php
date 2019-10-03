@@ -41,9 +41,6 @@ class DataCollectionFactory
      */
     private $allDivisions = [];
 
-    /**
-     * @param LoggerInterface $logger
-     */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger                = $logger;

@@ -8,6 +8,7 @@ use Browscap\Filter\FullFilter;
 use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use org\bovigo\vfs\vfsStreamDirectory;
@@ -172,13 +173,7 @@ class WriterCollectionTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate'])
             ->getMock();
-
-        $collection
-            ->expects(self::once())
-            ->method('getGenerationDate')
-            ->will(self::returnValue(new \DateTimeImmutable()));
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
@@ -221,7 +216,7 @@ class WriterCollectionTest extends TestCase
             ->will(self::returnValue($mockFormatter));
 
         $this->object->addWriter($mockWriter);
-        $this->object->renderVersion($version, $collection);
+        $this->object->renderVersion($version, new DateTimeImmutable(), $collection);
         $this->object->close();
     }
 

@@ -47,11 +47,6 @@ class DataCollection
     private $divisionsHaveBeenSorted = false;
 
     /**
-     * @var \DateTimeImmutable
-     */
-    private $generationDate;
-
-    /**
      * @var LoggerInterface
      */
     private $logger;
@@ -61,8 +56,7 @@ class DataCollection
      */
     public function __construct(LoggerInterface $logger)
     {
-        $this->logger         = $logger;
-        $this->generationDate = new \DateTimeImmutable();
+        $this->logger = $logger;
     }
 
     /**
@@ -300,15 +294,5 @@ class DataCollection
         }
 
         return $this->devices[$device];
-    }
-
-    /**
-     * Get the generation DateTime object
-     *
-     * @return \DateTimeImmutable
-     */
-    public function getGenerationDate() : \DateTimeImmutable
-    {
-        return $this->generationDate;
     }
 }

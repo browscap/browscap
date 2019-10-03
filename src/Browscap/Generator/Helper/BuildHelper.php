@@ -8,12 +8,14 @@ use Browscap\Data\Helper\SplitVersion;
 use Browscap\Data\Helper\VersionNumber;
 use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
+use DateTimeImmutable;
 use Psr\Log\LoggerInterface;
 
 final class BuildHelper
 {
     /**
      * @param string                $buildVersion
+     * @param DateTimeImmutable     $generationDate
      * @param string                $resourceFolder
      * @param LoggerInterface       $logger
      * @param WriterCollection      $writerCollection
@@ -25,6 +27,7 @@ final class BuildHelper
      */
     public static function run(
         string $buildVersion,
+        DateTimeImmutable $generationDate,
         string $resourceFolder,
         LoggerInterface $logger,
         WriterCollection $writerCollection,
@@ -47,7 +50,7 @@ final class BuildHelper
 
         $comments = [
             'Provided courtesy of http://browscap.org/',
-            'Created on ' . $collection->getGenerationDate()->format('l, F j, Y \a\t h:i A T'),
+            'Created on ' . $generationDate->format('l, F j, Y \a\t h:i A T'),
             'Keep up with the latest goings-on with the project:',
             'Follow us on Twitter <https://twitter.com/browscap>, or...',
             'Like us on Facebook <https://facebook.com/browscap>, or...',
@@ -56,7 +59,7 @@ final class BuildHelper
 
         $writerCollection->fileStart();
         $writerCollection->renderHeader($comments);
-        $writerCollection->renderVersion($buildVersion, $collection);
+        $writerCollection->renderVersion($buildVersion, $generationDate, $collection);
 
         $logger->info('finished output of header and version');
 

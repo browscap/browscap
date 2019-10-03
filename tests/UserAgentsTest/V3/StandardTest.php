@@ -14,6 +14,7 @@ use Browscap\Writer\WriterCollection;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
+use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
 use WurflCache\Adapter\File;
@@ -95,7 +96,7 @@ class StandardTest extends TestCase
             );
 
             $buildGenerator->setCollectPatternIds(true);
-            $buildGenerator->run($version, false);
+            $buildGenerator->run($version, new DateTimeImmutable(), false);
 
             $cache = new File([File::DIR => $cacheFolder]);
             $cache->flush();
