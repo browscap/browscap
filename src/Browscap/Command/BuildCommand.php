@@ -7,6 +7,7 @@ use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use DateTimeImmutable;
+use DateTimeZone;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -64,7 +65,7 @@ class BuildCommand extends Command
         /** @var string $rawGenerationDate */
         $rawGenerationDate = $input->getOption('generation-date');
 
-        $generationDate = new DateTimeImmutable($rawGenerationDate);
+        $generationDate = new DateTimeImmutable($rawGenerationDate, new DateTimeZone('UTC'));
 
         $logger->info(sprintf('Build started (%s, generated %s).', $version, $generationDate->format(DATE_ATOM)));
 
