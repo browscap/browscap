@@ -65,8 +65,8 @@ final class BuildGenerator implements GeneratorInterface
      * Entry point for generating builds for a specified version
      *
      * @param string            $buildVersion
-     * @param bool              $createZipFile
      * @param DateTimeImmutable $generationDate
+     * @param bool              $createZipFile
      *
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
