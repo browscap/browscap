@@ -63,7 +63,7 @@ class DataCollectionFactoryTest extends TestCase
         $logger = $this->createMock(Logger::class);
 
         $collection = $this->getMockBuilder(DataCollection::class)
-            ->setConstructorArgs([$logger, new DateTimeImmutable()])
+            ->setConstructorArgs([$logger])
             ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
