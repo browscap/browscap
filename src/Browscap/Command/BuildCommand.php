@@ -25,6 +25,9 @@ class BuildCommand extends Command
      */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
+    /** @var string */
+    private const DEFAULT_GENERATION_DATE = 'now';
+
     protected function configure() : void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
@@ -34,7 +37,7 @@ class BuildCommand extends Command
             ->setName('build')
             ->setDescription('Parses the JSON source files and builds the INI files')
             ->addArgument('version', InputArgument::REQUIRED, 'Version number to apply')
-            ->addOption('generation-date', null, InputOption::VALUE_OPTIONAL, 'Override the generation date (defaults to "now")', 'now')
+            ->addOption('generation-date', null, InputOption::VALUE_OPTIONAL, 'Override the generation date (defaults to "now")', self::DEFAULT_GENERATION_DATE)
             ->addOption('output', null, InputOption::VALUE_REQUIRED, 'Where to output the build files to', $defaultBuildFolder)
             ->addOption('resources', null, InputOption::VALUE_REQUIRED, 'Where the resource files are located', $defaultResourceFolder)
             ->addOption('coverage', null, InputOption::VALUE_NONE, 'Collect and build with pattern ids useful for coverage')
