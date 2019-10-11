@@ -1,6 +1,6 @@
 {
   "division": "OPPO Browser #MAJORVER#.#MINORVER#",
-  "versions": ["4.9", "4.2", "2.2", 2],
+  "versions": ["25.6", "25.5", "15.6", "15.5", "10.6", "10.5", "4.9", "4.2", "2.2", 2],
   "sortIndex": 1141,
   "lite": false,
   "standard": true,
@@ -50,6 +50,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* OppoBrowser/#MAJORVER#.#MINORVER#.*",
           "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1",

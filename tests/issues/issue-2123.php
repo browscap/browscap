@@ -1552,13 +1552,13 @@ return [
     'issue-2123-AK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 9; en-US; SM-G965F Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/12.11.2.1184 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'UC Browser 12.1 for Android',
+            'Comment' => 'UC Browser 12.11 for Android',
             'Browser' => 'UC Browser',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'UCWeb Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '12.1',
+            'Version' => '12.11',
             'Platform' => 'Android',
             'Platform_Version' => '9.0',
             'Platform_Description' => 'Android OS',

@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_13_0",
+            "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A"
           ]
         },
@@ -34,7 +34,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_13_0",
+            "ipadOS_13_1", "ipadOS_13_0",
             "ipadOS"
           ]
         },
