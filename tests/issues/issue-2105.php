@@ -160,7 +160,7 @@ return [
             'isModified' => false,
             'CssVersion' => '3',
             'Device_Name' => 'Pixel 3',
-            'Device_Maker' => 'HTC',
+            'Device_Maker' => 'Foxconn',
             'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'Pixel 3',

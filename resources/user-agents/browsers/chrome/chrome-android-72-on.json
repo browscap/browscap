@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for Android",
-  "versions": [77, 76, 75, 74, 73, 72],
+  "versions": [79, 78, 77, 76, 75, 74, 73, 72],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
@@ -18,11 +18,26 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "Pixel 3 XL": "Google Pixel 3 XL",
+            "Pixel 3": "Google Pixel 3",
+            "Pixel 3a XL": "Google Pixel 3a XL",
+            "Pixel 3a": "Google Pixel 3a"
+          },
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "COR-AL00": "Huawei COR-AL00",
             "Mi A1": "Xiaomi Mi A1",
             "ONEPLUS A6000": "OnePlus A6000",
+            "Pixel 2 XL": "Google Pixel 2 XL",
+            "Pixel XL": "Google Pixel XL",
             "SM-T510": "Samsung SM-T510"
           },
           "platforms": [
@@ -1048,6 +1063,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -1061,6 +1077,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",

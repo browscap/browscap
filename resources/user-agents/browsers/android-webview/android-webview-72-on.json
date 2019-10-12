@@ -1,6 +1,6 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [77, 76, 75, 74, 73, 72],
+  "versions": [79, 78, 77, 76, 75, 74, 73, 72],
   "sortIndex": 954,
   "lite": true,
   "standard": true,
@@ -253,6 +253,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -266,6 +267,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "device": "general Tablet",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",

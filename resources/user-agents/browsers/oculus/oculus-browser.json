@@ -1,6 +1,6 @@
 {
   "division": "Oculus Browser #MAJORVER#.#MINORVER#",
-  "versions": ["5.2", 5, "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.8", "3.7", "3.6", "3.1"],
+  "versions": ["6.1", 6, "5.2", 5, "4.7", "4.6", "4.5", "4.4", "4.3", "4.2", "4.1", 4, "3.8", "3.7", "3.6", "3.1"],
   "sortIndex": 954,
   "lite": false,
   "standard": true,
@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
           "devices": {
             "SM-G935F": "Samsung SM-G935F",
             "SM-G955U": "Samsung SM-G955U"
@@ -28,8 +28,9 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OculusBrowser/#MAJORVER#.#MINORVER#* SamsungBrowser/*Chrome*VR*Safari*",
           "platforms": [
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

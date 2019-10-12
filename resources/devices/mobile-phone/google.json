@@ -37,7 +37,40 @@
     "properties": {
       "Device_Name": "Pixel 3",
       "Device_Code_Name": "Pixel 3",
-      "Device_Maker": "HTC",
+      "Device_Maker": "Foxconn",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
+  "Google Pixel 3 XL": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel 3 XL",
+      "Device_Code_Name": "Pixel 3 XL",
+      "Device_Maker": "Foxconn",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
+  "Google Pixel 3a": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel 3a",
+      "Device_Code_Name": "Pixel 3a",
+      "Device_Maker": "Foxconn",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
+  "Google Pixel 3a XL": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel 3a XL",
+      "Device_Code_Name": "Pixel 3a XL",
+      "Device_Maker": "Foxconn",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Google"
     },

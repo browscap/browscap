@@ -121,6 +121,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Mobile Safari/* OPR/*",
           "platforms": [
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -134,6 +136,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

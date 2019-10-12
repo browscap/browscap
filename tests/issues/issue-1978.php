@@ -335,13 +335,13 @@ return [
     'issue-1978-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) OPT/1.10.36 Mobile/15G77',
         'properties' => [
-            'Comment' => 'Opera Touch Generic',
+            'Comment' => 'Opera Touch 1.10',
             'Browser' => 'Opera Touch',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.0',
+            'Version' => '1.10',
             'Platform' => 'iOS',
             'Platform_Version' => '11.4',
             'Platform_Description' => 'iPod, iPhone & iPad',

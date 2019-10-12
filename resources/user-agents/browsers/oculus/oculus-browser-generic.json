@@ -16,8 +16,9 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*) OculusBrowser/* SamsungBrowser/*Chrome*VR*Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) OculusBrowser/* SamsungBrowser/*Chrome*VR*Safari*",
           "platforms": [
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
