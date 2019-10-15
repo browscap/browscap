@@ -557,6 +557,8 @@ class Expander
                 $deviceProperties['Device_Type'] = 'unknown';
             } elseif ('TV' === $deviceType->getName()) {
                 $deviceProperties['Device_Type'] = 'TV Device';
+            } elseif ('Mobile Console' === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'Console';
             } else {
                 $deviceProperties['Device_Type'] = $deviceType->getName();
             }
