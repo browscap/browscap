@@ -3,7 +3,8 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use Localheinz\Json\Normalizer;
+use Ergebnis\Json\Normalizer;
+use Ergebnis\Json\Printer\Printer;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -39,6 +40,9 @@ class RewriteTestFixturesCommand extends Command
             true
         );
 
+        $printer   = new Printer();
+        $formatter = new Normalizer\Format\Formatter($printer);
+
         $finder = new Finder();
         $finder->files();
         $finder->name('*.json');
@@ -60,7 +64,7 @@ class RewriteTestFixturesCommand extends Command
             }
 
             try {
-                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format))->normalize(Normalizer\Json::fromEncoded($json));
+                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
             } catch (\Throwable $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 

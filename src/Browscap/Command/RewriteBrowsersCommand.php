@@ -3,7 +3,10 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use Localheinz\Json\Normalizer;
+use Ergebnis\Json\Normalizer;
+use Ergebnis\Json\Printer\Printer;
+use JsonSchema\SchemaStorage;
+use JsonSchema\Validator;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -47,13 +50,19 @@ class RewriteBrowsersCommand extends Command
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/browsers.json');
 
-        $normalizer = new Normalizer\SchemaNormalizer($schema);
-        $format     = new Normalizer\Format\Format(
+        $normalizer = new Normalizer\SchemaNormalizer(
+            $schema,
+            new SchemaStorage(),
+            new Normalizer\Validator\SchemaValidator(new Validator())
+        );
+        $format = new Normalizer\Format\Format(
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
             true
         );
+        $printer   = new Printer();
+        $formatter = new Normalizer\Format\Formatter($printer);
 
         $finder = new Finder();
         $finder->files();
@@ -76,7 +85,7 @@ class RewriteBrowsersCommand extends Command
             }
 
             try {
-                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format))->normalize(Normalizer\Json::fromEncoded($json));
+                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
             } catch (\Throwable $e) {
                 $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 

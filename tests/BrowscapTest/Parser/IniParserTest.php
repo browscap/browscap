@@ -28,7 +28,7 @@ final class IniParserTest extends TestCase
     public function testConstructorSetsFilename() : void
     {
         $parser = new IniParser('foobar');
-        static::assertSame('foobar', $parser->getFilename());
+        self::assertSame('foobar', $parser->getFilename());
     }
 
     /**
@@ -42,15 +42,15 @@ final class IniParserTest extends TestCase
         $parser = new IniParser('');
 
         // Test the default value
-        static::assertAttributeSame(false, 'shouldSort', $parser);
+        self::assertAttributeSame(false, 'shouldSort', $parser);
 
         // Test setting it to true
         $parser->setShouldSort(true);
-        static::assertAttributeSame(true, 'shouldSort', $parser);
+        self::assertAttributeSame(true, 'shouldSort', $parser);
 
         // Test setting it back to false
         $parser->setShouldSort(false);
-        static::assertAttributeSame(false, 'shouldSort', $parser);
+        self::assertAttributeSame(false, 'shouldSort', $parser);
     }
 
     /**
@@ -63,13 +63,13 @@ final class IniParserTest extends TestCase
     {
         $parser = new IniParser('');
 
-        static::assertFalse($parser->shouldSort());
+        self::assertFalse($parser->shouldSort());
 
         $parser->setShouldSort(true);
-        static::assertTrue($parser->shouldSort());
+        self::assertTrue($parser->shouldSort());
 
         $parser->setShouldSort(false);
-        static::assertFalse($parser->shouldSort());
+        self::assertFalse($parser->shouldSort());
     }
 
     /**
@@ -105,7 +105,7 @@ final class IniParserTest extends TestCase
 
         $sortMethod = new \ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
         $sortMethod->setAccessible(true);
-        static::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
+        self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
 
     /**
@@ -139,7 +139,7 @@ HERE;
             'test=test',
         ];
 
-        static::assertSame($expected, $out);
+        self::assertSame($expected, $out);
     }
 
     /**
@@ -190,7 +190,7 @@ HERE;
             'test=test',
         ];
 
-        static::assertSame($expected, $out);
+        self::assertSame($expected, $out);
     }
 
     /**
@@ -206,7 +206,7 @@ HERE;
         $parser = new IniParser('');
         $parser->setFileLines($lines);
 
-        static::assertSame($lines, $parser->getFileLines());
+        self::assertSame($lines, $parser->getFileLines());
     }
 
     /**
@@ -252,9 +252,9 @@ HERE;
 
         $data = $parser->parse();
 
-        static::assertSame($data, $parser->getParsed());
+        self::assertSame($data, $parser->getParsed());
 
-        static::assertSame($expected, $data);
+        self::assertSame($expected, $data);
     }
 
     /**
@@ -299,7 +299,7 @@ HERE;
 
         $data = $parser->parse();
 
-        static::assertSame($expected, $data);
+        self::assertSame($expected, $data);
     }
 
     /**

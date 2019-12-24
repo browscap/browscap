@@ -52,14 +52,14 @@ final class ProcessorTest extends TestCase
             []
         );
 
-        static::assertSame($expected['statementCount'], count($coverage['statementMap']));
-        static::assertSame($expected['statementCount'], count($coverage['s']));
+        self::assertSame($expected['statementCount'], count($coverage['statementMap']));
+        self::assertSame($expected['statementCount'], count($coverage['s']));
 
-        static::assertSame($expected['branchCount'], count($coverage['branchMap']));
-        static::assertSame($expected['branchCount'], count($coverage['b']));
+        self::assertSame($expected['branchCount'], count($coverage['branchMap']));
+        self::assertSame($expected['branchCount'], count($coverage['b']));
 
-        static::assertSame($expected['functionCount'], count($coverage['fnMap']));
-        static::assertSame($expected['functionCount'], count($coverage['f']));
+        self::assertSame($expected['functionCount'], count($coverage['fnMap']));
+        self::assertSame($expected['functionCount'], count($coverage['f']));
     }
 
     /**
@@ -137,8 +137,8 @@ final class ProcessorTest extends TestCase
             $coveredIds
         );
 
-        static::assertSame($expected['s'], array_sum($coverage['s']));
-        static::assertSame($expected['f'], array_sum($coverage['f']));
+        self::assertSame($expected['s'], array_sum($coverage['s']));
+        self::assertSame($expected['f'], array_sum($coverage['f']));
 
         $branchSum = 0;
 
@@ -146,7 +146,7 @@ final class ProcessorTest extends TestCase
             $branchSum += array_sum($branch);
         }
 
-        static::assertSame($expected['b'], $branchSum);
+        self::assertSame($expected['b'], $branchSum);
     }
 
     /**
@@ -163,7 +163,7 @@ final class ProcessorTest extends TestCase
 
         $this->object->setCoveredPatternIds($patternIds);
 
-        static::assertSame(
+        self::assertSame(
             [
                 'abc.json' => ['u0::c0::d::p', 'u0::c1::d::p'],
                 'def.json' => ['u0::c1::d::p'],

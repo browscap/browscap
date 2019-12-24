@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fa59e98cc1b852bb7742a221e23dbf2",
+    "content-hash": "36bfa00f09a9e5e130d1e18945bdbfd9",
     "packages": [
         {
             "name": "beberlei/assert",
-            "version": "v3.2.6",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/beberlei/assert.git",
-                "reference": "99508be011753690fe108ded450f5caaae180cfa"
+                "reference": "d63a6943fc4fd1a2aedb65994e3548715105abcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/beberlei/assert/zipball/99508be011753690fe108ded450f5caaae180cfa",
-                "reference": "99508be011753690fe108ded450f5caaae180cfa",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/d63a6943fc4fd1a2aedb65994e3548715105abcf",
+                "reference": "d63a6943fc4fd1a2aedb65994e3548715105abcf",
                 "shasum": ""
             },
             "require": {
@@ -66,27 +66,140 @@
                 "assertion",
                 "validation"
             ],
-            "time": "2019-10-10T10:33:57+00:00"
+            "time": "2019-12-19T17:51:41+00:00"
         },
         {
-            "name": "justinrainbow/json-schema",
-            "version": "5.2.8",
+            "name": "ergebnis/json-normalizer",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4"
+                "url": "https://github.com/ergebnis/json-normalizer.git",
+                "reference": "0948169c680527940928d166b447a044b9c9e71e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/dcb6e1006bb5fd1e392b4daa68932880f37550d4",
-                "reference": "dcb6e1006bb5fd1e392b4daa68932880f37550d4",
+                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/0948169c680527940928d166b447a044b9c9e71e",
+                "reference": "0948169c680527940928d166b447a044b9c9e71e",
+                "shasum": ""
+            },
+            "require": {
+                "ergebnis/json-printer": "^3.0.2",
+                "ext-json": "*",
+                "justinrainbow/json-schema": "^4.0.0 || ^5.0.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "ergebnis/php-cs-fixer-config": "~1.1.2",
+                "ergebnis/phpstan-rules": "~0.14.2",
+                "ergebnis/test-util": "~0.9.1",
+                "infection/infection": "~0.13.6",
+                "jangregor/phpstan-prophecy": "~0.4.2",
+                "phpbench/phpbench": "~0.16.10",
+                "phpstan/extension-installer": "^1.0.3",
+                "phpstan/phpstan": "~0.11.19",
+                "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpunit/phpunit": "^7.5.18"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Json\\Normalizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides normalizers for normalizing JSON documents.",
+            "homepage": "https://github.com/ergebnis/json-normalizer",
+            "keywords": [
+                "json",
+                "normalizer"
+            ],
+            "time": "2019-12-19T16:36:22+00:00"
+        },
+        {
+            "name": "ergebnis/json-printer",
+            "version": "3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/json-printer.git",
+                "reference": "c7985dc4879777f2e4ab689da25bdd49f59dd2cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/json-printer/zipball/c7985dc4879777f2e4ab689da25bdd49f59dd2cb",
+                "reference": "c7985dc4879777f2e4ab689da25bdd49f59dd2cb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "ergebnis/php-cs-fixer-config": "~1.1.1",
+                "ergebnis/phpstan-rules": "~0.14.1",
+                "ergebnis/test-util": "~0.9.0",
+                "infection/infection": "~0.13.6",
+                "phpbench/phpbench": "~0.16.10",
+                "phpstan/extension-installer": "^1.0.3",
+                "phpstan/phpstan": "~0.11.19",
+                "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpunit/phpunit": "^7.5.18"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Json\\Printer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides a JSON printer, allowing for flexible indentation.",
+            "homepage": "https://github.com/ergebnis/json-printer",
+            "keywords": [
+                "formatter",
+                "json",
+                "printer"
+            ],
+            "time": "2019-12-19T14:42:54+00:00"
+        },
+        {
+            "name": "justinrainbow/json-schema",
+            "version": "5.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/justinrainbow/json-schema.git",
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/44c6787311242a979fa15c704327c20e7221a0e4",
+                "reference": "44c6787311242a979fa15c704327c20e7221a0e4",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.2.20",
+                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
                 "json-schema/json-schema-test-suite": "1.2.0",
                 "phpunit/phpunit": "^4.8.35"
             },
@@ -132,135 +245,34 @@
                 "json",
                 "schema"
             ],
-            "time": "2019-01-14T23:55:14+00:00"
-        },
-        {
-            "name": "localheinz/json-normalizer",
-            "version": "0.9.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/localheinz/json-normalizer.git",
-                "reference": "28eeda6f1f0daa3c9c28ad0651d95478fe1a5059"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/json-normalizer/zipball/28eeda6f1f0daa3c9c28ad0651d95478fe1a5059",
-                "reference": "28eeda6f1f0daa3c9c28ad0651d95478fe1a5059",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "justinrainbow/json-schema": "^4.0.0 || ^5.0.0",
-                "localheinz/json-printer": "^2.0.1",
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "infection/infection": "~0.10.5",
-                "localheinz/php-cs-fixer-config": "~1.15.0",
-                "localheinz/test-util": "~0.7.0",
-                "phpbench/phpbench": "~0.14.0",
-                "phpstan/phpstan": "~0.10.3",
-                "phpunit/phpunit": "^7.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Localheinz\\Json\\Normalizer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Möller",
-                    "email": "am@localheinz.com"
-                }
-            ],
-            "description": "Provides normalizers for normalizing JSON documents.",
-            "homepage": "https://github.com/localheinz/json-normalizer",
-            "keywords": [
-                "json",
-                "normalizer"
-            ],
-            "time": "2018-10-07T17:36:39+00:00"
-        },
-        {
-            "name": "localheinz/json-printer",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/localheinz/json-printer.git",
-                "reference": "86f942599c8f9f922de4e21c2b9b6564c895cb0c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/json-printer/zipball/86f942599c8f9f922de4e21c2b9b6564c895cb0c",
-                "reference": "86f942599c8f9f922de4e21c2b9b6564c895cb0c",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "infection/infection": "~0.8.1",
-                "localheinz/php-cs-fixer-config": "~1.14.0",
-                "localheinz/test-util": "0.6.1",
-                "phpbench/phpbench": "~0.14.0",
-                "phpunit/phpunit": "^6.5.7"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Localheinz\\Json\\Printer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Möller",
-                    "email": "am@localheinz.com"
-                }
-            ],
-            "description": "Provides a JSON printer, allowing for flexible indentation.",
-            "homepage": "https://github.com/localheinz/json-printer",
-            "keywords": [
-                "formatter",
-                "json",
-                "printer"
-            ],
-            "time": "2018-08-11T23:54:50+00:00"
+            "time": "2019-09-25T14:49:45+00:00"
         },
         {
             "name": "mimmi20/browser-detector-loader-interface",
-            "version": "3.0.1",
+            "version": "3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browser-detector-loader-interface.git",
-                "reference": "af5b110f33db87461caefcd0280e0e17d2689cde"
+                "reference": "22e5eb6bbca5004dbe62bd963795cb8f4516240c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/af5b110f33db87461caefcd0280e0e17d2689cde",
-                "reference": "af5b110f33db87461caefcd0280e0e17d2689cde",
+                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/22e5eb6bbca5004dbe62bd963795cb8f4516240c",
+                "reference": "22e5eb6bbca5004dbe62bd963795cb8f4516240c",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
-                "localheinz/composer-normalize": "^1.1.0",
-                "localheinz/phpstan-rules": "^0.8 || ^0.9",
-                "pepakriz/phpstan-exception-rules": "^0.7 || ^0.8",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-deprecation-rules": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "squizlabs/php_codesniffer": "^3.4"
+                "friendsofphp/php-cs-fixer": "^2.16.0",
+                "localheinz/composer-normalize": "^1.3.1",
+                "localheinz/phpstan-rules": "^0.13.0",
+                "pepakriz/phpstan-exception-rules": "^0.9.0",
+                "phpstan/phpstan": "^0.11.19",
+                "phpstan/phpstan-deprecation-rules": "^0.11.2",
+                "phpstan/phpstan-strict-rules": "^0.11.1",
+                "squizlabs/php_codesniffer": "^3.5.2"
             },
             "type": "library",
             "autoload": {
@@ -284,20 +296,20 @@
                 }
             ],
             "description": "the source interface for the browscap helper",
-            "time": "2019-05-28T18:42:44+00:00"
+            "time": "2019-11-20T15:39:01+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
-            "version": "7.0.5",
+            "version": "7.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-browser-type.git",
-                "reference": "ff718b13eafa0f257140ee63046931939569c735"
+                "reference": "69305a9c69a2920b8eea52533867e286b3914c68"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/ff718b13eafa0f257140ee63046931939569c735",
-                "reference": "ff718b13eafa0f257140ee63046931939569c735",
+                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/69305a9c69a2920b8eea52533867e286b3914c68",
+                "reference": "69305a9c69a2920b8eea52533867e286b3914c68",
                 "shasum": ""
             },
             "require": {
@@ -305,17 +317,17 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
-                "infection/infection": "^0.12.0 || ^0.13.0",
-                "localheinz/composer-normalize": "^1.1.0",
-                "localheinz/phpstan-rules": "^0.12.2",
-                "pepakriz/phpstan-exception-rules": "^0.7 || ^0.8",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-deprecation-rules": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^7.5 || ^8.0",
-                "squizlabs/php_codesniffer": "^3.4"
+                "friendsofphp/php-cs-fixer": "^2.16.0",
+                "infection/infection": "^0.13.6",
+                "localheinz/composer-normalize": "^1.3.1",
+                "localheinz/phpstan-rules": "^0.13.0",
+                "pepakriz/phpstan-exception-rules": "^0.9.0",
+                "phpstan/phpstan": "^0.11.19",
+                "phpstan/phpstan-deprecation-rules": "^0.11.2",
+                "phpstan/phpstan-phpunit": "^0.11.2",
+                "phpstan/phpstan-strict-rules": "^0.11.1",
+                "phpunit/phpunit": "^7.5.17 || ^8.4.0",
+                "squizlabs/php_codesniffer": "^3.5.2"
             },
             "type": "library",
             "autoload": {
@@ -347,20 +359,20 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2019-10-11T07:18:45+00:00"
+            "time": "2019-11-20T15:40:01+00:00"
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.3",
+            "version": "7.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "ce7cde3021859e5b9462ceae1f121fcd1e709ba8"
+                "reference": "d933257dacc5bccc39cbb34dc9240ffe44328495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/ce7cde3021859e5b9462ceae1f121fcd1e709ba8",
-                "reference": "ce7cde3021859e5b9462ceae1f121fcd1e709ba8",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/d933257dacc5bccc39cbb34dc9240ffe44328495",
+                "reference": "d933257dacc5bccc39cbb34dc9240ffe44328495",
                 "shasum": ""
             },
             "require": {
@@ -368,17 +380,17 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.15",
-                "infection/infection": "^0.12.0 || ^0.13.0",
-                "localheinz/composer-normalize": "^1.1.0",
-                "localheinz/phpstan-rules": "^0.8 || ^0.9",
-                "pepakriz/phpstan-exception-rules": "^0.7 || ^0.8",
-                "phpstan/phpstan": "^0.11",
-                "phpstan/phpstan-deprecation-rules": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^7.5 || ^8.0",
-                "squizlabs/php_codesniffer": "^3.4"
+                "friendsofphp/php-cs-fixer": "^2.16.0",
+                "infection/infection": "^0.13.6",
+                "localheinz/composer-normalize": "^1.3.1",
+                "localheinz/phpstan-rules": "^0.13.0",
+                "pepakriz/phpstan-exception-rules": "^0.9.0",
+                "phpstan/phpstan": "^0.11.19",
+                "phpstan/phpstan-deprecation-rules": "^0.11.2",
+                "phpstan/phpstan-phpunit": "^0.11.2",
+                "phpstan/phpstan-strict-rules": "^0.11.1",
+                "phpunit/phpunit": "^7.5.17 || ^8.4.0",
+                "squizlabs/php_codesniffer": "^3.5.2"
             },
             "type": "library",
             "autoload": {
@@ -410,20 +422,20 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2019-05-28T20:25:53+00:00"
+            "time": "2019-11-20T15:39:22+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.1",
+            "version": "1.25.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf"
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
-                "reference": "70e65a5470a42cfec1a7da00d30edb6e617e8dcf",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fa82921994db851a8becaf3787a9e73c5976b6f1",
+                "reference": "fa82921994db851a8becaf3787a9e73c5976b6f1",
                 "shasum": ""
             },
             "require": {
@@ -488,7 +500,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2019-09-06T13:49:17+00:00"
+            "time": "2019-12-20T14:15:16+00:00"
         },
         {
             "name": "psr/container",
@@ -541,16 +553,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -559,7 +571,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -584,20 +596,20 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-11-20T15:27:04+00:00"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38"
+                "reference": "e2e5d290e4d2a4f0eb449f510071392e00e10d19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/d15f59a67ff805a44c50ea0516d2341740f81a38",
-                "reference": "d15f59a67ff805a44c50ea0516d2341740f81a38",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/e2e5d290e4d2a4f0eb449f510071392e00e10d19",
+                "reference": "e2e5d290e4d2a4f0eb449f510071392e00e10d19",
                 "shasum": ""
             },
             "require": {
@@ -633,31 +645,32 @@
                 "parser",
                 "validator"
             ],
-            "time": "2018-01-24T12:46:19+00:00"
+            "time": "2019-10-24T14:27:39+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "929ddf360d401b958f611d44e726094ab46a7369"
+                "reference": "82437719dab1e6bdd28726af14cb345c2ec816d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/929ddf360d401b958f611d44e726094ab46a7369",
-                "reference": "929ddf360d401b958f611d44e726094ab46a7369",
+                "url": "https://api.github.com/repos/symfony/console/zipball/82437719dab1e6bdd28726af14cb345c2ec816d0",
+                "reference": "82437719dab1e6bdd28726af14cb345c2ec816d0",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php73": "^1.8",
-                "symfony/service-contracts": "^1.1"
+                "symfony/service-contracts": "^1.1|^2"
             },
             "conflict": {
                 "symfony/dependency-injection": "<3.4",
-                "symfony/event-dispatcher": "<4.3",
+                "symfony/event-dispatcher": "<4.3|>=5",
+                "symfony/lock": "<4.4",
                 "symfony/process": "<3.3"
             },
             "provide": {
@@ -665,12 +678,12 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~3.4|~4.0",
-                "symfony/dependency-injection": "~3.4|~4.0",
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
                 "symfony/event-dispatcher": "^4.3",
-                "symfony/lock": "~3.4|~4.0",
-                "symfony/process": "~3.4|~4.0",
-                "symfony/var-dumper": "^4.3"
+                "symfony/lock": "^4.4|^5.0",
+                "symfony/process": "^3.4|^4.0|^5.0",
+                "symfony/var-dumper": "^4.3|^5.0"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
@@ -681,7 +694,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -708,20 +721,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-07T12:36:49+00:00"
+            "time": "2019-12-17T10:32:23+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "5e575faa95548d0586f6bedaeabec259714e44d1"
+                "reference": "ce8743441da64c41e2a667b8eb66070444ed911e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/5e575faa95548d0586f6bedaeabec259714e44d1",
-                "reference": "5e575faa95548d0586f6bedaeabec259714e44d1",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/ce8743441da64c41e2a667b8eb66070444ed911e",
+                "reference": "ce8743441da64c41e2a667b8eb66070444ed911e",
                 "shasum": ""
             },
             "require": {
@@ -730,7 +743,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -757,20 +770,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-16T11:29:48+00:00"
+            "time": "2019-11-17T21:56:56+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4"
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/550ebaac289296ce228a706d0867afc34687e3f4",
-                "reference": "550ebaac289296ce228a706d0867afc34687e3f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
                 "shasum": ""
             },
             "require": {
@@ -782,7 +795,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -815,20 +828,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/b42a2f66e8f1b15ccf25652c3424265923eb4f17",
-                "reference": "b42a2f66e8f1b15ccf25652c3424265923eb4f17",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -840,7 +853,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -874,20 +887,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188"
+                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/2ceb49eaccb9352bff54d22570276bb75ba4a188",
-                "reference": "2ceb49eaccb9352bff54d22570276bb75ba4a188",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/4b0e2222c55a25b4541305a053013d5647d3a25f",
+                "reference": "4b0e2222c55a25b4541305a053013d5647d3a25f",
                 "shasum": ""
             },
             "require": {
@@ -896,7 +909,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -932,20 +945,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T16:25:15+00:00"
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v1.1.7",
+            "version": "v1.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "ffcde9615dc5bb4825b9f6aed07716f1f57faae0"
+                "reference": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/ffcde9615dc5bb4825b9f6aed07716f1f57faae0",
-                "reference": "ffcde9615dc5bb4825b9f6aed07716f1f57faae0",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
+                "reference": "ffc7f5692092df31515df2a5ecf3b7302b3ddacf",
                 "shasum": ""
             },
             "require": {
@@ -990,20 +1003,20 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2019-09-17T11:12:18+00:00"
+            "time": "2019-10-14T12:27:06+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v2.12.0",
+            "version": "v2.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "c7a85fd08348ca04b4d8f234f49583d9910906aa"
+                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c7a85fd08348ca04b4d8f234f49583d9910906aa",
-                "reference": "c7a85fd08348ca04b4d8f234f49583d9910906aa",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
+                "reference": "d761fd1f1c6b867ae09a7d8119a6d95d06dc44ed",
                 "shasum": ""
             },
             "require": {
@@ -1057,45 +1070,46 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-10-05T16:42:38+00:00"
+            "time": "2019-11-11T16:52:09+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "browscap/browscap-php",
-            "version": "4.2.0",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "b6ca3db5df6015ecae8cdd3a488cd53ab1a31e49"
+                "reference": "2a20cc8c61c8aea918409dab59010587dfd6db7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/b6ca3db5df6015ecae8cdd3a488cd53ab1a31e49",
-                "reference": "b6ca3db5df6015ecae8cdd3a488cd53ab1a31e49",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/2a20cc8c61c8aea918409dab59010587dfd6db7e",
+                "reference": "2a20cc8c61c8aea918409dab59010587dfd6db7e",
                 "shasum": ""
             },
             "require": {
                 "daverandom/exceptional-json": "^1.0.4",
                 "ext-json": "*",
-                "guzzlehttp/guzzle": "^6.2",
-                "monolog/monolog": "^1.23",
-                "php": ">=7.1.0,<7.4.0",
-                "psr/simple-cache": "^1.0",
-                "roave/doctrine-simplecache": "^1.1 || ^2.0",
-                "symfony/console": "^3.3 || ^4.0",
-                "symfony/filesystem": "^3.3 || ^4.0"
+                "guzzlehttp/guzzle": "^6.5.0",
+                "monolog/monolog": "^1.25.2 || ^2.0.1",
+                "php": ">=7.1.0,<7.5.0",
+                "psr/simple-cache": "^1.0.1",
+                "roave/doctrine-simplecache": "^1.1.0 || ^2.3.0",
+                "symfony/console": "^3.4.36 || ^4.4.1 || ^5.0.1",
+                "symfony/filesystem": "^3.4.36 || ^4.4.1 || ^5.0.1"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.13",
-                "mikey179/vfsstream": "^1.6",
-                "pepakriz/phpstan-exception-rules": "^0.3",
-                "phpstan/phpstan": "^0.10",
-                "phpstan/phpstan-beberlei-assert": "^0.10",
-                "phpstan/phpstan-deprecation-rules": "^0.10",
-                "phpstan/phpstan-phpunit": "^0.10",
-                "phpstan/phpstan-strict-rules": "^0.10",
-                "phpunit/phpunit": "^6.5 || ^7.0"
+                "friendsofphp/php-cs-fixer": "^2.16.1",
+                "localheinz/composer-normalize": "^1.3.1",
+                "mikey179/vfsstream": "^1.6.8",
+                "pepakriz/phpstan-exception-rules": "^0.10.1",
+                "phpstan/phpstan": "^0.12.3",
+                "phpstan/phpstan-beberlei-assert": "^0.12.0",
+                "phpstan/phpstan-deprecation-rules": "^0.12.0",
+                "phpstan/phpstan-phpunit": "^0.12.1",
+                "phpstan/phpstan-strict-rules": "^0.12.0",
+                "phpunit/phpunit": "^7.5.18 || ^8.5.0"
             },
             "suggest": {
                 "ext-curl": "to use curl requests to get the ini file"
@@ -1135,7 +1149,7 @@
                 "get_browser",
                 "user agent"
             ],
-            "time": "2019-01-18T08:53:28+00:00"
+            "time": "2019-12-16T20:59:10+00:00"
         },
         {
             "name": "composer/semver",
@@ -1201,24 +1215,24 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "1.3.3",
+            "version": "1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "46867cbf8ca9fb8d60c506895449eb799db1184f"
+                "reference": "cbe23383749496fe0f373345208b79568e4bc248"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/46867cbf8ca9fb8d60c506895449eb799db1184f",
-                "reference": "46867cbf8ca9fb8d60c506895449eb799db1184f",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/cbe23383749496fe0f373345208b79568e4bc248",
+                "reference": "cbe23383749496fe0f373345208b79568e4bc248",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.2 || ^7.0",
+                "php": "^5.3.2 || ^7.0 || ^8.0",
                 "psr/log": "^1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 8"
             },
             "type": "library",
             "autoload": {
@@ -1236,12 +1250,12 @@
                     "email": "john-stevenson@blueyonder.co.uk"
                 }
             ],
-            "description": "Restarts a process without xdebug.",
+            "description": "Restarts a process without Xdebug.",
             "keywords": [
                 "Xdebug",
                 "performance"
             ],
-            "time": "2019-05-27T17:52:04+00:00"
+            "time": "2019-11-06T16:40:04+00:00"
         },
         {
             "name": "daverandom/exceptional-json",
@@ -1351,16 +1365,16 @@
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.8.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57"
+                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/d768d58baee9a4862ca783840eca1b9add7a7f57",
-                "reference": "d768d58baee9a4862ca783840eca1b9add7a7f57",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/382e7f4db9a12dc6c19431743a2b096041bcdd62",
+                "reference": "382e7f4db9a12dc6c19431743a2b096041bcdd62",
                 "shasum": ""
             },
             "require": {
@@ -1371,7 +1385,7 @@
             },
             "require-dev": {
                 "alcaeus/mongo-php-adapter": "^1.1",
-                "doctrine/coding-standard": "^4.0",
+                "doctrine/coding-standard": "^6.0",
                 "mongodb/mongodb": "^1.1",
                 "phpunit/phpunit": "^7.0",
                 "predis/predis": "~1.0"
@@ -1382,7 +1396,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.9.x-dev"
                 }
             },
             "autoload": {
@@ -1396,16 +1410,16 @@
             ],
             "authors": [
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
                 },
                 {
                     "name": "Benjamin Eberlei",
                     "email": "kontakt@beberlei.de"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com"
                 },
                 {
                     "name": "Jonathan Wage",
@@ -1416,26 +1430,33 @@
                     "email": "schmittjoh@gmail.com"
                 }
             ],
-            "description": "Caching library offering an object-oriented API for many cache backends",
-            "homepage": "https://www.doctrine-project.org",
+            "description": "PHP Doctrine Cache library is a popular cache implementation that supports many different drivers such as redis, memcache, apc, mongodb and others.",
+            "homepage": "https://www.doctrine-project.org/projects/cache.html",
             "keywords": [
+                "abstraction",
+                "apcu",
                 "cache",
-                "caching"
+                "caching",
+                "couchdb",
+                "memcached",
+                "php",
+                "redis",
+                "xcache"
             ],
-            "time": "2018-08-21T18:01:43+00:00"
+            "time": "2019-11-29T15:36:20+00:00"
         },
         {
             "name": "doctrine/instantiator",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "a2c590166b2133a4633738648b6b064edae0814a"
+                "reference": "ae466f726242e637cebdd526a7d991b9433bacf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a2c590166b2133a4633738648b6b064edae0814a",
-                "reference": "a2c590166b2133a4633738648b6b064edae0814a",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/ae466f726242e637cebdd526a7d991b9433bacf1",
+                "reference": "ae466f726242e637cebdd526a7d991b9433bacf1",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1499,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2019-03-17T17:37:11+00:00"
+            "time": "2019-10-21T16:45:58+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1541,17 +1562,202 @@
             "time": "2019-06-08T11:03:04+00:00"
         },
         {
-            "name": "friendsofphp/php-cs-fixer",
-            "version": "v2.15.3",
+            "name": "ergebnis/composer-json-normalizer",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
-                "reference": "705490b0f282f21017d73561e9498d2b622ee34c"
+                "url": "https://github.com/ergebnis/composer-json-normalizer.git",
+                "reference": "0279214509baf22905c99fe5528e1b74533e6a42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/705490b0f282f21017d73561e9498d2b622ee34c",
-                "reference": "705490b0f282f21017d73561e9498d2b622ee34c",
+                "url": "https://api.github.com/repos/ergebnis/composer-json-normalizer/zipball/0279214509baf22905c99fe5528e1b74533e6a42",
+                "reference": "0279214509baf22905c99fe5528e1b74533e6a42",
+                "shasum": ""
+            },
+            "require": {
+                "ergebnis/json-normalizer": "~0.10.1",
+                "ext-json": "*",
+                "justinrainbow/json-schema": "^4.0.0 || ^5.0.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "ergebnis/php-cs-fixer-config": "~1.1.2",
+                "ergebnis/phpstan-rules": "~0.14.2",
+                "ergebnis/test-util": "~0.9.1",
+                "infection/infection": "~0.13.6",
+                "jangregor/phpstan-prophecy": "~0.5.0",
+                "phpstan/extension-installer": "^1.0.3",
+                "phpstan/phpstan": "~0.11.19",
+                "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpunit/phpunit": "^7.5.18"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Composer\\Json\\Normalizer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides normalizers for normalizing composer.json.",
+            "homepage": "https://github.com/ergebnis/composer-json-normalizer",
+            "keywords": [
+                "composer",
+                "json",
+                "normalizer"
+            ],
+            "time": "2019-12-19T17:12:18+00:00"
+        },
+        {
+            "name": "ergebnis/composer-normalize",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/composer-normalize.git",
+                "reference": "523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd",
+                "reference": "523deef61bb9bc45ce6b5f9a19d3bba8a06cbfcd",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.1.0",
+                "ergebnis/composer-json-normalizer": "^2.0.1",
+                "ergebnis/json-normalizer": "~0.10.1",
+                "ergebnis/json-printer": "^3.0.2",
+                "localheinz/diff": "^1.0.1",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "composer/composer": "^1.7.0",
+                "ergebnis/php-cs-fixer-config": "~1.1.2",
+                "ergebnis/phpstan-rules": "~0.14.2",
+                "ergebnis/test-util": "~0.9.1",
+                "jangregor/phpstan-prophecy": "~0.5.0",
+                "phpstan/extension-installer": "^1.0.3",
+                "phpstan/phpstan": "~0.11.19",
+                "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpunit/phpunit": "^7.5.18",
+                "symfony/filesystem": "^4.4.1"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Ergebnis\\Composer\\Normalize\\NormalizePlugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Composer\\Normalize\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides a composer plugin for normalizing composer.json.",
+            "homepage": "https://github.com/ergebnis/composer-normalize",
+            "keywords": [
+                "composer",
+                "normalize",
+                "normalizer",
+                "plugin"
+            ],
+            "time": "2019-12-19T21:54:28+00:00"
+        },
+        {
+            "name": "ergebnis/phpstan-rules",
+            "version": "0.14.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/phpstan-rules.git",
+                "reference": "e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/phpstan-rules/zipball/e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e",
+                "reference": "e6cf7e74b17e29a54dd85ed1d18f52ec113eaa8e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "nikic/php-parser": "^4.2.3",
+                "php": "^7.1",
+                "phpstan/phpstan": "~0.11.15 || ~0.12.0"
+            },
+            "require-dev": {
+                "ergebnis/composer-normalize": "^1.3.1",
+                "ergebnis/php-cs-fixer-config": "~1.1.2",
+                "ergebnis/test-util": "~0.9.1",
+                "infection/infection": "~0.13.6",
+                "nette/di": "^3.0.1",
+                "phpstan/phpstan-deprecation-rules": "~0.11.2",
+                "phpstan/phpstan-strict-rules": "~0.11.1",
+                "phpunit/phpunit": "^7.5.18",
+                "psr/container": "^1.0.0",
+                "zendframework/zend-servicemanager": "^2.0.0"
+            },
+            "type": "phpstan-extension",
+            "extra": {
+                "phpstan": {
+                    "includes": [
+                        "rules.neon"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\PHPStan\\Rules\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides additional rules for phpstan/phpstan.",
+            "homepage": "https://github.com/ergebnis/phpstan-rules",
+            "keywords": [
+                "PHPStan",
+                "phpstan-extreme-rules",
+                "phpstan-rules"
+            ],
+            "time": "2019-12-19T10:25:17+00:00"
+        },
+        {
+            "name": "friendsofphp/php-cs-fixer",
+            "version": "v2.16.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfPHP/PHP-CS-Fixer.git",
+                "reference": "c8afb599858876e95e8ebfcd97812d383fa23f02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfPHP/PHP-CS-Fixer/zipball/c8afb599858876e95e8ebfcd97812d383fa23f02",
+                "reference": "c8afb599858876e95e8ebfcd97812d383fa23f02",
                 "shasum": ""
             },
             "require": {
@@ -1562,15 +1768,15 @@
                 "ext-tokenizer": "*",
                 "php": "^5.6 || ^7.0",
                 "php-cs-fixer/diff": "^1.3",
-                "symfony/console": "^3.4.17 || ^4.1.6",
-                "symfony/event-dispatcher": "^3.0 || ^4.0",
-                "symfony/filesystem": "^3.0 || ^4.0",
-                "symfony/finder": "^3.0 || ^4.0",
-                "symfony/options-resolver": "^3.0 || ^4.0",
+                "symfony/console": "^3.4.17 || ^4.1.6 || ^5.0",
+                "symfony/event-dispatcher": "^3.0 || ^4.0 || ^5.0",
+                "symfony/filesystem": "^3.0 || ^4.0 || ^5.0",
+                "symfony/finder": "^3.0 || ^4.0 || ^5.0",
+                "symfony/options-resolver": "^3.0 || ^4.0 || ^5.0",
                 "symfony/polyfill-php70": "^1.0",
                 "symfony/polyfill-php72": "^1.4",
-                "symfony/process": "^3.0 || ^4.0",
-                "symfony/stopwatch": "^3.0 || ^4.0"
+                "symfony/process": "^3.0 || ^4.0 || ^5.0",
+                "symfony/stopwatch": "^3.0 || ^4.0 || ^5.0"
             },
             "require-dev": {
                 "johnkary/phpunit-speedtrap": "^1.1 || ^2.0 || ^3.0",
@@ -1583,8 +1789,8 @@
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.1",
                 "phpunit/phpunit": "^5.7.27 || ^6.5.14 || ^7.1",
                 "phpunitgoodpractices/traits": "^1.8",
-                "symfony/phpunit-bridge": "^4.3",
-                "symfony/yaml": "^3.0 || ^4.0"
+                "symfony/phpunit-bridge": "^4.3 || ^5.0",
+                "symfony/yaml": "^3.0 || ^4.0 || ^5.0"
             },
             "suggest": {
                 "ext-mbstring": "For handling non-UTF8 characters in cache signature.",
@@ -1627,48 +1833,50 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2019-08-31T12:51:54+00:00"
+            "time": "2019-11-25T22:10:32+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.3.3",
+            "version": "6.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba"
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/407b0cb880ace85c9b63c5f9551db498cb2d50ba",
-                "reference": "407b0cb880ace85c9b63c5f9551db498cb2d50ba",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/43ece0e75098b7ecd8d13918293029e555a50f82",
+                "reference": "43ece0e75098b7ecd8d13918293029e555a50f82",
                 "shasum": ""
             },
             "require": {
+                "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.4",
+                "guzzlehttp/psr7": "^1.6.1",
                 "php": ">=5.5"
             },
             "require-dev": {
                 "ext-curl": "*",
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
-                "psr/log": "^1.0"
+                "psr/log": "^1.1"
             },
             "suggest": {
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
                 "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "6.3-dev"
+                    "dev-master": "6.5-dev"
                 }
             },
             "autoload": {
-                "files": [
-                    "src/functions_include.php"
-                ],
                 "psr-4": {
                     "GuzzleHttp\\": "src/"
-                }
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1692,7 +1900,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2018-04-22T15:46:56+00:00"
+            "time": "2019-12-23T11:57:10+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1817,186 +2025,17 @@
             "time": "2019-07-01T23:21:34+00:00"
         },
         {
-            "name": "jean85/pretty-package-versions",
-            "version": "1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Jean85/pretty-package-versions.git",
-                "reference": "75c7effcf3f77501d0e0caa75111aff4daa0dd48"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Jean85/pretty-package-versions/zipball/75c7effcf3f77501d0e0caa75111aff4daa0dd48",
-                "reference": "75c7effcf3f77501d0e0caa75111aff4daa0dd48",
-                "shasum": ""
-            },
-            "require": {
-                "ocramius/package-versions": "^1.2.0",
-                "php": "^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Jean85\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alessandro Lai",
-                    "email": "alessandro.lai85@gmail.com"
-                }
-            ],
-            "description": "A wrapper for ocramius/package-versions to get pretty versions strings",
-            "keywords": [
-                "composer",
-                "package",
-                "release",
-                "versions"
-            ],
-            "time": "2018-06-13T13:22:40+00:00"
-        },
-        {
-            "name": "localheinz/composer-json-normalizer",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/localheinz/composer-json-normalizer.git",
-                "reference": "bc9f574026fe86828df6ab32a4c8a3118cbd9ac2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/composer-json-normalizer/zipball/bc9f574026fe86828df6ab32a4c8a3118cbd9ac2",
-                "reference": "bc9f574026fe86828df6ab32a4c8a3118cbd9ac2",
-                "shasum": ""
-            },
-            "require": {
-                "localheinz/json-normalizer": "~0.9.0",
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "infection/infection": "~0.11.4",
-                "localheinz/php-cs-fixer-config": "~1.19.0",
-                "localheinz/phpstan-rules": "~0.5.0",
-                "localheinz/test-util": "~0.7.0",
-                "phpstan/phpstan": "~0.10.7",
-                "phpstan/phpstan-deprecation-rules": "~0.10.2",
-                "phpstan/phpstan-strict-rules": "~0.10.1",
-                "phpunit/phpunit": "^7.5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Localheinz\\Composer\\Json\\Normalizer\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Möller",
-                    "email": "am@localheinz.com"
-                }
-            ],
-            "description": "Provides normalizers for normalizing composer.json.",
-            "homepage": "https://github.com/localheinz/composer-json-normalizer",
-            "keywords": [
-                "composer",
-                "json",
-                "normalizer"
-            ],
-            "time": "2019-01-09T14:43:16+00:00"
-        },
-        {
-            "name": "localheinz/composer-normalize",
-            "version": "1.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/localheinz/composer-normalize.git",
-                "reference": "22e20fd5456efe3c5e9a40c1e653fd3c3ff2ec7d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/composer-normalize/zipball/22e20fd5456efe3c5e9a40c1e653fd3c3ff2ec7d",
-                "reference": "22e20fd5456efe3c5e9a40c1e653fd3c3ff2ec7d",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.1.0",
-                "localheinz/composer-json-normalizer": "^1.0.2",
-                "localheinz/diff": "^1.0.0",
-                "localheinz/json-normalizer": "~0.9.0",
-                "php": "^7.1"
-            },
-            "require-dev": {
-                "composer/composer": "^1.7.0",
-                "jangregor/phpstan-prophecy": "~0.4.2",
-                "localheinz/php-cs-fixer-config": "~1.23.0",
-                "localheinz/phpstan-rules": "~0.10.0",
-                "localheinz/test-util": "~0.7.0",
-                "phpstan/phpstan": "~0.11.15",
-                "phpstan/phpstan-deprecation-rules": "~0.11.2",
-                "phpstan/phpstan-strict-rules": "~0.11.1",
-                "phpunit/phpunit": "^7.5.15",
-                "symfony/filesystem": "^4.3.4"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                },
-                "class": "Localheinz\\Composer\\Normalize\\NormalizePlugin"
-            },
-            "autoload": {
-                "psr-4": {
-                    "Localheinz\\Composer\\Normalize\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Möller",
-                    "email": "am@localheinz.com"
-                }
-            ],
-            "description": "Provides a composer plugin for normalizing composer.json.",
-            "homepage": "https://github.com/localheinz/composer-normalize",
-            "keywords": [
-                "composer",
-                "normalize",
-                "normalizer",
-                "plugin"
-            ],
-            "time": "2019-09-07T10:12:23+00:00"
-        },
-        {
             "name": "localheinz/diff",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/localheinz/diff.git",
-                "reference": "1feef0a8116cd596e0cd3f97bb672dc9b14e9450"
+                "reference": "bd5661db4bbed26c6f25df8851fd9f4b424a356e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/diff/zipball/1feef0a8116cd596e0cd3f97bb672dc9b14e9450",
-                "reference": "1feef0a8116cd596e0cd3f97bb672dc9b14e9450",
+                "url": "https://api.github.com/repos/localheinz/diff/zipball/bd5661db4bbed26c6f25df8851fd9f4b424a356e",
+                "reference": "bd5661db4bbed26c6f25df8851fd9f4b424a356e",
                 "shasum": ""
             },
             "require": {
@@ -2026,7 +2065,7 @@
                     "email": "mail@kore-nordmann.de"
                 }
             ],
-            "description": "Fork of sebastian/diff for use with localheinz/composer-normalize",
+            "description": "Fork of sebastian/diff for use with ergebnis/composer-normalize",
             "homepage": "https://github.com/sebastianbergmann/diff",
             "keywords": [
                 "diff",
@@ -2034,82 +2073,20 @@
                 "unidiff",
                 "unified diff"
             ],
-            "time": "2019-09-07T09:48:40+00:00"
-        },
-        {
-            "name": "localheinz/phpstan-rules",
-            "version": "0.12.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/localheinz/phpstan-rules.git",
-                "reference": "5c0be9ca52871d96b0969909b9999eb537e9a1c0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/localheinz/phpstan-rules/zipball/5c0be9ca52871d96b0969909b9999eb537e9a1c0",
-                "reference": "5c0be9ca52871d96b0969909b9999eb537e9a1c0",
-                "shasum": ""
-            },
-            "require": {
-                "nikic/php-parser": "^4.2.3",
-                "php": "^7.1",
-                "phpstan/phpstan": "~0.11.15"
-            },
-            "require-dev": {
-                "infection/infection": "~0.13.6",
-                "localheinz/composer-normalize": "^1.3.1",
-                "localheinz/php-cs-fixer-config": "~1.23.0",
-                "localheinz/test-util": "~0.7.0",
-                "phpstan/phpstan-deprecation-rules": "~0.11.2",
-                "phpstan/phpstan-strict-rules": "~0.11.1",
-                "phpunit/phpunit": "^7.5.16",
-                "psr/container": "^1.0.0",
-                "zendframework/zend-servicemanager": "^2.0.0"
-            },
-            "type": "phpstan-extension",
-            "extra": {
-                "phpstan": {
-                    "includes": [
-                        "rules.neon"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Localheinz\\PHPStan\\Rules\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Möller",
-                    "email": "am@localheinz.com"
-                }
-            ],
-            "description": "Provides additional rules for phpstan/phpstan.",
-            "homepage": "https://github.com/localheinz/phpstan-rules",
-            "keywords": [
-                "PHPStan",
-                "phpstan-extreme-rules",
-                "phpstan-rules"
-            ],
-            "time": "2019-09-16T06:36:17+00:00"
+            "time": "2019-12-17T07:42:37+00:00"
         },
         {
             "name": "mikey179/vfsstream",
-            "version": "v1.6.7",
+            "version": "v1.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bovigo/vfsStream.git",
-                "reference": "2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb"
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb",
-                "reference": "2b544ac3a21bcc4dde5d90c4ae8d06f4319055fb",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/231c73783ebb7dd9ec77916c10037eff5a2b6efe",
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe",
                 "shasum": ""
             },
             "require": {
@@ -2142,20 +2119,20 @@
             ],
             "description": "Virtual file system to mock the real file system in unit tests.",
             "homepage": "http://vfs.bovigo.org/",
-            "time": "2019-08-01T01:38:37+00:00"
+            "time": "2019-10-30T15:31:00+00:00"
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.9.3",
+            "version": "1.9.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "007c053ae6f31bba39dfa19a7726f56e9763bbea"
+                "reference": "579bb7356d91f9456ccd505f24ca8b667966a0a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/007c053ae6f31bba39dfa19a7726f56e9763bbea",
-                "reference": "007c053ae6f31bba39dfa19a7726f56e9763bbea",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/579bb7356d91f9456ccd505f24ca8b667966a0a7",
+                "reference": "579bb7356d91f9456ccd505f24ca8b667966a0a7",
                 "shasum": ""
             },
             "require": {
@@ -2190,543 +2167,20 @@
                 "object",
                 "object graph"
             ],
-            "time": "2019-08-09T12:45:53+00:00"
-        },
-        {
-            "name": "nette/bootstrap",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/bootstrap.git",
-                "reference": "e1075af05c211915e03e0c86542f3ba5433df4a3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/bootstrap/zipball/e1075af05c211915e03e0c86542f3ba5433df4a3",
-                "reference": "e1075af05c211915e03e0c86542f3ba5433df4a3",
-                "shasum": ""
-            },
-            "require": {
-                "nette/di": "^3.0",
-                "nette/utils": "^3.0",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "latte/latte": "^2.2",
-                "nette/application": "^3.0",
-                "nette/caching": "^3.0",
-                "nette/database": "^3.0",
-                "nette/forms": "^3.0",
-                "nette/http": "^3.0",
-                "nette/mail": "^3.0",
-                "nette/robot-loader": "^3.0",
-                "nette/safe-stream": "^2.2",
-                "nette/security": "^3.0",
-                "nette/tester": "^2.0",
-                "tracy/tracy": "^2.6"
-            },
-            "suggest": {
-                "nette/robot-loader": "to use Configurator::createRobotLoader()",
-                "tracy/tracy": "to use Configurator::enableTracy()"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🅱 Nette Bootstrap: the simple way to configure and bootstrap your Nette application.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "bootstrapping",
-                "configurator",
-                "nette"
-            ],
-            "time": "2019-03-26T12:59:07+00:00"
-        },
-        {
-            "name": "nette/di",
-            "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/di.git",
-                "reference": "4aff517a1c6bb5c36fa09733d4cea089f529de6d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/di/zipball/4aff517a1c6bb5c36fa09733d4cea089f529de6d",
-                "reference": "4aff517a1c6bb5c36fa09733d4cea089f529de6d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "nette/neon": "^3.0",
-                "nette/php-generator": "^3.2.2",
-                "nette/robot-loader": "^3.2",
-                "nette/schema": "^1.0",
-                "nette/utils": "^3.0",
-                "php": ">=7.1"
-            },
-            "conflict": {
-                "nette/bootstrap": "<3.0"
-            },
-            "require-dev": {
-                "nette/tester": "^2.2",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ],
-                "files": [
-                    "src/compatibility.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "💎 Nette Dependency Injection Container: Flexible, compiled and full-featured DIC with perfectly usable autowiring and support for all new PHP 7.1 features.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "compiled",
-                "di",
-                "dic",
-                "factory",
-                "ioc",
-                "nette",
-                "static"
-            ],
-            "time": "2019-08-07T12:11:33+00:00"
-        },
-        {
-            "name": "nette/finder",
-            "version": "v2.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/finder.git",
-                "reference": "14164e1ddd69e9c5f627ff82a10874b3f5bba5fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/14164e1ddd69e9c5f627ff82a10874b3f5bba5fe",
-                "reference": "14164e1ddd69e9c5f627ff82a10874b3f5bba5fe",
-                "shasum": ""
-            },
-            "require": {
-                "nette/utils": "^2.4 || ~3.0.0",
-                "php": ">=7.1"
-            },
-            "conflict": {
-                "nette/nette": "<2.2"
-            },
-            "require-dev": {
-                "nette/tester": "^2.0",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.5-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🔍 Nette Finder: find files and directories with an intuitive API.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "filesystem",
-                "glob",
-                "iterator",
-                "nette"
-            ],
-            "time": "2019-07-11T18:02:17+00:00"
-        },
-        {
-            "name": "nette/neon",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/neon.git",
-                "reference": "cbff32059cbdd8720deccf9e9eace6ee516f02eb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/cbff32059cbdd8720deccf9e9eace6ee516f02eb",
-                "reference": "cbff32059cbdd8720deccf9e9eace6ee516f02eb",
-                "shasum": ""
-            },
-            "require": {
-                "ext-iconv": "*",
-                "ext-json": "*",
-                "php": ">=7.0"
-            },
-            "require-dev": {
-                "nette/tester": "^2.0",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🍸 Nette NEON: encodes and decodes NEON file format.",
-            "homepage": "http://ne-on.org",
-            "keywords": [
-                "export",
-                "import",
-                "neon",
-                "nette",
-                "yaml"
-            ],
-            "time": "2019-02-05T21:30:40+00:00"
-        },
-        {
-            "name": "nette/php-generator",
-            "version": "v3.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/php-generator.git",
-                "reference": "aea6e81437bb238e5f0e5b5ce06337433908e63b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/aea6e81437bb238e5f0e5b5ce06337433908e63b",
-                "reference": "aea6e81437bb238e5f0e5b5ce06337433908e63b",
-                "shasum": ""
-            },
-            "require": {
-                "nette/utils": "^2.4.2 || ~3.0.0",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "nette/tester": "^2.0",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 7.3 features.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "code",
-                "nette",
-                "php",
-                "scaffolding"
-            ],
-            "time": "2019-07-05T13:01:56+00:00"
-        },
-        {
-            "name": "nette/robot-loader",
-            "version": "v3.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/robot-loader.git",
-                "reference": "0712a0e39ae7956d6a94c0ab6ad41aa842544b5c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/robot-loader/zipball/0712a0e39ae7956d6a94c0ab6ad41aa842544b5c",
-                "reference": "0712a0e39ae7956d6a94c0ab6ad41aa842544b5c",
-                "shasum": ""
-            },
-            "require": {
-                "ext-tokenizer": "*",
-                "nette/finder": "^2.5",
-                "nette/utils": "^3.0",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "nette/tester": "^2.0",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.2-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "? Nette RobotLoader: high performance and comfortable autoloader that will search and autoload classes within your application.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "autoload",
-                "class",
-                "interface",
-                "nette",
-                "trait"
-            ],
-            "time": "2019-03-08T21:57:24+00:00"
-        },
-        {
-            "name": "nette/schema",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/schema.git",
-                "reference": "6241d8d4da39e825dd6cb5bfbe4242912f4d7e4d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/6241d8d4da39e825dd6cb5bfbe4242912f4d7e4d",
-                "reference": "6241d8d4da39e825dd6cb5bfbe4242912f4d7e4d",
-                "shasum": ""
-            },
-            "require": {
-                "nette/utils": "^3.0.1",
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "nette/tester": "^2.2",
-                "tracy/tracy": "^2.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "📐 Nette Schema: validating data structures against a given Schema.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "config",
-                "nette"
-            ],
-            "time": "2019-04-03T15:53:25+00:00"
-        },
-        {
-            "name": "nette/utils",
-            "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nette/utils.git",
-                "reference": "bd961f49b211997202bda1d0fbc410905be370d4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/bd961f49b211997202bda1d0fbc410905be370d4",
-                "reference": "bd961f49b211997202bda1d0fbc410905be370d4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "nette/tester": "~2.0",
-                "tracy/tracy": "^2.3"
-            },
-            "suggest": {
-                "ext-gd": "to use Image",
-                "ext-iconv": "to use Strings::webalize() and toAscii()",
-                "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
-                "ext-json": "to use Nette\\Utils\\Json",
-                "ext-mbstring": "to use Strings::lower() etc...",
-                "ext-xml": "to use Strings::length() etc. when mbstring is not available"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "src/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause",
-                "GPL-2.0",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "David Grudl",
-                    "homepage": "https://davidgrudl.com"
-                },
-                {
-                    "name": "Nette Community",
-                    "homepage": "https://nette.org/contributors"
-                }
-            ],
-            "description": "🛠 Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
-            "homepage": "https://nette.org",
-            "keywords": [
-                "array",
-                "core",
-                "datetime",
-                "images",
-                "json",
-                "nette",
-                "paginator",
-                "password",
-                "slugify",
-                "string",
-                "unicode",
-                "utf-8",
-                "utility",
-                "validation"
-            ],
-            "time": "2019-03-22T01:00:30+00:00"
+            "time": "2019-12-15T19:12:40+00:00"
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.4",
+            "version": "v4.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "97e59c7a16464196a8b9c77c47df68e4a39a45c4"
+                "reference": "9a9981c347c5c49d6dfe5cf826bb882b824080dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/97e59c7a16464196a8b9c77c47df68e4a39a45c4",
-                "reference": "97e59c7a16464196a8b9c77c47df68e4a39a45c4",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/9a9981c347c5c49d6dfe5cf826bb882b824080dc",
+                "reference": "9a9981c347c5c49d6dfe5cf826bb882b824080dc",
                 "shasum": ""
             },
             "require": {
@@ -2734,6 +2188,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
+                "ircmaxell/php-yacc": "0.0.5",
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
             },
             "bin": [
@@ -2742,7 +2197,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -2764,57 +2219,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-09-01T07:51:21+00:00"
-        },
-        {
-            "name": "ocramius/package-versions",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Ocramius/PackageVersions.git",
-                "reference": "a4d4b60d0e60da2487bd21a2c6ac089f85570dbb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Ocramius/PackageVersions/zipball/a4d4b60d0e60da2487bd21a2c6ac089f85570dbb",
-                "reference": "a4d4b60d0e60da2487bd21a2c6ac089f85570dbb",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0.0",
-                "php": "^7.1.0"
-            },
-            "require-dev": {
-                "composer/composer": "^1.6.3",
-                "doctrine/coding-standard": "^5.0.1",
-                "ext-zip": "*",
-                "infection/infection": "^0.7.1",
-                "phpunit/phpunit": "^7.0.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "PackageVersions\\Installer",
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PackageVersions\\": "src/PackageVersions"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com"
-                }
-            ],
-            "description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
-            "time": "2019-02-21T12:16:21+00:00"
+            "time": "2019-11-08T13:50:10+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2863,39 +2268,39 @@
         },
         {
             "name": "pepakriz/phpstan-exception-rules",
-            "version": "v0.8.3",
+            "version": "v0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pepakriz/phpstan-exception-rules.git",
-                "reference": "db16cb7b14e637cec8844b7d870727132fecc5ec"
+                "reference": "7073711906e22509cbfacbca0a914e0f8ff2e6c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/db16cb7b14e637cec8844b7d870727132fecc5ec",
-                "reference": "db16cb7b14e637cec8844b7d870727132fecc5ec",
+                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/7073711906e22509cbfacbca0a914e0f8ff2e6c8",
+                "reference": "7073711906e22509cbfacbca0a914e0f8ff2e6c8",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1",
-                "phpstan/phpstan": "^0.11.7"
+                "phpstan/phpstan": "^0.12.0"
             },
             "require-dev": {
-                "cdn77/coding-standard": "^0.7.1",
                 "jakub-onderka/php-console-highlighter": "0.4.0",
                 "jakub-onderka/php-parallel-lint": "1.0.0",
+                "nette/utils": "^3.0",
                 "php-coveralls/php-coveralls": "^2.1",
-                "phpstan/phpstan": "^0.11.13",
-                "phpstan/phpstan-nette": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
+                "phpstan/phpstan": "^0.12.0",
+                "phpstan/phpstan-nette": "^0.12.0",
+                "phpstan/phpstan-phpunit": "^0.12.0",
+                "phpstan/phpstan-strict-rules": "^0.12.0",
                 "phpunit/phpunit": "^7.5.6",
-                "slevomat/coding-standard": "^4.8.3",
-                "squizlabs/php_codesniffer": "~3.4.0"
+                "slevomat/coding-standard": "^5.0.4",
+                "squizlabs/php_codesniffer": "~3.5.2"
             },
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.8-dev"
+                    "dev-master": "0.10-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -2913,7 +2318,7 @@
                 "MIT"
             ],
             "description": "Exception rules for PHPStan",
-            "time": "2019-08-17T10:24:29+00:00"
+            "time": "2019-12-09T06:14:56+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -3122,16 +2527,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "4.3.2",
+            "version": "4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e"
+                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
-                "reference": "b83ff7cfcfee7827e1e78b637a5904fe6a96698e",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
+                "reference": "2ecaa9fef01634c83bfa8dc1fe35fb5cef223a62",
                 "shasum": ""
             },
             "require": {
@@ -3169,7 +2574,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2019-09-12T14:27:41+00:00"
+            "time": "2019-12-20T13:40:23+00:00"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -3220,33 +2625,33 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.9.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "f6811d96d97bdf400077a0cc100ae56aa32b9203"
+                "reference": "cbe1df668b3fe136bcc909126a0f529a78d4cbbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/f6811d96d97bdf400077a0cc100ae56aa32b9203",
-                "reference": "f6811d96d97bdf400077a0cc100ae56aa32b9203",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/cbe1df668b3fe136bcc909126a0f529a78d4cbbc",
+                "reference": "cbe1df668b3fe136bcc909126a0f529a78d4cbbc",
                 "shasum": ""
             },
             "require": {
                 "doctrine/instantiator": "^1.0.2",
                 "php": "^5.3|^7.0",
                 "phpdocumentor/reflection-docblock": "^2.0|^3.0.2|^4.0|^5.0",
-                "sebastian/comparator": "^1.1|^2.0|^3.0",
+                "sebastian/comparator": "^1.2.3|^2.0|^3.0",
                 "sebastian/recursion-context": "^1.0|^2.0|^3.0"
             },
             "require-dev": {
-                "phpspec/phpspec": "^2.5|^3.2",
+                "phpspec/phpspec": "^2.5 || ^3.2",
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.8.x-dev"
+                    "dev-master": "1.10.x-dev"
                 }
             },
             "autoload": {
@@ -3279,147 +2684,66 @@
                 "spy",
                 "stub"
             ],
-            "time": "2019-10-03T11:07:50+00:00"
-        },
-        {
-            "name": "phpstan/phpdoc-parser",
-            "version": "0.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "8c4ef2aefd9788238897b678a985e1d5c8df6db4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/8c4ef2aefd9788238897b678a985e1d5c8df6db4",
-                "reference": "8c4ef2aefd9788238897b678a985e1d5c8df6db4",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "consistence/coding-standard": "^3.5",
-                "jakub-onderka/php-parallel-lint": "^0.9.2",
-                "phing/phing": "^2.16.0",
-                "phpstan/phpstan": "^0.10",
-                "phpunit/phpunit": "^6.3",
-                "slevomat/coding-standard": "^4.7.2",
-                "squizlabs/php_codesniffer": "^3.3.2",
-                "symfony/process": "^3.4 || ^4.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PHPStan\\PhpDocParser\\": [
-                        "src/"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2019-06-07T19:13:52+00:00"
+            "time": "2019-12-22T21:05:45+00:00"
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.11.16",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "635cf20f3b92ce34ee94a8d2f282d62eb9dc6e1b"
+                "reference": "c15a6ea55da71d8133399306f560cfe4d30301b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/635cf20f3b92ce34ee94a8d2f282d62eb9dc6e1b",
-                "reference": "635cf20f3b92ce34ee94a8d2f282d62eb9dc6e1b",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c15a6ea55da71d8133399306f560cfe4d30301b7",
+                "reference": "c15a6ea55da71d8133399306f560cfe4d30301b7",
                 "shasum": ""
             },
             "require": {
-                "composer/xdebug-handler": "^1.3.0",
-                "jean85/pretty-package-versions": "^1.0.3",
-                "nette/bootstrap": "^2.4 || ^3.0",
-                "nette/di": "^2.4.7 || ^3.0",
-                "nette/robot-loader": "^3.0.1",
-                "nette/schema": "^1.0",
-                "nette/utils": "^2.4.5 || ^3.0",
-                "nikic/php-parser": "^4.2.3",
-                "php": "~7.1",
-                "phpstan/phpdoc-parser": "^0.3.5",
-                "symfony/console": "~3.2 || ~4.0",
-                "symfony/finder": "~3.2 || ~4.0"
-            },
-            "conflict": {
-                "symfony/console": "3.4.16 || 4.1.5"
-            },
-            "require-dev": {
-                "brianium/paratest": "^2.0 || ^3.0",
-                "consistence/coding-standard": "^3.5",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
-                "ext-intl": "*",
-                "ext-mysqli": "*",
-                "ext-simplexml": "*",
-                "ext-soap": "*",
-                "ext-zip": "*",
-                "jakub-onderka/php-parallel-lint": "^1.0",
-                "localheinz/composer-normalize": "^1.1.0",
-                "phing/phing": "^2.16.0",
-                "phpstan/phpstan-deprecation-rules": "^0.11",
-                "phpstan/phpstan-php-parser": "^0.11",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
-                "phpunit/phpunit": "^7.5.14 || ^8.0",
-                "slevomat/coding-standard": "^4.7.2",
-                "squizlabs/php_codesniffer": "^3.3.2"
+                "nikic/php-parser": "^4.3.0",
+                "php": "^7.1"
             },
             "bin": [
-                "bin/phpstan"
+                "phpstan",
+                "phpstan.phar"
             ],
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.11-dev"
+                    "dev-master": "0.12-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "PHPStan\\": [
-                        "src/"
-                    ]
-                }
+                "files": [
+                    "bootstrap.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2019-09-17T11:19:51+00:00"
+            "time": "2019-12-14T13:41:17+00:00"
         },
         {
             "name": "phpstan/phpstan-beberlei-assert",
-            "version": "0.11.2",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-beberlei-assert.git",
-                "reference": "07b88f882931f9fa1320fa0f67836aee71bcb435"
+                "reference": "d24384da20442f66c53e0ce32176b5410be3809b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/07b88f882931f9fa1320fa0f67836aee71bcb435",
-                "reference": "07b88f882931f9fa1320fa0f67836aee71bcb435",
+                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/d24384da20442f66c53e0ce32176b5410be3809b",
+                "reference": "d24384da20442f66c53e0ce32176b5410be3809b",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.0",
                 "php": "~7.1",
-                "phpstan/phpstan": "^0.11.6"
+                "phpstan/phpstan": "^0.12"
             },
             "require-dev": {
                 "beberlei/assert": "^2.9.5",
@@ -3427,15 +2751,15 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "phing/phing": "^2.16.0",
-                "phpstan/phpstan-phpunit": "^0.11",
-                "phpstan/phpstan-strict-rules": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^7.1.3",
                 "slevomat/coding-standard": "^4.5.2"
             },
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.11-dev"
+                    "dev-master": "0.12-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -3453,40 +2777,41 @@
                 "MIT"
             ],
             "description": "PHPStan beberlei/assert extension",
-            "time": "2019-10-10T07:57:31+00:00"
+            "time": "2019-11-26T08:55:25+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
-            "version": "0.11.2",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-deprecation-rules.git",
-                "reference": "5685fe48873efc5af1f2cc95d9c1b8ae82c728fe"
+                "reference": "803af7ef6a04d1fd10ad8acc28ca83394caba68a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/5685fe48873efc5af1f2cc95d9c1b8ae82c728fe",
-                "reference": "5685fe48873efc5af1f2cc95d9c1b8ae82c728fe",
+                "url": "https://api.github.com/repos/phpstan/phpstan-deprecation-rules/zipball/803af7ef6a04d1fd10ad8acc28ca83394caba68a",
+                "reference": "803af7ef6a04d1fd10ad8acc28ca83394caba68a",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.0",
                 "php": "~7.1",
-                "phpstan/phpstan": "^0.11.8"
+                "phpstan/phpstan": "^0.12"
             },
             "require-dev": {
                 "consistence/coding-standard": "^3.0.1",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
                 "jakub-onderka/php-parallel-lint": "^1.0",
+                "localheinz/composer-normalize": "^1.3.0",
                 "phing/phing": "^2.16.0",
-                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.12",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.5.2"
             },
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.11-dev"
+                    "dev-master": "0.12-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -3504,45 +2829,45 @@
                 "MIT"
             ],
             "description": "PHPStan rules for detecting usage of deprecated classes, methods, properties, constants and traits.",
-            "time": "2019-05-28T19:54:04+00:00"
+            "time": "2019-11-25T21:39:50+00:00"
         },
         {
             "name": "phpstan/phpstan-phpunit",
-            "version": "0.11.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-phpunit.git",
-                "reference": "fbf2ad56c3b13189d29655e226c9b1da47c2fad9"
+                "reference": "46a447bc1b88ba809d9c34056c9ea2ca940d6dec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-phpunit/zipball/fbf2ad56c3b13189d29655e226c9b1da47c2fad9",
-                "reference": "fbf2ad56c3b13189d29655e226c9b1da47c2fad9",
+                "url": "https://api.github.com/repos/phpstan/phpstan-phpunit/zipball/46a447bc1b88ba809d9c34056c9ea2ca940d6dec",
+                "reference": "46a447bc1b88ba809d9c34056c9ea2ca940d6dec",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.0",
                 "php": "~7.1",
-                "phpstan/phpdoc-parser": "^0.3",
-                "phpstan/phpstan": "^0.11.4"
+                "phpstan/phpstan": "^0.12"
             },
             "conflict": {
                 "phpunit/phpunit": "<7.0"
             },
             "require-dev": {
-                "consistence/coding-standard": "^3.0.1",
+                "consistence/coding-standard": "^3.5",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "ergebnis/composer-normalize": "^2.0.2",
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "phing/phing": "^2.16.0",
-                "phpstan/phpstan-strict-rules": "^0.11",
+                "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/phpunit": "^7.0",
                 "satooshi/php-coveralls": "^1.0",
-                "slevomat/coding-standard": "^4.5.2"
+                "slevomat/coding-standard": "^4.7.2"
             },
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.11-dev"
+                    "dev-master": "0.12-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -3561,40 +2886,41 @@
                 "MIT"
             ],
             "description": "PHPUnit extensions and rules for PHPStan",
-            "time": "2019-05-17T17:50:16+00:00"
+            "time": "2019-12-20T13:23:24+00:00"
         },
         {
             "name": "phpstan/phpstan-strict-rules",
-            "version": "0.11.1",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-strict-rules.git",
-                "reference": "a203a7afdda073d4ea405a6d9007a5b32de3be61"
+                "reference": "48bbf6f03a0f7341c6b4a83360f3562c3e59a6d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/a203a7afdda073d4ea405a6d9007a5b32de3be61",
-                "reference": "a203a7afdda073d4ea405a6d9007a5b32de3be61",
+                "url": "https://api.github.com/repos/phpstan/phpstan-strict-rules/zipball/48bbf6f03a0f7341c6b4a83360f3562c3e59a6d2",
+                "reference": "48bbf6f03a0f7341c6b4a83360f3562c3e59a6d2",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.0",
                 "php": "~7.1",
-                "phpstan/phpstan": "^0.11.4"
+                "phpstan/phpstan": "^0.12"
             },
             "require-dev": {
                 "consistence/coding-standard": "^3.0.1",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
                 "jakub-onderka/php-parallel-lint": "^1.0",
+                "localheinz/composer-normalize": "^1.2.0",
                 "phing/phing": "^2.16.0",
-                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-phpunit": "^0.12",
                 "phpunit/phpunit": "^7.0",
                 "slevomat/coding-standard": "^4.5.2"
             },
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.11-dev"
+                    "dev-master": "0.12-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -3612,7 +2938,7 @@
                 "MIT"
             ],
             "description": "Extra strict and opinionated rules for PHPStan",
-            "time": "2019-05-12T16:59:47+00:00"
+            "time": "2019-11-21T18:03:27+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -3868,16 +3194,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.16",
+            "version": "7.5.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "316afa6888d2562e04aeb67ea7f2017a0eb41661"
+                "reference": "fcf6c4bfafaadc07785528b06385cce88935474d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/316afa6888d2562e04aeb67ea7f2017a0eb41661",
-                "reference": "316afa6888d2562e04aeb67ea7f2017a0eb41661",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/fcf6c4bfafaadc07785528b06385cce88935474d",
+                "reference": "fcf6c4bfafaadc07785528b06385cce88935474d",
                 "shasum": ""
             },
             "require": {
@@ -3948,7 +3274,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-09-14T09:08:39+00:00"
+            "time": "2019-12-06T05:14:37+00:00"
         },
         {
             "name": "psr/http-message",
@@ -4090,32 +3416,31 @@
         },
         {
             "name": "roave/doctrine-simplecache",
-            "version": "2.2.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/DoctrineSimpleCache.git",
-                "reference": "1ad494f47812cf63226ad60bb3b47bb37a2771cd"
+                "reference": "36f2839ee60ec03186efad48feb03dcf37af5648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/DoctrineSimpleCache/zipball/1ad494f47812cf63226ad60bb3b47bb37a2771cd",
-                "reference": "1ad494f47812cf63226ad60bb3b47bb37a2771cd",
+                "url": "https://api.github.com/repos/Roave/DoctrineSimpleCache/zipball/36f2839ee60ec03186efad48feb03dcf37af5648",
+                "reference": "36f2839ee60ec03186efad48feb03dcf37af5648",
                 "shasum": ""
             },
             "require": {
-                "doctrine/cache": "^1.7",
-                "php": "^7.1,<7.4",
+                "doctrine/cache": "^1.6",
+                "php": "~7.1.0",
                 "psr/simple-cache": "^1.0"
             },
             "provide": {
                 "psr/simple-cache-implementation": "1.0"
             },
             "require-dev": {
-                "cache/integration-tests": "dev-master#05f9717",
-                "cache/tag-interop": "dev-master#992b7ed",
-                "infection/infection": "^0.11.2",
-                "phpunit/phpunit": "^6.5 || ^7.0",
-                "symfony/console": "^3.4 || ^4.2"
+                "cache/integration-tests": "^0.15.0",
+                "cache/tag-interop": "^1.0@dev",
+                "humbug/humbug": "~1.0@dev",
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "autoload": {
@@ -4137,7 +3462,7 @@
                 }
             ],
             "description": "Doctrine Cache adapter for PSR-16 Simple Cache",
-            "time": "2019-01-24T09:43:58+00:00"
+            "time": "2017-01-20T13:41:18+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -4306,16 +3631,16 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "4.2.2",
+            "version": "4.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404"
+                "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/f2a2c8e1c97c11ace607a7a667d73d47c19fe404",
-                "reference": "f2a2c8e1c97c11ace607a7a667d73d47c19fe404",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
+                "reference": "464c90d7bdf5ad4e8a6aea15c091fec0603d4368",
                 "shasum": ""
             },
             "require": {
@@ -4355,7 +3680,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2019-05-05T09:05:15+00:00"
+            "time": "2019-11-20T08:46:58+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -4707,16 +4032,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "6229f58993e5a157f6096fc7145c0717d0be8807"
+                "reference": "b3c3068a72623287550fe20b84a2b01dcba2686f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/6229f58993e5a157f6096fc7145c0717d0be8807",
-                "reference": "6229f58993e5a157f6096fc7145c0717d0be8807",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/b3c3068a72623287550fe20b84a2b01dcba2686f",
+                "reference": "b3c3068a72623287550fe20b84a2b01dcba2686f",
                 "shasum": ""
             },
             "require": {
@@ -4732,12 +4057,12 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~3.4|~4.0",
-                "symfony/dependency-injection": "~3.4|~4.0",
-                "symfony/expression-language": "~3.4|~4.0",
-                "symfony/http-foundation": "^3.4|^4.0",
-                "symfony/service-contracts": "^1.1",
-                "symfony/stopwatch": "~3.4|~4.0"
+                "symfony/config": "^3.4|^4.0|^5.0",
+                "symfony/dependency-injection": "^3.4|^4.0|^5.0",
+                "symfony/expression-language": "^3.4|^4.0|^5.0",
+                "symfony/http-foundation": "^3.4|^4.0|^5.0",
+                "symfony/service-contracts": "^1.1|^2",
+                "symfony/stopwatch": "^3.4|^4.0|^5.0"
             },
             "suggest": {
                 "symfony/dependency-injection": "",
@@ -4746,7 +4071,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -4773,7 +4098,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2019-10-01T16:40:32+00:00"
+            "time": "2019-11-28T13:33:56+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4835,16 +4160,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "9abbb7ef96a51f4d7e69627bc6f63307994e4263"
+                "reference": "40c2606131d56eff6f193b6e2ceb92414653b591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9abbb7ef96a51f4d7e69627bc6f63307994e4263",
-                "reference": "9abbb7ef96a51f4d7e69627bc6f63307994e4263",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/40c2606131d56eff6f193b6e2ceb92414653b591",
+                "reference": "40c2606131d56eff6f193b6e2ceb92414653b591",
                 "shasum": ""
             },
             "require": {
@@ -4854,7 +4179,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -4881,20 +4206,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-20T14:07:54+00:00"
+            "time": "2019-11-26T23:16:41+00:00"
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
-                "reference": "81c2e120522a42f623233968244baebd6b36cb6a"
+                "reference": "2be23e63f33de16b49294ea6581f462932a77e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/81c2e120522a42f623233968244baebd6b36cb6a",
-                "reference": "81c2e120522a42f623233968244baebd6b36cb6a",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/2be23e63f33de16b49294ea6581f462932a77e2f",
+                "reference": "2be23e63f33de16b49294ea6581f462932a77e2f",
                 "shasum": ""
             },
             "require": {
@@ -4903,7 +4228,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -4935,20 +4260,20 @@
                 "configuration",
                 "options"
             ],
-            "time": "2019-08-08T09:29:19+00:00"
+            "time": "2019-10-28T21:57:16+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831"
+                "reference": "af23c7bb26a73b850840823662dda371484926c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/54b4c428a0054e254223797d2713c31e08610831",
-                "reference": "54b4c428a0054e254223797d2713c31e08610831",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/af23c7bb26a73b850840823662dda371484926c4",
+                "reference": "af23c7bb26a73b850840823662dda371484926c4",
                 "shasum": ""
             },
             "require": {
@@ -4958,7 +4283,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -4994,20 +4319,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.12.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "04ce3335667451138df4307d6a9b61565560199e"
+                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/04ce3335667451138df4307d6a9b61565560199e",
-                "reference": "04ce3335667451138df4307d6a9b61565560199e",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/66fea50f6cb37a35eea048d75a7d99a45b586038",
+                "reference": "66fea50f6cb37a35eea048d75a7d99a45b586038",
                 "shasum": ""
             },
             "require": {
@@ -5016,7 +4341,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.12-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5049,20 +4374,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2019-08-06T08:03:45+00:00"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "50556892f3cc47d4200bfd1075314139c4c9ff4b"
+                "reference": "b84501ad50adb72a94fb460a5b5c91f693e99c9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/50556892f3cc47d4200bfd1075314139c4c9ff4b",
-                "reference": "50556892f3cc47d4200bfd1075314139c4c9ff4b",
+                "url": "https://api.github.com/repos/symfony/process/zipball/b84501ad50adb72a94fb460a5b5c91f693e99c9b",
+                "reference": "b84501ad50adb72a94fb460a5b5c91f693e99c9b",
                 "shasum": ""
             },
             "require": {
@@ -5071,7 +4396,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -5098,30 +4423,30 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2019-09-26T21:17:10+00:00"
+            "time": "2019-12-06T10:06:46+00:00"
         },
         {
             "name": "symfony/stopwatch",
-            "version": "v4.3.5",
+            "version": "v4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/stopwatch.git",
-                "reference": "1e4ff456bd625be5032fac9be4294e60442e9b71"
+                "reference": "5745b514fc56ae1907c6b8ed74f94f90f64694e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/1e4ff456bd625be5032fac9be4294e60442e9b71",
-                "reference": "1e4ff456bd625be5032fac9be4294e60442e9b71",
+                "url": "https://api.github.com/repos/symfony/stopwatch/zipball/5745b514fc56ae1907c6b8ed74f94f90f64694e9",
+                "reference": "5745b514fc56ae1907c6b8ed74f94f90f64694e9",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3",
-                "symfony/service-contracts": "^1.0"
+                "symfony/service-contracts": "^1.0|^2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -5148,7 +4473,7 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
-            "time": "2019-08-07T11:52:19+00:00"
+            "time": "2019-11-05T16:11:08+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -5192,31 +4517,29 @@
         },
         {
             "name": "webmozart/assert",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webmozart/assert.git",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4"
+                "reference": "573381c0a64f155a0d9a23f4b0c797194805b925"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/88e6d84706d09a236046d686bbea96f07b3a34f4",
-                "reference": "88e6d84706d09a236046d686bbea96f07b3a34f4",
+                "url": "https://api.github.com/repos/webmozart/assert/zipball/573381c0a64f155a0d9a23f4b0c797194805b925",
+                "reference": "573381c0a64f155a0d9a23f4b0c797194805b925",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.3 || ^7.0",
                 "symfony/polyfill-ctype": "^1.8"
             },
+            "conflict": {
+                "vimeo/psalm": "<3.6.0"
+            },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.36 || ^7.5.13"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Webmozart\\Assert\\": "src/"
@@ -5238,7 +4561,7 @@
                 "check",
                 "validate"
             ],
-            "time": "2019-08-24T08:43:50+00:00"
+            "time": "2019-11-24T13:36:37+00:00"
         }
     ],
     "aliases": [],
