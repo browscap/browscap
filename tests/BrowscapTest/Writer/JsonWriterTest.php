@@ -10,9 +10,9 @@ use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\JsonFormatter;
 use Browscap\Writer\JsonWriter;
 use Browscap\Writer\WriterInterface;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class JsonWriterTest extends TestCase
 {
@@ -28,20 +28,18 @@ class JsonWriterTest extends TestCase
      */
     private $file;
 
-    /**
-     * @throws \ReflectionException
-     */
-    public function setUp() : void
+    protected function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.json';
 
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
+        /* @var LoggerInterface $logger */
         $this->object = new JsonWriter($this->file, $logger);
     }
 
-    public function teardown() : void
+    protected function teardown() : void
     {
         $this->object->close();
 
@@ -53,33 +51,31 @@ class JsonWriterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(WriterInterface::TYPE_JSON, $this->object->getType());
+        static::assertSame(WriterInterface::TYPE_JSON, $this->object->getType());
     }
 
     /**
      * tests setting and getting a formatter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
         $mockFormatter = $this->createMock(JsonFormatter::class);
 
+        /* @var JsonFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
-        self::assertSame($mockFormatter, $this->object->getFormatter());
+        static::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
     /**
      * tests setting and getting a filter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(StandardFilter::class);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
-        self::assertSame($mockFilter, $this->object->getFilter());
+        static::assertSame($mockFilter, $this->object->getFilter());
     }
 
     /**
@@ -90,7 +86,7 @@ class JsonWriterTest extends TestCase
         $silent = true;
 
         $this->object->setSilent($silent);
-        self::assertSame($silent, $this->object->isSilent());
+        static::assertSame($silent, $this->object->isSilent());
     }
 
     /**
@@ -101,7 +97,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->fileStart();
-        self::assertSame(
+        static::assertSame(
             '{' . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -115,7 +111,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->fileStart();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -126,7 +122,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->fileEnd();
-        self::assertSame('}' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('}' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -137,7 +133,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->fileEnd();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -150,7 +146,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderHeader($header);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -163,7 +159,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderHeader($header);
-        self::assertSame(
+        static::assertSame(
             '  "comments": [' . PHP_EOL . '    "TestData to be renderd into the Header",' . PHP_EOL . '    "more data to be rendered",' . PHP_EOL . '    "much more data"' . PHP_EOL . '  ],'
             . PHP_EOL,
             file_get_contents($this->file)
@@ -185,7 +181,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderVersion($version);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -203,7 +199,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "test",' . PHP_EOL
             . '    "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '  },' . PHP_EOL,
             file_get_contents($this->file)
@@ -220,7 +216,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "0",' . PHP_EOL
             . '    "Released": ""' . PHP_EOL . '  },' . PHP_EOL,
             file_get_contents($this->file)
@@ -229,15 +225,14 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderAllDivisionsHeader($collection);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -248,7 +243,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderDivisionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -264,14 +259,15 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyName')
-            ->will(self::returnValue('test'));
+            ->willReturn('test');
 
+        /* @var JsonFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('  test: ', file_get_contents($this->file));
+        static::assertSame('  test: ', file_get_contents($this->file));
     }
 
     /**
@@ -282,7 +278,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -306,12 +302,12 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Test' => 'abc',
                 'abc' => true,
-            ]));
+            ]);
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
@@ -319,9 +315,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -333,9 +329,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -343,9 +339,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
@@ -353,14 +349,15 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyValue')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var JsonFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
@@ -375,14 +372,16 @@ class JsonWriterTest extends TestCase
         ];
 
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame(
+        static::assertSame(
             '{"Test":1,"abc":"bcd"}',
             file_get_contents($this->file)
         );
@@ -419,13 +418,13 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => 1,
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
@@ -433,9 +432,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -447,9 +446,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -457,9 +456,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
@@ -467,14 +466,15 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyValue')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var JsonFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -490,14 +490,16 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame(
+        static::assertSame(
             '{"Parent":"X1","Comment":"1"}',
             file_get_contents($this->file)
         );
@@ -529,13 +531,13 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => '12',
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
@@ -543,9 +545,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -557,9 +559,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -567,9 +569,9 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
@@ -577,14 +579,15 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyValue')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var JsonFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -600,14 +603,16 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var StandardFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame(
+        static::assertSame(
             '{"Parent":"DefaultProperties","Comment":"1"}',
             file_get_contents($this->file)
         );
@@ -615,8 +620,6 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -630,8 +633,9 @@ class JsonWriterTest extends TestCase
 
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -642,7 +646,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderSectionFooter();
-        self::assertSame(',' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame(',' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -653,7 +657,7 @@ class JsonWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -662,7 +666,7 @@ class JsonWriterTest extends TestCase
     public function testRenderDivisionFooter() : void
     {
         $this->object->renderDivisionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -671,6 +675,6 @@ class JsonWriterTest extends TestCase
     public function testRenderAllDivisionsFooter() : void
     {
         $this->object->renderAllDivisionsFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 }

@@ -17,9 +17,9 @@ class PlatformTest extends TestCase
 
         $object = new Platform($match, $properties, true, false);
 
-        self::assertSame($match, $object->getMatch());
-        self::assertSame($properties, $object->getProperties());
-        $this->assertTrue($object->isLite());
-        $this->assertFalse($object->isStandard());
+        static::assertSame($match, $object->getMatch());
+        static::assertSame($properties, $object->getProperties());
+        static::assertTrue($object->isLite());
+        static::assertFalse($object->isStandard());
     }
 }

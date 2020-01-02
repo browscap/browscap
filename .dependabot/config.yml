@@ -1,0 +1,27 @@
+# https://dependabot.com/docs/config-file/
+
+version: 1
+
+update_configs:
+  - default_reviewers:
+      - "mimmi20"
+      - "asgrim"
+      - "jaydiablo"
+    directory: "/"
+    package_manager: "php:composer"
+    update_schedule: "live"
+    version_requirement_updates: "increase_versions"
+    commit_message:
+      prefix: "Build"
+      include_scope: true
+    ignored_updates:
+      - match:
+          dependency_name: "phpunit/phpunit"
+      - match:
+          dependency_name: "symfony/cache"
+      - match:
+          dependency_name: "symfony/finder"
+      - match:
+          dependency_name: "browscap/browscap-php"
+      - match:
+          dependency_name: "monolog/monolog"

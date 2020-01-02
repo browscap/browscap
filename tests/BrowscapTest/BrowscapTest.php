@@ -17,8 +17,8 @@ class BrowscapTest extends TestCase
     {
         $cmdObject = $app->get($command);
 
-        self::assertInstanceOf(Command::class, $cmdObject);
-        self::assertSame($command, $cmdObject->getName());
+        static::assertInstanceOf(Command::class, $cmdObject);
+        static::assertSame($command, $cmdObject->getName());
     }
 
     /**

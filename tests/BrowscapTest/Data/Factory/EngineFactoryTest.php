@@ -15,7 +15,7 @@ class EngineFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new EngineFactory();
     }
@@ -82,6 +82,6 @@ class EngineFactoryTest extends TestCase
         ];
         $engineName = 'Test';
 
-        self::assertInstanceOf(Engine::class, $this->object->build($engineData, $json, $engineName));
+        static::assertInstanceOf(Engine::class, $this->object->build($engineData, $json, $engineName));
     }
 }

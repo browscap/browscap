@@ -7,8 +7,8 @@ use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use DateTimeImmutable;
-use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class DataCollectionFactoryTest extends TestCase
 {
@@ -17,10 +17,11 @@ class DataCollectionFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
-        /** @var Logger $logger */
-        $logger       = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
+
+        /* @var LoggerInterface $logger */
         $this->object = new DataCollectionFactory($logger);
     }
 
@@ -38,9 +39,9 @@ class DataCollectionFactoryTest extends TestCase
             ->setMethods(['getGenerationDate'])
             ->getMock();
 
-        $collection->expects(self::any())
+        $collection->expects(static::any())
             ->method('getGenerationDate')
-            ->will(self::returnValue(new DateTimeImmutable()));
+            ->willReturn(new DateTimeImmutable());
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
@@ -60,28 +61,28 @@ class DataCollectionFactoryTest extends TestCase
      */
     public function testCreateDataCollection() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->setConstructorArgs([$logger])
             ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
-        $collection->expects(self::any())
+        $collection->expects(static::any())
             ->method('addPlatform')
-            ->will(self::returnSelf());
-        $collection->expects(self::any())
+            ->willReturnSelf();
+        $collection->expects(static::any())
             ->method('addEngine')
-            ->will(self::returnSelf());
-        $collection->expects(self::any())
+            ->willReturnSelf();
+        $collection->expects(static::any())
             ->method('addDevice')
-            ->will(self::returnSelf());
-        $collection->expects(self::any())
+            ->willReturnSelf();
+        $collection->expects(static::any())
             ->method('addBrowser')
-            ->will(self::returnSelf());
-        $collection->expects(self::any())
+            ->willReturnSelf();
+        $collection->expects(static::any())
             ->method('addDivision')
-            ->will(self::returnSelf());
+            ->willReturnSelf();
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
@@ -89,8 +90,8 @@ class DataCollectionFactoryTest extends TestCase
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures');
 
-        self::assertInstanceOf(DataCollection::class, $result);
-        self::assertSame($collection, $result);
+        static::assertInstanceOf(DataCollection::class, $result);
+        static::assertSame($collection, $result);
     }
 
     /**

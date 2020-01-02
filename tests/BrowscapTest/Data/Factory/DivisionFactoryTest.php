@@ -5,8 +5,8 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DivisionFactory;
 use Browscap\Data\Factory\UserAgentFactory;
-use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class DivisionFactoryTest extends TestCase
 {
@@ -15,12 +15,9 @@ class DivisionFactoryTest extends TestCase
      */
     private $object;
 
-    /**
-     * @throws \ReflectionException
-     */
-    public function setUp() : void
+    protected function setUp() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
         $useragentFactory = $this->getMockBuilder(UserAgentFactory::class)
             ->disableOriginalConstructor()
@@ -28,10 +25,12 @@ class DivisionFactoryTest extends TestCase
             ->getMock();
 
         $useragentFactory
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('build')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
+        /* @var LoggerInterface $logger */
+        /* @var UserAgentFactory $useragentFactory */
         $this->object = new DivisionFactory($logger, $useragentFactory);
     }
 
@@ -46,7 +45,7 @@ class DivisionFactoryTest extends TestCase
         ];
         $filename = 'test.xyz';
 
-        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
+        static::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 
     public function testBuildOkWithVersions() : void
@@ -61,6 +60,6 @@ class DivisionFactoryTest extends TestCase
         ];
         $filename = 'test.xyz';
 
-        self::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
+        static::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 }

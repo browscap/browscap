@@ -8,8 +8,8 @@ use Browscap\Data\Division;
 use Browscap\Data\Expander;
 use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
-use Monolog\Logger;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class ExpanderTest extends TestCase
 {
@@ -18,14 +18,13 @@ class ExpanderTest extends TestCase
      */
     private $object;
 
-    /**
-     * @throws \ReflectionException
-     */
-    public function setUp() : void
+    protected function setUp() : void
     {
-        $logger     = $this->createMock(Logger::class);
+        $logger     = $this->createMock(LoggerInterface::class);
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var LoggerInterface $logger */
+        /* @var DataCollection $collection */
         $this->object = new Expander($logger, $collection);
     }
 
@@ -42,9 +41,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getDivisions')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -52,14 +51,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -67,14 +66,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -82,17 +81,18 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
-        self::assertInternalType('array', $result);
-        self::assertCount(0, $result);
+        static::assertIsArray($result);
+        static::assertCount(0, $result);
     }
 
     /**
@@ -108,9 +108,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getDivisions')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -118,14 +118,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -133,14 +133,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -148,19 +148,19 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -168,23 +168,22 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(
-                self::returnValue(
-                    [
-                        0 => $useragent,
-                    ]
-                )
+            ->willReturn(
+                [
+                    0 => $useragent,
+                ]
             );
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
-        self::assertInternalType('array', $result);
-        self::assertCount(1, $result);
+        static::assertIsArray($result);
+        static::assertCount(1, $result);
     }
 
     /**
@@ -200,9 +199,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getDivisions')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -210,14 +209,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(3))
+            ->expects(static::exactly(3))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -225,14 +224,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -240,29 +239,29 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*',
                     'properties' => ['Browser' => 'xyza'],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -270,19 +269,20 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
-        self::assertInternalType('array', $result);
-        self::assertCount(2, $result);
+        static::assertIsArray($result);
+        static::assertCount(2, $result);
     }
 
     /**
@@ -298,9 +298,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getDivisions')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -308,14 +308,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -323,9 +323,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -333,24 +333,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getProperties')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue('tablet'));
+            ->willReturn('tablet');
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $collection
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getDevice')
-            ->will(self::returnValue($device));
+            ->willReturn($device);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -358,24 +358,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*#DEVICE#',
                     'devices' => [
@@ -384,7 +384,7 @@ class ExpanderTest extends TestCase
                     ],
                     'properties' => ['Browser' => 'xyza'],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -392,19 +392,20 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
-        self::assertInternalType('array', $result);
-        self::assertCount(3, $result);
+        static::assertIsArray($result);
+        static::assertCount(3, $result);
     }
 
     /**
@@ -425,14 +426,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(3))
+            ->expects(static::exactly(3))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -440,14 +441,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -455,29 +456,29 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*',
                     'properties' => ['Browser' => 'xyza'],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -485,25 +486,26 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFileName')
-            ->will(self::returnValue('tests/test.json'));
+            ->willReturn('tests/test.json');
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
-        self::assertArrayHasKey('PatternId', $result['abc*']);
-        self::assertSame('tests/test.json::u0::c0::d::p', $result['abc*']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*']);
+        static::assertSame('tests/test.json::u0::c0::d::p', $result['abc*']['PatternId']);
     }
 
     /**
@@ -524,14 +526,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(3))
+            ->expects(static::exactly(3))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -539,9 +541,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -549,24 +551,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $platform
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getProperties')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $platform
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getMatch')
-            ->will(self::returnValue(''));
+            ->willReturn('');
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $collection
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getPlatform')
-            ->will(self::returnValue($platform));
+            ->willReturn($platform);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -574,24 +576,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*#PLATFORM#',
                     'properties' => ['Browser' => 'xyza'],
@@ -599,7 +601,7 @@ class ExpanderTest extends TestCase
                         'Platform_1',
                     ],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -607,25 +609,26 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFileName')
-            ->will(self::returnValue('tests/test.json'));
+            ->willReturn('tests/test.json');
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
-        self::assertArrayHasKey('PatternId', $result['abc*']);
-        self::assertSame('tests/test.json::u0::c0::d::pPlatform_1', $result['abc*']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*']);
+        static::assertSame('tests/test.json::u0::c0::d::pPlatform_1', $result['abc*']['PatternId']);
     }
 
     /**
@@ -646,14 +649,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -661,9 +664,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -671,14 +674,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getProperties')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue('tablet'));
+            ->willReturn('tablet');
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -686,29 +689,29 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $platform
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getProperties')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $platform
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getMatch')
-            ->will(self::returnValue(''));
+            ->willReturn('');
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $collection
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getDevice')
-            ->will(self::returnValue($device));
+            ->willReturn($device);
 
         $collection
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getPlatform')
-            ->will(self::returnValue($platform));
+            ->willReturn($platform);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -716,24 +719,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*#DEVICE#',
                     'devices' => [
@@ -743,7 +746,7 @@ class ExpanderTest extends TestCase
                     'platforms' => ['Platform_1'],
                     'properties' => ['Browser' => 'xyza'],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -751,28 +754,29 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFileName')
-            ->will(self::returnValue('tests/test.json'));
+            ->willReturn('tests/test.json');
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
-        self::assertArrayHasKey('PatternId', $result['abc*abc']);
-        self::assertSame('tests/test.json::u0::c0::dabc::pPlatform_1', $result['abc*abc']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*abc']);
+        static::assertSame('tests/test.json::u0::c0::dabc::pPlatform_1', $result['abc*abc']['PatternId']);
 
-        self::assertArrayHasKey('PatternId', $result['abc*def']);
-        self::assertSame('tests/test.json::u0::c0::ddef::pPlatform_1', $result['abc*def']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*def']);
+        static::assertSame('tests/test.json::u0::c0::ddef::pPlatform_1', $result['abc*def']['PatternId']);
     }
 
     /**
@@ -793,14 +797,14 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $defaultProperties
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('getProperties')
-            ->will(self::returnValue(['avd' => 'xyz']));
+            ->willReturn(['avd' => 'xyz']);
 
         $defaultProperties
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('Defaultproperties'));
+            ->willReturn('Defaultproperties');
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -808,9 +812,9 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $coreDivision
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $defaultProperties]));
+            ->willReturn([0 => $defaultProperties]);
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -818,24 +822,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getProperties')
-            ->will(self::returnValue([]));
+            ->willReturn([]);
 
         $device
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue('tablet'));
+            ->willReturn('tablet');
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($coreDivision));
+            ->willReturn($coreDivision);
 
         $collection
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getDevice')
-            ->will(self::returnValue($device));
+            ->willReturn($device);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -843,24 +847,24 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgent')
-            ->will(self::returnValue('abc'));
+            ->willReturn('abc');
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Parent' => 'Defaultproperties',
                 'Version' => '1.0',
                 'MajorVer' => 1,
                 'Browser' => 'xyz',
-            ]));
+            ]);
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getChildren')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => [
                     'match' => 'abc*#DEVICE#',
                     'devices' => [
@@ -869,7 +873,7 @@ class ExpanderTest extends TestCase
                     ],
                     'properties' => ['Browser' => 'xyza'],
                 ],
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -877,27 +881,28 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([
+            ->willReturn([
                 0 => $useragent,
-            ]));
+            ]);
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getFileName')
-            ->will(self::returnValue('tests/test.json'));
+            ->willReturn('tests/test.json');
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
+        /** @var Division $division */
         $result = $this->object->expand($division, 'TestDivision');
 
-        self::assertArrayHasKey('PatternId', $result['abc*abc']);
-        self::assertSame('tests/test.json::u0::c0::dabc::p', $result['abc*abc']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*abc']);
+        static::assertSame('tests/test.json::u0::c0::dabc::p', $result['abc*abc']['PatternId']);
 
-        self::assertArrayHasKey('PatternId', $result['abc*def']);
-        self::assertSame('tests/test.json::u0::c0::ddef::p', $result['abc*def']['PatternId']);
+        static::assertArrayHasKey('PatternId', $result['abc*def']);
+        static::assertSame('tests/test.json::u0::c0::ddef::p', $result['abc*def']['PatternId']);
     }
 }

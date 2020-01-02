@@ -15,7 +15,7 @@ class PlatformFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new PlatformFactory();
     }
@@ -151,8 +151,8 @@ class PlatformFactoryTest extends TestCase
 
         $platform = $this->object->build($platformData, $json, $platformName);
 
-        self::assertInstanceOf(Platform::class, $platform);
-        self::assertFalse($platform->isLite());
-        self::assertFalse($platform->isStandard());
+        static::assertInstanceOf(Platform::class, $platform);
+        static::assertFalse($platform->isLite());
+        static::assertFalse($platform->isStandard());
     }
 }

@@ -39,11 +39,19 @@ class ValidateCommand extends Command
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
+        $application = $this->getApplication();
+
+        if (null === $application) {
+            $logger->error('Coul not load Application instance');
+
+            return 1;
+        }
+
         /** @var string $resources */
         $resources = $input->getOption('resources');
 
         $failed  = false;
-        $command = $this->getApplication()->find('validate-browsers');
+        $command = $application->find('validate-browsers');
 
         $input = new ArrayInput(
             [
@@ -59,7 +67,7 @@ class ValidateCommand extends Command
 
             $failed = true;
         }
-        $command = $this->getApplication()->find('validate-devices');
+        $command = $application->find('validate-devices');
 
         $input = new ArrayInput(
             [
@@ -76,7 +84,7 @@ class ValidateCommand extends Command
             $failed = true;
         }
 
-        $command = $this->getApplication()->find('validate-engines');
+        $command = $application->find('validate-engines');
 
         $input = new ArrayInput(
             [
@@ -93,7 +101,7 @@ class ValidateCommand extends Command
             $failed = true;
         }
 
-        $command = $this->getApplication()->find('validate-platforms');
+        $command = $application->find('validate-platforms');
 
         $input = new ArrayInput(
             [
@@ -110,7 +118,7 @@ class ValidateCommand extends Command
             $failed = true;
         }
 
-        $command = $this->getApplication()->find('validate-core-divisions');
+        $command = $application->find('validate-core-divisions');
 
         $input = new ArrayInput(
             [
@@ -127,7 +135,7 @@ class ValidateCommand extends Command
             $failed = true;
         }
 
-        $command = $this->getApplication()->find('validate-divisions');
+        $command = $application->find('validate-divisions');
 
         $input = new ArrayInput(
             [

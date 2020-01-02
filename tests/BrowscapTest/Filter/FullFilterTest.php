@@ -17,7 +17,7 @@ class FullFilterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,9 +25,9 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new FullFilter($propertyHolder);
     }
@@ -37,7 +37,7 @@ class FullFilterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FilterInterface::TYPE_FULL, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_FULL, $this->object->getType());
     }
 
     /**
@@ -49,7 +49,7 @@ class FullFilterTest extends TestCase
     {
         $division = $this->createMock(Division::class);
 
-        self::assertTrue($this->object->isOutput($division));
+        static::assertTrue($this->object->isOutput($division));
     }
 
     public function testIsOutputProperty() : void
@@ -60,11 +60,11 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertTrue($this->object->isOutputProperty('Comment', $mockWriterIni));
+        static::assertTrue($this->object->isOutputProperty('Comment', $mockWriterIni));
     }
 
     public function testIsOutputPropertyModified() : void
@@ -75,9 +75,9 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -85,12 +85,12 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $object = new FullFilter($propertyHolder);
-        self::assertFalse($object->isOutputProperty('Comment', $mockWriterIni));
+        static::assertFalse($object->isOutputProperty('Comment', $mockWriterIni));
     }
 
     /**
@@ -98,8 +98,8 @@ class FullFilterTest extends TestCase
      */
     public function testIsOutputSectionAlways() : void
     {
-        $this->assertTrue($this->object->isOutputSection([]));
-        $this->assertTrue($this->object->isOutputSection(['full' => false]));
-        $this->assertTrue($this->object->isOutputSection(['full' => true]));
+        static::assertTrue($this->object->isOutputSection([]));
+        static::assertTrue($this->object->isOutputSection(['full' => false]));
+        static::assertTrue($this->object->isOutputSection(['full' => true]));
     }
 }

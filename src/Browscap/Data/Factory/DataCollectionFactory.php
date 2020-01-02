@@ -79,7 +79,7 @@ class DataCollectionFactory
         $deviceDirectory = $resourceFolder . '/devices';
 
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($deviceDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
+            /** @var \SplFileInfo $file */
             if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
@@ -91,7 +91,7 @@ class DataCollectionFactory
         $browserDirectory = $resourceFolder . '/browsers';
 
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($browserDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
+            /** @var \SplFileInfo $file */
             if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }
@@ -103,7 +103,7 @@ class DataCollectionFactory
         $uaSourceDirectory = $resourceFolder . '/user-agents';
 
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($uaSourceDirectory)) as $file) {
-            /** @var $file \SplFileInfo */
+            /** @var \SplFileInfo $file */
             if (!$file->isFile() || 'json' !== $file->getExtension()) {
                 continue;
             }

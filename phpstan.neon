@@ -1,15 +1,15 @@
 parameters:
-  includes:
-      - vendor/phpstan/phpstan-strict-rules/rules.neon
-      - vendor/phpstan/phpstan-phpunit/extension.neon
-      - vendor/phpstan/phpstan-phpunit/rules.neon
-      - vendor/pepakriz/phpstan-exception-rules/extension.neon
-      - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-      - vendor/phpstan/phpstan-beberlei-assert/extension.neon
-  parameters:
-    exceptionRules:
-      reportUnusedCatchesOfUncheckedExceptions: false
-      uncheckedExceptions: []
+  level: max
+  paths:
+    - src
+    - tests/UserAgentsTest
+    - tests/BrowscapTest
+    - tests/fixtures
+  autoload_files:
+    - %currentWorkingDirectory%/vendor/autoload.php
+#  exceptionRules:
+#    reportUnusedCatchesOfUncheckedExceptions: false
+#    uncheckedExceptions: []
   excludes_analyse:
     - */tests/*/data/*
     - */V3/*Test.php
@@ -19,3 +19,13 @@ parameters:
     - '~expects string, Twig\\Error\\LoaderError|Twig\\Error\\RuntimeError|Twig\\Error\\SyntaxError given~'
     - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
     - '~MockObject~'
+  checkMissingIterableValueType: false
+
+#includes:
+#  - vendor/phpstan/phpstan-strict-rules/rules.neon
+#  - vendor/phpstan/phpstan-phpunit/extension.neon
+#  - vendor/phpstan/phpstan-phpunit/rules.neon
+#  - vendor/pepakriz/phpstan-exception-rules/extension.neon
+#  - vendor/phpstan/phpstan-deprecation-rules/rules.neon
+#  - vendor/phpstan/phpstan-beberlei-assert/extension.neon
+#  - vendor/localheinz/phpstan-rules/rules.neon

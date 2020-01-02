@@ -14,7 +14,7 @@ class PhpFormatterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -22,9 +22,9 @@ class PhpFormatterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new PhpFormatter($propertyHolder);
     }
@@ -34,7 +34,7 @@ class PhpFormatterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FormatterInterface::TYPE_PHP, $this->object->getType());
+        static::assertSame(FormatterInterface::TYPE_PHP, $this->object->getType());
     }
 
     /**
@@ -42,7 +42,7 @@ class PhpFormatterTest extends TestCase
      */
     public function testFormatPropertyName() : void
     {
-        self::assertSame('text', $this->object->formatPropertyName('text'));
+        static::assertSame('text', $this->object->formatPropertyName('text'));
     }
 
     /**
@@ -90,7 +90,7 @@ class PhpFormatterTest extends TestCase
     public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
-        self::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
+        static::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
     }
 
     /**
@@ -101,7 +101,7 @@ class PhpFormatterTest extends TestCase
     public function testFormatPropertyValueWithException() : void
     {
         $actualValue = $this->object->formatPropertyValue('Browserx', 'Device_Pointing_Method');
-        self::assertSame('', $actualValue);
+        static::assertSame('', $actualValue);
     }
 
     /**
@@ -112,7 +112,7 @@ class PhpFormatterTest extends TestCase
     public function testFormatPropertyValueWithUnknownValue() : void
     {
         $actualValue = $this->object->formatPropertyValue('unknown', 'Browser_Type');
-        self::assertSame('"unknown"', $actualValue);
+        static::assertSame('"unknown"', $actualValue);
     }
 
     /**
@@ -123,7 +123,7 @@ class PhpFormatterTest extends TestCase
     public function testFormatPropertyValueWithSpecialChars() : void
     {
         $actualValue = $this->object->formatPropertyValue('1.0', 'Platform_Version');
-        self::assertSame('"1.0"', $actualValue);
+        static::assertSame('"1.0"', $actualValue);
     }
 
     /**
@@ -134,6 +134,6 @@ class PhpFormatterTest extends TestCase
     public function testFormatPropertyValueWithoutSpecialChars() : void
     {
         $actualValue = $this->object->formatPropertyValue('1', 'Platform_Version');
-        self::assertSame('1', $actualValue);
+        static::assertSame('1', $actualValue);
     }
 }

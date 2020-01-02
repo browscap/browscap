@@ -4,6 +4,8 @@ sudo: false
 php:
   - 7.1
   - 7.2
+  - 7.3
+  - 7.4
 
 os: linux
 
@@ -39,7 +41,7 @@ jobs:
       env: COMPOSER_FLAGS="--ignore-platform-reqs"
 
     - stage: test with coverage
-      php: 7.1
+      php: 7.2
       before_install:
         - stty cols 130
         - echo 'opcache.enable=1' >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
@@ -50,88 +52,77 @@ jobs:
         - bash <(curl -s https://codecov.io/bash) -f coverage.clover
 
     - stage: composer validate
-      php: 7.1
-      install: skip
-      script: composer validate --strict
+      php: 7.2
+      script:
+        - composer validate --strict
+        - composer normalize --dry-run
 
     - stage: style check
-      php: 7.1
+      php: 7.2
       script: php -n -d memory_limit=768M vendor/bin/php-cs-fixer fix --dry-run -vv
 
     - stage: static code analysis
-      php: 7.1
-      script: vendor/bin/phpstan analyse -l max -c phpstan.neon --autoload-file=vendor/autoload.php --memory-limit=768M --no-progress src tests/UserAgentsTest tests/BrowscapTest tests/fixtures
+      php: 7.2
+      script: vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=768M --no-progress
 
     - stage: validate sources and tests
-      php: 7.1
+      php: 7.2
       script: bin/browscap -v check-duplicate-tests
 
     - stage: validate sources and tests
-      php: 7.1
+      php: 7.2
       script: bin/browscap -v validate
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
-        - parser="browscap-php 4.1"
+        - parser="browscap-php 4.2"
         - TEST_SET="full"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/FullTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-full4.json -F full
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
-        - parser="browscap-php 4.1"
+        - parser="browscap-php 4.2"
         - TEST_SET="standard"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V4/StandardTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-standard4.json -F standard
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
-        - parser="browscap-php 4.1"
+        - parser="browscap-php 4.2"
         - TEST_SET="lite"
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V4/LiteTest.php
       after_success: bash <(curl -s https://codecov.io/bash) -f coverage-lite4.json -F lite
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
       install:
-        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
-        - travis_retry composer require symfony/console:3.3
-        - travis_retry composer require symfony/finder:3.3
-        - travis_retry composer require symfony/filesystem:3.3
-        - travis_retry composer require browscap/browscap-php:3.1
+        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/FullTest.php
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
       install:
-        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
-        - travis_retry composer require symfony/console:3.3
-        - travis_retry composer require symfony/finder:3.3
-        - travis_retry composer require symfony/filesystem:3.3
-        - travis_retry composer require browscap/browscap-php:3.1
+        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/StandardTest.php
 
     - stage: integration tests
-      php: 7.1
+      php: 7.2
       env:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
       install:
-        - travis_retry composer require friendsofphp/php-cs-fixer:2.12
-        - travis_retry composer require symfony/console:3.3
-        - travis_retry composer require symfony/finder:3.3
-        - travis_retry composer require symfony/filesystem:3.3
-        - travis_retry composer require browscap/browscap-php:3.1
+        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V3/LiteTest.php

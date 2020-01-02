@@ -17,7 +17,7 @@ class LiteFilterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,9 +25,9 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new LiteFilter($propertyHolder);
     }
@@ -37,7 +37,7 @@ class LiteFilterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FilterInterface::TYPE_LITE, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_LITE, $this->object->getType());
     }
 
     /**
@@ -51,11 +51,11 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isLite')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
-        self::assertFalse($this->object->isOutput($division));
+        static::assertFalse($this->object->isOutput($division));
     }
 
     /**
@@ -125,12 +125,12 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterIni);
-        self::assertSame($isExtra, $actualValue);
+        static::assertSame($isExtra, $actualValue);
     }
 
     /**
@@ -146,9 +146,9 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isOutputProperty')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -156,12 +156,12 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $object = new LiteFilter($propertyHolder);
-        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
+        static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -169,8 +169,8 @@ class LiteFilterTest extends TestCase
      */
     public function testIsOutputSectionOnlyWhenLite() : void
     {
-        $this->assertFalse($this->object->isOutputSection([]));
-        $this->assertFalse($this->object->isOutputSection(['lite' => false]));
-        $this->assertTrue($this->object->isOutputSection(['lite' => true]));
+        static::assertFalse($this->object->isOutputSection([]));
+        static::assertFalse($this->object->isOutputSection(['lite' => false]));
+        static::assertTrue($this->object->isOutputSection(['lite' => true]));
     }
 }

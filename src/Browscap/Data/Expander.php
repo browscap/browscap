@@ -125,7 +125,7 @@ class Expander
                 $division->isStandard(),
                 $division->getSortIndex(),
                 $divisionName
-                ) as $ua => $properties) {
+            ) as $ua => $properties) {
                 yield $ua => $properties;
             }
             ++$i;
@@ -176,28 +176,13 @@ class Expander
         }
 
         if (null !== $uaData->getDevice()) {
-            $device           = $this->collection->getDevice($uaData->getDevice());
-            $deviceProperties = $device->getProperties();
+            $device = $this->collection->getDevice($uaData->getDevice());
 
             if (!$device->isStandard()) {
                 $standard = false;
             }
 
-            $deviceTypeLoader = new DeviceTypeLoader();
-
-            try {
-                $deviceType = $deviceTypeLoader->load($device->getType());
-
-                $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
-                $deviceProperties['isTablet']       = $deviceType->isTablet();
-                $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
-            } catch (NotFoundException $e) {
-                $this->logger->critical($e);
-
-                $deviceProperties['isMobileDevice'] = false;
-                $deviceProperties['isTablet']       = false;
-                $deviceProperties['Device_Type']    = 'unknown';
-            }
+            $deviceProperties = $this->getDeviceProperties($device);
         } else {
             $deviceProperties = [];
         }
@@ -317,28 +302,13 @@ class Expander
                 }
 
                 if (array_key_exists('device', $uaDataChild)) {
-                    $device           = $this->collection->getDevice($uaDataChild['device']);
-                    $deviceProperties = $device->getProperties();
+                    $device = $this->collection->getDevice($uaDataChild['device']);
 
                     if (!$device->isStandard()) {
                         $properties['standard'] = false;
                     }
 
-                    $deviceTypeLoader = new DeviceTypeLoader();
-
-                    try {
-                        $deviceType = $deviceTypeLoader->load($device->getType());
-
-                        $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
-                        $deviceProperties['isTablet']       = $deviceType->isTablet();
-                        $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
-                    } catch (NotFoundException $e) {
-                        $this->logger->critical($e);
-
-                        $deviceProperties['isMobileDevice'] = false;
-                        $deviceProperties['isTablet']       = false;
-                        $deviceProperties['Device_Type']    = 'unknown';
-                    }
+                    $deviceProperties = $this->getDeviceProperties($device);
                 } else {
                     $deviceProperties = [];
                 }
@@ -405,28 +375,13 @@ class Expander
             }
 
             if (array_key_exists('device', $uaDataChild)) {
-                $device           = $this->collection->getDevice($uaDataChild['device']);
-                $deviceProperties = $device->getProperties();
+                $device = $this->collection->getDevice($uaDataChild['device']);
 
                 if (!$device->isStandard()) {
                     $properties['standard'] = false;
                 }
 
-                $deviceTypeLoader = new DeviceTypeLoader();
-
-                try {
-                    $deviceType = $deviceTypeLoader->load($device->getType());
-
-                    $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
-                    $deviceProperties['isTablet']       = $deviceType->isTablet();
-                    $deviceProperties['Device_Type']    = ($deviceType->getName() ?? 'unknown');
-                } catch (NotFoundException $e) {
-                    $this->logger->critical($e);
-
-                    $deviceProperties['isMobileDevice'] = false;
-                    $deviceProperties['isTablet']       = false;
-                    $deviceProperties['Device_Type']    = 'unknown';
-                }
+                $deviceProperties = $this->getDeviceProperties($device);
             } else {
                 $deviceProperties = [];
             }
@@ -580,5 +535,41 @@ class Expander
         $properties['MinorVer'] = $completeVersions[1] ?? '0';
 
         return $properties;
+    }
+
+    /**
+     * @param \Browscap\Data\Device $device
+     *
+     * @return array
+     */
+    private function getDeviceProperties(Device $device) : array
+    {
+        $deviceProperties = $device->getProperties();
+        $deviceTypeLoader = new DeviceTypeLoader();
+
+        try {
+            $deviceType = $deviceTypeLoader->load($device->getType());
+
+            $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
+            $deviceProperties['isTablet']       = $deviceType->isTablet();
+
+            if (null === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'unknown';
+            } elseif ('TV' === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'TV Device';
+            } elseif ('Mobile Console' === $deviceType->getName()) {
+                $deviceProperties['Device_Type'] = 'Console';
+            } else {
+                $deviceProperties['Device_Type'] = $deviceType->getName();
+            }
+        } catch (NotFoundException $e) {
+            $this->logger->critical($e);
+
+            $deviceProperties['isMobileDevice'] = false;
+            $deviceProperties['isTablet']       = false;
+            $deviceProperties['Device_Type']    = 'unknown';
+        }
+
+        return $deviceProperties;
     }
 }

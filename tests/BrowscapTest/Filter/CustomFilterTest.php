@@ -17,7 +17,7 @@ class CustomFilterTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,9 +25,9 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(true));
+            ->willReturn(true);
 
         $this->object = new CustomFilter($propertyHolder, ['Parent']);
     }
@@ -37,7 +37,7 @@ class CustomFilterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(FilterInterface::TYPE_CUSTOM, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_CUSTOM, $this->object->getType());
     }
 
     /**
@@ -49,7 +49,7 @@ class CustomFilterTest extends TestCase
     {
         $division = $this->createMock(Division::class);
 
-        self::assertTrue($this->object->isOutput($division));
+        static::assertTrue($this->object->isOutput($division));
     }
 
     /**
@@ -119,11 +119,11 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
-        self::assertSame($isExtra, $this->object->isOutputProperty($propertyName, $mockWriterIni));
+        static::assertSame($isExtra, $this->object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -139,9 +139,9 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('isOutputProperty')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -149,12 +149,12 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $object = new CustomFilter($propertyHolder, ['Parent']);
-        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
+        static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -170,9 +170,9 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('isOutputProperty')
-            ->will(self::returnValue(false));
+            ->willReturn(false);
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -180,12 +180,12 @@ class CustomFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getType')
-            ->will(self::returnValue(WriterInterface::TYPE_INI));
+            ->willReturn(WriterInterface::TYPE_INI);
 
         $object = new CustomFilter($propertyHolder, ['Parent']);
-        self::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
+        static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
     }
 
     /**
@@ -193,8 +193,8 @@ class CustomFilterTest extends TestCase
      */
     public function testIsOutputSectionAlways() : void
     {
-        $this->assertTrue($this->object->isOutputSection([]));
-        $this->assertTrue($this->object->isOutputSection(['lite' => false]));
-        $this->assertTrue($this->object->isOutputSection(['lite' => true]));
+        static::assertTrue($this->object->isOutputSection([]));
+        static::assertTrue($this->object->isOutputSection(['lite' => false]));
+        static::assertTrue($this->object->isOutputSection(['lite' => true]));
     }
 }

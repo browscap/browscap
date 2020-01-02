@@ -8,10 +8,9 @@ use Browscap\Data\Device;
 use Browscap\Data\Division;
 use Browscap\Data\Engine;
 use Browscap\Data\Platform;
-use Monolog\Handler\NullHandler;
-use Monolog\Logger;
 use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class DataCollectionTest extends TestCase
 {
@@ -20,10 +19,11 @@ class DataCollectionTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
-        $logger = new Logger('browscap');
-        $logger->pushHandler(new NullHandler(Logger::DEBUG));
+        $logger = $this->createMock(LoggerInterface::class);
+
+        /* @var LoggerInterface $logger */
         $this->object = new DataCollection($logger);
     }
 
@@ -42,11 +42,12 @@ class DataCollectionTest extends TestCase
     {
         $expectedPlatform = $this->createMock(Platform::class);
 
+        /* @var Platform $expectedPlatform */
         $this->object->addPlatform('Platform1', $expectedPlatform);
 
         $platform = $this->object->getPlatform('Platform1');
 
-        self::assertSame($expectedPlatform, $platform);
+        static::assertSame($expectedPlatform, $platform);
     }
 
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
@@ -64,11 +65,12 @@ class DataCollectionTest extends TestCase
     {
         $expectedEngine = $this->createMock(Engine::class);
 
+        /* @var Engine $expectedEngine */
         $this->object->addEngine('Foobar', $expectedEngine);
 
         $engine = $this->object->getEngine('Foobar');
 
-        self::assertSame($expectedEngine, $engine);
+        static::assertSame($expectedEngine, $engine);
     }
 
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist() : void
@@ -86,11 +88,12 @@ class DataCollectionTest extends TestCase
     {
         $expectedDevice = $this->createMock(Device::class);
 
+        /* @var Device $expectedDevice */
         $this->object->addDevice('Foobar', $expectedDevice);
 
         $device = $this->object->getDevice('Foobar');
 
-        self::assertSame($expectedDevice, $device);
+        static::assertSame($expectedDevice, $device);
     }
 
     public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist() : void
@@ -108,11 +111,12 @@ class DataCollectionTest extends TestCase
     {
         $expectedBrowser = $this->createMock(Browser::class);
 
+        /* @var Browser $expectedBrowser */
         $this->object->addBrowser('Foobar', $expectedBrowser);
 
         $browser = $this->object->getBrowser('Foobar');
 
-        self::assertSame($expectedBrowser, $browser);
+        static::assertSame($expectedBrowser, $browser);
     }
 
     public function testGetDivisions() : void
@@ -124,24 +128,25 @@ class DataCollectionTest extends TestCase
             ->getMock();
 
         $expectedDivision
-            ->expects(self::never())
+            ->expects(static::never())
             ->method('getName')
-            ->will(self::returnValue($divisionName));
+            ->willReturn($divisionName);
 
+        /* @var Division $expectedDivision */
         $this->object->addDivision($expectedDivision);
 
         $divisions = $this->object->getDivisions();
 
-        self::assertInternalType('array', $divisions);
-        self::assertArrayHasKey(0, $divisions);
-        self::assertSame($expectedDivision, $divisions[0]);
+        static::assertIsArray($divisions);
+        static::assertArrayHasKey(0, $divisions);
+        static::assertSame($expectedDivision, $divisions[0]);
 
         $divisionsSecond = $this->object->getDivisions();
 
-        self::assertInternalType('array', $divisionsSecond);
-        self::assertArrayHasKey(0, $divisionsSecond);
-        self::assertSame($expectedDivision, $divisionsSecond[0]);
-        self::assertSame($divisions, $divisionsSecond);
+        static::assertIsArray($divisionsSecond);
+        static::assertArrayHasKey(0, $divisionsSecond);
+        static::assertSame($expectedDivision, $divisionsSecond[0]);
+        static::assertSame($divisions, $divisionsSecond);
     }
 
     /**
@@ -151,9 +156,10 @@ class DataCollectionTest extends TestCase
     {
         $defaultProperties = $this->createMock(Division::class);
 
+        /* @var Division $defaultProperties */
         $this->object->setDefaultProperties($defaultProperties);
 
-        self::assertSame($defaultProperties, $this->object->getDefaultProperties());
+        static::assertSame($defaultProperties, $this->object->getDefaultProperties());
     }
 
     /**
@@ -163,8 +169,9 @@ class DataCollectionTest extends TestCase
     {
         $defaultBrowser = $this->createMock(Division::class);
 
+        /* @var Division $defaultBrowser */
         $this->object->setDefaultBrowser($defaultBrowser);
 
-        self::assertSame($defaultBrowser, $this->object->getDefaultBrowser());
+        static::assertSame($defaultBrowser, $this->object->getDefaultBrowser());
     }
 }

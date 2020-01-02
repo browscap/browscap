@@ -12,7 +12,7 @@ use Symfony\Component\Finder\Finder;
  */
 final class Processor implements ProcessorInterface
 {
-    /**@+
+    /** @+
      * The codes representing different JSON elements
      *
      * These come from the Seld\JsonLint\JsonParser class. The values are returned by the lexer when
@@ -27,7 +27,7 @@ final class Processor implements ProcessorInterface
     private const JSON_EOF          = 1;
     private const JSON_STRING       = 4;
     private const JSON_COLON        = 21;
-    /**@-*/
+    /*@-*/
 
     /**
      * @var string
@@ -111,7 +111,7 @@ final class Processor implements ProcessorInterface
         $finder->in($this->resourceDir);
 
         foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
+            /** @var \Symfony\Component\Finder\SplFileInfo $file */
 
             /** @var string $patternFileName */
             $patternFileName = mb_substr($file->getPathname(), (int) mb_strpos($file->getPathname(), 'resources/'));

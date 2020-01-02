@@ -20,7 +20,7 @@ final class ProcessorTest extends TestCase
     /**
      * Run before each test, creates a new Processor object
      */
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new Processor($this->resourceDir);
     }

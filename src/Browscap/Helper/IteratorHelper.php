@@ -23,7 +23,7 @@ class IteratorHelper
         $errors = [];
 
         foreach (new \RecursiveIteratorIterator($iterator) as $file) {
-            /** @var $file \SplFileInfo */
+            /** @var \SplFileInfo $file */
             if (!$file->isFile() || 'php' !== $file->getExtension()) {
                 continue;
             }

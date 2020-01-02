@@ -3,9 +3,10 @@ declare(strict_types = 1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use Ergebnis\Json\Normalizer\Validator\SchemaValidator;
 use JsonSchema\Constraints;
 use JsonSchema\SchemaStorage;
-use Localheinz\Json\Normalizer\Validator;
+use JsonSchema\Validator;
 use Seld\JsonLint\JsonParser;
 use Seld\JsonLint\ParsingException;
 use Symfony\Component\Console\Command\Command;
@@ -50,8 +51,8 @@ class ValidateCoreDivisionsCommand extends Command
         $logger->info('Resource folder: ' . $resources);
 
         $schemaStorage   = new SchemaStorage();
-        $schemaValidator = new Validator\SchemaValidator(
-            new \JsonSchema\Validator(
+        $schemaValidator = new SchemaValidator(
+            new Validator(
                 new Constraints\Factory(
                     $schemaStorage,
                     $schemaStorage->getUriRetriever()

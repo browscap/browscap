@@ -13,7 +13,7 @@ class UseragentFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         $this->object = new UserAgentFactory();
     }
@@ -41,10 +41,10 @@ class UseragentFactoryTest extends TestCase
 
         $uas = $this->object->build($userAgentsData, true);
 
-        self::assertInternalType('array', $uas);
+        static::assertIsArray($uas);
 
         foreach ($uas as $useragent) {
-            self::assertInstanceOf(UserAgent::class, $useragent);
+            static::assertInstanceOf(UserAgent::class, $useragent);
         }
     }
 
@@ -71,10 +71,10 @@ class UseragentFactoryTest extends TestCase
 
         $uas = $this->object->build($userAgentsData, false);
 
-        self::assertInternalType('array', $uas);
+        static::assertIsArray($uas);
 
         foreach ($uas as $useragent) {
-            self::assertInstanceOf(UserAgent::class, $useragent);
+            static::assertInstanceOf(UserAgent::class, $useragent);
         }
     }
 }

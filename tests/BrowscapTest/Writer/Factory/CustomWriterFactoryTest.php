@@ -5,9 +5,9 @@ namespace BrowscapTest\Writer\Factory;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer\Factory\CustomWriterFactory;
 use Browscap\Writer\WriterCollection;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class CustomWriterFactoryTest extends TestCase
 {
@@ -18,7 +18,7 @@ class CustomWriterFactoryTest extends TestCase
      */
     private $object;
 
-    public function setUp() : void
+    protected function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
 
@@ -27,79 +27,73 @@ class CustomWriterFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionWithDefaultParams() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionForCsvFile() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_CSV));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_CSV));
     }
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionForAspFile() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_ASP));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_ASP));
     }
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionForXmlFile() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_XML));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_XML));
     }
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionForJsonFile() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_JSON));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_JSON));
     }
 
     /**
      * tests creating a writer collection
-     *
-     * @throws \ReflectionException
      */
     public function testCreateCollectionForPhpFile() : void
     {
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        self::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_PHP));
+        /** @var LoggerInterface $logger */
+        static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_PHP));
     }
 }

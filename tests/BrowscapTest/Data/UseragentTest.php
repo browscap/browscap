@@ -21,11 +21,11 @@ class UseragentTest extends TestCase
 
         $object = new UserAgent($userAgent, $properties, $children, $platform, $engine, $device);
 
-        self::assertSame($userAgent, $object->getUserAgent());
-        self::assertSame($properties, $object->getProperties());
-        self::assertTrue(is_iterable($object->getChildren()));
-        self::assertSame($platform, $object->getPlatform());
-        self::assertSame($engine, $object->getEngine());
-        self::assertSame($device, $object->getDevice());
+        static::assertSame($userAgent, $object->getUserAgent());
+        static::assertSame($properties, $object->getProperties());
+        static::assertTrue(is_iterable($object->getChildren()));
+        static::assertSame($platform, $object->getPlatform());
+        static::assertSame($engine, $object->getEngine());
+        static::assertSame($device, $object->getDevice());
     }
 }

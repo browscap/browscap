@@ -11,9 +11,9 @@ use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
-use Monolog\Logger;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\LoggerInterface;
 
 class IniWriterTest extends TestCase
 {
@@ -29,20 +29,18 @@ class IniWriterTest extends TestCase
      */
     private $file;
 
-    /**
-     * @throws \ReflectionException
-     */
-    public function setUp() : void
+    protected function setUp() : void
     {
         vfsStream::setup(self::STORAGE_DIR);
         $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.ini';
 
-        $logger = $this->createMock(Logger::class);
+        $logger = $this->createMock(LoggerInterface::class);
 
+        /* @var LoggerInterface $logger */
         $this->object = new IniWriter($this->file, $logger);
     }
 
-    public function teardown() : void
+    protected function teardown() : void
     {
         $this->object->close();
 
@@ -54,33 +52,31 @@ class IniWriterTest extends TestCase
      */
     public function testGetType() : void
     {
-        self::assertSame(WriterInterface::TYPE_INI, $this->object->getType());
+        static::assertSame(WriterInterface::TYPE_INI, $this->object->getType());
     }
 
     /**
      * tests setting and getting a formatter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFormatter() : void
     {
         $mockFormatter = $this->createMock(PhpFormatter::class);
 
+        /* @var PhpFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
-        self::assertSame($mockFormatter, $this->object->getFormatter());
+        static::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
     /**
      * tests setting and getting a filter
-     *
-     * @throws \ReflectionException
      */
     public function testSetGetFilter() : void
     {
         $mockFilter = $this->createMock(FullFilter::class);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
-        self::assertSame($mockFilter, $this->object->getFilter());
+        static::assertSame($mockFilter, $this->object->getFilter());
     }
 
     /**
@@ -91,7 +87,7 @@ class IniWriterTest extends TestCase
         $silent = true;
 
         $this->object->setSilent($silent);
-        self::assertSame($silent, $this->object->isSilent());
+        static::assertSame($silent, $this->object->isSilent());
     }
 
     /**
@@ -100,7 +96,7 @@ class IniWriterTest extends TestCase
     public function testFileStart() : void
     {
         $this->object->fileStart();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -109,7 +105,7 @@ class IniWriterTest extends TestCase
     public function testFileEnd() : void
     {
         $this->object->fileEnd();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -122,7 +118,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderHeader($header);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -135,7 +131,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderHeader($header);
-        self::assertSame(
+        static::assertSame(
             ';;; TestData to be rendered into the Header' . PHP_EOL
             . ';;; more data to be rendered' . PHP_EOL
             . ';;; much more data' . PHP_EOL . PHP_EOL,
@@ -158,7 +154,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderVersion($version);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -176,7 +172,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
             . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=' . date('Y-m-d') . PHP_EOL . 'Format=TEST' . PHP_EOL
             . 'Type=full' . PHP_EOL . PHP_EOL,
@@ -194,7 +190,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderVersion($version);
-        self::assertSame(
+        static::assertSame(
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
             . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type='
             . PHP_EOL . PHP_EOL,
@@ -204,15 +200,14 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
-     *
-     * @throws \ReflectionException
      */
     public function testRenderAllDivisionsHeader() : void
     {
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderAllDivisionsHeader($collection);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -223,7 +218,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderDivisionHeader('test');
-        self::assertSame(
+        static::assertSame(
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; test' . PHP_EOL . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -237,7 +232,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderDivisionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -248,7 +243,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('[test]' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('[test]' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -259,7 +254,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionHeader('test');
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -283,12 +278,12 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => '1',
                 'Win16' => true,
-            ]));
+            ]);
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
@@ -296,9 +291,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -310,9 +305,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -320,28 +315,29 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
             ->setMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getPropertyType')
-            ->will(self::returnValue(PropertyHolder::TYPE_STRING));
+            ->willReturn(PropertyHolder::TYPE_STRING);
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
             ->setMethods(['formatPropertyName'])
             ->getMock();
         $mockFormatter
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var PhpFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
@@ -356,14 +352,16 @@ class IniWriterTest extends TestCase
         ];
 
         $mockFilter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame('Comment="1"' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('Comment="1"' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -397,9 +395,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -411,13 +409,13 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => 1,
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
@@ -425,9 +423,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -435,28 +433,29 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
             ->setMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getPropertyType')
-            ->will(self::returnValue(PropertyHolder::TYPE_STRING));
+            ->willReturn(PropertyHolder::TYPE_STRING);
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
             ->setMethods(['formatPropertyName'])
             ->getMock();
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var PhpFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -472,14 +471,16 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame('Parent="X1"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
+        static::assertSame('Parent="X1"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -508,13 +509,13 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $useragent
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getProperties')
-            ->will(self::returnValue([
+            ->willReturn([
                 'Comment' => '12',
                 'Win16' => true,
                 'Platform' => 'bcd',
-            ]));
+            ]);
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
@@ -522,9 +523,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(self::any())
+            ->expects(static::any())
             ->method('trimProperty')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
         $property = new \ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
@@ -536,9 +537,9 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $division
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getUserAgents')
-            ->will(self::returnValue([0 => $useragent]));
+            ->willReturn([0 => $useragent]);
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -546,18 +547,18 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $collection
-            ->expects(self::once())
+            ->expects(static::once())
             ->method('getDefaultProperties')
-            ->will(self::returnValue($division));
+            ->willReturn($division);
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
             ->setMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('getPropertyType')
-            ->will(self::returnValue(PropertyHolder::TYPE_STRING));
+            ->willReturn(PropertyHolder::TYPE_STRING);
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
@@ -565,10 +566,11 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockFormatter
-            ->expects(self::exactly(2))
+            ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->will(self::returnArgument(0));
+            ->willReturnArgument(0);
 
+        /* @var PhpFormatter $mockFormatter */
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -584,14 +586,16 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockFilter
-            ->expects(self::exactly(4))
+            ->expects(static::exactly(4))
             ->method('isOutputProperty')
-            ->will(self::returnValueMap($map));
+            ->willReturnMap($map);
 
+        /* @var FullFilter $mockFilter */
         $this->object->setFilter($mockFilter);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection, $sections);
-        self::assertSame(
+        static::assertSame(
             'Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL,
             file_get_contents($this->file)
         );
@@ -599,8 +603,6 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
-     *
-     * @throws \ReflectionException
      */
     public function testRenderSectionBodyIfSilent() : void
     {
@@ -614,8 +616,9 @@ class IniWriterTest extends TestCase
 
         $collection = $this->createMock(DataCollection::class);
 
+        /* @var DataCollection $collection */
         $this->object->renderSectionBody($section, $collection);
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -626,7 +629,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $this->object->renderSectionFooter();
-        self::assertSame(PHP_EOL, file_get_contents($this->file));
+        static::assertSame(PHP_EOL, file_get_contents($this->file));
     }
 
     /**
@@ -637,7 +640,7 @@ class IniWriterTest extends TestCase
         $this->object->setSilent(true);
 
         $this->object->renderSectionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -646,7 +649,7 @@ class IniWriterTest extends TestCase
     public function testRenderDivisionFooter() : void
     {
         $this->object->renderDivisionFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 
     /**
@@ -655,6 +658,6 @@ class IniWriterTest extends TestCase
     public function testRenderAllDivisionsFooter() : void
     {
         $this->object->renderAllDivisionsFooter();
-        self::assertSame('', file_get_contents($this->file));
+        static::assertSame('', file_get_contents($this->file));
     }
 }
