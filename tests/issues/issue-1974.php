@@ -567,7 +567,7 @@ return [
     'issue-1974-L' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36 Chrome-Lighthouse',
         'properties' => [
-            'Comment' => 'Google',
+            'Comment' => 'Google Chrome Lighthouse',
             'Browser' => 'Google Lighthouse',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

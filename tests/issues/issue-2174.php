@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'issue-2065-A' => [
-        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36(KHTML, like Gecko) Chrome/69.0.3464.0 Mobile Safari/537.36 Chrome-Lighthouse',
+    'issue-2174-A' => [
+        'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3694.0 Mobile Safari/537.36 Chrome-Lighthouse',
         'properties' => [
             'Comment' => 'Google Chrome Lighthouse',
             'Browser' => 'Google Lighthouse',
