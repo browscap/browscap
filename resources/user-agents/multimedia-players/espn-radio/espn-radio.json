@@ -156,8 +156,10 @@
           ]
         },
         {
-          "match": "ESPN Radio #MAJORVER#.#MINORVER#* (iPhone#PLATFORM#",
-          "device": "iPhone",
+          "match": "ESPN Radio #MAJORVER#.#MINORVER#* (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E_8_1", "iOS_E_8_0",

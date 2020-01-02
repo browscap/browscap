@@ -52,7 +52,6 @@ class LiteTest extends TestCase
     private static $writer;
 
     /**
-     * @throws \BrowscapPHP\Exception
      * @throws \Exception
      * @throws \Assert\AssertionFailedException
      */
@@ -185,12 +184,14 @@ class LiteTest extends TestCase
             static::assertFalse(
                 self::$propertyHolder->isDeprecatedProperty($propName),
                 'Actual result expects to test for deprecated property "' . $propName . '"'
+                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
             );
 
             static::assertArrayHasKey(
                 $propName,
                 $actualProps,
                 'Actual result does not have "' . $propName . '" property'
+                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
             );
 
             static::assertSame(

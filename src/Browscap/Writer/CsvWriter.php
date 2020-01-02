@@ -261,12 +261,7 @@ class CsvWriter implements WriterInterface
 
         $section['PropertyName'] = $sectionName;
         $section['MasterParent'] = $this->detectMasterParent($sectionName, $section);
-
-        if (in_array($sectionName, ['DefaultProperties', '*'])) {
-            $section['LiteMode'] = 'true';
-        } else {
-            $section['LiteMode'] = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
-        }
+        $section['LiteMode']     = ((!isset($section['lite']) || !$section['lite']) ? 'false' : 'true');
 
         $values = [];
 

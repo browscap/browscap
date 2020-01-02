@@ -56,8 +56,6 @@ class AspFormatter implements FormatterInterface
      */
     public function formatPropertyValue($value, string $property) : string
     {
-        $valueOutput = (string) $value;
-
         switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
                 $valueOutput = trim((string) $value);

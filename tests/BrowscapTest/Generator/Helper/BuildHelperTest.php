@@ -799,16 +799,18 @@ class BuildHelperTest extends TestCase
 
         $dataCollectionFactory = new DataCollectionFactory($this->logger);
 
+        /** @var string $resourceFolder */
         $resourceFolder = realpath(__DIR__ . '/../../../fixtures/duplicate-useragent-entries');
+        $file           = realpath($resourceFolder . '/user-agents/test1.json');
 
         $this->expectException(DuplicateDataException::class);
-        $this->expectExceptionMessage(sprintf('tried to add section "Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*" for division "2345 Browser #MAJORVER#.#MINORVER#" in file "%s/user-agents/test1.json", but this was already added before', $resourceFolder));
+        $this->expectExceptionMessage(sprintf('tried to add section "Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*" for division "2345 Browser #MAJORVER#.#MINORVER#" in file "%s", but this was already added before', $file));
 
         /* @var WriterCollection $writerCollection */
         BuildHelper::run(
             'test',
             new DateTimeImmutable(),
-            (string) $resourceFolder,
+            $resourceFolder,
             $this->logger,
             $writerCollection,
             $dataCollectionFactory,

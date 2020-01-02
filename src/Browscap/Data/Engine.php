@@ -3,7 +3,7 @@ declare(strict_types = 1);
 namespace Browscap\Data;
 
 /**
- * Represents an engine as defined in the resources/engines.json file
+ * Represents an engine as defined in the resources/engines directory
  */
 class Engine
 {

@@ -33,6 +33,7 @@
     "ext-json": "*",
     "beberlei/assert": "^3.2.7",
     "ergebnis/json-normalizer": "^0.10.0",
+    "mimmi20/json-class": "~2.0.7",
     "mimmi20/ua-browser-type": "^7.0.6",
     "mimmi20/ua-device-type": "^7.1.5",
     "monolog/monolog": "^1.25.3 || ^2.0.0",
@@ -42,6 +43,7 @@
     "twig/twig": "^2.12.2"
   },
   "require-dev": {
+    "ext-zip": "*",
     "browscap/browscap-php": "^4.2.2 || ^5.0.0",
     "ergebnis/composer-normalize": "^2.0.2",
     "ergebnis/phpstan-rules": "^0.14.2",

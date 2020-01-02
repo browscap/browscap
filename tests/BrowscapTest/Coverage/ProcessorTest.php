@@ -46,9 +46,11 @@ final class ProcessorTest extends TestCase
      */
     public function testJsonStructure(string $fileName, array $expected) : void
     {
+        /** @var string $content */
+        $content  = file_get_contents($this->resourceDir . $fileName);
         $coverage = $this->object->processFile(
             $fileName,
-            (string) file_get_contents($this->resourceDir . $fileName),
+            $content,
             []
         );
 
@@ -131,9 +133,11 @@ final class ProcessorTest extends TestCase
      */
     public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
     {
+        /** @var string $content */
+        $content  = file_get_contents($this->resourceDir . $fileName);
         $coverage = $this->object->processFile(
             $fileName,
-            (string) file_get_contents($this->resourceDir . $fileName),
+            $content,
             $coveredIds
         );
 

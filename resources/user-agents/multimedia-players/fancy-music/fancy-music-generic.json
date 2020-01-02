@@ -15,20 +15,11 @@
       },
       "children": [
         {
-          "match": "FancyMusic * (iPhone#PLATFORM#",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
-            "iOS_E_8_1", "iOS_E_8_0",
-            "iOS_E_7_1", "iOS_E_7_0",
-            "iOS_E_6_1", "iOS_E_6_0",
-            "iOS_E_5_1",
-            "iOS_E"
-          ]
-        },
-        {
-          "match": "FancyMusic * (iPod#PLATFORM#",
-          "device": "iPod Touch",
+          "match": "FancyMusic * (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E_8_1", "iOS_E_8_0",
@@ -50,20 +41,11 @@
           ]
         },
         {
-          "match": "Fancy Cloud Music * (iPhone#PLATFORM#",
-          "device": "iPhone",
-          "platforms": [
-            "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
-            "iOS_E_8_1", "iOS_E_8_0",
-            "iOS_E_7_1", "iOS_E_7_0",
-            "iOS_E_6_1", "iOS_E_6_0",
-            "iOS_E_5_1",
-            "iOS_E"
-          ]
-        },
-        {
-          "match": "Fancy Cloud Music * (iPod#PLATFORM#",
-          "device": "iPod Touch",
+          "match": "Fancy Cloud Music * (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E_8_1", "iOS_E_8_0",

@@ -154,8 +154,10 @@
           ]
         },
         {
-          "match": "PodcastOne * (iPhone#PLATFORM#",
-          "device": "iPhone",
+          "match": "PodcastOne * (#DEVICE##PLATFORM#",
+          "devices": {
+            "iPhone": "iPhone"
+          },
           "platforms": [
             "iOS_E_9_3", "iOS_E_9_2", "iOS_E_9_1", "iOS_E_9_0",
             "iOS_E_8_1", "iOS_E_8_0",

@@ -67,6 +67,7 @@ class ValidateCommand extends Command
 
             $failed = true;
         }
+
         $command = $application->find('validate-devices');
 
         $input = new ArrayInput(

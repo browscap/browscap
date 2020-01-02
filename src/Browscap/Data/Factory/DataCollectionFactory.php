@@ -5,9 +5,9 @@ namespace Browscap\Data\Factory;
 use Assert\Assertion;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
+use ExceptionalJSON\DecodeErrorException;
+use JsonClass\Json;
 use Psr\Log\LoggerInterface;
-use Seld\JsonLint\JsonParser;
-use Seld\JsonLint\ParsingException;
 
 class DataCollectionFactory
 {
@@ -41,6 +41,11 @@ class DataCollectionFactory
      */
     private $allDivisions = [];
 
+    /**
+     * @param LoggerInterface $logger
+     *
+     * @throws \Exception
+     */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger                = $logger;
@@ -64,11 +69,48 @@ class DataCollectionFactory
      */
     public function createDataCollection(string $resourceFolder) : DataCollection
     {
+        $iterator = static function (string $directory, LoggerInterface $logger, callable $function) : void {
+            if (!file_exists($directory)) {
+                throw new \RuntimeException('Directory "' . $directory . '" does not exist.');
+            }
+
+            $addedFiles = 0;
+
+            foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($directory)) as $file) {
+                /** @var \SplFileInfo $file */
+                if (!$file->isFile() || 'json' !== $file->getExtension()) {
+                    continue;
+                }
+
+                $logger->debug('add file ' . $file->getPathname());
+                $function($file->getPathname());
+                ++$addedFiles;
+            }
+
+            if (!$addedFiles) {
+                throw new \RuntimeException('Directory "' . $directory . '" was empty.');
+            }
+        };
+
         $this->logger->debug('add platform file');
-        $this->addPlatformsFile($resourceFolder . '/platforms.json');
+
+        $iterator(
+            $resourceFolder . '/platforms',
+            $this->logger,
+            function (string $file) : void {
+                $this->addPlatformsFile($file);
+            }
+        );
 
         $this->logger->debug('add engine file');
-        $this->addEnginesFile($resourceFolder . '/engines.json');
+
+        $iterator(
+            $resourceFolder . '/engines',
+            $this->logger,
+            function (string $file) : void {
+                $this->addEnginesFile($file);
+            }
+        );
 
         $this->logger->debug('add file for default properties');
         $this->setDefaultProperties($resourceFolder . '/core/default-properties.json');
@@ -76,41 +118,29 @@ class DataCollectionFactory
         $this->logger->debug('add file for default browser');
         $this->setDefaultBrowser($resourceFolder . '/core/default-browser.json');
 
-        $deviceDirectory = $resourceFolder . '/devices';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($deviceDirectory)) as $file) {
-            /** @var \SplFileInfo $file */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/devices',
+            $this->logger,
+            function (string $file) : void {
+                $this->addDevicesFile($file);
             }
+        );
 
-            $this->logger->debug('add device file ' . $file->getPathname());
-            $this->addDevicesFile($file->getPathname());
-        }
-
-        $browserDirectory = $resourceFolder . '/browsers';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($browserDirectory)) as $file) {
-            /** @var \SplFileInfo $file */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/browsers',
+            $this->logger,
+            function (string $file) : void {
+                $this->addBrowserFile($file);
             }
+        );
 
-            $this->logger->debug('add browser file ' . $file->getPathname());
-            $this->addBrowserFile($file->getPathname());
-        }
-
-        $uaSourceDirectory = $resourceFolder . '/user-agents';
-
-        foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($uaSourceDirectory)) as $file) {
-            /** @var \SplFileInfo $file */
-            if (!$file->isFile() || 'json' !== $file->getExtension()) {
-                continue;
+        $iterator(
+            $resourceFolder . '/user-agents',
+            $this->logger,
+            function (string $file) : void {
+                $this->addSourceFile($file);
             }
-
-            $this->logger->debug('add source file ' . $file->getPathname());
-            $this->addSourceFile($file->getPathname());
-        }
+        );
 
         return $this->collection;
     }
@@ -135,7 +165,10 @@ class DataCollectionFactory
             $platformName = (string) $platformName;
             $platformData = $decodedFileContent[$platformName];
 
-            $this->collection->addPlatform($platformName, $platformFactory->build($platformData, $decodedFileContent, $platformName));
+            $this->collection->addPlatform(
+                $platformName,
+                $platformFactory->build($platformData, $decodedFileContent, $platformName)
+            );
         }
     }
 
@@ -158,7 +191,10 @@ class DataCollectionFactory
             $engineName = (string) $engineName;
             $engineData = $decodedFileContent[$engineName];
 
-            $this->collection->addEngine($engineName, $engineFactory->build($engineData, $decodedFileContent, $engineName));
+            $this->collection->addEngine(
+                $engineName,
+                $engineFactory->build($engineData, $decodedFileContent, $engineName)
+            );
         }
     }
 
@@ -290,16 +326,13 @@ class DataCollectionFactory
         $fileContent = file_get_contents($filename);
 
         Assertion::string($fileContent);
+        Assertion::notRegex($fileContent, '/[^ -~\s]/', 'File "' . $filename . '" contains Non-ASCII-Characters.');
 
-        if (preg_match('/[^ -~\s]/', $fileContent)) {
-            throw new \RuntimeException('File "' . $filename . '" contains Non-ASCII-Characters.');
-        }
-
-        $jsonParser = new JsonParser();
+        $json = new Json();
 
         try {
-            return $jsonParser->parse($fileContent, JsonParser::DETECT_KEY_CONFLICTS | JsonParser::PARSE_TO_ASSOC);
-        } catch (ParsingException $e) {
+            return $json->decode($fileContent, true);
+        } catch (DecodeErrorException $e) {
             throw new \RuntimeException(
                 'File "' . $filename . '" had invalid JSON.',
                 0,
