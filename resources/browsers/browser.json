@@ -1332,6 +1332,15 @@
     "lite": false,
     "standard": true
   },
+  "liebao fast": {
+    "type": "browser",
+    "properties": {
+      "Browser": "liebao fast",
+      "Browser_Maker": "Kingsoft"
+    },
+    "lite": false,
+    "standard": true
+  },
   "light": {
     "type": "browser",
     "properties": {
