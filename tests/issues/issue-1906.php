@@ -279,13 +279,13 @@ return [
     'issue-1906-F' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.35.1.1 (iPod7,1; iOS 11.4; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat 10.35 for iOS',
+            'Comment' => 'Snapchat App for iOS',
             'Browser' => 'Snapchat',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.35',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.4',
             'Platform_Description' => 'iPod, iPhone & iPad',
