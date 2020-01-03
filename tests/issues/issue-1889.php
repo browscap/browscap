@@ -926,13 +926,13 @@ return [
     'issue-1889-20' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 46.0.0.14.96 (iPhone10,3; iOS 11_4; en_US; en-US; scale=3.00; gamut=wide; 1125x2436)',
         'properties' => [
-            'Comment' => 'Instagram App 46.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '46.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.4',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -969,10 +969,10 @@ return [
     'issue-1889-20 (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 46.0.0.14.96 (iPhone10,3; iOS 11_4; en_US; en-US; scale=3.00; gamut=wide; 1125x2436)',
         'properties' => [
-            'Comment' => 'Instagram App 46.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '46.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -984,13 +984,13 @@ return [
     'issue-1889-21' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 10.27.0 (iPhone9,4; iOS 11_3_1; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -1027,10 +1027,10 @@ return [
     'issue-1889-21 (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 10.27.0 (iPhone9,4; iOS 11_3_1; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -1042,13 +1042,13 @@ return [
     'issue-1889-22' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 Instagram 46.0.0.14.96 (iPod7,1; iOS 11_3_1; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App 46.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '46.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -1663,7 +1663,7 @@ return [
     'issue-1889-34' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1706,7 +1706,7 @@ return [
     'issue-1889-34 (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -1721,7 +1721,7 @@ return [
     'issue-1889-35' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E302 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1764,7 +1764,7 @@ return [
     'issue-1889-36' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F5049c [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1807,7 +1807,7 @@ return [
     'issue-1889-36 (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F5049c [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',

@@ -496,13 +496,13 @@ return [
     'issue-1939-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 10.33.0 (iPhone8,1; iOS 11_4; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.4',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -539,10 +539,10 @@ return [
     'issue-1939-J (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15F79 Instagram 10.33.0 (iPhone8,1; iOS 11_4; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
