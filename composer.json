@@ -32,30 +32,30 @@
     "php": "^7.1",
     "ext-json": "*",
     "beberlei/assert": "^3.2.7",
-    "ergebnis/json-normalizer": "^0.10.0",
+    "ergebnis/json-normalizer": "^0.11.0",
     "mimmi20/json-class": "~2.0.8",
     "mimmi20/ua-browser-type": "^7.0.7",
     "mimmi20/ua-device-type": "^7.1.6",
-    "monolog/monolog": "^1.25.3 || ^2.0.0",
+    "monolog/monolog": "^1.25.3 || ^2.0.2",
     "seld/jsonlint": "^1.7.2",
-    "symfony/console": "^4.4.2 || ^5.0.1",
-    "symfony/finder": "^4.4.2 || ^5.0.1",
-    "twig/twig": "^2.12.2"
+    "symfony/console": "^4.4.2 || ^5.0.2",
+    "symfony/finder": "^4.4.2 || ^5.0.2",
+    "twig/twig": "^2.12.2 || ^3.0.1"
   },
   "require-dev": {
     "ext-zip": "*",
     "browscap/browscap-php": "^4.2.2 || ^5.0.0",
-    "ergebnis/composer-normalize": "^2.0.2",
+    "ergebnis/composer-normalize": "^2.2.1",
     "ergebnis/phpstan-rules": "^0.14.2",
     "friendsofphp/php-cs-fixer": "^2.16.1",
     "mikey179/vfsstream": "^1.6.8",
     "pepakriz/phpstan-exception-rules": "^0.10.1",
     "phpstan/phpstan": "^0.12.5",
     "phpstan/phpstan-beberlei-assert": "^0.12.2",
-    "phpstan/phpstan-deprecation-rules": "^0.12.1",
+    "phpstan/phpstan-deprecation-rules": "^0.12.2",
     "phpstan/phpstan-phpunit": "^0.12.6",
     "phpstan/phpstan-strict-rules": "^0.12.1",
-    "phpunit/phpunit": "^7.5.18 || ^8.5.0"
+    "phpunit/phpunit": "^7.5.20 || ^8.5.2"
   },
   "suggest": {
     "ext-zip": "to create a zip file containing all other generated files"

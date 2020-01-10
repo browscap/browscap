@@ -25,3 +25,5 @@ update_configs:
           dependency_name: "browscap/browscap-php"
       - match:
           dependency_name: "monolog/monolog"
+      - match:
+          dependency_name: "twig/twig"
