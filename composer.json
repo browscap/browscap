@@ -53,7 +53,7 @@
     "phpstan/phpstan": "^0.12.4",
     "phpstan/phpstan-beberlei-assert": "^0.12.2",
     "phpstan/phpstan-deprecation-rules": "^0.12.1",
-    "phpstan/phpstan-phpunit": "^0.12.5",
+    "phpstan/phpstan-phpunit": "^0.12.6",
     "phpstan/phpstan-strict-rules": "^0.12.1",
     "phpunit/phpunit": "^7.5.18 || ^8.5.0"
   },
