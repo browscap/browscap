@@ -1,6 +1,6 @@
 {
   "division": "Headless Chrome #MAJORVER#.#MINORVER#",
-  "versions": [79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60],
+  "versions": [85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60],
   "sortIndex": 1165,
   "lite": true,
   "standard": true,

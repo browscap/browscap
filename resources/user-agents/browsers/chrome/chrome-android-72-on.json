@@ -20,6 +20,18 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "MRX-W09": "Huawei MRX-W09",
+            "MRX-W19": "Huawei MRX-W19",
+            "MRX-AL09": "Huawei MRX-AL09",
+            "MRX-AL19": "Huawei MRX-AL19"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
             "Pixel 3 XL": "Google Pixel 3 XL",
             "Pixel 3": "Google Pixel 3",
             "Pixel 3a XL": "Google Pixel 3a XL",
