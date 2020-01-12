@@ -1,0 +1,57 @@
+{
+  "division": "HuaweiBrowser Generic",
+  "sortIndex": 1143,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HuaweiBrowser Generic",
+      "browser": "huawei-browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HuaweiBrowser Generic",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/* Mobile Safari/*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* HuaweiBrowser/* Mobile Safari/*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* HuaweiBrowser/* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

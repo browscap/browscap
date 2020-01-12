@@ -1,0 +1,50 @@
+{
+  "division": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+  "versions": ["9.1"],
+  "sortIndex": 1142,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+      "browser": "huawei-browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "devices": {
+            "ELE-L29": "Huawei ELE-L29",
+            "VOG-L29": "Huawei VOG-L29"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Mobile Safari/*",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
