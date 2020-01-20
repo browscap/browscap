@@ -1,12 +1,12 @@
 {
-  "division": "Qt Car Browser",
+  "division": "Model S Browser",
   "sortIndex": 1178,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Qt Car Browser",
-      "browser": "model s browser",
+      "userAgent": "Model S Browser",
+      "browser": "model-s-browser",
       "engine": "WebKit",
       "device": "Tesla Motors Model S",
       "properties": {
@@ -22,6 +22,13 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Tesla QtCarBrowser Safari/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chromium/* Chrome/* Safari/* Tesla/*",
+          "engine": "Blink",
           "platforms": [
             "Linux"
           ]

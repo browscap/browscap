@@ -1548,7 +1548,7 @@
     "lite": false,
     "standard": true
   },
-  "model s browser": {
+  "model-s-browser": {
     "type": "browser",
     "properties": {
       "Browser": "Model S Browser",
