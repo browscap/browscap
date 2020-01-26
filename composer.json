@@ -50,7 +50,7 @@
     "friendsofphp/php-cs-fixer": "^2.16.1",
     "mikey179/vfsstream": "^1.6.8",
     "pepakriz/phpstan-exception-rules": "^0.10.1",
-    "phpstan/phpstan": "^0.12.7",
+    "phpstan/phpstan": "^0.12.8",
     "phpstan/phpstan-beberlei-assert": "^0.12.2",
     "phpstan/phpstan-deprecation-rules": "^0.12.2",
     "phpstan/phpstan-phpunit": "^0.12.6",
