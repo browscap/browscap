@@ -25,8 +25,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve Steam GameOverlay*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win10_32_B",
-            "Win10_32",
+            "Win10_32_B", "Win10_32",
             "Win8_1_32",
             "Win8_32",
             "Win7_32",
@@ -68,8 +67,7 @@
           "match": "Mozilla/5.0 (#PLATFORM# Valve *Client*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/*",
           "device": "Windows Desktop",
           "platforms": [
-            "Win10_32_B",
-            "Win10_32",
+            "Win10_32_B", "Win10_32",
             "Win8_1_32",
             "Win8_32",
             "Win7_32",
@@ -101,8 +99,7 @@
           "browser": "steam big picture",
           "device": "Windows Desktop",
           "platforms": [
-            "Win10_32_B",
-            "Win10_32",
+            "Win10_32_B", "Win10_32",
             "Win8_1_32",
             "Win8_32",
             "Win7_32",
