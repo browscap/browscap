@@ -1,0 +1,37 @@
+{
+  "division": "Google Chrome Lighthouse",
+  "sortIndex": 1070,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Google Chrome Lighthouse",
+      "browser": "google lighthouse",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Google Chrome Lighthouse"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* Chrome-Lighthouse",
+          "devices": {
+            "Nexus 5": "LG Nexus 5"
+          },
+          "platforms": [
+            "Android_6_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Chrome-Lighthouse",
+          "device": "Linux Desktop",
+          "platforms": [
+            "Linux_64"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (*) applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* Chrome-Lighthouse"
+        }
+      ]
+    }
+  ]
+}
