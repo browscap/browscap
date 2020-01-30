@@ -13436,6 +13436,15 @@
     "lite": false,
     "standard": true
   },
+  "telegrambot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "TelegramBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
   "twitturls": {
     "type": "bot",
     "properties": {

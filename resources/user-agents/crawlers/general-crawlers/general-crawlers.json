@@ -514,11 +514,11 @@
           "browser": "tutorial crawler"
         },
         {
-          "match": "Twitterbot/*",
-          "browser": "twitterbot"
+          "match": "TelegramBot*",
+          "browser": "telegrambot"
         },
         {
-          "match": "Twitterbot/0.*",
+          "match": "Twitterbot/*",
           "browser": "twitterbot"
         },
         {

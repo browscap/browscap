@@ -44,6 +44,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2156-B (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.4',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2156-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; Tesseract/1.0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
         'properties' => [
@@ -87,6 +102,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2156-C (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X; Tesseract/1.0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.1',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2156-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Mobile/15E148 Safari/605.1.15',
         'properties' => [
@@ -129,6 +159,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2156-D (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Mobile/15E148 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.4',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2156-E' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
@@ -216,6 +261,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2156-F (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.3.1 Mobile/15E148 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.3',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.3',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2156-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU IPhone OS 12_4 Like Mac OS X) AppleWebKit/605.1.15 (KHTML, Like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
         'properties' => [
@@ -258,6 +318,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2156-G (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU IPhone OS 12_4 Like Mac OS X) AppleWebKit/605.1.15 (KHTML, Like Gecko) Version/12.1.2 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.1',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.1',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2156-H' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.2 Mobile/15E148 Safari/605.1.15',
@@ -302,6 +377,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2156-H (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.2 Mobile/15E148 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.4',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2156-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Mobile/15E148 Safari/604.1',
         'properties' => [
@@ -344,6 +434,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2156-I (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4.1 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.4',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2156-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4 Mobile/15E148 Safari/605.1.15',
@@ -388,6 +493,21 @@ return [
         'standard' => false,
         'full' => true,
     ],
+    'issue-2156-J (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.4 Mobile/15E148 Safari/605.1.15',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.4',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.4',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
     'issue-2156-K' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.3.1 Mobile/15E148 Safari/604.1',
         'properties' => [
@@ -430,6 +550,21 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
+    ],
+    'issue-2156-K (standard)' => [
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.3.1 Mobile/15E148 Safari/604.1',
+        'properties' => [
+            'Comment' => 'Mobile Safari 12.3',
+            'Browser' => 'Safari',
+            'Browser_Maker' => 'Apple Inc',
+            'Version' => '12.3',
+            'Platform' => 'iOS',
+            'Device_Type' => 'Mobile Device',
+            'Device_Pointing_Method' => 'touchscreen',
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
     ],
     'issue-2156-L' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/12.2 Mobile/9B176 Safari/7534.48.3',
