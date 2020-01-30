@@ -2915,5 +2915,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "heytap-browser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "HeyTapBrowser",
+      "Browser_Maker": "BRAVO UNICORN PTE LTD"
+    },
+    "lite": false,
+    "standard": true
   }
 }

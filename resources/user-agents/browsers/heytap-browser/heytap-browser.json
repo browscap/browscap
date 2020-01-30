@@ -1,0 +1,37 @@
+{
+  "division": "HeyTapBrowser",
+  "sortIndex": 884,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HeyTapBrowser",
+      "browser": "heytap-browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HeyTapBrowser"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Mobile Safari/* HeyTapBrowser/*",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Mobile Safari/* HeyTapBrowser/*",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
