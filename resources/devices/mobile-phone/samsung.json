@@ -8711,6 +8711,17 @@
     },
     "standard": false
   },
+  "Samsung SM-G973F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S10 Global Dual SIM",
+      "Device_Code_Name": "SM-G973F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-G975F": {
     "type": "mobile-phone",
     "properties": {
