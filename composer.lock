@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "631b5211eb6018bc102c9a2265f8a64e",
+    "content-hash": "19fe28e3f9aa9d5a09158dac0b9a1297",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -401,32 +401,32 @@
         },
         {
             "name": "mimmi20/ua-browser-type",
-            "version": "7.0.7",
+            "version": "7.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-browser-type.git",
-                "reference": "55e6df3e0a712bac170a52c37f0d7566234d971d"
+                "reference": "3bb4f08215c1453f77e9e679ccb5985b41a41314"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/55e6df3e0a712bac170a52c37f0d7566234d971d",
-                "reference": "55e6df3e0a712bac170a52c37f0d7566234d971d",
+                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/3bb4f08215c1453f77e9e679ccb5985b41a41314",
+                "reference": "3bb4f08215c1453f77e9e679ccb5985b41a41314",
                 "shasum": ""
             },
             "require": {
-                "mimmi20/browser-detector-loader-interface": "~3.0.2",
+                "mimmi20/browser-detector-loader-interface": "~3.0.3",
                 "php": "^7.1"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.2.0",
+                "ergebnis/composer-normalize": "^2.2.2",
                 "ergebnis/phpstan-rules": "^0.14.2",
                 "friendsofphp/php-cs-fixer": "^2.16.1",
                 "infection/infection": "^0.13.6",
                 "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.4",
-                "phpstan/phpstan-deprecation-rules": "^0.12.1",
-                "phpstan/phpstan-phpunit": "^0.12.5",
-                "phpstan/phpstan-strict-rules": "^0.12.1",
+                "phpstan/phpstan": "^0.12.8",
+                "phpstan/phpstan-deprecation-rules": "^0.12.2",
+                "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-strict-rules": "^0.12.2",
                 "phpunit/phpunit": "^7.5.19 || ^8.5.0",
                 "squizlabs/php_codesniffer": "^3.5.3"
             },
@@ -460,7 +460,7 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2020-01-07T15:33:58+00:00"
+            "time": "2020-01-29T19:51:03+00:00"
         },
         {
             "name": "mimmi20/ua-device-type",
