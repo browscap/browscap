@@ -35,7 +35,7 @@
     "ergebnis/json-normalizer": "^0.11.0",
     "mimmi20/json-class": "~2.0.8",
     "mimmi20/ua-browser-type": "^7.0.7",
-    "mimmi20/ua-device-type": "^7.1.6",
+    "mimmi20/ua-device-type": "^7.1.7",
     "monolog/monolog": "^1.25.3 || ^2.0.2",
     "seld/jsonlint": "^1.7.2",
     "symfony/console": "^4.4.2 || ^5.0.2",

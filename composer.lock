@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17f67df9869984d30ccc24cdf92ecaa0",
+    "content-hash": "4f6e0856d2186c27962b94a9690b3913",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -290,29 +290,29 @@
         },
         {
             "name": "mimmi20/browser-detector-loader-interface",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browser-detector-loader-interface.git",
-                "reference": "49172a0e4144cfed0d375fb10bf56ef2228c0270"
+                "reference": "31623fd9b587cbda6a50437efdd36ec83042b45b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/49172a0e4144cfed0d375fb10bf56ef2228c0270",
-                "reference": "49172a0e4144cfed0d375fb10bf56ef2228c0270",
+                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/31623fd9b587cbda6a50437efdd36ec83042b45b",
+                "reference": "31623fd9b587cbda6a50437efdd36ec83042b45b",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.2.0",
+                "ergebnis/composer-normalize": "^2.2.2",
                 "ergebnis/phpstan-rules": "^0.14.2",
                 "friendsofphp/php-cs-fixer": "^2.16.1",
                 "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.4",
-                "phpstan/phpstan-deprecation-rules": "^0.12.1",
-                "phpstan/phpstan-strict-rules": "^0.12.1",
+                "phpstan/phpstan": "^0.12.8",
+                "phpstan/phpstan-deprecation-rules": "^0.12.2",
+                "phpstan/phpstan-strict-rules": "^0.12.2",
                 "squizlabs/php_codesniffer": "^3.5.3"
             },
             "type": "library",
@@ -337,7 +337,7 @@
                 }
             ],
             "description": "the source interface for the browscap helper",
-            "time": "2020-01-08T08:19:09+00:00"
+            "time": "2020-01-29T19:26:50+00:00"
         },
         {
             "name": "mimmi20/json-class",
@@ -464,32 +464,32 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.6",
+            "version": "7.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "54b6fcfca4c8de60939d916fe44e113d4c0f31a8"
+                "reference": "7731abc0f000a990189c5b18f163e7b199ab755a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/54b6fcfca4c8de60939d916fe44e113d4c0f31a8",
-                "reference": "54b6fcfca4c8de60939d916fe44e113d4c0f31a8",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/7731abc0f000a990189c5b18f163e7b199ab755a",
+                "reference": "7731abc0f000a990189c5b18f163e7b199ab755a",
                 "shasum": ""
             },
             "require": {
-                "mimmi20/browser-detector-loader-interface": "~3.0.2",
+                "mimmi20/browser-detector-loader-interface": "~3.0.3",
                 "php": "^7.1"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.2.0",
+                "ergebnis/composer-normalize": "^2.2.2",
                 "ergebnis/phpstan-rules": "^0.14.2",
                 "friendsofphp/php-cs-fixer": "^2.16.1",
                 "infection/infection": "^0.13.6",
                 "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.4",
-                "phpstan/phpstan-deprecation-rules": "^0.12.1",
-                "phpstan/phpstan-phpunit": "^0.12.5",
-                "phpstan/phpstan-strict-rules": "^0.12.1",
+                "phpstan/phpstan": "^0.12.8",
+                "phpstan/phpstan-deprecation-rules": "^0.12.2",
+                "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-strict-rules": "^0.12.2",
                 "phpunit/phpunit": "^7.5.19 || ^8.5.0",
                 "squizlabs/php_codesniffer": "^3.5.3"
             },
@@ -523,7 +523,7 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2020-01-08T11:04:37+00:00"
+            "time": "2020-01-29T20:26:47+00:00"
         },
         {
             "name": "monolog/monolog",
