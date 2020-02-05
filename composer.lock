@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f6e0856d2186c27962b94a9690b3913",
+    "content-hash": "631b5211eb6018bc102c9a2265f8a64e",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -341,16 +341,16 @@
         },
         {
             "name": "mimmi20/json-class",
-            "version": "2.0.8",
+            "version": "2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/json-class.git",
-                "reference": "926a051147eb63d6a62c6c44e444197ec9c04944"
+                "reference": "fa7e6588563c577e54a953064601b5ee5456228b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/926a051147eb63d6a62c6c44e444197ec9c04944",
-                "reference": "926a051147eb63d6a62c6c44e444197ec9c04944",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/fa7e6588563c577e54a953064601b5ee5456228b",
+                "reference": "fa7e6588563c577e54a953064601b5ee5456228b",
                 "shasum": ""
             },
             "require": {
@@ -359,15 +359,15 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.2.0",
+                "ergebnis/composer-normalize": "^2.2.2",
                 "ergebnis/phpstan-rules": "^0.14.2",
                 "friendsofphp/php-cs-fixer": "^2.16.1",
                 "infection/infection": "^0.13.6",
                 "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.4",
-                "phpstan/phpstan-deprecation-rules": "^0.12.1",
-                "phpstan/phpstan-phpunit": "^0.12.5",
-                "phpstan/phpstan-strict-rules": "^0.12.1",
+                "phpstan/phpstan": "^0.12.8",
+                "phpstan/phpstan-deprecation-rules": "^0.12.2",
+                "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-strict-rules": "^0.12.2",
                 "phpunit/phpunit": "^7.5.19 || ^8.5.0",
                 "squizlabs/php_codesniffer": "^3.5.3"
             },
@@ -397,7 +397,7 @@
             "keywords": [
                 "json"
             ],
-            "time": "2020-01-07T12:53:37+00:00"
+            "time": "2020-01-29T20:33:53+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
