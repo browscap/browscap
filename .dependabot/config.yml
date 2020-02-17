@@ -10,7 +10,7 @@ update_configs:
     directory: "/"
     package_manager: "php:composer"
     update_schedule: "live"
-    version_requirement_updates: "increase_versions"
+    version_requirement_updates: "increase_versions_if_necessary"
     commit_message:
       prefix: "Build"
       include_scope: true
@@ -21,6 +21,8 @@ update_configs:
           dependency_name: "symfony/cache"
       - match:
           dependency_name: "symfony/finder"
+      - match:
+          dependency_name: "symfony/console"
       - match:
           dependency_name: "browscap/browscap-php"
       - match:
