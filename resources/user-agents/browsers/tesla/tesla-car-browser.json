@@ -1,17 +1,17 @@
 {
-  "division": "Model S Browser",
+  "division": "Tesla Car Browser",
   "sortIndex": 1178,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Model S Browser",
-      "browser": "model-s-browser",
+      "userAgent": "Tesla Car Browser",
+      "browser": "tesla-car-browser",
       "engine": "WebKit",
-      "device": "Tesla Motors Model S",
+      "device": "Tesla Motors Car",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Model S Browser"
+        "Comment": "Tesla Car Browser"
       },
       "children": [
         {
