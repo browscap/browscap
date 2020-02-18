@@ -4,8 +4,8 @@ return [
     'issue-577' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36 LBBROWSER',
         'properties' => [
-            'Comment' => 'liebao',
-            'Browser' => 'liebao',
+            'Comment' => 'Liebao',
+            'Browser' => 'Liebao',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Kingsoft',

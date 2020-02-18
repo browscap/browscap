@@ -1496,8 +1496,8 @@ return [
     'issue-1344-AI' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.0; zh-cn) AppleWebKit/537.17 (KHTML, like Gecko) Safari/534.30 LBBROWSER',
         'properties' => [
-            'Comment' => 'liebao',
-            'Browser' => 'liebao',
+            'Comment' => 'Liebao',
+            'Browser' => 'Liebao',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Kingsoft',

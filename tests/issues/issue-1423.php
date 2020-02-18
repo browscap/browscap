@@ -9001,8 +9001,8 @@ return [
     'issue-01423-GV' => [
         'ua' => 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 LBBROWSER',
         'properties' => [
-            'Comment' => 'liebao',
-            'Browser' => 'liebao',
+            'Comment' => 'Liebao',
+            'Browser' => 'Liebao',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Kingsoft',

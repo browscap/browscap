@@ -1326,7 +1326,7 @@
   "liebao": {
     "type": "browser",
     "properties": {
-      "Browser": "liebao",
+      "Browser": "Liebao",
       "Browser_Maker": "Kingsoft"
     },
     "lite": false,
@@ -1335,7 +1335,7 @@
   "liebao fast": {
     "type": "browser",
     "properties": {
-      "Browser": "liebao fast",
+      "Browser": "Liebao Fast",
       "Browser_Maker": "Kingsoft"
     },
     "lite": false,

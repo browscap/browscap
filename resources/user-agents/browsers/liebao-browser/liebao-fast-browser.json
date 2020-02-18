@@ -1,18 +1,18 @@
 {
-  "division": "liebao fast browser",
+  "division": "Liebao Fast",
   "sortIndex": 883,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "liebao fast browser",
+      "userAgent": "Liebao Fast",
       "browser": "liebao fast",
       "platform": "Android",
       "engine": "Blink",
       "device": "general Mobile Phone (Touch)",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "liebao fast"
+        "Comment": "Liebao Fast"
       },
       "children": [
         {

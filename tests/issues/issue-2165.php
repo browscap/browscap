@@ -4,8 +4,8 @@ return [
     'issue-2165-A' => [
         'ua' => 'Mozilla/5.0(Linux;Android 5.1.1;OPPO A33 Build/LMY47V;wv) AppleWebKit/537.36(KHTML,like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 LieBaoFast/4.51.3',
         'properties' => [
-            'Comment' => 'liebao fast',
-            'Browser' => 'liebao fast',
+            'Comment' => 'Liebao Fast',
+            'Browser' => 'Liebao Fast',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Kingsoft',

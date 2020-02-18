@@ -36978,8 +36978,8 @@ return [
     'issue-635-ADK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; zh-cn; X9007 Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 LieBaoFast/2.28.1',
         'properties' => [
-            'Comment' => 'liebao fast',
-            'Browser' => 'liebao fast',
+            'Comment' => 'Liebao Fast',
+            'Browser' => 'Liebao Fast',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Kingsoft',
