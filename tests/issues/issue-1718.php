@@ -477,7 +477,7 @@ return [
     'issue-1718-L' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD3.170816.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36 Instagram 21.0.0.11.62 Android (26/8.0.0; 560dpi; 1440x2712; Google/google; Pixel 2 XL; taimen; taimen; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

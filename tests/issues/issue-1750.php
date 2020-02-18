@@ -638,7 +638,7 @@ return [
     'issue-1750-N' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.1 (KHTML, like Gecko) Mobile/15B5066f Instagram 10.33.0 (iPad5,3; iOS 11_1; en_US; en-US; scale=2.00; gamut=normal; 640x960)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -681,7 +681,7 @@ return [
     'issue-1750-N (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.1 (KHTML, like Gecko) Mobile/15B5066f Instagram 10.33.0 (iPad5,3; iOS 11_1; en_US; en-US; scale=2.00; gamut=normal; 640x960)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -986,7 +986,7 @@ return [
     'issue-1750-T' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 7.3.0 (iPhone10,4; iPhone OS 11_1_1; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1029,7 +1029,7 @@ return [
     'issue-1750-T (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 7.3.0 (iPhone10,4; iPhone OS 11_1_1; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -1811,7 +1811,7 @@ return [
     'issue-1750-AI' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 10.33.0 (iPod7,1; iOS 11_1_1; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1983,7 +1983,7 @@ return [
     'issue-1750-AM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-au; GT-I9300 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 19.1.0.31.91 Android (18/4.3; 320dpi; 720x1280; samsung; GT-I9300; m0; smdk4x12; en_AU)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

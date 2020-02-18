@@ -434,7 +434,7 @@ return [
     'issue-1419-K' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; SM-T705 Build/LRX22G; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 Instagram 10.3.2 Android (21/5.0.2; 320dpi; 1600x2560; samsung; SM-T705; klimtlte; universal5420; ar_AE)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -851,7 +851,7 @@ return [
     'issue-1419-T' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T705 Build/MMB29K; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Safari/537.36 Instagram 10.4.0 Android (23/6.0.1; 320dpi; 1600x2560; samsung; SM-T705; klimtlte; universal5420; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

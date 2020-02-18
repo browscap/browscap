@@ -1128,7 +1128,7 @@ return [
     'issue-2012-X' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16B5059d Instagram 64.0.0.12.96 (iPhone9,2; iOS 12_1; en_US; en-US; scale=2.61; gamut=wide; 1080x1920; 124976489)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -1171,7 +1171,7 @@ return [
     'issue-2012-X (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16B5059d Instagram 64.0.0.12.96 (iPhone9,2; iOS 12_1; en_US; en-US; scale=2.61; gamut=wide; 1080x1920; 124976489)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -1186,7 +1186,7 @@ return [
     'issue-2012-Y' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.1; ALE-L21 Build/HuaweiALE-L21; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/69.0.3497.100 Mobile Safari/537.36 Instagram 66.0.0.11.101 Android (21/5.0.1; 320dpi; 1196x720; HUAWEI/Huawei; ALE-L21; hwALE-H; hi6210sft; sr_RS; 127049016)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -1229,7 +1229,7 @@ return [
     'issue-2012-Z' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 12_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A404 Instagram 67.0.0.16.99 (iPod7,1; iOS 12_0_1; en_CA; en-CA; scale=2.00; gamut=normal; 640x1136; 127410745)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',

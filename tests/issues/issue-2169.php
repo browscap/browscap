@@ -1768,21 +1768,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-2169-CY (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.65.0.66 (iPhone11,8; iOS 12.4.1; gzip)',
-        'properties' => [
-            'Comment' => 'Snapchat 10.65 for iOS',
-            'Browser' => 'Snapchat',
-            'Browser_Maker' => 'Snap Inc.',
-            'Version' => '10.65',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-2169-CZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.66.5.71 (iPhone10,1; iOS 13.0; gzip)',
         'properties' => [
@@ -1826,21 +1811,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-2169-CZ (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.66.5.71 (iPhone10,1; iOS 13.0; gzip)',
-        'properties' => [
-            'Comment' => 'Snapchat 10.66 for iOS',
-            'Browser' => 'Snapchat',
-            'Browser_Maker' => 'Snap Inc.',
-            'Version' => '10.66',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-2169-DA' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.66.5.71 (iPhone11,6; iOS 13.1; gzip)',
         'properties' => [
@@ -1883,21 +1853,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-2169-DA (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.66.5.71 (iPhone11,6; iOS 13.1; gzip)',
-        'properties' => [
-            'Comment' => 'Snapchat 10.66 for iOS',
-            'Browser' => 'Snapchat',
-            'Browser_Maker' => 'Snap Inc.',
-            'Version' => '10.66',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-2169-DB' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 12_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.66.1.0 (iPod9,1; iOS 12.4.1; gzip)',

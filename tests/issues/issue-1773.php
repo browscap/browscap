@@ -625,7 +625,7 @@ return [
     'issue-1773-M' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C114 Instagram 26.0.0.18.87 (iPod7,1; iOS 11_2; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',

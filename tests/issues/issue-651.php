@@ -2052,7 +2052,7 @@ return [
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'iPod, iPhone & iPad',

@@ -915,7 +915,7 @@ return [
     'issue-2129-R' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 101.0.0.12.119 (iPhone7,2; iOS 12_4; zh_TW; zh-Hant-TW; scale=2.00; 750x1334; 161952159)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -958,7 +958,7 @@ return [
     'issue-2129-R (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 101.0.0.12.119 (iPhone7,2; iOS 12_4; zh_TW; zh-Hant-TW; scale=2.00; 750x1334; 161952159)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -1364,7 +1364,7 @@ return [
     'issue-2129-CD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Instagram 10.9.0 (iPhone5,1; iOS 10_2_1; en_IN; en-IN; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -1407,7 +1407,7 @@ return [
     'issue-2129-CD (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 Instagram 10.9.0 (iPhone5,1; iOS 10_2_1; en_IN; en-IN; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -2593,7 +2593,7 @@ return [
     'issue-2129-EK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Instagram 29.0.0.8.97 (iPhone9,3; iOS 10_3_2; en_IN; en-GB; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2636,7 +2636,7 @@ return [
     'issue-2129-EK (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) Mobile/14F89 Instagram 29.0.0.8.97 (iPhone9,3; iOS 10_3_2; en_IN; en-GB; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -2924,7 +2924,7 @@ return [
     'issue-2129-FM' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C202 Instagram 29.0.0.8.97 (iPhone9,2; iOS 11_2_2; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -2967,7 +2967,7 @@ return [
     'issue-2129-FM (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_2 like Mac OS X) AppleWebKit/604.4.7 (KHTML, like Gecko) Mobile/15C202 Instagram 29.0.0.8.97 (iPhone9,2; iOS 11_2_2; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -3083,7 +3083,7 @@ return [
     'issue-2129-FZ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 27.0.0.13.98 (iPhone8,1; iOS 11_1_1; en_US; en-US; scale=2.34; gamut=normal; 750x1331)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -3126,7 +3126,7 @@ return [
     'issue-2129-FZ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B150 Instagram 27.0.0.13.98 (iPhone8,1; iOS 11_1_1; en_US; en-US; scale=2.34; gamut=normal; 750x1331)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',

@@ -408,7 +408,7 @@ return [
     'issue-1684-I' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.6 (KHTML, like Gecko) Mobile/15C5097d Instagram 10.33.0 (iPhone9,1; iOS 11_2; en_US; en-US; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -451,7 +451,7 @@ return [
     'issue-1684-I (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.6 (KHTML, like Gecko) Mobile/15C5097d Instagram 10.33.0 (iPhone9,1; iOS 11_2; en_US; en-US; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',
@@ -466,7 +466,7 @@ return [
     'issue-1684-J' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.5 (KHTML, like Gecko) Mobile/15C5092b Instagram 22.0.0.10.68 (iPhone9,2; iOS 11_2; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -509,7 +509,7 @@ return [
     'issue-1684-J (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2 like Mac OS X) AppleWebKit/604.4.5 (KHTML, like Gecko) Mobile/15C5092b Instagram 22.0.0.10.68 (iPhone9,2; iOS 11_2; en_US; en-US; scale=2.61; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
             'Version' => '0.0',

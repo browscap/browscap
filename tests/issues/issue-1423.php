@@ -19047,7 +19047,7 @@ return [
     'issue-01423-OZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; SM-G900 Build/KOT49H) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.4.2; 240dpi; 480x854; samsung; SM-G900; klte; mt6572; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19090,7 +19090,7 @@ return [
     'issue-01423-PA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; GT-I9308I Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 9.2.5 Android (18/4.3; 320dpi; 720x1280; samsung; GT-I9308I; s3ve3g; qcom; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19133,7 +19133,7 @@ return [
     'issue-01423-PB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; LT25i Build/9.2.A.2.5) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (18/4.3; 320dpi; 720x1184; Sony; LT25i; LT25i; qcom; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19176,7 +19176,7 @@ return [
     'issue-01423-PC' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-S765C Build/JLS36C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 240dpi; 480x800; samsung; SM-S765C; heat3gtfnvzw; qcom; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19219,7 +19219,7 @@ return [
     'issue-01423-PD' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; es-es; GT-I9505 Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 480dpi; 1080x1920; samsung; GT-I9505; jflte; qcom; es_ES)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19262,7 +19262,7 @@ return [
     'issue-01423-PE' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; es-us; HTCONE Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (18/4.3; 480dpi; 1080x1920; HTC/htc; HTCONE; m7wls; m7wls; es_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19305,7 +19305,7 @@ return [
     'issue-01423-PF' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.3; ja-jp; HUAWEI G6-L22 Build/HuaweiG6-L22) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.0.1 Android (18/4.3; 240dpi; 540x960; HUAWEI/Huawei; HUAWEI G6-L22; hwG6-L22; qcom; ja_JP)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19348,7 +19348,7 @@ return [
     'issue-01423-PG' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; pt-pt; ALCATEL ONE TOUCH 7041X Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.2 Mobile Safari/534.30 SVN/070FPG1 Instagram 10.15.0 Android (17/4.2.2; 240dpi; 480x854; TCT; ALCATEL ONE TOUCH 7041X; YARISXL; LOT1; pt_PT)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19391,7 +19391,7 @@ return [
     'issue-01423-PH' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I8200N Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I8200N; goldenve3g; pxa988; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19434,7 +19434,7 @@ return [
     'issue-01423-PI' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-us; GT-I8580 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I8580; cane3g; qcom; es_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19477,7 +19477,7 @@ return [
     'issue-01423-PJ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-I9082 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.13.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-I9082; baffin; capri_ss_baffin; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19520,7 +19520,7 @@ return [
     'issue-01423-PK' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; GT-I9192 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.2.2; 240dpi; 540x960; samsung; GT-I9192; serranods; qcom; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19563,7 +19563,7 @@ return [
     'issue-01423-PL' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-es; GT-I9500 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (17/4.2.2; 480dpi; 1080x1920; samsung; GT-I9500; ja3g; universal5410; es_ES)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19606,7 +19606,7 @@ return [
     'issue-01423-PM' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; GT-S7582 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; GT-S7582; kyleprods; hawaii_ss_kyleprods; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19649,7 +19649,7 @@ return [
     'issue-01423-PN' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HUAWEI P6-U06 Build/HuaweiP6-U06) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.0.1 Android (17/4.2.2; 320dpi; 720x1184; HUAWEI/Huawei; HUAWEI P6-U06; hwp6-u06; k3v2oem1; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19692,7 +19692,7 @@ return [
     'issue-01423-PO' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-gb; HUAWEI Y330-U11 Build/HuaweiY330-U11) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (17/4.2.2; 240dpi; 480x800; HUAWEI/Huawei; HUAWEI Y330-U11; hwY330-U11; mt6572; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19735,7 +19735,7 @@ return [
     'issue-01423-PP' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; HUAWEI Y600-U20 Build/HUAWEIY600-U20) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.11.0 Android (17/4.2.2; 240dpi; 480x854; HUAWEI; HUAWEI Y600-U20; HWY600-U; mt6572; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19778,7 +19778,7 @@ return [
     'issue-01423-PQ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.2; es-us; SGH-T399 Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (17/4.2.2; 240dpi; 480x800; samsung; SGH-T399; gardaltetmo; universal_garda; es_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19821,7 +19821,7 @@ return [
     'issue-01423-PR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; es-do; C1505 Build/11.3.A.2.33) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 9.7.5 Android (16/4.1.1; 160dpi; 320x480; Sony; C1505; C1505; Sony; es_DO)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19864,7 +19864,7 @@ return [
     'issue-01423-PS' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I8262 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.10.0 Android (16/4.1.2; 240dpi; 480x800; samsung; GT-I8262; arubaslim; qcom; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19907,7 +19907,7 @@ return [
     'issue-01423-PT' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-I9100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.5.1 Android (16/4.1.2; 240dpi; 480x800; samsung; GT-I9100; GT-I9100; smdk4210; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19950,7 +19950,7 @@ return [
     'issue-01423-PU' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; GT-I9300 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (16/4.1.2; 320dpi; 720x1280; samsung; GT-I9300; m0; smdk4x12; es_ES)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -19993,7 +19993,7 @@ return [
     'issue-01423-PV' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-gb; GT-S5310 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (16/4.1.2; 120dpi; 240x320; samsung; GT-S5310; corsicass; rhea_ss_corsicass; en_GB)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20036,7 +20036,7 @@ return [
     'issue-01423-PW' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-us; GT-S6310L Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.9.0 Android (16/4.1.2; 160dpi; 320x480; samsung; GT-S6310L; royss; qcom; es_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20079,7 +20079,7 @@ return [
     'issue-01423-PX' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC One X Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 8.5.0 Android (16/4.1.1; 320dpi; 720x1280; HTC/htc_europe; HTC One X; endeavoru; endeavoru; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20122,7 +20122,7 @@ return [
     'issue-01423-PY' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; HTC PM63100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.13.0 Android (16/4.1.1; 320dpi; 720x1280; HTC/cingular_us; HTC PM63100; evitareul; evitareul; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20165,7 +20165,7 @@ return [
     'issue-01423-PZ' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; itel it1500 Build/JZO57K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.12.0 Android (16/4.1.2; 240dpi; 480x854; Spreadtrum; itel it1500; sp7710ga_it1500; sc7710g; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20208,7 +20208,7 @@ return [
     'issue-01423-QA' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; es-es; LG-E975 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.14.0 Android (16/4.1.2; 320dpi; 768x1280; LGE/lge; LG-E975; geehrc; geehrc; es_ES)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -20251,7 +20251,7 @@ return [
     'issue-01423-QB' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.2; en-us; LG-P713 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 Instagram 10.3.2 Android (16/4.1.2; 240dpi; 480x800; LGE/lge; LG-P713; vee7e; vee7; en_US)',
         'properties' => [
-            'Comment' => 'Instagram App',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
