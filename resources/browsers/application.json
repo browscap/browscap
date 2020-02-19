@@ -1187,6 +1187,15 @@
     "lite": false,
     "standard": true
   },
+  "tieba app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Tieba App",
+      "Browser_Maker": "Baidu"
+    },
+    "lite": false,
+    "standard": true
+  },
   "redflagdeals mobile app": {
     "type": "application",
     "properties": {
