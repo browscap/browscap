@@ -4,13 +4,13 @@ return [
     'issue-1970-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36 OPR/54.0.2952.60',
         'properties' => [
-            'Comment' => 'Opera 54.0',
+            'Comment' => 'Opera 54',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '54.0',
+            'Version' => '54',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'Windows 10',

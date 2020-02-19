@@ -133,13 +133,13 @@ return [
     'issue-1733-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G935F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36 OPR/43.0.2246.121183',
         'properties' => [
-            'Comment' => 'Opera Mobile 43.0 for Android',
+            'Comment' => 'Opera Mobile 43 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '43.0',
+            'Version' => '43',
             'Platform' => 'Android',
             'Platform_Version' => '7.0',
             'Platform_Description' => 'Android OS',

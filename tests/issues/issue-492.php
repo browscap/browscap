@@ -3240,13 +3240,13 @@ return [
     'issue-492-BZ' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.1.2; GT-I8190 Build/JZO54K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.72 Mobile Safari/537.36 OPR/16.0.1212.65583',
         'properties' => [
-            'Comment' => 'Opera Mobile 16.0 for Android',
+            'Comment' => 'Opera Mobile 16 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '16.0',
+            'Version' => '16',
             'Platform' => 'Android',
             'Platform_Version' => '4.1',
             'Platform_Description' => 'Android OS',

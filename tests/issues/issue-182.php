@@ -4,13 +4,13 @@ return [
     'issue-182' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36 OPR/20.0.1387.82',
         'properties' => [
-            'Comment' => 'Opera 20.0',
+            'Comment' => 'Opera 20',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '20.0',
+            'Version' => '20',
             'Platform' => 'Win7',
             'Platform_Version' => '6.1',
             'Platform_Description' => 'Windows 7',

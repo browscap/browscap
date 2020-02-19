@@ -391,13 +391,13 @@ return [
     'issue-2125-J' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 9; SM-T510 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Safari/537.36 OPR/53.0.2569.141028',
         'properties' => [
-            'Comment' => 'Opera Mobile 53.0 for Android',
+            'Comment' => 'Opera Mobile 53 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '53.0',
+            'Version' => '53',
             'Platform' => 'Android',
             'Platform_Version' => '9.0',
             'Platform_Description' => 'Android OS',

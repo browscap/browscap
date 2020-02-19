@@ -2572,13 +2572,13 @@ return [
     'issue-2098-AX' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; KFOT) AppleWebKit/537.36 (KHTML, like Gecko) Silk/71.3.1 like Chrome/71.0.3578.98 Safari/537.36',
         'properties' => [
-            'Comment' => 'Silk 71.3',
+            'Comment' => 'Silk 71',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '71.3',
+            'Version' => '71',
             'Platform' => 'Android',
             'Platform_Version' => '4.0',
             'Platform_Description' => 'Android OS',
