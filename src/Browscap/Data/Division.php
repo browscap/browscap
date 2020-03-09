@@ -65,8 +65,17 @@ class Division
         $this->userAgents = $userAgents;
         $this->lite       = $lite;
         $this->standard   = $standard;
-        $this->versions   = $versions;
         $this->fileName   = $fileName;
+
+        foreach ($versions as $version) {
+            if (isset($version['start']) && isset($version['end'])) {
+                foreach (range($version['start'], $version['end']) as $version) {
+                    $this->versions[] = $version;
+                }
+            } else {
+                $this->versions[] = $version;
+            }
+        }
     }
 
     public function isLite() : bool
