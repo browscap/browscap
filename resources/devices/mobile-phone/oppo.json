@@ -241,6 +241,17 @@
     },
     "standard": false
   },
+  "OPPO A33": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "A33",
+      "Device_Code_Name": "A33",
+      "Device_Maker": "OPPO",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "OPPO"
+    },
+    "standard": false
+  },
   "OPPO A33f": {
     "type": "mobile-phone",
     "properties": {
