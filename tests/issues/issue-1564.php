@@ -262,7 +262,7 @@ return [
     'issue-1564-G' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-T820 Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Safari/537.36 [Pinterest/Android]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -823,7 +823,7 @@ return [
     'issue-1564-S' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; SM-T807V Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [Pinterest/Android]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -1283,7 +1283,7 @@ return [
     'issue-1564-AC' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; SM-T337V Build/LMY47X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/56.0.2924.87 Safari/537.36 [Pinterest/Android]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -2102,7 +2102,7 @@ return [
     'issue-1564-AU' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 9 Build/MOB30W; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.126 Safari/537.36 [Pinterest/Android]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

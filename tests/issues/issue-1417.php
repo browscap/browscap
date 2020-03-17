@@ -2969,13 +2969,13 @@ return [
     'issue-1417-BD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Instagram 9.5.0 (iPhone9,3; iOS 10_0; ar_SA@calendar=gregorian; ar-SA; scale=2.00; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 9.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '9.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3012,10 +3012,10 @@ return [
     'issue-1417-BD (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 Instagram 9.5.0 (iPhone9,3; iOS 10_0; ar_SA@calendar=gregorian; ar-SA; scale=2.00; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 9.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '9.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3027,13 +3027,13 @@ return [
     'issue-1417-BE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72 Instagram 9.1.0 (iPhone8,1; iPhone OS 10_1; ar_SA@calendar=gregorian; ar-SA; scale=2.00; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 9.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '9.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.1',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3070,10 +3070,10 @@ return [
     'issue-1417-BE (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B72 Instagram 9.1.0 (iPhone8,1; iPhone OS 10_1; ar_SA@calendar=gregorian; ar-SA; scale=2.00; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 9.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '9.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3085,13 +3085,13 @@ return [
     'issue-1417-BF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 7.3.0 (iPhone6,2; iPhone OS 10_2; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.2',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3128,10 +3128,10 @@ return [
     'issue-1417-BF (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 Instagram 7.3.0 (iPhone6,2; iPhone OS 10_2; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3143,13 +3143,13 @@ return [
     'issue-1417-BG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E277 Instagram 7.3.0 (iPhone8,1; iPhone OS 10_3; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3186,10 +3186,10 @@ return [
     'issue-1417-BG (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E277 Instagram 7.3.0 (iPhone8,1; iPhone OS 10_3; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3201,13 +3201,13 @@ return [
     'issue-1417-BH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B410 Instagram 7.2.0 (iPad5,3; iPhone OS 8_1; fr_BE; fr)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.1',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3244,10 +3244,10 @@ return [
     'issue-1417-BH (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B410 Instagram 7.2.0 (iPad5,3; iPhone OS 8_1; fr_BE; fr)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3259,13 +3259,13 @@ return [
     'issue-1417-BI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Instagram 10.14.0 (iPhone6,2; iPhone OS 8_2; ru_RU; ru; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.2',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3302,10 +3302,10 @@ return [
     'issue-1417-BI (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12D508 Instagram 10.14.0 (iPhone6,2; iPhone OS 8_2; ru_RU; ru; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3317,13 +3317,13 @@ return [
     'issue-1417-BJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 Instagram 7.4.0 (iPhone5,1; iPhone OS 8_3; en_ID; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '8.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3360,10 +3360,10 @@ return [
     'issue-1417-BJ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 Instagram 7.4.0 (iPhone5,1; iPhone OS 8_3; en_ID; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3375,13 +3375,13 @@ return [
     'issue-1417-BK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A342 Instagram 10.19.0 (iPhone8,1; iPhone OS 9_0; it_US; it-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '9.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -3418,10 +3418,10 @@ return [
     'issue-1417-BK (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A342 Instagram 10.19.0 (iPhone8,1; iPhone OS 9_0; it_US; it-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -3433,13 +3433,13 @@ return [
     'issue-1417-BL' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 Instagram 10.16.0 (iPod7,1; iOS 10_3_1; en_US; en-US; scale=2.00; gamut=normal; 640x1136)',
         'properties' => [
-            'Comment' => 'Instagram App 10.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -12289,7 +12289,7 @@ return [
     'issue-1417-HB' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12332,7 +12332,7 @@ return [
     'issue-1417-HB (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A346 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12347,7 +12347,7 @@ return [
     'issue-1417-HC' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B67 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12390,7 +12390,7 @@ return [
     'issue-1417-HC (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B67 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12405,7 +12405,7 @@ return [
     'issue-1417-HD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12448,7 +12448,7 @@ return [
     'issue-1417-HD (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12463,7 +12463,7 @@ return [
     'issue-1417-HE' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12506,7 +12506,7 @@ return [
     'issue-1417-HE (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/603.1.20 (KHTML, like Gecko) Mobile/14E5230e [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12521,7 +12521,7 @@ return [
     'issue-1417-HF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12564,7 +12564,7 @@ return [
     'issue-1417-HF (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D201 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12579,7 +12579,7 @@ return [
     'issue-1417-HG' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12622,7 +12622,7 @@ return [
     'issue-1417-HG (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_1_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12B435 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12637,7 +12637,7 @@ return [
     'issue-1417-HH' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12680,7 +12680,7 @@ return [
     'issue-1417-HH (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12695,7 +12695,7 @@ return [
     'issue-1417-HI' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12738,7 +12738,7 @@ return [
     'issue-1417-HI (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 8_4_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H321 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12753,7 +12753,7 @@ return [
     'issue-1417-HJ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A405 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12796,7 +12796,7 @@ return [
     'issue-1417-HJ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_0_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A405 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12811,7 +12811,7 @@ return [
     'issue-1417-HK' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12854,7 +12854,7 @@ return [
     'issue-1417-HK (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12869,7 +12869,7 @@ return [
     'issue-1417-HL' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E234 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12912,7 +12912,7 @@ return [
     'issue-1417-HL (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13E234 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -12927,7 +12927,7 @@ return [
     'issue-1417-HM' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A403 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -12970,7 +12970,7 @@ return [
     'issue-1417-HN' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_2 like Mac OS X) AppleWebKit/602.3.12 (KHTML, like Gecko) Mobile/14C92 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -13013,7 +13013,7 @@ return [
     'issue-1417-HO' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -13056,7 +13056,7 @@ return [
     'issue-1417-HP' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -13099,7 +13099,7 @@ return [
     'issue-1417-HQ' => [
         'ua' => 'Mozilla/5.0 (iPod; CPU iPhone OS 6_1_6 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Mobile/10B500 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24514,7 +24514,7 @@ return [
     'issue-1417-QU' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Mobile/14E304 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24557,7 +24557,7 @@ return [
     'issue-1417-QV' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24600,7 +24600,7 @@ return [
     'issue-1417-QW' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24643,7 +24643,7 @@ return [
     'issue-1417-QX' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24686,7 +24686,7 @@ return [
     'issue-1417-QY' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Mobile/14A456 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24729,7 +24729,7 @@ return [
     'issue-1417-QZ' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13C75 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24772,7 +24772,7 @@ return [
     'issue-1417-RA' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 8_4 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12H143 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24815,7 +24815,7 @@ return [
     'issue-1417-RB' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/11B554a [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24858,7 +24858,7 @@ return [
     'issue-1417-RC' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13B143 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24901,7 +24901,7 @@ return [
     'issue-1417-RD' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D257 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
@@ -24944,7 +24944,7 @@ return [
     'issue-1417-RE' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 9_0_2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13A452 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',

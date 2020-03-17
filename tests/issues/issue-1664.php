@@ -1335,13 +1335,13 @@ return [
     'issue-1664-AD' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Instagram 7.3.0 (iPhone7,2; iPhone OS 11_0_3; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -1378,10 +1378,10 @@ return [
     'issue-1664-AD (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0_3 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A432 Instagram 7.3.0 (iPhone7,2; iPhone OS 11_0_3; en_US; en)',
         'properties' => [
-            'Comment' => 'Instagram App 7.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -1451,13 +1451,13 @@ return [
     'issue-1664-AF' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B92 Instagram 20.0.0.24.81 (iPhone9,4; iOS 11_1; en_US; en-US; scale=2.88; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App 20.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '20.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.1',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -1494,10 +1494,10 @@ return [
     'issue-1664-AF (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_1 like Mac OS X) AppleWebKit/604.3.5 (KHTML, like Gecko) Mobile/15B92 Instagram 20.0.0.24.81 (iPhone9,4; iOS 11_1; en_US; en-US; scale=2.88; gamut=wide; 1080x1920)',
         'properties' => [
-            'Comment' => 'Instagram App 20.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '20.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',

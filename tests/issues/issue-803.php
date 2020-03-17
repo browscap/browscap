@@ -4,13 +4,13 @@ return [
     'issue-803-A' => [
         'ua' => 'Instagram 3.4.1 (iPhone5,1; iPhone OS 6.0.2; en_US; en) AppleWebKit/420+',
         'properties' => [
-            'Comment' => 'Instagram App 3.4 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '3.4',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '6.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -47,10 +47,10 @@ return [
     'issue-803-A (standard)' => [
         'ua' => 'Instagram 3.4.1 (iPhone5,1; iPhone OS 6.0.2; en_US; en) AppleWebKit/420+',
         'properties' => [
-            'Comment' => 'Instagram App 3.4 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '3.4',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -62,13 +62,13 @@ return [
     'issue-803-B' => [
         'ua' => 'Instagram 7.8.0 (iPhone5,3; iPhone OS 9_0_2; en_US; en-US; scale=2.00; 640x1136) AppleWebKit/420+',
         'properties' => [
-            'Comment' => 'Instagram App 7.8 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '7.8',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '9.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -105,10 +105,10 @@ return [
     'issue-803-B (standard)' => [
         'ua' => 'Instagram 7.8.0 (iPhone5,3; iPhone OS 9_0_2; en_US; en-US; scale=2.00; 640x1136) AppleWebKit/420+',
         'properties' => [
-            'Comment' => 'Instagram App 7.8 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '7.8',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',

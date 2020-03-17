@@ -105,7 +105,7 @@ return [
     'issue-1608-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -148,7 +148,7 @@ return [
     'issue-1608-C (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Mobile/15A372 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',

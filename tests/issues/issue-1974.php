@@ -90,13 +90,13 @@ return [
     'issue-1974-C' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Snapchat/10.38.0.25 (iPad4,4; iOS 10.0.2; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat 10.38 for iOS',
+            'Comment' => 'Snapchat App for iOS',
             'Browser' => 'Snapchat',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.38',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -129,21 +129,6 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-1974-C (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Snapchat/10.38.0.25 (iPad4,4; iOS 10.0.2; gzip)',
-        'properties' => [
-            'Comment' => 'Snapchat 10.38 for iOS',
-            'Browser' => 'Snapchat',
-            'Browser_Maker' => 'Snap Inc.',
-            'Version' => '10.38',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
     ],
     'issue-1974-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 SogouMobileBrowser/5.5.0',

@@ -178,13 +178,13 @@ return [
     'issue-1906-D' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5308e Instagram 51.0.0.31.168 (iPhone7,2; iOS 12_0; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 51.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '51.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '12.0',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -221,10 +221,10 @@ return [
     'issue-1906-D (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/16A5308e Instagram 51.0.0.31.168 (iPhone7,2; iOS 12_0; en_US; en-US; scale=2.00; gamut=normal; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 51.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '51.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -279,13 +279,13 @@ return [
     'issue-1906-F' => [
         'ua' => 'Mozilla/5.0 (iPod touch; CPU iPhone OS 11_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Snapchat/10.35.1.1 (iPod7,1; iOS 11.4; gzip)',
         'properties' => [
-            'Comment' => 'Snapchat 10.35 for iOS',
+            'Comment' => 'Snapchat App for iOS',
             'Browser' => 'Snapchat',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '10.35',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.4',
             'Platform_Description' => 'iPod, iPhone & iPad',

@@ -234,13 +234,13 @@ return [
     'issue-1844-F' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 Build/OPM1.171019.019; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Instagram 32.0.0.16.94 Android (27/8.1.0; 420dpi; 1080x1794; Google/google; Pixel 2; walleye; walleye; en_US; 91882539)',
         'properties' => [
-            'Comment' => 'Instagram App 32.0 for Android',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '32.0',
+            'Version' => '0.0',
             'Platform' => 'Android',
             'Platform_Version' => '8.1',
             'Platform_Description' => 'Android OS',
@@ -277,13 +277,13 @@ return [
     'issue-1844-G' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f Instagram 33.0.0.11.96 (iPhone9,3; iOS 11_3; en_US; en-US; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 33.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '33.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Platform_Version' => '11.3',
             'Platform_Description' => 'iPod, iPhone & iPad',
@@ -320,10 +320,10 @@ return [
     'issue-1844-G (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E5178f Instagram 33.0.0.11.96 (iPhone9,3; iOS 11_3; en_US; en-US; scale=2.00; gamut=wide; 750x1334)',
         'properties' => [
-            'Comment' => 'Instagram App 33.0 for iOS',
+            'Comment' => 'Instagram App for iOS',
             'Browser' => 'Instagram App',
             'Browser_Maker' => 'Facebook',
-            'Version' => '33.0',
+            'Version' => '0.0',
             'Platform' => 'iOS',
             'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
@@ -335,13 +335,13 @@ return [
     'issue-1844-H' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; Pixel 2 XL Build/OPM1.171019.018; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/64.0.3282.137 Mobile Safari/537.36 Instagram 33.0.0.11.92 Android (27/8.1.0; 560dpi; 1440x2712; Google/google; Pixel 2 XL; taimen; taimen; en_US; 93117670)',
         'properties' => [
-            'Comment' => 'Instagram App 33.0 for Android',
+            'Comment' => 'Instagram App for Android',
             'Browser' => 'Instagram App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
-            'Version' => '33.0',
+            'Version' => '0.0',
             'Platform' => 'Android',
             'Platform_Version' => '8.1',
             'Platform_Description' => 'Android OS',
@@ -2050,7 +2050,7 @@ return [
     'issue-1844-AQ' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
@@ -2093,7 +2093,7 @@ return [
     'issue-1844-AQ (standard)' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_2_6 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D100 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Maker' => 'Ericsson Research',
             'Version' => '0.0',
@@ -2108,7 +2108,7 @@ return [
     'issue-1844-AR' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_2_5 like Mac OS X) AppleWebKit/604.5.6 (KHTML, like Gecko) Mobile/15D60 [Pinterest/iOS]',
         'properties' => [
-            'Comment' => 'Pinterest App Generic',
+            'Comment' => 'Pinterest App',
             'Browser' => 'Pinterest App',
             'Browser_Type' => 'Application',
             'Browser_Bits' => '64',
