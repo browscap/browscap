@@ -4,13 +4,13 @@ return [
     'issue-011' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36 OPR/16.0.1196.62',
         'properties' => [
-            'Comment' => 'Opera 16.0',
+            'Comment' => 'Opera 16',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '16.0',
+            'Version' => '16',
             'Platform' => 'Win8',
             'Platform_Version' => '6.2',
             'Platform_Description' => 'Windows 8',

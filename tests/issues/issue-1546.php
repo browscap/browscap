@@ -90,13 +90,13 @@ return [
     'issue-1546-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.0; SM-G950F Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36 OPR/42.7.2246.114996',
         'properties' => [
-            'Comment' => 'Opera Mobile 42.7 for Android',
+            'Comment' => 'Opera Mobile 42 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '42.7',
+            'Version' => '42',
             'Platform' => 'Android',
             'Platform_Version' => '7.0',
             'Platform_Description' => 'Android OS',

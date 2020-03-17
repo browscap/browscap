@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'issue-1143-1' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.87 Safari/537.36 OPR/41.0.2353.56',
+    'issue-2224-A' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36',
         'properties' => [
-            'Comment' => 'Opera 41',
-            'Browser' => 'Opera',
+            'Comment' => 'Chrome 80.0',
+            'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
-            'Browser_Maker' => 'Opera Software ASA',
+            'Browser_Bits' => '64',
+            'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '41',
+            'Version' => '80.0',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'Windows 10',
@@ -44,19 +44,19 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-1143-2' => [
-        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36 OPR/41.0.2353.69',
+    'issue-2224-B' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36',
         'properties' => [
-            'Comment' => 'Opera 41',
-            'Browser' => 'Opera',
+            'Comment' => 'Chrome 80.0',
+            'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
-            'Browser_Maker' => 'Opera Software ASA',
+            'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
-            'Version' => '41',
-            'Platform' => 'MacOSX',
-            'Platform_Version' => '10.11',
-            'Platform_Description' => 'Mac OS X',
+            'Version' => '80.0',
+            'Platform' => 'macOS',
+            'Platform_Version' => '10.14',
+            'Platform_Description' => 'macOS',
             'Platform_Bits' => '32',
             'Platform_Maker' => 'Apple Inc',
             'Alpha' => false,
@@ -83,8 +83,21 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
+    ],
+    'issue-2224-B (lite)' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome 80.0',
+            'Browser' => 'Chrome',
+            'Version' => '80.0',
+            'Platform' => 'MacOSX',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
     ],
 ];

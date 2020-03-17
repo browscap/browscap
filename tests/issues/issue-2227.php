@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'issue-1416-A' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36 OPR/45.0.2552.635',
+    'issue-2227-A' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.106 Safari/537.36 Edg/80.0.361.54',
         'properties' => [
-            'Comment' => 'Opera 45',
-            'Browser' => 'Opera',
+            'Comment' => 'Edge 80.0',
+            'Browser' => 'Edge',
             'Browser_Type' => 'Browser',
-            'Browser_Bits' => '32',
-            'Browser_Maker' => 'Opera Software ASA',
+            'Browser_Bits' => '64',
+            'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
-            'Version' => '45',
+            'Version' => '80.0',
             'Platform' => 'Win10',
             'Platform_Version' => '10.0',
             'Platform_Description' => 'Windows 10',

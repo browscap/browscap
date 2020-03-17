@@ -148,13 +148,13 @@ return [
     'issue-323-D' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36 OPR/17.0.1241.53',
         'properties' => [
-            'Comment' => 'Opera 17.0',
+            'Comment' => 'Opera 17',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '17.0',
+            'Version' => '17',
             'Platform' => 'MacOSX',
             'Platform_Version' => '10.7',
             'Platform_Description' => 'Mac OS X',

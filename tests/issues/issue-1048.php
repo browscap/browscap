@@ -176,13 +176,13 @@ return [
     'issue-1048-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; genm14 Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Mobile Safari/537.36 OPR/21.0.1437.75439',
         'properties' => [
-            'Comment' => 'Opera Mobile 21.0 for Android',
+            'Comment' => 'Opera Mobile 21 for Android',
             'Browser' => 'Opera Mobile',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '21.0',
+            'Version' => '21',
             'Platform' => 'Android',
             'Platform_Version' => '4.4',
             'Platform_Description' => 'Android OS',

@@ -47,13 +47,13 @@ return [
     'issue-1664-B' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; KFSUWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/61.2.1 like Chrome/61.0.3163.98 Safari/537.36',
         'properties' => [
-            'Comment' => 'Silk 61.2',
+            'Comment' => 'Silk 61',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '61.2',
+            'Version' => '61',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',

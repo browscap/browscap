@@ -5323,13 +5323,13 @@ return [
     'issue-513-DW' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.4; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2188.2 Safari/537.36 OPR/27.0.1670.0 (Edition developer)',
         'properties' => [
-            'Comment' => 'Opera 27.0',
+            'Comment' => 'Opera 27',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '27.0',
+            'Version' => '27',
             'Platform' => 'Win10',
             'Platform_Version' => '6.4',
             'Platform_Description' => 'Windows 10',

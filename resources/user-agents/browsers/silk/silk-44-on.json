@@ -1,24 +1,24 @@
 {
-  "division": "Silk #MAJORVER#.#MINORVER#",
-  "versions": ["77.1", "76.3", "76.2", "75.4", "75.3", "75.2", "75.1", "74.3", "74.2", "73.7", "73.6", "73.5", "73.2", "73.1", "72.5", "72.4", "72.3", "72.2", "71.3", "71.2", "70.5", "70.4", "70.2", "70.1", "69.4", "69.3", "69.2", "69.1", "68.4", "68.3", "68.2", "68.1", "67.6", "67.5", "67.4", "67.3", "67.2", "67.1", "66.3", "66.2", "65.5", "65.4", "65.3", "65.2", "65.1", "64.3", "64.2", "64.1", "63.1", "62.7", "62.6", "62.5", "62.4", "62.3", "62.2", "62.1", "61.4", "61.3", "61.2", "61.1", "60.2", "60.1", "59.3", "59.2", "59.1", "58.4", "58.3", "58.2", "58.1", "57.2", "57.1", "56.2", "56.1", "55.2", "55.1", "54.4", "54.3", "54.2", "54.1", "53.4", "53.3", "53.2", "52.1", "51.3", "51.2", "51.1", "50.2", "49.3", "49.2", "48.2", "48.1", "47.3", "47.2", "47.1", "46.3", "46.1", "45.1", 45, "44.2", "44.1"],
+  "division": "Silk #MAJORVER#",
+  "versions": [77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44],
   "sortIndex": 1134,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Silk #MAJORVER#.#MINORVER#",
+      "userAgent": "Silk #MAJORVER#",
       "browser": "silk",
       "platform": "Android",
       "engine": "Blink",
       "device": "Amazon Kindle",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Silk #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Comment": "Silk #MAJORVER#",
+        "Version": "#MAJORVER#"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "AFTN": "Amazon AFTN",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFAUWI": "Amazon KFAUWI",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFARWI": "Amazon KFARWI",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFAPWA": "Amazon KFAPWA",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFSOWI": "Amazon KFSOWI",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "SD4930UR": "Amazon SD4930UR"
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "devices": {
             "KFOT": "Amazon KFOT",
             "KFTT": "Amazon KFTT"
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "devices": {
             "KFJWI": "Amazon KFJWI"
           },
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
             "Android_7_1",
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.#MINORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
             "Android"

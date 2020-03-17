@@ -1,44 +1,44 @@
 {
-  "division": "Opera #MAJORVER#.#MINORVER#",
-  "versions": [65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42],
+  "division": "Opera #MAJORVER#",
+  "versions": [72, 71, 70, 69, 68, 67, 66, 65, 64, 63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42],
   "sortIndex": 1045,
   "lite": true,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Opera #MAJORVER#.#MINORVER#",
+      "userAgent": "Opera #MAJORVER#",
       "browser": "opera",
       "engine": "Blink",
       "device": "Windows Desktop",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Opera #MAJORVER#.#MINORVER#",
-        "Version": "#MAJORVER#.#MINORVER#"
+        "Comment": "Opera #MAJORVER#",
+        "Version": "#MAJORVER#"
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*",
           "device": "Linux Desktop",
           "platforms": [
             "Linux_64", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#.#MINORVER#*OMI/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*OMI/*",
           "device": "general TV Device",
           "platforms": [
             "Linux_ARM", "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#.#MINORVER#*HbbTV/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*HbbTV/*",
           "device": "general TV Device",
           "platforms": [
             "Linux"
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*",
           "device": "Windows Desktop",
           "platforms": [
             "Win10_x64_B", "Win10_64_B", "Win10_32_B",
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*",
           "device": "Macintosh",
           "platforms": [
             "OSX_10_12",

@@ -176,13 +176,13 @@ return [
     'issue-1253-E' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36 OPR/39.0.2256.43',
         'properties' => [
-            'Comment' => 'Opera 39.0',
+            'Comment' => 'Opera 39',
             'Browser' => 'Opera',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Opera Software ASA',
             'Browser_Modus' => 'unknown',
-            'Version' => '39.0',
+            'Version' => '39',
             'Platform' => 'Linux',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'Linux',

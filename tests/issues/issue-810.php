@@ -860,13 +860,13 @@ return [
     'issue-810-V' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.99 like Chrome/45.0.2454.94 Safari/537.36',
         'properties' => [
-            'Comment' => 'Silk 45.1',
+            'Comment' => 'Silk 45',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'Desktop Mode',
-            'Version' => '45.1',
+            'Version' => '45',
             'Platform' => 'Android',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'Android OS',

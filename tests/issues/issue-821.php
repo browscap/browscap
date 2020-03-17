@@ -636,13 +636,13 @@ return [
     'issue-821-AP' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; KFFOWI Build/LMY47O) AppleWebKit/537.36 (KHTML, like Gecko) Silk/45.1.102 like Chrome/45.0.2454.94 Safari/537.36',
         'properties' => [
-            'Comment' => 'Silk 45.1',
+            'Comment' => 'Silk 45',
             'Browser' => 'Silk',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
-            'Version' => '45.1',
+            'Version' => '45',
             'Platform' => 'Android',
             'Platform_Version' => '5.1',
             'Platform_Description' => 'Android OS',
