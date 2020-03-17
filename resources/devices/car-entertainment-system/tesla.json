@@ -1,9 +1,9 @@
 {
-  "Tesla Motors Model S": {
+  "Tesla Motors Car": {
     "type": "car-entertainment-system",
     "properties": {
-      "Device_Name": "Model S",
-      "Device_Code_Name": "Model S",
+      "Device_Name": "Car",
+      "Device_Code_Name": "Car",
       "Device_Maker": "Tesla Motors",
       "Device_Pointing_Method": "unknown",
       "Device_Brand_Name": "Tesla"

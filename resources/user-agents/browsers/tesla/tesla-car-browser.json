@@ -1,17 +1,17 @@
 {
-  "division": "Qt Car Browser",
+  "division": "Tesla Car Browser",
   "sortIndex": 1178,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Qt Car Browser",
-      "browser": "model s browser",
+      "userAgent": "Tesla Car Browser",
+      "browser": "tesla-car-browser",
       "engine": "WebKit",
-      "device": "Tesla Motors Model S",
+      "device": "Tesla Motors Car",
       "properties": {
         "Parent": "DefaultProperties",
-        "Comment": "Model S Browser"
+        "Comment": "Tesla Car Browser"
       },
       "children": [
         {
@@ -22,6 +22,13 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Tesla QtCarBrowser Safari/*",
+          "platforms": [
+            "Linux"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chromium/* Chrome/* Safari/* Tesla/*",
+          "engine": "Blink",
           "platforms": [
             "Linux"
           ]

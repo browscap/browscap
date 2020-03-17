@@ -1548,10 +1548,10 @@
     "lite": false,
     "standard": true
   },
-  "model s browser": {
+  "tesla-car-browser": {
     "type": "browser",
     "properties": {
-      "Browser": "Model S Browser",
+      "Browser": "Tesla Car Browser",
       "Browser_Maker": "Tesla Motors"
     },
     "lite": false,
