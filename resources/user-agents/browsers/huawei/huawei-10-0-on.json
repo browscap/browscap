@@ -1,0 +1,94 @@
+{
+  "division": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+  "versions": [10],
+  "sortIndex": 1141,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+      "browser": "huawei-browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "HuaweiBrowser #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "devices": {
+            "MRX-W09": "Huawei MRX-W09",
+            "MRX-W19": "Huawei MRX-W19",
+            "MRX-AL09": "Huawei MRX-AL09",
+            "MRX-AL19": "Huawei MRX-AL19",
+            "YAL-AL10": "Huawei YAL-AL10"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "devices": {
+            "ELE-L04": "Huawei ELE-L04",
+            "ELE-L09": "Huawei ELE-L09",
+            "ELE-L29": "Huawei ELE-L29",
+            "ELE-AL00": "Huawei ELE-AL00",
+            "ELE-TL00": "Huawei ELE-TL00",
+            "EVR-AL00": "Huawei EVR-AL00",
+            "EVR-TL00": "Huawei EVR-TL00",
+            "EVR-L29": "Huawei EVR-L29",
+            "HMA-L09": "Huawei HMA-L09",
+            "HMA-L29": "Huawei HMA-L29",
+            "HMA-AL00": "Huawei HMA-AL00",
+            "HMA-TL00": "Huawei HMA-TL00",
+            "VOG-L04": "Huawei VOG-L04",
+            "VOG-L09": "Huawei VOG-L09",
+            "VOG-L29": "Huawei VOG-L29",
+            "VOG-AL00": "Huawei VOG-AL00",
+            "VOG-AL10": "Huawei VOG-AL10",
+            "VOG-TL00": "Huawei VOG-TL00"
+          },
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "devices": {
+            "FIG-LA1": "Huawei FIG-LA1",
+            "FIG-LX1": "Huawei FIG-LX1",
+            "FIG-LX2": "Huawei FIG-LX2",
+            "FIG-LX3": "Huawei FIG-LX3"
+          },
+          "platforms": [
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Mobile Safari/*",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* HuaweiBrowser/#MAJORVER#.#MINORVER#.* Safari/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

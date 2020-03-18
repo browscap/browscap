@@ -1428,5 +1428,258 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": false
+  },
+  "Huawei HMA-AL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 (China)",
+      "Device_Code_Name": "HMA-AL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei HMA-TL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 (China)",
+      "Device_Code_Name": "HMA-TL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei HMA-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 (Global)",
+      "Device_Code_Name": "HMA-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei HMA-L09": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 (Global)",
+      "Device_Code_Name": "HMA-L09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (Global)",
+      "Device_Code_Name": "VOG-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-L09": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (Global)",
+      "Device_Code_Name": "VOG-L09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-L04": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (Global)",
+      "Device_Code_Name": "VOG-L04",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-AL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (China)",
+      "Device_Code_Name": "VOG-AL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (China)",
+      "Device_Code_Name": "VOG-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei VOG-TL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 Pro (China)",
+      "Device_Code_Name": "VOG-TL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ELE-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 (Global)",
+      "Device_Code_Name": "ELE-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ELE-L09": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 (Global)",
+      "Device_Code_Name": "ELE-L09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ELE-L04": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 (Global)",
+      "Device_Code_Name": "ELE-L04",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ELE-AL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 (China)",
+      "Device_Code_Name": "ELE-AL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei ELE-TL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P30 (China)",
+      "Device_Code_Name": "ELE-TL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei FIG-LX3": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P smart",
+      "Device_Code_Name": "FIG-LX3",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei FIG-LX2": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P smart",
+      "Device_Code_Name": "FIG-LX2",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei FIG-LA1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P smart",
+      "Device_Code_Name": "FIG-LA1",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei FIG-LX1": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "P smart",
+      "Device_Code_Name": "FIG-LX1",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei EVR-TL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 X (China)",
+      "Device_Code_Name": "EVR-TL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei EVR-AL00": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 X (China)",
+      "Device_Code_Name": "EVR-AL00",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei EVR-L29": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mate 20 X (Global)",
+      "Device_Code_Name": "EVR-L29",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
+  },
+  "Huawei YAL-AL10": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Honor 20 Pro",
+      "Device_Code_Name": "YAL-AL10",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": false
   }
 }

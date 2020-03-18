@@ -317,5 +317,49 @@
       "Device_Brand_Name": "Huawei"
     },
     "standard": true
+  },
+  "Huawei MRX-AL09": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MatePad Pro LTE",
+      "Device_Code_Name": "MRX-AL09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
+  },
+  "Huawei MRX-AL19": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MatePad Pro LTE",
+      "Device_Code_Name": "MRX-AL19",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
+  },
+  "Huawei MRX-W09": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MatePad Pro",
+      "Device_Code_Name": "MRX-W09",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
+  },
+  "Huawei MRX-W19": {
+    "type": "tablet",
+    "properties": {
+      "Device_Name": "MatePad Pro",
+      "Device_Code_Name": "MRX-W19",
+      "Device_Maker": "Huawei",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Huawei"
+    },
+    "standard": true
   }
 }
