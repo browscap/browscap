@@ -2698,20 +2698,23 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.15",
+            "version": "0.12.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3928a303954338eb8ed201cfe69134950318b470"
+                "reference": "71e529efced79e055fa8318b692e7f7d03ea4e75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3928a303954338eb8ed201cfe69134950318b470",
-                "reference": "3928a303954338eb8ed201cfe69134950318b470",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/71e529efced79e055fa8318b692e7f7d03ea4e75",
+                "reference": "71e529efced79e055fa8318b692e7f7d03ea4e75",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
             },
             "bin": [
                 "phpstan",
@@ -2733,7 +2736,7 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2020-03-16T15:27:38+00:00"
+            "time": "2020-05-05T12:55:44+00:00"
         },
         {
             "name": "phpstan/phpstan-beberlei-assert",
