@@ -46,7 +46,7 @@
     "ext-zip": "*",
     "browscap/browscap-php": "^4.2.2 || ^5.0.0",
     "ergebnis/composer-normalize": "^2.2.2",
-    "ergebnis/phpstan-rules": "^0.14.3",
+    "ergebnis/phpstan-rules": "^0.15.0",
     "friendsofphp/php-cs-fixer": "^2.16.1",
     "mikey179/vfsstream": "^1.6.8",
     "pepakriz/phpstan-exception-rules": "^0.10.1",
