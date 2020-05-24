@@ -16738,5 +16738,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "lcc": {
+    "type": "bot",
+    "properties": {
+      "Browser": "LCC",
+      "Browser_Maker": "Natural Language Processing Group of the University of Leipzig"
+    },
+    "lite": false,
+    "standard": true
   }
 }
