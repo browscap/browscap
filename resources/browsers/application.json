@@ -1654,5 +1654,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "zhihu-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Zhihu App",
+      "Browser_Maker": "Zhihu.com"
+    },
+    "lite": false,
+    "standard": true
   }
 }

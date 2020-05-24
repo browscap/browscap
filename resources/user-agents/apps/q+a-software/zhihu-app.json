@@ -1,0 +1,37 @@
+{
+  "division": "Zhihu App",
+  "sortIndex": 1954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Zhihu App",
+      "browser": "zhihu-app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Zhihu App"
+      },
+      "children": [
+        {
+          "match": "ZhihuHybrid *Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "ZhihuHybrid *Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
