@@ -1,0 +1,47 @@
+{
+  "division": "Netease Music",
+  "sortIndex": 2061,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Netease Music",
+      "browser": "netease-music",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Netease Music",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* NeteaseMusic/*",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* NeteaseMusic/*",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* NeteaseMusic/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
