@@ -7,6 +7,8 @@ update_configs:
       - "mimmi20"
       - "asgrim"
       - "jaydiablo"
+    default_labels:
+      - "dependencies"
     directory: "/"
     package_manager: "php:composer"
     update_schedule: "live"
@@ -29,3 +31,5 @@ update_configs:
           dependency_name: "monolog/monolog"
       - match:
           dependency_name: "twig/twig"
+      - match:
+          dependency_name: "ergebnis/json-normalizer"
