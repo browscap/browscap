@@ -17,6 +17,38 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "TA-1000": "Nokia TA-1000"
+          },
+          "platforms": [
+            "Android_7_1"
+          ],
+          "engine": "X5"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "GT-N7100": "Samsung GT-N7100"
+          },
+          "platforms": [
+            "Android_4_4"
+          ],
+          "engine": "X5"
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ],
+          "engine": "X5"
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
           "devices": {
             "TA-1000": "Nokia TA-1000"
@@ -36,6 +68,62 @@
         },
         {
           "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "X5",
+          "devices": {
+            "HM NOTE 1LTETD": "Xiaomi HM NOTE 1LTETD",
+            "HTC D820mu": "HTC D820mu",
+            "HUAWEI MT2-L01": "Huawei MT2-L01",
+            "N918St": "ZTE N918St",
+            "SM-N9008V": "Samsung SM-N9008V"
+          },
+          "platforms": [
+            "Android_4_4"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "X5",
+          "devices": {
+            "HM 1SC": "Xiaomi HM 1SC"
+          },
+          "platforms": [
+            "Android_4_3"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "X5",
+          "devices": {
+            "vivo Y22": "vivo Y22"
+          },
+          "platforms": [
+            "Android_4_2"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "X5",
+          "devices": {
+            "GT-I9128V": "Samsung GT-I9128V"
+          },
+          "platforms": [
+            "Android_4_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/*TBS/*Safari/* MicroMessenger/#MAJORVER#.#MINORVER#*",
+          "engine": "X5",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",

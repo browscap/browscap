@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/*",
           "devices": {
             "MI 4LTE": "Xiaomi Mi 4 LTE"
           },
@@ -57,7 +57,7 @@
           ]
         },
         {
-          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "match": "MQQBrowser/#MAJORVER#.#MINORVER#*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/*",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",

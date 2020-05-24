@@ -15,7 +15,7 @@
       },
       "children": [
         {
-          "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/4.0 Chrome/*Safari/*",
+          "match": "MQQBrowser/*Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/*Safari/*",
           "platforms": [
             "Android_6_0",
             "Android_5_1", "Android_5_0",
@@ -41,6 +41,17 @@
           ]
         },
         {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/* TBS/* Safari/*",
+          "engine": "X5",
+          "platforms": [
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+            "Android_2_3",
+            "Android"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* MQQBrowser/* Safari/*",
           "engine": "WebKit",
           "platforms": [
@@ -61,13 +72,25 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/*",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/* MQQBrowser/* TBS/* Safari/*",
+          "engine": "X5",
+          "platforms": [
+            "Android_8_1", "Android_8_0",
+            "Android_7_1", "Android_7_0",
+            "Android_6_0",
+            "Android_5_1", "Android_5_0",
+            "Android_4_4",
             "Android"
           ]
         },
