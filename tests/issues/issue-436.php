@@ -277,7 +277,7 @@ return [
     'issue-436-G' => [
         'ua' => 'BacklinkCrawler (http://www.backlinktest.com/crawler.html)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'SEO & Analytics',
             'Browser' => 'BacklinkCrawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
