@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A"
           ]
         },
@@ -34,7 +34,22 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_13_1", "ipadOS_13_0",
+            "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A"
+          ],
+          "properties": {
+            "Comment": "Mobile Safari #MAJORVER#.#MINORVER# in Developer Tools",
+            "Browser_Modus": "Developer Tools",
+            "isModified": true
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_13_2", "ipadOS_13_1", "ipadOS_13_0",
             "ipadOS"
           ]
         },
