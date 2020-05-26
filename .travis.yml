@@ -15,6 +15,7 @@ cache:
 
 stages:
   - composer validate
+  - check dependencies
   - validate sources and tests
   - style check
   - static code analysis
@@ -53,9 +54,39 @@ jobs:
 
     - stage: composer validate
       php: 7.2
-      script:
-        - composer validate --strict
-        - composer normalize --dry-run
+      env: COMPOSER_FLAGS=""
+      install: skip
+      script: composer validate --strict
+
+    - stage: composer validate
+      php: 7.2
+      env: COMPOSER_FLAGS=""
+      script: composer normalize --dry-run
+
+    - stage: check dependencies
+      php: 7.1
+      env: COMPOSER_FLAGS=""
+      script: composer outdated --direct
+
+    - stage: check dependencies
+      php: 7.2
+      env: COMPOSER_FLAGS=""
+      script: composer outdated --direct
+
+    - stage: check dependencies
+      php: 7.3
+      env: COMPOSER_FLAGS=""
+      script: composer outdated --direct
+
+    - stage: check dependencies
+      php: 7.4
+      env: COMPOSER_FLAGS=""
+      script: composer outdated --direct
+
+    - stage: check dependencies
+      php: nightly
+      env: COMPOSER_FLAGS="--ignore-platform-reqs"
+      script: composer outdated --direct
 
     - stage: style check
       php: 7.2
@@ -103,7 +134,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="full"
       install:
-        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
+        - travis_retry composer require --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-update -vv $COMPOSER_FLAGS browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/FullTest.php
 
@@ -113,7 +144,7 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="standard"
       install:
-        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
+        - travis_retry composer require --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-update -vv $COMPOSER_FLAGS browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 121 --verbose tests/UserAgentsTest/V3/StandardTest.php
 
@@ -123,6 +154,6 @@ jobs:
         - parser="browscap-php 3.1"
         - TEST_SET="lite"
       install:
-        - travis_retry composer require browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
+        - travis_retry composer require --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-update -vv $COMPOSER_FLAGS browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3
         - travis_retry composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv $COMPOSER_FLAGS
       script: php -n vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors --columns 119 --verbose tests/UserAgentsTest/V3/LiteTest.php
