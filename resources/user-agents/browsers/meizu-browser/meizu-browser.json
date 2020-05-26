@@ -1,0 +1,37 @@
+{
+  "division": "Meizu Browser",
+  "sortIndex": 1110,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Meizu Browser",
+      "browser": "meizu-browser",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Meizu Browser"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* MZBrowser/* Safari/*",
+          "devices": {
+            "MZ-M6 Note": "Meizu M6 Note"
+          },
+          "platforms": [
+            "Android_7_1"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* MZBrowser/* Safari/*",
+          "platforms": [
+            "Android_7_1",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}
