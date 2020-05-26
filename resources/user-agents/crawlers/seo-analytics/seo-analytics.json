@@ -282,6 +282,14 @@
         {
           "match": "Trackuity *",
           "browser": "trackuity bot"
+        },
+        {
+          "match": "serpstatbot/*",
+          "browser": "serpstatbot"
+        },
+        {
+          "match": "BacklinkCrawler*",
+          "browser": "backlinkcrawler"
         }
       ]
     }

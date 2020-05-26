@@ -16738,5 +16738,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "serpstatbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "serpstatbot",
+      "Browser_Maker": "serpstatbot.com"
+    },
+    "lite": false,
+    "standard": true
   }
 }

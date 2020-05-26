@@ -755,10 +755,6 @@
           ]
         },
         {
-          "match": "BacklinkCrawler*",
-          "browser": "backlinkcrawler"
-        },
-        {
           "match": "LinkStats Bot",
           "browser": "linkstats bot"
         },
