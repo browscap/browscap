@@ -1,0 +1,21 @@
+{
+  "division": "LCC",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "LCC",
+      "browser": "lcc",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "LCC"
+      },
+      "children": [
+        {
+          "match": "LCC *"
+        }
+      ]
+    }
+  ]
+}
