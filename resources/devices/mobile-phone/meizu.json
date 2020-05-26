@@ -53,5 +53,16 @@
       "Device_Brand_Name": "Meizu"
     },
     "standard": false
+  },
+  "Meizu M6 Note": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "M6 Note",
+      "Device_Code_Name": "M6 Note",
+      "Device_Maker": "Meizu Technology Co., Ltd.",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Meizu"
+    },
+    "standard": false
   }
 }

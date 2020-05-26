@@ -1654,5 +1654,32 @@
     },
     "lite": false,
     "standard": true
+  },
+  "netease-music": {
+    "type": "application",
+    "properties": {
+      "Browser": "Netease Music",
+      "Browser_Maker": "NetEase (Hangzhou) Network Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
+  "zhihu-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Zhihu App",
+      "Browser_Maker": "Zhihu.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "binance-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Binance App",
+      "Browser_Maker": "Binance.com"
+    },
+    "lite": false,
+    "standard": true
   }
 }
