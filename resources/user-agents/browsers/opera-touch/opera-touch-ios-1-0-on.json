@@ -23,7 +23,7 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A"
