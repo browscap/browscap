@@ -1663,5 +1663,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "binance-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Binance App",
+      "Browser_Maker": "Binance.com"
+    },
+    "lite": false,
+    "standard": true
   }
 }
