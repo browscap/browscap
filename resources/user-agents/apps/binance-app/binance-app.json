@@ -1,0 +1,21 @@
+{
+  "division": "Binance App",
+  "sortIndex": 954,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Binance App",
+      "browser": "binance-app",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Binance App"
+      },
+      "children": [
+        {
+          "match": "Binance/*"
+        }
+      ]
+    }
+  ]
+}
