@@ -340,35 +340,34 @@
         },
         {
             "name": "mimmi20/json-class",
-            "version": "2.0.9",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/json-class.git",
-                "reference": "fa7e6588563c577e54a953064601b5ee5456228b"
+                "reference": "89d346a7a9265113b5145bef3a5d674cae08f033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/fa7e6588563c577e54a953064601b5ee5456228b",
-                "reference": "fa7e6588563c577e54a953064601b5ee5456228b",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/89d346a7a9265113b5145bef3a5d674cae08f033",
+                "reference": "89d346a7a9265113b5145bef3a5d674cae08f033",
                 "shasum": ""
             },
             "require": {
                 "daverandom/exceptional-json": "^1.0.4",
                 "ext-json": "*",
-                "php": "^7.1"
+                "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.2.2",
-                "ergebnis/phpstan-rules": "^0.14.2",
-                "friendsofphp/php-cs-fixer": "^2.16.1",
-                "infection/infection": "^0.13.6",
+                "ergebnis/composer-normalize": "^2.5.1",
+                "ergebnis/phpstan-rules": "^0.15.0",
+                "infection/infection": "^0.13.6 || ^0.16.3",
+                "mimmi20/coding-standard": "~1.0.0",
                 "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.8",
+                "phpstan/phpstan": "^0.12.25",
                 "phpstan/phpstan-deprecation-rules": "^0.12.2",
-                "phpstan/phpstan-phpunit": "^0.12.6",
+                "phpstan/phpstan-phpunit": "^0.12.8",
                 "phpstan/phpstan-strict-rules": "^0.12.2",
-                "phpunit/phpunit": "^7.5.19 || ^8.5.0",
-                "squizlabs/php_codesniffer": "^3.5.3"
+                "phpunit/phpunit": "^7.5.20 || ^8.5.4 || ^9.1.3"
             },
             "type": "library",
             "autoload": {
@@ -396,7 +395,7 @@
             "keywords": [
                 "json"
             ],
-            "time": "2020-01-29T20:33:53+00:00"
+            "time": "2020-05-20T09:11:26+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
