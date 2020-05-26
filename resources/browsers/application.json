@@ -1655,6 +1655,15 @@
     "lite": false,
     "standard": true
   },
+  "netease-music": {
+    "type": "application",
+    "properties": {
+      "Browser": "Netease Music",
+      "Browser_Maker": "NetEase (Hangzhou) Network Co., Ltd."
+    },
+    "lite": false,
+    "standard": true
+  },
   "zhihu-app": {
     "type": "application",
     "properties": {
