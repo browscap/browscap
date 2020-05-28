@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df131a14ddb184198df4fb16b32b0e02",
+    "content-hash": "cf6dfec3f96c3068b4fb7a7a22c798b8",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -2272,28 +2272,28 @@
         },
         {
             "name": "pepakriz/phpstan-exception-rules",
-            "version": "v0.10.1",
+            "version": "v0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pepakriz/phpstan-exception-rules.git",
-                "reference": "7073711906e22509cbfacbca0a914e0f8ff2e6c8"
+                "reference": "02dfed0212a72c0164a3c7c0ce17db95c073303c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/7073711906e22509cbfacbca0a914e0f8ff2e6c8",
-                "reference": "7073711906e22509cbfacbca0a914e0f8ff2e6c8",
+                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/02dfed0212a72c0164a3c7c0ce17db95c073303c",
+                "reference": "02dfed0212a72c0164a3c7c0ce17db95c073303c",
                 "shasum": ""
             },
             "require": {
+                "nikic/php-parser": "^4.4",
                 "php": "^7.1",
-                "phpstan/phpstan": "^0.12.0"
+                "phpstan/phpstan": "^0.12.25"
             },
             "require-dev": {
-                "jakub-onderka/php-console-highlighter": "0.4.0",
-                "jakub-onderka/php-parallel-lint": "1.0.0",
                 "nette/utils": "^3.0",
                 "php-coveralls/php-coveralls": "^2.1",
-                "phpstan/phpstan": "^0.12.0",
+                "php-parallel-lint/php-console-highlighter": "^0.4.0",
+                "php-parallel-lint/php-parallel-lint": "^1.2.0",
                 "phpstan/phpstan-nette": "^0.12.0",
                 "phpstan/phpstan-phpunit": "^0.12.0",
                 "phpstan/phpstan-strict-rules": "^0.12.0",
@@ -2304,7 +2304,7 @@
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.10-dev"
+                    "dev-master": "0.11-dev"
                 },
                 "phpstan": {
                     "includes": [
@@ -2322,7 +2322,7 @@
                 "MIT"
             ],
             "description": "Exception rules for PHPStan",
-            "time": "2019-12-09T06:14:56+00:00"
+            "time": "2020-05-28T21:43:59+00:00"
         },
         {
             "name": "phar-io/manifest",
