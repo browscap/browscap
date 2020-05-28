@@ -48,7 +48,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "Redmi Note 4": "Xiaomi Redmi Note 4"
           },
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "MI MAX": "Xiaomi Mi Max",
             "ONEPLUS A3000": "OnePlus A3000",
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "ATH-AL00": "Huawei ATH-AL00",
             "HUAWEI KII-L22": "Huawei KII-L22",
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "SGH-I337": "Samsung SGH-I337"
           },
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "1107": "OPPO 1107"
           },
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
             "GT-N7102": "Samsung GT-N7102",
             "vivo X3L": "vivo X3L"
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/4.0 Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* Chrome/*MQQBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "platforms": [
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",

@@ -517,5 +517,23 @@
       "ActiveXControls": false,
       "BackgroundSounds": false
     }
+  },
+  "X5": {
+    "properties": {
+      "RenderingEngine_Name": "X5",
+      "RenderingEngine_Version": "unknown",
+      "RenderingEngine_Description": "a WebKit Fork by Tencent",
+      "RenderingEngine_Maker": "Tencent Ltd.",
+      "VBScript": false,
+      "JavaApplets": false,
+      "ActiveXControls": false,
+      "BackgroundSounds": false,
+      "Frames": true,
+      "IFrames": true,
+      "Tables": true,
+      "Cookies": true,
+      "JavaScript": true,
+      "CssVersion": 3
+    }
   }
 }

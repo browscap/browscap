@@ -1,0 +1,55 @@
+{
+  "division": "Bilibili App",
+  "sortIndex": 1903,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Bilibili App",
+      "browser": "bilibili-app",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Bilibili App"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* TBS/* Safari/* BiliApp/*",
+          "engine": "X5",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* TBS/* Safari/* BiliApp/*",
+          "engine": "X5",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BiliApp/*",
+          "devices": {
+            "GM1910": "OnePlus GM1910"
+          },
+          "platforms": [
+            "Android_10_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* BiliApp/*",
+          "platforms": [
+            "Android_10_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

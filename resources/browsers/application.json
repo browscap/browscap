@@ -1681,5 +1681,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "bilibili-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "Bilibili App",
+      "Browser_Maker": "Bilibili Inc."
+    },
+    "lite": false,
+    "standard": true
   }
 }
