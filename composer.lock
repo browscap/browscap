@@ -2913,26 +2913,26 @@
         },
         {
             "name": "phpstan/phpstan-beberlei-assert",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-beberlei-assert.git",
-                "reference": "c13141d2548ded3724a56ff0f7df37384187a149"
+                "reference": "371a8859bc55f1607d1eee5b8d4d7c902dde048c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/c13141d2548ded3724a56ff0f7df37384187a149",
-                "reference": "c13141d2548ded3724a56ff0f7df37384187a149",
+                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/371a8859bc55f1607d1eee5b8d4d7c902dde048c",
+                "reference": "371a8859bc55f1607d1eee5b8d4d7c902dde048c",
                 "shasum": ""
             },
             "require": {
-                "php": "~7.1",
-                "phpstan/phpstan": "^0.12.3"
+                "php": "^7.1 || ^8.0",
+                "phpstan/phpstan": "^0.12.6"
             },
             "require-dev": {
                 "beberlei/assert": "^2.9.5",
                 "consistence/coding-standard": "^3.0.1",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "ergebnis/composer-normalize": "^2.0.2",
                 "jakub-onderka/php-parallel-lint": "^1.0",
                 "phing/phing": "^2.16.0",
@@ -2962,7 +2962,7 @@
                 "MIT"
             ],
             "description": "PHPStan beberlei/assert extension",
-            "time": "2020-01-03T10:02:05+00:00"
+            "time": "2020-07-21T14:54:56+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
