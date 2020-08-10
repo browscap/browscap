@@ -359,16 +359,16 @@
         },
         {
             "name": "mimmi20/json-class",
-            "version": "2.0.11",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/json-class.git",
-                "reference": "89d346a7a9265113b5145bef3a5d674cae08f033"
+                "reference": "b4704bf090dbb7513e75373f4b58f2851d1690cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/89d346a7a9265113b5145bef3a5d674cae08f033",
-                "reference": "89d346a7a9265113b5145bef3a5d674cae08f033",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/b4704bf090dbb7513e75373f4b58f2851d1690cc",
+                "reference": "b4704bf090dbb7513e75373f4b58f2851d1690cc",
                 "shasum": ""
             },
             "require": {
@@ -377,16 +377,17 @@
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.5.1",
-                "ergebnis/phpstan-rules": "^0.15.0",
+                "ergebnis/composer-normalize": "^2.6.1",
+                "ergebnis/phpstan-rules": "^0.15.1",
                 "infection/infection": "^0.13.6 || ^0.16.3",
-                "mimmi20/coding-standard": "~1.0.0",
-                "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.25",
-                "phpstan/phpstan-deprecation-rules": "^0.12.2",
-                "phpstan/phpstan-phpunit": "^0.12.8",
-                "phpstan/phpstan-strict-rules": "^0.12.2",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.4 || ^9.1.3"
+                "mimmi20/coding-standard": "~1.0.1",
+                "pepakriz/phpstan-exception-rules": "^0.11.1",
+                "phpstan/extension-installer": "^1.0.4",
+                "phpstan/phpstan": "^0.12.36",
+                "phpstan/phpstan-deprecation-rules": "^0.12.5",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpstan/phpstan-strict-rules": "^0.12.4",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.5 || ^9.1.5"
             },
             "type": "library",
             "autoload": {
@@ -409,12 +410,9 @@
                     "homepage": "https://github.com/mimmi20/json-class/graphs/contributors"
                 }
             ],
-            "description": "Class wrapper for ",
+            "description": "Class wrapper for daverandom/exceptional-json",
             "homepage": "https://github.com/mimmi20/json-class",
-            "keywords": [
-                "json"
-            ],
-            "time": "2020-05-20T09:11:26+00:00"
+            "time": "2020-08-06T07:34:33+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
