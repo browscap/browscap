@@ -481,33 +481,34 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.9",
+            "version": "7.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "0899d05fca394dea69ed3aa96bca58c816e710b4"
+                "reference": "796304052865f97a3727a7fc7f7e370640ecce2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/0899d05fca394dea69ed3aa96bca58c816e710b4",
-                "reference": "0899d05fca394dea69ed3aa96bca58c816e710b4",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/796304052865f97a3727a7fc7f7e370640ecce2d",
+                "reference": "796304052865f97a3727a7fc7f7e370640ecce2d",
                 "shasum": ""
             },
             "require": {
-                "mimmi20/browser-detector-loader-interface": "~3.0.6",
+                "mimmi20/browser-detector-loader-interface": "~3.0.7",
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.5.1",
-                "ergebnis/phpstan-rules": "^0.15.0",
+                "ergebnis/composer-normalize": "^2.6.1",
+                "ergebnis/phpstan-rules": "^0.15.1",
                 "infection/infection": "^0.13.6 || ^0.16.3",
-                "mimmi20/coding-standard": "~1.0.0",
-                "pepakriz/phpstan-exception-rules": "^0.10.1",
-                "phpstan/phpstan": "^0.12.25",
-                "phpstan/phpstan-deprecation-rules": "^0.12.2",
-                "phpstan/phpstan-phpunit": "^0.12.8",
-                "phpstan/phpstan-strict-rules": "^0.12.2",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.4 || ^9.1.3"
+                "mimmi20/coding-standard": "~1.0.1",
+                "pepakriz/phpstan-exception-rules": "^0.11.1",
+                "phpstan/extension-installer": "^1.0.4",
+                "phpstan/phpstan": "^0.12.36",
+                "phpstan/phpstan-deprecation-rules": "^0.12.5",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpstan/phpstan-strict-rules": "^0.12.4",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.5 || ^9.1.5"
             },
             "type": "library",
             "autoload": {
@@ -539,7 +540,7 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2020-05-20T11:04:09+00:00"
+            "time": "2020-08-06T07:44:54+00:00"
         },
         {
             "name": "monolog/monolog",
