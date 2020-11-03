@@ -1,6 +1,6 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": [13],
+  "versions": [14],
   "sortIndex": 1955,
   "lite": true,
   "standard": true,
@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_13_7", "iOS_A_13_6", "iOS_A_13_5", "iOS_A_13_4", "iOS_A_13_3", "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_14_0",
             "iOS_A"
           ]
         },
@@ -34,7 +34,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_A_13_7", "iOS_A_13_6", "iOS_A_13_5", "iOS_A_13_4", "iOS_A_13_3", "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_14_0",
             "iOS_A"
           ],
           "properties": {
@@ -49,7 +49,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_13_7", "ipadOS_13_6", "ipadOS_13_5", "ipadOS_13_4", "ipadOS_13_3", "ipadOS_13_2", "ipadOS_13_1", "ipadOS_13_0",
+            "ipadOS_14_0",
             "ipadOS"
           ]
         },
