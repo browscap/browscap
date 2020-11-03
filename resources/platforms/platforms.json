@@ -1781,6 +1781,60 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "ipadOS_14_0": {
+    "match": "*CPU OS 14_0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "14.0"
+    }
+  },
+  "ipadOS_13_7": {
+    "match": "*CPU OS 13_7* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.7"
+    }
+  },
+  "ipadOS_13_6": {
+    "match": "*CPU OS 13_6* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.6"
+    }
+  },
+  "ipadOS_13_5": {
+    "match": "*CPU OS 13_5* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.5"
+    }
+  },
+  "ipadOS_13_4": {
+    "match": "*CPU OS 13_4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.4"
+    }
+  },
+  "ipadOS_13_3": {
+    "match": "*CPU OS 13_3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "13.3"
+    }
+  },
   "ipadOS_13_2": {
     "match": "*CPU OS 13_2* like Mac OS X*",
     "lite": false,
@@ -1840,6 +1894,60 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_A_14_0": {
+    "match": "*CPU iPhone OS 14?0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.0"
+    }
+  },
+  "iOS_A_13_7": {
+    "match": "*CPU iPhone OS 13?7* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "13.7"
+    }
+  },
+  "iOS_A_13_6": {
+    "match": "*CPU iPhone OS 13?6* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "13.6"
+    }
+  },
+  "iOS_A_13_5": {
+    "match": "*CPU iPhone OS 13?5* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "13.5"
+    }
+  },
+  "iOS_A_13_4": {
+    "match": "*CPU iPhone OS 13?4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "13.4"
+    }
+  },
+  "iOS_A_13_3": {
+    "match": "*CPU iPhone OS 13?3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "13.3"
     }
   },
   "iOS_A_13_2": {
