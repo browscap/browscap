@@ -75,7 +75,7 @@ return [
             'CssVersion' => '3',
             'Device_Name' => 'iPhone',
             'Device_Maker' => 'Apple Inc',
-            'Device_Type' => 'Mobile Phone',
+            'Device_Type' => 'Mobile Device',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'iPhone',
             'Device_Brand_Name' => 'Apple',
