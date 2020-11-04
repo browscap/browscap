@@ -47,7 +47,7 @@ return [
     'issue-2370-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/86.0.2924.75 Mobile/14E5239e Safari/602.1',
         'properties' => [
-            'Comment' => 'Chrome 63.0',
+            'Comment' => 'Chrome 86.0',
             'Browser' => 'Chrome',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
