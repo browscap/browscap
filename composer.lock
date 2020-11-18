@@ -308,27 +308,26 @@
         },
         {
             "name": "mimmi20/browser-detector-loader-interface",
-            "version": "3.0.10",
+            "version": "3.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browser-detector-loader-interface.git",
-                "reference": "04b81703c4008a19f55b4ad0978a972e0a38fcdb"
+                "reference": "0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/04b81703c4008a19f55b4ad0978a972e0a38fcdb",
-                "reference": "04b81703c4008a19f55b4ad0978a972e0a38fcdb",
+                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf",
+                "reference": "0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "~2.8.0",
-                "mimmi20/coding-standard": "~1.0.3",
-                "pepakriz/phpstan-exception-rules": "~0.11.1",
+                "mimmi20/coding-standard": "~1.0.5",
+                "pepakriz/phpstan-exception-rules": "~0.11.2",
                 "phpstan/extension-installer": "~1.0.5",
-                "phpstan/phpstan": "~0.12.50",
+                "phpstan/phpstan": "~0.12.56",
                 "phpstan/phpstan-deprecation-rules": "~0.12.5"
             },
             "type": "library",
@@ -353,7 +352,7 @@
                 }
             ],
             "description": "the source interface for the browscap helper",
-            "time": "2020-10-19T07:42:46+00:00"
+            "time": "2020-11-17T07:22:45+00:00"
         },
         {
             "name": "mimmi20/json-class",
@@ -473,16 +472,16 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.12",
+            "version": "7.1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "26c2d921a395542674117877ce3f3d1ab70388ba"
+                "reference": "f4661e1b8caa2c4a9138f0dd515c5a1786c5994e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/26c2d921a395542674117877ce3f3d1ab70388ba",
-                "reference": "26c2d921a395542674117877ce3f3d1ab70388ba",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/f4661e1b8caa2c4a9138f0dd515c5a1786c5994e",
+                "reference": "f4661e1b8caa2c4a9138f0dd515c5a1786c5994e",
                 "shasum": ""
             },
             "require": {
@@ -490,12 +489,11 @@
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "~2.8.0",
                 "infection/infection": "~0.13.6 || ~0.18",
-                "mimmi20/coding-standard": "~1.0.4",
-                "pepakriz/phpstan-exception-rules": "~0.11.1",
+                "mimmi20/coding-standard": "~1.0.5",
+                "pepakriz/phpstan-exception-rules": "~0.11.2",
                 "phpstan/extension-installer": "~1.0.5",
-                "phpstan/phpstan": "~0.12.50",
+                "phpstan/phpstan": "~0.12.56",
                 "phpstan/phpstan-deprecation-rules": "~0.12.5",
                 "phpstan/phpstan-phpunit": "~0.12.16",
                 "phpunit/phpunit": "~7.5.20 || ~8.5.8 || ~9.4.2"
@@ -530,7 +528,7 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2020-10-20T07:57:20+00:00"
+            "time": "2020-11-17T07:24:11+00:00"
         },
         {
             "name": "monolog/monolog",
