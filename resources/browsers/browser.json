@@ -909,6 +909,15 @@
     "lite": true,
     "standard": true
   },
+  "headless edge": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Headless Edge",
+      "Browser_Maker": "Microsoft Corporation"
+    },
+    "lite": true,
+    "standard": true
+  },
   "hs": {
     "type": "browser",
     "properties": {

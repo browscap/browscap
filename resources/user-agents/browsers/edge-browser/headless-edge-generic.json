@@ -1,0 +1,30 @@
+{
+    "division": "Headless Edge Generic",
+    "sortIndex": 1141,
+    "lite": true,
+    "standard": true,
+    "userAgents": [
+      {
+        "userAgent": "Headless Edge Generic",
+        "browser": "headless edge",
+        "engine": "Blink",
+        "device": "Windows Desktop",
+        "properties": {
+          "Parent": "DefaultProperties",
+          "Comment": "Headless Edge Generic"
+        },
+        "children": [
+          {
+            "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) HeadlessChrome/* Safari/* Edg/*",
+            "engine": "Blink",
+            "platforms": [
+              "Win10_x64_B", "Win10_64_B", "Win10_32_B",
+              "Win8_1_x64", "Win8_1_64", "Win8_1_32",
+              "Win8_x64", "Win8_64", "Win8_32",
+              "Win7_x64", "Win7_64", "Win7_32"
+            ]
+          }
+        ]
+      }
+    ]
+  }
