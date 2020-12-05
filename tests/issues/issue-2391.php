@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 
 return [
-    'issue-2391-O' => [
+    'issue-2391-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.1.0; Nexus 6P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3973.0 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 80.0',
@@ -45,7 +45,7 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-2391-Q' => [
+    'issue-2391-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.16 Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 80.0',
@@ -84,11 +84,11 @@ return [
             'RenderingEngine_Version' => 'unknown',
             'RenderingEngine_Maker' => 'Google Inc',
         ],
-        'lite' => true,
+        'lite' => false,
         'standard' => true,
         'full' => true,
     ],
-    'issue-2391-R' => [
+    'issue-2391-C' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.16 Safari/537.36 Edg/80.0.361.9',
         'properties' => [
             'Comment' => 'Edge 80.0',
