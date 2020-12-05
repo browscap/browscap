@@ -1,6 +1,6 @@
 {
   "division": "Firefox #MAJORVER#.#MINORVER# for iOS",
-  "versions": ["19.1", 19, "18.2", "18.1", 18, "17.3", "17.2", "17.1", 17, "16.2", "16.1", 16, "15.1", 15],
+  "versions": [21, "20.2", "20.1", 20, "19.1", 19, "18.2", "18.1", 18, "17.3", "17.2", "17.1", 17, "16.2", "16.1", 16, "15.1", 15],
   "sortIndex": 1166,
   "lite": false,
   "standard": true,
@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_13_3", "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2",
             "iOS_A"
@@ -36,7 +36,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_13_2", "ipadOS_13_1", "ipadOS_13_0",
+            "ipadOS_13_3", "ipadOS_13_2", "ipadOS_13_1", "ipadOS_13_0",
             "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
             "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2",
             "iOS_C"
