@@ -1,6 +1,6 @@
 {
   "division": "UC Browser #MAJORVER#.#MINORVER#",
-  "versions": ["12.13", "12.11", "12.10", "12.9", "12.8", "12.5", "12.2", "12.1", 12],
+  "versions": ["12.13", "12.11", "12.10", "12.9", "12.8", "12.7", "12.5", "12.2", "12.1", 12],
   "sortIndex": 931,
   "lite": false,
   "standard": true,
@@ -429,6 +429,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
           "engine": "Blink",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
