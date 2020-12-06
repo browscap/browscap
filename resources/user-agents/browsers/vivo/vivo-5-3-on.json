@@ -1,6 +1,6 @@
 {
   "division": "Vivo Browser #MAJORVER#.#MINORVER#",
-  "versions": ["7.3", "7.2", "7.1", "6.7", "6.6", "6.4", "6.3", "6.2", "6.1", 6, "5.10", "5.9", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3"],
+  "versions": ["8.3", "8.2", "7.3", "7.2", "7.1", "6.9", "6.8", "6.7", "6.6", "6.4", "6.3", "6.2", "6.1", 6, "5.10", "5.9", "5.8", "5.7", "5.6", "5.5", "5.4", "5.3"],
   "sortIndex": 1141,
   "lite": false,
   "standard": true,
@@ -60,6 +60,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -80,6 +81,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* VivoBrowser/#MAJORVER#.#MINORVER#.*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",

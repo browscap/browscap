@@ -97,6 +97,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/*",
           "platforms": [
+            "Android_11_0",
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -124,7 +127,8 @@
             "iPhone": "iPhone"
           },
           "platforms": [
-            "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
+            "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
+            "iOS_A_13_7", "iOS_A_13_6", "iOS_A_13_5", "iOS_A_13_4", "iOS_A_13_3", "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
             "iOS_A_10_3", "iOS_A_10_2", "iOS_A_10_1", "iOS_A_10_0",

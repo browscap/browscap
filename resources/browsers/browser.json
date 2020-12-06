@@ -639,6 +639,15 @@
     "lite": false,
     "standard": true
   },
+  "duckduckgo browser": {
+    "type": "browser",
+    "properties": {
+      "Browser": "DuckDuckGo Browser",
+      "Browser_Maker": "DuckDuckGo"
+    },
+    "lite": false,
+    "standard": true
+  },
   "edge": {
     "type": "browser",
     "properties": {

@@ -18,6 +18,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/*Chrome*Safari*",
           "platforms": [
+            "Android_11_0",
             "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
