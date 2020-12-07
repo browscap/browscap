@@ -2359,16 +2359,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.7.0",
+            "version": "v4.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300"
+                "reference": "dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
-                "reference": "21dce06dfbf0365c6a7cc8fdbdc995926c6a9300",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984",
+                "reference": "dbe56d23de8fcb157bbc0cfb3ad7c7de0cfb0984",
                 "shasum": ""
             },
             "require": {
@@ -2376,8 +2376,8 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "ircmaxell/php-yacc": "0.0.5",
-                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0"
+                "ircmaxell/php-yacc": "^0.0.7",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
                 "bin/php-parse"
@@ -2385,7 +2385,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.7-dev"
+                    "dev-master": "4.9-dev"
                 }
             },
             "autoload": {
@@ -2407,26 +2407,26 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-07-25T13:18:53+00:00"
+            "time": "2020-12-03T17:45:45+00:00"
         },
         {
             "name": "pepakriz/phpstan-exception-rules",
-            "version": "v0.11.1",
+            "version": "v0.11.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pepakriz/phpstan-exception-rules.git",
-                "reference": "0c055c2b7d0fdcf55e553eb343dd24095ac99a5b"
+                "reference": "e62cf84d23ba95e79a55204105464df8cb0afa0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/0c055c2b7d0fdcf55e553eb343dd24095ac99a5b",
-                "reference": "0c055c2b7d0fdcf55e553eb343dd24095ac99a5b",
+                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/e62cf84d23ba95e79a55204105464df8cb0afa0f",
+                "reference": "e62cf84d23ba95e79a55204105464df8cb0afa0f",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.4",
-                "php": "^7.1",
-                "phpstan/phpstan": "^0.12.25"
+                "php": ">=7.1",
+                "phpstan/phpstan": "^0.12.26"
             },
             "require-dev": {
                 "nette/utils": "^3.0",
@@ -2435,8 +2435,8 @@
                 "phpstan/phpstan-nette": "^0.12.0",
                 "phpstan/phpstan-phpunit": "^0.12.0",
                 "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^7.5.6",
-                "slevomat/coding-standard": "^5.0.4",
+                "phpunit/phpunit": "^7.5.6 || ^9.4.2",
+                "slevomat/coding-standard": "^6.4.1",
                 "squizlabs/php_codesniffer": "~3.5.2"
             },
             "type": "phpstan-extension",
@@ -2460,7 +2460,7 @@
                 "MIT"
             ],
             "description": "Exception rules for PHPStan",
-            "time": "2020-06-05T10:12:20+00:00"
+            "time": "2020-10-31T10:48:46+00:00"
         },
         {
             "name": "phar-io/manifest",
