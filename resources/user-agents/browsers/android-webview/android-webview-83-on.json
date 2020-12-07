@@ -1,6 +1,6 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72],
+  "versions": [92, 91, 90, 89, 88, 87, 86, 85, 84, 83],
   "sortIndex": 954,
   "lite": true,
   "standard": true,
@@ -241,25 +241,15 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
-          "devices": {
-            "C6903": "Sony C6903",
-            "Nexus 10": "Samsung Nexus 10"
-          },
-          "platforms": [
-            "Android_4_4"
-          ]
-        },
-        {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
           "platforms": [
+            "Android_11_0",
             "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4",
             "Android"
           ]
         },
@@ -267,13 +257,13 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "device": "general Tablet",
           "platforms": [
+            "Android_11_0",
             "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
             "Android_5_1", "Android_5_0",
-            "Android_4_4",
             "Android"
           ]
         }

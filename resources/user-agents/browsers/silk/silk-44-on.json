@@ -18,7 +18,7 @@
       },
       "children": [
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "AFTN": "Amazon AFTN",
@@ -29,7 +29,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFAUWI": "Amazon KFAUWI",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFARWI": "Amazon KFARWI",
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFAPWA": "Amazon KFAPWA",
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "KFSOWI": "Amazon KFSOWI",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "devices": {
             "SD4930UR": "Amazon SD4930UR"
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "devices": {
             "KFOT": "Amazon KFOT",
             "KFTT": "Amazon KFTT"
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "devices": {
             "KFJWI": "Amazon KFJWI"
           },
@@ -111,9 +111,11 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
+            "Android_10_0",
+            "Android_9_0",
             "Android_7_1",
             "Android_5_1", "Android_5_0",
             "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
@@ -121,7 +123,7 @@
           ]
         },
         {
-          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#* like Chrome/* Safari*",
+          "match": "Mozilla/5.0 (X11; Linux*) applewebkit* (*khtml*like*gecko*) Silk/#MAJORVER#.* like Chrome/* Safari*",
           "engine": "Blink",
           "platforms": [
             "Android"

@@ -1,0 +1,455 @@
+{
+    "division": "UC Browser #MAJORVER#.#MINORVER#",
+    "versions": ["13.3", "13.2", "13.1", 13],
+    "sortIndex": 932,
+    "lite": false,
+    "standard": true,
+    "userAgents": [
+      {
+        "userAgent": "UC Browser #MAJORVER#.#MINORVER# for Android",
+        "browser": "uc browser",
+        "platform": "Android",
+        "engine": "Blink",
+        "device": "general Mobile Phone (Touch)",
+        "properties": {
+          "Parent": "DefaultProperties",
+          "Comment": "UC Browser #MAJORVER#.#MINORVER# for Android",
+          "Version": "#MAJORVER#.#MINORVER#"
+        },
+        "children": [
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "SM-G960F*": "Samsung SM-G960F",
+              "SM-G965F*": "Samsung SM-G965F"
+            },
+            "platforms": [
+              "Android_9_0",
+              "Android_8_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "ASUS_X00TD": "Asus X00TD",
+              "CPH1803": "OPPO CPH1803",
+              "CPH1819": "OPPO CPH1819",
+              "CPH1859": "OPPO CPH1859",
+              "CPH1861": "OPPO CPH1861",
+              "Mi A1": "Xiaomi Mi A1",
+              "ONEPLUS A6000": "OnePlus A6000",
+              "POCO F1": "Xiaomi Pocophone F1",
+              "Redmi Y2": "Xiaomi Redmi Y2",
+              "RMX1805": "OPPO RMX1805",
+              "TA-1053": "Nokia TA-1053",
+              "vivo 1723": "vivo 1723",
+              "vivo 1724": "vivo 1724",
+              "vivo 1802": "vivo 1802",
+              "vivo 1808": "vivo 1808"
+            },
+            "platforms": [
+              "Android_8_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "Redmi Note 5": "Xiaomi Redmi Note 5",
+              "Redmi Note 5 pro": "Xiaomi Redmi Note 5 Pro",
+              "vivo 1716": "vivo 1716"
+            },
+            "platforms": [
+              "Android_8_1",
+              "Android_7_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "ASUS_Z01HDA": "Asus Z01HDA",
+              "AUM-AL20": "Huawei AUM-AL20",
+              "BAC-L21": "Huawei BAC-L21",
+              "BND-L21": "Huawei BND-L21",
+              "F5122": "Sony F5122",
+              "G3416": "Sony G3416",
+              "G8141": "Sony G8141",
+              "Infinix X573": "Infinix X573",
+              "Infinix X608": "Infinix X608",
+              "LDN-LX2": "Huawei LDN-LX2",
+              "LLD-AL10": "Huawei LLD-AL10",
+              "LLD-AL20": "Huawei LLD-AL20",
+              "Lenovo K8 Plus": "Lenovo K8 Plus",
+              "MHA-L29": "Huawei MHA-L29",
+              "moto e5": "Motorola Moto E5",
+              "PRA-LX1": "Huawei PRA-LX1",
+              "RNE-L21": "Huawei RNE-L21",
+              "SM-A605G": "Samsung SM-A605G",
+              "SM-A730F": "Samsung SM-A730F",
+              "SM-C5010": "Samsung SM-C5010",
+              "SM-G930U": "Samsung SM-G930U",
+              "SM-G950F": "Samsung SM-G950F",
+              "SM-G955F": "Samsung SM-G955F",
+              "SM-J600G": "Samsung SM-J600G",
+              "SM-J810G": "Samsung SM-J810G",
+              "SM-J810Y": "Samsung SM-J810Y",
+              "T5524": "Smartron T5524",
+              "VTR-L29": "Huawei VTR-L29"
+            },
+            "platforms": [
+              "Android_8_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "Lenovo K8 Note": "Lenovo K8 Note"
+            },
+            "platforms": [
+              "Android_8_0",
+              "Android_7_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "PRA-AL00X": "Huawei PRA-AL00X"
+            },
+            "platforms": [
+              "Android_8_0",
+              "Android_7_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "SM-G935F": "Samsung SM-G935F"
+            },
+            "platforms": [
+              "Android_8_0",
+              "Android_7_0",
+              "Android_6_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "ASUS_X00DDB": "Asus X00DDB",
+              "ASUS_Z01BDA": "Asus Z01BDA",
+              "CPH1723": "OPPO CPH1723",
+              "CPH1729": "OPPO CPH1729",
+              "MI MAX 2": "Xiaomi Mi Max 2",
+              "Moto E (4) Plus": "Motorola Moto E4 Plus",
+              "OPPO R11": "OPPO R11",
+              "Redmi 4A": "Xiaomi Redmi 4A",
+              "Redmi 5": "Xiaomi Redmi 5",
+              "Redmi 5A": "Xiaomi Redmi 5A",
+              "Redmi Y1": "Xiaomi Redmi Y1",
+              "Redmi Y1 Lite": "Xiaomi Redmi Y1 Lite",
+              "SM-C710F": "Samsung SM-C710F",
+              "SM-C7100": "Samsung SM-C7100",
+              "SM-G611FF": "Samsung SM-G611FF",
+              "SM-J250F": "Samsung SM-J250F",
+              "SM-J510F": "Samsung SM-J510F",
+              "SM-T355Y": "Samsung SM-T355Y",
+              "TA-1021": "Nokia TA-1021"
+            },
+            "platforms": [
+              "Android_7_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "Redmi 4": "Xiaomi Redmi 4",
+              "Redmi Note 4": "Xiaomi Redmi Note 4"
+            },
+            "platforms": [
+              "Android_7_1", "Android_7_0",
+              "Android_6_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "SM-J510FN": "Samsung SM-J510FN"
+            },
+            "platforms": [
+              "Android_7_1", "Android_7_0",
+              "Android_6_0",
+              "Android_5_1", "Android_5_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "2014818": "Xiaomi 2014818"
+            },
+            "platforms": [
+              "Android_7_1",
+              "Android_5_1",
+              "Android_4_4"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "3600I": "Coolpad 3600I",
+              "A1 lite": "Gionee A1 Lite",
+              "BLN-L22": "Huawei BLN-L22",
+              "COMIO S1": "Comio S1",
+              "IF9021": "InFocus IF9021",
+              "IF9031": "InFocus IF9031",
+              "Lenovo K53a48": "Lenovo K53a48",
+              "LG-H873": "LG H873",
+              "MI MAX": "Xiaomi Mi Max",
+              "Micromax C1": "Micromax C1",
+              "Micromax HS1": "Micromax HS1",
+              "Moto C": "Motorola Moto C",
+              "Moto G (5) Plus": "Motorola Moto G5 Plus",
+              "PRA-LA1": "Huawei PRA-LA1",
+              "SM-A710F": "Samsung SM-A710F",
+              "SM-C5000": "Samsung SM-C5000",
+              "SM-C7000": "Samsung SM-C7000",
+              "SM-G570F": "Samsung SM-G570F",
+              "SM-G570Y": "Samsung SM-G570Y",
+              "SM-G615F": "Samsung SM-G615F",
+              "SM-G615FU": "Samsung SM-G615FU",
+              "SM-J701F": "Samsung SM-J701F",
+              "SM-J710F": "Samsung SM-J710F",
+              "SM-J710FN": "Samsung SM-J710FN",
+              "TECNO IN5": "Tecno IN5",
+              "vivo 1714": "vivo 1714",
+              "YU5011": "YU YU5011"
+            },
+            "platforms": [
+              "Android_7_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "HUAWEI NXT-AL10": "Huawei NXT-AL10",
+              "Lenovo K33a42": "Lenovo K33a42",
+              "NEM-L51": "Huawei NEM-L51",
+              "SM-G610F": "Samsung SM-G610F",
+              "vivo 1713": "vivo 1713"
+            },
+            "platforms": [
+              "Android_7_0",
+              "Android_6_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "ASUS_Z00UD": "Asus Z00UD",
+              "ASUS_Z010D": "Asus Z010D",
+              "CPH1701": "OPPO CPH1701",
+              "Era 2X": "XOLO Era 2X",
+              "F3311": "Sony F3311",
+              "H400": "Symphony H400",
+              "HTC Desire 826*": "HTC Desire 826",
+              "Infinix HOT 4 Pro": "Infinix Hot 4 Pro",
+              "InFocus M535": "InFocus M535",
+              "Intex Aqua Supreme+": "Intex Aqua Supreme+",
+              "LAVA_RI": "Lava RI",
+              "Lenovo A7010a48": "Lenovo A7010a48",
+              "Lenovo A7020a48": "Lenovo A7020a48",
+              "Lenovo K10a40": "Lenovo K10a40",
+              "Lenovo K50a40": "Lenovo K50a40",
+              "Le X526": "LeEco Le X526",
+              "Micromax Q350": "Micromax Q350",
+              "Micromax Q402": "Micromax Q402",
+              "MotoG3": "Motorola G3",
+              "P7 Max": "Gionee P7 Max",
+              "PixelV1": "Lava Pixel V1",
+              "Redmi 3S": "Xiaomi Redmi 3S",
+              "SM-A5000": "Samsung SM-A5000",
+              "SM-G532F": "Samsung SM-G532F",
+              "SM-G600FY": "Samsung SM-G600FY",
+              "SM-J210F": "Samsung SM-J210F",
+              "SM-N910G": "Samsung SM-N910G",
+              "Symphony P7 PRO": "Symphony P7 Pro",
+              "vivo 1601": "vivo 1601",
+              "vivo 1603": "vivo Y55L",
+              "vivo 1606": "vivo 1606",
+              "vivo 1609": "vivo 1609",
+              "vivo 1610": "vivo 1610",
+              "X41 Plus": "Lava X41 Plus"
+            },
+            "platforms": [
+              "Android_6_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "Redmi Note 3": "Xiaomi Redmi Note 3"
+            },
+            "platforms": [
+              "Android_6_0",
+              "Android_5_1", "Android_5_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "CP8676_I02": "Coolpad CP8676_I02",
+              "SM-J500F": "Samsung SM-J500F",
+              "SM-J700F": "Samsung SM-J700F"
+            },
+            "platforms": [
+              "Android_6_0",
+              "Android_5_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "ALE-L21": "Huawei ALE-L21"
+            },
+            "platforms": [
+              "Android_6_0",
+              "Android_5_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "SM-A5009": "Samsung SM-A5009",
+              "SM-A500F": "Samsung SM-A500F",
+              "SM-A500FU*": "Samsung SM-A500FU",
+              "SM-A500G": "Samsung SM-A500G",
+              "SM-A500H": "Samsung SM-A500H",
+              "SM-A500L": "Samsung SM-A500L"
+            },
+            "platforms": [
+              "Android_6_0",
+              "Android_5_0",
+              "Android_4_4"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "A1601": "OPPO A1601",
+              "A37fw": "OPPO A37fw",
+              "Aqua_Lions_3G": "Intex Aqua Lions 3G",
+              "C6902": "Sony C6902",
+              "CP8298_I00": "Coolpad CP8298_I00",
+              "D5322": "Sony D5322",
+              "F1f": "OPPO F1f",
+              "HTC Desire 626*": "HTC Desire 626",
+              "Lenovo A2010-a": "Lenovo A2010-A",
+              "Lenovo A6020a40": "Lenovo A6020a40",
+              "LS-4505": "Lyf LS-4505",
+              "M5_lite": "Gionee M5 Lite",
+              "M5 Plus": "Gionee Marathon M5 Plus",
+              "Pixel V2": "Lava Pixel V2",
+              "SM-E700H": "Samsung SM-E700H",
+              "SM-G531F": "Samsung SM-G531F",
+              "SM-J200G": "Samsung SM-J200G",
+              "SM-J700H": "Samsung SM-J700H",
+              "SM-N750": "Samsung SM-N750",
+              "Snap 4G2": "iBall Slide Snap 4G2",
+              "vivo V3": "vivo V3",
+              "vivo Y21L": "vivo Y21L",
+              "Vodacom Power Tab 10": "Vodafone Vodacom Power Tab 10",
+              "XT1032": "Motorola XT1032",
+              "ZTE BLADE A110": "ZTE Blade A110"
+            },
+            "platforms": [
+              "Android_5_1"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "GT-I9515*": "Samsung GT-I9515",
+              "Lenovo A6000": "Lenovo A6000",
+              "SM-N900A": "Samsung SM-N900A"
+            },
+            "platforms": [
+              "Android_5_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "Aqua Life II": "Intex Aqua Life II",
+              "GT-I9300I": "Samsung GT-I9300I",
+              "Obi_S551": "Obi S551"
+            },
+            "platforms": [
+              "Android_4_4"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "LenovoA3300-GV": "Lenovo A3300-GV"
+            },
+            "platforms": [
+              "Android_4_2"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "devices": {
+              "GT-I9300": "Samsung GT-I9300"
+            },
+            "platforms": [
+              "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* UCBrowser/#MAJORVER#.#MINORVER#* Safari/*",
+            "engine": "Blink",
+            "platforms": [
+              "Android_10_0",
+              "Android_9_0",
+              "Android_8_1", "Android_8_0",
+              "Android_7_1", "Android_7_0",
+              "Android_6_0",
+              "Android_5_1", "Android_5_0",
+              "Android_4_4", "Android_4_3", "Android_4_2", "Android_4_1", "Android_4_0",
+              "Android"
+            ]
+          },
+          {
+            "match": "Mozilla/5.0 (*Windows *) applewebkit* (*khtml*like*gecko*) Chrome/??.* Safari/* UCBrowser/#MAJORVER#.#MINORVER#*",
+            "engine": "Blink",
+            "platforms": [
+              "Android"
+            ],
+            "properties": {
+              "Browser_Modus": "Desktop Mode"
+            }
+          }
+        ]
+      }
+    ]
+  }

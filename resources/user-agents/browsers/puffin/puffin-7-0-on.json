@@ -1,6 +1,6 @@
 {
   "division": "Puffin #MAJORVER#.#MINORVER#",
-  "versions": ["7.9", "7.8", "7.7", "7.6", "7.5", "7.2", "7.1", 7],
+  "versions": ["8.4", "8.3", "7.9", "7.8", "7.7", "7.6", "7.5", "7.2", "7.1", 7],
   "sortIndex": 1116,
   "lite": false,
   "standard": true,
@@ -245,6 +245,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Mobile Safari/* Puffin/#MAJORVER#.#MINORVER#.*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -258,6 +259,7 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Chrome/* Safari/* Puffin/#MAJORVER#.#MINORVER#.*AT*",
           "device": "general Tablet",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
@@ -270,6 +272,7 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Safari/* Puffin/#MAJORVER#.#MINORVER#.* Chrome/*",
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_1", "Android_8_0",
             "Android_7_1", "Android_7_0",
