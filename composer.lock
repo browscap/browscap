@@ -307,27 +307,27 @@
         },
         {
             "name": "mimmi20/browser-detector-loader-interface",
-            "version": "3.0.11",
+            "version": "3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/browser-detector-loader-interface.git",
-                "reference": "0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf"
+                "reference": "b50bca816e1b52fc2bdc1762c379d0cd7f546ee2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf",
-                "reference": "0cefb0b7ee7df9fc04a74d7a8ab1b67c86c8d8bf",
+                "url": "https://api.github.com/repos/mimmi20/browser-detector-loader-interface/zipball/b50bca816e1b52fc2bdc1762c379d0cd7f546ee2",
+                "reference": "b50bca816e1b52fc2bdc1762c379d0cd7f546ee2",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "mimmi20/coding-standard": "~1.0.5",
-                "pepakriz/phpstan-exception-rules": "~0.11.2",
-                "phpstan/extension-installer": "~1.0.5",
-                "phpstan/phpstan": "~0.12.56",
-                "phpstan/phpstan-deprecation-rules": "~0.12.5"
+                "mimmi20/coding-standard": "~1.0.7",
+                "pepakriz/phpstan-exception-rules": "~0.11.3",
+                "phpstan/extension-installer": "~1.1.0",
+                "phpstan/phpstan": "~0.12.65",
+                "phpstan/phpstan-deprecation-rules": "~0.12.6"
             },
             "type": "library",
             "autoload": {
@@ -351,7 +351,7 @@
                 }
             ],
             "description": "the source interface for the browscap helper",
-            "time": "2020-11-17T07:22:45+00:00"
+            "time": "2021-01-07T12:07:18+00:00"
         },
         {
             "name": "mimmi20/json-class",
@@ -469,31 +469,31 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.13",
+            "version": "7.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "f4661e1b8caa2c4a9138f0dd515c5a1786c5994e"
+                "reference": "5296ede0a70c25715f5629921c4244a76a46ba16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/f4661e1b8caa2c4a9138f0dd515c5a1786c5994e",
-                "reference": "f4661e1b8caa2c4a9138f0dd515c5a1786c5994e",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/5296ede0a70c25715f5629921c4244a76a46ba16",
+                "reference": "5296ede0a70c25715f5629921c4244a76a46ba16",
                 "shasum": ""
             },
             "require": {
-                "mimmi20/browser-detector-loader-interface": "~3.0.10",
+                "mimmi20/browser-detector-loader-interface": "~3.0.12",
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "infection/infection": "~0.13.6 || ~0.18",
-                "mimmi20/coding-standard": "~1.0.5",
-                "pepakriz/phpstan-exception-rules": "~0.11.2",
-                "phpstan/extension-installer": "~1.0.5",
-                "phpstan/phpstan": "~0.12.56",
-                "phpstan/phpstan-deprecation-rules": "~0.12.5",
-                "phpstan/phpstan-phpunit": "~0.12.16",
-                "phpunit/phpunit": "~7.5.20 || ~8.5.8 || ~9.4.2"
+                "infection/infection": "~0.13.6 || ~0.18 || ~0.20.2",
+                "mimmi20/coding-standard": "~1.0.8",
+                "pepakriz/phpstan-exception-rules": "~0.11.3",
+                "phpstan/extension-installer": "~1.1.0",
+                "phpstan/phpstan": "~0.12.65",
+                "phpstan/phpstan-deprecation-rules": "~0.12.6",
+                "phpstan/phpstan-phpunit": "~0.12.17",
+                "phpunit/phpunit": "~7.5.20 || ~8.5.13 || ~9.5.0"
             },
             "type": "library",
             "autoload": {
@@ -525,7 +525,7 @@
                 "user agent",
                 "user-agent"
             ],
-            "time": "2020-11-17T07:24:11+00:00"
+            "time": "2021-01-08T10:36:45+00:00"
         },
         {
             "name": "monolog/monolog",
