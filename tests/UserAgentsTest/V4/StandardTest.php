@@ -101,7 +101,7 @@ class StandardTest extends TestCase
             $updater = new BrowscapUpdater($cache, $logger);
             $updater->convertFile($buildFolder . '/php_browscap.ini');
         } catch (\Exception $e) {
-            die(sprintf(
+            exit(sprintf(
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
                 __CLASS__,
                 get_class($e),

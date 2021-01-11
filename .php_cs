@@ -23,8 +23,13 @@ return PhpCsFixer\Config::create()
         '@PHP71Migration' => true,
         '@PHP71Migration:risky' => true,
         '@PHP73Migration' => true,
+        '@PHP74Migration' => true,
+        '@PHP74Migration:risky' => true,
+        '@PHP80Migration' => true,
+        '@PHP80Migration:risky' => true,
         '@PHPUnit60Migration:risky' => true,
         '@PHPUnit75Migration:risky' => true,
+        '@PHPUnit84Migration:risky' => true,
 
         // @PSR2 rules configured different from default
         'blank_line_after_namespace' => true,
@@ -49,13 +54,12 @@ return PhpCsFixer\Config::create()
         'declare_equal_normalize' => ['space' => 'single'],
         'php_unit_internal_class' => false,
         'no_superfluous_phpdoc_tags' => false,
-        'multiline_whitespace_before_semicolons' => [
-            'strategy' => 'no_multi_line',
-        ],
+        'multiline_whitespace_before_semicolons' => ['strategy' => 'no_multi_line'],
         'no_extra_blank_lines' => [
             'tokens' => ['break', 'case', 'continue', 'curly_brace_block', 'default', 'extra', 'parenthesis_brace_block', 'return', 'square_brace_block', 'switch', 'throw', 'use', 'useTrait', 'use_trait'],
         ],
         'no_useless_return' => false,
+        'no_whitespace_before_comma_in_array' => ['after_heredoc' => false],
         'php_unit_test_class_requires_covers' => false,
         'phpdoc_add_missing_param_annotation' => ['only_untyped' => false],
         'phpdoc_no_empty_return' => false,
@@ -64,6 +68,7 @@ return PhpCsFixer\Config::create()
         'single_line_comment_style' => ['comment_types' => ['hash']],
         'blank_line_after_opening_tag' => false,
         'return_type_declaration' => ['space_before' => 'one'],
+        'trailing_comma_in_multiline_array' => ['after_heredoc' => false],
 
         // @PhpCsFixer:risky rules configured different from default
         'php_unit_strict' => ['assertions' => ['assertAttributeEquals', 'assertAttributeNotEquals', 'assertNotEquals']],
@@ -92,6 +97,9 @@ return PhpCsFixer\Config::create()
 
         // @PHPUnit60Migration:risky rules configured different from default
         'php_unit_dedicate_assert' => ['target' => 'newest'],
+
+        //@PHP73Migration rules configured different from default
+        'heredoc_indentation' => false,
 
         // other rules
         'backtick_to_shell_exec' => true,
