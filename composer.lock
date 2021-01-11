@@ -2355,16 +2355,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.10.2",
+            "version": "v4.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "658f1be311a230e0907f5dfe0213742aff0596de"
+                "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/658f1be311a230e0907f5dfe0213742aff0596de",
-                "reference": "658f1be311a230e0907f5dfe0213742aff0596de",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c6d052fc58cb876152f89f532b95a8d7907e7f0e",
+                "reference": "c6d052fc58cb876152f89f532b95a8d7907e7f0e",
                 "shasum": ""
             },
             "require": {
@@ -2403,20 +2403,20 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-09-26T10:30:38+00:00"
+            "time": "2020-12-20T10:01:03+00:00"
         },
         {
             "name": "pepakriz/phpstan-exception-rules",
-            "version": "v0.11.2",
+            "version": "v0.11.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pepakriz/phpstan-exception-rules.git",
-                "reference": "e62cf84d23ba95e79a55204105464df8cb0afa0f"
+                "reference": "5c9012d0717d1beea32309abd404478ae384916c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/e62cf84d23ba95e79a55204105464df8cb0afa0f",
-                "reference": "e62cf84d23ba95e79a55204105464df8cb0afa0f",
+                "url": "https://api.github.com/repos/pepakriz/phpstan-exception-rules/zipball/5c9012d0717d1beea32309abd404478ae384916c",
+                "reference": "5c9012d0717d1beea32309abd404478ae384916c",
                 "shasum": ""
             },
             "require": {
@@ -2456,7 +2456,7 @@
                 "MIT"
             ],
             "description": "Exception rules for PHPStan",
-            "time": "2020-10-31T10:48:46+00:00"
+            "time": "2020-12-23T23:36:37+00:00"
         },
         {
             "name": "phar-io/manifest",
