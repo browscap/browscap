@@ -13,11 +13,9 @@ use PHPUnit\Framework\TestCase;
 class LiteFilterTest extends TestCase
 {
     /**
-     * @var LiteFilter
+     * tests getter for the filter type
      */
-    private $object;
-
-    protected function setUp() : void
+    public function testGetType() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,19 +23,12 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(static::any())
-            ->method('isOutputProperty')
-            ->willReturn(true);
+            ->expects(static::never())
+            ->method('isOutputProperty');
 
-        $this->object = new LiteFilter($propertyHolder);
-    }
+        $object = new LiteFilter($propertyHolder);
 
-    /**
-     * tests getter for the filter type
-     */
-    public function testGetType() : void
-    {
-        static::assertSame(FilterInterface::TYPE_LITE, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_LITE, $object->getType());
     }
 
     /**
@@ -45,6 +36,17 @@ class LiteFilterTest extends TestCase
      */
     public function testIsOutput() : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new LiteFilter($propertyHolder);
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['isLite'])
@@ -55,7 +57,7 @@ class LiteFilterTest extends TestCase
             ->method('isLite')
             ->willReturn(false);
 
-        static::assertFalse($this->object->isOutput($division));
+        static::assertFalse($object->isOutput($division));
     }
 
     /**
@@ -119,6 +121,18 @@ class LiteFilterTest extends TestCase
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::once())
+            ->method('isOutputProperty')
+            ->willReturn(true);
+
+        $object = new LiteFilter($propertyHolder);
+
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
@@ -129,7 +143,7 @@ class LiteFilterTest extends TestCase
             ->method('getType')
             ->willReturn(WriterInterface::TYPE_INI);
 
-        $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterIni);
+        $actualValue = $object->isOutputProperty($propertyName, $mockWriterIni);
         static::assertSame($isExtra, $actualValue);
     }
 
@@ -156,9 +170,8 @@ class LiteFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(static::any())
-            ->method('getType')
-            ->willReturn(WriterInterface::TYPE_INI);
+            ->expects(static::never())
+            ->method('getType');
 
         $object = new LiteFilter($propertyHolder);
         static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
@@ -169,8 +182,20 @@ class LiteFilterTest extends TestCase
      */
     public function testIsOutputSectionOnlyWhenLite() : void
     {
-        static::assertFalse($this->object->isOutputSection([]));
-        static::assertFalse($this->object->isOutputSection(['lite' => false]));
-        static::assertTrue($this->object->isOutputSection(['lite' => true]));
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty')
+            ->willReturn(true);
+
+        $object = new LiteFilter($propertyHolder);
+
+        static::assertFalse($object->isOutputSection([]));
+        static::assertFalse($object->isOutputSection(['lite' => false]));
+        static::assertTrue($object->isOutputSection(['lite' => true]));
     }
 }

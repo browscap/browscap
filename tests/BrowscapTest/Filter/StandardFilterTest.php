@@ -13,11 +13,9 @@ use PHPUnit\Framework\TestCase;
 class StandardFilterTest extends TestCase
 {
     /**
-     * @var StandardFilter
+     * tests getter for the filter type
      */
-    private $object;
-
-    protected function setUp() : void
+    public function testGetType() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,19 +23,12 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(static::any())
-            ->method('isOutputProperty')
-            ->willReturn(true);
+            ->expects(static::never())
+            ->method('isOutputProperty');
 
-        $this->object = new StandardFilter($propertyHolder);
-    }
+        $object = new StandardFilter($propertyHolder);
 
-    /**
-     * tests getter for the filter type
-     */
-    public function testGetType() : void
-    {
-        static::assertSame(FilterInterface::TYPE_STANDARD, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_STANDARD, $object->getType());
     }
 
     /**
@@ -45,6 +36,17 @@ class StandardFilterTest extends TestCase
      */
     public function testIsOutputTrue() : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new StandardFilter($propertyHolder);
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['isStandard'])
@@ -55,7 +57,7 @@ class StandardFilterTest extends TestCase
             ->method('isStandard')
             ->willReturn(true);
 
-        static::assertTrue($this->object->isOutput($division));
+        static::assertTrue($object->isOutput($division));
     }
 
     /**
@@ -63,6 +65,17 @@ class StandardFilterTest extends TestCase
      */
     public function testIsOutputFalse() : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new StandardFilter($propertyHolder);
+
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
             ->setMethods(['isStandard'])
@@ -73,7 +86,7 @@ class StandardFilterTest extends TestCase
             ->method('isStandard')
             ->willReturn(false);
 
-        static::assertFalse($this->object->isOutput($division));
+        static::assertFalse($object->isOutput($division));
     }
 
     /**
@@ -116,16 +129,16 @@ class StandardFilterTest extends TestCase
             ['ActiveXControls', false],
             ['isMobileDevice', true],
             ['isSyndicationReader', false],
-            ['Crawler', true],
+            ['Crawler', false],
             ['lite', false],
             ['sortIndex', false],
             ['Parents', false],
             ['division', false],
             ['Browser_Type', false],
-            ['Device_Type', true],
-            ['Device_Pointing_Method', true],
-            ['isTablet', true],
-            ['Browser_Maker', true],
+            ['Device_Type', false],
+            ['Device_Pointing_Method', false],
+            ['isTablet', false],
+            ['Browser_Maker', false],
         ];
     }
 
@@ -137,6 +150,18 @@ class StandardFilterTest extends TestCase
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::once())
+            ->method('isOutputProperty')
+            ->willReturn($isExtra);
+
+        $object = new StandardFilter($propertyHolder);
+
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
@@ -147,7 +172,7 @@ class StandardFilterTest extends TestCase
             ->method('getType')
             ->willReturn(WriterInterface::TYPE_INI);
 
-        $actualValue = $this->object->isOutputProperty($propertyName, $mockWriterIni);
+        $actualValue = $object->isOutputProperty($propertyName, $mockWriterIni);
         static::assertSame($isExtra, $actualValue);
     }
 
@@ -174,9 +199,8 @@ class StandardFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(static::any())
-            ->method('getType')
-            ->willReturn(WriterInterface::TYPE_INI);
+            ->expects(static::never())
+            ->method('getType');
 
         $object = new StandardFilter($propertyHolder);
         static::assertFalse($object->isOutputProperty($propertyName, $mockWriterIni));
@@ -187,8 +211,19 @@ class StandardFilterTest extends TestCase
      */
     public function testIsOutputSectionAlways() : void
     {
-        static::assertTrue($this->object->isOutputSection([]));
-        static::assertFalse($this->object->isOutputSection(['standard' => false]));
-        static::assertTrue($this->object->isOutputSection(['standard' => true]));
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new StandardFilter($propertyHolder);
+
+        static::assertTrue($object->isOutputSection([]));
+        static::assertFalse($object->isOutputSection(['standard' => false]));
+        static::assertTrue($object->isOutputSection(['standard' => true]));
     }
 }

@@ -25,7 +25,7 @@ class DivisionFactoryTest extends TestCase
             ->getMock();
 
         $useragentFactory
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('build')
             ->willReturn([]);
 

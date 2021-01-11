@@ -289,7 +289,7 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('trimProperty')
             ->willReturnArgument(0);
 
@@ -393,7 +393,7 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('trimProperty')
             ->willReturnArgument(0);
 
@@ -521,7 +521,7 @@ class IniWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('trimProperty')
             ->willReturnArgument(0);
 

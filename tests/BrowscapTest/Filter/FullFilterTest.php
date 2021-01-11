@@ -13,11 +13,9 @@ use PHPUnit\Framework\TestCase;
 class FullFilterTest extends TestCase
 {
     /**
-     * @var FullFilter
+     * tests getter for the filter type
      */
-    private $object;
-
-    protected function setUp() : void
+    public function testGetType() : void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -25,19 +23,12 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(static::any())
-            ->method('isOutputProperty')
-            ->willReturn(true);
+            ->expects(static::never())
+            ->method('isOutputProperty');
 
-        $this->object = new FullFilter($propertyHolder);
-    }
+        $object = new FullFilter($propertyHolder);
 
-    /**
-     * tests getter for the filter type
-     */
-    public function testGetType() : void
-    {
-        static::assertSame(FilterInterface::TYPE_FULL, $this->object->getType());
+        static::assertSame(FilterInterface::TYPE_FULL, $object->getType());
     }
 
     /**
@@ -47,13 +38,36 @@ class FullFilterTest extends TestCase
      */
     public function testIsOutput() : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new FullFilter($propertyHolder);
+
         $division = $this->createMock(Division::class);
 
-        static::assertTrue($this->object->isOutput($division));
+        static::assertTrue($object->isOutput($division));
     }
 
     public function testIsOutputProperty() : void
     {
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::once())
+            ->method('isOutputProperty')
+            ->willReturn(true);
+
+        $object = new FullFilter($propertyHolder);
+
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
             ->setMethods(['getType'])
@@ -64,7 +78,7 @@ class FullFilterTest extends TestCase
             ->method('getType')
             ->willReturn(WriterInterface::TYPE_INI);
 
-        static::assertTrue($this->object->isOutputProperty('Comment', $mockWriterIni));
+        static::assertTrue($object->isOutputProperty('Comment', $mockWriterIni));
     }
 
     public function testIsOutputPropertyModified() : void
@@ -75,7 +89,7 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('isOutputProperty')
             ->willReturn(false);
 
@@ -85,9 +99,8 @@ class FullFilterTest extends TestCase
             ->getMock();
 
         $mockWriterIni
-            ->expects(static::any())
-            ->method('getType')
-            ->willReturn(WriterInterface::TYPE_INI);
+            ->expects(static::never())
+            ->method('getType');
 
         $object = new FullFilter($propertyHolder);
         static::assertFalse($object->isOutputProperty('Comment', $mockWriterIni));
@@ -98,8 +111,19 @@ class FullFilterTest extends TestCase
      */
     public function testIsOutputSectionAlways() : void
     {
-        static::assertTrue($this->object->isOutputSection([]));
-        static::assertTrue($this->object->isOutputSection(['full' => false]));
-        static::assertTrue($this->object->isOutputSection(['full' => true]));
+        $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
+            ->disableOriginalConstructor()
+            ->setMethods(['isOutputProperty'])
+            ->getMock();
+
+        $propertyHolder
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $object = new FullFilter($propertyHolder);
+
+        static::assertTrue($object->isOutputSection([]));
+        static::assertTrue($object->isOutputSection(['full' => false]));
+        static::assertTrue($object->isOutputSection(['full' => true]));
     }
 }

@@ -334,12 +334,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getProperties')
             ->willReturn([]);
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getType')
             ->willReturn('tablet');
 
@@ -552,12 +552,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $platform
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('getProperties')
             ->willReturn([]);
 
         $platform
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('getMatch')
             ->willReturn('');
 
@@ -567,7 +567,7 @@ class ExpanderTest extends TestCase
             ->willReturn($coreDivision);
 
         $collection
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('getPlatform')
             ->willReturn($platform);
 
@@ -675,12 +675,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getProperties')
             ->willReturn([]);
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getType')
             ->willReturn('tablet');
 
@@ -690,12 +690,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $platform
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getProperties')
             ->willReturn([]);
 
         $platform
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getMatch')
             ->willReturn('');
 
@@ -710,7 +710,7 @@ class ExpanderTest extends TestCase
             ->willReturn($device);
 
         $collection
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getPlatform')
             ->willReturn($platform);
 
@@ -823,12 +823,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getProperties')
             ->willReturn([]);
 
         $device
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('getType')
             ->willReturn('tablet');
 
@@ -950,12 +950,12 @@ class ExpanderTest extends TestCase
             ->getMock();
 
         $browser
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('getProperties')
             ->willReturn([]);
 
         $browser
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('getType')
             ->willReturn('browser');
 
