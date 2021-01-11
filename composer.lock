@@ -355,16 +355,16 @@
         },
         {
             "name": "mimmi20/json-class",
-            "version": "2.0.15",
+            "version": "2.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/json-class.git",
-                "reference": "5ae55d6858cf147d8c804f5525e1670013ecc380"
+                "reference": "d6c92026555815863809a630055cbe3396aec7a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/5ae55d6858cf147d8c804f5525e1670013ecc380",
-                "reference": "5ae55d6858cf147d8c804f5525e1670013ecc380",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/d6c92026555815863809a630055cbe3396aec7a6",
+                "reference": "d6c92026555815863809a630055cbe3396aec7a6",
                 "shasum": ""
             },
             "require": {
@@ -373,14 +373,14 @@
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
-                "infection/infection": "~0.13.6 || ~0.18",
-                "mimmi20/coding-standard": "~1.0.5",
-                "pepakriz/phpstan-exception-rules": "~0.11.2",
-                "phpstan/extension-installer": "~1.0.5",
-                "phpstan/phpstan": "~0.12.56",
-                "phpstan/phpstan-deprecation-rules": "~0.12.5",
-                "phpstan/phpstan-phpunit": "~0.12.16",
-                "phpunit/phpunit": "~7.5.20 || ~8.5.8 || ~9.4.2"
+                "infection/infection": "~0.13.6 || ~0.18 || ~0.20.2",
+                "mimmi20/coding-standard": "~1.0.8",
+                "pepakriz/phpstan-exception-rules": "~0.11.3",
+                "phpstan/extension-installer": "~1.1.0",
+                "phpstan/phpstan": "~0.12.65",
+                "phpstan/phpstan-deprecation-rules": "~0.12.6",
+                "phpstan/phpstan-phpunit": "~0.12.17",
+                "phpunit/phpunit": "~7.5.20 || ~8.5.13 || ~9.5.0"
             },
             "type": "library",
             "autoload": {
@@ -405,7 +405,7 @@
             ],
             "description": "Class wrapper for daverandom/exceptional-json",
             "homepage": "https://github.com/mimmi20/json-class",
-            "time": "2020-11-17T07:36:27+00:00"
+            "time": "2021-01-08T09:19:37+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
