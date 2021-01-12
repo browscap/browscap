@@ -61,13 +61,13 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::once())
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionBody')
             ->with(static::callback(static function (array $props) {
                 // Be sure that PatternId key is removed
@@ -303,13 +303,13 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::once())
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(4))
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionBody')
             ->with(static::callback(static function (array $props) {
                 // Be sure that PatternId key is removed
@@ -545,13 +545,13 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::once())
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(3))
             ->method('renderSectionBody')
             ->with(static::callback(static function (array $props) {
                 // Be sure that PatternId key is present
@@ -787,13 +787,13 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::once())
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(2))
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(4))
             ->method('renderSectionHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::any())
+        $writerCollection->expects(static::exactly(4))
             ->method('renderSectionBody')
             ->willReturnSelf();
 

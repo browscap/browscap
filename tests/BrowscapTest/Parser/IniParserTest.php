@@ -42,32 +42,13 @@ final class IniParserTest extends TestCase
         $parser = new IniParser('');
 
         // Test the default value
-        self::assertAttributeSame(false, 'shouldSort', $parser);
+        self::assertFalse($parser->shouldSort());
 
         // Test setting it to true
         $parser->setShouldSort(true);
-        self::assertAttributeSame(true, 'shouldSort', $parser);
-
-        // Test setting it back to false
-        $parser->setShouldSort(false);
-        self::assertAttributeSame(false, 'shouldSort', $parser);
-    }
-
-    /**
-     * tests setting and getting the should sort flag
-     *
-     * @group parser
-     * @group sourcetest
-     */
-    public function testShouldSort() : void
-    {
-        $parser = new IniParser('');
-
-        self::assertFalse($parser->shouldSort());
-
-        $parser->setShouldSort(true);
         self::assertTrue($parser->shouldSort());
 
+        // Test setting it back to false
         $parser->setShouldSort(false);
         self::assertFalse($parser->shouldSort());
     }

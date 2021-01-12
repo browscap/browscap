@@ -22,9 +22,8 @@ class CsvFormatterTest extends TestCase
             ->getMock();
 
         $propertyHolder
-            ->expects(static::any())
-            ->method('isOutputProperty')
-            ->willReturn(true);
+            ->expects(static::never())
+            ->method('isOutputProperty');
 
         $this->object = new CsvFormatter($propertyHolder);
     }

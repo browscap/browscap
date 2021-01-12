@@ -54,14 +54,14 @@ final class ProcessorTest extends TestCase
             []
         );
 
-        self::assertSame($expected['statementCount'], count($coverage['statementMap']));
-        self::assertSame($expected['statementCount'], count($coverage['s']));
+        self::assertCount($expected['statementCount'], $coverage['statementMap']);
+        self::assertCount($expected['statementCount'], $coverage['s']);
 
-        self::assertSame($expected['branchCount'], count($coverage['branchMap']));
-        self::assertSame($expected['branchCount'], count($coverage['b']));
+        self::assertCount($expected['branchCount'], $coverage['branchMap']);
+        self::assertCount($expected['branchCount'], $coverage['b']);
 
-        self::assertSame($expected['functionCount'], count($coverage['fnMap']));
-        self::assertSame($expected['functionCount'], count($coverage['f']));
+        self::assertCount($expected['functionCount'], $coverage['fnMap']);
+        self::assertCount($expected['functionCount'], $coverage['f']);
     }
 
     /**

@@ -258,7 +258,7 @@ class BuildGeneratorTest extends TestCase
             ->getMock();
 
         $dataCollectionFactory
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('createDataCollection')
             ->willReturn($collection);
 
@@ -287,11 +287,11 @@ class BuildGeneratorTest extends TestCase
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
         $writerCollection
-            ->expects(static::any())
+            ->expects(static::exactly(3))
             ->method('renderSectionHeader')
             ->willReturnSelf();
         $writerCollection
-            ->expects(static::any())
+            ->expects(static::exactly(3))
             ->method('renderSectionBody')
             ->willReturnSelf();
         $writerCollection
@@ -500,7 +500,7 @@ class BuildGeneratorTest extends TestCase
             ->getMock();
 
         $dataCollectionFactory
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('createDataCollection')
             ->willReturn($collection);
 
@@ -529,11 +529,11 @@ class BuildGeneratorTest extends TestCase
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
         $writerCollection
-            ->expects(static::any())
+            ->expects(static::exactly(3))
             ->method('renderSectionHeader')
             ->willReturnSelf();
         $writerCollection
-            ->expects(static::any())
+            ->expects(static::exactly(3))
             ->method('renderSectionBody')
             ->willReturnSelf();
         $writerCollection

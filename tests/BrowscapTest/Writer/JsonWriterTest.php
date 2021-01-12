@@ -83,10 +83,8 @@ class JsonWriterTest extends TestCase
      */
     public function testSetGetSilent() : void
     {
-        $silent = true;
-
-        $this->object->setSilent($silent);
-        static::assertSame($silent, $this->object->isSilent());
+        $this->object->setSilent(true);
+        static::assertTrue($this->object->isSilent());
     }
 
     /**
@@ -315,7 +313,7 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::once())
             ->method('trimProperty')
             ->willReturnArgument(0);
 
@@ -432,7 +430,7 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('trimProperty')
             ->willReturnArgument(0);
 
@@ -545,7 +543,7 @@ class JsonWriterTest extends TestCase
             ->getMock();
 
         $mockExpander
-            ->expects(static::any())
+            ->expects(static::exactly(2))
             ->method('trimProperty')
             ->willReturnArgument(0);
 

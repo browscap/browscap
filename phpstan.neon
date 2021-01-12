@@ -1,31 +1,20 @@
 parameters:
   level: max
+  parallel:
+    maximumNumberOfProcesses: 1
+    processTimeout: 200.0
   paths:
     - src
     - tests/UserAgentsTest
     - tests/BrowscapTest
     - tests/fixtures
-  autoload_files:
+  scanFiles:
     - %currentWorkingDirectory%/vendor/autoload.php
-#  exceptionRules:
-#    reportUnusedCatchesOfUncheckedExceptions: false
-#    uncheckedExceptions: []
   excludes_analyse:
     - */tests/*/data/*
     - */V3/*Test.php
   ignoreErrors:
-#    - '~is not subtype of Throwable~'
     - '~expects string, Exception given~'
-    - '~expects string, Twig\\Error\\LoaderError|Twig\\Error\\RuntimeError|Twig\\Error\\SyntaxError given~'
+    - '~expects string, Twig\\Error\\LoaderError\|Twig\\Error\\RuntimeError\|Twig\\Error\\SyntaxError given~'
     - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
-    - '~MockObject~'
   checkMissingIterableValueType: false
-
-#includes:
-#  - vendor/phpstan/phpstan-strict-rules/rules.neon
-#  - vendor/phpstan/phpstan-phpunit/extension.neon
-#  - vendor/phpstan/phpstan-phpunit/rules.neon
-#  - vendor/pepakriz/phpstan-exception-rules/extension.neon
-#  - vendor/phpstan/phpstan-deprecation-rules/rules.neon
-#  - vendor/phpstan/phpstan-beberlei-assert/extension.neon
-#  - vendor/localheinz/phpstan-rules/rules.neon

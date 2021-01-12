@@ -6,7 +6,6 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
-use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
@@ -39,12 +38,7 @@ class DataCollectionFactoryTest extends TestCase
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getGenerationDate'])
             ->getMock();
-
-        $collection->expects(static::any())
-            ->method('getGenerationDate')
-            ->willReturn(new DateTimeImmutable());
 
         $property = new \ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
@@ -71,19 +65,19 @@ class DataCollectionFactoryTest extends TestCase
             ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
-        $collection->expects(static::any())
+        $collection->expects(static::exactly(2))
             ->method('addPlatform')
             ->willReturnSelf();
-        $collection->expects(static::any())
+        $collection->expects(static::exactly(2))
             ->method('addEngine')
             ->willReturnSelf();
-        $collection->expects(static::any())
+        $collection->expects(static::once())
             ->method('addDevice')
             ->willReturnSelf();
-        $collection->expects(static::any())
+        $collection->expects(static::exactly(3))
             ->method('addBrowser')
             ->willReturnSelf();
-        $collection->expects(static::any())
+        $collection->expects(static::once())
             ->method('addDivision')
             ->willReturnSelf();
 
