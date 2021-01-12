@@ -1,0 +1,31 @@
+{
+  "division": "PetalBot",
+  "sortIndex": 2415,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "PetalBot",
+      "browser": "petalbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "PetalBot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; PetalBot*",
+          "properties": {
+            "Comment": "PetalBot (PC)"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) AppleWebKit* (KHTML*like*Gecko) Mobile Safari* (compatible; PetalBot*",
+          "properties": {
+            "Comment": "PetalBot (mobile)"
+          },
+          "platforms": ["Android"]
+        }
+      ]
+    }
+  ]
+}

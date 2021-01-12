@@ -10088,6 +10088,15 @@
     "lite": false,
     "standard": true
   },
+  "petalbot": {
+  "type": "bot",
+    "properties": {
+      "Browser": "PetalBot",
+      "Browser_Maker": "aspiegel.com"
+    },
+    "lite": false,
+    "standard": true
+  },  
   "pete-spider": {
     "type": "bot",
     "properties": {
