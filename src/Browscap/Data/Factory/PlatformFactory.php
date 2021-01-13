@@ -1,37 +1,43 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
+use Assert\AssertionFailedException;
 use Browscap\Data\Platform;
+use RuntimeException;
+use UnexpectedValueException;
+
+use function array_key_exists;
+use function array_merge;
 
 final class PlatformFactory
 {
     /**
      * validates the $platformData array and creates Platform objects from it
      *
-     * @param array  $platformData     The Platform data for the current object
-     * @param array  $dataAllPlatforms The Platform data for all platforms
-     * @param string $platformName     The name for the current platform
+     * @param mixed[]   $platformData     The Platform data for the current object
+     * @param mixed[][] $dataAllPlatforms The Platform data for all platforms
+     * @param string    $platformName     The name for the current platform
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException
-     * @throws \Assert\AssertionFailedException
-     *
-     * @return Platform
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws UnexpectedValueException
+     * @throws AssertionFailedException
      */
-    public function build(array $platformData, array $dataAllPlatforms, string $platformName) : Platform
+    public function build(array $platformData, array $dataAllPlatforms, string $platformName): Platform
     {
         Assertion::isArray($platformData, 'each entry has to be an array');
         Assertion::keyExists($platformData, 'lite', 'the value for "lite" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'standard', 'the value for "standard" key is missing for the platform with the key "' . $platformName . '"');
         Assertion::keyExists($platformData, 'match', 'the value for the "match" key is missing for the platform with the key "' . $platformName . '"');
 
-        if (!array_key_exists('properties', $platformData) && !array_key_exists('inherits', $platformData)) {
-            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        if (! array_key_exists('properties', $platformData) && ! array_key_exists('inherits', $platformData)) {
+            throw new UnexpectedValueException('required attibute "properties" is missing');
         }
 
-        if (!array_key_exists('properties', $platformData)) {
+        if (! array_key_exists('properties', $platformData)) {
             $platformData['properties'] = [];
         }
 
@@ -49,7 +55,7 @@ final class PlatformFactory
 
             foreach ($platformProperties as $name => $value) {
                 if (isset($parentPlatformData[$name]) && $parentPlatformData[$name] === $value) {
-                    throw new \UnexpectedValueException(
+                    throw new UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
                         . '" and its parent "' . $parentName . '"'
                     );
@@ -61,11 +67,11 @@ final class PlatformFactory
                 $platformProperties
             );
 
-            if (!$parentPlatform->isLite()) {
+            if (! $parentPlatform->isLite()) {
                 $platformData['lite'] = false;
             }
 
-            if (!$parentPlatform->isStandard()) {
+            if (! $parentPlatform->isStandard()) {
                 $platformData['standard'] = false;
             }
         }

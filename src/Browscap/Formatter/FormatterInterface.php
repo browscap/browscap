@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Formatter;
 
 interface FormatterInterface
@@ -12,27 +14,18 @@ interface FormatterInterface
 
     /**
      * returns the Type of the formatter
-     *
-     * @return string
      */
-    public function getType() : string;
+    public function getType(): string;
 
     /**
      * formats the name of a property
-     *
-     * @param string $name
-     *
-     * @return string
      */
-    public function formatPropertyName(string $name) : string;
+    public function formatPropertyName(string $name): string;
 
     /**
      * formats the name of a property
      *
      * @param bool|int|string $value
-     * @param string          $property
-     *
-     * @return string
      */
-    public function formatPropertyValue($value, string $property) : string;
+    public function formatPropertyValue($value, string $property): string;
 }

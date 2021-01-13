@@ -1,22 +1,25 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data;
 
 use Browscap\Data\PropertyHolder;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use Exception;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 
+use function sprintf;
+
 class PropertyHolderTest extends TestCase
 {
-    /**
-     * @var PropertyHolder
-     */
+    /** @var PropertyHolder */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new PropertyHolder();
     }
@@ -24,9 +27,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testGetPropertyType
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function propertyNameTypeDataProvider() : array
+    public function propertyNameTypeDataProvider(): array
     {
         return [
             ['Comment', PropertyHolder::TYPE_STRING],
@@ -74,20 +77,17 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
+     * @throws Exception
+     *
      * @dataProvider propertyNameTypeDataProvider
-     *
-     * @param string $propertyName
-     * @param string $expectedType
-     *
-     * @throws \Exception
      */
-    public function testGetPropertyType(string $propertyName, string $expectedType) : void
+    public function testGetPropertyType(string $propertyName, string $expectedType): void
     {
         $actualType = $this->object->getPropertyType($propertyName);
-        static::assertSame($expectedType, $actualType, "Property {$propertyName} should be {$expectedType} (was {$actualType})");
+        static::assertSame($expectedType, $actualType, sprintf('Property %s should be %s (was %s)', $propertyName, $expectedType, $actualType));
     }
 
-    public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped() : void
+    public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Property Foobar did not have a defined property type');
@@ -98,9 +98,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsLiteModeProperty
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function litePropertiesDataProvider() : array
+    public function litePropertiesDataProvider(): array
     {
         return [
             ['Comment', true],
@@ -150,11 +150,8 @@ class PropertyHolderTest extends TestCase
 
     /**
      * @dataProvider litePropertiesDataProvider
-     *
-     * @param string $propertyName
-     * @param bool   $isExtra
      */
-    public function testIsLiteModeProperty(string $propertyName, bool $isExtra) : void
+    public function testIsLiteModeProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -173,7 +170,7 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      */
-    public function testIsLiteModePropertyWithWriter() : void
+    public function testIsLiteModePropertyWithWriter(): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -191,9 +188,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsStandardModeProperty
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function standardPropertiesDataProvider() : array
+    public function standardPropertiesDataProvider(): array
     {
         return [
             ['Comment', false],
@@ -244,7 +241,7 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      */
-    public function testIsLiteModePropertyWithIniWriter() : void
+    public function testIsLiteModePropertyWithIniWriter(): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -261,11 +258,8 @@ class PropertyHolderTest extends TestCase
 
     /**
      * @dataProvider standardPropertiesDataProvider
-     *
-     * @param string $propertyName
-     * @param bool   $isExtra
      */
-    public function testIsStandardModeProperty(string $propertyName, bool $isExtra) : void
+    public function testIsStandardModeProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -284,7 +278,7 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      */
-    public function testIsStandardModePropertyWithWriter() : void
+    public function testIsStandardModePropertyWithWriter(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -302,9 +296,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function outputPropertiesDataProvider() : array
+    public function outputPropertiesDataProvider(): array
     {
         return [
             ['Comment', true],
@@ -358,11 +352,8 @@ class PropertyHolderTest extends TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @param string $propertyName
-     * @param bool   $isExtra
      */
-    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -381,7 +372,7 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a output property if a writer is given
      */
-    public function testIsOutputPropertyWithCsvWriter() : void
+    public function testIsOutputPropertyWithCsvWriter(): void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -411,7 +402,7 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a output property if a writer is given
      */
-    public function testIsOutputPropertyWithIniWriter() : void
+    public function testIsOutputPropertyWithIniWriter(): void
     {
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
@@ -429,9 +420,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testCheckValueInArray
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function checkValueInArrayProvider() : array
+    public function checkValueInArrayProvider(): array
     {
         return [
             ['Device_Pointing_Method', 'touchscreen'],
@@ -442,17 +433,14 @@ class PropertyHolderTest extends TestCase
 
     /**
      * @dataProvider checkValueInArrayProvider
-     *
-     * @param string $propertyName
-     * @param string $propertyValue
      */
-    public function testCheckValueInArray(string $propertyName, string $propertyValue) : void
+    public function testCheckValueInArray(string $propertyName, string $propertyValue): void
     {
         $actualValue = $this->object->checkValueInArray($propertyName, $propertyValue);
         static::assertSame($propertyValue, $actualValue);
     }
 
-    public function testCheckValueInArrayExceptionUndfinedProperty() : void
+    public function testCheckValueInArrayExceptionUndfinedProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Property "abc" is not defined to be validated');
@@ -460,7 +448,7 @@ class PropertyHolderTest extends TestCase
         $this->object->checkValueInArray('abc', 'bcd');
     }
 
-    public function testCheckValueInArrayExceptionWrongValue() : void
+    public function testCheckValueInArrayExceptionWrongValue(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('invalid value given for Property "Device_Pointing_Method": given value "bcd", allowed: ["joystick","stylus","touchscreen","clickwheel","trackpad","trackball","mouse","unknown"]');
@@ -471,9 +459,9 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test isDeprecatedProperty
      *
-     * @return array
+     * @return array<array<string>>
      */
-    public function deprecatedPropertiesDataProvider() : array
+    public function deprecatedPropertiesDataProvider(): array
     {
         return [
             ['Comment', false],
@@ -527,11 +515,8 @@ class PropertyHolderTest extends TestCase
 
     /**
      * @dataProvider deprecatedPropertiesDataProvider
-     *
-     * @param string $propertyName
-     * @param bool   $isDeprecated
      */
-    public function testIsDeprecatedProperty(string $propertyName, bool $isDeprecated) : void
+    public function testIsDeprecatedProperty(string $propertyName, bool $isDeprecated): void
     {
         static::assertSame($isDeprecated, $this->object->isDeprecatedProperty($propertyName));
     }

@@ -1,61 +1,67 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace UserAgentsTest\V3;
 
+use Assert\AssertionFailedException;
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
+use Browscap\Filter\FilterInterface;
 use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\IteratorHelper;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
+use Browscap\Writer\WriterInterface;
 use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
 use DateTimeImmutable;
+use Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\NullLogger;
+use RuntimeException;
+use Throwable;
 use WurflCache\Adapter\File;
+
+use function count;
+use function file_exists;
+use function get_class;
+use function implode;
+use function mkdir;
+use function sprintf;
+use function time;
+
+use const PHP_EOL;
 
 class FullTest extends TestCase
 {
-    /**
-     * @var \BrowscapPHP\Browscap
-     */
+    /** @var Browscap */
     private static $browscap;
 
-    /**
-     * @var \BrowscapPHP\BrowscapUpdater
-     */
+    /** @var BrowscapUpdater */
     private static $browscapUpdater;
 
-    /**
-     * @var \Browscap\Data\PropertyHolder
-     */
+    /** @var PropertyHolder */
     private static $propertyHolder;
 
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private static $coveredPatterns = [];
 
-    /**
-     * @var \Browscap\Filter\FilterInterface
-     */
+    /** @var FilterInterface */
     private static $filter;
 
-    /**
-     * @var \Browscap\Writer\WriterInterface
-     */
+    /** @var WriterInterface */
     private static $writer;
 
     /**
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public static function setUpBeforeClass() : void
+    public static function setUpBeforeClass(): void
     {
         // First, generate the INI files
         $buildNumber    = time();
@@ -64,10 +70,11 @@ class FullTest extends TestCase
         $cacheFolder    = __DIR__ . '/../../../build/browscap-ua-test-full3-' . $buildNumber . '/cache/';
 
         // create folders if it does not exist
-        if (!file_exists($buildFolder)) {
+        if (! file_exists($buildFolder)) {
             mkdir($buildFolder, 0777, true);
         }
-        if (!file_exists($cacheFolder)) {
+
+        if (! file_exists($cacheFolder)) {
             mkdir($cacheFolder, 0777, true);
         }
 
@@ -113,10 +120,10 @@ class FullTest extends TestCase
                 ->setCache($cache)
                 ->setLogger($logger)
                 ->convertFile($buildFolder . '/full_php_browscap.ini');
-        } catch (\Exception $e) {
+        } catch (Throwable $e) {
             exit(sprintf(
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
-                __CLASS__,
+                self::class,
                 get_class($e),
                 $e->getMessage()
             ));
@@ -127,26 +134,28 @@ class FullTest extends TestCase
      * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
      * the $coveredPatterns array isn't empty
      */
-    public static function tearDownAfterClass() : void
+    public static function tearDownAfterClass(): void
     {
-        if (!empty(self::$coveredPatterns)) {
-            $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
-            $coverageProcessor->process(self::$coveredPatterns);
-            $coverageProcessor->write(__DIR__ . '/../../../coverage-full3.json');
+        if (empty(self::$coveredPatterns)) {
+            return;
         }
+
+        $coverageProcessor = new Processor(__DIR__ . '/../../../resources/user-agents/');
+        $coverageProcessor->process(self::$coveredPatterns);
+        $coverageProcessor->write(__DIR__ . '/../../../coverage-full3.json');
     }
 
     /**
-     * @throws \RuntimeException
+     * @return array<string>
      *
-     * @return array
+     * @throws RuntimeException
      */
-    public function userAgentDataProvider() : array
+    public function userAgentDataProvider(): array
     {
         [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
 
-        if (!empty($errors)) {
-            throw new \RuntimeException(
+        if (! empty($errors)) {
+            throw new RuntimeException(
                 'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
             );
         }
@@ -155,18 +164,17 @@ class FullTest extends TestCase
     }
 
     /**
+     * @param array<string> $expectedProperties
+     *
+     * @throws Exception
+     * @throws \BrowscapPHP\Exception
+     *
      * @dataProvider userAgentDataProvider
      * @coversNothing
-     *
-     * @param string $userAgent
-     * @param array  $expectedProperties
-     *
-     * @throws \Exception
-     * @throws \BrowscapPHP\Exception
      */
-    public function testUserAgents(string $userAgent, array $expectedProperties) : void
+    public function testUserAgents(string $userAgent, array $expectedProperties): void
     {
-        if (!count($expectedProperties)) {
+        if (! count($expectedProperties)) {
             static::markTestSkipped('Could not run test - no properties were defined to test');
         }
 
@@ -177,7 +185,7 @@ class FullTest extends TestCase
         }
 
         foreach ($expectedProperties as $propName => $propValue) {
-            if (!self::$filter->isOutputProperty($propName, self::$writer)) {
+            if (! self::$filter->isOutputProperty($propName, self::$writer)) {
                 continue;
             }
 

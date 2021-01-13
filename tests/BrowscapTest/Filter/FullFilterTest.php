@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Filter;
 
 use Browscap\Data\Division;
@@ -9,13 +11,14 @@ use Browscap\Filter\FullFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use PHPUnit\Framework\TestCase;
+use ReflectionException;
 
 class FullFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
      */
-    public function testGetType() : void
+    public function testGetType(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -34,9 +37,9 @@ class FullFilterTest extends TestCase
     /**
      * tests detecting if a divion should be in the output
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testIsOutput() : void
+    public function testIsOutput(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -54,7 +57,7 @@ class FullFilterTest extends TestCase
         static::assertTrue($object->isOutput($division));
     }
 
-    public function testIsOutputProperty() : void
+    public function testIsOutputProperty(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -81,7 +84,7 @@ class FullFilterTest extends TestCase
         static::assertTrue($object->isOutputProperty('Comment', $mockWriterIni));
     }
 
-    public function testIsOutputPropertyModified() : void
+    public function testIsOutputPropertyModified(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -109,7 +112,7 @@ class FullFilterTest extends TestCase
     /**
      * tests if a section is always in the output
      */
-    public function testIsOutputSectionAlways() : void
+    public function testIsOutputSectionAlways(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()

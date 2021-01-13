@@ -1,43 +1,52 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 use Browscap\Data\Helper\TrimProperty;
 use BrowserDetector\Loader\NotFoundException;
+use Generator;
+use OutOfBoundsException;
 use Psr\Log\LoggerInterface;
 use UaBrowserType\TypeLoader as BrowserTypeLoader;
 use UaDeviceType\TypeLoader as DeviceTypeLoader;
+use UnexpectedValueException;
+
+use function array_key_exists;
+use function array_keys;
+use function array_merge;
+use function array_pop;
+use function array_reverse;
+use function explode;
+use function implode;
+use function is_array;
+use function is_string;
+use function realpath;
+use function sprintf;
+use function str_replace;
 
 class Expander
 {
-    /**
-     * @var DataCollection
-     */
+    /** @var DataCollection */
     private $collection;
 
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
      * can be seen in the {@see resetPatternId} method.
      *
-     * @var array
+     * @var array<int|string, string|int|null>
      */
     private $patternId = [];
 
-    /**
-     * @var TrimProperty
-     */
+    /** @var TrimProperty */
     private $trimProperty;
 
     /**
      * Create a new data expander
-     *
-     * @param LoggerInterface $logger
-     * @param DataCollection  $collection
      */
     public function __construct(LoggerInterface $logger, DataCollection $collection)
     {
@@ -47,16 +56,13 @@ class Expander
     }
 
     /**
-     * @param Division $division
-     * @param string   $divisionName
+     * @return mixed[][]
      *
-     * @throws \UnexpectedValueException
-     * @throws \OutOfBoundsException
-     * @throws \Browscap\Data\DuplicateDataException
-     *
-     * @return array
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws DuplicateDataException
      */
-    public function expand(Division $division, string $divisionName) : array
+    public function expand(Division $division, string $divisionName): array
     {
         $defaultproperties    = $this->collection->getDefaultProperties()->getUserAgents()[0];
         $allInputDivisions    = [$defaultproperties->getUserAgent() => $defaultproperties->getProperties()];
@@ -89,7 +95,7 @@ class Expander
     /**
      * Resets the pattern id
      */
-    private function resetPatternId() : void
+    private function resetPatternId(): void
     {
         $this->patternId = [
             'division' => '',
@@ -103,15 +109,10 @@ class Expander
     /**
      * parses and expands a single division
      *
-     * @param Division $division
-     * @param string   $divisionName
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return \Generator
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    private function parseDivision(Division $division, string $divisionName) : \Generator
+    private function parseDivision(Division $division, string $divisionName): Generator
     {
         $i = 0;
         foreach ($division->getUserAgents() as $uaData) {
@@ -126,6 +127,7 @@ class Expander
                 $division->getSortIndex(),
                 $divisionName
             );
+
             ++$i;
         }
     }
@@ -133,32 +135,24 @@ class Expander
     /**
      * parses and expands a single User Agent block
      *
-     * @param UserAgent $uaData
-     * @param bool      $liteUa
-     * @param bool      $standardUa
-     * @param int       $sortIndex
-     * @param string    $divisionName
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return \Generator
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    private function parseUserAgent(UserAgent $uaData, bool $liteUa, bool $standardUa, int $sortIndex, string $divisionName) : \Generator
+    private function parseUserAgent(UserAgent $uaData, bool $liteUa, bool $standardUa, int $sortIndex, string $divisionName): Generator
     {
         $uaProperties = $uaData->getProperties();
         $lite         = $liteUa;
         $standard     = $standardUa;
 
-        if (null !== $uaData->getPlatform()) {
+        if ($uaData->getPlatform() !== null) {
             $this->patternId['platform'] = $uaData->getPlatform();
             $platform                    = $this->collection->getPlatform($uaData->getPlatform());
 
-            if (!$platform->isLite()) {
+            if (! $platform->isLite()) {
                 $lite = false;
             }
 
-            if (!$platform->isStandard()) {
+            if (! $platform->isStandard()) {
                 $standard = false;
             }
 
@@ -168,14 +162,14 @@ class Expander
             $platformProperties          = [];
         }
 
-        if (null !== $uaData->getEngine()) {
+        if ($uaData->getEngine() !== null) {
             $engine           = $this->collection->getEngine($uaData->getEngine());
             $engineProperties = $engine->getProperties();
         } else {
             $engineProperties = [];
         }
 
-        if (null !== $uaData->getDevice()) {
+        if ($uaData->getDevice() !== null) {
             [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaData->getDevice(), $standard);
 
             $standard = $standard && $deviceStandard;
@@ -183,7 +177,7 @@ class Expander
             $deviceProperties = [];
         }
 
-        if (null !== $uaData->getBrowser()) {
+        if ($uaData->getBrowser() !== null) {
             [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaData->getBrowser(), $lite, $standard);
             $lite                                                = $lite && $browserLite;
             $standard                                            = $standard && $browserStandard;
@@ -235,17 +229,12 @@ class Expander
     /**
      * parses and expands the children section in a single User Agent block
      *
-     * @param string $ua
-     * @param array  $uaDataChild
-     * @param bool   $liteChild
-     * @param bool   $standardChild
+     * @param mixed[] $uaDataChild
      *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return \Generator
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    private function parseChildren(string $ua, array $uaDataChild, bool $liteChild = true, bool $standardChild = true) : \Generator
+    private function parseChildren(string $ua, array $uaDataChild, bool $liteChild = true, bool $standardChild = true): Generator
     {
         if (isset($uaDataChild['platforms']) && is_array($uaDataChild['platforms'])) {
             foreach ($uaDataChild['platforms'] as $platformName) {
@@ -255,11 +244,11 @@ class Expander
                 $this->patternId['platform'] = $platformName;
                 $platform                    = $this->collection->getPlatform($platformName);
 
-                if (!$platform->isLite()) {
+                if (! $platform->isLite()) {
                     $lite = false;
                 }
 
-                if (!$platform->isStandard()) {
+                if (! $platform->isStandard()) {
                     $standard = false;
                 }
 
@@ -299,7 +288,8 @@ class Expander
                     $platform->getProperties()
                 );
 
-                if (isset($uaDataChild['properties'])
+                if (
+                    isset($uaDataChild['properties'])
                     && is_array($uaDataChild['properties'])
                 ) {
                     $childProperties = $uaDataChild['properties'];
@@ -348,7 +338,8 @@ class Expander
                 $browserProperties
             );
 
-            if (isset($uaDataChild['properties'])
+            if (
+                isset($uaDataChild['properties'])
                 && is_array($uaDataChild['properties'])
             ) {
                 $properties = array_merge($properties, $uaDataChild['properties']);
@@ -364,17 +355,14 @@ class Expander
     }
 
     /**
-     * @param string $devicekey
-     * @param bool   $standard
-     *
-     * @return array
+     * @return mixed[]
      */
-    private function getDeviceProperties(string $devicekey, bool $standard) : array
+    private function getDeviceProperties(string $devicekey, bool $standard): array
     {
         $device           = $this->collection->getDevice($devicekey);
         $deviceProperties = $device->getProperties();
 
-        if (!$device->isStandard()) {
+        if (! $device->isStandard()) {
             $standard = false;
         }
 
@@ -386,11 +374,11 @@ class Expander
             $deviceProperties['isMobileDevice'] = $deviceType->isMobile();
             $deviceProperties['isTablet']       = $deviceType->isTablet();
 
-            if (null === $deviceType->getName()) {
+            if ($deviceType->getName() === null) {
                 $deviceProperties['Device_Type'] = 'unknown';
-            } elseif ('TV' === $deviceType->getName()) {
+            } elseif ($deviceType->getName() === 'TV') {
                 $deviceProperties['Device_Type'] = 'TV Device';
-            } elseif ('Mobile Console' === $deviceType->getName()) {
+            } elseif ($deviceType->getName() === 'Mobile Console') {
                 $deviceProperties['Device_Type'] = 'Console';
             } else {
                 $deviceProperties['Device_Type'] = $deviceType->getName();
@@ -407,22 +395,18 @@ class Expander
     }
 
     /**
-     * @param string $browserkey
-     * @param bool   $lite
-     * @param bool   $standard
-     *
-     * @return array
+     * @return mixed[]
      */
-    private function getBrowserProperties(string $browserkey, bool $lite, bool $standard) : array
+    private function getBrowserProperties(string $browserkey, bool $lite, bool $standard): array
     {
         $browser           = $this->collection->getBrowser($browserkey);
         $browserProperties = $browser->getProperties();
 
-        if (!$browser->isStandard()) {
+        if (! $browser->isStandard()) {
             $standard = false;
         }
 
-        if (!$browser->isLite()) {
+        if (! $browser->isLite()) {
             $lite = false;
         }
 
@@ -447,10 +431,8 @@ class Expander
 
     /**
      * Builds and returns the string pattern id from the array components
-     *
-     * @return string
      */
-    private function getPatternId() : string
+    private function getPatternId(): string
     {
         return sprintf(
             '%s::u%d::c%d::d%s::p%s',
@@ -466,14 +448,13 @@ class Expander
      * expands all properties for one useragent to make sure all properties are set and make it possible to skip
      * incomplete properties and remove duplicate definitions
      *
-     * @param string $ua
-     * @param array  $properties
-     * @param array  $defaultproperties
-     * @param array  $allInputDivisions
+     * @param array<string> $properties
+     * @param array<string> $defaultproperties
+     * @param mixed[][]     $allInputDivisions
      *
-     * @return array
+     * @return mixed[]
      */
-    private function expandProperties(string $ua, array $properties, array $defaultproperties, array $allInputDivisions) : array
+    private function expandProperties(string $ua, array $properties, array $defaultproperties, array $allInputDivisions): array
     {
         $this->logger->debug('expand all properties for useragent "' . $ua . '"');
 
@@ -488,31 +469,33 @@ class Expander
             $parents[] = $allInputDivisions[$userAgent]['Parent'];
             $userAgent = $allInputDivisions[$userAgent]['Parent'];
         }
+
         unset($userAgent);
 
         $parents     = array_reverse($parents);
         $browserData = $defaultproperties;
 
         foreach ($parents as $parent) {
-            if (!isset($allInputDivisions[$parent])) {
+            if (! isset($allInputDivisions[$parent])) {
                 throw new ParentNotDefinedException(
                     sprintf('the parent "%s" for useragent "%s" is not defined', $parent, $ua)
                 );
             }
 
-            if (!is_array($allInputDivisions[$parent])) {
-                throw new \UnexpectedValueException(
+            if (! is_array($allInputDivisions[$parent])) {
+                throw new UnexpectedValueException(
                     'Parent "' . $parent . '" is not an array for useragent "' . $ua . '"'
                 );
             }
 
-            if ($ua !== $parent
+            if (
+                $ua !== $parent
                 && isset($allInputDivisions[$parent]['sortIndex'], $properties['sortIndex'])
 
                 && ($allInputDivisions[$parent]['division'] !== $properties['division'])
             ) {
                 if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
-                    throw new \UnexpectedValueException(
+                    throw new UnexpectedValueException(
                         'sorting not ready for useragent "'
                         . $ua . '"'
                     );
@@ -529,15 +512,17 @@ class Expander
         foreach (array_keys($browserData) as $propertyName) {
             $properties[$propertyName] = $browserData[$propertyName];
 
-            if (is_string($browserData[$propertyName])) {
-                $properties[$propertyName] = $this->trimProperty->trimProperty($browserData[$propertyName]);
+            if (! is_string($browserData[$propertyName])) {
+                continue;
             }
+
+            $properties[$propertyName] = $this->trimProperty->trim($browserData[$propertyName]);
         }
 
         unset($browserData);
 
-        if (!isset($properties['Version'])) {
-            throw new \UnexpectedValueException('Version property not found for useragent "' . $ua . '"');
+        if (! isset($properties['Version'])) {
+            throw new UnexpectedValueException('Version property not found for useragent "' . $ua . '"');
         }
 
         $completeVersions = explode('.', $properties['Version'], 2);

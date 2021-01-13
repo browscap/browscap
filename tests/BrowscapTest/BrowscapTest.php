@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest;
 
 use Browscap\Browscap;
@@ -9,11 +11,7 @@ use Symfony\Component\Console\Command\Command;
 
 class BrowscapTest extends TestCase
 {
-    /**
-     * @param Application $app
-     * @param string      $command
-     */
-    private static function assertAppHasCommand(Application $app, $command) : void
+    private static function assertAppHasCommand(Application $app, string $command): void
     {
         $cmdObject = $app->get($command);
 
@@ -24,10 +22,9 @@ class BrowscapTest extends TestCase
     /**
      * tests adding commands
      *
-     * @group browscap
      * @group sourcetest
      */
-    public function testConstructorAddsExpectedCommands() : void
+    public function testConstructorAddsExpectedCommands(): void
     {
         $app = new Browscap();
 

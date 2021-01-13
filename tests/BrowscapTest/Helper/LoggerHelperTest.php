@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Helper;
 
 use Browscap\Helper\LoggerHelper;
@@ -12,7 +14,7 @@ class LoggerHelperTest extends TestCase
     /**
      * tests creating a logger instance
      */
-    public function testCreate() : void
+    public function testCreate(): void
     {
         $output = new NullOutput();
         $helper = new LoggerHelper();

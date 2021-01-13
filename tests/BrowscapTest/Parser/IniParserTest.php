@@ -8,11 +8,20 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
+
 namespace BrowscapTest\Parser;
 
 use Browscap\Parser\IniParser;
 use PHPUnit\Framework\TestCase;
+use ReflectionException;
+use ReflectionMethod;
+use RuntimeException;
+
+use function file_put_contents;
+use function sys_get_temp_dir;
+use function tempnam;
+use function unlink;
 
 /**
  * @covers \Browscap\Parser\IniParser
@@ -25,7 +34,7 @@ final class IniParserTest extends TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testConstructorSetsFilename() : void
+    public function testConstructorSetsFilename(): void
     {
         $parser = new IniParser('foobar');
         self::assertSame('foobar', $parser->getFilename());
@@ -37,7 +46,7 @@ final class IniParserTest extends TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testSetShouldSort() : void
+    public function testSetShouldSort(): void
     {
         $parser = new IniParser('');
 
@@ -55,8 +64,10 @@ final class IniParserTest extends TestCase
 
     /**
      * tests setting and getting a logger
+     *
+     * @return array<string, array<int, array<string, array<string, string>|string>>>
      */
-    public function sortArrayDataProvider() : array
+    public function sortArrayDataProvider(): array
     {
         return [
             'flatArray' => [
@@ -71,20 +82,20 @@ final class IniParserTest extends TestCase
     }
 
     /**
+     * @param array<string> $unsorted
+     * @param array<string> $sorted
+     *
+     * @throws ReflectionException
+     *
      * @dataProvider sortArrayDataProvider
      * @group        parser
      * @group        sourcetest
-     *
-     * @param string[] $unsorted
-     * @param string[] $sorted
-     *
-     * @throws \ReflectionException
      */
-    public function testSortArrayAndChildArrays(array $unsorted, array $sorted) : void
+    public function testSortArrayAndChildArrays(array $unsorted, array $sorted): void
     {
         $parser = new IniParser('');
 
-        $sortMethod = new \ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
+        $sortMethod = new ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
         $sortMethod->setAccessible(true);
         self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
@@ -95,7 +106,7 @@ final class IniParserTest extends TestCase
      * @group parser
      * @group sourcetest
      */
-    public function testGetLinesFromFileReturnsArrayWithLines() : void
+    public function testGetLinesFromFileReturnsArrayWithLines(): void
     {
         $tmpfile = (string) tempnam(sys_get_temp_dir(), 'browscaptest');
 
@@ -129,7 +140,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist() : void
+    public function testGetLinesFromFileThrowsExceptionIfFileDoesNotExist(): void
     {
         $file   = '/hopefully/this/file/does/not/exist';
         $parser = new IniParser($file);
@@ -146,7 +157,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetFileLinesReturnsLinesFromFile() : void
+    public function testGetFileLinesReturnsLinesFromFile(): void
     {
         $tmpfile = (string) tempnam(sys_get_temp_dir(), 'browscaptest');
 
@@ -180,7 +191,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testGetFileLinesReturnsLinesFromPreviouslySetLines() : void
+    public function testGetFileLinesReturnsLinesFromPreviouslySetLines(): void
     {
         $lines = ['first', 'second', 'third'];
 
@@ -196,7 +207,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseWithoutSorting() : void
+    public function testParseWithoutSorting(): void
     {
         $lines = [
             '',
@@ -244,7 +255,7 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseWithSorting() : void
+    public function testParseWithSorting(): void
     {
         $lines = [
             '',
@@ -289,16 +300,14 @@ HERE;
      * @group parser
      * @group sourcetest
      */
-    public function testParseThrowsExceptionWhenInvalidFormatting() : void
+    public function testParseThrowsExceptionWhenInvalidFormatting(): void
     {
-        $lines = [
-            'double=equals=here',
-        ];
+        $lines = ['double=equals=here'];
 
         $parser = new IniParser('');
         $parser->setFileLines($lines);
 
-        $this->expectException(\RuntimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('Too many equals in line: double=equals=here');
         $parser->parse();
     }

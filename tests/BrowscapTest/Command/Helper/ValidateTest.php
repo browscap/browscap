@@ -1,32 +1,27 @@
 <?php
-declare(strict_types = 1);
-/**
- * Created by PhpStorm.
- * User: Besitzer
- * Date: 03.10.2018
- * Time: 14:18
- */
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Command\Helper;
 
-use Browscap\Command\Helper\Validate;
+use Browscap\Command\Helper\ValidateHelper;
+use Exception;
 use PHPUnit\Framework\TestCase;
 
 class ValidateTest extends TestCase
 {
-    /**
-     * @var Validate
-     */
+    /** @var ValidateHelper */
     private $object;
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
-        $this->object = new Validate();
+        $this->object = new ValidateHelper();
     }
 
-    public function testGetName() : void
+    public function testGetName(): void
     {
         static::assertSame('validate', $this->object->getName());
     }

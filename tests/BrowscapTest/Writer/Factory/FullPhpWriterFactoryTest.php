@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Writer\Factory;
 
 use Browscap\Writer\Factory\FullPhpWriterFactory;
@@ -8,16 +10,16 @@ use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
+use function assert;
+
 class FullPhpWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /**
-     * @var FullPhpWriterFactory
-     */
+    /** @var FullPhpWriterFactory */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
 
@@ -27,12 +29,12 @@ class FullPhpWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollection() : void
+    public function testCreateCollection(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 }

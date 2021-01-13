@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 /**
@@ -7,31 +9,20 @@ namespace Browscap\Data;
  */
 class Platform
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $match;
 
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private $properties = [];
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $isLite = false;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $isStandard = false;
 
     /**
-     * @param string $match
-     * @param array  $properties
-     * @param bool   $isLite
-     * @param bool   $standard
+     * @param array<string> $properties
      */
     public function __construct(string $match, array $properties, bool $isLite, bool $standard)
     {
@@ -41,25 +32,25 @@ class Platform
         $this->isStandard = $standard;
     }
 
-    public function getMatch() : string
+    public function getMatch(): string
     {
         return $this->match;
     }
 
     /**
-     * @return array
+     * @return array<string>
      */
-    public function getProperties() : array
+    public function getProperties(): array
     {
         return $this->properties;
     }
 
-    public function isLite() : bool
+    public function isLite(): bool
     {
         return $this->isLite;
     }
 
-    public function isStandard() : bool
+    public function isStandard(): bool
     {
         return $this->isStandard;
     }

@@ -1,34 +1,25 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 class Browser
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $type;
 
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private $properties = [];
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $isLite = false;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $isStandard = false;
 
     /**
-     * @param array  $properties
-     * @param string $type
-     * @param bool   $isLite
-     * @param bool   $standard
+     * @param array<string> $properties
      */
     public function __construct(array $properties, string $type, bool $isLite, bool $standard)
     {
@@ -38,34 +29,25 @@ class Browser
         $this->isStandard = $standard;
     }
 
-    /**
-     * @return string
-     */
-    public function getType() : string
+    public function getType(): string
     {
         return $this->type;
     }
 
     /**
-     * @return array
+     * @return array<string>
      */
-    public function getProperties() : array
+    public function getProperties(): array
     {
         return $this->properties;
     }
 
-    /**
-     * @return bool
-     */
-    public function isLite() : bool
+    public function isLite(): bool
     {
         return $this->isLite;
     }
 
-    /**
-     * @return bool
-     */
-    public function isStandard() : bool
+    public function isStandard(): bool
     {
         return $this->isStandard;
     }

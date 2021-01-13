@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Browser;
@@ -10,24 +12,21 @@ use Browscap\Data\Engine;
 use Browscap\Data\Platform;
 use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
-use Psr\Log\LoggerInterface;
+use ReflectionException;
+
+use function assert;
 
 class DataCollectionTest extends TestCase
 {
-    /**
-     * @var DataCollection
-     */
+    /** @var DataCollection */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
-        $logger = $this->createMock(LoggerInterface::class);
-
-        /* @var LoggerInterface $logger */
-        $this->object = new DataCollection($logger);
+        $this->object = new DataCollection();
     }
 
-    public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist() : void
+    public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Platform "NotExists" does not exist in data');
@@ -36,13 +35,13 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testGetPlatform() : void
+    public function testGetPlatform(): void
     {
         $expectedPlatform = $this->createMock(Platform::class);
 
-        /* @var Platform $expectedPlatform */
+        assert($expectedPlatform instanceof Platform);
         $this->object->addPlatform('Platform1', $expectedPlatform);
 
         $platform = $this->object->getPlatform('Platform1');
@@ -50,7 +49,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedPlatform, $platform);
     }
 
-    public function testGetEngineThrowsExceptionIfEngineDoesNotExist() : void
+    public function testGetEngineThrowsExceptionIfEngineDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Rendering Engine "NotExists" does not exist in data');
@@ -59,13 +58,13 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testGetEngine() : void
+    public function testGetEngine(): void
     {
         $expectedEngine = $this->createMock(Engine::class);
 
-        /* @var Engine $expectedEngine */
+        assert($expectedEngine instanceof Engine);
         $this->object->addEngine('Foobar', $expectedEngine);
 
         $engine = $this->object->getEngine('Foobar');
@@ -73,7 +72,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedEngine, $engine);
     }
 
-    public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist() : void
+    public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Device "NotExists" does not exist in data');
@@ -82,13 +81,13 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testGetDevice() : void
+    public function testGetDevice(): void
     {
         $expectedDevice = $this->createMock(Device::class);
 
-        /* @var Device $expectedDevice */
+        assert($expectedDevice instanceof Device);
         $this->object->addDevice('Foobar', $expectedDevice);
 
         $device = $this->object->getDevice('Foobar');
@@ -96,7 +95,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedDevice, $device);
     }
 
-    public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist() : void
+    public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
         $this->expectExceptionMessage('Browser "NotExists" does not exist in data');
@@ -105,13 +104,13 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testGetBrowser() : void
+    public function testGetBrowser(): void
     {
         $expectedBrowser = $this->createMock(Browser::class);
 
-        /* @var Browser $expectedBrowser */
+        assert($expectedBrowser instanceof Browser);
         $this->object->addBrowser('Foobar', $expectedBrowser);
 
         $browser = $this->object->getBrowser('Foobar');
@@ -119,7 +118,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedBrowser, $browser);
     }
 
-    public function testGetDivisions() : void
+    public function testGetDivisions(): void
     {
         $divisionName     = 'test-division';
         $expectedDivision = $this->getMockBuilder(Division::class)
@@ -132,7 +131,7 @@ class DataCollectionTest extends TestCase
             ->method('getName')
             ->willReturn($divisionName);
 
-        /* @var Division $expectedDivision */
+        assert($expectedDivision instanceof Division);
         $this->object->addDivision($expectedDivision);
 
         $divisions = $this->object->getDivisions();
@@ -150,26 +149,26 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testSetDefaultProperties() : void
+    public function testSetDefaultProperties(): void
     {
         $defaultProperties = $this->createMock(Division::class);
 
-        /* @var Division $defaultProperties */
+        assert($defaultProperties instanceof Division);
         $this->object->setDefaultProperties($defaultProperties);
 
         static::assertSame($defaultProperties, $this->object->getDefaultProperties());
     }
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testSetDefaultBrowser() : void
+    public function testSetDefaultBrowser(): void
     {
         $defaultBrowser = $this->createMock(Division::class);
 
-        /* @var Division $defaultBrowser */
+        assert($defaultBrowser instanceof Division);
         $this->object->setDefaultBrowser($defaultBrowser);
 
         static::assertSame($defaultBrowser, $this->object->getDefaultBrowser());

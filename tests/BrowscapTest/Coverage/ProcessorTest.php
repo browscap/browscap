@@ -1,34 +1,39 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Coverage;
 
 use Browscap\Coverage\Processor;
 use PHPUnit\Framework\TestCase;
 
+use function array_sum;
+use function assert;
+use function file_get_contents;
+use function is_string;
+
 final class ProcessorTest extends TestCase
 {
-    /**
-     * @var \Browscap\Coverage\Processor
-     */
+    /** @var Processor */
     private $object;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $resourceDir = __DIR__ . '/../../fixtures/coverage/';
 
     /**
      * Run before each test, creates a new Processor object
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new Processor($this->resourceDir);
     }
 
     /**
      * Data provider for the testJsonStructure test
+     *
+     * @return array<int, array<int, array<string, int>|string>>
      */
-    public function jsonStructureProvider() : array
+    public function jsonStructureProvider(): array
     {
         return [
             ['test1.json', ['statementCount' => 5, 'branchCount' => 1, 'functionCount' => 1]],
@@ -39,15 +44,14 @@ final class ProcessorTest extends TestCase
     /**
      * This test verifies that the different structures were extracted from the test JSON files
      *
-     * @dataProvider jsonStructureProvider
+     * @param array<string, int> $expected
      *
-     * @param string $fileName
-     * @param array  $expected
+     * @dataProvider jsonStructureProvider
      */
-    public function testJsonStructure(string $fileName, array $expected) : void
+    public function testJsonStructure(string $fileName, array $expected): void
     {
-        /** @var string $content */
-        $content  = file_get_contents($this->resourceDir . $fileName);
+        $content = file_get_contents($this->resourceDir . $fileName);
+        assert(is_string($content));
         $coverage = $this->object->processFile(
             $fileName,
             $content,
@@ -66,25 +70,39 @@ final class ProcessorTest extends TestCase
 
     /**
      * Data provider for the testCoverage test
+     *
+     * @return array<string, array<int, array<int|string, int|string>|string>>
      */
-    public function coverageProvider() : array
+    public function coverageProvider(): array
     {
         return [
-            'test1-no-coverage' => ['test1.json', [], [
-                's' => 0,
-                'b' => 0,
-                'f' => 0,
-            ]],
-            'test1-partial-coverage' => ['test1.json', ['u0::c0::d::pPlatform_1'], [
-                's' => 4,
-                'b' => 1,
-                'f' => 1,
-            ]],
-            'test1-full-coverage' => ['test1.json', ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2'], [
-                's' => 8,
-                'b' => 2,
-                'f' => 2,
-            ]],
+            'test1-no-coverage' => [
+                'test1.json',
+                [],
+                [
+                    's' => 0,
+                    'b' => 0,
+                    'f' => 0,
+                ],
+            ],
+            'test1-partial-coverage' => [
+                'test1.json',
+                ['u0::c0::d::pPlatform_1'],
+                [
+                    's' => 4,
+                    'b' => 1,
+                    'f' => 1,
+                ],
+            ],
+            'test1-full-coverage' => [
+                'test1.json',
+                ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2'],
+                [
+                    's' => 8,
+                    'b' => 2,
+                    'f' => 2,
+                ],
+            ],
             'test1-full-coverage-double' => [
                 'test1.json',
                 ['u0::c0::d::pPlatform_1', 'u0::c0::d::pPlatform_2', 'u0::c0::d::pPlatform_2'],
@@ -94,16 +112,24 @@ final class ProcessorTest extends TestCase
                     'f' => 3,
                 ],
             ],
-            'test2-no-coverage' => ['test2.json', [], [
-                's' => 0,
-                'b' => 0,
-                'f' => 0,
-            ]],
-            'test2-partial-coverage' => ['test2.json', ['u0::c0::d::pPlatform_1'], [
-                's' => 4,
-                'b' => 1,
-                'f' => 1,
-            ]],
+            'test2-no-coverage' => [
+                'test2.json',
+                [],
+                [
+                    's' => 0,
+                    'b' => 0,
+                    'f' => 0,
+                ],
+            ],
+            'test2-partial-coverage' => [
+                'test2.json',
+                ['u0::c0::d::pPlatform_1'],
+                [
+                    's' => 4,
+                    'b' => 1,
+                    'f' => 1,
+                ],
+            ],
             'test2-full-coverage' => [
                 'test2.json',
                 [
@@ -125,16 +151,15 @@ final class ProcessorTest extends TestCase
     /**
      * Tests that the amount of covered statements/branches/functions matches expected
      *
-     * @dataProvider coverageProvider
+     * @param array<int|string, string> $coveredIds
+     * @param array<string, int>        $expected
      *
-     * @param string   $fileName
-     * @param string[] $coveredIds
-     * @param array    $expected
+     * @dataProvider coverageProvider
      */
-    public function testCoverage(string $fileName, array $coveredIds, array $expected) : void
+    public function testCoverage(string $fileName, array $coveredIds, array $expected): void
     {
-        /** @var string $content */
-        $content  = file_get_contents($this->resourceDir . $fileName);
+        $content = file_get_contents($this->resourceDir . $fileName);
+        assert(is_string($content));
         $coverage = $this->object->processFile(
             $fileName,
             $content,
@@ -156,7 +181,7 @@ final class ProcessorTest extends TestCase
     /**
      * Tests that the collected patterns ids are grouped by filename prefix
      */
-    public function testPatternIdGrouping() : void
+    public function testPatternIdGrouping(): void
     {
         $patternIds = [
             'abc.json::u0::c0::d::p',

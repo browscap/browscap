@@ -1,46 +1,35 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Factory;
 
 use Browscap\Data\Division;
-use Psr\Log\LoggerInterface;
+
+use function is_array;
+use function mb_strpos;
+use function mb_substr;
 
 final class DivisionFactory
 {
-    /**
-     * @var LoggerInterface
-     */
-    private $logger;
-
-    /**
-     * @var UserAgentFactory
-     */
+    /** @var UserAgentFactory */
     private $useragentFactory;
 
-    /**
-     * @param LoggerInterface  $logger
-     * @param UserAgentFactory $useragentFactory
-     */
-    public function __construct(LoggerInterface $logger, UserAgentFactory $useragentFactory)
+    public function __construct(UserAgentFactory $useragentFactory)
     {
-        $this->logger           = $logger;
         $this->useragentFactory = $useragentFactory;
     }
 
     /**
      * validates the $divisionData array and creates Division objects from it
      *
-     * @param array  $divisionData
-     * @param string $filename
-     * @param bool   $isCore
-     *
-     * @return Division
+     * @param mixed[] $divisionData
      */
     public function build(
         array $divisionData,
         string $filename,
         bool $isCore
-    ) : Division {
+    ): Division {
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $versions = $divisionData['versions'];
         } else {

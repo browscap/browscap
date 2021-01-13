@@ -1,33 +1,40 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
+use Assert\AssertionFailedException;
 use Browscap\Data\Engine;
+use RuntimeException;
+use UnexpectedValueException;
+
+use function array_key_exists;
+use function array_merge;
+use function is_array;
 
 final class EngineFactory
 {
     /**
      * validates the $engineData array and creates Engine objects from it
      *
-     * @param array  $engineData     The Engine data for the current object
-     * @param array  $dataAllEngines The Engine data for all engines
-     * @param string $engineName     The name for the current engine
+     * @param mixed[]   $engineData     The Engine data for the current object
+     * @param mixed[][] $dataAllEngines The Engine data for all engines
+     * @param string    $engineName     The name for the current engine
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \Assert\AssertionFailedException
-     *
-     * @return Engine
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws AssertionFailedException
      */
-    public function build(array $engineData, array $dataAllEngines, string $engineName) : Engine
+    public function build(array $engineData, array $dataAllEngines, string $engineName): Engine
     {
         Assertion::isArray($engineData, 'each entry inside the "engines" structure has to be an array');
 
-        if (!array_key_exists('properties', $engineData) && !array_key_exists('inherits', $engineData)) {
-            throw new \UnexpectedValueException('required attibute "properties" is missing');
+        if (! array_key_exists('properties', $engineData) && ! array_key_exists('inherits', $engineData)) {
+            throw new UnexpectedValueException('required attibute "properties" is missing');
         }
 
-        if (!array_key_exists('properties', $engineData) || !is_array($engineData['properties'])) {
+        if (! array_key_exists('properties', $engineData) || ! is_array($engineData['properties'])) {
             $engineData['properties'] = [];
         }
 
@@ -44,10 +51,11 @@ final class EngineFactory
             $engineProperties = $engineData['properties'];
 
             foreach ($engineProperties as $name => $value) {
-                if (isset($parentEngineData[$name])
+                if (
+                    isset($parentEngineData[$name])
                     && $parentEngineData[$name] === $value
                 ) {
-                    throw new \UnexpectedValueException(
+                    throw new UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $engineName
                         . '" and its parent "' . $parentName . '"'
                     );

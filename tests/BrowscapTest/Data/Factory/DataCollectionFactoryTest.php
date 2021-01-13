@@ -1,50 +1,58 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data\Factory;
 
+use Assert\AssertionFailedException;
 use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
+use Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+use ReflectionProperty;
+use RuntimeException;
+
+use function assert;
+use function sprintf;
 
 class DataCollectionFactoryTest extends TestCase
 {
-    /**
-     * @var DataCollectionFactory
-     */
+    /** @var DataCollectionFactory */
     private $object;
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
 
-        /* @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         $this->object = new DataCollectionFactory($logger);
     }
 
     /**
      * tests throwing an exception while creating a data collaction when a dir is invalid
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \ReflectionException
-     * @throws \Exception
+     * @throws AssertionFailedException
+     * @throws ReflectionException
+     * @throws Exception
      */
-    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory() : void
+    public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
             ->getMock();
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        $this->expectException(\RuntimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage('Directory "./platforms" does not exist.');
 
         $this->object->createDataCollection('.');
@@ -53,15 +61,13 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \ReflectionException
+     * @throws AssertionFailedException
+     * @throws ReflectionException
      */
-    public function testCreateDataCollection() : void
+    public function testCreateDataCollection(): void
     {
-        $logger = $this->createMock(LoggerInterface::class);
-
         $collection = $this->getMockBuilder(DataCollection::class)
-            ->setConstructorArgs([$logger])
+            ->disableOriginalConstructor()
             ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
@@ -81,7 +87,7 @@ class DataCollectionFactoryTest extends TestCase
             ->method('addDivision')
             ->willReturnSelf();
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
@@ -94,9 +100,9 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsForDuplicateDeviceEntries() : void
+    public function testCreateDataCollectionFailsForDuplicateDeviceEntries(): void
     {
         $this->expectException(DuplicateDataException::class);
         $this->expectExceptionMessage('it was tried to add device "unknown", but this was already added before');
@@ -109,9 +115,9 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsForDuplicateBrowserEntries() : void
+    public function testCreateDataCollectionFailsForDuplicateBrowserEntries(): void
     {
         $this->expectException(DuplicateDataException::class);
         $this->expectExceptionMessage('it was tried to add browser "chrome", but this was already added before');
@@ -124,9 +130,9 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsBecauseOfMissingFiles() : void
+    public function testCreateDataCollectionFailsBecauseOfMissingFiles(): void
     {
         $path = __DIR__ . '/../../../fixtures/missing-file';
 
@@ -139,9 +145,9 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsBecauseOfInvalidChars() : void
+    public function testCreateDataCollectionFailsBecauseOfInvalidChars(): void
     {
         $path = __DIR__ . '/../../../fixtures/non-ascii-chars';
 
@@ -154,13 +160,13 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsBecauseOfInvalidJson() : void
+    public function testCreateDataCollectionFailsBecauseOfInvalidJson(): void
     {
         $path = __DIR__ . '/../../../fixtures/invalid-json';
 
-        $this->expectException(\RuntimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage(sprintf('File "%s/core/default-browser.json" had invalid JSON.', $path));
 
         $this->object->createDataCollection($path);
@@ -169,13 +175,13 @@ class DataCollectionFactoryTest extends TestCase
     /**
      * tests creating a data collection
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreateDataCollectionFailsBecauseOfEmptyDirectory() : void
+    public function testCreateDataCollectionFailsBecauseOfEmptyDirectory(): void
     {
         $path = __DIR__ . '/../../../fixtures/empty-directory';
 
-        $this->expectException(\RuntimeException::class);
+        $this->expectException(RuntimeException::class);
         $this->expectExceptionMessage(sprintf('Directory "%s/browsers" was empty.', $path));
 
         $this->object->createDataCollection($path);

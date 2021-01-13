@@ -196,8 +196,11 @@ jobs:
       - name: "Update dependencies with composer"
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
 
-      - name: "Run friendsofphp/php-cs-fixer"
-        run: "vendor/bin/php-cs-fixer fix --dry-run -vv"
+      - name: "Run squizlabs/php_codesniffer"
+        uses: "chekalsky/phpcs-action@v1.2.0"
+        with:
+          phpcs_bin_path: "./vendor/bin/phpcs"
+          enable_warnings: true
 
   static-code-analysis:
     name: "Static Code Analysis"

@@ -1,7 +1,10 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Generator\Helper;
 
+use Assert\AssertionFailedException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
 use Browscap\Data\DuplicateDataException;
@@ -10,20 +13,26 @@ use Browscap\Data\UserAgent;
 use Browscap\Generator\Helper\BuildHelper;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
+use Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+
+use function array_key_exists;
+use function assert;
+use function is_string;
+use function realpath;
+use function sprintf;
 
 class BuildHelperTest extends TestCase
 {
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->logger = $this->createMock(LoggerInterface::class);
     }
@@ -31,10 +40,10 @@ class BuildHelperTest extends TestCase
     /**
      * tests running a build
      *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function testRun() : void
+    public function testRun(): void
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
@@ -71,7 +80,7 @@ class BuildHelperTest extends TestCase
             ->method('renderSectionBody')
             ->with(static::callback(static function (array $props) {
                 // Be sure that PatternId key is removed
-                return !array_key_exists('PatternId', $props);
+                return ! array_key_exists('PatternId', $props);
             }))
             ->willReturnSelf();
 
@@ -215,9 +224,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
         $division
             ->expects(static::once())
@@ -233,9 +240,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $defaultProperties,
-                ]
+                [0 => $defaultProperties]
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -265,18 +270,18 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->willReturn($collection);
 
-        /* @var WriterCollection $writerCollection */
-        /* @var DataCollectionFactory $collectionCreator */
+        assert($writerCollection instanceof WriterCollection);
+        assert($collectionCreator instanceof DataCollectionFactory);
         BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
      * tests running a build
      *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function testRunDuplicateDivision() : void
+    public function testRunDuplicateDivision(): void
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
@@ -313,7 +318,7 @@ class BuildHelperTest extends TestCase
             ->method('renderSectionBody')
             ->with(static::callback(static function (array $props) {
                 // Be sure that PatternId key is removed
-                return !array_key_exists('PatternId', $props);
+                return ! array_key_exists('PatternId', $props);
             }))
             ->willReturnSelf();
 
@@ -391,9 +396,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(3))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
         $division
             ->expects(static::exactly(2))
@@ -475,9 +478,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(3))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $defaultProperties,
-                ]
+                [0 => $defaultProperties]
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -507,18 +508,18 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->willReturn($collection);
 
-        /* @var WriterCollection $writerCollection */
-        /* @var DataCollectionFactory $collectionCreator */
+        assert($writerCollection instanceof WriterCollection);
+        assert($collectionCreator instanceof DataCollectionFactory);
         BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator);
     }
 
     /**
      * tests running a build with pattern id collection enabled
      *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function testRunWithPatternIdCollectionEnabled() : void
+    public function testRunWithPatternIdCollectionEnabled(): void
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
@@ -633,9 +634,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
         $division
             ->expects(static::once())
@@ -717,9 +716,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $defaultProperties,
-                ]
+                [0 => $defaultProperties]
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -749,16 +746,16 @@ class BuildHelperTest extends TestCase
             ->method('createDataCollection')
             ->willReturn($collection);
 
-        /* @var WriterCollection $writerCollection */
-        /* @var DataCollectionFactory $collectionCreator */
+        assert($writerCollection instanceof WriterCollection);
+        assert($collectionCreator instanceof DataCollectionFactory);
         BuildHelper::run('test', new DateTimeImmutable(), '.', $this->logger, $writerCollection, $collectionCreator, true);
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
-     * @throws \Exception
+     * @throws AssertionFailedException
+     * @throws Exception
      */
-    public function testDuplicateUseragents() : void
+    public function testDuplicateUseragents(): void
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
@@ -799,14 +796,14 @@ class BuildHelperTest extends TestCase
 
         $dataCollectionFactory = new DataCollectionFactory($this->logger);
 
-        /** @var string $resourceFolder */
         $resourceFolder = realpath(__DIR__ . '/../../../fixtures/duplicate-useragent-entries');
-        $file           = realpath($resourceFolder . '/user-agents/test1.json');
+        assert(is_string($resourceFolder));
+        $file = realpath($resourceFolder . '/user-agents/test1.json');
 
         $this->expectException(DuplicateDataException::class);
         $this->expectExceptionMessage(sprintf('tried to add section "Mozilla/5.0 (Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/* Mb2345Browser/#MAJORVER#.#MINORVER#*" for division "2345 Browser #MAJORVER#.#MINORVER#" in file "%s", but this was already added before', $file));
 
-        /* @var WriterCollection $writerCollection */
+        assert($writerCollection instanceof WriterCollection);
         BuildHelper::run(
             'test',
             new DateTimeImmutable(),

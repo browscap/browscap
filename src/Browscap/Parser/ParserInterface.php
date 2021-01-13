@@ -8,23 +8,21 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
+
 namespace Browscap\Parser;
 
 interface ParserInterface
 {
     /**
-     * @return array
+     * @return array<array<string>>
      */
-    public function parse() : array;
+    public function parse(): array;
 
     /**
-     * @return array
+     * @return array<array<string>>
      */
-    public function getParsed() : array;
+    public function getParsed(): array;
 
-    /**
-     * @return string
-     */
-    public function getFilename() : string;
+    public function getFilename(): string;
 }

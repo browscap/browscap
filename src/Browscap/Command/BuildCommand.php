@@ -1,35 +1,38 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Command;
 
+use Assert\AssertionFailedException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
 use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use DateTimeImmutable;
 use DateTimeZone;
+use Exception;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
+use function assert;
+use function is_string;
+use function sprintf;
+
+use const DATE_ATOM;
+
 class BuildCommand extends Command
 {
-    /**
-     * @var string
-     */
     private const DEFAULT_BUILD_FOLDER = '/../../../build';
 
-    /**
-     * @var string
-     */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /** @var string */
     private const DEFAULT_GENERATION_DATE = 'now';
 
-    protected function configure() : void
+    protected function configure(): void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -46,38 +49,35 @@ class BuildCommand extends Command
     }
 
     /**
-     * @param InputInterface  $input
-     * @param OutputInterface $output
-     *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
-     *
      * @return int|null null or 0 if everything went fine, or an error code
+     *
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    protected function execute(InputInterface $input, OutputInterface $output) : ?int
+    protected function execute(InputInterface $input, OutputInterface $output): ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        /** @var string $version */
         $version = $input->getArgument('version');
+        assert(is_string($version));
 
-        /** @var string $rawGenerationDate */
         $rawGenerationDate = $input->getOption('generation-date');
+        assert(is_string($rawGenerationDate));
 
         $generationDate = new DateTimeImmutable($rawGenerationDate, new DateTimeZone('UTC'));
 
         $logger->info(sprintf('Build started (%s, generated %s).', $version, $generationDate->format(DATE_ATOM)));
 
-        /** @var string $buildFolder */
         $buildFolder = $input->getOption('output');
+        assert(is_string($buildFolder));
 
         $writerCollectionFactory = new FullCollectionFactory();
         $writerCollection        = $writerCollectionFactory->createCollection($logger, $buildFolder);
         $dataCollectionFactory   = new DataCollectionFactory($logger);
 
-        /** @var string $resources */
         $resources = $input->getOption('resources');
+        assert(is_string($resources));
 
         $buildGenerator = new BuildGenerator(
             $resources,
@@ -87,13 +87,13 @@ class BuildCommand extends Command
             $dataCollectionFactory
         );
 
-        if (false !== $input->getOption('coverage')) {
+        if ($input->getOption('coverage') !== false) {
             $buildGenerator->setCollectPatternIds(true);
         }
 
         $createZip = true;
 
-        if (false !== $input->getOption('no-zip')) {
+        if ($input->getOption('no-zip') !== false) {
             $createZip = false;
         }
 

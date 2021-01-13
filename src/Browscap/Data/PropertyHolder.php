@@ -1,8 +1,15 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 use Browscap\Writer\WriterInterface;
+use InvalidArgumentException;
+
+use function in_array;
+use function json_encode;
+use function sprintf;
 
 class PropertyHolder
 {
@@ -15,13 +22,9 @@ class PropertyHolder
     /**
      * Get the type of a property
      *
-     * @param string $propertyName
-     *
-     * @throws \InvalidArgumentException
-     *
-     * @return string
+     * @throws InvalidArgumentException
      */
-    public function getPropertyType(string $propertyName) : string
+    public function getPropertyType(string $propertyName): string
     {
         $stringProperties = [
             'Comment' => 1,
@@ -111,19 +114,14 @@ class PropertyHolder
             return self::TYPE_BOOLEAN;
         }
 
-        throw new \InvalidArgumentException("Property {$propertyName} did not have a defined property type");
+        throw new InvalidArgumentException(sprintf('Property %s did not have a defined property type', $propertyName));
     }
 
     /**
      * Determine if the specified property is an property that should
      * be included in the all versions of the files
-     *
-     * @param string          $propertyName
-     * @param WriterInterface $writer
-     *
-     * @return bool
      */
-    public function isLiteModeProperty(string $propertyName, WriterInterface $writer) : bool
+    public function isLiteModeProperty(string $propertyName, WriterInterface $writer): bool
     {
         $outputProperties = [
             'Parent' => 1,
@@ -140,7 +138,7 @@ class PropertyHolder
             return true;
         }
 
-        if (WriterInterface::TYPE_INI === $writer->getType()) {
+        if ($writer->getType() === WriterInterface::TYPE_INI) {
             $additionalProperties = ['PatternId'];
 
             if (in_array($propertyName, $additionalProperties)) {
@@ -154,13 +152,8 @@ class PropertyHolder
     /**
      * Determine if the specified property is an property that should
      * be included in the "standard" or "full" versions of the files only
-     *
-     * @param string          $propertyName
-     * @param WriterInterface $writer
-     *
-     * @return bool
      */
-    public function isStandardModeProperty(string $propertyName, WriterInterface $writer) : bool
+    public function isStandardModeProperty(string $propertyName, WriterInterface $writer): bool
     {
         $outputProperties = [
             'MajorVer' => 1,
@@ -188,13 +181,8 @@ class PropertyHolder
     /**
      * Determine if the specified property is an "extra" property (that should
      * be included in any version of the files)
-     *
-     * @param string          $propertyName
-     * @param WriterInterface $writer
-     *
-     * @return bool
      */
-    public function isOutputProperty(string $propertyName, WriterInterface $writer) : bool
+    public function isOutputProperty(string $propertyName, WriterInterface $writer): bool
     {
         $outputProperties = [
             'Comment' => 1,
@@ -260,8 +248,8 @@ class PropertyHolder
             }
         }
 
-        if (WriterInterface::TYPE_INI === $writer->getType()) {
-            if ('PatternId' === $propertyName) {
+        if ($writer->getType() === WriterInterface::TYPE_INI) {
+            if ($propertyName === 'PatternId') {
                 return true;
             }
         }
@@ -271,12 +259,8 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is marked as "deprecated"
-     *
-     * @param string $propertyName
-     *
-     * @return bool
      */
-    public function isDeprecatedProperty(string $propertyName) : bool
+    public function isDeprecatedProperty(string $propertyName): bool
     {
         $deprecatedProperties = [
             'Win16' => 1,
@@ -290,47 +274,49 @@ class PropertyHolder
             'MinorVer' => 1,
         ];
 
-        if (isset($deprecatedProperties[$propertyName])) {
-            return true;
-        }
-
-        return false;
+        return isset($deprecatedProperties[$propertyName]);
     }
 
     /**
-     * @param string $property
-     * @param string $value
-     *
-     * @throws \InvalidArgumentException
-     *
-     * @return string
+     * @throws InvalidArgumentException
      */
-    public function checkValueInArray(string $property, string $value) : string
+    public function checkValueInArray(string $property, string $value): string
     {
         switch ($property) {
             case 'Device_Pointing_Method':
                 // This property is taken from http://www.scientiamobile.com/wurflCapability
                 $allowedValues = [
-                    'joystick', 'stylus', 'touchscreen', 'clickwheel', 'trackpad', 'trackball', 'mouse', 'unknown',
+                    'joystick',
+                    'stylus',
+                    'touchscreen',
+                    'clickwheel',
+                    'trackpad',
+                    'trackball',
+                    'mouse',
+                    'unknown',
                 ];
 
                 break;
             case 'Browser_Bits':
             case 'Platform_Bits':
                 $allowedValues = [
-                    0, 8, 16, 32, 64,
+                    0,
+                    8,
+                    16,
+                    32,
+                    64,
                 ];
 
                 break;
             default:
-                throw new \InvalidArgumentException('Property "' . $property . '" is not defined to be validated');
+                throw new InvalidArgumentException('Property "' . $property . '" is not defined to be validated');
         }
 
         if (in_array($value, $allowedValues)) {
             return $value;
         }
 
-        throw new \InvalidArgumentException(
+        throw new InvalidArgumentException(
             'invalid value given for Property "' . $property . '": given value "' . $value . '", allowed: '
             . json_encode($allowedValues)
         );

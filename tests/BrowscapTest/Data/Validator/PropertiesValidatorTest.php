@@ -1,27 +1,28 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data\Validator;
 
+use Assert\AssertionFailedException;
 use Browscap\Data\Validator\PropertiesValidator;
 use LogicException;
 use PHPUnit\Framework\TestCase;
 
 class PropertiesValidatorTest extends TestCase
 {
-    /**
-     * @var PropertiesValidator
-     */
+    /** @var PropertiesValidator */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new PropertiesValidator();
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCheckPropertyWithoutParent() : void
+    public function testCheckPropertyWithoutParent(): void
     {
         $this->expectException(LogicException::class);
         $this->expectExceptionMessage('property "Parent" is missing for key "test"');
@@ -34,9 +35,9 @@ class PropertiesValidatorTest extends TestCase
     /**
      * tests if no error is raised if all went well
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCheckPropertyOk() : void
+    public function testCheckPropertyOk(): void
     {
         $properties = [
             'Parent' => 'default',

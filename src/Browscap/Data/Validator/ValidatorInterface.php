@@ -1,16 +1,19 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Validator;
+
+use LogicException;
 
 interface ValidatorInterface
 {
     /**
      * validates the fully expanded properties
      *
-     * @param array  $properties Data to validate
-     * @param string $key
+     * @param mixed[] $properties Data to validate
      *
-     * @throws \LogicException
+     * @throws LogicException
      */
-    public function validate(array $properties, string $key) : void;
+    public function validate(array $properties, string $key): void;
 }

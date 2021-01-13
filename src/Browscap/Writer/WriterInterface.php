@@ -1,10 +1,13 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
 interface WriterInterface
@@ -14,126 +17,91 @@ interface WriterInterface
     public const TYPE_JSON = 'json';
     public const TYPE_XML  = 'xml';
 
-    /**
-     * @param string          $file
-     * @param LoggerInterface $logger
-     */
     public function __construct(string $file, LoggerInterface $logger);
 
     /**
      * returns the Type of the writer
-     *
-     * @return string
      */
-    public function getType() : string;
+    public function getType(): string;
 
     /**
      * closes the Writer and the written File
      */
-    public function close() : void;
+    public function close(): void;
 
-    /**
-     * @param bool $silent
-     */
-    public function setSilent(bool $silent) : void;
+    public function setSilent(bool $silent): void;
 
-    /**
-     * @return bool
-     */
-    public function isSilent() : bool;
+    public function isSilent(): bool;
 
     /**
      * Generates a start sequence for the output file
      */
-    public function fileStart() : void;
+    public function fileStart(): void;
 
     /**
      * Generates a end sequence for the output file
      */
-    public function fileEnd() : void;
+    public function fileEnd(): void;
 
     /**
      * Generate the header
      *
-     * @param string[] $comments
+     * @param array<string> $comments
      */
-    public function renderHeader(array $comments = []) : void;
+    public function renderHeader(array $comments = []): void;
 
     /**
      * renders the version information
      *
-     * @param string[] $versionData
+     * @param array<string> $versionData
      */
-    public function renderVersion(array $versionData = []) : void;
+    public function renderVersion(array $versionData = []): void;
 
     /**
      * renders the header for all divisions
-     *
-     * @param DataCollection $collection
      */
-    public function renderAllDivisionsHeader(DataCollection $collection) : void;
+    public function renderAllDivisionsHeader(DataCollection $collection): void;
 
     /**
      * renders the header for a division
-     *
-     * @param string $division
-     * @param string $parent
      */
-    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties') : void;
+    public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void;
 
     /**
      * renders the header for a section
-     *
-     * @param string $sectionName
      */
-    public function renderSectionHeader(string $sectionName) : void;
+    public function renderSectionHeader(string $sectionName): void;
 
     /**
      * renders all found useragents into a string
      *
-     * @param array          $section
-     * @param DataCollection $collection
-     * @param array[]        $sections
-     * @param string         $sectionName
+     * @param array<string, int|string|true>            $section
+     * @param array<string, array<string, bool|string>> $sections
      *
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
-    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = '') : void;
+    public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void;
 
     /**
      * renders the footer for a section
-     *
-     * @param string $sectionName
      */
-    public function renderSectionFooter(string $sectionName = '') : void;
+    public function renderSectionFooter(string $sectionName = ''): void;
 
     /**
      * renders the footer for a division
      */
-    public function renderDivisionFooter() : void;
+    public function renderDivisionFooter(): void;
 
     /**
      * renders the footer for all divisions
      */
-    public function renderAllDivisionsFooter() : void;
+    public function renderAllDivisionsFooter(): void;
 
-    /**
-     * @param FormatterInterface $formatter
-     */
-    public function setFormatter(FormatterInterface $formatter) : void;
+    public function setFormatter(FormatterInterface $formatter): void;
 
-    /**
-     * @return FormatterInterface
-     */
-    public function getFormatter() : FormatterInterface;
+    public function getFormatter(): FormatterInterface;
 
-    /**
-     * @param FilterInterface $filter
-     */
-    public function setFilter(FilterInterface $filter) : void;
+    public function setFilter(FilterInterface $filter): void;
 
-    /**
-     * @return FilterInterface
-     */
-    public function getFilter() : FilterInterface;
+    public function getFilter(): FilterInterface;
 }

@@ -1,32 +1,27 @@
 <?php
-declare(strict_types = 1);
-/**
- * Created by PhpStorm.
- * User: Besitzer
- * Date: 03.10.2018
- * Time: 14:07
- */
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Command\Helper;
 
-use Browscap\Command\Helper\Rewrite;
+use Browscap\Command\Helper\RewriteHelper;
+use Exception;
 use PHPUnit\Framework\TestCase;
 
 class RewriteTest extends TestCase
 {
-    /**
-     * @var Rewrite
-     */
+    /** @var RewriteHelper */
     private $object;
 
     /**
-     * @throws \Exception
+     * @throws Exception
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
-        $this->object = new Rewrite();
+        $this->object = new RewriteHelper();
     }
 
-    public function testGetName() : void
+    public function testGetName(): void
     {
         static::assertSame('rewrite', $this->object->getName());
     }

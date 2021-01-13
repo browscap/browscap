@@ -1,26 +1,57 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use Exception;
 use ExceptionalJSON\DecodeErrorException;
 use JsonClass\Json;
 use Psr\Log\LoggerInterface;
+use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
+use Twig_Environment;
+use Twig_Error_Loader;
+use Twig_Error_Runtime;
+use Twig_Error_Syntax;
+use Twig_Loader_Filesystem;
+
+use function array_intersect;
+use function array_key_exists;
+use function array_keys;
+use function array_merge;
+use function array_multisort;
+use function array_unique;
+use function assert;
+use function count;
+use function explode;
+use function file_get_contents;
+use function file_put_contents;
+use function in_array;
+use function is_array;
+use function is_int;
+use function is_numeric;
+use function is_string;
+use function key;
+use function mb_strpos;
+use function sprintf;
+use function uksort;
+
+use const SORT_ASC;
+use const SORT_DESC;
+use const SORT_NUMERIC;
 
 class RewriteDivisionsCommand extends Command
 {
-    /**
-     * @var string
-     */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    protected function configure() : void
+    protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
@@ -31,25 +62,22 @@ class RewriteDivisionsCommand extends Command
     }
 
     /**
-     * @param InputInterface  $input
-     * @param OutputInterface $output
-     *
      * @return int|null null or 0 if everything went fine, or an error code
      */
-    protected function execute(InputInterface $input, OutputInterface $output) : ?int
+    protected function execute(InputInterface $input, OutputInterface $output): ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
-        /** @var string $resources */
         $resources = $input->getOption('resources');
+        assert(is_string($resources));
 
         $divisionsResourcePath = $resources . '/user-agents';
 
         $logger->info('Resource folder: ' . $resources);
 
-        $loader = new \Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
-        $twig   = new \Twig_Environment($loader, [
+        $loader = new Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
+        $twig   = new Twig_Environment($loader, [
             'cache' => false,
             'optimizations' => 0,
             'autoescape' => false,
@@ -57,7 +85,7 @@ class RewriteDivisionsCommand extends Command
 
         $content = file_get_contents($resources . '/platforms/platforms.json');
 
-        if (false === $content) {
+        if ($content === false) {
             $logger->critical('could not read File "' . $resources . '/platforms.json"');
 
             return 1;
@@ -68,7 +96,7 @@ class RewriteDivisionsCommand extends Command
         try {
             $allPlatforms = $jsonClass->decode($content, true);
         } catch (DecodeErrorException $e) {
-            $logger->critical(new \Exception(sprintf('file "%s" is not valid', $resources . '/platforms.json'), 0, $e));
+            $logger->critical(new Exception(sprintf('file "%s" is not valid', $resources . '/platforms.json'), 0, $e));
 
             return 1;
         }
@@ -83,13 +111,13 @@ class RewriteDivisionsCommand extends Command
         $finder->in($divisionsResourcePath);
 
         foreach ($finder as $file) {
-            /* @var \Symfony\Component\Finder\SplFileInfo $file */
+            /** @var SplFileInfo $file */
             $logger->info('read source file ' . $file->getPathname());
 
             try {
                 $json = $file->getContents();
-            } catch (\RuntimeException $e) {
-                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+            } catch (RuntimeException $e) {
+                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
 
                 continue;
             }
@@ -97,43 +125,43 @@ class RewriteDivisionsCommand extends Command
             try {
                 $divisionData = $jsonClass->decode($json, true);
             } catch (DecodeErrorException $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                 continue;
             }
 
-            if (!array_key_exists('division', $divisionData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! "division" property is missing', $file->getPathname())));
+            if (! array_key_exists('division', $divisionData)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! "division" property is missing', $file->getPathname())));
 
                 continue;
             }
 
-            if (!array_key_exists('sortIndex', $divisionData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! "sortIndex" property is missing', $file->getPathname())));
+            if (! array_key_exists('sortIndex', $divisionData)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! "sortIndex" property is missing', $file->getPathname())));
 
                 continue;
             }
 
-            if (!array_key_exists('lite', $divisionData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! "lite" property is missing', $file->getPathname())));
+            if (! array_key_exists('lite', $divisionData)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! "lite" property is missing', $file->getPathname())));
 
                 continue;
             }
 
-            if (!array_key_exists('standard', $divisionData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! "standard" property is missing', $file->getPathname())));
+            if (! array_key_exists('standard', $divisionData)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! "standard" property is missing', $file->getPathname())));
 
                 continue;
             }
 
-            if (!array_key_exists('userAgents', $divisionData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! userAgents section is missing', $file->getPathname())));
+            if (! array_key_exists('userAgents', $divisionData)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is missing', $file->getPathname())));
 
                 continue;
             }
 
-            if (!is_array($divisionData['userAgents'])) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! userAgents section is not an array', $file->getPathname())));
+            if (! is_array($divisionData['userAgents'])) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is not an array', $file->getPathname())));
                 unset($divisionData['userAgents']);
 
                 continue;
@@ -143,14 +171,14 @@ class RewriteDivisionsCommand extends Command
                 if (is_array($divisionData['versions'])) {
                     $divisionData['versions'] = $this->sortVersions($divisionData, $jsonClass);
                 } else {
-                    $logger->critical(new \Exception(sprintf('file "%s" is not valid! versions section is not an array', $file->getPathname())));
+                    $logger->critical(new Exception(sprintf('file "%s" is not valid! versions section is not an array', $file->getPathname())));
                     unset($divisionData['versions']);
                 }
             }
 
             foreach ($divisionData['userAgents'] as $key => $useragentData) {
-                if (!is_int($key)) {
-                    $logger->critical(new \Exception(sprintf('file "%s" is not valid! not-numeric key in userAgents section found', $file->getPathname())));
+                if (! is_int($key)) {
+                    $logger->critical(new Exception(sprintf('file "%s" is not valid! not-numeric key in userAgents section found', $file->getPathname())));
                     unset($divisionData['userAgents'][$key]);
 
                     continue;
@@ -165,7 +193,7 @@ class RewriteDivisionsCommand extends Command
                 );
 
                 if (empty($useragentData)) {
-                    $logger->critical(new \Exception(sprintf('file "%s" is not valid! userAgents section is empty', $file->getPathname())));
+                    $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is empty', $file->getPathname())));
                     unset($divisionData['userAgents'][$key]);
 
                     continue;
@@ -176,7 +204,7 @@ class RewriteDivisionsCommand extends Command
 
             try {
                 $normalized = $twig->render('division.json.twig', ['divisionData' => $divisionData]);
-            } catch (\Twig_Error_Loader | \Twig_Error_Runtime | \Twig_Error_Syntax $e) {
+            } catch (Twig_Error_Loader | Twig_Error_Runtime | Twig_Error_Syntax $e) {
                 $logger->critical($e);
 
                 continue;
@@ -191,12 +219,12 @@ class RewriteDivisionsCommand extends Command
     }
 
     /**
-     * @param array $platforms
-     * @param array $allPlatforms
+     * @param array<string>            $platforms
+     * @param array<int, (int|string)> $allPlatforms
      *
-     * @return array
+     * @return array<string>
      */
-    private function sortPlatforms(array $platforms, array $allPlatforms)
+    private function sortPlatforms(array $platforms, array $allPlatforms): array
     {
         $platformVersions = [];
 
@@ -216,7 +244,12 @@ class RewriteDivisionsCommand extends Command
         return $platforms;
     }
 
-    private function sortVersions(array $divisionData, Json $jsonClass) : array
+    /**
+     * @param mixed[] $divisionData
+     *
+     * @return array<string>
+     */
+    private function sortVersions(array $divisionData, Json $jsonClass): array
     {
         $majorVersions = [];
         $minorVersions = [];
@@ -227,7 +260,7 @@ class RewriteDivisionsCommand extends Command
 
             $majorVersions[$key] = (int) $parts[0];
 
-            if (!isset($parts[1]) || '0' === $parts[1]) {
+            if (! isset($parts[1]) || $parts[1] === '0') {
                 $divisionData['versions'][$key] = (int) $version;
             } else {
                 $divisionData['versions'][$key] = (string) $version;
@@ -262,21 +295,27 @@ class RewriteDivisionsCommand extends Command
         return $divisionData['versions'];
     }
 
+    /**
+     * @param mixed[]   $useragentData
+     * @param mixed[][] $allPlatforms
+     *
+     * @return mixed[]
+     */
     private function rewriteUserAgents(
         array $useragentData,
         SplFileInfo $file,
         LoggerInterface $logger,
         Json $jsonClass,
         array $allPlatforms
-    ) : array {
-        if (!array_key_exists('userAgent', $useragentData)) {
-            $logger->critical(new \Exception(sprintf('file "%s" is not valid! userAgent property is missing', $file->getPathname())));
+    ): array {
+        if (! array_key_exists('userAgent', $useragentData)) {
+            $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgent property is missing', $file->getPathname())));
 
             return [];
         }
 
         if (array_key_exists('properties', $useragentData)) {
-            if (!is_array($useragentData['properties'])) {
+            if (! is_array($useragentData['properties'])) {
                 unset($useragentData['properties']);
             } else {
                 unset(
@@ -294,20 +333,20 @@ class RewriteDivisionsCommand extends Command
             }
         }
 
-        if (!array_key_exists('children', $useragentData)) {
+        if (! array_key_exists('children', $useragentData)) {
             return $useragentData;
         }
 
-        if (!is_array($useragentData['children'])) {
-            $logger->critical(new \Exception(sprintf('file "%s" is not valid! children section is not an array', $file->getPathname())));
+        if (! is_array($useragentData['children'])) {
+            $logger->critical(new Exception(sprintf('file "%s" is not valid! children section is not an array', $file->getPathname())));
             unset($useragentData['children']);
 
             return $useragentData;
         }
 
         foreach ($useragentData['children'] as $key => $childData) {
-            if (!is_int($key)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! not-numeric key in children section found', $file->getPathname())));
+            if (! is_int($key)) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! not-numeric key in children section found', $file->getPathname())));
                 unset($useragentData['children'][$key]);
 
                 continue;
@@ -322,7 +361,7 @@ class RewriteDivisionsCommand extends Command
             );
 
             if (empty($childData)) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid! children section is empty', $file->getPathname())));
+                $logger->critical(new Exception(sprintf('file "%s" is not valid! children section is empty', $file->getPathname())));
                 unset($useragentData['children'][$key]);
 
                 continue;
@@ -334,21 +373,27 @@ class RewriteDivisionsCommand extends Command
         return $useragentData;
     }
 
+    /**
+     * @param mixed[]   $childData
+     * @param mixed[][] $allPlatforms
+     *
+     * @return mixed[]
+     */
     private function rewriteChildren(
         array $childData,
         SplFileInfo $file,
         LoggerInterface $logger,
         Json $jsonClass,
         array $allPlatforms
-    ) : array {
-        if (!array_key_exists('match', $childData)) {
-            $logger->critical(new \Exception(sprintf('file "%s" is not valid! match property is missing', $file->getPathname())));
+    ): array {
+        if (! array_key_exists('match', $childData)) {
+            $logger->critical(new Exception(sprintf('file "%s" is not valid! match property is missing', $file->getPathname())));
 
             return [];
         }
 
         if (array_key_exists('properties', $childData)) {
-            if (!is_array($childData['properties'])) {
+            if (! is_array($childData['properties'])) {
                 unset($childData['properties']);
             } else {
                 unset(
@@ -379,11 +424,11 @@ class RewriteDivisionsCommand extends Command
             $logger->warning(sprintf('file "%s" is not valid! device property is used in section "%s", try to use the devices property', $file->getPathname(), $childData['match']));
         }
 
-        if (!array_key_exists('platforms', $childData)) {
+        if (! array_key_exists('platforms', $childData)) {
             return $childData;
         }
 
-        if (!is_array($childData['platforms'])) {
+        if (! is_array($childData['platforms'])) {
             unset($childData['platforms']);
 
             return $childData;
@@ -407,7 +452,8 @@ class RewriteDivisionsCommand extends Command
         foreach ($platforms as $key => $platformkey) {
             $platform = $allPlatforms[$platformkey];
 
-            if ((!isset($platform['properties']['Platform']) || !isset($platform['properties']['Platform_Version']))
+            if (
+                (! isset($platform['properties']['Platform']) || ! isset($platform['properties']['Platform_Version']))
                 && isset($platform['inherits'])
             ) {
                 if (isset($platform['properties'])) {
@@ -421,9 +467,11 @@ class RewriteDivisionsCommand extends Command
                     $platformProperties = array_merge($parentPlatform['properties'], $platformProperties);
                     unset($platform['inherits']);
 
-                    if (isset($parentPlatform['inherits'])) {
-                        $platform['inherits'] = $parentPlatform['inherits'];
+                    if (! isset($parentPlatform['inherits'])) {
+                        continue;
                     }
+
+                    $platform['inherits'] = $parentPlatform['inherits'];
                 } while (isset($platform['inherits']));
             } else {
                 $platformProperties = $platform['properties'];
@@ -431,7 +479,7 @@ class RewriteDivisionsCommand extends Command
 
             $split = explode('.', $platformProperties['Platform_Version'], 2);
 
-            if (!isset($split[1])) {
+            if (! isset($split[1])) {
                 $split[1] = 0;
             }
 
@@ -439,15 +487,16 @@ class RewriteDivisionsCommand extends Command
                 ++$currentChunk;
                 $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
-            } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPb') && false !== mb_strpos($platformkey, 'WinXPa')) {
+            } elseif (mb_strpos($currentPlatform['key'], 'WinXPb') !== false && mb_strpos($platformkey, 'WinXPa') !== false) {
                 ++$currentChunk;
                 $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
-            } elseif (false !== mb_strpos($currentPlatform['key'], 'WinXPa') && false !== mb_strpos($platformkey, 'WinXPb')) {
+            } elseif (mb_strpos($currentPlatform['key'], 'WinXPa') !== false && mb_strpos($platformkey, 'WinXPb') !== false) {
                 ++$currentChunk;
                 $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
-            } elseif ($platformProperties['Platform'] !== $currentPlatform['name']
+            } elseif (
+                $platformProperties['Platform'] !== $currentPlatform['name']
                 || $split[0] !== $currentPlatform['major-version']
             ) {
                 ++$currentChunk;

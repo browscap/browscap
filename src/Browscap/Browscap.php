@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap;
 
 use Symfony\Component\Console\Application;
@@ -38,10 +40,10 @@ class Browscap extends Application
         $sorterHelper = new Command\Helper\Sorter();
         $this->getHelperSet()->set($sorterHelper);
 
-        $rewriteHelper = new Command\Helper\Rewrite();
+        $rewriteHelper = new Command\Helper\RewriteHelper();
         $this->getHelperSet()->set($rewriteHelper);
 
-        $validateHelper = new Command\Helper\Validate();
+        $validateHelper = new Command\Helper\ValidateHelper();
         $this->getHelperSet()->set($validateHelper);
     }
 }

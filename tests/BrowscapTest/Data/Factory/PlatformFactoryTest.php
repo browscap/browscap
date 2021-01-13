@@ -1,7 +1,10 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data\Factory;
 
+use Assert\AssertionFailedException;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
@@ -10,12 +13,10 @@ use UnexpectedValueException;
 
 class PlatformFactoryTest extends TestCase
 {
-    /**
-     * @var PlatformFactory
-     */
+    /** @var PlatformFactory */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new PlatformFactory();
     }
@@ -23,9 +24,9 @@ class PlatformFactoryTest extends TestCase
     /**
      * tests that the missing "lite" property is leading to an error
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildMissingLiteProperty() : void
+    public function testBuildMissingLiteProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "lite" key is missing for the platform with the key "Test"');
@@ -40,9 +41,9 @@ class PlatformFactoryTest extends TestCase
     /**
      * tests that the missing "standard" property is leading to an error
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildMissingStandardProperty() : void
+    public function testBuildMissingStandardProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "standard" key is missing for the platform with the key "Test"');
@@ -57,9 +58,9 @@ class PlatformFactoryTest extends TestCase
     /**
      * tests that the missing "match" property is leading to an error
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithoutMatchProperty() : void
+    public function testBuildWithoutMatchProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for the "match" key is missing for the platform with the key "Test"');
@@ -80,9 +81,9 @@ class PlatformFactoryTest extends TestCase
     /**
      * tests that the missing "inherits" property and missing "properties" property is leading to an error
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithMissingInheritAndProperties() : void
+    public function testBuildWithMissingInheritAndProperties(): void
     {
         $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required attibute "properties" is missing');
@@ -97,9 +98,9 @@ class PlatformFactoryTest extends TestCase
     /**
      * tests that a missing parent platform is leading to an error
      *
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildMissingParentPlatform() : void
+    public function testBuildMissingParentPlatform(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('parent Platform "abc" is missing for platform "Test"');
@@ -112,9 +113,9 @@ class PlatformFactoryTest extends TestCase
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithRepeatingProperties() : void
+    public function testBuildWithRepeatingProperties(): void
     {
         $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('the value for property "abc" has the same value in the keys "Test" and its parent "abc"');
@@ -134,9 +135,9 @@ class PlatformFactoryTest extends TestCase
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testCreationOfPlatform() : void
+    public function testCreationOfPlatform(): void
     {
         $platformData = ['properties' => ['abc' => 'zyx'], 'match' => 'test*', 'lite' => true, 'standard' => true, 'inherits' => 'abc'];
         $json         = [
