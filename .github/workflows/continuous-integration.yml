@@ -51,7 +51,9 @@ jobs:
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
 
       - name: "Run composer-normalize"
-        run: "vendor/bin/phpcs --colors"
+        uses: "docker://ergebnis/composer-normalize-action:latest"
+        with:
+          args: "--dry-run"
 
   install:
     name: "Check dependencies"
@@ -195,10 +197,7 @@ jobs:
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
 
       - name: "Run squizlabs/php_codesniffer"
-        uses: "chekalsky/phpcs-action@v1.2.0"
-        with:
-          phpcs_bin_path: "./vendor/bin/phpcs"
-          enable_warnings: true
+        run: "vendor/bin/phpcs --colors"
 
   static-code-analysis:
     name: "Static Code Analysis"
