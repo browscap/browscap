@@ -98,7 +98,7 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsLiteModeProperty
      *
-     * @return array<array<string>>
+     * @return array<int, array<int, bool|string>>
      */
     public function litePropertiesDataProvider(): array
     {
@@ -188,7 +188,7 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsStandardModeProperty
      *
-     * @return array<array<string>>
+     * @return array<int, array<int, bool|string>>
      */
     public function standardPropertiesDataProvider(): array
     {
@@ -296,7 +296,7 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array<array<string>>
+     * @return array<int, array<int, bool|string>>
      */
     public function outputPropertiesDataProvider(): array
     {
@@ -420,7 +420,7 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test testCheckValueInArray
      *
-     * @return array<array<string>>
+     * @return array<int, array<int, int|string>>
      */
     public function checkValueInArrayProvider(): array
     {
@@ -459,7 +459,7 @@ class PropertyHolderTest extends TestCase
     /**
      * Data Provider for the test isDeprecatedProperty
      *
-     * @return array<array<string>>
+     * @return array<int, array<int, bool|string>>
      */
     public function deprecatedPropertiesDataProvider(): array
     {

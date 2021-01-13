@@ -24,15 +24,15 @@ class Division
     /** @var bool */
     private $standard = false;
 
-    /** @var array<string> */
+    /** @var array<int, int|string> */
     private $versions = [];
 
     /** @var UserAgent[] */
     private $userAgents = [];
 
     /**
-     * @param UserAgent[]   $userAgents
-     * @param array<string> $versions
+     * @param UserAgent[]            $userAgents
+     * @param array<int, int|string> $versions
      */
     public function __construct(
         string $name,
@@ -81,7 +81,7 @@ class Division
     }
 
     /**
-     * @return array<string>
+     * @return array<int, int|string>
      */
     public function getVersions(): array
     {

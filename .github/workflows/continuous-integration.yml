@@ -51,9 +51,7 @@ jobs:
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
 
       - name: "Run composer-normalize"
-        uses: "docker://ergebnis/composer-normalize-action:latest"
-        with:
-          args: "--dry-run"
+        run: "vendor/bin/phpcs --colors"
 
   install:
     name: "Check dependencies"
