@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Writer\Factory;
 
 use Browscap\Data\PropertyHolder;
@@ -16,13 +18,7 @@ use Psr\Log\LoggerInterface;
  */
 class PhpWriterFactory
 {
-    /**
-     * @param LoggerInterface $logger
-     * @param string          $buildFolder
-     *
-     * @return WriterCollection
-     */
-    public function createCollection(LoggerInterface $logger, string $buildFolder) : WriterCollection
+    public function createCollection(LoggerInterface $logger, string $buildFolder): WriterCollection
     {
         $writerCollection = new WriterCollection();
         $propertyHolder   = new PropertyHolder();

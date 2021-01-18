@@ -1,7 +1,10 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data\Factory;
 
+use Assert\AssertionFailedException;
 use Assert\InvalidArgumentException;
 use Browscap\Data\Engine;
 use Browscap\Data\Factory\EngineFactory;
@@ -10,20 +13,18 @@ use UnexpectedValueException;
 
 class EngineFactoryTest extends TestCase
 {
-    /**
-     * @var EngineFactory
-     */
+    /** @var EngineFactory */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new EngineFactory();
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithMissingInheritAndProperties() : void
+    public function testBuildWithMissingInheritAndProperties(): void
     {
         $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('required attibute "properties" is missing');
@@ -36,9 +37,9 @@ class EngineFactoryTest extends TestCase
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithMissingParent() : void
+    public function testBuildWithMissingParent(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('parent Engine "abc" is missing for engine "Test"');
@@ -51,9 +52,9 @@ class EngineFactoryTest extends TestCase
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuildWithRepeatingProperties() : void
+    public function testBuildWithRepeatingProperties(): void
     {
         $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('the value for property "abc" has the same value in the keys "Test" and its parent "abc"');
@@ -70,9 +71,9 @@ class EngineFactoryTest extends TestCase
     }
 
     /**
-     * @throws \Assert\AssertionFailedException
+     * @throws AssertionFailedException
      */
-    public function testBuild() : void
+    public function testBuild(): void
     {
         $engineData = ['properties' => ['abc' => 'xyz'], 'inherits' => 'abc'];
         $json       = [

@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 /**
@@ -7,13 +9,11 @@ namespace Browscap\Data;
  */
 class Engine
 {
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private $properties = [];
 
     /**
-     * @param string[] $properties
+     * @param array<string> $properties
      */
     public function __construct(array $properties)
     {
@@ -21,9 +21,9 @@ class Engine
     }
 
     /**
-     * @return string[]
+     * @return array<string>
      */
-    public function getProperties() : array
+    public function getProperties(): array
     {
         return $this->properties;
     }

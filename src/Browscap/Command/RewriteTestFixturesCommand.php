@@ -1,18 +1,30 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
 use Ergebnis\Json\Normalizer;
 use Ergebnis\Json\Printer\Printer;
+use Exception;
+use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Finder\Finder;
+use Throwable;
+
+use function file_put_contents;
+use function sprintf;
+
+use const JSON_PRETTY_PRINT;
+use const JSON_UNESCAPED_SLASHES;
+use const JSON_UNESCAPED_UNICODE;
 
 class RewriteTestFixturesCommand extends Command
 {
-    protected function configure() : void
+    protected function configure(): void
     {
         $this
             ->setName('rewrite-test-fixtures')
@@ -20,12 +32,9 @@ class RewriteTestFixturesCommand extends Command
     }
 
     /**
-     * @param InputInterface  $input
-     * @param OutputInterface $output
-     *
      * @return int|null null or 0 if everything went fine, or an error code
      */
-    protected function execute(InputInterface $input, OutputInterface $output) : ?int
+    protected function execute(InputInterface $input, OutputInterface $output): ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -57,16 +66,16 @@ class RewriteTestFixturesCommand extends Command
 
             try {
                 $json = $file->getContents();
-            } catch (\RuntimeException $e) {
-                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+            } catch (RuntimeException $e) {
+                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
 
                 continue;
             }
 
             try {
                 $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
-            } catch (\Throwable $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+            } catch (Throwable $e) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                 continue;
             }

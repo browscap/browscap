@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 /**
@@ -7,49 +9,30 @@ namespace Browscap\Data;
  */
 class Division
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $name = '';
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $fileName = '';
 
-    /**
-     * @var int
-     */
+    /** @var int */
     private $sortIndex = 0;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $lite = false;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $standard = false;
 
-    /**
-     * @var array
-     */
+    /** @var array<int, int|string> */
     private $versions = [];
 
-    /**
-     * @var UserAgent[]
-     */
+    /** @var UserAgent[] */
     private $userAgents = [];
 
     /**
-     * @param string      $name
-     * @param int         $sortIndex
-     * @param UserAgent[] $userAgents
-     * @param bool        $lite
-     * @param bool        $standard
-     * @param array       $versions
-     * @param string      $fileName
+     * @param UserAgent[]            $userAgents
+     * @param array<int, int|string> $versions
      */
     public function __construct(
         string $name,
@@ -69,22 +52,22 @@ class Division
         $this->fileName   = $fileName;
     }
 
-    public function isLite() : bool
+    public function isLite(): bool
     {
         return $this->lite;
     }
 
-    public function isStandard() : bool
+    public function isStandard(): bool
     {
         return $this->standard;
     }
 
-    public function getName() : string
+    public function getName(): string
     {
         return $this->name;
     }
 
-    public function getSortIndex() : int
+    public function getSortIndex(): int
     {
         return $this->sortIndex;
     }
@@ -92,17 +75,20 @@ class Division
     /**
      * @return UserAgent[]
      */
-    public function getUserAgents() : array
+    public function getUserAgents(): array
     {
         return $this->userAgents;
     }
 
-    public function getVersions() : array
+    /**
+     * @return array<int, int|string>
+     */
+    public function getVersions(): array
     {
         return $this->versions;
     }
 
-    public function getFileName() : ?string
+    public function getFileName(): ?string
     {
         return $this->fileName;
     }

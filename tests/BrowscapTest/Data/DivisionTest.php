@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Division;
@@ -11,7 +13,7 @@ class DivisionTest extends TestCase
     /**
      * tests setter and getter
      */
-    public function testGetter() : void
+    public function testGetter(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()

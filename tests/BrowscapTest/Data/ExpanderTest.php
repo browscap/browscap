@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data;
 
 use Browscap\Data\Browser;
@@ -11,30 +13,32 @@ use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+use ReflectionProperty;
+
+use function assert;
 
 class ExpanderTest extends TestCase
 {
-    /**
-     * @var Expander
-     */
+    /** @var Expander */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $logger     = $this->createMock(LoggerInterface::class);
         $collection = $this->createMock(DataCollection::class);
 
-        /* @var LoggerInterface $logger */
-        /* @var DataCollection $collection */
+        assert($logger instanceof LoggerInterface);
+        assert($collection instanceof DataCollection);
         $this->object = new Expander($logger, $collection);
     }
 
     /**
      * tests parsing an empty data collection
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testParseDoesNothingOnEmptyDatacollection() : void
+    public function testParseDoesNothingOnEmptyDatacollection(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -86,11 +90,11 @@ class ExpanderTest extends TestCase
             ->method('getUserAgents')
             ->willReturn([]);
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
         static::assertIsArray($result);
         static::assertCount(0, $result);
@@ -99,9 +103,9 @@ class ExpanderTest extends TestCase
     /**
      * tests parsing a not empty data collection without children
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testParseOnNotEmptyDatacollectionWithoutChildren() : void
+    public function testParseOnNotEmptyDatacollectionWithoutChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -172,16 +176,14 @@ class ExpanderTest extends TestCase
             ->expects(static::once())
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
         static::assertIsArray($result);
         static::assertCount(1, $result);
@@ -190,9 +192,9 @@ class ExpanderTest extends TestCase
     /**
      * tests parsing an not empty data collection with children
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testParseOnNotEmptyDatacollectionWithChildren() : void
+    public function testParseOnNotEmptyDatacollectionWithChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -272,15 +274,13 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
         static::assertIsArray($result);
         static::assertCount(2, $result);
@@ -289,9 +289,9 @@ class ExpanderTest extends TestCase
     /**
      * tests parsing a non empty data collection with children and devices
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices() : void
+    public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -395,15 +395,13 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
         static::assertIsArray($result);
         static::assertCount(3, $result);
@@ -412,9 +410,9 @@ class ExpanderTest extends TestCase
     /**
      * tests pattern id generation on a not empty data collection with children, no devices or platforms
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren() : void
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -489,20 +487,18 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
         $division
             ->expects(static::once())
             ->method('getFileName')
             ->willReturn('tests/test.json');
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
 
         static::assertArrayHasKey('PatternId', $result['abc*']);
@@ -512,9 +508,9 @@ class ExpanderTest extends TestCase
     /**
      * tests pattern id generation on a not empty data collection with children and platforms, no devices
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms() : void
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -598,9 +594,7 @@ class ExpanderTest extends TestCase
                 0 => [
                     'match' => 'abc*#PLATFORM#',
                     'properties' => ['Browser' => 'xyza'],
-                    'platforms' => [
-                        'Platform_1',
-                    ],
+                    'platforms' => ['Platform_1'],
                 ],
             ]);
 
@@ -612,20 +606,18 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
         $division
             ->expects(static::once())
             ->method('getFileName')
             ->willReturn('tests/test.json');
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
 
         static::assertArrayHasKey('PatternId', $result['abc*']);
@@ -635,9 +627,9 @@ class ExpanderTest extends TestCase
     /**
      * tests pattern id generation on a not empty data collection with children and devices, no platforms
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices() : void
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -757,20 +749,18 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
         $division
             ->expects(static::once())
             ->method('getFileName')
             ->willReturn('tests/test.json');
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
 
         static::assertArrayHasKey('PatternId', $result['abc*abc']);
@@ -783,9 +773,9 @@ class ExpanderTest extends TestCase
     /**
      * tests pattern id generation on a not empty data collection with children, platforms and devices
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices() : void
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -884,20 +874,18 @@ class ExpanderTest extends TestCase
         $division
             ->expects(static::once())
             ->method('getUserAgents')
-            ->willReturn([
-                0 => $useragent,
-            ]);
+            ->willReturn([0 => $useragent]);
 
         $division
             ->expects(static::once())
             ->method('getFileName')
             ->willReturn('tests/test.json');
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /** @var Division $division */
+        assert($division instanceof Division);
         $result = $this->object->expand($division, 'TestDivision');
 
         static::assertArrayHasKey('PatternId', $result['abc*abc']);
@@ -910,9 +898,9 @@ class ExpanderTest extends TestCase
     /**
      * tests pattern id generation on a not empty data collection with children, platforms and devices
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndBrowsers() : void
+    public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndBrowsers(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
@@ -1015,11 +1003,11 @@ class ExpanderTest extends TestCase
             ->method('getFileName')
             ->willReturn('tests/test.json');
 
-        $property = new \ReflectionProperty($this->object, 'collection');
+        $property = new ReflectionProperty($this->object, 'collection');
         $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
-        /* @var Division $division */
+        assert($division instanceof Division);
         $this->object->expand($division, 'TestDivision');
     }
 }

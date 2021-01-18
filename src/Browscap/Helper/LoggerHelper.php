@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Helper;
 
 use Monolog\ErrorHandler;
@@ -14,12 +16,8 @@ class LoggerHelper
 {
     /**
      * creates an instance of a PSR-3 Logger
-     *
-     * @param OutputInterface $output
-     *
-     * @return LoggerInterface
      */
-    public function create(OutputInterface $output) : LoggerInterface
+    public function create(OutputInterface $output): LoggerInterface
     {
         $logger        = new Logger('browscap');
         $consoleLogger = new ConsoleLogger($output);

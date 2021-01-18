@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Writer\Factory;
 
 use Browscap\Formatter\FormatterInterface;
@@ -9,16 +11,16 @@ use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
+use function assert;
+
 class CustomWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /**
-     * @var CustomWriterFactory
-     */
+    /** @var CustomWriterFactory */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
 
@@ -28,72 +30,72 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionWithDefaultParams() : void
+    public function testCreateCollectionWithDefaultParams(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir));
     }
 
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionForCsvFile() : void
+    public function testCreateCollectionForCsvFile(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_CSV));
     }
 
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionForAspFile() : void
+    public function testCreateCollectionForAspFile(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_ASP));
     }
 
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionForXmlFile() : void
+    public function testCreateCollectionForXmlFile(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_XML));
     }
 
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionForJsonFile() : void
+    public function testCreateCollectionForJsonFile(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_JSON));
     }
 
     /**
      * tests creating a writer collection
      */
-    public function testCreateCollectionForPhpFile() : void
+    public function testCreateCollectionForPhpFile(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
         $dir    = vfsStream::url(self::STORAGE_DIR);
 
-        /** @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         static::assertInstanceOf(WriterCollection::class, $this->object->createCollection($logger, $dir, null, [], FormatterInterface::TYPE_PHP));
     }
 }

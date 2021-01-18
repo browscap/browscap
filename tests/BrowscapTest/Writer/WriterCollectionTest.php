@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
@@ -9,34 +11,29 @@ use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
+use Exception;
 use org\bovigo\vfs\vfsStream;
-use org\bovigo\vfs\vfsStreamDirectory;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+
+use function assert;
+
+use const DIRECTORY_SEPARATOR;
 
 class WriterCollectionTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /**
-     * @var WriterCollection
-     */
+    /** @var WriterCollection */
     private $object;
 
-    /**
-     * @var vfsStreamDirectory
-     */
-    private $root;
-
-    /**
-     * @var string
-     */
+    /** @var string */
     private $file;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
-        $this->root = vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.csv';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
 
         $this->object = new WriterCollection();
     }
@@ -44,9 +41,9 @@ class WriterCollectionTest extends TestCase
     /**
      * tests setting and getting a writer
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testAddWriterAndSetSilent() : void
+    public function testAddWriterAndSetSilent(): void
     {
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
@@ -70,17 +67,17 @@ class WriterCollectionTest extends TestCase
             ->method('getFilter')
             ->willReturn($mockFilter);
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        /* @var Division $division */
+        assert($division instanceof Division);
         $this->object->setSilent($division);
     }
 
     /**
      * tests setting a file into silent mode
      */
-    public function testSetSilentSection() : void
+    public function testSetSilentSection(): void
     {
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
@@ -104,7 +101,7 @@ class WriterCollectionTest extends TestCase
             ->method('getFilter')
             ->willReturn($mockFilter);
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->setSilentSection($mockDivision);
     }
@@ -112,7 +109,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the start of the file
      */
-    public function testFileStart() : void
+    public function testFileStart(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -123,7 +120,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('fileStart');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->fileStart();
     }
@@ -131,7 +128,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the end of the file
      */
-    public function testFileEnd() : void
+    public function testFileEnd(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -142,7 +139,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('fileEnd');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->fileEnd();
     }
@@ -150,7 +147,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the header information
      */
-    public function testRenderHeader() : void
+    public function testRenderHeader(): void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -163,7 +160,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderHeader');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderHeader($header);
     }
@@ -171,9 +168,9 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \Exception
+     * @throws Exception
      */
-    public function testRenderVersion() : void
+    public function testRenderVersion(): void
     {
         $version = 'test';
 
@@ -221,10 +218,10 @@ class WriterCollectionTest extends TestCase
             ->method('getFormatter')
             ->willReturn($mockFormatter);
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderVersion($version, new DateTimeImmutable(), $collection);
         $this->object->close();
     }
@@ -232,9 +229,9 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the header for all division
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testRenderAllDivisionsHeader() : void
+    public function testRenderAllDivisionsHeader(): void
     {
         $collection = $this->createMock(DataCollection::class);
 
@@ -247,17 +244,17 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderAllDivisionsHeader');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderAllDivisionsHeader($collection);
     }
 
     /**
      * tests rendering the header of one division
      */
-    public function testRenderDivisionHeader() : void
+    public function testRenderDivisionHeader(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -268,7 +265,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderDivisionHeader');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderDivisionHeader('test');
     }
@@ -276,7 +273,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the header of one section
      */
-    public function testRenderSectionHeader() : void
+    public function testRenderSectionHeader(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -287,7 +284,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderSectionHeader');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderSectionHeader('test');
     }
@@ -295,9 +292,9 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testRenderSectionBody() : void
+    public function testRenderSectionBody(): void
     {
         $section = [
             'Comment' => 1,
@@ -315,17 +312,17 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderSectionBody');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
     }
 
     /**
      * tests rendering the footer of one section
      */
-    public function testRenderSectionFooter() : void
+    public function testRenderSectionFooter(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -336,7 +333,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderSectionFooter');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderSectionFooter();
     }
@@ -344,7 +341,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the footer of one division
      */
-    public function testRenderDivisionFooter() : void
+    public function testRenderDivisionFooter(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -355,7 +352,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderDivisionFooter');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderDivisionFooter();
     }
@@ -363,7 +360,7 @@ class WriterCollectionTest extends TestCase
     /**
      * tests rendering the footer after all divisions
      */
-    public function testRenderAllDivisionsFooter() : void
+    public function testRenderAllDivisionsFooter(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
@@ -374,7 +371,7 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('renderAllDivisionsFooter');
 
-        /* @var CsvWriter $mockWriter */
+        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderAllDivisionsFooter();
     }

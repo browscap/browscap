@@ -1,20 +1,23 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Formatter;
 
 use Browscap\Data\PropertyHolder;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\XmlFormatter;
+use Exception;
 use PHPUnit\Framework\TestCase;
+
+use function sprintf;
 
 class XmlFormatterTest extends TestCase
 {
-    /**
-     * @var XmlFormatter
-     */
+    /** @var XmlFormatter */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -31,7 +34,7 @@ class XmlFormatterTest extends TestCase
     /**
      * tests getter for the formatter type
      */
-    public function testGetType() : void
+    public function testGetType(): void
     {
         static::assertSame(FormatterInterface::TYPE_XML, $this->object->getType());
     }
@@ -39,15 +42,17 @@ class XmlFormatterTest extends TestCase
     /**
      * tests formatting a property name
      */
-    public function testFormatPropertyName() : void
+    public function testFormatPropertyName(): void
     {
         static::assertSame('text', $this->object->formatPropertyName('text'));
     }
 
     /**
      * Data Provider for the test testGetPropertyType
+     *
+     * @return array<array<string>>
      */
-    public function propertyNameTypeDataProvider() : array
+    public function propertyNameTypeDataProvider(): array
     {
         return [
             ['Comment', 'test', 'test'],
@@ -92,26 +97,22 @@ class XmlFormatterTest extends TestCase
     /**
      * tests formatting a property value
      *
+     * @throws Exception
+     *
      * @dataProvider propertyNameTypeDataProvider
-     *
-     * @param string $propertyName
-     * @param string $inputValue
-     * @param string $expectedValue
-     *
-     * @throws \Exception
      */
-    public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue) : void
+    public function testFormatPropertyValue(string $propertyName, string $inputValue, string $expectedValue): void
     {
         $actualValue = $this->object->formatPropertyValue($inputValue, $propertyName);
-        static::assertSame($expectedValue, $actualValue, "Property {$propertyName} should be {$expectedValue} (was {$actualValue})");
+        static::assertSame($expectedValue, $actualValue, sprintf('Property %s should be %s (was %s)', $propertyName, $expectedValue, $actualValue));
     }
 
     /**
      * tests formatting a property value
      *
-     * @throws \Exception
+     * @throws Exception
      */
-    public function testFormatPropertyValueWithException() : void
+    public function testFormatPropertyValueWithException(): void
     {
         $actualValue = $this->object->formatPropertyValue('Browserx', 'Device_Pointing_Method');
         static::assertSame('', $actualValue);
@@ -120,9 +121,9 @@ class XmlFormatterTest extends TestCase
     /**
      * tests formatting a property value
      *
-     * @throws \Exception
+     * @throws Exception
      */
-    public function testFormatPropertyValueWithUnknownValue() : void
+    public function testFormatPropertyValueWithUnknownValue(): void
     {
         $actualValue = $this->object->formatPropertyValue('unknown', 'Browser_Type');
         static::assertSame('', $actualValue);

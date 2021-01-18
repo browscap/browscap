@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 /**
@@ -7,25 +9,17 @@ namespace Browscap\Data;
  */
 class Device
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $type;
 
-    /**
-     * @var array
-     */
+    /** @var array<string> */
     private $properties = [];
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $standard = false;
 
     /**
-     * @param array  $properties
-     * @param string $type
-     * @param bool   $standard
+     * @param array<string> $properties
      */
     public function __construct(array $properties, string $type, bool $standard)
     {
@@ -34,23 +28,20 @@ class Device
         $this->standard   = $standard;
     }
 
-    /**
-     * @return string
-     */
-    public function getType() : string
+    public function getType(): string
     {
         return $this->type;
     }
 
     /**
-     * @return array
+     * @return array<string>
      */
-    public function getProperties() : array
+    public function getProperties(): array
     {
         return $this->properties;
     }
 
-    public function isStandard() : bool
+    public function isStandard(): bool
     {
         return $this->standard;
     }

@@ -1,71 +1,51 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
-use Psr\Log\LoggerInterface;
+use OutOfBoundsException;
+use UnexpectedValueException;
+
+use function array_key_exists;
+use function array_multisort;
+use function assert;
+use function sprintf;
+
+use const SORT_ASC;
+use const SORT_DESC;
+use const SORT_NUMERIC;
 
 class DataCollection
 {
-    /**
-     * @var Platform[]
-     */
+    /** @var Platform[] */
     private $platforms = [];
 
-    /**
-     * @var Engine[]
-     */
+    /** @var Engine[] */
     private $engines = [];
 
-    /**
-     * @var Browser[]
-     */
+    /** @var Browser[] */
     private $browsers = [];
 
-    /**
-     * @var Device[]
-     */
+    /** @var Device[] */
     private $devices = [];
 
-    /**
-     * @var Division[]
-     */
+    /** @var Division[] */
     private $divisions = [];
 
-    /**
-     * @var Division
-     */
+    /** @var Division */
     private $defaultProperties;
 
-    /**
-     * @var Division
-     */
+    /** @var Division */
     private $defaultBrowser;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $divisionsHaveBeenSorted = false;
 
     /**
-     * @var LoggerInterface
+     * @param string $platformName Name of the platform
      */
-    private $logger;
-
-    /**
-     * @param LoggerInterface $logger
-     *
-     * @throws \Exception
-     */
-    public function __construct(LoggerInterface $logger)
-    {
-        $this->logger = $logger;
-    }
-
-    /**
-     * @param string   $platformName Name of the platform
-     * @param Platform $platform
-     */
-    public function addPlatform(string $platformName, Platform $platform) : void
+    public function addPlatform(string $platformName, Platform $platform): void
     {
         $this->platforms[$platformName] = $platform;
 
@@ -74,9 +54,8 @@ class DataCollection
 
     /**
      * @param string $engineName Name of the engine
-     * @param Engine $engine
      */
-    public function addEngine(string $engineName, Engine $engine) : void
+    public function addEngine(string $engineName, Engine $engine): void
     {
         $this->engines[$engineName] = $engine;
 
@@ -84,10 +63,9 @@ class DataCollection
     }
 
     /**
-     * @param string  $browserName Name of the browser
-     * @param Browser $browser
+     * @param string $browserName Name of the browser
      */
-    public function addBrowser(string $browserName, Browser $browser) : void
+    public function addBrowser(string $browserName, Browser $browser): void
     {
         if (array_key_exists($browserName, $this->browsers)) {
             throw new DuplicateDataException(
@@ -102,9 +80,8 @@ class DataCollection
 
     /**
      * @param string $deviceName Name of the device
-     * @param Device $device
      */
-    public function addDevice(string $deviceName, Device $device) : void
+    public function addDevice(string $deviceName, Device $device): void
     {
         if (array_key_exists($deviceName, $this->devices)) {
             throw new DuplicateDataException(
@@ -117,10 +94,7 @@ class DataCollection
         $this->divisionsHaveBeenSorted = false;
     }
 
-    /**
-     * @param Division $division
-     */
-    public function addDivision(Division $division) : void
+    public function addDivision(Division $division): void
     {
         $this->divisions[] = $division;
 
@@ -129,10 +103,8 @@ class DataCollection
 
     /**
      * Load the file for the default properties
-     *
-     * @param Division $division
      */
-    public function setDefaultProperties(Division $division) : void
+    public function setDefaultProperties(Division $division): void
     {
         $this->defaultProperties = $division;
 
@@ -141,10 +113,8 @@ class DataCollection
 
     /**
      * Load the file for the default browser
-     *
-     * @param Division $division
      */
-    public function setDefaultBrowser(Division $division) : void
+    public function setDefaultBrowser(Division $division): void
     {
         $this->defaultBrowser = $division;
 
@@ -156,7 +126,7 @@ class DataCollection
      *
      * @return Division[]
      */
-    public function getDivisions() : array
+    public function getDivisions(): array
     {
         $this->sortDivisions();
 
@@ -166,7 +136,7 @@ class DataCollection
     /**
      * Sort the divisions (if they haven't already been sorted)
      */
-    private function sortDivisions() : void
+    private function sortDivisions(): void
     {
         if ($this->divisionsHaveBeenSorted) {
             return;
@@ -176,7 +146,7 @@ class DataCollection
         $sortPosition = [];
 
         foreach ($this->divisions as $key => $division) {
-            /* @var \Browscap\Data\Division $division */
+            assert($division instanceof Division);
             $sortIndex[$key]    = $division->getSortIndex();
             $sortPosition[$key] = $key;
         }
@@ -196,20 +166,16 @@ class DataCollection
 
     /**
      * Get the divisions array containing UA data
-     *
-     * @return Division
      */
-    public function getDefaultProperties() : Division
+    public function getDefaultProperties(): Division
     {
         return $this->defaultProperties;
     }
 
     /**
      * Get the divisions array containing UA data
-     *
-     * @return Division
      */
-    public function getDefaultBrowser() : Division
+    public function getDefaultBrowser(): Division
     {
         return $this->defaultBrowser;
     }
@@ -217,17 +183,13 @@ class DataCollection
     /**
      * Get a single platform data array
      *
-     * @param string $platform
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return Platform
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    public function getPlatform(string $platform) : Platform
+    public function getPlatform(string $platform): Platform
     {
-        if (!array_key_exists($platform, $this->platforms)) {
-            throw new \OutOfBoundsException(
+        if (! array_key_exists($platform, $this->platforms)) {
+            throw new OutOfBoundsException(
                 'Platform "' . $platform . '" does not exist in data'
             );
         }
@@ -238,17 +200,13 @@ class DataCollection
     /**
      * Get a single engine data array
      *
-     * @param string $engine
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return Engine
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    public function getEngine(string $engine) : Engine
+    public function getEngine(string $engine): Engine
     {
-        if (!array_key_exists($engine, $this->engines)) {
-            throw new \OutOfBoundsException(
+        if (! array_key_exists($engine, $this->engines)) {
+            throw new OutOfBoundsException(
                 'Rendering Engine "' . $engine . '" does not exist in data'
             );
         }
@@ -259,17 +217,13 @@ class DataCollection
     /**
      * Get a single browser data array
      *
-     * @param string $browser
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return Browser
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    public function getBrowser(string $browser) : Browser
+    public function getBrowser(string $browser): Browser
     {
-        if (!array_key_exists($browser, $this->browsers)) {
-            throw new \OutOfBoundsException(
+        if (! array_key_exists($browser, $this->browsers)) {
+            throw new OutOfBoundsException(
                 'Browser "' . $browser . '" does not exist in data'
             );
         }
@@ -280,17 +234,13 @@ class DataCollection
     /**
      * Get a single engine data array
      *
-     * @param string $device
-     *
-     * @throws \OutOfBoundsException
-     * @throws \UnexpectedValueException
-     *
-     * @return Device
+     * @throws OutOfBoundsException
+     * @throws UnexpectedValueException
      */
-    public function getDevice(string $device) : Device
+    public function getDevice(string $device): Device
     {
-        if (!array_key_exists($device, $this->devices)) {
-            throw new \OutOfBoundsException(
+        if (! array_key_exists($device, $this->devices)) {
+            throw new OutOfBoundsException(
                 'Device "' . $device . '" does not exist in data'
             );
         }

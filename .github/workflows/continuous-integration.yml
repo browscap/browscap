@@ -196,8 +196,8 @@ jobs:
       - name: "Update dependencies with composer"
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
 
-      - name: "Run friendsofphp/php-cs-fixer"
-        run: "vendor/bin/php-cs-fixer fix --dry-run -vv"
+      - name: "Run squizlabs/php_codesniffer"
+        run: "vendor/bin/phpcs --colors"
 
   static-code-analysis:
     name: "Static Code Analysis"

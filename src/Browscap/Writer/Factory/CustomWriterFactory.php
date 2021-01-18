@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Writer\Factory;
 
 use Browscap\Data\PropertyHolder;
@@ -16,13 +18,7 @@ use Psr\Log\LoggerInterface;
 class CustomWriterFactory
 {
     /**
-     * @param LoggerInterface $logger
-     * @param string          $buildFolder
-     * @param string|null     $file
-     * @param array           $fields
-     * @param string          $format
-     *
-     * @return WriterCollection
+     * @param array<string> $fields
      */
     public function createCollection(
         LoggerInterface $logger,
@@ -30,11 +26,11 @@ class CustomWriterFactory
         ?string $file = null,
         array $fields = [],
         string $format = FormatterInterface::TYPE_PHP
-    ) : WriterCollection {
+    ): WriterCollection {
         $writerCollection = new WriterCollection();
         $propertyHolder   = new PropertyHolder();
 
-        if (null === $file) {
+        if ($file === null) {
             switch ($format) {
                 case FormatterInterface::TYPE_ASP:
                     $file = $buildFolder . '/full_browscap.ini';

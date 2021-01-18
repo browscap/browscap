@@ -1,29 +1,32 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\UserAgent;
+use LogicException;
+use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\TestCase;
+use RuntimeException;
 
 class UseragentFactoryTest extends TestCase
 {
-    /**
-     * @var UserAgentFactory
-     */
+    /** @var UserAgentFactory */
     private $object;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->object = new UserAgentFactory();
     }
 
     /**
-     * @throws \LogicException
-     * @throws \PHPUnit\Framework\Exception
-     * @throws \RuntimeException
+     * @throws LogicException
+     * @throws Exception
+     * @throws RuntimeException
      */
-    public function testBuildOkCore() : void
+    public function testBuildOkCore(): void
     {
         $userAgentsData = [
             [
@@ -49,11 +52,11 @@ class UseragentFactoryTest extends TestCase
     }
 
     /**
-     * @throws \LogicException
-     * @throws \PHPUnit\Framework\Exception
-     * @throws \RuntimeException
+     * @throws LogicException
+     * @throws Exception
+     * @throws RuntimeException
      */
-    public function testBuildOkNotCore() : void
+    public function testBuildOkNotCore(): void
     {
         $userAgentsData = [
             [

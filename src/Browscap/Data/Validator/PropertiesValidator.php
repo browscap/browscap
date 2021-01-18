@@ -1,23 +1,28 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Validator;
 
 use Assert\Assertion;
+use Assert\AssertionFailedException;
+use LogicException;
+
+use function in_array;
 
 final class PropertiesValidator implements ValidatorInterface
 {
     /**
      * validates the fully expanded properties
      *
-     * @param array  $properties Data to validate
-     * @param string $key
+     * @param mixed[] $properties Data to validate
      *
-     * @throws \LogicException
-     * @throws \Assert\AssertionFailedException
+     * @throws LogicException
+     * @throws AssertionFailedException
      */
-    public function validate(array $properties, string $key) : void
+    public function validate(array $properties, string $key): void
     {
-        if (!in_array($key, ['DefaultProperties', '*'])) {
+        if (! in_array($key, ['DefaultProperties', '*'])) {
             Assertion::keyExists($properties, 'Parent', 'property "Parent" is missing for key "' . $key . '"');
             Assertion::string($properties['Parent'], 'property "Parent" must be a String for key "' . $key . '", got "%s"');
         }

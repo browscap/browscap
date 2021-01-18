@@ -1,7 +1,11 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Generator\Helper;
 
+use Assert\AssertionFailedException;
+use Browscap\Data\Division;
 use Browscap\Data\Expander;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\Helper\SplitVersion;
@@ -9,22 +13,21 @@ use Browscap\Data\Helper\VersionNumber;
 use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
+use Exception;
 use JsonClass\Json;
 use Psr\Log\LoggerInterface;
+
+use function array_key_exists;
+use function array_keys;
+use function array_merge;
+use function assert;
+use function current;
 
 final class BuildHelper
 {
     /**
-     * @param string                $buildVersion
-     * @param DateTimeImmutable     $generationDate
-     * @param string                $resourceFolder
-     * @param LoggerInterface       $logger
-     * @param WriterCollection      $writerCollection
-     * @param DataCollectionFactory $dataCollectionFactory
-     * @param bool                  $collectPatternIds
-     *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
     public static function run(
         string $buildVersion,
@@ -34,7 +37,7 @@ final class BuildHelper
         WriterCollection $writerCollection,
         DataCollectionFactory $dataCollectionFactory,
         bool $collectPatternIds = false
-    ) : void {
+    ): void {
         $logger->info('started creating a data collection');
 
         $collection = $dataCollectionFactory->createDataCollection($resourceFolder);
@@ -79,7 +82,7 @@ final class BuildHelper
         $sectionName = $ua->getUserAgent();
         $section     = $ua->getProperties();
 
-        if (!$collectPatternIds) {
+        if (! $collectPatternIds) {
             unset($section['PatternId']);
         }
 
@@ -92,7 +95,7 @@ final class BuildHelper
         $jsonClass = new Json();
 
         foreach ($collection->getDivisions() as $division) {
-            /** @var \Browscap\Data\Division $division */
+            assert($division instanceof Division);
 
             // run checks on division before expanding versions because the checked properties do not change between
             // versions
@@ -136,7 +139,7 @@ final class BuildHelper
 
                     $section = $sectionsWithVersion[$sectionName];
 
-                    if (!$collectPatternIds) {
+                    if (! $collectPatternIds) {
                         unset($section['PatternId']);
                     }
 
@@ -168,7 +171,7 @@ final class BuildHelper
             $ua->getProperties()
         );
 
-        if (!$collectPatternIds) {
+        if (! $collectPatternIds) {
             unset($section['PatternId']);
         }
 

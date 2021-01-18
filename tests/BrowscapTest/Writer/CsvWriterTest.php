@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
@@ -13,32 +15,36 @@ use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
+use function assert;
+use function date;
+use function file_get_contents;
+use function unlink;
+
+use const DIRECTORY_SEPARATOR;
+use const PHP_EOL;
+
 class CsvWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /**
-     * @var CsvWriter
-     */
+    /** @var CsvWriter */
     private $object;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $file;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.csv';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
 
         $logger = $this->createMock(LoggerInterface::class);
 
-        /* @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         $this->object = new CsvWriter($this->file, $logger);
     }
 
-    protected function teardown() : void
+    protected function teardown(): void
     {
         $this->object->close();
 
@@ -48,7 +54,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests getting the writer type
      */
-    public function testGetType() : void
+    public function testGetType(): void
     {
         static::assertSame(WriterInterface::TYPE_CSV, $this->object->getType());
     }
@@ -56,11 +62,11 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting and getting a formatter
      */
-    public function testSetGetFormatter() : void
+    public function testSetGetFormatter(): void
     {
         $mockFormatter = $this->createMock(CsvFormatter::class);
 
-        /* @var CsvFormatter $mockFormatter */
+        assert($mockFormatter instanceof CsvFormatter);
         $this->object->setFormatter($mockFormatter);
         static::assertSame($mockFormatter, $this->object->getFormatter());
     }
@@ -68,11 +74,11 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting and getting a filter
      */
-    public function testSetGetFilter() : void
+    public function testSetGetFilter(): void
     {
         $mockFilter = $this->createMock(FullFilter::class);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
         static::assertSame($mockFilter, $this->object->getFilter());
     }
@@ -80,7 +86,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting a file into silent mode
      */
-    public function testSetGetSilent() : void
+    public function testSetGetSilent(): void
     {
         $this->object->setSilent(true);
         static::assertTrue($this->object->isSilent());
@@ -89,7 +95,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the start of the file
      */
-    public function testFileStart() : void
+    public function testFileStart(): void
     {
         $this->object->fileStart();
         static::assertSame('', file_get_contents($this->file));
@@ -98,7 +104,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the end of the file
      */
-    public function testFileEnd() : void
+    public function testFileEnd(): void
     {
         $this->object->fileEnd();
         static::assertSame('', file_get_contents($this->file));
@@ -107,7 +113,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header information
      */
-    public function testRenderHeader() : void
+    public function testRenderHeader(): void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -118,7 +124,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfSilent() : void
+    public function testRenderVersionIfSilent(): void
     {
         $version = [
             'version' => 'test',
@@ -136,7 +142,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfNotSilent() : void
+    public function testRenderVersionIfNotSilent(): void
     {
         $version = [
             'version' => 'test',
@@ -157,7 +163,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfNotSilentButWithoutVersion() : void
+    public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
         $version = [];
 
@@ -173,7 +179,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      */
-    public function testRenderAllDivisionsHeader() : void
+    public function testRenderAllDivisionsHeader(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -218,7 +224,7 @@ class CsvWriterTest extends TestCase
             ->method('formatPropertyName')
             ->willReturnArgument(0);
 
-        /* @var CsvFormatter $mockFormatter */
+        assert($mockFormatter instanceof CsvFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
@@ -242,10 +248,10 @@ class CsvWriterTest extends TestCase
             ->method('isOutputProperty')
             ->willReturnMap($map);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderAllDivisionsHeader($collection);
         static::assertSame('Parent,Test' . PHP_EOL, file_get_contents($this->file));
     }
@@ -253,7 +259,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      */
-    public function testRenderAllDivisionsHeaderWithoutProperties() : void
+    public function testRenderAllDivisionsHeaderWithoutProperties(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -285,7 +291,7 @@ class CsvWriterTest extends TestCase
             ->method('getDefaultProperties')
             ->willReturn($division);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderAllDivisionsHeader($collection);
         static::assertSame('', file_get_contents($this->file));
     }
@@ -293,7 +299,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header of one division
      */
-    public function testRenderDivisionHeader() : void
+    public function testRenderDivisionHeader(): void
     {
         $this->object->renderDivisionHeader('test');
         static::assertSame('', file_get_contents($this->file));
@@ -302,7 +308,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      */
-    public function testRenderSectionHeader() : void
+    public function testRenderSectionHeader(): void
     {
         $this->object->renderSectionHeader('test');
         static::assertSame('', file_get_contents($this->file));
@@ -311,7 +317,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      */
-    public function testRenderSectionBodyIfNotSilent() : void
+    public function testRenderSectionBodyIfNotSilent(): void
     {
         $this->object->setSilent(false);
 
@@ -365,7 +371,7 @@ class CsvWriterTest extends TestCase
             ->method('formatPropertyValue')
             ->willReturnArgument(0);
 
-        /* @var CsvFormatter $mockFormatter */
+        assert($mockFormatter instanceof CsvFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
@@ -389,10 +395,10 @@ class CsvWriterTest extends TestCase
             ->method('isOutputProperty')
             ->willReturnMap($map);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
         static::assertSame(',1,bcd,' . PHP_EOL, file_get_contents($this->file));
     }
@@ -400,7 +406,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      */
-    public function testRenderSectionBodyIfSilent() : void
+    public function testRenderSectionBodyIfSilent(): void
     {
         $this->object->setSilent(true);
 
@@ -412,7 +418,7 @@ class CsvWriterTest extends TestCase
 
         $collection = $this->createMock(DataCollection::class);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
         static::assertSame('', file_get_contents($this->file));
     }
@@ -420,7 +426,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      */
-    public function testRenderSectionFooter() : void
+    public function testRenderSectionFooter(): void
     {
         $this->object->renderSectionFooter();
         static::assertSame('', file_get_contents($this->file));
@@ -429,7 +435,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer of one division
      */
-    public function testRenderDivisionFooter() : void
+    public function testRenderDivisionFooter(): void
     {
         $this->object->renderDivisionFooter();
         static::assertSame('', file_get_contents($this->file));
@@ -438,7 +444,7 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer after all divisions
      */
-    public function testRenderAllDivisionsFooter() : void
+    public function testRenderAllDivisionsFooter(): void
     {
         $this->object->renderAllDivisionsFooter();
         static::assertSame('', file_get_contents($this->file));

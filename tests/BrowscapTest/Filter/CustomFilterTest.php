@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Filter;
 
 use Browscap\Data\Division;
@@ -9,13 +11,14 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use PHPUnit\Framework\TestCase;
+use ReflectionException;
 
 class CustomFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
      */
-    public function testGetType() : void
+    public function testGetType(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -34,9 +37,9 @@ class CustomFilterTest extends TestCase
     /**
      * tests detecting if a divion should be in the output
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testIsOutput() : void
+    public function testIsOutput(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -57,9 +60,9 @@ class CustomFilterTest extends TestCase
     /**
      * Data Provider for the test testIsOutputProperty
      *
-     * @return array
+     * @return array<int, array<int, bool|string>>
      */
-    public function outputPropertiesDataProvider() : array
+    public function outputPropertiesDataProvider(): array
     {
         return [
             ['Comment', false],
@@ -109,11 +112,8 @@ class CustomFilterTest extends TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @param string $propertyName
-     * @param bool   $isExtra
      */
-    public function testIsOutputProperty(string $propertyName, bool $isExtra) : void
+    public function testIsOutputProperty(string $propertyName, bool $isExtra): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -142,10 +142,8 @@ class CustomFilterTest extends TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @param string $propertyName
      */
-    public function testIsOutputPropertyModified(string $propertyName) : void
+    public function testIsOutputPropertyModified(string $propertyName): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -173,10 +171,8 @@ class CustomFilterTest extends TestCase
 
     /**
      * @dataProvider outputPropertiesDataProvider
-     *
-     * @param string $propertyName
      */
-    public function testIsOutputPropertyWithPropertyHolder(string $propertyName) : void
+    public function testIsOutputPropertyWithPropertyHolder(string $propertyName): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
@@ -204,7 +200,7 @@ class CustomFilterTest extends TestCase
     /**
      * tests if a section is always in the output
      */
-    public function testIsOutputSectionAlways() : void
+    public function testIsOutputSectionAlways(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()

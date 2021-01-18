@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data;
 
 /**
@@ -7,49 +9,30 @@ namespace Browscap\Data;
  */
 class UserAgent
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $userAgent = '';
 
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private $properties = [];
 
-    /**
-     * @var array[]
-     */
+    /** @var mixed[] */
     private $children = [];
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $platform;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $engine;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $device;
 
-    /**
-     * @var string|null
-     */
+    /** @var string|null */
     private $browser;
 
     /**
-     * @param string      $userAgent
-     * @param string[]    $properties
-     * @param array[]     $children
-     * @param string|null $platform
-     * @param string|null $engine
-     * @param string|null $device
-     * @param string|null $browser
+     * @param array<string> $properties
+     * @param mixed[]       $children
      */
     public function __construct(
         string $userAgent,
@@ -69,37 +52,43 @@ class UserAgent
         $this->browser    = $browser;
     }
 
-    public function getUserAgent() : string
+    public function getUserAgent(): string
     {
         return $this->userAgent;
     }
 
-    public function getProperties() : array
+    /**
+     * @return array<string>
+     */
+    public function getProperties(): array
     {
         return $this->properties;
     }
 
-    public function getChildren() : array
+    /**
+     * @return mixed[]
+     */
+    public function getChildren(): array
     {
         return $this->children;
     }
 
-    public function getPlatform() : ?string
+    public function getPlatform(): ?string
     {
         return $this->platform;
     }
 
-    public function getEngine() : ?string
+    public function getEngine(): ?string
     {
         return $this->engine;
     }
 
-    public function getDevice() : ?string
+    public function getDevice(): ?string
     {
         return $this->device;
     }
 
-    public function getBrowser() : ?string
+    public function getBrowser(): ?string
     {
         return $this->browser;
     }

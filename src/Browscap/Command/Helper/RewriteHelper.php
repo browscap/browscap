@@ -1,45 +1,52 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Command\Helper;
 
 use Ergebnis\Json\Normalizer;
 use Ergebnis\Json\Printer\Printer;
+use Exception;
 use ExceptionalJSON\DecodeErrorException;
 use ExceptionalJSON\EncodeErrorException;
 use JsonSchema\SchemaStorage;
 use JsonSchema\Validator;
 use Psr\Log\LoggerInterface;
+use RuntimeException;
 use Symfony\Component\Console\Helper\Helper;
 use Symfony\Component\Finder\Finder;
+use Throwable;
 
-class Rewrite extends Helper
+use function assert;
+use function file_put_contents;
+use function sprintf;
+
+use const JSON_PRETTY_PRINT;
+use const JSON_UNESCAPED_SLASHES;
+use const JSON_UNESCAPED_UNICODE;
+
+class RewriteHelper extends Helper
 {
-    public function getName() : string
+    public function getName(): string
     {
         return 'rewrite';
     }
 
-    /**
-     * @param \Psr\Log\LoggerInterface $logger
-     * @param string                   $resources
-     * @param string                   $schema
-     * @param bool                     $sort
-     */
-    public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false) : void
+    public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false): void
     {
         $normalizer = new Normalizer\SchemaNormalizer(
             $schema,
             new SchemaStorage(),
             new Normalizer\Validator\SchemaValidator(new Validator())
         );
-        $format = new Normalizer\Format\Format(
+        $format     = new Normalizer\Format\Format(
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
             true
         );
-        $printer   = new Printer();
-        $formatter = new Normalizer\Format\Formatter($printer);
+        $printer    = new Printer();
+        $formatter  = new Normalizer\Format\Formatter($printer);
 
         $finder = new Finder();
         $finder->files();
@@ -55,20 +62,20 @@ class Rewrite extends Helper
 
             try {
                 $json = $file->getContents();
-            } catch (\RuntimeException $e) {
-                $logger->critical(new \Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+            } catch (RuntimeException $e) {
+                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
 
                 continue;
             }
 
             if ($sort) {
-                /** @var \Browscap\Command\Helper\Sorter $sorterHelper */
                 $sorterHelper = $this->helperSet->get('sorter');
+                assert($sorterHelper instanceof Sorter);
 
                 try {
                     $json = $sorterHelper->sort($json);
                 } catch (DecodeErrorException | EncodeErrorException $e) {
-                    $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                    $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                     continue;
                 }
@@ -76,8 +83,8 @@ class Rewrite extends Helper
 
             try {
                 $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
-            } catch (\Throwable $e) {
-                $logger->critical(new \Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+            } catch (Throwable $e) {
+                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                 continue;
             }

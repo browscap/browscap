@@ -8,29 +8,40 @@
  * file that was distributed with this source code.
  */
 
-declare(strict_types = 1);
+declare(strict_types=1);
+
 namespace Browscap\Parser;
+
+use InvalidArgumentException;
+use RuntimeException;
+
+use function array_keys;
+use function count;
+use function explode;
+use function file;
+use function file_exists;
+use function is_array;
+use function ksort;
+use function mb_strlen;
+use function mb_substr;
+use function sprintf;
+use function trim;
+
+use const FILE_IGNORE_NEW_LINES;
+use const FILE_SKIP_EMPTY_LINES;
 
 final class IniParser implements ParserInterface
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $filename;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $shouldSort = false;
 
-    /**
-     * @var array
-     */
+    /** @var array<array<array<string>|string>> */
     private $data;
 
-    /**
-     * @var array
-     */
+    /** @var array<string> */
     private $fileLines;
 
     public function __construct(string $filename)
@@ -38,68 +49,65 @@ final class IniParser implements ParserInterface
         $this->filename = $filename;
     }
 
-    public function setShouldSort(bool $shouldSort) : void
+    public function setShouldSort(bool $shouldSort): void
     {
         $this->shouldSort = $shouldSort;
     }
 
-    public function shouldSort() : bool
+    public function shouldSort(): bool
     {
         return $this->shouldSort;
     }
 
     /**
-     * @return array
+     * @return array<array<array<string>|string>>
      */
-    public function getParsed() : array
+    public function getParsed(): array
     {
         return $this->data;
     }
 
-    /**
-     * @return string
-     */
-    public function getFilename() : string
+    public function getFilename(): string
     {
         return $this->filename;
     }
 
     /**
-     * @throws \InvalidArgumentException
+     * @return array<string>
      *
-     * @return array
+     * @throws InvalidArgumentException
      */
-    public function getLinesFromFile() : array
+    public function getLinesFromFile(): array
     {
         $filename = $this->filename;
 
-        if (!file_exists($filename)) {
-            throw new \InvalidArgumentException("File not found: {$filename}");
+        if (! file_exists($filename)) {
+            throw new InvalidArgumentException(sprintf('File not found: %s', $filename));
         }
 
         $data = file($filename, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
-        if (false === $data) {
-            throw new \InvalidArgumentException("An error occured while reading File: {$filename}");
+        if ($data === false) {
+            throw new InvalidArgumentException(sprintf('An error occured while reading File: %s', $filename));
         }
 
         return $data;
     }
 
     /**
-     * @param string[] $fileLines
+     * @param array<string> $fileLines
      */
-    public function setFileLines(array $fileLines) : void
+    public function setFileLines(array $fileLines): void
     {
         $this->fileLines = $fileLines;
     }
 
     /**
-     * @return array
+     * @return array<string>
      */
-    public function getFileLines() : array
+    public function getFileLines(): array
     {
-        if (!$this->fileLines) {
+        if (! $this->fileLines) {
             $fileLines = $this->getLinesFromFile();
         } else {
             $fileLines = $this->fileLines;
@@ -109,11 +117,11 @@ final class IniParser implements ParserInterface
     }
 
     /**
-     * @throws \RuntimeException
+     * @return array<array<array<string>|string>>
      *
-     * @return array
+     * @throws RuntimeException
      */
-    public function parse() : array
+    public function parse(): array
     {
         $fileLines = $this->getFileLines();
 
@@ -123,26 +131,26 @@ final class IniParser implements ParserInterface
         $currentDivision = '';
 
         for ($line = 0, $count = count($fileLines); $line < $count; ++$line) {
-            $currentLine       = ($fileLines[$line]);
+            $currentLine       = $fileLines[$line];
             $currentLineLength = mb_strlen($currentLine);
 
-            if (0 === $currentLineLength) {
+            if ($currentLineLength === 0) {
                 continue;
             }
 
-            if (';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;' === mb_substr($currentLine, 0, 40)) {
+            if (mb_substr($currentLine, 0, 40) === ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;') {
                 $currentDivision = trim(mb_substr($currentLine, 41));
 
                 continue;
             }
 
             // We only skip comments that *start* with semicolon
-            if (';' === $currentLine[0]) {
+            if ($currentLine[0] === ';') {
                 continue;
             }
 
-            if ('[' === $currentLine[0]) {
-                $currentSection = mb_substr($currentLine, 1, ($currentLineLength - 2));
+            if ($currentLine[0] === '[') {
+                $currentSection = mb_substr($currentLine, 1, $currentLineLength - 2);
 
                 continue;
             }
@@ -150,7 +158,7 @@ final class IniParser implements ParserInterface
             $bits = explode('=', $currentLine);
 
             if (2 < count($bits)) {
-                throw new \RuntimeException("Too many equals in line: {$currentLine}, in Division: {$currentDivision}");
+                throw new RuntimeException(sprintf('Too many equals in line: %s, in Division: %s', $currentLine, $currentDivision));
             }
 
             if (2 > count($bits)) {
@@ -171,16 +179,16 @@ final class IniParser implements ParserInterface
     }
 
     /**
-     * @param array $array
+     * @param array<array<string>|string> $array
      *
-     * @return array
+     * @return array<array<array<string>|string>>
      */
-    private function sortArrayAndChildArrays(array $array) : array
+    private function sortArrayAndChildArrays(array $array): array
     {
         ksort($array);
 
         foreach (array_keys($array) as $key) {
-            if (!is_array($array[$key]) || empty($array[$key])) {
+            if (! is_array($array[$key]) || empty($array[$key])) {
                 continue;
             }
 

@@ -1,84 +1,81 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
+use Assert\AssertionFailedException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Validator\DivisionDataValidator;
+use Exception;
 use ExceptionalJSON\DecodeErrorException;
 use JsonClass\Json;
 use Psr\Log\LoggerInterface;
+use RecursiveDirectoryIterator;
+use RecursiveIteratorIterator;
+use RuntimeException;
+use SplFileInfo;
+use UnexpectedValueException;
+
+use function array_keys;
+use function assert;
+use function file_exists;
+use function file_get_contents;
+use function is_string;
 
 class DataCollectionFactory
 {
-    /**
-     * @var DataCollection
-     */
+    /** @var DataCollection */
     private $collection;
 
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
 
-    /**
-     * @var DivisionFactory
-     */
+    /** @var DivisionFactory */
     private $divisionFactory;
 
-    /**
-     * @var DeviceFactory
-     */
+    /** @var DeviceFactory */
     private $deviceFactory;
 
-    /**
-     * @var DivisionDataValidator
-     */
+    /** @var DivisionDataValidator */
     private $divisionDataValidator;
 
-    /**
-     * @var string[]
-     */
+    /** @var array<string> */
     private $allDivisions = [];
 
     /**
-     * @param LoggerInterface $logger
-     *
-     * @throws \Exception
+     * @throws Exception
      */
     public function __construct(LoggerInterface $logger)
     {
         $this->logger                = $logger;
         $useragentFactory            = new UserAgentFactory();
-        $this->divisionFactory       = new DivisionFactory($logger, $useragentFactory);
+        $this->divisionFactory       = new DivisionFactory($useragentFactory);
         $this->deviceFactory         = new DeviceFactory();
         $this->divisionDataValidator = new DivisionDataValidator();
-        $this->collection            = new DataCollection($logger);
+        $this->collection            = new DataCollection();
     }
 
     /**
      * Create and populate a data collection object from a resource folder
      *
-     * @param string $resourceFolder
-     *
-     * @throws \Assert\AssertionFailedException
-     * @throws \RuntimeException
-     * @throws \UnexpectedValueException
-     *
-     * @return DataCollection
+     * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
-    public function createDataCollection(string $resourceFolder) : DataCollection
+    public function createDataCollection(string $resourceFolder): DataCollection
     {
-        $iterator = static function (string $directory, LoggerInterface $logger, callable $function) : void {
-            if (!file_exists($directory)) {
-                throw new \RuntimeException('Directory "' . $directory . '" does not exist.');
+        $iterator = static function (string $directory, LoggerInterface $logger, callable $function): void {
+            if (! file_exists($directory)) {
+                throw new RuntimeException('Directory "' . $directory . '" does not exist.');
             }
 
             $addedFiles = 0;
 
-            foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($directory)) as $file) {
-                /** @var \SplFileInfo $file */
-                if (!$file->isFile() || 'json' !== $file->getExtension()) {
+            foreach (new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory)) as $file) {
+                assert($file instanceof SplFileInfo);
+                if (! $file->isFile() || $file->getExtension() !== 'json') {
                     continue;
                 }
 
@@ -87,8 +84,8 @@ class DataCollectionFactory
                 ++$addedFiles;
             }
 
-            if (!$addedFiles) {
-                throw new \RuntimeException('Directory "' . $directory . '" was empty.');
+            if (! $addedFiles) {
+                throw new RuntimeException('Directory "' . $directory . '" was empty.');
             }
         };
 
@@ -97,7 +94,7 @@ class DataCollectionFactory
         $iterator(
             $resourceFolder . '/platforms',
             $this->logger,
-            function (string $file) : void {
+            function (string $file): void {
                 $this->addPlatformsFile($file);
             }
         );
@@ -107,7 +104,7 @@ class DataCollectionFactory
         $iterator(
             $resourceFolder . '/engines',
             $this->logger,
-            function (string $file) : void {
+            function (string $file): void {
                 $this->addEnginesFile($file);
             }
         );
@@ -121,7 +118,7 @@ class DataCollectionFactory
         $iterator(
             $resourceFolder . '/devices',
             $this->logger,
-            function (string $file) : void {
+            function (string $file): void {
                 $this->addDevicesFile($file);
             }
         );
@@ -129,7 +126,7 @@ class DataCollectionFactory
         $iterator(
             $resourceFolder . '/browsers',
             $this->logger,
-            function (string $file) : void {
+            function (string $file): void {
                 $this->addBrowserFile($file);
             }
         );
@@ -137,7 +134,7 @@ class DataCollectionFactory
         $iterator(
             $resourceFolder . '/user-agents',
             $this->logger,
-            function (string $file) : void {
+            function (string $file): void {
                 $this->addSourceFile($file);
             }
         );
@@ -151,11 +148,11 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \UnexpectedValueException
-     * @throws \Assert\AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws UnexpectedValueException
+     * @throws AssertionFailedException
      */
-    public function addPlatformsFile(string $filename) : void
+    public function addPlatformsFile(string $filename): void
     {
         $decodedFileContent = $this->loadFile($filename);
 
@@ -178,10 +175,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \Assert\AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws AssertionFailedException
      */
-    public function addEnginesFile(string $filename) : void
+    public function addEnginesFile(string $filename): void
     {
         $decodedFileContent = $this->loadFile($filename);
 
@@ -204,10 +201,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \Assert\AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws AssertionFailedException
      */
-    public function addBrowserFile(string $filename) : void
+    public function addBrowserFile(string $filename): void
     {
         $decodedFileContent = $this->loadFile($filename);
 
@@ -229,10 +226,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
      */
-    public function addDevicesFile(string $filename) : void
+    public function addDevicesFile(string $filename): void
     {
         $decodedFileContent = $this->loadFile($filename);
 
@@ -247,10 +244,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \RuntimeException                If the file does not exist or has invalid JSON
+     * @throws AssertionFailedException
+     * @throws RuntimeException If the file does not exist or has invalid JSON.
      */
-    public function addSourceFile(string $filename) : void
+    public function addSourceFile(string $filename): void
     {
         $divisionData = $this->loadFile($filename);
 
@@ -270,10 +267,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
      */
-    public function setDefaultProperties(string $filename) : void
+    public function setDefaultProperties(string $filename): void
     {
         $divisionData = $this->loadFile($filename);
         $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, true);
@@ -292,10 +289,10 @@ class DataCollectionFactory
      *
      * @param string $filename Name of the file
      *
-     * @throws \Assert\AssertionFailedException
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
+     * @throws AssertionFailedException
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
      */
-    public function setDefaultBrowser(string $filename) : void
+    public function setDefaultBrowser(string $filename): void
     {
         $divisionData = $this->loadFile($filename);
         $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, true);
@@ -310,20 +307,18 @@ class DataCollectionFactory
     }
 
     /**
-     * @param string $filename
+     * @return mixed[]
      *
-     * @throws \RuntimeException
-     * @throws \Assert\AssertionFailedException
-     *
-     * @return array
+     * @throws RuntimeException
+     * @throws AssertionFailedException
      */
-    private function loadFile(string $filename) : array
+    private function loadFile(string $filename): array
     {
         Assertion::file($filename, 'File "' . $filename . '" does not exist.');
         Assertion::readable($filename, 'File "' . $filename . '" is not readable.');
 
-        /** @var string $fileContent */
         $fileContent = file_get_contents($filename);
+        assert(is_string($fileContent));
 
         Assertion::string($fileContent);
         Assertion::notRegex($fileContent, '/[^ -~\s]/', 'File "' . $filename . '" contains Non-ASCII-Characters.');
@@ -333,7 +328,7 @@ class DataCollectionFactory
         try {
             return $json->decode($fileContent, true);
         } catch (DecodeErrorException $e) {
-            throw new \RuntimeException(
+            throw new RuntimeException(
                 'File "' . $filename . '" had invalid JSON.',
                 0,
                 $e

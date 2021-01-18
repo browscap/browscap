@@ -1,7 +1,10 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Generator;
 
+use Assert\AssertionFailedException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DataCollectionFactory;
@@ -11,20 +14,22 @@ use Browscap\Generator\DirectoryMissingException;
 use Browscap\Generator\NotADirectoryException;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
+use Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+
+use function assert;
 
 class BuildGeneratorTest extends TestCase
 {
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
 
     /**
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    protected function setUp() : void
+    protected function setUp(): void
     {
         $this->logger = $this->createMock(LoggerInterface::class);
     }
@@ -32,9 +37,9 @@ class BuildGeneratorTest extends TestCase
     /**
      * tests failing the build if the build dir does not exist
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testConstructFailsIfTheDirDoesNotExsist() : void
+    public function testConstructFailsIfTheDirDoesNotExsist(): void
     {
         $this->expectException(DirectoryMissingException::class);
         $this->expectExceptionMessage('The directory "/dar" does not exist, or we cannot access it');
@@ -42,17 +47,17 @@ class BuildGeneratorTest extends TestCase
         $writerCollection      = $this->createMock(WriterCollection::class);
         $dataCollectionFactory = $this->createMock(DataCollectionFactory::class);
 
-        /* @var WriterCollection $writerCollection */
-        /* @var DataCollectionFactory $dataCollectionFactory */
+        assert($writerCollection instanceof WriterCollection);
+        assert($dataCollectionFactory instanceof DataCollectionFactory);
         new BuildGenerator('/dar', '', $this->logger, $writerCollection, $dataCollectionFactory);
     }
 
     /**
      * tests failing the build if no build dir is a file
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testConstructFailsIfTheDirIsNotAnDirectory() : void
+    public function testConstructFailsIfTheDirIsNotAnDirectory(): void
     {
         $this->expectException(NotADirectoryException::class);
         $this->expectExceptionMessage('The path "' . __FILE__ . '" did not resolve to a directory');
@@ -60,18 +65,18 @@ class BuildGeneratorTest extends TestCase
         $writerCollection      = $this->createMock(WriterCollection::class);
         $dataCollectionFactory = $this->createMock(DataCollectionFactory::class);
 
-        /* @var WriterCollection $writerCollection */
-        /* @var DataCollectionFactory $dataCollectionFactory */
+        assert($writerCollection instanceof WriterCollection);
+        assert($dataCollectionFactory instanceof DataCollectionFactory);
         new BuildGenerator(__FILE__, '', $this->logger, $writerCollection, $dataCollectionFactory);
     }
 
     /**
      * tests running a build
      *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function testBuild() : void
+    public function testBuild(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -147,9 +152,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
         $division
             ->expects(static::once())
@@ -229,9 +232,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $defaultProperties,
-                ]
+                [0 => $defaultProperties]
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -299,8 +300,8 @@ class BuildGeneratorTest extends TestCase
             ->method('fileEnd')
             ->willReturnSelf();
 
-        /** @var WriterCollection $writerCollection */
-        /** @var DataCollectionFactory $dataCollectionFactory */
+        assert($writerCollection instanceof WriterCollection);
+        assert($dataCollectionFactory instanceof DataCollectionFactory);
         $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(false);
 
@@ -310,10 +311,10 @@ class BuildGeneratorTest extends TestCase
     /**
      * tests running a build without generating a zip file
      *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function testBuildWithoutZip() : void
+    public function testBuildWithoutZip(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -389,9 +390,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $useragent,
-                ]
+                [0 => $useragent]
             );
         $division
             ->expects(static::once())
@@ -471,9 +470,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [
-                    0 => $defaultProperties,
-                ]
+                [0 => $defaultProperties]
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -541,8 +538,8 @@ class BuildGeneratorTest extends TestCase
             ->method('fileEnd')
             ->willReturnSelf();
 
-        /** @var WriterCollection $writerCollection */
-        /** @var DataCollectionFactory $dataCollectionFactory */
+        assert($writerCollection instanceof WriterCollection);
+        assert($dataCollectionFactory instanceof DataCollectionFactory);
         $generator = new BuildGenerator('.', '.', $this->logger, $writerCollection, $dataCollectionFactory);
         $generator->setCollectPatternIds(true);
 

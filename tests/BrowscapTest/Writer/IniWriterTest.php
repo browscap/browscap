@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
@@ -14,33 +16,39 @@ use Browscap\Writer\WriterInterface;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use ReflectionException;
+use ReflectionProperty;
+
+use function assert;
+use function date;
+use function file_get_contents;
+use function unlink;
+
+use const DIRECTORY_SEPARATOR;
+use const PHP_EOL;
 
 class IniWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /**
-     * @var IniWriter
-     */
+    /** @var IniWriter */
     private $object;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $file;
 
-    protected function setUp() : void
+    protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
-        $this->file = vfsStream::url(self::STORAGE_DIR) . \DIRECTORY_SEPARATOR . 'test.ini';
+        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.ini';
 
         $logger = $this->createMock(LoggerInterface::class);
 
-        /* @var LoggerInterface $logger */
+        assert($logger instanceof LoggerInterface);
         $this->object = new IniWriter($this->file, $logger);
     }
 
-    protected function teardown() : void
+    protected function teardown(): void
     {
         $this->object->close();
 
@@ -50,7 +58,7 @@ class IniWriterTest extends TestCase
     /**
      * tests getting the writer type
      */
-    public function testGetType() : void
+    public function testGetType(): void
     {
         static::assertSame(WriterInterface::TYPE_INI, $this->object->getType());
     }
@@ -58,11 +66,11 @@ class IniWriterTest extends TestCase
     /**
      * tests setting and getting a formatter
      */
-    public function testSetGetFormatter() : void
+    public function testSetGetFormatter(): void
     {
         $mockFormatter = $this->createMock(PhpFormatter::class);
 
-        /* @var PhpFormatter $mockFormatter */
+        assert($mockFormatter instanceof PhpFormatter);
         $this->object->setFormatter($mockFormatter);
         static::assertSame($mockFormatter, $this->object->getFormatter());
     }
@@ -70,11 +78,11 @@ class IniWriterTest extends TestCase
     /**
      * tests setting and getting a filter
      */
-    public function testSetGetFilter() : void
+    public function testSetGetFilter(): void
     {
         $mockFilter = $this->createMock(FullFilter::class);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
         static::assertSame($mockFilter, $this->object->getFilter());
     }
@@ -82,7 +90,7 @@ class IniWriterTest extends TestCase
     /**
      * tests setting a file into silent mode
      */
-    public function testSetGetSilent() : void
+    public function testSetGetSilent(): void
     {
         $this->object->setSilent(true);
         static::assertTrue($this->object->isSilent());
@@ -91,7 +99,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the start of the file
      */
-    public function testFileStart() : void
+    public function testFileStart(): void
     {
         $this->object->fileStart();
         static::assertSame('', file_get_contents($this->file));
@@ -100,7 +108,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the end of the file
      */
-    public function testFileEnd() : void
+    public function testFileEnd(): void
     {
         $this->object->fileEnd();
         static::assertSame('', file_get_contents($this->file));
@@ -109,7 +117,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header information
      */
-    public function testRenderHeaderIfSilent() : void
+    public function testRenderHeaderIfSilent(): void
     {
         $header = ['TestData to be renderd into the Header'];
 
@@ -122,7 +130,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header information
      */
-    public function testRenderHeaderIfNotSilent() : void
+    public function testRenderHeaderIfNotSilent(): void
     {
         $header = ['TestData to be rendered into the Header', 'more data to be rendered', 'much more data'];
 
@@ -140,7 +148,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfSilent() : void
+    public function testRenderVersionIfSilent(): void
     {
         $version = [
             'version' => 'test',
@@ -158,7 +166,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfNotSilent() : void
+    public function testRenderVersionIfNotSilent(): void
     {
         $version = [
             'version' => 'test',
@@ -181,7 +189,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the version information
      */
-    public function testRenderVersionIfNotSilentButWithoutVersion() : void
+    public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
         $version = [];
 
@@ -199,11 +207,11 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      */
-    public function testRenderAllDivisionsHeader() : void
+    public function testRenderAllDivisionsHeader(): void
     {
         $collection = $this->createMock(DataCollection::class);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderAllDivisionsHeader($collection);
         static::assertSame('', file_get_contents($this->file));
     }
@@ -211,7 +219,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header of one division
      */
-    public function testRenderDivisionHeaderIfNotSilent() : void
+    public function testRenderDivisionHeaderIfNotSilent(): void
     {
         $this->object->setSilent(false);
 
@@ -225,7 +233,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header of one division
      */
-    public function testRenderDivisionHeaderIfSilent() : void
+    public function testRenderDivisionHeaderIfSilent(): void
     {
         $this->object->setSilent(true);
 
@@ -236,7 +244,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      */
-    public function testRenderSectionHeaderIfNotSilent() : void
+    public function testRenderSectionHeaderIfNotSilent(): void
     {
         $this->object->setSilent(false);
 
@@ -247,7 +255,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      */
-    public function testRenderSectionHeaderIfSilent() : void
+    public function testRenderSectionHeaderIfSilent(): void
     {
         $this->object->setSilent(true);
 
@@ -258,9 +266,9 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testRenderSectionBodyIfNotSilent() : void
+    public function testRenderSectionBodyIfNotSilent(): void
     {
         $this->object->setSilent(false);
 
@@ -285,15 +293,15 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trimProperty'])
+            ->setMethods(['trim'])
             ->getMock();
 
         $mockExpander
             ->expects(static::once())
-            ->method('trimProperty')
+            ->method('trim')
             ->willReturnArgument(0);
 
-        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property = new ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
@@ -335,7 +343,7 @@ class IniWriterTest extends TestCase
             ->method('formatPropertyName')
             ->willReturnArgument(0);
 
-        /* @var PhpFormatter $mockFormatter */
+        assert($mockFormatter instanceof PhpFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
@@ -354,10 +362,10 @@ class IniWriterTest extends TestCase
             ->method('isOutputProperty')
             ->willReturnMap($map);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
         static::assertSame('Comment="1"' . PHP_EOL, file_get_contents($this->file));
     }
@@ -365,9 +373,9 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testRenderSectionBodyIfNotSilentWithParents() : void
+    public function testRenderSectionBodyIfNotSilentWithParents(): void
     {
         $this->object->setSilent(false);
 
@@ -389,15 +397,15 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trimProperty'])
+            ->setMethods(['trim'])
             ->getMock();
 
         $mockExpander
             ->expects(static::exactly(2))
-            ->method('trimProperty')
+            ->method('trim')
             ->willReturnArgument(0);
 
-        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property = new ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
@@ -453,7 +461,7 @@ class IniWriterTest extends TestCase
             ->method('formatPropertyName')
             ->willReturnArgument(0);
 
-        /* @var PhpFormatter $mockFormatter */
+        assert($mockFormatter instanceof PhpFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -473,10 +481,10 @@ class IniWriterTest extends TestCase
             ->method('isOutputProperty')
             ->willReturnMap($map);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection, $sections);
         static::assertSame('Parent="X1"' . PHP_EOL . 'Comment="1"' . PHP_EOL, file_get_contents($this->file));
     }
@@ -484,9 +492,9 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \ReflectionException
+     * @throws ReflectionException
      */
-    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent() : void
+    public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent(): void
     {
         $this->object->setSilent(false);
 
@@ -497,9 +505,7 @@ class IniWriterTest extends TestCase
             'Platform' => 'bcd',
         ];
 
-        $sections = [
-            'X2' => $section,
-        ];
+        $sections = ['X2' => $section];
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
@@ -517,15 +523,15 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trimProperty'])
+            ->setMethods(['trim'])
             ->getMock();
 
         $mockExpander
             ->expects(static::exactly(2))
-            ->method('trimProperty')
+            ->method('trim')
             ->willReturnArgument(0);
 
-        $property = new \ReflectionProperty($this->object, 'trimProperty');
+        $property = new ReflectionProperty($this->object, 'trimProperty');
         $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
@@ -568,7 +574,7 @@ class IniWriterTest extends TestCase
             ->method('formatPropertyName')
             ->willReturnArgument(0);
 
-        /* @var PhpFormatter $mockFormatter */
+        assert($mockFormatter instanceof PhpFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $map = [
@@ -588,10 +594,10 @@ class IniWriterTest extends TestCase
             ->method('isOutputProperty')
             ->willReturnMap($map);
 
-        /* @var FullFilter $mockFilter */
+        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection, $sections);
         static::assertSame(
             'Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL,
@@ -602,7 +608,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      */
-    public function testRenderSectionBodyIfSilent() : void
+    public function testRenderSectionBodyIfSilent(): void
     {
         $this->object->setSilent(true);
 
@@ -614,7 +620,7 @@ class IniWriterTest extends TestCase
 
         $collection = $this->createMock(DataCollection::class);
 
-        /* @var DataCollection $collection */
+        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
         static::assertSame('', file_get_contents($this->file));
     }
@@ -622,7 +628,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      */
-    public function testRenderSectionFooterIfNotSilent() : void
+    public function testRenderSectionFooterIfNotSilent(): void
     {
         $this->object->setSilent(false);
 
@@ -633,7 +639,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      */
-    public function testRenderSectionFooterIfSilent() : void
+    public function testRenderSectionFooterIfSilent(): void
     {
         $this->object->setSilent(true);
 
@@ -644,7 +650,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the footer of one division
      */
-    public function testRenderDivisionFooter() : void
+    public function testRenderDivisionFooter(): void
     {
         $this->object->renderDivisionFooter();
         static::assertSame('', file_get_contents($this->file));
@@ -653,7 +659,7 @@ class IniWriterTest extends TestCase
     /**
      * tests rendering the footer after all divisions
      */
-    public function testRenderAllDivisionsFooter() : void
+    public function testRenderAllDivisionsFooter(): void
     {
         $this->object->renderAllDivisionsFooter();
         static::assertSame('', file_get_contents($this->file));

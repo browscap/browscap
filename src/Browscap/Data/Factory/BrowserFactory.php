@@ -1,27 +1,31 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Data\Factory;
 
 use Assert\Assertion;
+use Assert\AssertionFailedException;
 use Browscap\Data\Browser;
+use RuntimeException;
 use UaBrowserType\TypeLoader;
+use UnexpectedValueException;
+
+use function is_array;
 
 class BrowserFactory
 {
     /**
      * validates the $browserData array and creates Browser objects from it
      *
-     * @param array  $browserData
-     * @param string $browserName
+     * @param mixed[] $browserData
      *
-     * @throws \RuntimeException                if the file does not exist or has invalid JSON
-     * @throws \Assert\AssertionFailedException
-     *
-     * @return \Browscap\Data\Browser
+     * @throws RuntimeException if the file does not exist or has invalid JSON.
+     * @throws AssertionFailedException
      */
-    public function build(array $browserData, $browserName)
+    public function build(array $browserData, string $browserName): Browser
     {
-        if (!isset($browserData['properties']) || !is_array($browserData['properties'])) {
+        if (! isset($browserData['properties']) || ! is_array($browserData['properties'])) {
             $browserData['properties'] = [];
         }
 
@@ -35,8 +39,8 @@ class BrowserFactory
         Assertion::string($browserData['type']);
 
         // check for available values in external library
-        if (!(new TypeLoader())->has($browserData['type'])) {
-            throw new \UnexpectedValueException('unsupported browser type given for browser "' . $browserName . '"');
+        if (! (new TypeLoader())->has($browserData['type'])) {
+            throw new UnexpectedValueException('unsupported browser type given for browser "' . $browserName . '"');
         }
 
         // check for supported values (browscap-php) @todo remove asap

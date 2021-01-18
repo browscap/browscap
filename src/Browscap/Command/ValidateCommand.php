@@ -1,22 +1,25 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use Exception;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
+use function assert;
+use function is_string;
+
 class ValidateCommand extends Command
 {
-    /**
-     * @var string
-     */
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    protected function configure() : void
+    protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
 
@@ -27,28 +30,25 @@ class ValidateCommand extends Command
     }
 
     /**
-     * @param InputInterface  $input
-     * @param OutputInterface $output
-     *
-     * @throws \Exception
-     *
      * @return int|null null or 0 if everything went fine, or an error code
+     *
+     * @throws Exception
      */
-    protected function execute(InputInterface $input, OutputInterface $output) : ?int
+    protected function execute(InputInterface $input, OutputInterface $output): ?int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
 
         $application = $this->getApplication();
 
-        if (null === $application) {
+        if ($application === null) {
             $logger->error('Coul not load Application instance');
 
             return 1;
         }
 
-        /** @var string $resources */
         $resources = $input->getOption('resources');
+        assert(is_string($resources));
 
         $failed  = false;
         $command = $application->find('validate-browsers');
@@ -153,7 +153,7 @@ class ValidateCommand extends Command
             $failed = true;
         }
 
-        if (!$failed) {
+        if (! $failed) {
             $output->writeln('the files are valid');
         }
 

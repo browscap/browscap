@@ -1,52 +1,43 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Generator;
 
+use Assert\AssertionFailedException;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
+use Exception;
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 use ZipArchive;
 
+use function file_exists;
+use function is_dir;
+use function is_readable;
+use function realpath;
+
 final class BuildGenerator implements GeneratorInterface
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private $resourceFolder;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $buildFolder;
 
-    /**
-     * @var LoggerInterface
-     */
+    /** @var LoggerInterface */
     private $logger;
 
-    /**
-     * @var DataCollectionFactory
-     */
+    /** @var DataCollectionFactory */
     private $dataCollectionFactory;
 
-    /**
-     * @var WriterCollection
-     */
+    /** @var WriterCollection */
     private $writerCollection;
 
-    /**
-     * @var bool
-     */
+    /** @var bool */
     private $collectPatternIds = false;
 
-    /**
-     * @param string                $resourceFolder
-     * @param string                $buildFolder
-     * @param LoggerInterface       $logger
-     * @param WriterCollection      $writerCollection
-     * @param DataCollectionFactory $dataCollectionFactory
-     */
     public function __construct(
         string $resourceFolder,
         string $buildFolder,
@@ -64,14 +55,10 @@ final class BuildGenerator implements GeneratorInterface
     /**
      * Entry point for generating builds for a specified version
      *
-     * @param string            $buildVersion
-     * @param DateTimeImmutable $generationDate
-     * @param bool              $createZipFile
-     *
-     * @throws \Exception
-     * @throws \Assert\AssertionFailedException
+     * @throws Exception
+     * @throws AssertionFailedException
      */
-    public function run(string $buildVersion, DateTimeImmutable $generationDate, bool $createZipFile = true) : void
+    public function run(string $buildVersion, DateTimeImmutable $generationDate, bool $createZipFile = true): void
     {
         $this->logger->info('Resource folder: ' . $this->resourceFolder . '');
         $this->logger->info('Build folder: ' . $this->buildFolder . '');
@@ -86,7 +73,7 @@ final class BuildGenerator implements GeneratorInterface
             $this->collectPatternIds
         );
 
-        if (!$createZipFile) {
+        if (! $createZipFile) {
             return;
         }
 
@@ -110,7 +97,7 @@ final class BuildGenerator implements GeneratorInterface
         foreach ($files as $file) {
             $filePath = $this->buildFolder . '/' . $file;
 
-            if (!file_exists($filePath) || !is_readable($filePath)) {
+            if (! file_exists($filePath) || ! is_readable($filePath)) {
                 continue;
             }
 
@@ -124,30 +111,24 @@ final class BuildGenerator implements GeneratorInterface
 
     /**
      * Sets the flag to collect pattern ids during this build
-     *
-     * @param bool $value
      */
-    public function setCollectPatternIds(bool $value) : void
+    public function setCollectPatternIds(bool $value): void
     {
         $this->collectPatternIds = $value;
     }
 
     /**
-     * @param string $directory
-     *
-     * @throws \InvalidArgumentException
-     *
-     * @return string
+     * @throws InvalidArgumentException
      */
-    private function checkDirectoryExists(string $directory) : string
+    private function checkDirectoryExists(string $directory): string
     {
         $realDirectory = realpath($directory);
 
-        if (false === $realDirectory) {
+        if ($realDirectory === false) {
             throw new DirectoryMissingException('The directory "' . $directory . '" does not exist, or we cannot access it');
         }
 
-        if (!is_dir($realDirectory)) {
+        if (! is_dir($realDirectory)) {
             throw new NotADirectoryException('The path "' . $realDirectory . '" did not resolve to a directory');
         }
 

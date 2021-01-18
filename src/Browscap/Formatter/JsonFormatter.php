@@ -1,23 +1,24 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 namespace Browscap\Formatter;
 
 use Browscap\Data\PropertyHolder;
+use Exception;
+use InvalidArgumentException;
 use JsonClass\Json;
+
+use function trim;
 
 /**
  * this formatter is responsible to format the output into the "json" version of the browscap files
  */
 class JsonFormatter implements FormatterInterface
 {
-    /**
-     * @var PropertyHolder
-     */
+    /** @var PropertyHolder */
     private $propertyHolder;
 
-    /**
-     * @param PropertyHolder $propertyHolder
-     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -25,22 +26,16 @@ class JsonFormatter implements FormatterInterface
 
     /**
      * returns the Type of the formatter
-     *
-     * @return string
      */
-    public function getType() : string
+    public function getType(): string
     {
         return FormatterInterface::TYPE_JSON;
     }
 
     /**
      * formats the name of a property
-     *
-     * @param string $name
-     *
-     * @return string
      */
-    public function formatPropertyName(string $name) : string
+    public function formatPropertyName(string $name): string
     {
         return (new Json())->encode($name);
     }
@@ -49,13 +44,10 @@ class JsonFormatter implements FormatterInterface
      * formats the name of a property
      *
      * @param bool|int|string $value
-     * @param string          $property
      *
-     * @throws \Exception
-     *
-     * @return string
+     * @throws Exception
      */
-    public function formatPropertyValue($value, string $property) : string
+    public function formatPropertyValue($value, string $property): string
     {
         switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
@@ -63,9 +55,9 @@ class JsonFormatter implements FormatterInterface
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
-                if (true === $value || 'true' === $value) {
+                if ($value === true || $value === 'true') {
                     $valueOutput = 'true';
-                } elseif (false === $value || 'false' === $value) {
+                } elseif ($value === false || $value === 'false') {
                     $valueOutput = 'false';
                 } else {
                     $valueOutput = '""';
@@ -75,7 +67,7 @@ class JsonFormatter implements FormatterInterface
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
                     $valueOutput = (new Json())->encode($this->propertyHolder->checkValueInArray($property, (string) $value));
-                } catch (\InvalidArgumentException $ex) {
+                } catch (InvalidArgumentException $ex) {
                     $valueOutput = '""';
                 }
 
@@ -86,7 +78,7 @@ class JsonFormatter implements FormatterInterface
                 break;
         }
 
-        if ('unknown' === $valueOutput || '"unknown"' === $valueOutput) {
+        if ($valueOutput === 'unknown' || $valueOutput === '"unknown"') {
             $valueOutput = '""';
         }
 
