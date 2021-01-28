@@ -408,16 +408,16 @@
         },
         {
             "name": "mimmi20/json-class",
-            "version": "2.0.16",
+            "version": "2.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/json-class.git",
-                "reference": "d6c92026555815863809a630055cbe3396aec7a6"
+                "reference": "b45b88efcfb481684bcde0345dbf631044f16af3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/d6c92026555815863809a630055cbe3396aec7a6",
-                "reference": "d6c92026555815863809a630055cbe3396aec7a6",
+                "url": "https://api.github.com/repos/mimmi20/json-class/zipball/b45b88efcfb481684bcde0345dbf631044f16af3",
+                "reference": "b45b88efcfb481684bcde0345dbf631044f16af3",
                 "shasum": ""
             },
             "require": {
@@ -427,10 +427,10 @@
             },
             "require-dev": {
                 "infection/infection": "~0.13.6 || ~0.18 || ~0.20.2",
-                "mimmi20/coding-standard": "~1.0.8",
-                "pepakriz/phpstan-exception-rules": "~0.11.3",
+                "mimmi20/coding-standard": "~1.0.9",
+                "pepakriz/phpstan-exception-rules": "~0.11.4",
                 "phpstan/extension-installer": "~1.1.0",
-                "phpstan/phpstan": "~0.12.65",
+                "phpstan/phpstan": "~0.12.68",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
                 "phpstan/phpstan-phpunit": "~0.12.17",
                 "phpunit/phpunit": "~7.5.20 || ~8.5.13 || ~9.5.0"
@@ -462,7 +462,7 @@
                 "issues": "https://github.com/mimmi20/json-class/issues",
                 "source": "https://github.com/mimmi20/json-class"
             },
-            "time": "2021-01-08T09:19:37+00:00"
+            "time": "2021-01-19T10:14:50+00:00"
         },
         {
             "name": "mimmi20/ua-browser-type",
