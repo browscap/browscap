@@ -530,28 +530,28 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "7.1.14",
+            "version": "7.1.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "5296ede0a70c25715f5629921c4244a76a46ba16"
+                "reference": "a805eaf0e2fbbaa595d463b2d1f612027d2c8f09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/5296ede0a70c25715f5629921c4244a76a46ba16",
-                "reference": "5296ede0a70c25715f5629921c4244a76a46ba16",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/a805eaf0e2fbbaa595d463b2d1f612027d2c8f09",
+                "reference": "a805eaf0e2fbbaa595d463b2d1f612027d2c8f09",
                 "shasum": ""
             },
             "require": {
-                "mimmi20/browser-detector-loader-interface": "~3.0.12",
+                "mimmi20/browser-detector-loader-interface": "~3.0.13",
                 "php": "^7.1.3 || ^8.0.0"
             },
             "require-dev": {
                 "infection/infection": "~0.13.6 || ~0.18 || ~0.20.2",
-                "mimmi20/coding-standard": "~1.0.8",
-                "pepakriz/phpstan-exception-rules": "~0.11.3",
+                "mimmi20/coding-standard": "~1.0.9",
+                "pepakriz/phpstan-exception-rules": "~0.11.4",
                 "phpstan/extension-installer": "~1.1.0",
-                "phpstan/phpstan": "~0.12.65",
+                "phpstan/phpstan": "~0.12.68",
                 "phpstan/phpstan-deprecation-rules": "~0.12.6",
                 "phpstan/phpstan-phpunit": "~0.12.17",
                 "phpunit/phpunit": "~7.5.20 || ~8.5.13 || ~9.5.0"
@@ -590,7 +590,7 @@
                 "issues": "https://github.com/mimmi20/ua-device-type/issues",
                 "source": "https://github.com/mimmi20/ua-device-type"
             },
-            "time": "2021-01-08T10:36:45+00:00"
+            "time": "2021-01-19T10:43:16+00:00"
         },
         {
             "name": "monolog/monolog",
