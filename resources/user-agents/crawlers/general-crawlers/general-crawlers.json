@@ -2240,6 +2240,70 @@
         {
           "match": "AdsTxtCrawler/*",
           "browser": "ads-txt-crawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Cincraw/*",
+          "browser": "cincraw"
+        },
+        {
+          "match": "lotayabot",
+          "browser": "lotayabot"
+        },
+        {
+          "match": "NativeAIBot",
+          "browser": "native-ai-bot"
+        },
+        {
+          "match": "SirdataBot",
+          "browser": "sirdata-bot"
+        },
+        {
+          "match": "beBee bot (support@bebee.com)",
+          "browser": "be-bee-bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Onespot-ScraperBot/*",
+          "browser": "onespot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/*",
+          "browser": "seekport-crawler"
+        },
+        {
+          "match":  "BrightEdge Crawler/*",
+          "browser":  "bright-edge-crawler"
+        },
+        {
+          "match":  "BublupBot (+https://www.bublup.com/bublup-bot.html)",
+          "browser":  "bublup-bot"
+        },
+        {
+          "match":  "ISS_CRAWLER_V*",
+          "browser":  "iss-crawler"
+        },
+        {
+          "match":  "KareBot/*",
+          "browser":  "kare-bot"
+        },
+        {
+          "match":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 MicroAdBot/*",
+          "browser":  "micro-ad-bot"
+        },
+        {
+          "match":  "Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0 fr_crawler",
+          "browser":  "fr-crawler"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible;PetalBot*",
+          "browser":  "petalbot"
+        },
+        {
+          "match":  "Rely Bot",
+          "browser":  "rely-bot"
+        },
+        {
+          "match":  "WizenozeBot/*",
+          "browser":  "wizenoze-bot"
         }
       ]
     }
