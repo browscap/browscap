@@ -2304,6 +2304,30 @@
         {
           "match":  "WizenozeBot/*",
           "browser":  "wizenoze-bot"
+        },
+        {
+          "match":  "weborama-fetcher (+http://www.weborama.com)",
+          "browser":  "weborama-fetcher"
+        },
+        {
+          "match":  "Lore Document Collector *",
+          "browser":  "lore-document-collector"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; tracking-quality-spider/0.1; https://www.awin.com)",
+          "browser":  "awin-tracking-quality-spider"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; RyowlEngine/*",
+          "browser":  "ryowl-engine"
+        },
+        {
+          "match":  "Ghost Inspector BS-20*",
+          "browser":  "ghost-inspector"
+        },
+        {
+          "match":  "PWACrawler +@SamsungInternet",
+          "browser":  "pwa-crawler"
         }
       ]
     }
