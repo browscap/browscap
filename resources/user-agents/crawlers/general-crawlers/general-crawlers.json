@@ -2328,6 +2328,14 @@
         {
           "match":  "PWACrawler +@SamsungInternet",
           "browser":  "pwa-crawler"
+        },
+        {
+          "match":  "Narrativ-Crawler (+https://narrativ.com/)",
+          "browser":  "narrativ-crawler"
+        },
+        {
+          "match":  "NinjBot/*",
+          "browser":  "ninj-bot"
         }
       ]
     }

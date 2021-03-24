@@ -16954,5 +16954,23 @@
     },
     "lite": false,
     "standard": true
+  },
+  "narrativ-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Narrativ Crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ninj-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "NinjBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }
