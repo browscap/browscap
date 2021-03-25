@@ -1,0 +1,36 @@
+{
+  "division": "Microsoft News",
+  "sortIndex": 7183,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Microsoft News",
+      "browser": "microsoft-news",
+      "engine": "Trident",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Microsoft News",
+        "Alpha": false,
+        "Beta": false
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Microsoft News",
+          "device": "Macintosh",
+          "platforms": [
+            "OSX"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Microsoft News",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win8_32"
+          ]
+        }
+      ]
+    }
+  ]
+}

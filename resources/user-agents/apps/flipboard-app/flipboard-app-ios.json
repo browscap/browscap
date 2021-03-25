@@ -40,6 +40,13 @@
           "platforms": [
             "Darwin"
           ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)* applewebkit* (*khtml*like*gecko*) Flipboard/*",
+          "platforms": [
+            "Darwin",
+            "OSX"
+          ]
         }
       ]
     }

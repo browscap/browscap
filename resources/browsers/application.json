@@ -1690,5 +1690,32 @@
     },
     "lite": false,
     "standard": true
+  },
+  "linkedin-app": {
+    "type": "application",
+    "properties": {
+      "Browser": "LinkedInApp",
+      "Browser_Maker": "Microsoft Corporation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "schoology": {
+    "type": "application",
+    "properties": {
+      "Browser": "Schoology",
+      "Browser_Maker": "Schoology"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "microsoft-news": {
+    "type": "application",
+    "properties": {
+      "Browser": "Microsoft News",
+      "Browser_Maker": "Microsoft Corporation"
+    },
+    "lite": false,
+    "standard": true
   }
 }
