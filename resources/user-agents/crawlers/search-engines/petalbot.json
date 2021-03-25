@@ -24,6 +24,9 @@
             "Comment": "PetalBot (mobile)"
           },
           "platforms": ["Android"]
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible;PetalBot*"
         }
       ]
     }
