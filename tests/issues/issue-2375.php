@@ -262,7 +262,7 @@ return [
     'issue-2375-G' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64; rv:33.0) Gecko/20100101 Firefox/33.0 fr_crawler',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'fr-crawler',
             'Browser' => 'fr-crawler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
@@ -305,7 +305,7 @@ return [
     'issue-2375-H' => [
         'ua' => 'Mozilla/5.0 (compatible;PetalBot;+https://aspiegel.com/petalbot)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'PetalBot',
             'Browser' => 'PetalBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
