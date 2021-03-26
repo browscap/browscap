@@ -109,6 +109,10 @@
         {
           "match": "Google-AdWords-Express*",
           "browser": "google adwords express"
+        },
+        {
+          "match": "Mozilla/5.0 applewebkit*(*khtml*like*gecko; GoogleAdwordsExpress*",
+          "browser": "google adwords express"
         }
       ]
     }

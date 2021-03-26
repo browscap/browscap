@@ -10096,7 +10096,7 @@
     },
     "lite": false,
     "standard": true
-  },  
+  },
   "pete-spider": {
     "type": "bot",
     "properties": {
@@ -16762,6 +16762,213 @@
     "properties": {
       "Browser": "serpstatbot",
       "Browser_Maker": "serpstatbot.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "cincraw": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Cincraw",
+      "Browser_Maker": "cincrawdata.net/bot/"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "lotayabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "lotayabot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "native-ai-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "NativeAIBot",
+      "Browser_Maker": "native.ai"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "sirdata-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SirdataBot",
+      "Browser_Maker": "sirdata.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "be-bee-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "beBee bot",
+      "Browser_Maker": "bebee.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "dork-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Dorkbot",
+      "Browser_Maker": "UT Austin ISO Dorkbot"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "onespot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Onespot-ScraperBot",
+      "Browser_Maker": "onespot.com"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "seekport-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "seekport-crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bright-edge-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "BrightEdge Crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bublup-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "BublupBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "iss-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "ISS CRAWLER",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "kare-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "KareBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "micro-ad-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MicroAdBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "rely-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Rely Bot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "wizenoze-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "WizenozeBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "weborama-fetcher": {
+    "type": "bot",
+    "properties": {
+      "Browser": "weborama-fetcher",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "lore-document-collector": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Lore Document Collector",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "awin-tracking-quality-spider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Awin tracking-quality-spider",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ryowl-engine": {
+    "type": "bot",
+    "properties": {
+      "Browser": "RyowlEngine",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ghost-inspector": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Ghost Inspector",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "pwa-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "PWACrawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "narrativ-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Narrativ Crawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "ninj-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "NinjBot",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true

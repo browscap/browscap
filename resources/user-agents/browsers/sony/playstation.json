@@ -32,6 +32,10 @@
         {
           "match": "Mozilla/* (PLAYSTATION 4*",
           "device": "Sony PS4"
+        },
+        {
+          "match": "Mozilla/* (PLAYSTATION; PLAYSTATION 4*",
+          "device": "Sony PS4"
         }
       ]
     },

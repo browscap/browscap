@@ -20,6 +20,9 @@
         },
         {
           "match": "Mozilla/5.0 (compatible; fr-crawler/*"
+        },
+        {
+          "match":  "Mozilla/5.0 (X*; *Linux*x86_64*; rv:*) Gecko/* Firefox/* fr_crawler"
         }
       ]
     }

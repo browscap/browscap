@@ -1,0 +1,21 @@
+{
+  "division": "Dorkbot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Dorkbot",
+      "browser": "dork-bot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Dorkbot"
+      },
+      "children": [
+        {
+          "match": "UT-Dorkbot/*"
+        }
+      ]
+    }
+  ]
+}
