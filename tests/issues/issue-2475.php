@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'issue-2370-A' => [
+    'issue-2475-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4240.75 Safari/537.36',
         'properties' => [
             'Comment' => 'Chrome 99.0',
@@ -44,7 +44,20 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-2370-B' => [
+    'issue-2475-A (lite)' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4240.75 Safari/537.36',
+        'properties' => [
+            'Comment' => 'Chrome 99.0',
+            'Browser' => 'Chrome',
+            'Version' => '99.0',
+            'Platform' => 'Win10',
+            'Device_Type' => 'Desktop',
+        ],
+        'lite' => true,
+        'standard' => false,
+        'full' => false,
+    ],
+    'issue-2475-B' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/99.0.2924.75 Mobile/14E5239e Safari/602.1',
         'properties' => [
             'Comment' => 'Chrome 99.0',
@@ -86,18 +99,5 @@ return [
         'lite' => true,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-2370-A (lite)' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4240.75 Safari/537.36',
-        'properties' => [
-            'Comment' => 'Chrome 99.0',
-            'Browser' => 'Chrome',
-            'Version' => '99.0',
-            'Platform' => 'Win10',
-            'Device_Type' => 'Desktop',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
     ],
 ];
