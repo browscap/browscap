@@ -16972,5 +16972,104 @@
     },
     "lite": false,
     "standard": true
+  },
+  "yewno-open": {
+    "type": "bot",
+    "properties": {
+      "Browser": "YewnoOpen",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "m": {
+    "type": "bot",
+    "properties": {
+      "Browser": "M",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "deepcrawl": {
+    "type": "bot",
+    "properties": {
+      "Browser": "deepcrawl",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "magnetbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Magnetbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "caliperbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Caliperbot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "isp_testing_suite": {
+    "type": "bot",
+    "properties": {
+      "Browser": "ISP_TESTING_SUITE",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "asana": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Asana",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "bitdiscovery": {
+    "type": "bot",
+    "properties": {
+      "Browser": "bitdiscovery",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "doximity-pipeline": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DoximityPipeline",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "m-vision": {
+    "type": "bot",
+    "properties": {
+      "Browser": "MVision",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "cep-crawler": {
+    "type": "bot",
+    "properties": {
+      "Browser": "cepCrawler",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }

@@ -2328,6 +2328,54 @@
         {
           "match":  "NinjBot/*",
           "browser":  "ninj-bot"
+        },
+        {
+          "match":  "Yewno-Open",
+          "browser":  "yewno-open"
+        },
+        {
+          "match":  "M",
+          "browser":  "m"
+        },
+        {
+          "match":  "deepcrawl",
+          "browser":  "deepcrawl"
+        },
+        {
+          "match":  "Magnetbot",
+          "browser":  "magnetbot"
+        },
+        {
+          "match":  "Caliperbot/1.0 (+http://www.conductor.com/caliperbot)",
+          "browser":  "caliperbot"
+        },
+        {
+          "match":  "ISP_TESTING_SUITE",
+          "browser":  "isp_testing_suite"
+        },
+        {
+          "match":  "Asana/1.4.0 WebsiteMetadataRetriever",
+          "browser":  "asana"
+        },
+        {
+          "match":  "bitdiscovery",
+          "browser":  "bitdiscovery"
+        },
+        {
+          "match":  "Doximity-Pipeline",
+          "browser":  "doximity-pipeline"
+        },
+        {
+          "match":  "MVision/1.0",
+          "browser":  "m-vision"
+        },
+        {
+          "match":  "Charlotte: The Financial Institution Crawler - 2000ms of politeness, robot friendly crawling",
+          "browser":  "charlotte"
+        },
+        {
+          "match":  "CEPCrawler (newswatch-admin@basf.com)",
+          "browser":  "cep-crawler"
         }
       ]
     }
