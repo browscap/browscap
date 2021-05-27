@@ -16982,15 +16982,6 @@
     "lite": false,
     "standard": true
   },
-  "m": {
-    "type": "bot",
-    "properties": {
-      "Browser": "M",
-      "Browser_Maker": "unknown"
-    },
-    "lite": false,
-    "standard": true
-  },
   "deepcrawl": {
     "type": "bot",
     "properties": {
