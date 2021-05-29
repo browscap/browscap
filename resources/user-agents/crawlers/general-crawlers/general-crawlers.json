@@ -2328,6 +2328,50 @@
         {
           "match":  "NinjBot/*",
           "browser":  "ninj-bot"
+        },
+        {
+          "match":  "Yewno-Open*",
+          "browser":  "yewno-open"
+        },
+        {
+          "match":  "deepcrawl*",
+          "browser":  "deepcrawl"
+        },
+        {
+          "match":  "Magnetbot*",
+          "browser":  "magnetbot"
+        },
+        {
+          "match":  "Caliperbot/* (*)*",
+          "browser":  "caliperbot"
+        },
+        {
+          "match":  "ISP_TESTING_SUITE*",
+          "browser":  "isp_testing_suite"
+        },
+        {
+          "match":  "Asana/* WebsiteMetadataRetriever*",
+          "browser":  "asana"
+        },
+        {
+          "match":  "bitdiscovery*",
+          "browser":  "bitdiscovery"
+        },
+        {
+          "match":  "Doximity-Pipeline*",
+          "browser":  "doximity-pipeline"
+        },
+        {
+          "match":  "MVision/*",
+          "browser":  "m-vision"
+        },
+        {
+          "match":  "Charlotte: The Financial Institution Crawler*",
+          "browser":  "charlotte"
+        },
+        {
+          "match":  "CEPCrawler (*)*",
+          "browser":  "cep-crawler"
         }
       ]
     }

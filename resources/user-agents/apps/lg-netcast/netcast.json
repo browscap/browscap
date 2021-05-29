@@ -20,6 +20,12 @@
           "platforms": [
             "Linux"
           ]
+        },
+        {
+          "match": "Mozilla/5.0*(#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Version/* Mobile Safari/* (SmartTV/*) (NetCast)*",
+          "platforms": [
+            "Linux"
+          ]
         }
       ]
     }
