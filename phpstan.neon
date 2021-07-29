@@ -23,4 +23,5 @@ parameters:
     - '~Parameter #1 \$input of function array_sum expects array, array<int, int\|string>\|string given~'
     - '~Argument of an invalid type array<int, int\|string>\|string supplied for foreach, only iterables are supported~'
     - '~Unreachable statement - code above always terminates~'
+    - '~Instantiation of deprecated class Doctrine\\Common\\Cache\\ArrayCache~'
   checkMissingIterableValueType: false
