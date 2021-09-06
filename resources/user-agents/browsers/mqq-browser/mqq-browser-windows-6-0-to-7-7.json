@@ -1,6 +1,6 @@
 {
   "division": "MQQBrowser #MAJORVER#.#MINORVER#",
-  "versions": ["7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, "6.14", "6.13", "6.12", "6.11", "6.10", "6.9", "6.7", "6.6", "6.5", "6.3", 6],
+  "versions": ["7.7", "7.6", "7.5", "7.4", "7.3", "7.2", "7.1", 7, "6.14", "6.13", "6.12", "6.11", "6.10", "6.9", "6.8", "6.7", "6.6", "6.5", "6.4", "6.3", 6],
   "sortIndex": 1007,
   "lite": false,
   "standard": true,
@@ -19,6 +19,19 @@
       "children": [
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* QQBrowser/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Win8_64", "Win8_32",
+            "Win7_64", "Win7_32",
+            "Vista_64", "Vista_32",
+            "WinXPb_32",
+            "WinXPa_32",
+            "Win2000",
+            "NT4_1", "NT4",
+            "Windows"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) QQBrowser/#MAJORVER#.#MINORVER#*",
           "platforms": [
             "Win8_64", "Win8_32",
             "Win7_64", "Win7_32",

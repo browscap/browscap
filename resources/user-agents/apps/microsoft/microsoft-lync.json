@@ -26,6 +26,16 @@
           "properties": {
             "Version": "2013"
           }
+        },
+        {
+          "match": "Lync/16.*",
+          "device": "Windows Desktop",
+          "platforms": [
+            "Win10_64"
+          ],
+          "properties": {
+            "Version": "2021"
+          }
         }
       ]
     }
