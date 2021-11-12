@@ -3,11 +3,11 @@ declare(strict_types = 1);
 
 return [
     'issue-2534-A' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1',
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_0_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15',
         'properties' => [
             "Platform"=> "MacOSX",
             "Platform_Description"=> "Mac OS X",
-            'Platform_Version' => '12.2',
+            'Platform_Version' => '12.0',
             'Platform_Maker' => 'Apple Inc',
         ],
         'lite' => false,
@@ -41,6 +41,16 @@ return [
         'properties' => [
             "Platform" => "iOS",
             "Platform_Version" => "14.8",
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
+    'issue-2534-E' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12.0; rv:94.0) Gecko/20100101 Firefox/94.0',
+        'properties' => [
+            "Platform" => "MacOSX",
+            "Platform_Version" => "12.0",
         ],
         'lite' => false,
         'standard' => true,
