@@ -131,7 +131,7 @@
             "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Version/* DuckDuckGo/* Safari/*",
             "device": "Macintosh",
             "platforms": [
-              "OSX_10_15",
+              "OSX_10_16", "OSX_10_15",
               "OSX"
             ]
           }
