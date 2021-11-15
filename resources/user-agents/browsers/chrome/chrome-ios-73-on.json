@@ -29,7 +29,7 @@
             "iOS_A_13_7", "iOS_A_13_6", "iOS_A_13_5", "iOS_A_13_4", "iOS_A_13_3", "iOS_A_13_2", "iOS_A_13_1", "iOS_A_13_0",
             "iOS_A_12_4", "iOS_A_12_3", "iOS_A_12_2", "iOS_A_12_1", "iOS_A_12_0",
             "iOS_A_11_4", "iOS_A_11_3", "iOS_A_11_2", "iOS_A_11_1", "iOS_A_11_0",
-            "iOS_A", "iOS_A_dynamic"
+            "iOS_A"
           ]
         },
         {
@@ -43,7 +43,7 @@
             "ipadOS_13_7", "ipadOS_13_6", "ipadOS_13_5", "ipadOS_13_4", "ipadOS_13_3", "ipadOS_13_2", "ipadOS_13_1", "ipadOS_13_0",
             "iOS_C_12_4", "iOS_C_12_3", "iOS_C_12_2", "iOS_C_12_1", "iOS_C_12_0",
             "iOS_C_11_4", "iOS_C_11_3", "iOS_C_11_2", "iOS_C_11_1", "iOS_C_11_0",
-            "iOS_C", "iOS_A_dynamic"
+            "iOS_C"
           ]
         },
         {
