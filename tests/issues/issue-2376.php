@@ -12,7 +12,7 @@ return [
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
             'Version' => '14.0',
-            'Platform' => 'MacOSX',
+            'Platform' => 'macOS',
             'Platform_Version' => '10.15',
             'Platform_Description' => 'macOS',
             'Platform_Bits' => '32',
