@@ -9,7 +9,7 @@ return [
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
-            'Browser_Modus' => 'Developer Tools',
+            'Browser_Modus' => 'unknown',
             'Version' => '14.1',
             'Platform' => 'iOS',
             'Platform_Version' => '14.7',
