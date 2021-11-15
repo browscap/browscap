@@ -27,7 +27,7 @@ return [
         'full' => true,
     ],
     'issue-2534-C' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
+        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
         'properties' => [
             "Platform" => "iOS",
             "Platform_Version" => "15.1",

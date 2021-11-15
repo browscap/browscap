@@ -2021,6 +2021,60 @@
       "Platform_Version": "15.0"
     }
   },
+  "iOS_A_14_8": {
+    "match": "*CPU iPhone OS 14?8* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.8"
+    }
+  },
+  "iOS_A_14_7": {
+    "match": "*CPU iPhone OS 14?7* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.7"
+    }
+  },
+  "iOS_A_14_6": {
+    "match": "*CPU iPhone OS 14?6* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.6"
+    }
+  },
+  "iOS_A_14_5": {
+    "match": "*CPU iPhone OS 14?5* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.5"
+    }
+  },
+  "iOS_A_14_4": {
+    "match": "*CPU iPhone OS 14?4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.4"
+    }
+  },
+  "iOS_A_14_3": {
+    "match": "*CPU iPhone OS 14?3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "14.3"
+    }
+  },
   "iOS_A_14_2": {
     "match": "*CPU iPhone OS 14?2* like Mac OS X*",
     "lite": false,
