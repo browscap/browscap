@@ -32,7 +32,7 @@ return [
             'CssVersion' => '3',
             'Device_Name' => 'iPad',
             'Device_Maker' => 'Apple Inc',
-            'Device_Type' => 'Tablet',
+            'Device_Type' => 'Mobile Phone',
             'Device_Pointing_Method' => 'touchscreen',
             'Device_Code_Name' => 'iPad',
             'Device_Brand_Name' => 'Apple',
