@@ -44,7 +44,7 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
+        'full' => false,
     ],
     'issue-2534-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12.0; rv:94.0) Gecko/20100101 Firefox/94.0',
@@ -74,6 +74,6 @@ return [
         ],
         'lite' => false,
         'standard' => true,
-        'full' => true,
+        'full' => false,
     ],
 ];
