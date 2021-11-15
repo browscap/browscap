@@ -22,7 +22,7 @@
             "device": "Macintosh",
             "platforms": [
               "OSX_12_0",
-              "OSX_11_0", "OSX_11_1",
+              "OSX_11_1", "OSX_11_0",
               "OSX_10_14", "OSX_10_15",
               "OSX"
             ]
