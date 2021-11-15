@@ -787,7 +787,7 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::exactly(1))
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::exactly(4))
+        $writerCollection->expects(static::exactly(1))
             ->method('renderSectionHeader')
             ->willReturnSelf();
         $writerCollection->expects(static::exactly(4))
