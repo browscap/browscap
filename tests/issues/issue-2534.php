@@ -69,7 +69,7 @@ return [
     'issue-2534-G' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 15_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) EdgiOS/93.0.961.83 Version/15.0 Mobile/15E148 Safari/604.1',
         'properties' => [
-            "Platform" => "iOS",
+            "Platform" => "ipadOS",
             "Platform_Version" => "15.1",
         ],
         'lite' => false,
