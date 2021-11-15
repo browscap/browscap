@@ -56,4 +56,14 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-2534-F' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.0) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/11.0 Safari/602.1.50',
+        'properties' => [
+            "Platform" => "MacOSX",
+            "Platform_Version" => "11.0",
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
 ];

@@ -1029,6 +1029,39 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "OSX_12_0": {
+    "match": "*Mac OS X 12?0*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "12.0"
+    }
+  },
+  "OSX_11_1": {
+    "match": "*Mac OS X 11?1*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "11.1"
+    }
+  },
+  "OSX_11_0": {
+    "match": "*Mac OS X 11?0*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "11.0"
+    }
+  },
   "OSX_10_16": {
     "match": "*Mac OS X 10?16*",
     "lite": false,
