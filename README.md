@@ -14,6 +14,9 @@ $ curl -s https://getcomposer.org/installer | php
 $ php composer.phar install
 ```
 
+## What's changed in version 6048
+* https://github.com/browscap/browscap/pull/2535 Added recent new Apple platforms (Mac OS, iOS and iPadOS)
+
 ## What's changed in version 6028
 
 ### BC breaks listed
