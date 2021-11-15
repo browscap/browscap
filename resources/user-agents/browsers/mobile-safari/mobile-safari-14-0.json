@@ -1,6 +1,6 @@
 {
   "division": "Mobile Safari #MAJORVER#.#MINORVER#",
-  "versions": ["14.0", "14.1", "14.2", "14.3", "14.4", "14.5", "14.6", 14],
+  "versions": ["14.0", "14.1", "14.2", "14.3", "14.4", "14.5", "14.6", "14.7", 14],
   "sortIndex": 1955,
   "lite": true,
   "standard": true,
