@@ -1,7 +1,7 @@
 {
     "division": "Safari #MAJORVER#.#MINORVER#",
-    "versions": ["14.1", 14],
-    "sortIndex": 1967,
+    "versions": ["15.0", 15],
+    "sortIndex": 1968,
     "lite": true,
     "standard": true,
     "userAgents": [
@@ -21,7 +21,7 @@
             "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
             "device": "Macintosh",
             "platforms": [
-              "OSX_10_14",
+              "OSX_10_16", "OSX_10_15",
               "OSX"
             ]
           }

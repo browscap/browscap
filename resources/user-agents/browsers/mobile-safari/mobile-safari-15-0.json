@@ -1,0 +1,66 @@
+{
+  "division": "Mobile Safari #MAJORVER#.#MINORVER#",
+  "versions": [14],
+  "sortIndex": 1956,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_15_2", "iOS_A_15_1", "iOS_A_15_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_A_15_2", "iOS_A_15_1", "iOS_A_15_0",
+            "iOS_A"
+          ],
+          "properties": {
+            "Comment": "Mobile Safari #MAJORVER#.#MINORVER# in Developer Tools",
+            "Browser_Modus": "Developer Tools",
+            "isModified": true
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_15_2", "ipadOS_15_1", "ipadOS_15_0",
+            "ipadOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "iOS_A",
+            "ipadOS"
+          ]
+        }
+      ]
+    }
+  ]
+}
