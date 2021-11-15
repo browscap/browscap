@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
+            "iOS_A_14_8", "iOS_A_14_7", "iOS_A_14_6", "iOS_A_14_5", "iOS_A_14_4","iOS_A_14_3", "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
             "iOS_A"
           ]
         },
@@ -34,7 +34,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
+            "iOS_A_14_8", "iOS_A_14_7", "iOS_A_14_6", "iOS_A_14_5", "iOS_A_14_4","iOS_A_14_3", "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
             "iOS_A"
           ],
           "properties": {
