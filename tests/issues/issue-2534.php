@@ -5,7 +5,7 @@ return [
     'issue-2534-A' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_0_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15',
         'properties' => [
-            "Platform"=> "MacOSX",
+            "Platform"=> "macOS",
             "Platform_Description"=> "Mac OS X",
             'Platform_Version' => '12.0',
             'Platform_Maker' => 'Apple Inc',
@@ -17,7 +17,7 @@ return [
     'issue-2534-B' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
         'properties' => [
-            "Platform" => "MacOSX",
+            "Platform" => "macOS",
             "Platform_Description" => "Mac OS X",
             'Platform_Version' => '11.1',
             'Platform_Maker' => 'Apple Inc',
@@ -49,7 +49,7 @@ return [
     'issue-2534-E' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12.0; rv:94.0) Gecko/20100101 Firefox/94.0',
         'properties' => [
-            "Platform" => "MacOSX",
+            "Platform" => "macOS",
             "Platform_Version" => "12.0",
         ],
         'lite' => false,
@@ -59,7 +59,7 @@ return [
     'issue-2534-F' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11.0) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/11.0 Safari/602.1.50',
         'properties' => [
-            "Platform" => "MacOSX",
+            "Platform" => "macOS",
             "Platform_Version" => "11.0",
         ],
         'lite' => false,
