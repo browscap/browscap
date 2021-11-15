@@ -4,7 +4,7 @@ return [
     'issue-2479-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1',
         'properties' => [
-            'Comment' => 'Mobile Safari Generic',
+            'Comment' => 'Mobile Safari 14.1',
             'Browser' => 'Safari',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
