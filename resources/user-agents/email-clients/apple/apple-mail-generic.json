@@ -221,6 +221,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)",
           "device": "Macintosh",
           "platforms": [
+            "OSX_12_0",
+            "OSX_11_1", "OSX_11_0",
             "OSX_10_16", "OSX_10_15"
           ],
           "properties": {

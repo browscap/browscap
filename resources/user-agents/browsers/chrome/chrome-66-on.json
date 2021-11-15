@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER#",
-  "versions": [99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66],
+  "versions": [100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83, 82, 81, 80, 79, 78, 77, 76, 75, 74, 73, 72, 71, 70, 69, 68, 67, 66],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
@@ -53,6 +53,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "Macintosh",
           "platforms": [
+            "OSX_12_0",
+            "OSX_11_1", "OSX_11_0",
             "OSX_10_16", "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
             "OSX_10_11", "OSX_10_10",
             "OSX"
