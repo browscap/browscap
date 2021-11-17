@@ -51,7 +51,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/*OPR/#MAJORVER#*",
           "device": "Macintosh",
           "platforms": [
-            "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
+            "OSX_12_0",
+            "OSX_11_1", "OSX_11_0",
+            "OSX_10_16", "OSX_10_15", "OSX_10_14", "OSX_10_13", "OSX_10_12",
             "OSX_10_11", "OSX_10_10", "OSX_10_9",
             "OSX"
           ]

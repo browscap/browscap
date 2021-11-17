@@ -1,6 +1,7 @@
 # Browser Capabilities Project
 
-[![Build Status](https://travis-ci.org/browscap/browscap.png?branch=master)](https://travis-ci.org/browscap/browscap) [![codecov](https://codecov.io/gh/browscap/browscap/branch/master/graph/badge.svg)](https://codecov.io/gh/browscap/browscap)
+[![Continuous Integration](https://github.com/browscap/browscap/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/browscap/browscap/actions/workflows/continuous-integration.yml)
+[![codecov](https://codecov.io/gh/browscap/browscap/branch/master/graph/badge.svg)](https://codecov.io/gh/browscap/browscap)
 
 This tool is used to build and maintain browscap files.
 
@@ -12,6 +13,9 @@ $ cd browscap
 $ curl -s https://getcomposer.org/installer | php
 $ php composer.phar install
 ```
+
+## What's changed in version 6048
+* https://github.com/browscap/browscap/pull/2535 Added recent new Apple platforms (Mac OS, iOS and iPadOS)
 
 ## What's changed in version 6028
 

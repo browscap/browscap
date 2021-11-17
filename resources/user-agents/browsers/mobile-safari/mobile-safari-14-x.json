@@ -1,0 +1,66 @@
+{
+  "division": "Mobile Safari #MAJORVER#.#MINORVER#",
+  "versions": ["14.6", "14.5", "14.4", "14.3", "14.2", "14.1", 14],
+  "sortIndex": 1955,
+  "lite": true,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Mobile Safari #MAJORVER#.#MINORVER#",
+      "browser": "safari",
+      "platform": "iOS",
+      "engine": "WebKit",
+      "device": "general Mobile Device (Apple)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Mobile Safari #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPhone": "iPhone",
+            "iPod": "iPod Touch"
+          },
+          "platforms": [
+            "iOS_A_14_8", "iOS_A_14_7", "iOS_A_14_6", "iOS_A_14_5", "iOS_A_14_4","iOS_A_14_3", "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
+            "iOS_A"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "iOS_A_14_8", "iOS_A_14_7", "iOS_A_14_6", "iOS_A_14_5", "iOS_A_14_4","iOS_A_14_3", "iOS_A_14_2", "iOS_A_14_1", "iOS_A_14_0",
+            "iOS_A"
+          ],
+          "properties": {
+            "Comment": "Mobile Safari #MAJORVER#.#MINORVER# in Developer Tools",
+            "Browser_Modus": "Developer Tools",
+            "isModified": true
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (#DEVICE##PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "devices": {
+            "iPad": "iPad"
+          },
+          "platforms": [
+            "ipadOS_14_2", "ipadOS_14_1", "ipadOS_14_0",
+            "ipadOS"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/#MAJORVER#.#MINORVER#*Safari/*",
+          "platforms": [
+            "iOS_A",
+            "ipadOS"
+          ]
+        }
+      ]
+    }
+  ]
+}

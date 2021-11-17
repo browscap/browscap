@@ -784,13 +784,13 @@ class BuildHelperTest extends TestCase
         $writerCollection->expects(static::once())
             ->method('renderAllDivisionsHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::exactly(2))
+        $writerCollection->expects(static::any())
             ->method('renderDivisionFooter')
             ->willReturnSelf();
-        $writerCollection->expects(static::exactly(4))
+        $writerCollection->expects(static::any())
             ->method('renderSectionHeader')
             ->willReturnSelf();
-        $writerCollection->expects(static::exactly(4))
+        $writerCollection->expects(static::any())
             ->method('renderSectionBody')
             ->willReturnSelf();
 
