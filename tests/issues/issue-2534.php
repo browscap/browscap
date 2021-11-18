@@ -76,4 +76,28 @@ return [
         'standard' => true,
         'full' => false,
     ],
+    'issue-2534-H' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15',
+        'properties' => [
+            "Platform" => "macOS",
+            "Platform_Version" => "10.15",
+            "Browser_Version" => "Safari",
+            "Browser_Version" => "15.1",
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
+    'issue-2534-I' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15',
+        'properties' => [
+            "Platform" => "macOS",
+            "Platform_Version" => "10.15",
+            "Browser_Version" => "Safari",
+            "Browser_Version" => "15.0",
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
 ];
