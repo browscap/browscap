@@ -41,7 +41,7 @@ return [
         'properties' => [
             'Comment' => 'Samsung Browser 15.0',
             'Browser' => 'Samsung Browser',
-            'Version' => '15',
+            'Version' => '15.0',
         ],
         'lite' => false,
         'standard' => true,
