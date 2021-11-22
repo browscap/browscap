@@ -1,7 +1,7 @@
 {
     "division": "Safari #MAJORVER#.#MINORVER#",
-    "versions": ["15.1", 15],
-    "sortIndex": 1968,
+    "versions": ["14.2", "14.1", 14],
+    "sortIndex": 1967,
     "lite": true,
     "standard": true,
     "userAgents": [
@@ -23,7 +23,7 @@
             "platforms": [
               "OSX_12_0",
               "OSX_11_1", "OSX_11_0",
-              "OSX_10_16", "OSX_10_15",
+              "OSX_10_14", "OSX_10_15",
               "OSX"
             ]
           }
