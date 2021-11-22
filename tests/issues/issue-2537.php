@@ -17,17 +17,6 @@ return [
         'full' => true,
     ],
     'issue-2537-B' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1',
-        'properties' => [
-            "Comment" => 'Mobile Safari 15.2',
-            "Browser_Version" => "Safari",
-            "Browser_Version" => "15.2",
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => true,
-    ],
-    'issue-2537-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 14_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/14.2 Safari/602.1.50',
         'properties' => [
             "Comment" => 'Mobile Safari 14.2',
@@ -38,7 +27,7 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-2537-D' => [
+    'issue-2537-C' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/15.0 Chrome/90.0.4430.210 Mobile Safari/537.36',
         'properties' => [
             'Comment' => 'Samsung Browser 15.0',
@@ -49,7 +38,7 @@ return [
         'standard' => true,
         'full' => true,
     ],
-    'issue-2537-E' => [
+    'issue-2537-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-T295) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Safari/537.36',
         'properties' => [
             'Comment' => 'Samsung Browser 14.2',
