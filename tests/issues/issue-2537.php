@@ -17,10 +17,11 @@ return [
         'full' => true,
     ],
     'issue-2537-B' => [
-        'ua' => 'Mozilla/5.0 (iPad; CPU OS 15_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/15.4 Safari/602.1.50',
+        'ua' => 'Mozilla/5.0 (iPad; CPU OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Mobile/15E148 Safari/604.1',
         'properties' => [
+            "Comment" => 'Mobile Safari 15.2',
             "Browser_Version" => "Safari",
-            "Browser_Version" => "15.3",
+            "Browser_Version" => "15.2",
         ],
         'lite' => false,
         'standard' => true,
@@ -29,6 +30,7 @@ return [
     'issue-2537-C' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 14_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/14.2 Safari/602.1.50',
         'properties' => [
+            "Comment" => 'Mobile Safari 14.2',
             "Browser_Version" => "Safari",
             "Browser_Version" => "14.2",
         ],
