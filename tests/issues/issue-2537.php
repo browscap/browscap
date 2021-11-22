@@ -39,7 +39,7 @@ return [
     'issue-2537-D' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/15.0 Chrome/90.0.4430.210 Mobile Safari/537.36',
         'properties' => [
-            'Comment' => 'Samsung Browser 15',
+            'Comment' => 'Samsung Browser 15.0',
             'Browser' => 'Samsung Browser',
             'Version' => '15',
         ],
@@ -50,7 +50,7 @@ return [
     'issue-2537-E' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 11; SAMSUNG SM-T295) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/14.2 Chrome/87.0.4280.141 Safari/537.36',
         'properties' => [
-            'Comment' => 'Samsung Browser 14',
+            'Comment' => 'Samsung Browser 14.2',
             'Browser' => 'Samsung Browser',
             'Version' => '14.2',
         ],
