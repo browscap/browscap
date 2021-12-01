@@ -53,12 +53,12 @@ return [
         'full' => true,
     ],
     'issue-2542-E' => [
-        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.60 (Edition utorrent)',
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4688.2 Safari/537.36 OPR/83.0.4246.0 (Edition developer)',
         'properties' => [
-            'Comment' => 'Opera 81',
+            'Comment' => 'Opera 83',
             'Browser' => 'Opera',
-            'Version' => '81',
-            'Platform' => 'Win10',
+            'Version' => '83',
+            'Platform' => 'macOS',
         ],
         'lite' => false,
         'standard' => true,
