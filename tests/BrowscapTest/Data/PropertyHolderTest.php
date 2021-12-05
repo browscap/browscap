@@ -426,8 +426,8 @@ class PropertyHolderTest extends TestCase
     {
         return [
             ['Device_Pointing_Method', 'touchscreen'],
-            ['Browser_Bits', 32],
-            ['Platform_Bits', 64],
+            ['Browser_Bits', '32'],
+            ['Platform_Bits', '64'],
         ];
     }
 

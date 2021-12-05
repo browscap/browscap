@@ -322,7 +322,7 @@ class CsvWriterTest extends TestCase
         $this->object->setSilent(false);
 
         $section = [
-            'Test' => 1,
+            'Test' => '1',
             'isTest' => true,
             'abc' => 'bcd',
         ];
