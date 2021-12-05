@@ -13,8 +13,7 @@ use UnexpectedValueException;
 
 class BrowserFactoryTest extends TestCase
 {
-    /** @var BrowserFactory */
-    private $object;
+    private BrowserFactory $object;
 
     protected function setUp(): void
     {

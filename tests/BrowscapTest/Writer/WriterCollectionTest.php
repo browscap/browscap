@@ -25,11 +25,9 @@ class WriterCollectionTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var WriterCollection */
-    private $object;
+    private WriterCollection $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
     protected function setUp(): void
     {

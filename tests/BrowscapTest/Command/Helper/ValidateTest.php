@@ -10,8 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class ValidateTest extends TestCase
 {
-    /** @var ValidateHelper */
-    private $object;
+    private ValidateHelper $object;
 
     /**
      * @throws Exception

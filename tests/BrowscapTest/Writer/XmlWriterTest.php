@@ -29,11 +29,9 @@ class XmlWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var XmlWriter */
-    private $object;
+    private XmlWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
     protected function setUp(): void
     {

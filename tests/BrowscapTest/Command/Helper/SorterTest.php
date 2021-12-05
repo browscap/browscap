@@ -10,8 +10,7 @@ use PHPUnit\Framework\TestCase;
 
 class SorterTest extends TestCase
 {
-    /** @var Sorter */
-    private $object;
+    private Sorter $object;
 
     /**
      * @throws Exception

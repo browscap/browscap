@@ -14,8 +14,7 @@ use function sprintf;
 
 class JsonFormatterTest extends TestCase
 {
-    /** @var JsonFormatter */
-    private $object;
+    private JsonFormatter $object;
 
     protected function setUp(): void
     {

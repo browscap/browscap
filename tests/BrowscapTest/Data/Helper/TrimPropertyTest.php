@@ -9,8 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class TrimPropertyTest extends TestCase
 {
-    /** @var TrimProperty */
-    private $object;
+    private TrimProperty $object;
 
     protected function setUp(): void
     {

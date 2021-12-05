@@ -28,11 +28,9 @@ use function str_replace;
 
 class Expander
 {
-    /** @var DataCollection */
-    private $collection;
+    private DataCollection $collection;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
@@ -40,10 +38,9 @@ class Expander
      *
      * @var array<int|string, string|int|null>
      */
-    private $patternId = [];
+    private array $patternId = [];
 
-    /** @var TrimProperty */
-    private $trimProperty;
+    private TrimProperty $trimProperty;
 
     /**
      * Create a new data expander

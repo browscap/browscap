@@ -9,8 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class VersionNumberTest extends TestCase
 {
-    /** @var VersionNumber */
-    private $object;
+    private VersionNumber $object;
 
     protected function setUp(): void
     {

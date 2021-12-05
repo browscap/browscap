@@ -26,23 +26,18 @@ use function is_string;
 
 class DataCollectionFactory
 {
-    /** @var DataCollection */
-    private $collection;
+    private DataCollection $collection;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
-    /** @var DivisionFactory */
-    private $divisionFactory;
+    private DivisionFactory $divisionFactory;
 
-    /** @var DeviceFactory */
-    private $deviceFactory;
+    private DeviceFactory $deviceFactory;
 
-    /** @var DivisionDataValidator */
-    private $divisionDataValidator;
+    private DivisionDataValidator $divisionDataValidator;
 
     /** @var array<string> */
-    private $allDivisions = [];
+    private array $allDivisions = [];
 
     /**
      * @throws Exception

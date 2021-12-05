@@ -16,8 +16,7 @@ class FullPhpWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var FullPhpWriterFactory */
-    private $object;
+    private FullPhpWriterFactory $object;
 
     protected function setUp(): void
     {
