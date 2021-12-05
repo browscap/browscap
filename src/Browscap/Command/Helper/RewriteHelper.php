@@ -5,15 +5,19 @@ declare(strict_types=1);
 namespace Browscap\Command\Helper;
 
 use Ergebnis\Json\Normalizer;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
 use Ergebnis\Json\Printer\Printer;
 use Exception;
-use ExceptionalJSON\DecodeErrorException;
-use ExceptionalJSON\EncodeErrorException;
+use JsonException;
 use JsonSchema\SchemaStorage;
 use JsonSchema\Validator;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 use Symfony\Component\Console\Helper\Helper;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Throwable;
 
@@ -27,11 +31,21 @@ use const JSON_UNESCAPED_UNICODE;
 
 class RewriteHelper extends Helper
 {
+    /**
+     * @throws void
+     */
     public function getName(): string
     {
         return 'rewrite';
     }
 
+    /**
+     * @throws DirectoryNotFoundException
+     * @throws InvalidNewLineStringException
+     * @throws InvalidIndentStyleException
+     * @throws InvalidIndentSizeException
+     * @throws InvalidJsonEncodeOptionsException
+     */
     public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false): void
     {
         $normalizer = new Normalizer\SchemaNormalizer(
@@ -74,7 +88,7 @@ class RewriteHelper extends Helper
 
                 try {
                     $json = $sorterHelper->sort($json);
-                } catch (DecodeErrorException | EncodeErrorException $e) {
+                } catch (JsonException $e) {
                     $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                     continue;

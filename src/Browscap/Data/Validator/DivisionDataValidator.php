@@ -6,6 +6,8 @@ namespace Browscap\Data\Validator;
 
 use Assert\Assertion;
 use Assert\AssertionFailedException;
+use Browscap\Data\Division;
+use Browscap\Data\UserAgent;
 use LogicException;
 
 use function array_key_exists;
@@ -16,13 +18,18 @@ use function mb_stripos;
 use function mb_strpos;
 use function preg_match;
 
+/**
+ * @phpstan-import-type DivisionData from Division
+ * @phpstan-import-type UserAgentData from UserAgent
+ */
 class DivisionDataValidator implements ValidatorInterface
 {
     /**
      * valdates the structure of a division
      *
-     * @param mixed[]   $divisionData Data to validate
-     * @param mixed[][] $allDivisions
+     * @param mixed[]  $divisionData Data to validate
+     * @param string[] $allDivisions
+     * @phpstan-param DivisionData $divisionData
      *
      * @throws AssertionFailedException
      * @throws LogicException
@@ -67,9 +74,10 @@ class DivisionDataValidator implements ValidatorInterface
     }
 
     /**
-     * @param mixed[]       $useragentData
-     * @param array<string> $versions
-     * @param mixed[][]     $allDivisions
+     * @param mixed[]                $useragentData
+     * @param array<int, int|string> $versions
+     * @param string[]               $allDivisions
+     * @phpstan-param UserAgentData $useragentData
      *
      * @throws AssertionFailedException
      * @throws LogicException
@@ -212,9 +220,9 @@ class DivisionDataValidator implements ValidatorInterface
     }
 
     /**
-     * @param mixed[]       $childData     The children section to be validated
-     * @param mixed[]       $useragentData The complete UserAgent section which is the parent of the children section
-     * @param array<string> $versions      The versions from the division
+     * @param mixed[]                $childData     The children section to be validated
+     * @param mixed[]                $useragentData The complete UserAgent section which is the parent of the children section
+     * @param array<int, int|string> $versions      The versions from the division
      *
      * @throws LogicException
      * @throws AssertionFailedException

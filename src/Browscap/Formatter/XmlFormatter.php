@@ -16,9 +16,11 @@ use function trim;
  */
 class XmlFormatter implements FormatterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
+    /**
+     * @throws void
+     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -26,6 +28,8 @@ class XmlFormatter implements FormatterInterface
 
     /**
      * returns the Type of the formatter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -34,6 +38,8 @@ class XmlFormatter implements FormatterInterface
 
     /**
      * formats the name of a property
+     *
+     * @throws void
      */
     public function formatPropertyName(string $name): string
     {
@@ -66,7 +72,7 @@ class XmlFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = htmlentities($this->propertyHolder->checkValueInArray($property, (string) $value));
+                    $valueOutput = htmlentities((string) $this->propertyHolder->checkValueInArray($property, (string) $value));
                 } catch (InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }

@@ -5,9 +5,13 @@ declare(strict_types=1);
 namespace Browscap;
 
 use Symfony\Component\Console\Application;
+use Symfony\Component\Console\Exception\LogicException;
 
 class Browscap extends Application
 {
+    /**
+     * @throws LogicException
+     */
     public function __construct()
     {
         parent::__construct('Browser Capabilities Project', 'dev-master');

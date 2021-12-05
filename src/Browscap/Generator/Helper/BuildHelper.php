@@ -14,7 +14,6 @@ use Browscap\Data\Validator\PropertiesValidator;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
 use Exception;
-use JsonClass\Json;
 use Psr\Log\LoggerInterface;
 
 use function array_key_exists;
@@ -22,6 +21,11 @@ use function array_keys;
 use function array_merge;
 use function assert;
 use function current;
+use function is_array;
+use function json_decode;
+use function json_encode;
+
+use const JSON_THROW_ON_ERROR;
 
 final class BuildHelper
 {
@@ -92,8 +96,6 @@ final class BuildHelper
         $writerCollection->renderSectionFooter($sectionName);
         $writerCollection->renderDivisionFooter();
 
-        $jsonClass = new Json();
-
         foreach ($collection->getDivisions() as $division) {
             assert($division instanceof Division);
 
@@ -118,11 +120,12 @@ final class BuildHelper
 
                 $logger->info('handle division ' . $divisionName);
 
-                $encodedSections = $jsonClass->encode($sections);
+                $encodedSections = json_encode($sections, JSON_THROW_ON_ERROR);
                 $encodedSections = (new VersionNumber())->replace($encodedSections, $majorVer, $minorVer);
 
-                $sectionsWithVersion = $jsonClass->decode($encodedSections, true);
-                $firstElement        = current($sectionsWithVersion);
+                $sectionsWithVersion = json_decode($encodedSections, true, 512, JSON_THROW_ON_ERROR);
+                assert(is_array($sectionsWithVersion));
+                $firstElement = current($sectionsWithVersion);
 
                 $writerCollection->renderDivisionHeader($divisionName, $firstElement['Parent']);
 

@@ -10,18 +10,23 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\LiteFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class LiteFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -35,12 +40,15 @@ class LiteFilterTest extends TestCase
 
     /**
      * tests detecting if a divion should be in the output
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutput(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -51,7 +59,7 @@ class LiteFilterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isLite'])
+            ->onlyMethods(['isLite'])
             ->getMock();
 
         $division
@@ -66,6 +74,8 @@ class LiteFilterTest extends TestCase
      * Data Provider for the test testIsOutputProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function outputPropertiesDataProvider(): array
     {
@@ -116,13 +126,16 @@ class LiteFilterTest extends TestCase
     }
 
     /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider outputPropertiesDataProvider
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -134,7 +147,7 @@ class LiteFilterTest extends TestCase
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -147,13 +160,16 @@ class LiteFilterTest extends TestCase
     }
 
     /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider outputPropertiesDataProvider
      */
     public function testIsOutputPropertyWithPropertyHolder(string $propertyName): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -163,7 +179,7 @@ class LiteFilterTest extends TestCase
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -176,12 +192,15 @@ class LiteFilterTest extends TestCase
 
     /**
      * tests if a section is always in the output, if the lite flag is true
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputSectionOnlyWhenLite(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder

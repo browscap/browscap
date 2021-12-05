@@ -10,18 +10,162 @@ parameters:
     - tests/fixtures
   scanFiles:
     - %currentWorkingDirectory%/vendor/autoload.php
-  excludes_analyse:
-    - */tests/*/data/*
-    - */V3/*Test.php
+    - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/autoload.php
+    - %currentWorkingDirectory%/vendor/squizlabs/php_codesniffer/src/Util/Tokens.php
+  checkGenericClassInNonGenericObjectType: false
+  checkMissingIterableValueType: false
+  treatPhpDocTypesAsCertain: false
+  exceptions:
+    implicitThrows: false
+    checkedExceptionRegexes:
+      - '#Exception#'
+      - '#Throwable#'
+    check:
+      missingCheckedExceptionInThrows: true
+      tooWideThrowType: true
   ignoreErrors:
     - '~expects string, Exception given~'
     - '~expects string, Twig\\Error\\LoaderError\|Twig\\Error\\RuntimeError\|Twig\\Error\\SyntaxError given~'
-    - '~expects string, BrowserDetector\\Loader\\NotFoundException given~'
     - '~Parameter #1 \$array of method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) expects array<array<string>\|string>, array<array<array<string>\|string>\|string> given~'
     - '~Method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) should return array<array<array<string>\|string>> but returns array<array<array<array<string>\|string>\|string>\|string>~'
     - '~Parameter #2 \$haystack of static method PHPUnit\\Framework\\Assert::assertCount\(\) expects Countable\|iterable, array<int, int\|string>\|string given~'
     - '~Parameter #1 \$input of function array_sum expects array, array<int, int\|string>\|string given~'
     - '~Argument of an invalid type array<int, int\|string>\|string supplied for foreach, only iterables are supported~'
-    - '~Unreachable statement - code above always terminates~'
-    - '~Instantiation of deprecated class Doctrine\\Common\\Cache\\ArrayCache~'
-  checkMissingIterableValueType: false
+    - '~Dead catch -~'
+    - '~Parameter #1 \$message of method Psr\\Log\\LoggerInterface::critical\(\) expects string~'
+    - '~Expression in empty\(\) is not falsy~'
+
+    # some issues I could not fix
+    -
+      message: '~getTestFiles\(\) should return array~'
+      path: src/Browscap/Helper/IteratorHelper.php
+    -
+      message: "~Offset '.*' does not exist on array~"
+      path: src/Browscap/Data/Factory/EngineFactory.php
+    -
+      message: '~array<literal-string&non-empty-string, bool\|int\|string> given~'
+      path: src/Browscap/Data/Factory/EngineFactory.php
+    -
+      message: "~Offset '.*' does not exist on array~"
+      path: src/Browscap/Data/Factory/PlatformFactory.php
+
+    # some test where we check the data structure
+    -
+      message: "~platforms: 'abc'}}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~match: array{}}}}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~children: array{array{device: 'abc'}}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~children: array{array{device: array{}}}}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~children: array{array{devices: 'def'}}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~children: array{match: '123'}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~children: 'xyz'}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~Version: array{}}}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~Comment: array{}}}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{Parent: 'DefaultProperties'}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{Parent: 'abc'}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{'abc'}}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~userAgents: array{array{userAgent: 'abc', properties: 'bcd'}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~userAgents: array{array{userAgent: 'abc'}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~userAgents: array{array{userAgent: 'abc#MAJORVER#'}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~userAgents: array{array{userAgent: 'abc\\['}}} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~userAgents: array{array{userAgent: array{}}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~userAgents: array{array{}}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: 1, lite: false, standard: true} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: 1, lite: false, standard: 'true'} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: 1, lite: false} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: 1, lite: 'false'} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: 1} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: -1} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc', sortIndex: false} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{division: 'abc'} given~"
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~array{division: array{}} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: '~array<string, string>}>}>}, array{} given~'
+      path: tests/BrowscapTest/Data/Validator/DivisionDataValidatorTest.php
+    -
+      message: "~array{abc: array{properties: array{abc: 'def'}, standard: false, lite: false}} given~"
+      path: tests/BrowscapTest/Data/Factory/PlatformFactoryTest.php
+    -
+      message: "~array{properties: array{abc: 'def'}, lite: false, standard: false, inherits: 'abc'} given~"
+      path: tests/BrowscapTest/Data/Factory/PlatformFactoryTest.php
+    -
+      message: "~array{abc: 'def', lite: false} given~"
+      path: tests/BrowscapTest/Data/Factory/PlatformFactoryTest.php
+    -
+      message: "~array{abc: 'def'} given~"
+      path: tests/BrowscapTest/Data/Factory/PlatformFactoryTest.php
+    -
+      message: "~array{properties: array{abc: 'xyz'}, standard: true, type: 'phablet'} given~"
+      path: tests/BrowscapTest/Data/Factory/DeviceFactoryTest.php
+    -
+      message: "~array{properties: array{abc: 'xyz'}, standard: true, type: 'does not exist'} given~"
+      path: tests/BrowscapTest/Data/Factory/DeviceFactoryTest.php
+    -
+      message: "~array{abc: 'def'} given~"
+      path: tests/BrowscapTest/Data/Factory/DeviceFactoryTest.php
+    -
+      message: "~array{properties: array{Browser: 'xyz'}, standard: true, lite: false, type: 'validator'} given~"
+      path: tests/BrowscapTest/Data/Factory/BrowserFactoryTest.php
+    -
+      message: "~array{properties: array{Browser: 'xyz'}, standard: true, lite: false, type: 'does not exist'} given~"
+      path: tests/BrowscapTest/Data/Factory/BrowserFactoryTest.php
+    -
+      message: "~array{Browser: 'def'} given~"
+      path: tests/BrowscapTest/Data/Factory/BrowserFactoryTest.php
+
+    # the two core files do not have a children structure, thus we cant it make mandatory
+    -
+      message: "~Offset 'children' does not exist on array~"
+      path: src/Browscap/Data/Validator/DivisionDataValidator.php

@@ -10,6 +10,7 @@ use Browscap\Formatter;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer;
 use Browscap\Writer\WriterCollection;
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -19,6 +20,8 @@ class CustomWriterFactory
 {
     /**
      * @param array<string> $fields
+     *
+     * @throws InvalidArgumentException
      */
     public function createCollection(
         LoggerInterface $logger,

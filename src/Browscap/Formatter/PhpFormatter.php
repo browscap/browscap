@@ -16,9 +16,11 @@ use function trim;
  */
 class PhpFormatter implements FormatterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
+    /**
+     * @throws void
+     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -26,6 +28,8 @@ class PhpFormatter implements FormatterInterface
 
     /**
      * returns the Type of the formatter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -34,6 +38,8 @@ class PhpFormatter implements FormatterInterface
 
     /**
      * formats the name of a property
+     *
+     * @throws void
      */
     public function formatPropertyName(string $name): string
     {

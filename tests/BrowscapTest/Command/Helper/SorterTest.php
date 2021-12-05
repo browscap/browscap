@@ -5,27 +5,35 @@ declare(strict_types=1);
 namespace BrowscapTest\Command\Helper;
 
 use Browscap\Command\Helper\Sorter;
-use Exception;
+use JsonException;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class SorterTest extends TestCase
 {
-    /** @var Sorter */
-    private $object;
+    private Sorter $object;
 
     /**
-     * @throws Exception
+     * @throws void
      */
     protected function setUp(): void
     {
         $this->object = new Sorter();
     }
 
+    /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     */
     public function testGetName(): void
     {
         static::assertSame('sorter', $this->object->getName());
     }
 
+    /**
+     * @throws JsonException
+     */
     public function testSort(): void
     {
         $data         = '{"b": "1","a": "2"}';

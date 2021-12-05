@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Browscap\Data;
 
 use OutOfBoundsException;
-use UnexpectedValueException;
 
 use function array_key_exists;
 use function array_multisort;
@@ -19,28 +18,25 @@ use const SORT_NUMERIC;
 class DataCollection
 {
     /** @var Platform[] */
-    private $platforms = [];
+    private array $platforms = [];
 
     /** @var Engine[] */
-    private $engines = [];
+    private array $engines = [];
 
     /** @var Browser[] */
-    private $browsers = [];
+    private array $browsers = [];
 
     /** @var Device[] */
-    private $devices = [];
+    private array $devices = [];
 
     /** @var Division[] */
-    private $divisions = [];
+    private array $divisions = [];
 
-    /** @var Division */
-    private $defaultProperties;
+    private Division $defaultProperties;
 
-    /** @var Division */
-    private $defaultBrowser;
+    private Division $defaultBrowser;
 
-    /** @var bool */
-    private $divisionsHaveBeenSorted = false;
+    private bool $divisionsHaveBeenSorted = false;
 
     /**
      * @param string $platformName Name of the platform
@@ -64,6 +60,8 @@ class DataCollection
 
     /**
      * @param string $browserName Name of the browser
+     *
+     * @throws DuplicateDataException
      */
     public function addBrowser(string $browserName, Browser $browser): void
     {
@@ -80,6 +78,8 @@ class DataCollection
 
     /**
      * @param string $deviceName Name of the device
+     *
+     * @throws DuplicateDataException
      */
     public function addDevice(string $deviceName, Device $device): void
     {
@@ -184,7 +184,6 @@ class DataCollection
      * Get a single platform data array
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     public function getPlatform(string $platform): Platform
     {
@@ -201,7 +200,6 @@ class DataCollection
      * Get a single engine data array
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     public function getEngine(string $engine): Engine
     {
@@ -218,7 +216,6 @@ class DataCollection
      * Get a single browser data array
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     public function getBrowser(string $browser): Browser
     {
@@ -235,7 +232,6 @@ class DataCollection
      * Get a single engine data array
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     public function getDevice(string $device): Device
     {

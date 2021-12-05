@@ -11,6 +11,9 @@ use RuntimeException;
 use UaDeviceType\TypeLoader;
 use UnexpectedValueException;
 
+/**
+ * @phpstan-import-type DeviceData from Device
+ */
 final class DeviceFactory
 {
     /**
@@ -18,6 +21,7 @@ final class DeviceFactory
      *
      * @param mixed[] $deviceData The Device data for the current object
      * @param string  $deviceName The name for the current device
+     * @phpstan-param DeviceData $deviceData
      *
      * @throws RuntimeException if the file does not exist or has invalid JSON.
      * @throws AssertionFailedException

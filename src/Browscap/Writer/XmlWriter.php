@@ -7,7 +7,9 @@ namespace Browscap\Writer;
 use Browscap\Data\DataCollection;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
+use Exception;
 use InvalidArgumentException;
+use JsonException;
 use Psr\Log\LoggerInterface;
 
 use function array_keys;
@@ -24,24 +26,23 @@ use const PHP_EOL;
  */
 class XmlWriter implements WriterInterface
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /** @var resource */
     private $file;
 
-    /** @var FormatterInterface */
-    private $formatter;
+    private FormatterInterface $formatter;
 
-    /** @var FilterInterface */
-    private $filter;
+    private FilterInterface $filter;
 
-    /** @var bool */
-    private $silent = false;
+    private bool $silent = false;
 
     /** @var bool[] */
-    private $outputProperties = [];
+    private array $outputProperties = [];
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger = $logger;
@@ -56,6 +57,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * returns the Type of the writer
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -64,38 +67,58 @@ class XmlWriter implements WriterInterface
 
     /**
      * closes the Writer and the written File
+     *
+     * @throws void
      */
     public function close(): void
     {
         fclose($this->file);
     }
 
+    /**
+     * @throws void
+     */
     public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
+    /**
+     * @throws void
+     */
     public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
+    /**
+     * @throws void
+     */
     public function setFilter(FilterInterface $filter): void
     {
         $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
+    /**
+     * @throws void
+     */
     public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
+    /**
+     * @throws void
+     */
     public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
 
+    /**
+     * @throws void
+     */
     public function isSilent(): bool
     {
         return $this->silent;
@@ -103,6 +126,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * Generates a start sequence for the output file
+     *
+     * @throws void
      */
     public function fileStart(): void
     {
@@ -116,6 +141,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * Generates a end sequence for the output file
+     *
+     * @throws void
      */
     public function fileEnd(): void
     {
@@ -130,6 +157,8 @@ class XmlWriter implements WriterInterface
      * Generate the header
      *
      * @param array<string> $comments
+     *
+     * @throws void
      */
     public function renderHeader(array $comments = []): void
     {
@@ -152,6 +181,8 @@ class XmlWriter implements WriterInterface
      * renders the version information
      *
      * @param array<string> $versionData
+     *
+     * @throws JsonException
      */
     public function renderVersion(array $versionData = []): void
     {
@@ -179,6 +210,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the header for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsHeader(DataCollection $collection): void
     {
@@ -187,6 +220,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the header for a division
+     *
+     * @throws void
      */
     public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
     {
@@ -195,6 +230,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the header for a section
+     *
+     * @throws JsonException
      */
     public function renderSectionHeader(string $sectionName): void
     {
@@ -215,6 +252,8 @@ class XmlWriter implements WriterInterface
      * @param array<string, array<string, bool|string>> $sections
      *
      * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
     {
@@ -251,6 +290,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for a section
+     *
+     * @throws void
      */
     public function renderSectionFooter(string $sectionName = ''): void
     {
@@ -263,6 +304,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for a division
+     *
+     * @throws void
      */
     public function renderDivisionFooter(): void
     {
@@ -271,6 +314,8 @@ class XmlWriter implements WriterInterface
 
     /**
      * renders the footer for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsFooter(): void
     {

@@ -4,32 +4,38 @@ declare(strict_types=1);
 
 namespace Browscap\Command\Helper;
 
-use ExceptionalJSON\DecodeErrorException;
-use ExceptionalJSON\EncodeErrorException;
-use JsonClass\Json;
+use JsonException;
 use Symfony\Component\Console\Helper\Helper;
 
+use function assert;
+use function is_array;
+use function json_decode;
+use function json_encode;
 use function ksort;
+
+use const JSON_THROW_ON_ERROR;
 
 class Sorter extends Helper
 {
+    /**
+     * @throws void
+     */
     public function getName(): string
     {
         return 'sorter';
     }
 
     /**
-     * @throws DecodeErrorException when the decode operation fails.
-     * @throws EncodeErrorException When the encode operation fails.
+     * @throws JsonException
      */
     public function sort(string $json): string
     {
-        $jsonClass = new Json();
+        $data = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
 
-        $data = $jsonClass->decode($json, true);
+        assert(is_array($data));
 
         ksort($data);
 
-        return $jsonClass->encode($data);
+        return json_encode($data, JSON_THROW_ON_ERROR);
     }
 }

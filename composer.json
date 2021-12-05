@@ -1,12 +1,11 @@
 {
   "name": "browscap/browscap",
-  "type": "application",
   "description": "Browser Capabilities Tools",
+  "license": "MIT",
+  "type": "application",
   "keywords": [
     "browscap"
   ],
-  "homepage": "https://github.com/browscap/browscap",
-  "license": "MIT",
   "authors": [
     {
       "name": "Joshua Estes",
@@ -28,11 +27,16 @@
       "homepage": "https://github.com/browscap/browscap/graphs/contributors"
     }
   ],
+  "homepage": "https://github.com/browscap/browscap",
+  "support": {
+    "issues": "https://github.com/browscap/browscap/issues",
+    "source": "https://github.com/browscap/browscap"
+  },
   "require": {
     "php": "^7.4.3",
     "ext-json": "*",
     "beberlei/assert": "^3.3.1",
-    "mimmi20/json-class": "^4.0.0",
+    "ergebnis/json-normalizer": "^1.0.3",
     "mimmi20/ua-browser-type": "^8.0.5",
     "mimmi20/ua-device-type": "^8.0.5",
     "monolog/monolog": "^2.3.5",
@@ -43,8 +47,10 @@
   },
   "require-dev": {
     "ext-zip": "*",
-    "browscap/browscap-php": "^5.0.0",
+    "browscap/browscap-php": "dev-updates",
     "doctrine/coding-standard": "^9.0.0",
+    "league/flysystem": "^2.3.2",
+    "matthiasmullie/scrapbook": "^1.4.8",
     "mikey179/vfsstream": "^v1.6.10",
     "phpstan/extension-installer": "^1.1.0",
     "phpstan/phpstan": "^1.2.0",
@@ -56,13 +62,8 @@
   "suggest": {
     "ext-zip": "to create a zip file containing all other generated files"
   },
-  "config": {
-    "platform": {
-      "php": "7.4.3"
-    },
-    "preferred-install": "dist",
-    "sort-packages": true
-  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "autoload": {
     "psr-4": {
       "Browscap\\": "src/Browscap/"
@@ -74,13 +75,14 @@
       "UserAgentsTest\\": "tests/UserAgentsTest/"
     }
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
   "bin": [
     "bin/browscap"
   ],
-  "support": {
-    "issues": "https://github.com/browscap/browscap/issues",
-    "source": "https://github.com/browscap/browscap"
+  "config": {
+    "platform": {
+      "php": "7.4.3"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }

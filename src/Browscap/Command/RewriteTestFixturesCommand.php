@@ -6,12 +6,18 @@ namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
 use Ergebnis\Json\Normalizer;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
 use Ergebnis\Json\Printer\Printer;
 use Exception;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Throwable;
 
@@ -24,6 +30,9 @@ use const JSON_UNESCAPED_UNICODE;
 
 class RewriteTestFixturesCommand extends Command
 {
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function configure(): void
     {
         $this
@@ -32,9 +41,15 @@ class RewriteTestFixturesCommand extends Command
     }
 
     /**
-     * @return int|null null or 0 if everything went fine, or an error code
+     * @return int 0 if everything went fine, or an error code
+     *
+     * @throws DirectoryNotFoundException
+     * @throws InvalidNewLineStringException
+     * @throws InvalidIndentStyleException
+     * @throws InvalidIndentSizeException
+     * @throws InvalidJsonEncodeOptionsException
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -85,6 +100,6 @@ class RewriteTestFixturesCommand extends Command
 
         $output->writeln('Done');
 
-        return 0;
+        return self::SUCCESS;
     }
 }

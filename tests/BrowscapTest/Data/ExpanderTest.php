@@ -8,21 +8,28 @@ use Browscap\Data\Browser;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Division;
+use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Expander;
+use Browscap\Data\InvalidParentException;
+use Browscap\Data\ParentNotDefinedException;
 use Browscap\Data\Platform;
 use Browscap\Data\UserAgent;
+use OutOfBoundsException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
 use ReflectionProperty;
+use UnexpectedValueException;
 
 use function assert;
 
 class ExpanderTest extends TestCase
 {
-    /** @var Expander */
-    private $object;
+    private Expander $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $logger     = $this->createMock(LoggerInterface::class);
@@ -37,12 +44,17 @@ class ExpanderTest extends TestCase
      * tests parsing an empty data collection
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testParseDoesNothingOnEmptyDatacollection(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -52,7 +64,7 @@ class ExpanderTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -67,7 +79,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -82,7 +94,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -104,12 +116,17 @@ class ExpanderTest extends TestCase
      * tests parsing a not empty data collection without children
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testParseOnNotEmptyDatacollectionWithoutChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -119,7 +136,7 @@ class ExpanderTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -134,7 +151,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -149,7 +166,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -169,7 +186,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -193,12 +210,17 @@ class ExpanderTest extends TestCase
      * tests parsing an not empty data collection with children
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testParseOnNotEmptyDatacollectionWithChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -208,7 +230,7 @@ class ExpanderTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -223,7 +245,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -238,7 +260,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -268,7 +290,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -290,12 +312,17 @@ class ExpanderTest extends TestCase
      * tests parsing a non empty data collection with children and devices
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testParseOnNotEmptyDatacollectionWithChildrenAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
         $collection
@@ -305,7 +332,7 @@ class ExpanderTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -320,7 +347,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -330,7 +357,7 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getType'])
+            ->onlyMethods(['getProperties', 'getType'])
             ->getMock();
 
         $device
@@ -355,7 +382,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -389,7 +416,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -411,17 +438,22 @@ class ExpanderTest extends TestCase
      * tests pattern id generation on a not empty data collection with children, no devices or platforms
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildren(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties'])
             ->getMock();
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -436,7 +468,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -451,7 +483,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -481,7 +513,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getFileName'])
+            ->onlyMethods(['getUserAgents', 'getFileName'])
             ->getMock();
 
         $division
@@ -509,17 +541,22 @@ class ExpanderTest extends TestCase
      * tests pattern id generation on a not empty data collection with children and platforms, no devices
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndPlatforms(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties', 'getPlatform'])
             ->getMock();
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -534,7 +571,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -544,7 +581,7 @@ class ExpanderTest extends TestCase
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getMatch'])
+            ->onlyMethods(['getProperties', 'getMatch'])
             ->getMock();
 
         $platform
@@ -569,7 +606,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -600,7 +637,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getFileName'])
+            ->onlyMethods(['getUserAgents', 'getFileName'])
             ->getMock();
 
         $division
@@ -628,17 +665,22 @@ class ExpanderTest extends TestCase
      * tests pattern id generation on a not empty data collection with children and devices, no platforms
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties', 'getDevice', 'getPlatform'])
             ->getMock();
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -653,7 +695,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -663,7 +705,7 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getType'])
+            ->onlyMethods(['getProperties', 'getType'])
             ->getMock();
 
         $device
@@ -678,7 +720,7 @@ class ExpanderTest extends TestCase
 
         $platform = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getMatch'])
+            ->onlyMethods(['getProperties', 'getMatch'])
             ->getMock();
 
         $platform
@@ -708,7 +750,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -743,7 +785,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getFileName'])
+            ->onlyMethods(['getUserAgents', 'getFileName'])
             ->getMock();
 
         $division
@@ -774,17 +816,22 @@ class ExpanderTest extends TestCase
      * tests pattern id generation on a not empty data collection with children, platforms and devices
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndDevices(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties', 'getDevice'])
             ->getMock();
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -799,7 +846,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -809,7 +856,7 @@ class ExpanderTest extends TestCase
 
         $device = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getType'])
+            ->onlyMethods(['getProperties', 'getType'])
             ->getMock();
 
         $device
@@ -834,7 +881,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -868,7 +915,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getFileName'])
+            ->onlyMethods(['getUserAgents', 'getFileName'])
             ->getMock();
 
         $division
@@ -899,17 +946,22 @@ class ExpanderTest extends TestCase
      * tests pattern id generation on a not empty data collection with children, platforms and devices
      *
      * @throws ReflectionException
+     * @throws UnexpectedValueException
+     * @throws OutOfBoundsException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
+     * @throws DuplicateDataException
      */
     public function testPatternIdCollectionOnNotEmptyDatacollectionWithChildrenPlatformsAndBrowsers(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDivisions', 'getDefaultProperties', 'getBrowser'])
+            ->onlyMethods(['getDivisions', 'getDefaultProperties', 'getBrowser'])
             ->getMock();
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -924,7 +976,7 @@ class ExpanderTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -934,7 +986,7 @@ class ExpanderTest extends TestCase
 
         $browser = $this->getMockBuilder(Browser::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties', 'getType'])
+            ->onlyMethods(['getProperties', 'getType'])
             ->getMock();
 
         $browser
@@ -959,7 +1011,7 @@ class ExpanderTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties', 'getChildren'])
+            ->onlyMethods(['getUserAgent', 'getProperties', 'getChildren'])
             ->getMock();
 
         $useragent
@@ -990,7 +1042,7 @@ class ExpanderTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getFileName'])
+            ->onlyMethods(['getUserAgents', 'getFileName'])
             ->getMock();
 
         $division

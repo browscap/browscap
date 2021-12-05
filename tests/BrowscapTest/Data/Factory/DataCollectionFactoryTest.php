@@ -9,7 +9,7 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\DataCollection;
 use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Factory\DataCollectionFactory;
-use Exception;
+use LogicException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
@@ -21,11 +21,10 @@ use function sprintf;
 
 class DataCollectionFactoryTest extends TestCase
 {
-    /** @var DataCollectionFactory */
-    private $object;
+    private DataCollectionFactory $object;
 
     /**
-     * @throws Exception
+     * @throws void
      */
     protected function setUp(): void
     {
@@ -40,7 +39,8 @@ class DataCollectionFactoryTest extends TestCase
      *
      * @throws AssertionFailedException
      * @throws ReflectionException
-     * @throws Exception
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionThrowsExceptionOnInvalidDirectory(): void
     {
@@ -63,12 +63,14 @@ class DataCollectionFactoryTest extends TestCase
      *
      * @throws AssertionFailedException
      * @throws ReflectionException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollection(): void
     {
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
+            ->onlyMethods(['addPlatform', 'addDivision', 'addEngine', 'addDevice', 'addBrowser'])
             ->getMock();
 
         $collection->expects(static::exactly(2))
@@ -101,6 +103,9 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws DuplicateDataException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsForDuplicateDeviceEntries(): void
     {
@@ -116,6 +121,9 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws DuplicateDataException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsForDuplicateBrowserEntries(): void
     {
@@ -131,6 +139,9 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws \InvalidArgumentException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsBecauseOfMissingFiles(): void
     {
@@ -146,6 +157,9 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws \InvalidArgumentException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsBecauseOfInvalidChars(): void
     {
@@ -161,6 +175,8 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsBecauseOfInvalidJson(): void
     {
@@ -176,6 +192,8 @@ class DataCollectionFactoryTest extends TestCase
      * tests creating a data collection
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws LogicException
      */
     public function testCreateDataCollectionFailsBecauseOfEmptyDirectory(): void
     {

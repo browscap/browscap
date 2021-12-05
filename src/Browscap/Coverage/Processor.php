@@ -4,8 +4,10 @@ declare(strict_types=1);
 
 namespace Browscap\Coverage;
 
-use JsonClass\Json;
+use JsonException;
+use RuntimeException;
 use Seld\JsonLint\Lexer;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
 
@@ -17,7 +19,9 @@ use function assert;
 use function count;
 use function explode;
 use function file_put_contents;
+use function is_array;
 use function is_string;
+use function json_encode;
 use function mb_strlen;
 use function mb_strpos;
 use function mb_substr;
@@ -26,6 +30,7 @@ use function preg_quote;
 use function sprintf;
 use function str_replace;
 
+use const JSON_THROW_ON_ERROR;
 use const JSON_UNESCAPED_SLASHES;
 
 /**
@@ -34,7 +39,6 @@ use const JSON_UNESCAPED_SLASHES;
 final class Processor implements ProcessorInterface
 {
     /**
-     * @+
      * The codes representing different JSON elements
      *
      * These come from the Seld\JsonLint\JsonParser class. The values are returned by the lexer when
@@ -47,10 +51,8 @@ final class Processor implements ProcessorInterface
     private const JSON_EOF          = 1;
     private const JSON_STRING       = 4;
     private const JSON_COLON        = 21;
-    /*@-*/
 
-    /** @var string */
-    private $resourceDir;
+    private string $resourceDir;
 
     /**
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
@@ -58,7 +60,7 @@ final class Processor implements ProcessorInterface
      *
      * @var array<array<string>>
      */
-    private $coveredIds = [];
+    private array $coveredIds = [];
 
     /**
      * This is the full coverage array that gets output in the write method.  For each file an entry in the array
@@ -66,15 +68,13 @@ final class Processor implements ProcessorInterface
      *
      * @var mixed[]
      */
-    private $coverage = [];
+    private array $coverage = [];
 
     /**
      * An incrementing integer for every "function" (child match) encountered in all processed files. This is used
      * to name the anonymous functions in the coverage report.
-     *
-     * @var int
      */
-    private $funcCount = 0;
+    private int $funcCount = 0;
 
     /**
      * A storage variable for the lines of a file while processing that file, used for determining column
@@ -82,7 +82,7 @@ final class Processor implements ProcessorInterface
      *
      * @var array<string>
      */
-    private $fileLines = [];
+    private array $fileLines = [];
 
     /**
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
@@ -90,31 +90,33 @@ final class Processor implements ProcessorInterface
      *
      * @var array<string>
      */
-    private $fileCoveredIds = [];
+    private array $fileCoveredIds = [];
 
     /**
      * location information for the statements that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $statementCoverage = [];
+    private array $statementCoverage = [];
 
     /**
      * location information for the functions that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $functionCoverage = [];
+    private array $functionCoverage = [];
 
     /**
      * location information for the different branch structures that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $branchCoverage = [];
+    private array $branchCoverage = [];
 
     /**
      * Create a new Coverage Processor for the specified directory
+     *
+     * @throws void
      */
     public function __construct(string $resourceDir)
     {
@@ -125,6 +127,9 @@ final class Processor implements ProcessorInterface
      * Process the directory of JSON files using the collected pattern ids
      *
      * @param array<string> $coveredIds
+     *
+     * @throws RuntimeException
+     * @throws DirectoryNotFoundException
      */
     public function process(array $coveredIds): void
     {
@@ -159,10 +164,12 @@ final class Processor implements ProcessorInterface
 
     /**
      * Write the coverage data in JSON format to specified filename
+     *
+     * @throws JsonException
      */
     public function write(string $fileName): void
     {
-        $content = (new Json())->encode($this->coverage, JSON_UNESCAPED_SLASHES);
+        $content = json_encode($this->coverage, JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
 
         file_put_contents(
             $fileName,
@@ -178,6 +185,8 @@ final class Processor implements ProcessorInterface
      * Stores passed in pattern ids, grouping them by file first
      *
      * @param array<string> $coveredIds
+     *
+     * @throws void
      */
     public function setCoveredPatternIds(array $coveredIds): void
     {
@@ -188,6 +197,8 @@ final class Processor implements ProcessorInterface
      * Returns the grouped pattern ids previously set
      *
      * @return array<array<string>>
+     *
+     * @throws void
      */
     public function getCoveredPatternIds(): array
     {
@@ -200,6 +211,8 @@ final class Processor implements ProcessorInterface
      * @param array<int|string, string> $coveredIds
      *
      * @return array<string, array<int, string|int>|string>
+     *
+     * @throws void
      */
     public function processFile(string $file, string $contents, array $coveredIds): array
     {
@@ -271,6 +284,8 @@ final class Processor implements ProcessorInterface
      * Builds the location object for the current position in the JSON file
      *
      * @return array<string, float|int|false>
+     *
+     * @throws void
      */
     private function getLocationCoordinates(Lexer $lexer, bool $end = false, string $content = ''): array
     {
@@ -295,6 +310,8 @@ final class Processor implements ProcessorInterface
      *
      * Hands execution off to applicable method when certain tokens are encountered
      * (in this case, Division is the only one), returns to caller when EOF is reached
+     *
+     * @throws void
      */
     private function handleJsonRoot(Lexer $lexer): void
     {
@@ -314,6 +331,8 @@ final class Processor implements ProcessorInterface
      *
      * Lexes the main division object and hands execution off to relevant methods for further
      * processing. Returns the next token code returned from the lexer.
+     *
+     * @throws void
      */
     private function handleJsonDivision(Lexer $lexer): int
     {
@@ -337,6 +356,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes the userAgents array
+     *
+     * @throws void
      */
     private function handleUseragentGroup(Lexer $lexer): int
     {
@@ -358,6 +379,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes each userAgent object in the userAgents array
+     *
+     * @throws void
      */
     private function handleUseragentBlock(Lexer $lexer, int $useragentPosition): int
     {
@@ -381,6 +404,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes the children array of a userAgent object
+     *
+     * @throws void
      */
     private function handleChildrenGroup(Lexer $lexer, int $useragentPosition): int
     {
@@ -402,6 +427,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes each child object in the children array
+     *
+     * @throws void
      */
     private function handleChildBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
@@ -466,6 +493,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Process the "devices" has in the child object
+     *
+     * @throws void
      */
     private function handleDeviceBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
@@ -505,6 +534,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes the "platforms" hash in the child object
+     *
+     * @throws void
      */
     private function handlePlatformBlock(Lexer $lexer, int $useragentPosition, int $childPosition): int
     {
@@ -538,6 +569,8 @@ final class Processor implements ProcessorInterface
 
     /**
      * Processes JSON object block that isn't needed for coverage data
+     *
+     * @throws void
      */
     private function ignoreObjectBlock(Lexer $lexer): int
     {
@@ -561,6 +594,8 @@ final class Processor implements ProcessorInterface
      * @param mixed[]   $start
      * @param mixed[]   $end
      * @param mixed[][] $declaration
+     *
+     * @throws void
      */
     private function collectFunction(array $start, array $end, array $declaration, int $coverage = 0): void
     {
@@ -586,6 +621,8 @@ final class Processor implements ProcessorInterface
      * @param mixed[]    $end
      * @param mixed[][]  $locations
      * @param array<int> $coverage
+     *
+     * @throws void
      */
     private function collectBranch(array $start, array $end, array $locations, array $coverage = []): void
     {
@@ -601,6 +638,8 @@ final class Processor implements ProcessorInterface
         $this->collectStatement($start, $end, (int) array_sum($coverage));
 
         for ($i = 0, $count = count($locations); $i < $count; ++$i) {
+            assert(is_array($locations[$i]['start']));
+            assert(is_array($locations[$i]['end']));
             $this->collectStatement($locations[$i]['start'], $locations[$i]['end'], $coverage[$i]);
         }
     }
@@ -610,6 +649,8 @@ final class Processor implements ProcessorInterface
      *
      * @param mixed[] $start
      * @param mixed[] $end
+     *
+     * @throws void
      */
     private function collectStatement(array $start, array $end, int $coverage = 0): void
     {
@@ -627,6 +668,8 @@ final class Processor implements ProcessorInterface
      * @param array<string> $ids
      *
      * @return array<array<string>>
+     *
+     * @throws void
      */
     private function groupIdsByFile(array $ids): array
     {
@@ -655,6 +698,8 @@ final class Processor implements ProcessorInterface
      * Counts number of times given generated pattern id is covered by patterns ids collected during tests
      *
      * @param array<string> $covered
+     *
+     * @throws void
      */
     private function getCoverageCount(string $id, array $covered): int
     {

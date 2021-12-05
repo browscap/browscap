@@ -9,13 +9,16 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\Device;
 use Browscap\Data\Factory\DeviceFactory;
 use PHPUnit\Framework\TestCase;
+use RuntimeException;
 use UnexpectedValueException;
 
 class DeviceFactoryTest extends TestCase
 {
-    /** @var DeviceFactory */
-    private $object;
+    private DeviceFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new DeviceFactory();
@@ -23,6 +26,8 @@ class DeviceFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws InvalidArgumentException
+     * @throws RuntimeException
      */
     public function testBuildWithoutStandardProperty(): void
     {
@@ -37,6 +42,8 @@ class DeviceFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws UnexpectedValueException
+     * @throws RuntimeException
      */
     public function testBuildWithWrongDeviceType(): void
     {
@@ -51,6 +58,8 @@ class DeviceFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws InvalidArgumentException
+     * @throws RuntimeException
      */
     public function testBuildWithUnsupportedDeviceType(): void
     {
@@ -65,6 +74,7 @@ class DeviceFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
      */
     public function testCreationOfDevice(): void
     {

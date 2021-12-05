@@ -6,161 +6,146 @@ namespace BrowscapTest\Writer;
 
 use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
-use Browscap\Filter\FullFilter;
-use Browscap\Formatter\XmlFormatter;
-use Browscap\Writer\CsvWriter;
+use Browscap\Filter\FilterInterface;
+use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer\WriterCollection;
+use Browscap\Writer\WriterInterface;
 use DateTimeImmutable;
 use Exception;
-use org\bovigo\vfs\vfsStream;
+use InvalidArgumentException;
+use JsonException;
+use PHPUnit\Framework\MockObject\MethodCannotBeConfiguredException;
+use PHPUnit\Framework\MockObject\MethodNameAlreadyConfiguredException;
 use PHPUnit\Framework\TestCase;
-use Psr\Log\LoggerInterface;
-use ReflectionException;
 
 use function assert;
 
-use const DIRECTORY_SEPARATOR;
-
 class WriterCollectionTest extends TestCase
 {
-    private const STORAGE_DIR = 'storage';
+    private WriterCollection $object;
 
-    /** @var WriterCollection */
-    private $object;
-
-    /** @var string */
-    private $file;
-
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
-        $this->file = vfsStream::url(self::STORAGE_DIR) . DIRECTORY_SEPARATOR . 'test.csv';
-
         $this->object = new WriterCollection();
     }
 
     /**
      * tests setting and getting a writer
      *
-     * @throws ReflectionException
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testAddWriterAndSetSilent(): void
     {
-        $mockFilter = $this->getMockBuilder(FullFilter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['isOutput'])
-            ->getMock();
+        $division = $this->createMock(Division::class);
 
+        $mockFilter = $this->createMock(FilterInterface::class);
         $mockFilter
             ->expects(static::once())
             ->method('isOutput')
+            ->with($division)
             ->willReturn(true);
 
-        $division = $this->createMock(Division::class);
-
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getFilter'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('getFilter')
             ->willReturn($mockFilter);
+        $mockWriter
+            ->expects(static::once())
+            ->method('setSilent')
+            ->with(false);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        assert($division instanceof Division);
         $this->object->setSilent($division);
     }
 
     /**
      * tests setting a file into silent mode
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testSetSilentSection(): void
     {
-        $mockFilter = $this->getMockBuilder(FullFilter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['isOutputSection'])
-            ->getMock();
+        $section = [];
 
+        $mockFilter = $this->createMock(FilterInterface::class);
         $mockFilter
             ->expects(static::once())
             ->method('isOutputSection')
+            ->with($section)
             ->willReturn(true);
 
-        $mockDivision = [];
-
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getFilter'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('getFilter')
             ->willReturn($mockFilter);
+        $mockWriter
+            ->expects(static::once())
+            ->method('setSilent')
+            ->with(false);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
-        $this->object->setSilentSection($mockDivision);
+        $this->object->setSilentSection($section);
     }
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testFileStart(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['fileStart'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('fileStart');
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->fileStart();
     }
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testFileEnd(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['fileEnd'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('fileEnd');
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->fileEnd();
     }
 
     /**
      * tests rendering the header information
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     * @throws JsonException
      */
     public function testRenderHeader(): void
     {
         $header = ['TestData to be renderd into the Header'];
 
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderHeader'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderHeader');
+            ->method('renderHeader')
+            ->with($header);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderHeader($header);
     }
@@ -169,20 +154,18 @@ class WriterCollectionTest extends TestCase
      * tests rendering the version information
      *
      * @throws Exception
+     * @throws JsonException
      */
     public function testRenderVersion(): void
     {
-        $version = 'test';
+        $version       = 'test';
+        $formatterType = 'test';
+        $filterType    = 'Test';
+        $date          = new DateTimeImmutable();
 
-        $collection = $this->getMockBuilder(DataCollection::class)
-            ->disableOriginalConstructor()
-            ->getMock();
+        $collection = $this->createMock(DataCollection::class);
 
-        $mockFilter = $this->getMockBuilder(FullFilter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['isOutput', 'getType'])
-            ->getMock();
-
+        $mockFilter = $this->createMock(FilterInterface::class);
         $mockFilter
             ->expects(static::never())
             ->method('isOutput')
@@ -190,25 +173,15 @@ class WriterCollectionTest extends TestCase
         $mockFilter
             ->expects(static::once())
             ->method('getType')
-            ->willReturn('Test');
+            ->willReturn($filterType);
 
-        $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['getType'])
-            ->getMock();
-
+        $mockFormatter = $this->createMock(FormatterInterface::class);
         $mockFormatter
             ->expects(static::once())
             ->method('getType')
-            ->willReturn('test');
+            ->willReturn($formatterType);
 
-        $logger = $this->createMock(LoggerInterface::class);
-
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->setMethods(['getFilter', 'getFormatter'])
-            ->setConstructorArgs([$this->file, $logger])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('getFilter')
@@ -217,82 +190,90 @@ class WriterCollectionTest extends TestCase
             ->expects(static::once())
             ->method('getFormatter')
             ->willReturn($mockFormatter);
+        $mockWriter
+            ->expects(static::once())
+            ->method('renderVersion')
+            ->with(
+                [
+                    'version' => $version,
+                    'released' => $date->format('r'),
+                    'format' => $formatterType,
+                    'type' => $filterType,
+                ]
+            );
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
         assert($collection instanceof DataCollection);
-        $this->object->renderVersion($version, new DateTimeImmutable(), $collection);
+        $this->object->renderVersion($version, $date, $collection);
         $this->object->close();
     }
 
     /**
      * tests rendering the header for all division
      *
-     * @throws ReflectionException
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testRenderAllDivisionsHeader(): void
     {
         $collection = $this->createMock(DataCollection::class);
-
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderAllDivisionsHeader'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderAllDivisionsHeader');
+            ->method('renderAllDivisionsHeader')
+            ->with($collection);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        assert($collection instanceof DataCollection);
         $this->object->renderAllDivisionsHeader($collection);
     }
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testRenderDivisionHeader(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderDivisionHeader'])
-            ->getMock();
+        $division = 'test';
+        $parent   = 'test-parent';
 
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderDivisionHeader');
+            ->method('renderDivisionHeader')
+            ->with($division, $parent);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
-        $this->object->renderDivisionHeader('test');
+        $this->object->renderDivisionHeader($division, $parent);
     }
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testRenderSectionHeader(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderSectionHeader'])
-            ->getMock();
+        $section = 'test';
 
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderSectionHeader');
+            ->method('renderSectionHeader')
+            ->with($section);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
-        $this->object->renderSectionHeader('test');
+        $this->object->renderSectionHeader($section);
     }
 
     /**
      * tests rendering the body of one section
      *
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
      */
     public function testRenderSectionBody(): void
     {
@@ -303,75 +284,68 @@ class WriterCollectionTest extends TestCase
         ];
 
         $collection = $this->createMock(DataCollection::class);
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderSectionBody'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderSectionBody');
+            ->method('renderSectionBody')
+            ->with($section, $collection);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
 
-        assert($collection instanceof DataCollection);
         $this->object->renderSectionBody($section, $collection);
     }
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testRenderSectionFooter(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderSectionFooter'])
-            ->getMock();
+        $sectionName = 'test';
 
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
-            ->method('renderSectionFooter');
+            ->method('renderSectionFooter')
+            ->with($sectionName);
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
-        $this->object->renderSectionFooter();
+        $this->object->renderSectionFooter($sectionName);
     }
 
     /**
      * tests rendering the footer of one division
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
      */
     public function testRenderDivisionFooter(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderDivisionFooter'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('renderDivisionFooter');
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderDivisionFooter();
     }
 
     /**
      * tests rendering the footer after all divisions
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     * @throws \PHPUnit\Framework\InvalidArgumentException
      */
     public function testRenderAllDivisionsFooter(): void
     {
-        $mockWriter = $this->getMockBuilder(CsvWriter::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['renderAllDivisionsFooter'])
-            ->getMock();
-
+        $mockWriter = $this->createMock(WriterInterface::class);
         $mockWriter
             ->expects(static::once())
             ->method('renderAllDivisionsFooter');
 
-        assert($mockWriter instanceof CsvWriter);
         $this->object->addWriter($mockWriter);
         $this->object->renderAllDivisionsFooter();
     }

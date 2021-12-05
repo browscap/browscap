@@ -9,13 +9,16 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\Browser;
 use Browscap\Data\Factory\BrowserFactory;
 use PHPUnit\Framework\TestCase;
+use RuntimeException;
 use UnexpectedValueException;
 
 class BrowserFactoryTest extends TestCase
 {
-    /** @var BrowserFactory */
-    private $object;
+    private BrowserFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new BrowserFactory();
@@ -23,13 +26,15 @@ class BrowserFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildWithoutStandardProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('the value for "standard" key is missing for browser "Test"');
 
-        $browserData = ['abc' => 'def'];
+        $browserData = ['Browser' => 'def'];
         $browserName = 'Test';
 
         $this->object->build($browserData, $browserName);
@@ -37,13 +42,15 @@ class BrowserFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
     public function testBuildWithWrongBrowserType(): void
     {
         $this->expectException(UnexpectedValueException::class);
         $this->expectExceptionMessage('unsupported browser type given for browser "Test"');
 
-        $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'does not exist'];
+        $browserData = ['properties' => ['Browser' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'does not exist'];
         $browserName = 'Test';
 
         $this->object->build($browserData, $browserName);
@@ -51,13 +58,15 @@ class BrowserFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildWithUnsupportedBrowserType(): void
     {
         $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('Value "validator" is not an element of the valid values: application, bot, bot-syndication-reader, bot-trancoder, browser, email-client, feed-reader, library, multimedia-player, offline-browser, tool, transcoder, useragent-anonymizer, unknown');
 
-        $browserData = ['properties' => ['abc' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'validator'];
+        $browserData = ['properties' => ['Browser' => 'xyz'], 'standard' => true, 'lite' => false, 'type' => 'validator'];
         $browserName = 'Test';
 
         $this->object->build($browserData, $browserName);
@@ -65,6 +74,7 @@ class BrowserFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
      */
     public function testCreationOfBrowser(): void
     {

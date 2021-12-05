@@ -20,24 +20,21 @@ use function realpath;
 
 final class BuildGenerator implements GeneratorInterface
 {
-    /** @var string */
-    private $resourceFolder;
+    private string $resourceFolder;
 
-    /** @var string */
-    private $buildFolder;
+    private string $buildFolder;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
-    /** @var DataCollectionFactory */
-    private $dataCollectionFactory;
+    private DataCollectionFactory $dataCollectionFactory;
 
-    /** @var WriterCollection */
-    private $writerCollection;
+    private WriterCollection $writerCollection;
 
-    /** @var bool */
-    private $collectPatternIds = false;
+    private bool $collectPatternIds = false;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function __construct(
         string $resourceFolder,
         string $buildFolder,
@@ -111,6 +108,8 @@ final class BuildGenerator implements GeneratorInterface
 
     /**
      * Sets the flag to collect pattern ids during this build
+     *
+     * @throws void
      */
     public function setCollectPatternIds(bool $value): void
     {

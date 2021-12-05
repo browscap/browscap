@@ -8,17 +8,19 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
-use Exception;
 use InvalidArgumentException;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 
 use function sprintf;
 
 class PropertyHolderTest extends TestCase
 {
-    /** @var PropertyHolder */
-    private $object;
+    private PropertyHolder $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new PropertyHolder();
@@ -28,6 +30,8 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test testGetPropertyType
      *
      * @return array<array<string>>
+     *
+     * @throws void
      */
     public function propertyNameTypeDataProvider(): array
     {
@@ -77,7 +81,9 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws Exception
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
      *
      * @dataProvider propertyNameTypeDataProvider
      */
@@ -87,6 +93,9 @@ class PropertyHolderTest extends TestCase
         static::assertSame($expectedType, $actualType, sprintf('Property %s should be %s (was %s)', $propertyName, $expectedType, $actualType));
     }
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped(): void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -99,6 +108,8 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test testIsLiteModeProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function litePropertiesDataProvider(): array
     {
@@ -149,13 +160,16 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider litePropertiesDataProvider
      */
     public function testIsLiteModeProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriter
@@ -169,12 +183,15 @@ class PropertyHolderTest extends TestCase
 
     /**
      * tests detecting a standard mode property
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsLiteModePropertyWithWriter(): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriter
@@ -189,6 +206,8 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test testIsStandardModeProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function standardPropertiesDataProvider(): array
     {
@@ -240,12 +259,15 @@ class PropertyHolderTest extends TestCase
 
     /**
      * tests detecting a standard mode property
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsLiteModePropertyWithIniWriter(): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriter
@@ -257,13 +279,16 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider standardPropertiesDataProvider
      */
     public function testIsStandardModeProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriter = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriter
@@ -277,12 +302,15 @@ class PropertyHolderTest extends TestCase
 
     /**
      * tests detecting a standard mode property
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsStandardModePropertyWithWriter(): void
     {
         $mockWriter = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriter
@@ -297,6 +325,8 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test testIsOutputProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function outputPropertiesDataProvider(): array
     {
@@ -351,13 +381,16 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider outputPropertiesDataProvider
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra): void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterCsv
@@ -371,12 +404,15 @@ class PropertyHolderTest extends TestCase
 
     /**
      * tests detecting a output property if a writer is given
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputPropertyWithCsvWriter(): void
     {
         $mockWriterCsv = $this->getMockBuilder(CsvWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterCsv
@@ -388,7 +424,7 @@ class PropertyHolderTest extends TestCase
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -401,12 +437,15 @@ class PropertyHolderTest extends TestCase
 
     /**
      * tests detecting a output property if a writer is given
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputPropertyWithIniWriter(): void
     {
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -421,17 +460,23 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test testCheckValueInArray
      *
      * @return array<int, array<int, int|string>>
+     *
+     * @throws void
      */
     public function checkValueInArrayProvider(): array
     {
         return [
             ['Device_Pointing_Method', 'touchscreen'],
-            ['Browser_Bits', 32],
-            ['Platform_Bits', 64],
+            ['Browser_Bits', '32'],
+            ['Platform_Bits', '64'],
         ];
     }
 
     /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     *
      * @dataProvider checkValueInArrayProvider
      */
     public function testCheckValueInArray(string $propertyName, string $propertyValue): void
@@ -440,6 +485,9 @@ class PropertyHolderTest extends TestCase
         static::assertSame($propertyValue, $actualValue);
     }
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function testCheckValueInArrayExceptionUndfinedProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -448,6 +496,9 @@ class PropertyHolderTest extends TestCase
         $this->object->checkValueInArray('abc', 'bcd');
     }
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function testCheckValueInArrayExceptionWrongValue(): void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -460,6 +511,8 @@ class PropertyHolderTest extends TestCase
      * Data Provider for the test isDeprecatedProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function deprecatedPropertiesDataProvider(): array
     {
@@ -514,6 +567,9 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider deprecatedPropertiesDataProvider
      */
     public function testIsDeprecatedProperty(string $propertyName, bool $isDeprecated): void

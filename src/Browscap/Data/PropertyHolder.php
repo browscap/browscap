@@ -120,6 +120,8 @@ class PropertyHolder
     /**
      * Determine if the specified property is an property that should
      * be included in the all versions of the files
+     *
+     * @throws void
      */
     public function isLiteModeProperty(string $propertyName, WriterInterface $writer): bool
     {
@@ -152,6 +154,8 @@ class PropertyHolder
     /**
      * Determine if the specified property is an property that should
      * be included in the "standard" or "full" versions of the files only
+     *
+     * @throws void
      */
     public function isStandardModeProperty(string $propertyName, WriterInterface $writer): bool
     {
@@ -181,6 +185,8 @@ class PropertyHolder
     /**
      * Determine if the specified property is an "extra" property (that should
      * be included in any version of the files)
+     *
+     * @throws void
      */
     public function isOutputProperty(string $propertyName, WriterInterface $writer): bool
     {
@@ -259,6 +265,8 @@ class PropertyHolder
 
     /**
      * Determine if the specified property is marked as "deprecated"
+     *
+     * @throws void
      */
     public function isDeprecatedProperty(string $propertyName): bool
     {
@@ -278,9 +286,11 @@ class PropertyHolder
     }
 
     /**
+     * @return string|int
+     *
      * @throws InvalidArgumentException
      */
-    public function checkValueInArray(string $property, string $value): string
+    public function checkValueInArray(string $property, string $value)
     {
         switch ($property) {
             case 'Device_Pointing_Method':
@@ -300,11 +310,11 @@ class PropertyHolder
             case 'Browser_Bits':
             case 'Platform_Bits':
                 $allowedValues = [
-                    0,
-                    8,
-                    16,
-                    32,
-                    64,
+                    '0',
+                    '8',
+                    '16',
+                    '32',
+                    '64',
                 ];
 
                 break;
@@ -312,7 +322,7 @@ class PropertyHolder
                 throw new InvalidArgumentException('Property "' . $property . '" is not defined to be validated');
         }
 
-        if (in_array($value, $allowedValues)) {
+        if (in_array($value, $allowedValues, true)) {
             return $value;
         }
 

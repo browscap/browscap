@@ -13,6 +13,7 @@ use DateTimeImmutable;
 use DateTimeZone;
 use Exception;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
@@ -32,6 +33,9 @@ class BuildCommand extends Command
 
     private const DEFAULT_GENERATION_DATE = 'now';
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function configure(): void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
@@ -49,12 +53,12 @@ class BuildCommand extends Command
     }
 
     /**
-     * @return int|null null or 0 if everything went fine, or an error code
+     * @return int null or 0 if everything went fine, or an error code
      *
      * @throws Exception
      * @throws AssertionFailedException
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -101,6 +105,6 @@ class BuildCommand extends Command
 
         $logger->info('Build done.');
 
-        return 0;
+        return self::SUCCESS;
     }
 }

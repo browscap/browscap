@@ -9,13 +9,16 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\Engine;
 use Browscap\Data\Factory\EngineFactory;
 use PHPUnit\Framework\TestCase;
+use RuntimeException;
 use UnexpectedValueException;
 
 class EngineFactoryTest extends TestCase
 {
-    /** @var EngineFactory */
-    private $object;
+    private EngineFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new EngineFactory();
@@ -23,6 +26,8 @@ class EngineFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
     public function testBuildWithMissingInheritAndProperties(): void
     {
@@ -38,6 +43,8 @@ class EngineFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildWithMissingParent(): void
     {
@@ -53,6 +60,8 @@ class EngineFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
     public function testBuildWithRepeatingProperties(): void
     {
@@ -72,6 +81,7 @@ class EngineFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
      */
     public function testBuild(): void
     {

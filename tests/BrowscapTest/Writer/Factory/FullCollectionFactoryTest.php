@@ -7,8 +7,10 @@ namespace BrowscapTest\Writer\Factory;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use Browscap\Writer\WriterCollection;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function assert;
 
@@ -16,9 +18,11 @@ class FullCollectionFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var FullCollectionFactory */
-    private $object;
+    private FullCollectionFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -28,6 +32,10 @@ class FullCollectionFactoryTest extends TestCase
 
     /**
      * tests creating a writer collection
+     *
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws \InvalidArgumentException
      */
     public function testCreateCollection(): void
     {

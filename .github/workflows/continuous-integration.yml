@@ -39,7 +39,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -60,7 +60,7 @@ jobs:
 
     runs-on: "${{ matrix.operating-system }}"
 
-    continue-on-error: false
+    continue-on-error: ${{ matrix.experimental }}
 
     strategy:
       fail-fast: false
@@ -72,11 +72,27 @@ jobs:
 
         php-version:
           - "7.4"
-          #- "8.0"
 
         dependencies:
-          - "--prefer-lowest"
-          - ""
+          - "lowest"
+          - "locked"
+          - "highest"
+
+        experimental: [false]
+
+        include:
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.0"
+            dependencies: "highest"
+            experimental: true
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.1"
+            dependencies: "highest"
+            experimental: true
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.2"
+            dependencies: "highest"
+            experimental: true
 
     steps:
       - name: "Checkout"
@@ -86,7 +102,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -99,16 +115,34 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
           restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
-      - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi ${{ matrix.dependencies }}"
+      - name: "Install lowest dependencies"
+        if: "${{ matrix.dependencies == 'lowest' }}"
+        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi --prefer-lowest"
+
+      - name: "Install highest dependencies"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == 'false' }}"
+        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi"
+
+      - name: "Install highest dependencies (Experimental)"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == 'true' }}"
+        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi --ignore-platform-reqs"
+
+      - name: "Install locked dependencies"
+        if: "${{ matrix.dependencies == 'locked' }}"
+        run: "composer install --no-interaction --no-progress"
 
       - name: "Check dependencies with composer"
+        if: "matrix.php-version == '7.4'"
+        run: "composer outdated --direct --strict"
+
+      - name: "Check dependencies with composer"
+        if: "matrix.php-version == '8.0'"
         run: "composer outdated --direct"
 
   coding-standards:
@@ -141,7 +175,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -154,7 +188,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -172,6 +206,8 @@ jobs:
     needs: "validate"
 
     runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
@@ -194,7 +230,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -207,7 +243,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -224,11 +260,17 @@ jobs:
 
     needs: "validate"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
         php-version:
           - "7.4"
 
@@ -244,7 +286,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -257,7 +299,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -273,20 +315,42 @@ jobs:
         run: "bin/browscap -v validate"
 
   tests:
-    name: "UnitTests"
+    name: "UnitTests with PHPUnit"
 
     needs: "validate"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: ${{ matrix.experimental }}
 
     strategy:
       fail-fast: false
+
       matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
         php-version:
           - "7.4"
 
         dependencies:
           - ""
+
+        experimental: [false]
+
+        include:
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.0"
+            dependencies: "--ignore-platform-reqs"
+            experimental: true
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.1"
+            dependencies: "--ignore-platform-reqs"
+            experimental: true
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.2"
+            dependencies: "--ignore-platform-reqs"
+            experimental: true
 
     steps:
       - name: "Checkout"
@@ -296,7 +360,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -309,7 +373,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -322,15 +386,21 @@ jobs:
         run: "vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors"
 
   code-coverage:
-    name: "Code Coverage"
+    name: "Code Coverage with PHPUnit"
 
     needs: "tests"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
         php-version:
           - "7.4"
 
@@ -345,7 +415,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -358,7 +428,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
@@ -377,16 +447,22 @@ jobs:
           file: "coverage.clover"
 
   integration-tests:
-    name: "Integration Tests"
+    name: "Integration Tests with PHPUnit"
 
     needs: "tests"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
           - "7.4"
 
         dependencies:
@@ -405,7 +481,7 @@ jobs:
           fetch-depth: 0
 
       - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.15.0"
+        uses: "shivammathur/setup-php@2.16.0"
         with:
           php-version: "${{ matrix.php-version }}"
           extensions: "${{ env.PHP_EXTENSIONS }}"
@@ -418,7 +494,7 @@ jobs:
         run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
 
       - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.6"
+        uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"

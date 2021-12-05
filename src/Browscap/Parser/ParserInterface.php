@@ -12,17 +12,26 @@ declare(strict_types=1);
 
 namespace Browscap\Parser;
 
+use RuntimeException;
+
 interface ParserInterface
 {
     /**
-     * @return array<array<string>>
+     * @return array<array<array<string>|string>>
+     *
+     * @throws RuntimeException
      */
     public function parse(): array;
 
     /**
      * @return array<array<string>>
+     *
+     * @throws void
      */
     public function getParsed(): array;
 
+    /**
+     * @throws void
+     */
     public function getFilename(): string;
 }

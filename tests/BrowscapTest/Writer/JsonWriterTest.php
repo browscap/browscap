@@ -12,7 +12,11 @@ use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\JsonFormatter;
 use Browscap\Writer\JsonWriter;
 use Browscap\Writer\WriterInterface;
+use Exception;
+use InvalidArgumentException;
+use JsonException;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
@@ -30,12 +34,13 @@ class JsonWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var JsonWriter */
-    private $object;
+    private JsonWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -47,6 +52,9 @@ class JsonWriterTest extends TestCase
         $this->object = new JsonWriter($this->file, $logger);
     }
 
+    /**
+     * @throws void
+     */
     protected function teardown(): void
     {
         $this->object->close();
@@ -56,6 +64,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests getting the writer type
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
@@ -64,30 +75,37 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
     {
         $mockFormatter = $this->createMock(JsonFormatter::class);
 
-        assert($mockFormatter instanceof JsonFormatter);
         $this->object->setFormatter($mockFormatter);
         static::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
     {
         $mockFilter = $this->createMock(StandardFilter::class);
 
-        assert($mockFilter instanceof StandardFilter);
         $this->object->setFilter($mockFilter);
         static::assertSame($mockFilter, $this->object->getFilter());
     }
 
     /**
      * tests setting a file into silent mode
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
     {
@@ -97,6 +115,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStartIfNotSilent(): void
     {
@@ -111,6 +132,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStartIfSilent(): void
     {
@@ -122,6 +146,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEndIfNotSilent(): void
     {
@@ -133,6 +160,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEndIfSilent(): void
     {
@@ -144,6 +174,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderHeaderIfSilent(): void
     {
@@ -157,6 +191,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderHeaderIfNotSilent(): void
     {
@@ -174,6 +212,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfSilent(): void
     {
@@ -192,6 +234,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfNotSilent(): void
     {
@@ -214,6 +260,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
@@ -231,6 +281,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsHeader(): void
     {
@@ -243,6 +296,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeader(): void
     {
@@ -254,6 +310,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderSectionHeaderIfNotSilent(): void
     {
@@ -261,7 +321,7 @@ class JsonWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -278,6 +338,10 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderSectionHeaderIfSilent(): void
     {
@@ -291,6 +355,9 @@ class JsonWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilent(): void
     {
@@ -304,7 +371,7 @@ class JsonWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -317,7 +384,7 @@ class JsonWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -331,7 +398,7 @@ class JsonWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -341,7 +408,7 @@ class JsonWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -351,27 +418,30 @@ class JsonWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
+
+        $map1 = [
+            ['{"Test":1,"abc":"bcd"}', 'Comment', '{"Test":1,"abc":"bcd"}'],
+        ];
 
         $mockFormatter
             ->expects(static::never())
-            ->method('formatPropertyName')
-            ->willReturnArgument(0);
+            ->method('formatPropertyName');
         $mockFormatter
             ->expects(static::once())
             ->method('formatPropertyValue')
-            ->willReturnArgument(0);
+            ->willReturnMap($map1);
 
         assert($mockFormatter instanceof JsonFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
-        $map = [
+        $map2 = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
             ['abc', $this->object, true],
@@ -380,7 +450,7 @@ class JsonWriterTest extends TestCase
         $mockFilter
             ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->willReturnMap($map);
+            ->willReturnMap($map2);
 
         assert($mockFilter instanceof StandardFilter);
         $this->object->setFilter($mockFilter);
@@ -397,6 +467,9 @@ class JsonWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilentWithParents(): void
     {
@@ -420,7 +493,7 @@ class JsonWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -434,7 +507,7 @@ class JsonWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -448,7 +521,7 @@ class JsonWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -458,7 +531,7 @@ class JsonWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -468,7 +541,7 @@ class JsonWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
 
         $mockFormatter
@@ -492,7 +565,7 @@ class JsonWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -515,6 +588,9 @@ class JsonWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent(): void
     {
@@ -531,7 +607,7 @@ class JsonWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -545,7 +621,7 @@ class JsonWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -559,7 +635,7 @@ class JsonWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -569,7 +645,7 @@ class JsonWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -579,7 +655,7 @@ class JsonWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(JsonFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
 
         $mockFormatter
@@ -603,7 +679,7 @@ class JsonWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -624,6 +700,12 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfSilent(): void
     {
@@ -644,6 +726,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfNotSilent(): void
     {
@@ -655,6 +740,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfSilent(): void
     {
@@ -666,6 +754,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
     {
@@ -675,6 +766,9 @@ class JsonWriterTest extends TestCase
 
     /**
      * tests rendering the footer after all divisions
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void
     {

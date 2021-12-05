@@ -16,11 +16,15 @@ interface FilterInterface
 
     /**
      * returns the Type of the filter
+     *
+     * @throws void
      */
     public function getType(): string;
 
     /**
      * checks if a division should be in the output
+     *
+     * @throws void
      */
     public function isOutput(Division $division): bool;
 
@@ -28,11 +32,15 @@ interface FilterInterface
      * checks if a section should be in the output
      *
      * @param bool[] $section
+     *
+     * @throws void
      */
     public function isOutputSection(array $section): bool;
 
     /**
      * checks if a property should be in the output
+     *
+     * @throws void
      */
     public function isOutputProperty(string $property, WriterInterface $writer): bool;
 }

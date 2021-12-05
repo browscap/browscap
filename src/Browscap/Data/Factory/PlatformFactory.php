@@ -12,7 +12,13 @@ use UnexpectedValueException;
 
 use function array_key_exists;
 use function array_merge;
+use function assert;
+use function is_string;
 
+/**
+ * @phpstan-import-type PlatformProperties from Platform
+ * @phpstan-import-type PlatformData from Platform
+ */
 final class PlatformFactory
 {
     /**
@@ -21,6 +27,8 @@ final class PlatformFactory
      * @param mixed[]   $platformData     The Platform data for the current object
      * @param mixed[][] $dataAllPlatforms The Platform data for all platforms
      * @param string    $platformName     The name for the current platform
+     * @phpstan-param PlatformData $platformData
+     * @phpstan-param array<string, PlatformData> $dataAllPlatforms
      *
      * @throws RuntimeException if the file does not exist or has invalid JSON.
      * @throws UnexpectedValueException
@@ -51,10 +59,13 @@ final class PlatformFactory
             $parentPlatform     = $this->build($dataAllPlatforms[$parentName], $dataAllPlatforms, $parentName);
             $parentPlatformData = $parentPlatform->getProperties();
 
+            /** @phpstan-var PlatformProperties $platformProperties */
             $platformProperties = $platformData['properties'];
 
             foreach ($platformProperties as $name => $value) {
-                if (isset($parentPlatformData[$name]) && $parentPlatformData[$name] === $value) {
+                assert(is_string($name));
+
+                if (array_key_exists($name, $parentPlatformData) && $parentPlatformData[$name] === $value) {
                     throw new UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
                         . '" and its parent "' . $parentName . '"'

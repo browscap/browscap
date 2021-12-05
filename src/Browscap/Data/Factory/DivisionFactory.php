@@ -10,10 +10,12 @@ use function is_array;
 use function mb_strpos;
 use function mb_substr;
 
+/**
+ * @phpstan-import-type DivisionData from Division
+ */
 final class DivisionFactory
 {
-    /** @var UserAgentFactory */
-    private $useragentFactory;
+    private UserAgentFactory $useragentFactory;
 
     public function __construct(UserAgentFactory $useragentFactory)
     {
@@ -24,6 +26,7 @@ final class DivisionFactory
      * validates the $divisionData array and creates Division objects from it
      *
      * @param mixed[] $divisionData
+     * @phpstan-param DivisionData $divisionData
      */
     public function build(
         array $divisionData,

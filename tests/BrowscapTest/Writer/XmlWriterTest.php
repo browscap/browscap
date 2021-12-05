@@ -13,7 +13,11 @@ use Browscap\Filter\StandardFilter;
 use Browscap\Formatter\XmlFormatter;
 use Browscap\Writer\WriterInterface;
 use Browscap\Writer\XmlWriter;
+use Exception;
+use InvalidArgumentException;
+use JsonException;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
@@ -29,12 +33,13 @@ class XmlWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var XmlWriter */
-    private $object;
+    private XmlWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -46,6 +51,9 @@ class XmlWriterTest extends TestCase
         $this->object = new XmlWriter($this->file, $logger);
     }
 
+    /**
+     * @throws void
+     */
     protected function teardown(): void
     {
         $this->object->close();
@@ -55,6 +63,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests getting the writer type
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
@@ -63,30 +74,37 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
     {
         $mockFormatter = $this->createMock(XmlFormatter::class);
 
-        assert($mockFormatter instanceof XmlFormatter);
         $this->object->setFormatter($mockFormatter);
         static::assertSame($mockFormatter, $this->object->getFormatter());
     }
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
     {
         $mockFilter = $this->createMock(FullFilter::class);
 
-        assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
         static::assertSame($mockFilter, $this->object->getFilter());
     }
 
     /**
      * tests setting a file into silent mode
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
     {
@@ -96,6 +114,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStartIfNotSilent(): void
     {
@@ -110,6 +131,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStartIfSilent(): void
     {
@@ -121,6 +145,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEndIfNotSilent(): void
     {
@@ -132,6 +159,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEndIfSilent(): void
     {
@@ -143,6 +173,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfSilent(): void
     {
@@ -156,6 +189,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfNotSilent(): void
     {
@@ -173,6 +209,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfSilent(): void
     {
@@ -191,6 +231,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfNotSilent(): void
     {
@@ -205,7 +249,7 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
         $mockFormatter
             ->expects(static::exactly(2))
@@ -225,6 +269,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
@@ -234,7 +282,7 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -255,6 +303,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsHeader(): void
     {
@@ -267,6 +318,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeader(): void
     {
@@ -278,6 +332,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderSectionHeaderIfNotSilent(): void
     {
@@ -285,7 +343,7 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -302,6 +360,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderSectionHeaderIfSilent(): void
     {
@@ -313,6 +375,12 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws JsonException
+     * @throws Exception
      */
     public function testRenderSectionBodyIfNotSilent(): void
     {
@@ -326,7 +394,7 @@ class XmlWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -339,7 +407,7 @@ class XmlWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
         $division
             ->expects(static::once())
@@ -348,7 +416,7 @@ class XmlWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -358,27 +426,37 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName', 'formatPropertyValue'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
+
+        $map1a = [
+            ['Test', 'Test'],
+            ['abc', 'abc'],
+        ];
+
+        $map1b = [
+            [1, 'Test', '1'],
+            ['bcd', 'abc', 'bcd'],
+        ];
 
         $mockFormatter
             ->expects(static::exactly(2))
             ->method('formatPropertyName')
-            ->willReturnArgument(0);
+            ->willReturnMap($map1a);
         $mockFormatter
             ->expects(static::exactly(2))
             ->method('formatPropertyValue')
-            ->willReturnArgument(0);
+            ->willReturnMap($map1b);
 
         assert($mockFormatter instanceof XmlFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
-        $map = [
+        $map2 = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
             ['abc', $this->object, true],
@@ -387,7 +465,7 @@ class XmlWriterTest extends TestCase
         $mockFilter
             ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->willReturnMap($map);
+            ->willReturnMap($map2);
 
         assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
@@ -402,6 +480,12 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws JsonException
+     * @throws Exception
      */
     public function testRenderSectionBodyIfNotSilentWithParents(): void
     {
@@ -425,7 +509,7 @@ class XmlWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -439,7 +523,7 @@ class XmlWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -449,7 +533,7 @@ class XmlWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -461,7 +545,7 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -481,7 +565,7 @@ class XmlWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -503,6 +587,12 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws JsonException
+     * @throws Exception
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent(): void
     {
@@ -519,7 +609,7 @@ class XmlWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -533,7 +623,7 @@ class XmlWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -543,7 +633,7 @@ class XmlWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -555,7 +645,7 @@ class XmlWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(XmlFormatter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -575,7 +665,7 @@ class XmlWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(StandardFilter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -597,6 +687,10 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws InvalidArgumentException
+     * @throws JsonException
+     * @throws Exception
      */
     public function testRenderSectionBodyIfSilent(): void
     {
@@ -617,6 +711,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfNotSilent(): void
     {
@@ -628,6 +725,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfSilent(): void
     {
@@ -639,6 +739,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
     {
@@ -648,6 +751,9 @@ class XmlWriterTest extends TestCase
 
     /**
      * tests rendering the footer after all divisions
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void
     {
