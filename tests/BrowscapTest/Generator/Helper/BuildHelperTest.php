@@ -26,7 +26,8 @@ use function sprintf;
 
 class BuildHelperTest extends TestCase
 {
-    private LoggerInterface $logger;
+    /** @var LoggerInterface */
+    private $logger;
 
     /**
      * @throws ReflectionException

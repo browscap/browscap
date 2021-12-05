@@ -10,7 +10,7 @@ namespace Browscap\Data;
 class Engine
 {
     /** @var array<string> */
-    private array $properties = [];
+    private $properties = [];
 
     /**
      * @param array<string> $properties

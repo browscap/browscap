@@ -13,7 +13,8 @@ use UnexpectedValueException;
 
 class DeviceFactoryTest extends TestCase
 {
-    private DeviceFactory $object;
+    /** @var DeviceFactory */
+    private $object;
 
     protected function setUp(): void
     {

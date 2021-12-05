@@ -27,9 +27,11 @@ class CsvWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    private CsvWriter $object;
+    /** @var CsvWriter */
+    private $object;
 
-    private string $file;
+    /** @var string */
+    private $file;
 
     protected function setUp(): void
     {

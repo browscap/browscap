@@ -11,7 +11,8 @@ use PHPUnit\Framework\TestCase;
 
 class PropertiesValidatorTest extends TestCase
 {
-    private PropertiesValidator $object;
+    /** @var PropertiesValidator */
+    private $object;
 
     protected function setUp(): void
     {

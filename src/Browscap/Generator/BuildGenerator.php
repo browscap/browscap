@@ -20,17 +20,23 @@ use function realpath;
 
 final class BuildGenerator implements GeneratorInterface
 {
-    private string $resourceFolder;
+    /** @var string */
+    private $resourceFolder;
 
-    private string $buildFolder;
+    /** @var string */
+    private $buildFolder;
 
-    private LoggerInterface $logger;
+    /** @var LoggerInterface */
+    private $logger;
 
-    private DataCollectionFactory $dataCollectionFactory;
+    /** @var DataCollectionFactory */
+    private $dataCollectionFactory;
 
-    private WriterCollection $writerCollection;
+    /** @var WriterCollection */
+    private $writerCollection;
 
-    private bool $collectPatternIds = false;
+    /** @var bool */
+    private $collectPatternIds = false;
 
     public function __construct(
         string $resourceFolder,

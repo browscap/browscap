@@ -10,7 +10,8 @@ use PHPUnit\Framework\TestCase;
 
 class RewriteTest extends TestCase
 {
-    private RewriteHelper $object;
+    /** @var RewriteHelper */
+    private $object;
 
     /**
      * @throws Exception

@@ -12,7 +12,8 @@ use PHPUnit\Framework\TestCase;
 
 class DivisionDataValidatorTest extends TestCase
 {
-    private DivisionDataValidator $object;
+    /** @var DivisionDataValidator */
+    private $object;
 
     protected function setUp(): void
     {

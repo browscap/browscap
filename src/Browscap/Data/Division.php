@@ -9,21 +9,26 @@ namespace Browscap\Data;
  */
 class Division
 {
-    private string $name = '';
+    /** @var string */
+    private $name = '';
 
-    private string $fileName = '';
+    /** @var string */
+    private $fileName = '';
 
-    private int $sortIndex = 0;
+    /** @var int */
+    private $sortIndex = 0;
 
-    private bool $lite = false;
+    /** @var bool */
+    private $lite = false;
 
-    private bool $standard = false;
+    /** @var bool */
+    private $standard = false;
 
     /** @var array<int, int|string> */
-    private array $versions = [];
+    private $versions = [];
 
     /** @var UserAgent[] */
-    private array $userAgents = [];
+    private $userAgents = [];
 
     /**
      * @param UserAgent[]            $userAgents

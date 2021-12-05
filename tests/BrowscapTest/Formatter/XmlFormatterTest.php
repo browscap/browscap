@@ -14,7 +14,8 @@ use function sprintf;
 
 class XmlFormatterTest extends TestCase
 {
-    private XmlFormatter $object;
+    /** @var XmlFormatter */
+    private $object;
 
     protected function setUp(): void
     {

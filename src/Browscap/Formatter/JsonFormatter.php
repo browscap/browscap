@@ -16,7 +16,8 @@ use function trim;
  */
 class JsonFormatter implements FormatterInterface
 {
-    private PropertyHolder $propertyHolder;
+    /** @var PropertyHolder */
+    private $propertyHolder;
 
     public function __construct(PropertyHolder $propertyHolder)
     {

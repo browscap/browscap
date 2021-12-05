@@ -21,7 +21,8 @@ use function sprintf;
 
 class DataCollectionFactoryTest extends TestCase
 {
-    private DataCollectionFactory $object;
+    /** @var DataCollectionFactory */
+    private $object;
 
     /**
      * @throws Exception

@@ -32,15 +32,17 @@ use const FILE_SKIP_EMPTY_LINES;
 
 final class IniParser implements ParserInterface
 {
-    private string $filename;
+    /** @var string */
+    private $filename;
 
-    private bool $shouldSort = false;
+    /** @var bool */
+    private $shouldSort = false;
 
     /** @var array<array<array<string>|string>> */
-    private array $data;
+    private $data;
 
     /** @var array<string> */
-    private array $fileLines = [];
+    private $fileLines;
 
     public function __construct(string $filename)
     {

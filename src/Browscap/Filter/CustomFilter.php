@@ -16,9 +16,10 @@ use function in_array;
 class CustomFilter implements FilterInterface
 {
     /** @var array<string> */
-    private array $fields = [];
+    private $fields = [];
 
-    private PropertyHolder $propertyHolder;
+    /** @var PropertyHolder */
+    private $propertyHolder;
 
     /**
      * @param array<string> $fields

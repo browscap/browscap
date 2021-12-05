@@ -14,7 +14,8 @@ use function sprintf;
 
 class AspFormatterTest extends TestCase
 {
-    private AspFormatter $object;
+    /** @var AspFormatter */
+    private $object;
 
     protected function setUp(): void
     {

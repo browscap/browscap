@@ -30,9 +30,11 @@ class JsonWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    private JsonWriter $object;
+    /** @var JsonWriter */
+    private $object;
 
-    private string $file;
+    /** @var string */
+    private $file;
 
     protected function setUp(): void
     {

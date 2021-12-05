@@ -13,7 +13,8 @@ use function assert;
 
 class DivisionFactoryTest extends TestCase
 {
-    private DivisionFactory $object;
+    /** @var DivisionFactory */
+    private $object;
 
     protected function setUp(): void
     {

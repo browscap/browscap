@@ -40,16 +40,20 @@ use const PHP_EOL;
 
 class StandardTest extends TestCase
 {
-    private static Browscap $browscap;
+    /** @var Browscap */
+    private static $browscap;
 
-    private static PropertyHolder $propertyHolder;
+    /** @var PropertyHolder */
+    private static $propertyHolder;
 
     /** @var array<string> */
-    private static array $coveredPatterns = [];
+    private static $coveredPatterns = [];
 
-    private static FilterInterface $filter;
+    /** @var FilterInterface */
+    private static $filter;
 
-    private static WriterInterface $writer;
+    /** @var WriterInterface */
+    private static $writer;
 
     /**
      * @throws Exception

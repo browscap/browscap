@@ -13,7 +13,8 @@ use UnexpectedValueException;
 
 class PlatformFactoryTest extends TestCase
 {
-    private PlatformFactory $object;
+    /** @var PlatformFactory */
+    private $object;
 
     protected function setUp(): void
     {

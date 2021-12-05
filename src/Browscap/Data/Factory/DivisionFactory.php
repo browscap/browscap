@@ -12,7 +12,8 @@ use function mb_substr;
 
 final class DivisionFactory
 {
-    private UserAgentFactory $useragentFactory;
+    /** @var UserAgentFactory */
+    private $useragentFactory;
 
     public function __construct(UserAgentFactory $useragentFactory)
     {

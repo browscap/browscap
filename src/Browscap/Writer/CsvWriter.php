@@ -26,19 +26,23 @@ use const PHP_EOL;
  */
 class CsvWriter implements WriterInterface
 {
-    private LoggerInterface $logger;
+    /** @var LoggerInterface */
+    private $logger;
 
     /** @var resource */
     private $file;
 
-    private FormatterInterface $formatter;
+    /** @var FormatterInterface */
+    private $formatter;
 
-    private FilterInterface $filter;
+    /** @var FilterInterface */
+    private $filter;
 
-    private bool $silent = false;
+    /** @var bool */
+    private $silent = false;
 
     /** @var bool[] */
-    private array $outputProperties = [];
+    private $outputProperties = [];
 
     public function __construct(string $file, LoggerInterface $logger)
     {

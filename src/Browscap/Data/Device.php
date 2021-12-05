@@ -9,12 +9,14 @@ namespace Browscap\Data;
  */
 class Device
 {
-    private string $type;
+    /** @var string */
+    private $type;
 
     /** @var array<string> */
-    private array $properties = [];
+    private $properties = [];
 
-    private bool $standard = false;
+    /** @var bool */
+    private $standard = false;
 
     /**
      * @param array<string> $properties

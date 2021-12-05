@@ -9,14 +9,17 @@ namespace Browscap\Data;
  */
 class Platform
 {
-    private string $match;
+    /** @var string */
+    private $match;
 
     /** @var array<string> */
-    private array $properties = [];
+    private $properties = [];
 
-    private bool $isLite = false;
+    /** @var bool */
+    private $isLite = false;
 
-    private bool $isStandard = false;
+    /** @var bool */
+    private $isStandard = false;
 
     /**
      * @param array<string> $properties

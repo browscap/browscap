@@ -18,7 +18,8 @@ use function assert;
 
 class DataCollectionTest extends TestCase
 {
-    private DataCollection $object;
+    /** @var DataCollection */
+    private $object;
 
     protected function setUp(): void
     {

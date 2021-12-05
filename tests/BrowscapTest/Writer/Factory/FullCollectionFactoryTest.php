@@ -16,7 +16,8 @@ class FullCollectionFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    private FullCollectionFactory $object;
+    /** @var FullCollectionFactory */
+    private $object;
 
     protected function setUp(): void
     {

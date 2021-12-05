@@ -9,21 +9,26 @@ namespace Browscap\Data;
  */
 class UserAgent
 {
-    private string $userAgent = '';
+    /** @var string */
+    private $userAgent = '';
 
     /** @var array<string> */
-    private array $properties = [];
+    private $properties = [];
 
     /** @var mixed[] */
-    private array $children = [];
+    private $children = [];
 
-    private ?string $platform = null;
+    /** @var string|null */
+    private $platform;
 
-    private ?string $engine = null;
+    /** @var string|null */
+    private $engine;
 
-    private ?string $device = null;
+    /** @var string|null */
+    private $device;
 
-    private ?string $browser = null;
+    /** @var string|null */
+    private $browser;
 
     /**
      * @param array<string> $properties

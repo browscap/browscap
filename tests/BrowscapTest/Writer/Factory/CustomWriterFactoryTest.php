@@ -17,7 +17,8 @@ class CustomWriterFactoryTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    private CustomWriterFactory $object;
+    /** @var CustomWriterFactory */
+    private $object;
 
     protected function setUp(): void
     {
