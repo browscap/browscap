@@ -19,7 +19,7 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -70,11 +70,11 @@ jobs:
           - "7.2"
           - "7.3"
           - "7.4"
-#          - "8.0"
+          - "8.0"
 
         dependencies:
-          - "--prefer-lowest"
-          - ""
+          - "--prefer-lowest --ignore-platform-reqs"
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -119,8 +119,8 @@ jobs:
           - "7.4"
 
         dependencies:
-          - "--prefer-lowest"
-          - ""
+          - "--prefer-lowest --ignore-platform-reqs"
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -168,7 +168,7 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -213,7 +213,7 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -258,7 +258,7 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -303,7 +303,7 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
     steps:
       - name: "Checkout"
@@ -356,11 +356,10 @@ jobs:
           - "7.4"
 
         dependencies:
-          - ""
+          - "--ignore-platform-reqs"
 
         browscap-php:
           - "4.2"
-#          - "3.1"
 
         test-set:
           - "full"
