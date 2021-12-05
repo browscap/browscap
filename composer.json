@@ -37,7 +37,7 @@
     "mimmi20/ua-browser-type": "^7.0.15",
     "mimmi20/ua-device-type": "^7.1.14",
     "monolog/monolog": "^1.26.0 || ^2.2.0",
-    "psr/log": "^1.1.4 || ^2.0.0",
+    "psr/log": "^1.1.4",
     "seld/jsonlint": "^1.8.3",
     "symfony/console": "^4.4.18 || ^5.2.1",
     "symfony/finder": "^4.4.18 || ^5.2.1",
