@@ -1794,12 +1794,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/browscap/browscap-php.git",
-                "reference": "92318ae482228784f59a9ef717c2986918e51b58"
+                "reference": "030c58429e3720e14d09058bff4a5005b633f13f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/92318ae482228784f59a9ef717c2986918e51b58",
-                "reference": "92318ae482228784f59a9ef717c2986918e51b58",
+                "url": "https://api.github.com/repos/browscap/browscap-php/zipball/030c58429e3720e14d09058bff4a5005b633f13f",
+                "reference": "030c58429e3720e14d09058bff4a5005b633f13f",
                 "shasum": ""
             },
             "require": {
@@ -1867,7 +1867,7 @@
                 "issues": "https://github.com/browscap/browscap-php/issues",
                 "source": "https://github.com/browscap/browscap-php"
             },
-            "time": "2021-12-05T14:46:19+00:00"
+            "time": "2021-12-05T15:58:39+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",

@@ -23,6 +23,7 @@ use DateTimeImmutable;
 use Doctrine\Common\Cache\ArrayCache;
 use Exception;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\AbstractLogger;
 use Psr\Log\NullLogger;
 use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 use RuntimeException;
@@ -74,7 +75,23 @@ class LiteTest extends TestCase
         $version = (string) $buildNumber;
 
         try {
-            $logger               = new NullLogger();
+            $logger               = new class extends AbstractLogger {
+
+                public function log($level, $message, array $context = array())
+                {
+                    echo '[', $level, '] ', $message, PHP_EOL;
+                }
+
+                public function info($message, array $context = array())
+                {
+                    // do nothing
+                }
+
+                public function debug($message, array $context = array())
+                {
+                    // do nothing
+                }
+            };
             $writerCollection     = new WriterCollection();
             self::$propertyHolder = new PropertyHolder();
             self::$filter         = new LiteFilter(self::$propertyHolder);
