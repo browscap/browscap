@@ -13,8 +13,7 @@ use UnexpectedValueException;
 
 class EngineFactoryTest extends TestCase
 {
-    /** @var EngineFactory */
-    private $object;
+    private EngineFactory $object;
 
     protected function setUp(): void
     {

@@ -13,8 +13,7 @@ use RuntimeException;
 
 class UseragentFactoryTest extends TestCase
 {
-    /** @var UserAgentFactory */
-    private $object;
+    private UserAgentFactory $object;
 
     protected function setUp(): void
     {

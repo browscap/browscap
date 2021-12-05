@@ -14,8 +14,7 @@ use function sprintf;
 
 class CsvFormatterTest extends TestCase
 {
-    /** @var CsvFormatter */
-    private $object;
+    private CsvFormatter $object;
 
     protected function setUp(): void
     {

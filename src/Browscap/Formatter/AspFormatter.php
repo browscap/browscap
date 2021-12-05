@@ -15,8 +15,7 @@ use function trim;
  */
 class AspFormatter implements FormatterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
     public function __construct(PropertyHolder $propertyHolder)
     {

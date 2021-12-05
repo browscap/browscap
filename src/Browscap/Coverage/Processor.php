@@ -49,8 +49,7 @@ final class Processor implements ProcessorInterface
     private const JSON_COLON        = 21;
     /*@-*/
 
-    /** @var string */
-    private $resourceDir;
+    private string $resourceDir;
 
     /**
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
@@ -58,7 +57,7 @@ final class Processor implements ProcessorInterface
      *
      * @var array<array<string>>
      */
-    private $coveredIds = [];
+    private array $coveredIds = [];
 
     /**
      * This is the full coverage array that gets output in the write method.  For each file an entry in the array
@@ -66,15 +65,13 @@ final class Processor implements ProcessorInterface
      *
      * @var mixed[]
      */
-    private $coverage = [];
+    private array $coverage = [];
 
     /**
      * An incrementing integer for every "function" (child match) encountered in all processed files. This is used
      * to name the anonymous functions in the coverage report.
-     *
-     * @var int
      */
-    private $funcCount = 0;
+    private int $funcCount = 0;
 
     /**
      * A storage variable for the lines of a file while processing that file, used for determining column
@@ -82,7 +79,7 @@ final class Processor implements ProcessorInterface
      *
      * @var array<string>
      */
-    private $fileLines = [];
+    private array $fileLines = [];
 
     /**
      * A storage variable of the pattern ids covered by tests for a specific file (set when processing of that
@@ -90,28 +87,28 @@ final class Processor implements ProcessorInterface
      *
      * @var array<string>
      */
-    private $fileCoveredIds = [];
+    private array $fileCoveredIds = [];
 
     /**
      * location information for the statements that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $statementCoverage = [];
+    private array $statementCoverage = [];
 
     /**
      * location information for the functions that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $functionCoverage = [];
+    private array $functionCoverage = [];
 
     /**
      * location information for the different branch structures that should be covered
      *
      * @var array<string, array<int, string|int>>
      */
-    private $branchCoverage = [];
+    private array $branchCoverage = [];
 
     /**
      * Create a new Coverage Processor for the specified directory

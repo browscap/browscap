@@ -23,8 +23,7 @@ use function assert;
 
 class BuildGeneratorTest extends TestCase
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /**
      * @throws ReflectionException

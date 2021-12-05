@@ -13,8 +13,7 @@ use Browscap\Writer\WriterInterface;
  */
 class StandardFilter implements FilterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
     public function __construct(PropertyHolder $propertyHolder)
     {

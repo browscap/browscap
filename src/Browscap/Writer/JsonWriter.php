@@ -28,26 +28,21 @@ use const PHP_EOL;
  */
 class JsonWriter implements WriterInterface
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /** @var resource */
     private $file;
 
-    /** @var FormatterInterface */
-    private $formatter;
+    private FormatterInterface $formatter;
 
-    /** @var FilterInterface */
-    private $filter;
+    private FilterInterface $filter;
 
-    /** @var bool */
-    private $silent = false;
+    private bool $silent = false;
 
     /** @var bool[] */
-    private $outputProperties = [];
+    private array $outputProperties = [];
 
-    /** @var TrimProperty */
-    private $trimProperty;
+    private TrimProperty $trimProperty;
 
     public function __construct(string $file, LoggerInterface $logger)
     {

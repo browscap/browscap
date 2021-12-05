@@ -14,8 +14,7 @@ use function sprintf;
 
 class PhpFormatterTest extends TestCase
 {
-    /** @var PhpFormatter */
-    private $object;
+    private PhpFormatter $object;
 
     protected function setUp(): void
     {

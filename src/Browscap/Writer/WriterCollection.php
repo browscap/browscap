@@ -15,7 +15,7 @@ use InvalidArgumentException;
 class WriterCollection
 {
     /** @var WriterInterface[] */
-    private $writers = [];
+    private array $writers = [];
 
     /**
      * add a new writer to the collection

@@ -16,8 +16,7 @@ use function sprintf;
 
 class PropertyHolderTest extends TestCase
 {
-    /** @var PropertyHolder */
-    private $object;
+    private PropertyHolder $object;
 
     protected function setUp(): void
     {

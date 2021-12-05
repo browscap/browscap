@@ -31,11 +31,9 @@ class IniWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var IniWriter */
-    private $object;
+    private IniWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
     protected function setUp(): void
     {

@@ -39,23 +39,18 @@ use const PHP_EOL;
 
 class LiteTest extends TestCase
 {
-    /** @var Browscap */
-    private static $browscap;
+    private static Browscap $browscap;
 
-    /** @var BrowscapUpdater */
-    private static $browscapUpdater;
+    private static BrowscapUpdater $browscapUpdater;
 
-    /** @var PropertyHolder */
-    private static $propertyHolder;
+    private static PropertyHolder $propertyHolder;
 
     /** @var array<string> */
-    private static $coveredPatterns = [];
+    private static array $coveredPatterns = [];
 
-    /** @var FilterInterface */
-    private static $filter;
+    private static FilterInterface $filter;
 
-    /** @var WriterInterface */
-    private static $writer;
+    private static WriterInterface $writer;
 
     /**
      * @throws Exception

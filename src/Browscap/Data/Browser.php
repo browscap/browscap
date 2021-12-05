@@ -6,17 +6,14 @@ namespace Browscap\Data;
 
 class Browser
 {
-    /** @var string */
-    private $type;
+    private string $type;
 
     /** @var array<string> */
-    private $properties = [];
+    private array $properties = [];
 
-    /** @var bool */
-    private $isLite = false;
+    private bool $isLite = false;
 
-    /** @var bool */
-    private $isStandard = false;
+    private bool $isStandard = false;
 
     /**
      * @param array<string> $properties

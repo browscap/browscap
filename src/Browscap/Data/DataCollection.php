@@ -19,28 +19,25 @@ use const SORT_NUMERIC;
 class DataCollection
 {
     /** @var Platform[] */
-    private $platforms = [];
+    private array $platforms = [];
 
     /** @var Engine[] */
-    private $engines = [];
+    private array $engines = [];
 
     /** @var Browser[] */
-    private $browsers = [];
+    private array $browsers = [];
 
     /** @var Device[] */
-    private $devices = [];
+    private array $devices = [];
 
     /** @var Division[] */
-    private $divisions = [];
+    private array $divisions = [];
 
-    /** @var Division */
-    private $defaultProperties;
+    private Division $defaultProperties;
 
-    /** @var Division */
-    private $defaultBrowser;
+    private Division $defaultBrowser;
 
-    /** @var bool */
-    private $divisionsHaveBeenSorted = false;
+    private bool $divisionsHaveBeenSorted = false;
 
     /**
      * @param string $platformName Name of the platform

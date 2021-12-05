@@ -20,8 +20,7 @@ use function assert;
 
 class ExpanderTest extends TestCase
 {
-    /** @var Expander */
-    private $object;
+    private Expander $object;
 
     protected function setUp(): void
     {

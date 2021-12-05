@@ -249,7 +249,6 @@ jobs:
 
     needs:
       - "coding-standards"
-      - "static-code-analysis"
 
     runs-on: "ubuntu-latest"
 
