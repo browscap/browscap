@@ -126,11 +126,11 @@ jobs:
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi --prefer-lowest"
 
       - name: "Install highest dependencies"
-        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == 'false' }}"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == false }}"
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi"
 
       - name: "Install highest dependencies (Experimental)"
-        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == 'true' }}"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == true }}"
         run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -v --ansi --ignore-platform-reqs"
 
       - name: "Install locked dependencies"
