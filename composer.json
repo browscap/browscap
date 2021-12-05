@@ -44,7 +44,7 @@
   },
   "require-dev": {
     "ext-zip": "*",
-    "browscap/browscap-php": "^4.3.0 || ^5.0.0",
+    "browscap/browscap-php": "dev-test",
     "doctrine/coding-standard": "^9.0.0",
     "mikey179/vfsstream": "^1.6.8",
     "phpstan/extension-installer": "~1.1.0",
