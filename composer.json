@@ -33,7 +33,7 @@
     "source": "https://github.com/browscap/browscap"
   },
   "require": {
-    "php": "^7.4.3",
+    "php": ">=7.4.3,<8.2.0",
     "ext-json": "*",
     "beberlei/assert": "^3.3.1",
     "ergebnis/json-normalizer": "^1.0.3",
@@ -49,6 +49,7 @@
     "ext-zip": "*",
     "browscap/browscap-php": "dev-updates",
     "doctrine/coding-standard": "^9.0.0",
+    "ergebnis/composer-normalize": "^2.18.0",
     "league/flysystem": "^2.3.2",
     "matthiasmullie/scrapbook": "^1.4.8",
     "mikey179/vfsstream": "^v1.6.10",
@@ -79,9 +80,6 @@
     "bin/browscap"
   ],
   "config": {
-    "platform": {
-      "php": "7.4.3"
-    },
     "preferred-install": "dist",
     "sort-packages": true
   }

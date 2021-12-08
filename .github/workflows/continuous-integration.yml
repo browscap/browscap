@@ -72,10 +72,11 @@ jobs:
 
         php-version:
           - "7.4"
+          - "8.0"
+          - "8.1"
 
         dependencies:
           - "lowest"
-          - "locked"
           - "highest"
 
         experimental: [false]
@@ -83,12 +84,12 @@ jobs:
         include:
           - operating-system: "ubuntu-20.04"
             php-version: "8.0"
-            dependencies: "highest"
-            experimental: true
+            dependencies: "locked"
+            experimental: false
           - operating-system: "ubuntu-20.04"
             php-version: "8.1"
-            dependencies: "highest"
-            experimental: true
+            dependencies: "locked"
+            experimental: false
           - operating-system: "ubuntu-20.04"
             php-version: "8.2"
             dependencies: "highest"
@@ -321,7 +322,7 @@ jobs:
 
     runs-on: "${{ matrix.operating-system }}"
 
-    continue-on-error: ${{ matrix.experimental }}
+    continue-on-error: false
 
     strategy:
       fail-fast: false
@@ -332,25 +333,11 @@ jobs:
 
         php-version:
           - "7.4"
+          - "8.0"
+          - "8.1"
 
         dependencies:
           - ""
-
-        experimental: [false]
-
-        include:
-          - operating-system: "ubuntu-20.04"
-            php-version: "8.0"
-            dependencies: "--ignore-platform-reqs"
-            experimental: true
-          - operating-system: "ubuntu-20.04"
-            php-version: "8.1"
-            dependencies: "--ignore-platform-reqs"
-            experimental: true
-          - operating-system: "ubuntu-20.04"
-            php-version: "8.2"
-            dependencies: "--ignore-platform-reqs"
-            experimental: true
 
     steps:
       - name: "Checkout"
