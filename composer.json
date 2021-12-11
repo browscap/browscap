@@ -41,13 +41,13 @@
     "mimmi20/ua-device-type": "^8.0.5",
     "monolog/monolog": "^2.3.5",
     "seld/jsonlint": "^1.8.3",
-    "symfony/console": "^v5.4.0",
-    "symfony/finder": "^v5.4.0",
+    "symfony/console": "^v5.4.0 || ^6.0.0",
+    "symfony/finder": "^v5.4.0 || ^6.0.0",
     "twig/twig": "^v3.3.4"
   },
   "require-dev": {
     "ext-zip": "*",
-    "browscap/browscap-php": "dev-updates",
+    "browscap/browscap-php": "^6.0.0",
     "doctrine/coding-standard": "^9.0.0",
     "ergebnis/composer-normalize": "^2.18.0",
     "league/flysystem": "^2.3.2",

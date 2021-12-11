@@ -216,6 +216,12 @@ class Expander
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
+                    /*
+                     * There is a device replacement like -> "2014818": "Xiaomi 2014818"
+                     * in our data. json_decode converts the string "2014818" to an int
+                     */
+                    $deviceMatch = (string) $deviceMatch;
+
                     $this->patternId['device'] = $deviceMatch;
                     $subChild                  = $child;
                     $subChild['match']         = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
