@@ -9,7 +9,7 @@ name: "Continuous Integration"
 env:
   PHP_EXTENSIONS: "json, zip, opcache, mbstring"
   PHP_INI_VALUES: "opcache.enable=1, opcache.enable_cli=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, zend.exception_ignore_args=0"
-  COMPOSER_OPTIONS: "--optimize-autoloader --prefer-dist --prefer-stable -v"
+  COMPOSER_OPTIONS: "--optimize-autoloader --prefer-dist -v"
   TOOLS: "composer:v2"
 
 jobs:
@@ -118,33 +118,35 @@ jobs:
           key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
           restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
-      - name: "Install lowest/locked dependencies"
-        if: "${{ matrix.dependencies == 'lowest' || matrix.dependencies == 'locked' }}"
+      - name: "Install lowest dependencies"
+        if: "${{ matrix.dependencies == 'lowest' }}"
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Install highest dependencies"
         if: "${{ matrix.dependencies == 'highest' && matrix.experimental == false }}"
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Install highest dependencies (Experimental)"
         if: "${{ matrix.dependencies == 'highest' && matrix.experimental == true }}"
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }} --ignore-platform-reqs"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable --ignore-platform-reqs"
+
+      - name: "Install locked dependencies"
+        if: "${{ matrix.dependencies == 'locked' }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }}"
 
       - name: "Check dependencies with composer"
-        if: "matrix.php-version == '7.4'"
-        run: "composer outdated --direct --strict"
-
-      - name: "Check dependencies with composer"
-        if: "matrix.php-version == '8.0'"
         run: "composer outdated --direct"
 
   coding-standards:
@@ -189,7 +191,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run squizlabs/php_codesniffer"
         run: "vendor/bin/phpcs --report=checkstyle -q | cs2pr"
@@ -236,7 +238,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run phpstan/phpstan"
         run: "vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=768M --no-progress"
@@ -284,7 +286,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Search for duplicate tests"
         run: "bin/browscap -v check-duplicate-tests"
@@ -336,7 +338,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run unit tests with phpunit/phpunit"
         run: "vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors"
@@ -383,7 +385,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Collect code coverage with Xdebug and phpunit/phpunit"
         run: "vendor/bin/phpunit -c phpunit.xml.dist --colors --coverage-text --coverage-clover=coverage.clover"
@@ -441,7 +443,7 @@ jobs:
         uses: "ramsey/composer-install@v1"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
-          composer-options: "${{ env.COMPOSER_OPTIONS }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run integration tests with phpunit/phpunit for Test-Set 'full'"
         if: "matrix.test-set == 'full'"

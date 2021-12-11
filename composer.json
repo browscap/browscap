@@ -41,7 +41,7 @@
     "mimmi20/ua-device-type": "^8.0.5",
     "monolog/monolog": "^2.3.5",
     "seld/jsonlint": "^1.8.3",
-    "symfony/console": "^v5.4.0 || ^6.0.0",
+    "symfony/console": "^v5.4.1 || ^6.0.1",
     "symfony/finder": "^v5.4.0 || ^6.0.0",
     "twig/twig": "^v3.3.4"
   },
