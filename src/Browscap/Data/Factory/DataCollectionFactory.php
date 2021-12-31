@@ -282,7 +282,7 @@ class DataCollectionFactory
         /** @phpstan-var DivisionData $divisionData */
         $divisionData = $this->loadFile($filename);
 
-        $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, false);
+        $this->allDivisions = $this->divisionDataValidator->validate($divisionData, $filename, $this->allDivisions, false);
 
         $this->collection->addDivision(
             $this->divisionFactory->build(

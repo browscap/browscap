@@ -31,17 +31,17 @@ class DivisionDataValidator implements ValidatorInterface
      * @param string[] $allDivisions
      * @phpstan-param DivisionData $divisionData
      *
+     * @return string[]
+     *
      * @throws AssertionFailedException
      * @throws LogicException
-     *
-     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
      */
     public function validate(
         array $divisionData,
         string $filename,
-        array &$allDivisions = [],
+        array $allDivisions = [],
         bool $isCore = false
-    ): void {
+    ): array {
         Assertion::keyExists($divisionData, 'division', 'required attibute "division" is missing in File ' . $filename);
         Assertion::string($divisionData['division'], 'required attibute "division" has to be a string in File ' . $filename);
 
@@ -73,6 +73,8 @@ class DivisionDataValidator implements ValidatorInterface
 
             $allDivisions[] = $useragentData['userAgent'];
         }
+
+        return $allDivisions;
     }
 
     /**

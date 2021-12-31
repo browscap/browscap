@@ -13,7 +13,11 @@ interface ValidatorInterface
      *
      * @param mixed[] $properties Data to validate
      *
+     * @return void|string[]
+     *
      * @throws LogicException
+     *
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
      */
-    public function validate(array $properties, string $key): void;
+    public function validate(array $properties, string $key);
 }
