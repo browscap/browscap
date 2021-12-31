@@ -28,10 +28,6 @@ parameters:
     - '~expects string, Twig\\Error\\LoaderError\|Twig\\Error\\RuntimeError\|Twig\\Error\\SyntaxError given~'
     - '~Parameter #1 \$array of method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) expects array<array<string>\|string>, array<array<array<string>\|string>\|string> given~'
     - '~Method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) should return array<array<array<string>\|string>> but returns array<array<array<array<string>\|string>\|string>\|string>~'
-    - '~Parameter #2 \$haystack of static method PHPUnit\\Framework\\Assert::assertCount\(\) expects Countable\|iterable, array<int, int\|string>\|string given~'
-    - '~Parameter #1 \$input of function array_sum expects array, array<int, int\|string>\|string given~'
-    - '~Argument of an invalid type array<int, int\|string>\|string supplied for foreach, only iterables are supported~'
-    - '~Dead catch -~'
     - '~Parameter #1 \$message of method Psr\\Log\\LoggerInterface::critical\(\) expects string~'
     - '~Expression in empty\(\) is not falsy~'
 

@@ -56,8 +56,8 @@ class RewriteTestFixturesCommand extends Command
 
         $resourcePath = __DIR__ . '/../../../tests/fixtures';
 
-        $normalizer = new Normalizer\FinalNewLineNormalizer();
-        $format     = new Normalizer\Format\Format(
+        $normalizer = new Normalizer\WithFinalNewLineNormalizer();
+        $format     = Normalizer\Format\Format::create(
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),

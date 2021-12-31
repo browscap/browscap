@@ -286,11 +286,9 @@ class PropertyHolder
     }
 
     /**
-     * @return string|int
-     *
      * @throws InvalidArgumentException
      */
-    public function checkValueInArray(string $property, string $value)
+    public function checkValueInArray(string $property, string $value): string|int
     {
         switch ($property) {
             case 'Device_Pointing_Method':

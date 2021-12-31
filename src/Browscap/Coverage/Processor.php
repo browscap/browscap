@@ -109,7 +109,7 @@ final class Processor implements ProcessorInterface
     /**
      * location information for the different branch structures that should be covered
      *
-     * @var array<string, array<int, string|int>>
+     * @var array<string, array<int, array<int, int>>>
      */
     private array $branchCoverage = [];
 
@@ -211,6 +211,7 @@ final class Processor implements ProcessorInterface
      * @param array<int|string, string> $coveredIds
      *
      * @return array<string, array<int, string|int>|string>
+     * @phpstan-return array{path: string, statementMap: array<int, int<min, -1>|int<1, max>|non-empty-string>, fnMap: array<int, int<min, -1>|int<1, max>|non-empty-string>, branchMap: array<int, non-empty-array<int, int>>, s: array<int, string|int>, b: array<int, array<int, int>>, f: array<int, string|int>}
      *
      * @throws void
      */

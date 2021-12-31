@@ -33,6 +33,8 @@ class DivisionDataValidator implements ValidatorInterface
      *
      * @throws AssertionFailedException
      * @throws LogicException
+     *
+     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
      */
     public function validate(
         array $divisionData,

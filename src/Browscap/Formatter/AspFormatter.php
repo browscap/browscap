@@ -48,11 +48,9 @@ class AspFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param bool|int|string $value
-     *
      * @throws Exception
      */
-    public function formatPropertyValue($value, string $property): string
+    public function formatPropertyValue(bool|int|string $value, string $property): string
     {
         switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:

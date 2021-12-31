@@ -33,7 +33,6 @@ use Throwable;
 use function assert;
 use function count;
 use function file_exists;
-use function get_class;
 use function implode;
 use function is_string;
 use function mkdir;
@@ -149,7 +148,7 @@ class StandardTest extends TestCase
             exit(sprintf(
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
                 self::class,
-                get_class($e),
+                $e::class,
                 $e->getMessage()
             ));
         }

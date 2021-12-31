@@ -32,10 +32,8 @@ interface FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param bool|int|string $value
-     *
      * @throws Exception
      * @throws JsonException
      */
-    public function formatPropertyValue($value, string $property): string;
+    public function formatPropertyValue(bool|int|string $value, string $property): string;
 }

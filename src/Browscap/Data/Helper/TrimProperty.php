@@ -10,10 +10,8 @@ class TrimProperty
 {
     /**
      * trims the value of a property and converts the string values "true" and "false" to boolean
-     *
-     * @return bool|string
      */
-    public function trim(string $propertyValue)
+    public function trim(string $propertyValue): bool|string
     {
         switch ($propertyValue) {
             case 'true':

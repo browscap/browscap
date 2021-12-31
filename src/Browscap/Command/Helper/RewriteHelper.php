@@ -10,10 +10,10 @@ use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
 use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
 use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
 use Ergebnis\Json\Printer\Printer;
+use Ergebnis\Json\SchemaValidator\SchemaValidator;
 use Exception;
 use JsonException;
 use JsonSchema\SchemaStorage;
-use JsonSchema\Validator;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 use Symfony\Component\Console\Helper\Helper;
@@ -26,6 +26,7 @@ use function file_put_contents;
 use function sprintf;
 
 use const JSON_PRETTY_PRINT;
+use const JSON_THROW_ON_ERROR;
 use const JSON_UNESCAPED_SLASHES;
 use const JSON_UNESCAPED_UNICODE;
 
@@ -51,10 +52,10 @@ class RewriteHelper extends Helper
         $normalizer = new Normalizer\SchemaNormalizer(
             $schema,
             new SchemaStorage(),
-            new Normalizer\Validator\SchemaValidator(new Validator())
+            new SchemaValidator()
         );
-        $format     = new Normalizer\Format\Format(
-            Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
+        $format     = Normalizer\Format\Format::create(
+            Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_THROW_ON_ERROR),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
             true
