@@ -9,13 +9,16 @@ use Assert\InvalidArgumentException;
 use Browscap\Data\Factory\PlatformFactory;
 use Browscap\Data\Platform;
 use PHPUnit\Framework\TestCase;
+use RuntimeException;
 use UnexpectedValueException;
 
 class PlatformFactoryTest extends TestCase
 {
-    /** @var PlatformFactory */
-    private $object;
+    private PlatformFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new PlatformFactory();
@@ -25,6 +28,8 @@ class PlatformFactoryTest extends TestCase
      * tests that the missing "lite" property is leading to an error
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildMissingLiteProperty(): void
     {
@@ -42,6 +47,8 @@ class PlatformFactoryTest extends TestCase
      * tests that the missing "standard" property is leading to an error
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildMissingStandardProperty(): void
     {
@@ -59,6 +66,8 @@ class PlatformFactoryTest extends TestCase
      * tests that the missing "match" property is leading to an error
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildWithoutMatchProperty(): void
     {
@@ -82,6 +91,8 @@ class PlatformFactoryTest extends TestCase
      * tests that the missing "inherits" property and missing "properties" property is leading to an error
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
     public function testBuildWithMissingInheritAndProperties(): void
     {
@@ -99,6 +110,8 @@ class PlatformFactoryTest extends TestCase
      * tests that a missing parent platform is leading to an error
      *
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function testBuildMissingParentPlatform(): void
     {
@@ -114,6 +127,8 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
+     * @throws UnexpectedValueException
      */
     public function testBuildWithRepeatingProperties(): void
     {
@@ -136,6 +151,7 @@ class PlatformFactoryTest extends TestCase
 
     /**
      * @throws AssertionFailedException
+     * @throws RuntimeException
      */
     public function testCreationOfPlatform(): void
     {

@@ -12,7 +12,7 @@
     bootstrap="vendor/autoload.php"
     failOnWarning="true"
     failOnRisky="true"
-    >
+>
     <php>
         <ini name="error_reporting" value="-1"/>
         <ini name="memory_limit" value="-1"/>
@@ -23,9 +23,9 @@
         <directory>./tests/BrowscapTest</directory>
     </testsuite>
 
-    <filter>
-        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+    <coverage includeUncoveredFiles="true" processUncoveredFiles="true">
+        <include>
             <directory suffix=".php">src/</directory>
-        </whitelist>
-    </filter>
+        </include>
+    </coverage>
 </phpunit>

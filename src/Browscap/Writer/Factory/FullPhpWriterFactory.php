@@ -9,6 +9,7 @@ use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterCollection;
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -16,6 +17,9 @@ use Psr\Log\LoggerInterface;
  */
 class FullPhpWriterFactory
 {
+    /**
+     * @throws InvalidArgumentException
+     */
     public function createCollection(LoggerInterface $logger, string $buildFolder, ?string $file = null): WriterCollection
     {
         $writerCollection = new WriterCollection();

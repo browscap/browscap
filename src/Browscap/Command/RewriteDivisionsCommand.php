@@ -6,21 +6,22 @@ namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
 use Exception;
-use ExceptionalJSON\DecodeErrorException;
-use JsonClass\Json;
+use JsonException;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
-use Twig_Environment;
-use Twig_Error_Loader;
-use Twig_Error_Runtime;
-use Twig_Error_Syntax;
-use Twig_Loader_Filesystem;
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Error\SyntaxError;
+use Twig\Loader\FilesystemLoader;
 
 use function array_intersect;
 use function array_key_exists;
@@ -38,11 +39,14 @@ use function is_array;
 use function is_int;
 use function is_numeric;
 use function is_string;
+use function json_decode;
+use function json_encode;
 use function key;
 use function mb_strpos;
 use function sprintf;
 use function uksort;
 
+use const JSON_THROW_ON_ERROR;
 use const SORT_ASC;
 use const SORT_DESC;
 use const SORT_NUMERIC;
@@ -51,6 +55,9 @@ class RewriteDivisionsCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -62,9 +69,13 @@ class RewriteDivisionsCommand extends Command
     }
 
     /**
-     * @return int|null null or 0 if everything went fine, or an error code
+     * @return int 0 if everything went fine, or an error code
+     *
+     * @throws InvalidArgumentException
+     * @throws DirectoryNotFoundException
+     * @throws JsonException
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -76,8 +87,8 @@ class RewriteDivisionsCommand extends Command
 
         $logger->info('Resource folder: ' . $resources);
 
-        $loader = new Twig_Loader_Filesystem(__DIR__ . '/../../../templates/');
-        $twig   = new Twig_Environment($loader, [
+        $loader = new FilesystemLoader(__DIR__ . '/../../../templates/');
+        $twig   = new Environment($loader, [
             'cache' => false,
             'optimizations' => 0,
             'autoescape' => false,
@@ -88,18 +99,18 @@ class RewriteDivisionsCommand extends Command
         if ($content === false) {
             $logger->critical('could not read File "' . $resources . '/platforms.json"');
 
-            return 1;
+            return self::FAILURE;
         }
-
-        $jsonClass = new Json();
 
         try {
-            $allPlatforms = $jsonClass->decode($content, true);
-        } catch (DecodeErrorException $e) {
+            $allPlatforms = json_decode($content, true, 512, JSON_THROW_ON_ERROR);
+        } catch (JsonException $e) {
             $logger->critical(new Exception(sprintf('file "%s" is not valid', $resources . '/platforms.json'), 0, $e));
 
-            return 1;
+            return self::FAILURE;
         }
+
+        assert(is_array($allPlatforms));
 
         $finder = new Finder();
         $finder->files();
@@ -123,12 +134,14 @@ class RewriteDivisionsCommand extends Command
             }
 
             try {
-                $divisionData = $jsonClass->decode($json, true);
-            } catch (DecodeErrorException $e) {
+                $divisionData = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
+            } catch (JsonException $e) {
                 $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
 
                 continue;
             }
+
+            assert(is_array($divisionData));
 
             if (! array_key_exists('division', $divisionData)) {
                 $logger->critical(new Exception(sprintf('file "%s" is not valid! "division" property is missing', $file->getPathname())));
@@ -169,7 +182,7 @@ class RewriteDivisionsCommand extends Command
 
             if (array_key_exists('versions', $divisionData)) {
                 if (is_array($divisionData['versions'])) {
-                    $divisionData['versions'] = $this->sortVersions($divisionData, $jsonClass);
+                    $divisionData['versions'] = $this->sortVersions($divisionData);
                 } else {
                     $logger->critical(new Exception(sprintf('file "%s" is not valid! versions section is not an array', $file->getPathname())));
                     unset($divisionData['versions']);
@@ -188,7 +201,6 @@ class RewriteDivisionsCommand extends Command
                     $useragentData,
                     $file,
                     $logger,
-                    $jsonClass,
                     $allPlatforms
                 );
 
@@ -204,7 +216,7 @@ class RewriteDivisionsCommand extends Command
 
             try {
                 $normalized = $twig->render('division.json.twig', ['divisionData' => $divisionData]);
-            } catch (Twig_Error_Loader | Twig_Error_Runtime | Twig_Error_Syntax $e) {
+            } catch (LoaderError | RuntimeError | SyntaxError $e) {
                 $logger->critical($e);
 
                 continue;
@@ -215,7 +227,7 @@ class RewriteDivisionsCommand extends Command
 
         $output->writeln('Done');
 
-        return 0;
+        return self::SUCCESS;
     }
 
     /**
@@ -245,11 +257,13 @@ class RewriteDivisionsCommand extends Command
     }
 
     /**
-     * @param mixed[] $divisionData
+     * @param array<array<string>> $divisionData
      *
-     * @return array<string>
+     * @return array<string|int>
+     *
+     * @throws JsonException
      */
-    private function sortVersions(array $divisionData, Json $jsonClass): array
+    private function sortVersions(array $divisionData): array
     {
         $majorVersions = [];
         $minorVersions = [];
@@ -288,9 +302,13 @@ class RewriteDivisionsCommand extends Command
             $divisionData['versions']
         );
 
+        assert(is_array($divisionData['versions']));
+
         foreach ($divisionData['versions'] as $key => $version) {
-            $divisionData['versions'][$key] = $jsonClass->encode($version);
+            $divisionData['versions'][$key] = json_encode($version, JSON_THROW_ON_ERROR);
         }
+
+        assert(is_array($divisionData['versions']));
 
         return $divisionData['versions'];
     }
@@ -300,12 +318,13 @@ class RewriteDivisionsCommand extends Command
      * @param mixed[][] $allPlatforms
      *
      * @return mixed[]
+     *
+     * @throws JsonException
      */
     private function rewriteUserAgents(
         array $useragentData,
         SplFileInfo $file,
         LoggerInterface $logger,
-        Json $jsonClass,
         array $allPlatforms
     ): array {
         if (! array_key_exists('userAgent', $useragentData)) {
@@ -356,7 +375,6 @@ class RewriteDivisionsCommand extends Command
                 $childData,
                 $file,
                 $logger,
-                $jsonClass,
                 $allPlatforms
             );
 
@@ -378,12 +396,13 @@ class RewriteDivisionsCommand extends Command
      * @param mixed[][] $allPlatforms
      *
      * @return mixed[]
+     *
+     * @throws JsonException
      */
     private function rewriteChildren(
         array $childData,
         SplFileInfo $file,
         LoggerInterface $logger,
-        Json $jsonClass,
         array $allPlatforms
     ): array {
         if (! array_key_exists('match', $childData)) {
@@ -437,7 +456,7 @@ class RewriteDivisionsCommand extends Command
         if (1 >= count($childData['platforms'])) {
             foreach ($childData['platforms'] as $key => $platformkey) {
                 unset($childData['platforms'][$key]);
-                $childData['platforms'][] = [$key => $jsonClass->encode($platformkey)];
+                $childData['platforms'][] = [$key => json_encode($platformkey, JSON_THROW_ON_ERROR)];
             }
 
             return $childData;
@@ -449,8 +468,10 @@ class RewriteDivisionsCommand extends Command
         $currentChunk    = -1;
         $chunk           = [];
 
-        foreach ($platforms as $key => $platformkey) {
+        foreach ($platforms as $platformkey) {
             $platform = $allPlatforms[$platformkey];
+
+            assert(is_array($platform));
 
             if (
                 (! isset($platform['properties']['Platform']) || ! isset($platform['properties']['Platform_Version']))
@@ -463,7 +484,10 @@ class RewriteDivisionsCommand extends Command
                 }
 
                 do {
-                    $parentPlatform     = $allPlatforms[$platform['inherits']];
+                    $parentPlatform = $allPlatforms[$platform['inherits']];
+
+                    assert(is_array($parentPlatform));
+
                     $platformProperties = array_merge($parentPlatform['properties'], $platformProperties);
                     unset($platform['inherits']);
 
@@ -485,29 +509,29 @@ class RewriteDivisionsCommand extends Command
 
             if (in_array($platformkey, ['OSX', 'OSX_B', 'iOS_C', 'iOS_A', 'OSX_C', 'OSX_PPC', 'iOS_A_dynamic', 'iOS_A_dynamic_11+', 'iOS_C_dynamic', 'iOS_C_dynamic_11+', 'ipadOS_dynamic'])) {
                 ++$currentChunk;
-                $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
+                $chunk[$currentChunk] = [json_encode($platformkey, JSON_THROW_ON_ERROR)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
             } elseif (mb_strpos($currentPlatform['key'], 'WinXPb') !== false && mb_strpos($platformkey, 'WinXPa') !== false) {
                 ++$currentChunk;
-                $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
+                $chunk[$currentChunk] = [json_encode($platformkey, JSON_THROW_ON_ERROR)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
             } elseif (mb_strpos($currentPlatform['key'], 'WinXPa') !== false && mb_strpos($platformkey, 'WinXPb') !== false) {
                 ++$currentChunk;
-                $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
+                $chunk[$currentChunk] = [json_encode($platformkey, JSON_THROW_ON_ERROR)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
             } elseif (
                 $platformProperties['Platform'] !== $currentPlatform['name']
                 || $split[0] !== $currentPlatform['major-version']
             ) {
                 ++$currentChunk;
-                $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
+                $chunk[$currentChunk] = [json_encode($platformkey, JSON_THROW_ON_ERROR)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
             } elseif (is_numeric($platformProperties['Platform_Version']) && $split[1] > $currentPlatform['minor-version']) {
                 ++$currentChunk;
-                $chunk[$currentChunk] = [$jsonClass->encode($platformkey)];
+                $chunk[$currentChunk] = [json_encode($platformkey, JSON_THROW_ON_ERROR)];
                 $currentPlatform      = ['name' => $platformProperties['Platform'], 'major-version' => $split[0], 'minor-version' => $split[1], 'key' => $platformkey];
             } else {
-                $chunk[$currentChunk][] = $jsonClass->encode($platformkey);
+                $chunk[$currentChunk][] = json_encode($platformkey, JSON_THROW_ON_ERROR);
             }
         }
 

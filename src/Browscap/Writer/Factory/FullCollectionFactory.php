@@ -18,6 +18,7 @@ use Browscap\Writer\IniWriter;
 use Browscap\Writer\JsonWriter;
 use Browscap\Writer\WriterCollection;
 use Browscap\Writer\XmlWriter;
+use InvalidArgumentException;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -25,6 +26,9 @@ use Psr\Log\LoggerInterface;
  */
 class FullCollectionFactory
 {
+    /**
+     * @throws InvalidArgumentException
+     */
     public function createCollection(LoggerInterface $logger, string $buildFolder): WriterCollection
     {
         $writerCollection = new WriterCollection();

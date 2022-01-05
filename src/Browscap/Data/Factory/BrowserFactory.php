@@ -13,12 +13,16 @@ use UnexpectedValueException;
 
 use function is_array;
 
+/**
+ * @phpstan-import-type BrowserData from Browser
+ */
 class BrowserFactory
 {
     /**
      * validates the $browserData array and creates Browser objects from it
      *
      * @param mixed[] $browserData
+     * @phpstan-param BrowserData $browserData
      *
      * @throws RuntimeException if the file does not exist or has invalid JSON.
      * @throws AssertionFailedException

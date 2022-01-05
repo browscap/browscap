@@ -16,7 +16,6 @@ use DateTimeImmutable;
 use Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use ReflectionException;
 
 use function array_key_exists;
 use function assert;
@@ -26,11 +25,10 @@ use function sprintf;
 
 class BuildHelperTest extends TestCase
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /**
-     * @throws ReflectionException
+     * @throws void
      */
     protected function setUp(): void
     {
@@ -47,7 +45,7 @@ class BuildHelperTest extends TestCase
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods([
+            ->onlyMethods([
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
@@ -86,12 +84,12 @@ class BuildHelperTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getVersions'])
+            ->onlyMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -156,7 +154,7 @@ class BuildHelperTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -233,7 +231,7 @@ class BuildHelperTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -245,7 +243,7 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->onlyMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -263,7 +261,7 @@ class BuildHelperTest extends TestCase
 
         $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
-            ->setMethods(['createDataCollection'])
+            ->onlyMethods(['createDataCollection'])
             ->getMock();
 
         $collectionCreator->expects(static::once())
@@ -285,7 +283,7 @@ class BuildHelperTest extends TestCase
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods([
+            ->onlyMethods([
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
@@ -324,12 +322,12 @@ class BuildHelperTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getVersions'])
+            ->onlyMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -405,7 +403,7 @@ class BuildHelperTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -471,7 +469,7 @@ class BuildHelperTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -483,7 +481,7 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->onlyMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -501,7 +499,7 @@ class BuildHelperTest extends TestCase
 
         $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
-            ->setMethods(['createDataCollection'])
+            ->onlyMethods(['createDataCollection'])
             ->getMock();
 
         $collectionCreator->expects(static::once())
@@ -523,7 +521,7 @@ class BuildHelperTest extends TestCase
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods([
+            ->onlyMethods([
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
@@ -562,12 +560,12 @@ class BuildHelperTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getVersions'])
+            ->onlyMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -643,7 +641,7 @@ class BuildHelperTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -709,7 +707,7 @@ class BuildHelperTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -721,7 +719,7 @@ class BuildHelperTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->onlyMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -739,7 +737,7 @@ class BuildHelperTest extends TestCase
 
         $collectionCreator = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
-            ->setMethods(['createDataCollection'])
+            ->onlyMethods(['createDataCollection'])
             ->getMock();
 
         $collectionCreator->expects(static::once())
@@ -759,7 +757,7 @@ class BuildHelperTest extends TestCase
     {
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(
+            ->onlyMethods(
                 [
                     'fileStart',
                     'renderHeader',

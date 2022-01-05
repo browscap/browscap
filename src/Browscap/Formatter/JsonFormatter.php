@@ -7,18 +7,23 @@ namespace Browscap\Formatter;
 use Browscap\Data\PropertyHolder;
 use Exception;
 use InvalidArgumentException;
-use JsonClass\Json;
+use JsonException;
 
+use function json_encode;
 use function trim;
+
+use const JSON_THROW_ON_ERROR;
 
 /**
  * this formatter is responsible to format the output into the "json" version of the browscap files
  */
 class JsonFormatter implements FormatterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
+    /**
+     * @throws void
+     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -26,6 +31,8 @@ class JsonFormatter implements FormatterInterface
 
     /**
      * returns the Type of the formatter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -34,24 +41,25 @@ class JsonFormatter implements FormatterInterface
 
     /**
      * formats the name of a property
+     *
+     * @throws JsonException
      */
     public function formatPropertyName(string $name): string
     {
-        return (new Json())->encode($name);
+        return json_encode($name, JSON_THROW_ON_ERROR);
     }
 
     /**
      * formats the name of a property
      *
-     * @param bool|int|string $value
-     *
      * @throws Exception
+     * @throws JsonException
      */
-    public function formatPropertyValue($value, string $property): string
+    public function formatPropertyValue(bool|int|string $value, string $property): string
     {
         switch ($this->propertyHolder->getPropertyType($property)) {
             case PropertyHolder::TYPE_STRING:
-                $valueOutput = (new Json())->encode(trim((string) $value));
+                $valueOutput = json_encode(trim((string) $value), JSON_THROW_ON_ERROR);
 
                 break;
             case PropertyHolder::TYPE_BOOLEAN:
@@ -66,14 +74,14 @@ class JsonFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = (new Json())->encode($this->propertyHolder->checkValueInArray($property, (string) $value));
+                    $valueOutput = json_encode($this->propertyHolder->checkValueInArray($property, (string) $value), JSON_THROW_ON_ERROR);
                 } catch (InvalidArgumentException $ex) {
                     $valueOutput = '""';
                 }
 
                 break;
             default:
-                $valueOutput = (new Json())->encode($value);
+                $valueOutput = json_encode($value, JSON_THROW_ON_ERROR);
 
                 break;
         }

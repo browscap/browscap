@@ -16,6 +16,8 @@ class LoggerHelper
 {
     /**
      * creates an instance of a PSR-3 Logger
+     *
+     * @throws void
      */
     public function create(OutputInterface $output): LoggerInterface
     {

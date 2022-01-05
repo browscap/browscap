@@ -9,8 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class SplitVersionTest extends TestCase
 {
-    /** @var SplitVersion */
-    private $object;
+    private SplitVersion $object;
 
     protected function setUp(): void
     {

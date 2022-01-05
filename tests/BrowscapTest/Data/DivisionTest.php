@@ -17,7 +17,7 @@ class DivisionTest extends TestCase
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent

@@ -15,19 +15,18 @@ use Browscap\Generator\NotADirectoryException;
 use Browscap\Writer\WriterCollection;
 use DateTimeImmutable;
 use Exception;
+use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use ReflectionException;
 
 use function assert;
 
 class BuildGeneratorTest extends TestCase
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /**
-     * @throws ReflectionException
+     * @throws void
      */
     protected function setUp(): void
     {
@@ -37,7 +36,7 @@ class BuildGeneratorTest extends TestCase
     /**
      * tests failing the build if the build dir does not exist
      *
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
      */
     public function testConstructFailsIfTheDirDoesNotExsist(): void
     {
@@ -55,7 +54,7 @@ class BuildGeneratorTest extends TestCase
     /**
      * tests failing the build if no build dir is a file
      *
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
      */
     public function testConstructFailsIfTheDirIsNotAnDirectory(): void
     {
@@ -80,7 +79,7 @@ class BuildGeneratorTest extends TestCase
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -145,7 +144,7 @@ class BuildGeneratorTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getVersions'])
+            ->onlyMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
         $division
@@ -161,7 +160,7 @@ class BuildGeneratorTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -225,7 +224,7 @@ class BuildGeneratorTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -237,7 +236,7 @@ class BuildGeneratorTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->onlyMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -255,7 +254,7 @@ class BuildGeneratorTest extends TestCase
 
         $dataCollectionFactory = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
-            ->setMethods(['createDataCollection'])
+            ->onlyMethods(['createDataCollection'])
             ->getMock();
 
         $dataCollectionFactory
@@ -265,7 +264,7 @@ class BuildGeneratorTest extends TestCase
 
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods([
+            ->onlyMethods([
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',
@@ -318,7 +317,7 @@ class BuildGeneratorTest extends TestCase
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $useragent
@@ -383,7 +382,7 @@ class BuildGeneratorTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents', 'getVersions'])
+            ->onlyMethods(['getUserAgents', 'getVersions'])
             ->getMock();
 
         $division
@@ -399,7 +398,7 @@ class BuildGeneratorTest extends TestCase
 
         $defaultProperties = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgent', 'getProperties'])
+            ->onlyMethods(['getUserAgent', 'getProperties'])
             ->getMock();
 
         $defaultProperties
@@ -463,7 +462,7 @@ class BuildGeneratorTest extends TestCase
 
         $coreDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $coreDivision
@@ -475,7 +474,7 @@ class BuildGeneratorTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
+            ->onlyMethods(['getDefaultProperties', 'getDefaultBrowser', 'getDivisions'])
             ->getMock();
 
         $collection
@@ -493,7 +492,7 @@ class BuildGeneratorTest extends TestCase
 
         $dataCollectionFactory = $this->getMockBuilder(DataCollectionFactory::class)
             ->disableOriginalConstructor()
-            ->setMethods(['createDataCollection'])
+            ->onlyMethods(['createDataCollection'])
             ->getMock();
 
         $dataCollectionFactory
@@ -503,7 +502,7 @@ class BuildGeneratorTest extends TestCase
 
         $writerCollection = $this->getMockBuilder(WriterCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods([
+            ->onlyMethods([
                 'fileStart',
                 'renderHeader',
                 'renderAllDivisionsHeader',

@@ -32,28 +32,35 @@ use const FILE_SKIP_EMPTY_LINES;
 
 final class IniParser implements ParserInterface
 {
-    /** @var string */
-    private $filename;
+    private string $filename;
 
-    /** @var bool */
-    private $shouldSort = false;
+    private bool $shouldSort = false;
 
     /** @var array<array<array<string>|string>> */
-    private $data;
+    private array $data = [];
 
     /** @var array<string> */
-    private $fileLines;
+    private array $fileLines = [];
 
+    /**
+     * @throws void
+     */
     public function __construct(string $filename)
     {
         $this->filename = $filename;
     }
 
+    /**
+     * @throws void
+     */
     public function setShouldSort(bool $shouldSort): void
     {
         $this->shouldSort = $shouldSort;
     }
 
+    /**
+     * @throws void
+     */
     public function shouldSort(): bool
     {
         return $this->shouldSort;
@@ -61,12 +68,17 @@ final class IniParser implements ParserInterface
 
     /**
      * @return array<array<array<string>|string>>
+     *
+     * @throws void
      */
     public function getParsed(): array
     {
         return $this->data;
     }
 
+    /**
+     * @throws void
+     */
     public function getFilename(): string
     {
         return $this->filename;
@@ -96,6 +108,8 @@ final class IniParser implements ParserInterface
 
     /**
      * @param array<string> $fileLines
+     *
+     * @throws void
      */
     public function setFileLines(array $fileLines): void
     {
@@ -104,6 +118,8 @@ final class IniParser implements ParserInterface
 
     /**
      * @return array<string>
+     *
+     * @throws InvalidArgumentException
      */
     public function getFileLines(): array
     {
@@ -120,6 +136,7 @@ final class IniParser implements ParserInterface
      * @return array<array<array<string>|string>>
      *
      * @throws RuntimeException
+     * @throws InvalidArgumentException
      */
     public function parse(): array
     {
@@ -182,6 +199,8 @@ final class IniParser implements ParserInterface
      * @param array<array<string>|string> $array
      *
      * @return array<array<array<string>|string>>
+     *
+     * @throws void
      */
     private function sortArrayAndChildArrays(array $array): array
     {

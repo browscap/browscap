@@ -8,7 +8,9 @@ use Browscap\Data\DataCollection;
 use Browscap\Data\Helper\TrimProperty;
 use Browscap\Filter\FilterInterface;
 use Browscap\Formatter\FormatterInterface;
+use Exception;
 use InvalidArgumentException;
+use JsonException;
 use Psr\Log\LoggerInterface;
 
 use function array_keys;
@@ -21,6 +23,7 @@ use function is_bool;
 use function json_encode;
 use function sprintf;
 
+use const JSON_THROW_ON_ERROR;
 use const PHP_EOL;
 
 /**
@@ -28,27 +31,25 @@ use const PHP_EOL;
  */
 class JsonWriter implements WriterInterface
 {
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /** @var resource */
     private $file;
 
-    /** @var FormatterInterface */
-    private $formatter;
+    private FormatterInterface $formatter;
 
-    /** @var FilterInterface */
-    private $filter;
+    private FilterInterface $filter;
 
-    /** @var bool */
-    private $silent = false;
+    private bool $silent = false;
 
     /** @var bool[] */
-    private $outputProperties = [];
+    private array $outputProperties = [];
 
-    /** @var TrimProperty */
-    private $trimProperty;
+    private TrimProperty $trimProperty;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     public function __construct(string $file, LoggerInterface $logger)
     {
         $this->logger       = $logger;
@@ -64,6 +65,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * returns the Type of the writer
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -72,38 +75,58 @@ class JsonWriter implements WriterInterface
 
     /**
      * closes the Writer and the written File
+     *
+     * @throws void
      */
     public function close(): void
     {
         fclose($this->file);
     }
 
+    /**
+     * @throws void
+     */
     public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
+    /**
+     * @throws void
+     */
     public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
+    /**
+     * @throws void
+     */
     public function setFilter(FilterInterface $filter): void
     {
         $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
+    /**
+     * @throws void
+     */
     public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
+    /**
+     * @throws void
+     */
     public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
 
+    /**
+     * @throws void
+     */
     public function isSilent(): bool
     {
         return $this->silent;
@@ -111,6 +134,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * Generates a start sequence for the output file
+     *
+     * @throws void
      */
     public function fileStart(): void
     {
@@ -123,6 +148,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * Generates a end sequence for the output file
+     *
+     * @throws void
      */
     public function fileEnd(): void
     {
@@ -137,6 +164,8 @@ class JsonWriter implements WriterInterface
      * Generate the header
      *
      * @param array<string> $comments
+     *
+     * @throws JsonException
      */
     public function renderHeader(array $comments = []): void
     {
@@ -149,7 +178,7 @@ class JsonWriter implements WriterInterface
         fwrite($this->file, '  "comments": [' . PHP_EOL);
 
         foreach ($comments as $i => $text) {
-            fwrite($this->file, '    ' . json_encode($text));
+            fwrite($this->file, '    ' . json_encode($text, JSON_THROW_ON_ERROR));
 
             if ($i < count($comments) - 1) {
                 fwrite($this->file, ',');
@@ -165,6 +194,8 @@ class JsonWriter implements WriterInterface
      * renders the version information
      *
      * @param array<string> $versionData
+     *
+     * @throws JsonException
      */
     public function renderVersion(array $versionData = []): void
     {
@@ -184,14 +215,16 @@ class JsonWriter implements WriterInterface
             $versionData['released'] = '';
         }
 
-        fwrite($this->file, '    "Version": ' . json_encode($versionData['version']) . ',' . PHP_EOL);
-        fwrite($this->file, '    "Released": ' . json_encode($versionData['released']) . '' . PHP_EOL);
+        fwrite($this->file, '    "Version": ' . json_encode($versionData['version'], JSON_THROW_ON_ERROR) . ',' . PHP_EOL);
+        fwrite($this->file, '    "Released": ' . json_encode($versionData['released'], JSON_THROW_ON_ERROR) . '' . PHP_EOL);
 
         fwrite($this->file, '  },' . PHP_EOL);
     }
 
     /**
      * renders the header for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsHeader(DataCollection $collection): void
     {
@@ -200,6 +233,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * renders the header for a division
+     *
+     * @throws void
      */
     public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
     {
@@ -208,6 +243,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * renders the header for a section
+     *
+     * @throws JsonException
      */
     public function renderSectionHeader(string $sectionName): void
     {
@@ -225,6 +262,8 @@ class JsonWriter implements WriterInterface
      * @param array<string, array<string, bool|string>> $sections
      *
      * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function renderSectionBody(array $section, DataCollection $collection, array $sections = [], string $sectionName = ''): void
     {
@@ -288,12 +327,14 @@ class JsonWriter implements WriterInterface
 
         fwrite(
             $this->file,
-            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput), 'Comment')
+            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput, JSON_THROW_ON_ERROR), 'Comment')
         );
     }
 
     /**
      * renders the footer for a section
+     *
+     * @throws void
      */
     public function renderSectionFooter(string $sectionName = ''): void
     {
@@ -310,6 +351,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * renders the footer for a division
+     *
+     * @throws void
      */
     public function renderDivisionFooter(): void
     {
@@ -318,6 +361,8 @@ class JsonWriter implements WriterInterface
 
     /**
      * renders the footer for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsFooter(): void
     {

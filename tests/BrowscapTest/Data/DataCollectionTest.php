@@ -8,24 +8,31 @@ use Browscap\Data\Browser;
 use Browscap\Data\DataCollection;
 use Browscap\Data\Device;
 use Browscap\Data\Division;
+use Browscap\Data\DuplicateDataException;
 use Browscap\Data\Engine;
 use Browscap\Data\Platform;
 use OutOfBoundsException;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use ReflectionException;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function assert;
 
 class DataCollectionTest extends TestCase
 {
-    /** @var DataCollection */
-    private $object;
+    private DataCollection $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new DataCollection();
     }
 
+    /**
+     * @throws OutOfBoundsException
+     */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -35,7 +42,9 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws OutOfBoundsException
      */
     public function testGetPlatform(): void
     {
@@ -49,6 +58,9 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedPlatform, $platform);
     }
 
+    /**
+     * @throws OutOfBoundsException
+     */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -58,7 +70,9 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws OutOfBoundsException
      */
     public function testGetEngine(): void
     {
@@ -72,6 +86,9 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedEngine, $engine);
     }
 
+    /**
+     * @throws OutOfBoundsException
+     */
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -81,7 +98,10 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws OutOfBoundsException
+     * @throws DuplicateDataException
      */
     public function testGetDevice(): void
     {
@@ -95,6 +115,9 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedDevice, $device);
     }
 
+    /**
+     * @throws OutOfBoundsException
+     */
     public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -104,7 +127,10 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws OutOfBoundsException
+     * @throws DuplicateDataException
      */
     public function testGetBrowser(): void
     {
@@ -118,12 +144,16 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedBrowser, $browser);
     }
 
+    /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     */
     public function testGetDivisions(): void
     {
         $divisionName     = 'test-division';
         $expectedDivision = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getName'])
+            ->onlyMethods(['getName'])
             ->getMock();
 
         $expectedDivision
@@ -149,7 +179,8 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetDefaultProperties(): void
     {
@@ -162,7 +193,8 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetDefaultBrowser(): void
     {

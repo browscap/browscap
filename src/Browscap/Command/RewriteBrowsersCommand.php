@@ -6,10 +6,17 @@ namespace Browscap\Command;
 
 use Browscap\Command\Helper\RewriteHelper;
 use Browscap\Helper\LoggerHelper;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Exception\LogicException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 
 use function assert;
 use function is_string;
@@ -19,6 +26,9 @@ class RewriteBrowsersCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -30,9 +40,17 @@ class RewriteBrowsersCommand extends Command
     }
 
     /**
-     * @return int|null null or 0 if everything went fine, or an error code
+     * @return int 0 if everything went fine, or an error code
+     *
+     * @throws InvalidArgumentException
+     * @throws LogicException
+     * @throws DirectoryNotFoundException
+     * @throws InvalidNewLineStringException
+     * @throws InvalidIndentStyleException
+     * @throws InvalidIndentSizeException
+     * @throws InvalidJsonEncodeOptionsException
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -53,6 +71,6 @@ class RewriteBrowsersCommand extends Command
 
         $output->writeln('Done');
 
-        return 0;
+        return self::SUCCESS;
     }
 }

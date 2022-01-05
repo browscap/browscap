@@ -13,9 +13,11 @@ use Browscap\Writer\WriterInterface;
  */
 class StandardFilter implements FilterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
+    /**
+     * @throws void
+     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -23,6 +25,8 @@ class StandardFilter implements FilterInterface
 
     /**
      * returns the Type of the filter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -31,6 +35,8 @@ class StandardFilter implements FilterInterface
 
     /**
      * checks if a division should be in the output
+     *
+     * @throws void
      */
     public function isOutput(Division $division): bool
     {
@@ -41,6 +47,8 @@ class StandardFilter implements FilterInterface
      * checks if a section should be in the output
      *
      * @param bool[] $section
+     *
+     * @throws void
      */
     public function isOutputSection(array $section): bool
     {
@@ -49,6 +57,8 @@ class StandardFilter implements FilterInterface
 
     /**
      * checks if a property should be in the output
+     *
+     * @throws void
      */
     public function isOutputProperty(string $property, WriterInterface $writer): bool
     {

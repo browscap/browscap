@@ -14,6 +14,9 @@ use function array_key_exists;
 use function array_merge;
 use function is_array;
 
+/**
+ * @phpstan-import-type EngineData from Engine
+ */
 final class EngineFactory
 {
     /**
@@ -22,6 +25,8 @@ final class EngineFactory
      * @param mixed[]   $engineData     The Engine data for the current object
      * @param mixed[][] $dataAllEngines The Engine data for all engines
      * @param string    $engineName     The name for the current engine
+     * @phpstan-param EngineData $engineData
+     * @phpstan-param array<string, EngineData> $dataAllEngines
      *
      * @throws RuntimeException if the file does not exist or has invalid JSON.
      * @throws AssertionFailedException
@@ -47,12 +52,11 @@ final class EngineFactory
 
             $parentEngine     = $this->build($dataAllEngines[$parentName], $dataAllEngines, $parentName);
             $parentEngineData = $parentEngine->getProperties();
-
             $engineProperties = $engineData['properties'];
 
             foreach ($engineProperties as $name => $value) {
                 if (
-                    isset($parentEngineData[$name])
+                    array_key_exists($name, $parentEngineData)
                     && $parentEngineData[$name] === $value
                 ) {
                     throw new UnexpectedValueException(

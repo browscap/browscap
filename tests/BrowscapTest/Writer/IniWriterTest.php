@@ -13,7 +13,11 @@ use Browscap\Filter\FullFilter;
 use Browscap\Formatter\PhpFormatter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use Exception;
+use InvalidArgumentException;
+use JsonException;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
@@ -31,12 +35,13 @@ class IniWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var IniWriter */
-    private $object;
+    private IniWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -48,6 +53,9 @@ class IniWriterTest extends TestCase
         $this->object = new IniWriter($this->file, $logger);
     }
 
+    /**
+     * @throws void
+     */
     protected function teardown(): void
     {
         $this->object->close();
@@ -57,6 +65,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests getting the writer type
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
@@ -65,6 +76,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
     {
@@ -77,6 +91,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
     {
@@ -89,6 +106,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests setting a file into silent mode
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
     {
@@ -98,6 +118,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStart(): void
     {
@@ -107,6 +130,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEnd(): void
     {
@@ -116,6 +142,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfSilent(): void
     {
@@ -129,6 +158,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfNotSilent(): void
     {
@@ -147,6 +179,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfSilent(): void
     {
@@ -165,6 +200,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilent(): void
     {
@@ -188,6 +226,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
@@ -206,6 +247,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsHeader(): void
     {
@@ -218,6 +262,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeaderIfNotSilent(): void
     {
@@ -232,6 +279,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeaderIfSilent(): void
     {
@@ -243,6 +293,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionHeaderIfNotSilent(): void
     {
@@ -254,6 +307,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionHeaderIfSilent(): void
     {
@@ -267,6 +323,9 @@ class IniWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilent(): void
     {
@@ -280,7 +339,7 @@ class IniWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -293,7 +352,7 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -307,7 +366,7 @@ class IniWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -317,7 +376,7 @@ class IniWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -327,31 +386,41 @@ class IniWriterTest extends TestCase
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getPropertyType'])
+            ->onlyMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
-            ->expects(static::once())
-            ->method('getPropertyType')
-            ->willReturn(PropertyHolder::TYPE_STRING);
+            ->expects(static::never())
+            ->method('getPropertyType');
+
+        $map1a = [
+            ['Comment', 'Comment'],
+        ];
+        $map1b = [
+            ['1', 'Comment', '"1"'],
+        ];
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
         $mockFormatter
             ->expects(static::once())
             ->method('formatPropertyName')
-            ->willReturnArgument(0);
+            ->willReturnMap($map1a);
+        $mockFormatter
+            ->expects(static::once())
+            ->method('formatPropertyValue')
+            ->willReturnMap($map1b);
 
         assert($mockFormatter instanceof PhpFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
-        $map = [
+        $map2 = [
             ['Comment', $this->object, true],
             ['Win16', $this->object, false],
             ['Platform', $this->object, true],
@@ -360,7 +429,7 @@ class IniWriterTest extends TestCase
         $mockFilter
             ->expects(static::exactly(2))
             ->method('isOutputProperty')
-            ->willReturnMap($map);
+            ->willReturnMap($map2);
 
         assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
@@ -374,6 +443,9 @@ class IniWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilentWithParents(): void
     {
@@ -397,7 +469,7 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -411,7 +483,7 @@ class IniWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -425,7 +497,7 @@ class IniWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -435,7 +507,7 @@ class IniWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -445,7 +517,7 @@ class IniWriterTest extends TestCase
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getPropertyType'])
+            ->onlyMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
             ->expects(static::exactly(2))
@@ -454,7 +526,7 @@ class IniWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
         $mockFormatter
             ->expects(static::exactly(2))
@@ -473,7 +545,7 @@ class IniWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -493,6 +565,9 @@ class IniWriterTest extends TestCase
      * tests rendering the body of one section
      *
      * @throws ReflectionException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilentWithDefaultPropertiesAsParent(): void
     {
@@ -509,7 +584,7 @@ class IniWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -523,7 +598,7 @@ class IniWriterTest extends TestCase
 
         $mockExpander = $this->getMockBuilder(TrimProperty::class)
             ->disableOriginalConstructor()
-            ->setMethods(['trim'])
+            ->onlyMethods(['trim'])
             ->getMock();
 
         $mockExpander
@@ -537,7 +612,7 @@ class IniWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -547,7 +622,7 @@ class IniWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -557,7 +632,7 @@ class IniWriterTest extends TestCase
 
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getPropertyType'])
+            ->onlyMethods(['getPropertyType'])
             ->getMock();
         $propertyHolder
             ->expects(static::exactly(2))
@@ -566,7 +641,7 @@ class IniWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(PhpFormatter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -586,7 +661,7 @@ class IniWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->setConstructorArgs([$propertyHolder])
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $mockFilter
@@ -607,6 +682,12 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfSilent(): void
     {
@@ -627,6 +708,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfNotSilent(): void
     {
@@ -638,6 +722,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfSilent(): void
     {
@@ -649,6 +736,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
     {
@@ -658,6 +748,9 @@ class IniWriterTest extends TestCase
 
     /**
      * tests rendering the footer after all divisions
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void
     {

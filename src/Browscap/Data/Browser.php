@@ -4,22 +4,32 @@ declare(strict_types=1);
 
 namespace Browscap\Data;
 
+/**
+ * @phpstan-type BrowserType 'application'|'bot'|'bot-syndication-reader'|'bot-trancoder'|'browser'|'email-client'|'feed-reader'|'library'|'multimedia-player'|'offline-browser'|'tool'|'transcoder'|'useragent-anonymizer'|'unknown'
+ * @phpstan-type BrowserProperties array{Browser?: string, Browser_Maker?: string}
+ * @phpstan-type BrowserData array{properties?: BrowserProperties, standard: bool, lite: bool, type: BrowserType}
+ */
 class Browser
 {
-    /** @var string */
-    private $type;
-
-    /** @var array<string> */
-    private $properties = [];
-
-    /** @var bool */
-    private $isLite = false;
-
-    /** @var bool */
-    private $isStandard = false;
+    /** @phpstan-var BrowserType */
+    private string $type;
 
     /**
-     * @param array<string> $properties
+     * @var array<string, string>
+     * @phpstan-var BrowserProperties
+     */
+    private array $properties = [];
+
+    private bool $isLite = false;
+
+    private bool $isStandard = false;
+
+    /**
+     * @param array<string, string> $properties
+     * @phpstan-param BrowserProperties $properties
+     * @phpstan-param BrowserType $type
+     *
+     * @throws void
      */
     public function __construct(array $properties, string $type, bool $isLite, bool $standard)
     {
@@ -29,24 +39,38 @@ class Browser
         $this->isStandard = $standard;
     }
 
+    /**
+     * @phpstan-return BrowserType
+     *
+     * @throws void
+     */
     public function getType(): string
     {
         return $this->type;
     }
 
     /**
-     * @return array<string>
+     * @return array<string, string>
+     * @phpstan-return BrowserProperties
+     *
+     * @throws void
      */
     public function getProperties(): array
     {
         return $this->properties;
     }
 
+    /**
+     * @throws void
+     */
     public function isLite(): bool
     {
         return $this->isLite;
     }
 
+    /**
+     * @throws void
+     */
     public function isStandard(): bool
     {
         return $this->isStandard;

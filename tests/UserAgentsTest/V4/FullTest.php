@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace UserAgentsTest\V4;
 
-use Assert\AssertionFailedException;
 use Browscap\Coverage\Processor;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Data\PropertyHolder;
@@ -20,18 +19,22 @@ use BrowscapPHP\Browscap;
 use BrowscapPHP\BrowscapUpdater;
 use BrowscapPHP\Formatter\LegacyFormatter;
 use DateTimeImmutable;
-use Doctrine\Common\Cache\ArrayCache;
 use Exception;
+use JsonException;
+use MatthiasMullie\Scrapbook\Adapters\MemoryStore;
+use MatthiasMullie\Scrapbook\Psr16\SimpleCache;
 use PHPUnit\Framework\TestCase;
+use Psr\Log\AbstractLogger;
 use Psr\Log\NullLogger;
-use Roave\DoctrineSimpleCache\SimpleCacheAdapter;
 use RuntimeException;
+use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Throwable;
 
+use function assert;
 use function count;
 use function file_exists;
-use function get_class;
 use function implode;
+use function is_string;
 use function mkdir;
 use function sprintf;
 use function time;
@@ -40,24 +43,19 @@ use const PHP_EOL;
 
 class FullTest extends TestCase
 {
-    /** @var Browscap */
-    private static $browscap;
+    private static Browscap $browscap;
 
-    /** @var PropertyHolder */
-    private static $propertyHolder;
+    private static PropertyHolder $propertyHolder;
 
     /** @var array<string> */
-    private static $coveredPatterns = [];
+    private static array $coveredPatterns = [];
 
-    /** @var FilterInterface */
-    private static $filter;
+    private static FilterInterface $filter;
 
-    /** @var WriterInterface */
-    private static $writer;
+    private static WriterInterface $writer;
 
     /**
-     * @throws Exception
-     * @throws AssertionFailedException
+     * @throws void
      */
     public static function setUpBeforeClass(): void
     {
@@ -74,14 +72,53 @@ class FullTest extends TestCase
         $version = (string) $buildNumber;
 
         try {
-            $logger               = new NullLogger();
-            $writerCollection     = new WriterCollection();
+            $logger = new class extends AbstractLogger {
+                /**
+                 * @param mixed   $level
+                 * @param string  $message
+                 * @param mixed[] $context
+                 *
+                 * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
+                 */
+                public function log($level, $message, array $context = []): void
+                {
+                    assert(is_string($level));
+
+                    echo '[', $level, '] ', $message, PHP_EOL;
+                }
+
+                /**
+                 * @param string  $message
+                 * @param mixed[] $context
+                 *
+                 * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
+                 */
+                public function debug($message, array $context = []): void
+                {
+                    // do nothing here
+                }
+
+                /**
+                 * @param string  $message
+                 * @param mixed[] $context
+                 *
+                 * @phpcsSuppress SlevomatCodingStandard.TypeHints.ParameterTypeHint.MissingNativeTypeHint
+                 */
+                public function info($message, array $context = []): void
+                {
+                    // do nothing here
+                }
+            };
+
             self::$propertyHolder = new PropertyHolder();
             self::$filter         = new FullFilter(self::$propertyHolder);
             self::$writer         = new IniWriter($buildFolder . '/full_php_browscap.ini', $logger);
-            $formatter            = new PhpFormatter(self::$propertyHolder);
+
+            $formatter = new PhpFormatter(self::$propertyHolder);
             self::$writer->setFormatter($formatter);
             self::$writer->setFilter(self::$filter);
+
+            $writerCollection = new WriterCollection();
             $writerCollection->addWriter(self::$writer);
 
             $dataCollectionFactory = new DataCollectionFactory($logger);
@@ -97,8 +134,9 @@ class FullTest extends TestCase
             $buildGenerator->setCollectPatternIds(true);
             $buildGenerator->run($version, new DateTimeImmutable(), false);
 
-            $memoryCache = new ArrayCache();
-            $cache       = new SimpleCacheAdapter($memoryCache);
+            $cache = new SimpleCache(
+                new MemoryStore()
+            );
             $cache->clear();
 
             $resultFormatter = new LegacyFormatter();
@@ -112,7 +150,7 @@ class FullTest extends TestCase
             exit(sprintf(
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
                 self::class,
-                get_class($e),
+                $e::class,
                 $e->getMessage()
             ));
         }
@@ -121,6 +159,10 @@ class FullTest extends TestCase
     /**
      * Runs after the entire test suite is run.  Generates a coverage report for JSON resource files if
      * the $coveredPatterns array isn't empty
+     *
+     * @throws JsonException
+     * @throws RuntimeException
+     * @throws DirectoryNotFoundException
      */
     public static function tearDownAfterClass(): void
     {
@@ -134,7 +176,8 @@ class FullTest extends TestCase
     }
 
     /**
-     * @return array<string>
+     * @return array<string, array<string, bool|int|string>|bool|string>
+     * @phpstan-return array<string, array{ua: string, properties: array<string, string|int|bool>, lite: bool, standard: bool, full: bool}>
      *
      * @throws RuntimeException
      */

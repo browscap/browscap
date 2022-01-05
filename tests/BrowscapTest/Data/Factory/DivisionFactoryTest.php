@@ -7,21 +7,28 @@ namespace BrowscapTest\Data\Factory;
 use Browscap\Data\Division;
 use Browscap\Data\Factory\DivisionFactory;
 use Browscap\Data\Factory\UserAgentFactory;
+use PHPUnit\Framework\ExpectationFailedException;
+use PHPUnit\Framework\InvalidArgumentException;
+use PHPUnit\Framework\MockObject\IncompatibleReturnValueException;
+use PHPUnit\Framework\MockObject\MethodCannotBeConfiguredException;
+use PHPUnit\Framework\MockObject\MethodNameAlreadyConfiguredException;
 use PHPUnit\Framework\TestCase;
 
 use function assert;
 
 class DivisionFactoryTest extends TestCase
 {
-    /** @var DivisionFactory */
-    private $object;
+    private DivisionFactory $object;
 
+    /**
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     * @throws IncompatibleReturnValueException
+     * @throws InvalidArgumentException
+     */
     protected function setUp(): void
     {
-        $useragentFactory = $this->getMockBuilder(UserAgentFactory::class)
-            ->disableOriginalConstructor()
-            ->setMethods(['build'])
-            ->getMock();
+        $useragentFactory = $this->createMock(UserAgentFactory::class);
 
         $useragentFactory
             ->expects(static::once())
@@ -32,6 +39,10 @@ class DivisionFactoryTest extends TestCase
         $this->object = new DivisionFactory($useragentFactory);
     }
 
+    /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     */
     public function testCreationOfDivision(): void
     {
         $divisionData = [
@@ -39,22 +50,26 @@ class DivisionFactoryTest extends TestCase
             'sortIndex' => 1,
             'lite' => true,
             'standard' => true,
-            'userAgents' => [[], []],
+            'userAgents' => [],
         ];
         $filename     = 'test.xyz';
 
         static::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 
+    /**
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     */
     public function testBuildOkWithVersions(): void
     {
         $divisionData = [
             'division' => 'abc',
+            'versions' => ['1.0'],
             'sortIndex' => 1,
             'lite' => true,
             'standard' => true,
-            'userAgents' => [[]],
-            'versions' => ['1.0'],
+            'userAgents' => [],
         ];
         $filename     = 'test.xyz';
 

@@ -14,11 +14,9 @@ use function is_string;
 
 final class ProcessorTest extends TestCase
 {
-    /** @var Processor */
-    private $object;
+    private Processor $object;
 
-    /** @var string */
-    private $resourceDir = __DIR__ . '/../../fixtures/coverage/';
+    private string $resourceDir = __DIR__ . '/../../fixtures/coverage/';
 
     /**
      * Run before each test, creates a new Processor object

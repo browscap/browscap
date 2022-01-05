@@ -6,87 +6,100 @@ on:
 
 name: "Continuous Integration"
 
+env:
+  PHP_EXTENSIONS: "json, zip, opcache, mbstring"
+  PHP_INI_VALUES: "opcache.enable=1, opcache.enable_cli=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, zend.exception_ignore_args=0"
+  COMPOSER_OPTIONS: "--optimize-autoloader --prefer-dist -v"
+  TOOLS: "composer:v2"
+
 jobs:
   validate:
-    name: "Validate"
+    name: "Validate composer"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
-      matrix:
-        php-versions:
-          - "7.2"
 
-        dependencies:
-          - ""
+      matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
 
       - name: "Validate composer.json"
         run: "composer validate --strict"
 
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
-
-      - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
-
-      - name: "Run composer-normalize"
-        uses: "docker://ergebnis/composer-normalize-action:latest"
-        with:
-          args: "--dry-run"
-
   install:
-    name: "Check dependencies"
+    name: "Install dependencies"
 
     needs: "validate"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: ${{ matrix.experimental }}
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
-          - "7.1"
-          - "7.2"
-          - "7.3"
-          - "7.4"
-#          - "8.0"
+        operating-system:
+          - "ubuntu-18.04"
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
         dependencies:
-          - "--prefer-lowest"
-          - ""
+          - "lowest"
+          - "highest"
+
+        experimental: [false]
+
+        include:
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.1"
+            dependencies: "locked"
+            experimental: false
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.2"
+            dependencies: "highest"
+            experimental: true
 
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
 
       - name: "Determine composer cache directory"
         id: "determine-composer-cache-directory"
@@ -96,57 +109,178 @@ jobs:
         uses: "actions/cache@v2.1.7"
         with:
           path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
+          key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+          restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
 
-      - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
+      - name: "Install lowest dependencies"
+        if: "${{ matrix.dependencies == 'lowest' }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
+
+      - name: "Install highest dependencies"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == false }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
+
+      - name: "Install highest dependencies (Experimental)"
+        if: "${{ matrix.dependencies == 'highest' && matrix.experimental == true }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable --ignore-platform-reqs"
+
+      - name: "Install locked dependencies"
+        if: "${{ matrix.dependencies == 'locked' }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }}"
 
       - name: "Check dependencies with composer"
         run: "composer outdated --direct"
 
-  validate-sources:
-    name: "Validate sources and tests"
+  coding-standards:
+    name: "Check Coding Standards with PHPCS"
 
-    needs: "install"
+    needs: "validate"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
-          - "7.2"
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
         dependencies:
-          - "--prefer-lowest"
-          - ""
+          - "highest"
 
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
-
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}, cs2pr"
 
       - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
+
+      - name: "Run squizlabs/php_codesniffer"
+        run: "vendor/bin/phpcs --report=checkstyle -q | cs2pr"
+
+  static-code-analysis:
+    name: "Static Code Analysis with PHPStan"
+
+    needs: "validate"
+
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
+
+        dependencies:
+          - "highest"
+
+    steps:
+      - name: "Checkout"
+        uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
+
+      - name: "Install PHP"
+        uses: "shivammathur/setup-php@2.16.0"
+        with:
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
+
+      - name: "Update dependencies with composer"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
+
+      - name: "Run phpstan/phpstan"
+        run: "vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=768M --no-progress"
+
+  validate-sources:
+    name: "Validate sources and tests"
+
+    needs: "validate"
+
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
+
+        dependencies:
+          - "lowest"
+          - "highest"
+
+    steps:
+      - name: "Checkout"
+        uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
+
+      - name: "Install PHP"
+        uses: "shivammathur/setup-php@2.16.0"
+        with:
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
+
+      - name: "Update dependencies with composer"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Search for duplicate tests"
         run: "bin/browscap -v check-duplicate-tests"
@@ -154,184 +288,96 @@ jobs:
       - name: "Validate sources and tests"
         run: "bin/browscap -v validate"
 
-  coding-standards:
-    name: "Coding Standards"
-
-    needs: "install"
-
-    runs-on: "ubuntu-latest"
-
-    strategy:
-      fail-fast: false
-      matrix:
-        php-versions:
-          - "7.2"
-
-        dependencies:
-          - ""
-
-    steps:
-      - name: "Checkout"
-        uses: "actions/checkout@v2.4.0"
-
-      - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.16.0"
-        with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
-
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
-
-      - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
-
-      - name: "Run squizlabs/php_codesniffer"
-        run: "vendor/bin/phpcs --colors"
-
-  static-code-analysis:
-    name: "Static Code Analysis"
-
-    needs: "install"
-
-    runs-on: "ubuntu-latest"
-
-    strategy:
-      fail-fast: false
-      matrix:
-        php-versions:
-          - "7.2"
-
-        dependencies:
-          - ""
-
-    steps:
-      - name: "Checkout"
-        uses: "actions/checkout@v2.4.0"
-
-      - name: "Install PHP"
-        uses: "shivammathur/setup-php@2.16.0"
-        with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
-
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
-
-      - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
-
-      - name: "Run phpstan/phpstan"
-        run: "vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=768M --no-progress"
-
   tests:
-    name: "UnitTests"
+    name: "UnitTests with PHPUnit"
 
-    needs:
-      - "coding-standards"
-      - "static-code-analysis"
+    needs: "validate"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
-          - "7.2"
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
         dependencies:
-          - ""
+          - "highest"
 
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
-
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run unit tests with phpunit/phpunit"
         run: "vendor/bin/phpunit -c phpunit.xml.dist --no-coverage --colors"
 
   code-coverage:
-    name: "Code Coverage"
+    name: "Code Coverage with PHPUnit"
 
     needs: "tests"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
-          - "7.2"
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
         dependencies:
-          - ""
+          - "highest"
 
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "xdebug" #optional
-
-      - name: "Determine composer cache directory"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        uses: "actions/cache@v2.1.7"
-        with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "xdebug"
+          tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
+        uses: "ramsey/composer-install@v1"
+        with:
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Collect code coverage with Xdebug and phpunit/phpunit"
         run: "vendor/bin/phpunit -c phpunit.xml.dist --colors --coverage-text --coverage-clover=coverage.clover"
@@ -343,24 +389,26 @@ jobs:
           file: "coverage.clover"
 
   integration-tests:
-    name: "Integration Tests"
+    name: "Integration Tests with PHPUnit"
 
     needs: "tests"
 
-    runs-on: "ubuntu-latest"
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
 
     strategy:
       fail-fast: false
+
       matrix:
-        php-versions:
-          - "7.2"
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
 
         dependencies:
-          - ""
-
-        browscap-php:
-          - "4.2"
-#          - "3.1"
+          - "highest"
 
         test-set:
           - "full"
@@ -370,66 +418,39 @@ jobs:
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
 
       - name: "Install PHP"
         uses: "shivammathur/setup-php@2.16.0"
         with:
-          php-version: "${{ matrix.php-versions }}"
-          extensions: "json, zip" #optional
-          ini-values: "opcache.enable=1, opcache.enable_cli=1, zend.assertions=1, assert.exception=On" #optional
-          coverage: "none" #optional
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
 
-      - name: "Determine composer cache directory"
-        if: "matrix.browscap-php == '4.2'"
-        id: "determine-composer-cache-directory"
-        run: "echo \"::set-output name=directory::$(composer config cache-dir)\""
-
-      - name: "Cache dependencies installed with composer"
-        if: "matrix.browscap-php == '4.2'"
-        uses: "actions/cache@v2.1.7"
+      - name: "Update dependencies with composer"
+        uses: "ramsey/composer-install@v1"
         with:
-          path: "${{ steps.determine-composer-cache-directory.outputs.directory }}"
-          key: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
-          restore-keys: "php-${{ matrix.php-versions }}-composer-${{ matrix.dependencies }}-"
+          dependency-versions: "${{ matrix.dependencies }}"
+          composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
-      - name: "Update dependencies with composer for browscap-php 4.2"
-        if: "matrix.browscap-php == '4.2'"
-        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv --ansi ${{ matrix.dependencies }}"
-
-#      - name: "Require browscap-php 3.1"
-#        if: "matrix.browscap-php == '3.1'"
-#        run: "composer require --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction --no-update -vv ${{ matrix.dependencies }} browscap/browscap-php:3.1 friendsofphp/php-cs-fixer:2.12 symfony/console:3.3 symfony/finder:3.3 symfony/filesystem:3.3"
-
-#      - name: "Update dependencies with composer for browscap-php 3.1"
-#        if: "matrix.browscap-php == '3.1'"
-#        run: "composer update --optimize-autoloader --prefer-dist --prefer-stable --no-progress --no-interaction -vv ${{ matrix.dependencies }}"
-
-      - name: "Run integration tests with phpunit/phpunit for browscap-php 4.2 and Test-Set 'full'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'full'"
+      - name: "Run integration tests with phpunit/phpunit for Test-Set 'full'"
+        if: "matrix.test-set == 'full'"
         run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V4/FullTest.php"
 
-      - name: "Run integration tests with phpunit/phpunit for browscap-php 4.2 and Test-Set 'standard'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'standard'"
+      - name: "Run integration tests with phpunit/phpunit for Test-Set 'standard'"
+        if: "matrix.test-set == 'standard'"
         run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V4/StandardTest.php"
 
-      - name: "Run integration tests with phpunit/phpunit for browscap-php 4.2 and Test-Set 'lite'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'lite'"
+      - name: "Run integration tests with phpunit/phpunit for Test-Set 'lite'"
+        if: "matrix.test-set == 'lite'"
         run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V4/LiteTest.php"
 
-#      - name: "Run integration tests with phpunit/phpunit for browscap-php 3.1 and Test-Set 'full'"
-#        if: "matrix.browscap-php == '3.1' && matrix.test-set == 'full'"
-#        run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V3/FullTest.php"
-
-#      - name: "Run integration tests with phpunit/phpunit for browscap-php 3.1 and Test-Set 'standard'"
-#        if: "matrix.browscap-php == '3.1' && matrix.test-set == 'standard'"
-#        run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V3/StandardTest.php"
-
-#      - name: "Run integration tests with phpunit/phpunit for browscap-php 3.1 and Test-Set 'lite'"
-#        if: "matrix.browscap-php == '3.1' && matrix.test-set == 'lite'"
-#        run: "vendor/bin/phpunit -c tests/phpunit-integration.xml.dist --no-coverage --colors tests/UserAgentsTest/V3/LiteTest.php"
-
       - name: "Upload coverage to Codecov for Test-Set 'full'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'full'"
+        if: "matrix.test-set == 'full'"
         uses: "codecov/codecov-action@master"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
@@ -437,7 +458,7 @@ jobs:
           flags: "full"
 
       - name: "Upload coverage to Codecov for Test-Set 'standard'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'standard'"
+        if: "matrix.test-set == 'standard'"
         uses: "codecov/codecov-action@master"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
@@ -445,7 +466,7 @@ jobs:
           flags: "standard"
 
       - name: "Upload coverage to Codecov for Test-Set 'lite'"
-        if: "matrix.browscap-php == '4.2' && matrix.test-set == 'lite'"
+        if: "matrix.test-set == 'lite'"
         uses: "codecov/codecov-action@master"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"

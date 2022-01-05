@@ -10,18 +10,23 @@ use Browscap\Filter\FilterInterface;
 use Browscap\Filter\StandardFilter;
 use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class StandardFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -35,12 +40,15 @@ class StandardFilterTest extends TestCase
 
     /**
      * tests detecting if a divion should be in the output
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputTrue(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -51,7 +59,7 @@ class StandardFilterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isStandard'])
+            ->onlyMethods(['isStandard'])
             ->getMock();
 
         $division
@@ -64,12 +72,15 @@ class StandardFilterTest extends TestCase
 
     /**
      * tests detecting if a divion should be in the output
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputFalse(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -80,7 +91,7 @@ class StandardFilterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isStandard'])
+            ->onlyMethods(['isStandard'])
             ->getMock();
 
         $division
@@ -95,6 +106,8 @@ class StandardFilterTest extends TestCase
      * Data Provider for the test testIsOutputProperty
      *
      * @return array<int, array<int, bool|string>>
+     *
+     * @throws void
      */
     public function outputPropertiesDataProvider(): array
     {
@@ -145,13 +158,16 @@ class StandardFilterTest extends TestCase
     }
 
     /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider outputPropertiesDataProvider
      */
     public function testIsOutputProperty(string $propertyName, bool $isExtra): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -163,7 +179,7 @@ class StandardFilterTest extends TestCase
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -176,13 +192,16 @@ class StandardFilterTest extends TestCase
     }
 
     /**
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @dataProvider outputPropertiesDataProvider
      */
     public function testIsOutputPropertyWithPropertyHolder(string $propertyName): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -192,7 +211,7 @@ class StandardFilterTest extends TestCase
 
         $mockWriterIni = $this->getMockBuilder(IniWriter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getType'])
+            ->onlyMethods(['getType'])
             ->getMock();
 
         $mockWriterIni
@@ -205,12 +224,15 @@ class StandardFilterTest extends TestCase
 
     /**
      * tests if a section is always in the output
+     *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testIsOutputSectionAlways(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder

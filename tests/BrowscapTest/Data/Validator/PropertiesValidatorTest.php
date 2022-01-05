@@ -7,19 +7,24 @@ namespace BrowscapTest\Data\Validator;
 use Assert\AssertionFailedException;
 use Browscap\Data\Validator\PropertiesValidator;
 use LogicException;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
+use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class PropertiesValidatorTest extends TestCase
 {
-    /** @var PropertiesValidator */
-    private $object;
+    private PropertiesValidator $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new PropertiesValidator();
     }
 
     /**
+     * @throws LogicException
      * @throws AssertionFailedException
      */
     public function testCheckPropertyWithoutParent(): void
@@ -35,6 +40,9 @@ class PropertiesValidatorTest extends TestCase
     /**
      * tests if no error is raised if all went well
      *
+     * @throws InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws LogicException
      * @throws AssertionFailedException
      */
     public function testCheckPropertyOk(): void

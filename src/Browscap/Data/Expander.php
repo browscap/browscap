@@ -5,11 +5,11 @@ declare(strict_types=1);
 namespace Browscap\Data;
 
 use Browscap\Data\Helper\TrimProperty;
-use BrowserDetector\Loader\NotFoundException;
 use Generator;
 use OutOfBoundsException;
 use Psr\Log\LoggerInterface;
 use UaBrowserType\TypeLoader as BrowserTypeLoader;
+use UaDeviceType\NotFoundException;
 use UaDeviceType\TypeLoader as DeviceTypeLoader;
 use UnexpectedValueException;
 
@@ -18,6 +18,7 @@ use function array_keys;
 use function array_merge;
 use function array_pop;
 use function array_reverse;
+use function assert;
 use function explode;
 use function implode;
 use function is_array;
@@ -28,11 +29,9 @@ use function str_replace;
 
 class Expander
 {
-    /** @var DataCollection */
-    private $collection;
+    private DataCollection $collection;
 
-    /** @var LoggerInterface */
-    private $logger;
+    private LoggerInterface $logger;
 
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
@@ -40,13 +39,14 @@ class Expander
      *
      * @var array<int|string, string|int|null>
      */
-    private $patternId = [];
+    private array $patternId = [];
 
-    /** @var TrimProperty */
-    private $trimProperty;
+    private TrimProperty $trimProperty;
 
     /**
      * Create a new data expander
+     *
+     * @throws void
      */
     public function __construct(LoggerInterface $logger, DataCollection $collection)
     {
@@ -61,6 +61,8 @@ class Expander
      * @throws UnexpectedValueException
      * @throws OutOfBoundsException
      * @throws DuplicateDataException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
      */
     public function expand(Division $division, string $divisionName): array
     {
@@ -94,6 +96,8 @@ class Expander
 
     /**
      * Resets the pattern id
+     *
+     * @throws void
      */
     private function resetPatternId(): void
     {
@@ -110,7 +114,6 @@ class Expander
      * parses and expands a single division
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     private function parseDivision(Division $division, string $divisionName): Generator
     {
@@ -136,7 +139,6 @@ class Expander
      * parses and expands a single User Agent block
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     private function parseUserAgent(UserAgent $uaData, bool $liteUa, bool $standardUa, int $sortIndex, string $divisionName): Generator
     {
@@ -172,6 +174,8 @@ class Expander
         if ($uaData->getDevice() !== null) {
             [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaData->getDevice(), $standard);
 
+            assert(is_array($deviceProperties));
+
             $standard = $standard && $deviceStandard;
         } else {
             $deviceProperties = [];
@@ -181,6 +185,8 @@ class Expander
             [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaData->getBrowser(), $lite, $standard);
             $lite                                                = $lite && $browserLite;
             $standard                                            = $standard && $browserStandard;
+
+            assert(is_array($browserProperties));
         } else {
             $browserProperties = [];
         }
@@ -205,9 +211,17 @@ class Expander
         foreach ($uaData->getChildren() as $child) {
             $this->patternId['child'] = $i;
 
+            assert(is_array($child));
+
             if (isset($child['devices']) && is_array($child['devices'])) {
                 // Replace our device array with a single device property with our #DEVICE# token replaced
                 foreach ($child['devices'] as $deviceMatch => $deviceName) {
+                    /*
+                     * There is a device replacement like -> "2014818": "Xiaomi 2014818"
+                     * in our data. json_decode converts the string "2014818" to an int
+                     */
+                    $deviceMatch = (string) $deviceMatch;
+
                     $this->patternId['device'] = $deviceMatch;
                     $subChild                  = $child;
                     $subChild['match']         = str_replace('#DEVICE#', $deviceMatch, $subChild['match']);
@@ -232,7 +246,6 @@ class Expander
      * @param mixed[] $uaDataChild
      *
      * @throws OutOfBoundsException
-     * @throws UnexpectedValueException
      */
     private function parseChildren(string $ua, array $uaDataChild, bool $liteChild = true, bool $standardChild = true): Generator
     {
@@ -264,6 +277,8 @@ class Expander
                 if (array_key_exists('device', $uaDataChild)) {
                     [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaDataChild['device'], $standard);
                     $standard                            = $standard && $deviceStandard;
+
+                    assert(is_array($deviceProperties));
                 } else {
                     $deviceProperties = [];
                 }
@@ -272,6 +287,8 @@ class Expander
                     [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaDataChild['browser'], $lite, $standard);
                     $lite                                                = $lite && $browserLite;
                     $standard                                            = $standard && $browserStandard;
+
+                    assert(is_array($browserProperties));
                 } else {
                     $browserProperties = [];
                 }
@@ -315,6 +332,8 @@ class Expander
             if (array_key_exists('device', $uaDataChild)) {
                 [$deviceProperties, $deviceStandard] = $this->getDeviceProperties($uaDataChild['device'], $standard);
                 $standard                            = $standard && $deviceStandard;
+
+                assert(is_array($deviceProperties));
             } else {
                 $deviceProperties = [];
             }
@@ -323,6 +342,8 @@ class Expander
                 [$browserProperties, $browserLite, $browserStandard] = $this->getBrowserProperties($uaDataChild['browser'], $lite, $standard);
                 $lite                                                = $lite && $browserLite;
                 $standard                                            = $standard && $browserStandard;
+
+                assert(is_array($browserProperties));
             } else {
                 $browserProperties = [];
             }
@@ -355,7 +376,9 @@ class Expander
     }
 
     /**
-     * @return mixed[]
+     * @return array<mixed>
+     *
+     * @throws OutOfBoundsException
      */
     private function getDeviceProperties(string $devicekey, bool $standard): array
     {
@@ -395,7 +418,9 @@ class Expander
     }
 
     /**
-     * @return mixed[]
+     * @return array<int, array<bool|string>|bool>
+     *
+     * @throws OutOfBoundsException
      */
     private function getBrowserProperties(string $browserkey, bool $lite, bool $standard): array
     {
@@ -418,7 +443,7 @@ class Expander
             $browserProperties['isSyndicationReader'] = $browserType->isSyndicationReader();
             $browserProperties['Crawler']             = $browserType->isBot();
             $browserProperties['Browser_Type']        = ($browserType->getName() ?? 'unknown');
-        } catch (NotFoundException $e) {
+        } catch (\UaBrowserType\NotFoundException $e) {
             $this->logger->critical($e);
 
             $browserProperties['isSyndicationReader'] = false;
@@ -431,6 +456,8 @@ class Expander
 
     /**
      * Builds and returns the string pattern id from the array components
+     *
+     * @throws void
      */
     private function getPatternId(): string
     {
@@ -453,6 +480,10 @@ class Expander
      * @param mixed[][]     $allInputDivisions
      *
      * @return mixed[]
+     *
+     * @throws UnexpectedValueException
+     * @throws ParentNotDefinedException
+     * @throws InvalidParentException
      */
     private function expandProperties(string $ua, array $properties, array $defaultproperties, array $allInputDivisions): array
     {
@@ -476,6 +507,8 @@ class Expander
         $browserData = $defaultproperties;
 
         foreach ($parents as $parent) {
+            assert(is_string($parent));
+
             if (! isset($allInputDivisions[$parent])) {
                 throw new ParentNotDefinedException(
                     sprintf('the parent "%s" for useragent "%s" is not defined', $parent, $ua)

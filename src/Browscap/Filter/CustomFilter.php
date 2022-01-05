@@ -11,18 +11,19 @@ use Browscap\Writer\WriterInterface;
 use function in_array;
 
 /**
- * with this filter is possible to create a custom browscap file
+ * with this filter it is possible to create a custom browscap file
  */
 class CustomFilter implements FilterInterface
 {
     /** @var array<string> */
-    private $fields = [];
+    private array $fields = [];
 
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
     /**
      * @param array<string> $fields
+     *
+     * @throws void
      */
     public function __construct(PropertyHolder $propertyHolder, array $fields)
     {
@@ -32,6 +33,8 @@ class CustomFilter implements FilterInterface
 
     /**
      * returns the Type of the filter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -40,6 +43,8 @@ class CustomFilter implements FilterInterface
 
     /**
      * checks if a division should be in the output
+     *
+     * @throws void
      */
     public function isOutput(Division $division): bool
     {
@@ -50,6 +55,8 @@ class CustomFilter implements FilterInterface
      * checks if a section should be in the output
      *
      * @param bool[] $section
+     *
+     * @throws void
      */
     public function isOutputSection(array $section): bool
     {
@@ -58,6 +65,8 @@ class CustomFilter implements FilterInterface
 
     /**
      * checks if a property should be in the output
+     *
+     * @throws void
      */
     public function isOutputProperty(string $property, WriterInterface $writer): bool
     {

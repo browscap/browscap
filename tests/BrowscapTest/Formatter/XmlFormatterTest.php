@@ -8,20 +8,32 @@ use Browscap\Data\PropertyHolder;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Formatter\XmlFormatter;
 use Exception;
+use PHPUnit\Framework\ExpectationFailedException;
+use PHPUnit\Framework\InvalidArgumentException;
+use PHPUnit\Framework\MockObject\CannotUseOnlyMethodsException;
+use PHPUnit\Framework\MockObject\MethodCannotBeConfiguredException;
+use PHPUnit\Framework\MockObject\MethodNameAlreadyConfiguredException;
+use PHPUnit\Framework\MockObject\ReflectionException;
 use PHPUnit\Framework\TestCase;
 
 use function sprintf;
 
 class XmlFormatterTest extends TestCase
 {
-    /** @var XmlFormatter */
-    private $object;
+    private XmlFormatter $object;
 
+    /**
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     * @throws InvalidArgumentException
+     * @throws ReflectionException
+     * @throws CannotUseOnlyMethodsException
+     */
     protected function setUp(): void
     {
         $propertyHolder = $this->getMockBuilder(PropertyHolder::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $propertyHolder
@@ -33,6 +45,9 @@ class XmlFormatterTest extends TestCase
 
     /**
      * tests getter for the formatter type
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
@@ -41,6 +56,9 @@ class XmlFormatterTest extends TestCase
 
     /**
      * tests formatting a property name
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFormatPropertyName(): void
     {
@@ -51,6 +69,8 @@ class XmlFormatterTest extends TestCase
      * Data Provider for the test testGetPropertyType
      *
      * @return array<array<string>>
+     *
+     * @throws void
      */
     public function propertyNameTypeDataProvider(): array
     {

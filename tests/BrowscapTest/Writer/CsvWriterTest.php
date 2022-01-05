@@ -11,7 +11,11 @@ use Browscap\Filter\FullFilter;
 use Browscap\Formatter\CsvFormatter;
 use Browscap\Writer\CsvWriter;
 use Browscap\Writer\WriterInterface;
+use Exception;
+use InvalidArgumentException;
+use JsonException;
 use org\bovigo\vfs\vfsStream;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 
@@ -27,12 +31,13 @@ class CsvWriterTest extends TestCase
 {
     private const STORAGE_DIR = 'storage';
 
-    /** @var CsvWriter */
-    private $object;
+    private CsvWriter $object;
 
-    /** @var string */
-    private $file;
+    private string $file;
 
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -44,6 +49,9 @@ class CsvWriterTest extends TestCase
         $this->object = new CsvWriter($this->file, $logger);
     }
 
+    /**
+     * @throws void
+     */
     protected function teardown(): void
     {
         $this->object->close();
@@ -53,6 +61,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests getting the writer type
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testGetType(): void
     {
@@ -61,6 +72,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests setting and getting a formatter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
     {
@@ -73,6 +87,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests setting and getting a filter
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
     {
@@ -85,6 +102,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests setting a file into silent mode
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
     {
@@ -94,6 +114,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the start of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileStart(): void
     {
@@ -103,6 +126,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the end of the file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testFileEnd(): void
     {
@@ -112,6 +138,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the header information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderHeader(): void
     {
@@ -123,6 +152,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfSilent(): void
     {
@@ -141,6 +173,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilent(): void
     {
@@ -162,6 +197,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the version information
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilentButWithoutVersion(): void
     {
@@ -178,12 +216,16 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderAllDivisionsHeader(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -196,7 +238,7 @@ class CsvWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -206,7 +248,7 @@ class CsvWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -216,7 +258,7 @@ class CsvWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(CsvFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyName'])
+            ->onlyMethods(['formatPropertyName'])
             ->getMock();
 
         $mockFormatter
@@ -229,7 +271,7 @@ class CsvWriterTest extends TestCase
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
         $map = [
@@ -258,12 +300,16 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the header for all division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws JsonException
      */
     public function testRenderAllDivisionsHeaderWithoutProperties(): void
     {
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -273,7 +319,7 @@ class CsvWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -283,7 +329,7 @@ class CsvWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -298,6 +344,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the header of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeader(): void
     {
@@ -307,6 +356,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the header of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionHeader(): void
     {
@@ -316,6 +368,12 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfNotSilent(): void
     {
@@ -329,7 +387,7 @@ class CsvWriterTest extends TestCase
 
         $useragent = $this->getMockBuilder(UserAgent::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getProperties'])
+            ->onlyMethods(['getProperties'])
             ->getMock();
 
         $useragent
@@ -343,7 +401,7 @@ class CsvWriterTest extends TestCase
 
         $division = $this->getMockBuilder(Division::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getUserAgents'])
+            ->onlyMethods(['getUserAgents'])
             ->getMock();
 
         $division
@@ -353,7 +411,7 @@ class CsvWriterTest extends TestCase
 
         $collection = $this->getMockBuilder(DataCollection::class)
             ->disableOriginalConstructor()
-            ->setMethods(['getDefaultProperties'])
+            ->onlyMethods(['getDefaultProperties'])
             ->getMock();
 
         $collection
@@ -363,23 +421,33 @@ class CsvWriterTest extends TestCase
 
         $mockFormatter = $this->getMockBuilder(CsvFormatter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['formatPropertyValue'])
+            ->onlyMethods(['formatPropertyName', 'formatPropertyValue'])
             ->getMock();
+
+        $map1 = [
+            ['', 'Parent', ''],
+            [1, 'Test', '1'],
+            ['bcd', 'abc', 'bcd'],
+            ['', 'alpha', ''],
+        ];
 
         $mockFormatter
             ->expects(static::exactly(4))
             ->method('formatPropertyValue')
-            ->willReturnArgument(0);
+            ->willReturnMap($map1);
+        $mockFormatter
+            ->expects(static::never())
+            ->method('formatPropertyName');
 
         assert($mockFormatter instanceof CsvFormatter);
         $this->object->setFormatter($mockFormatter);
 
         $mockFilter = $this->getMockBuilder(FullFilter::class)
             ->disableOriginalConstructor()
-            ->setMethods(['isOutputProperty'])
+            ->onlyMethods(['isOutputProperty'])
             ->getMock();
 
-        $map = [
+        $map2 = [
             ['Test', $this->object, true],
             ['isTest', $this->object, false],
             ['abc', $this->object, true],
@@ -393,7 +461,7 @@ class CsvWriterTest extends TestCase
         $mockFilter
             ->expects(static::exactly(7))
             ->method('isOutputProperty')
-            ->willReturnMap($map);
+            ->willReturnMap($map2);
 
         assert($mockFilter instanceof FullFilter);
         $this->object->setFilter($mockFilter);
@@ -405,6 +473,12 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the body of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     * @throws Exception
+     * @throws JsonException
      */
     public function testRenderSectionBodyIfSilent(): void
     {
@@ -425,6 +499,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one section
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderSectionFooter(): void
     {
@@ -434,6 +511,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the footer of one division
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
     {
@@ -443,6 +523,9 @@ class CsvWriterTest extends TestCase
 
     /**
      * tests rendering the footer after all divisions
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void
     {

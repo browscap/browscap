@@ -6,12 +6,16 @@ namespace Browscap\Data\Factory;
 
 use Browscap\Data\UserAgent;
 
+/**
+ * @phpstan-import-type UserAgentData from UserAgent
+ */
 class UserAgentFactory
 {
     /**
      * validates the $userAgentsData array and creates at least one Useragent object from it
      *
      * @param mixed[][] $userAgentsData
+     * @phpstan-param array<UserAgentData> $userAgentsData
      *
      * @return UserAgent[]
      */
@@ -23,7 +27,7 @@ class UserAgentFactory
             $children = [];
 
             if (! $isCore) {
-                $children = $useragent['children'];
+                $children = $useragent['children'] ?? [];
             }
 
             $useragents[] = new UserAgent(

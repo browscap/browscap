@@ -13,6 +13,8 @@ declare(strict_types=1);
 namespace BrowscapTest\Parser;
 
 use Browscap\Parser\IniParser;
+use InvalidArgumentException;
+use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use ReflectionException;
 use ReflectionMethod;
@@ -31,6 +33,9 @@ final class IniParserTest extends TestCase
     /**
      * tests creating the parser class
      *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     *
      * @group parser
      * @group sourcetest
      */
@@ -42,6 +47,9 @@ final class IniParserTest extends TestCase
 
     /**
      * tests setting the should sort flag
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
      *
      * @group parser
      * @group sourcetest
@@ -66,6 +74,8 @@ final class IniParserTest extends TestCase
      * tests setting and getting a logger
      *
      * @return array<string, array<int, array<string, array<string, string>|string>>>
+     *
+     * @throws void
      */
     public function sortArrayDataProvider(): array
     {
@@ -103,6 +113,10 @@ final class IniParserTest extends TestCase
     /**
      * tests getting lines from a file
      *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     *
      * @group parser
      * @group sourcetest
      */
@@ -137,6 +151,8 @@ HERE;
     /**
      * tests throwing an exception if the input file does not exist
      *
+     * @throws InvalidArgumentException
+     *
      * @group parser
      * @group sourcetest
      */
@@ -145,7 +161,7 @@ HERE;
         $file   = '/hopefully/this/file/does/not/exist';
         $parser = new IniParser($file);
 
-        $this->expectException('\InvalidArgumentException');
+        $this->expectException(InvalidArgumentException::class);
         $this->expectExceptionMessage('File not found: ' . $file);
 
         $parser->getLinesFromFile();
@@ -153,6 +169,10 @@ HERE;
 
     /**
      * tests getting lines from a file
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
      *
      * @group parser
      * @group sourcetest
@@ -188,6 +208,10 @@ HERE;
     /**
      * tests setting and getting lines of a file
      *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws InvalidArgumentException
+     *
      * @group parser
      * @group sourcetest
      */
@@ -203,6 +227,11 @@ HERE;
 
     /**
      * tests parsing sections without sorting
+     *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      *
      * @group parser
      * @group sourcetest
@@ -252,6 +281,11 @@ HERE;
     /**
      * tests parsing sections with sorting
      *
+     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
+     * @throws ExpectationFailedException
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
+     *
      * @group parser
      * @group sourcetest
      */
@@ -296,6 +330,9 @@ HERE;
 
     /**
      * tests throwing an exception if more than one eual sign is present in a line
+     *
+     * @throws RuntimeException
+     * @throws InvalidArgumentException
      *
      * @group parser
      * @group sourcetest

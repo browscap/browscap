@@ -8,6 +8,7 @@ use Browscap\Data\DataCollection;
 use Browscap\Data\Division;
 use DateTimeImmutable;
 use InvalidArgumentException;
+use JsonException;
 
 /**
  * a collection of writers to be able to write multiple files at once
@@ -15,10 +16,12 @@ use InvalidArgumentException;
 class WriterCollection
 {
     /** @var WriterInterface[] */
-    private $writers = [];
+    private array $writers = [];
 
     /**
      * add a new writer to the collection
+     *
+     * @throws void
      */
     public function addWriter(WriterInterface $writer): void
     {
@@ -27,6 +30,8 @@ class WriterCollection
 
     /**
      * closes the Writer and the written File
+     *
+     * @throws void
      */
     public function close(): void
     {
@@ -35,6 +40,9 @@ class WriterCollection
         }
     }
 
+    /**
+     * @throws void
+     */
     public function setSilent(Division $division): void
     {
         foreach ($this->writers as $writer) {
@@ -44,6 +52,8 @@ class WriterCollection
 
     /**
      * @param bool[] $section
+     *
+     * @throws void
      */
     public function setSilentSection(array $section): void
     {
@@ -54,6 +64,8 @@ class WriterCollection
 
     /**
      * Generates a start sequence for the output file
+     *
+     * @throws void
      */
     public function fileStart(): void
     {
@@ -64,6 +76,8 @@ class WriterCollection
 
     /**
      * Generates a end sequence for the output file
+     *
+     * @throws void
      */
     public function fileEnd(): void
     {
@@ -76,6 +90,8 @@ class WriterCollection
      * Generate the header
      *
      * @param array<string> $comments
+     *
+     * @throws JsonException
      */
     public function renderHeader(array $comments = []): void
     {
@@ -86,6 +102,8 @@ class WriterCollection
 
     /**
      * renders the version information
+     *
+     * @throws JsonException
      */
     public function renderVersion(string $version, DateTimeImmutable $generationDate, DataCollection $collection): void
     {
@@ -103,6 +121,8 @@ class WriterCollection
 
     /**
      * renders the header for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsHeader(DataCollection $collection): void
     {
@@ -113,6 +133,8 @@ class WriterCollection
 
     /**
      * renders the header for a division
+     *
+     * @throws void
      */
     public function renderDivisionHeader(string $division, string $parent = 'DefaultProperties'): void
     {
@@ -123,6 +145,8 @@ class WriterCollection
 
     /**
      * renders the header for a section
+     *
+     * @throws void
      */
     public function renderSectionHeader(string $sectionName): void
     {
@@ -134,8 +158,8 @@ class WriterCollection
     /**
      * renders all found useragents into a string
      *
-     * @param mixed[]              $section
-     * @param array<array<string>> $sections
+     * @param array<string, int|string|true>            $section
+     * @param array<string, array<string, bool|string>> $sections
      *
      * @throws InvalidArgumentException
      */
@@ -148,6 +172,8 @@ class WriterCollection
 
     /**
      * renders the footer for a section
+     *
+     * @throws void
      */
     public function renderSectionFooter(string $sectionName = ''): void
     {
@@ -158,6 +184,8 @@ class WriterCollection
 
     /**
      * renders the footer for a division
+     *
+     * @throws void
      */
     public function renderDivisionFooter(): void
     {
@@ -168,6 +196,8 @@ class WriterCollection
 
     /**
      * renders the footer for all divisions
+     *
+     * @throws void
      */
     public function renderAllDivisionsFooter(): void
     {

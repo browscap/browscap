@@ -16,9 +16,11 @@ use function trim;
  */
 class CsvFormatter implements FormatterInterface
 {
-    /** @var PropertyHolder */
-    private $propertyHolder;
+    private PropertyHolder $propertyHolder;
 
+    /**
+     * @throws void
+     */
     public function __construct(PropertyHolder $propertyHolder)
     {
         $this->propertyHolder = $propertyHolder;
@@ -26,6 +28,8 @@ class CsvFormatter implements FormatterInterface
 
     /**
      * returns the Type of the formatter
+     *
+     * @throws void
      */
     public function getType(): string
     {
@@ -34,6 +38,8 @@ class CsvFormatter implements FormatterInterface
 
     /**
      * formats the name of a property
+     *
+     * @throws void
      */
     public function formatPropertyName(string $name): string
     {
@@ -43,11 +49,9 @@ class CsvFormatter implements FormatterInterface
     /**
      * formats the name of a property
      *
-     * @param bool|int|string $value
-     *
      * @throws Exception
      */
-    public function formatPropertyValue($value, string $property): string
+    public function formatPropertyValue(bool|int|string $value, string $property): string
     {
         $valueOutput = (string) $value;
 
@@ -68,7 +72,7 @@ class CsvFormatter implements FormatterInterface
                 break;
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
-                    $valueOutput = $this->propertyHolder->checkValueInArray($property, (string) $value);
+                    $valueOutput = (string) $this->propertyHolder->checkValueInArray($property, (string) $value);
                 } catch (InvalidArgumentException $ex) {
                     $valueOutput = '';
                 }

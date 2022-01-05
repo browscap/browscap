@@ -7,11 +7,16 @@ namespace Browscap\Command;
 use Browscap\Helper\IteratorHelper;
 use Browscap\Helper\LoggerHelper;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
+use UnexpectedValueException;
 
 class CheckDuplicateTestsCommand extends Command
 {
+    /**
+     * @throws InvalidArgumentException
+     */
     protected function configure(): void
     {
         $this
@@ -20,9 +25,11 @@ class CheckDuplicateTestsCommand extends Command
     }
 
     /**
-     * @return int|null null or 0 if everything went fine, or an error code
+     * @return int null or 0 if everything went fine, or an error code
+     *
+     * @throws UnexpectedValueException
      */
-    protected function execute(InputInterface $input, OutputInterface $output): ?int
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $loggerHelper = new LoggerHelper();
         $logger       = $loggerHelper->create($output);
@@ -30,9 +37,9 @@ class CheckDuplicateTestsCommand extends Command
         [, $errors] = (new IteratorHelper())->getTestFiles($logger);
 
         if (! empty($errors)) {
-            return 1;
+            return self::FAILURE;
         }
 
-        return 0;
+        return self::SUCCESS;
     }
 }

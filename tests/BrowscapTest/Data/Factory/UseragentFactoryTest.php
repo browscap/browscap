@@ -13,9 +13,11 @@ use RuntimeException;
 
 class UseragentFactoryTest extends TestCase
 {
-    /** @var UserAgentFactory */
-    private $object;
+    private UserAgentFactory $object;
 
+    /**
+     * @throws void
+     */
     protected function setUp(): void
     {
         $this->object = new UserAgentFactory();

@@ -6,33 +6,33 @@ namespace Browscap\Data;
 
 /**
  * Represents a useragent division as defined in the resources/user-agents directory
+ *
+ * @phpstan-import-type UserAgentData from UserAgent
+ * @phpstan-type DivisionData array{division: string, versions?: array<int, int|string>, sortIndex: positive-int, lite: bool, standard: bool, userAgents: array<int, UserAgentData>}
  */
 class Division
 {
-    /** @var string */
-    private $name = '';
+    private string $name = '';
 
-    /** @var string */
-    private $fileName = '';
+    private string $fileName = '';
 
-    /** @var int */
-    private $sortIndex = 0;
+    private int $sortIndex = 0;
 
-    /** @var bool */
-    private $lite = false;
+    private bool $lite = false;
 
-    /** @var bool */
-    private $standard = false;
+    private bool $standard = false;
 
     /** @var array<int, int|string> */
-    private $versions = [];
+    private array $versions = [];
 
     /** @var UserAgent[] */
-    private $userAgents = [];
+    private array $userAgents = [];
 
     /**
      * @param UserAgent[]            $userAgents
      * @param array<int, int|string> $versions
+     *
+     * @throws void
      */
     public function __construct(
         string $name,
@@ -52,28 +52,42 @@ class Division
         $this->fileName   = $fileName;
     }
 
+    /**
+     * @throws void
+     */
     public function isLite(): bool
     {
         return $this->lite;
     }
 
+    /**
+     * @throws void
+     */
     public function isStandard(): bool
     {
         return $this->standard;
     }
 
+    /**
+     * @throws void
+     */
     public function getName(): string
     {
         return $this->name;
     }
 
+    /**
+     * @throws void
+     */
     public function getSortIndex(): int
     {
         return $this->sortIndex;
     }
 
     /**
-     * @return UserAgent[]
+     * @return array<UserAgent>
+     *
+     * @throws void
      */
     public function getUserAgents(): array
     {
@@ -82,12 +96,17 @@ class Division
 
     /**
      * @return array<int, int|string>
+     *
+     * @throws void
      */
     public function getVersions(): array
     {
         return $this->versions;
     }
 
+    /**
+     * @throws void
+     */
     public function getFileName(): ?string
     {
         return $this->fileName;
