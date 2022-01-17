@@ -103,6 +103,7 @@ final class Processor implements ProcessorInterface
      * location information for the functions that should be covered
      *
      * @var array<string, array<int, string|int>>
+     * @phpstan-var array{fnMap: array<int, array{name: string, decl: array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}, loc: array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, f: array<int, int>}
      */
     private array $functionCoverage = [];
 
@@ -285,6 +286,7 @@ final class Processor implements ProcessorInterface
      * Builds the location object for the current position in the JSON file
      *
      * @return array<string, float|int|false>
+     * @phpstan-return array{line: int, column: int|false}
      *
      * @throws void
      */
@@ -593,8 +595,11 @@ final class Processor implements ProcessorInterface
      * Collects and stores a function's location information as well as any passed in coverage counts
      *
      * @param mixed[]   $start
+     * @phpstan-param array{line: int, column: int|false} $start
      * @param mixed[]   $end
+     * @phpstan-param array{line: int, column: int|false} $end
      * @param mixed[][] $declaration
+     * @phpstan-param array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}
      *
      * @throws void
      */
