@@ -48,9 +48,10 @@ interface ProcessorInterface
     /**
      * Process an individual file for coverage data using covered ids
      *
-     * @param array<string> $coveredIds
+     * @param array<int|string, string> $coveredIds
      *
-     * @return array<array<string>>
+     * @return array<string, array<int, string|int>|string>
+     * @phpstan-return array{path: string, statementMap: array<int, array{start?: array{line?: int, column?: int|false}, end?: array{line?: int, column?: int|false}}>, fnMap: array<int, array{name: string, decl: array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}, loc: array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, branchMap: array<int, array{type: 'switch', locations: array<int, array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}>, loc:array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, s: array<int, int>, b: array<int, array<int, int>>, f: array<int, int>}
      *
      * @throws void
      */

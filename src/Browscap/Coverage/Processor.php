@@ -19,7 +19,6 @@ use function assert;
 use function count;
 use function explode;
 use function file_put_contents;
-use function is_array;
 use function is_string;
 use function json_encode;
 use function mb_strlen;
@@ -96,22 +95,40 @@ final class Processor implements ProcessorInterface
      * location information for the statements that should be covered
      *
      * @var array<string, array<int, string|int>>
+     * @phpstan-var array{statementMap: array<int, array{start?: array{line?: int, column?: int|false}, end?: array{line?: int, column?: int|false}}>, s: array<int, int>}
      */
-    private array $statementCoverage = [];
+    private array $statementCoverage = [
+        // location information for the statements that should be covered
+        'statementMap' => [],
+        // coverage counts for the statements from statementMap
+        's' => [],
+    ];
 
     /**
      * location information for the functions that should be covered
      *
      * @var array<string, array<int, string|int>>
+     * @phpstan-var array{fnMap: array<int, array{name: string, decl: array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}, loc: array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, f: array<int, int>}
      */
-    private array $functionCoverage = [];
+    private array $functionCoverage = [
+        // location information for the functions that should be covered
+        'fnMap' => [],
+        // coverage counts for the functions from fnMap
+        'f' => [],
+    ];
 
     /**
      * location information for the different branch structures that should be covered
      *
      * @var array<string, array<int, array<int, int>>>
+     * @phpstan-var array{branchMap: array<int, array{type: 'switch', locations: array<int, array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}>, loc:array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, b: array<int, array<int, int>>}
      */
-    private array $branchCoverage = [];
+    private array $branchCoverage = [
+        // location information for the different branch structures that should be covered
+        'branchMap' => [],
+        // coverage counts for the branches from branchMap (in array form)
+        'b' => [],
+    ];
 
     /**
      * Create a new Coverage Processor for the specified directory
@@ -211,7 +228,7 @@ final class Processor implements ProcessorInterface
      * @param array<int|string, string> $coveredIds
      *
      * @return array<string, array<int, string|int>|string>
-     * @phpstan-return array{path: string, statementMap: array<int, int<min, -1>|int<1, max>|non-empty-string>, fnMap: array<int, int<min, -1>|int<1, max>|non-empty-string>, branchMap: array<int, non-empty-array<int, int>>, s: array<int, string|int>, b: array<int, array<int, int>>, f: array<int, string|int>}
+     * @phpstan-return array{path: string, statementMap: array<int, array{start?: array{line?: int, column?: int|false}, end?: array{line?: int, column?: int|false}}>, fnMap: array<int, array{name: string, decl: array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}, loc: array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, branchMap: array<int, array{type: 'switch', locations: array<int, array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}>, loc:array{start: array{line: int, column: int|false}, end: array{line: int, column: int|false}}}>, s: array<int, int>, b: array<int, array<int, int>>, f: array<int, int>}
      *
      * @throws void
      */
@@ -254,11 +271,11 @@ final class Processor implements ProcessorInterface
 
         // Can't use the same method for the b/s/f sections since they can (and should) contain a 0 value, which
         // array_filter would remove
-        array_unshift($this->branchCoverage['b'], '');
+        array_unshift($this->branchCoverage['b'], []);
         unset($this->branchCoverage['b'][0]);
-        array_unshift($this->functionCoverage['f'], '');
+        array_unshift($this->functionCoverage['f'], 0);
         unset($this->functionCoverage['f'][0]);
-        array_unshift($this->statementCoverage['s'], '');
+        array_unshift($this->statementCoverage['s'], 0);
         unset($this->statementCoverage['s'][0]);
 
         // These keynames are expected by Istanbul compatible coverage reporters
@@ -285,6 +302,7 @@ final class Processor implements ProcessorInterface
      * Builds the location object for the current position in the JSON file
      *
      * @return array<string, float|int|false>
+     * @phpstan-return array{line: int, column: int|false}
      *
      * @throws void
      */
@@ -595,6 +613,9 @@ final class Processor implements ProcessorInterface
      * @param mixed[]   $start
      * @param mixed[]   $end
      * @param mixed[][] $declaration
+     * @phpstan-param array{line: int, column: int|false} $start
+     * @phpstan-param array{line: int, column: int|false} $end
+     * @phpstan-param array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}} $declaration
      *
      * @throws void
      */
@@ -610,7 +631,7 @@ final class Processor implements ProcessorInterface
 
         // Collect statements as well, one for entire function, one just for function declaration
         $this->collectStatement($start, $end, $coverage);
-        $this->collectStatement($declaration['start'], $declaration['end'], $coverage);
+        $this->collectStatement($declaration['start'] ?? [], $declaration['end'] ?? [], $coverage);
 
         ++$this->funcCount;
     }
@@ -618,10 +639,13 @@ final class Processor implements ProcessorInterface
     /**
      * Collects and stores a branch's location information as well as any coverage counts
      *
-     * @param mixed[]    $start
-     * @param mixed[]    $end
-     * @param mixed[][]  $locations
-     * @param array<int> $coverage
+     * @param mixed[]         $start
+     * @param mixed[]         $end
+     * @param mixed[][]       $locations
+     * @param array<int, int> $coverage
+     * @phpstan-param array{line: int, column: int|false} $start
+     * @phpstan-param array{line: int, column: int|false} $end
+     * @phpstan-param array<int, array{start?: array{line: int, column: int|false}, end?: array{line: int, column: int|false}}> $locations
      *
      * @throws void
      */
@@ -639,9 +663,7 @@ final class Processor implements ProcessorInterface
         $this->collectStatement($start, $end, (int) array_sum($coverage));
 
         for ($i = 0, $count = count($locations); $i < $count; ++$i) {
-            assert(is_array($locations[$i]['start']));
-            assert(is_array($locations[$i]['end']));
-            $this->collectStatement($locations[$i]['start'], $locations[$i]['end'], $coverage[$i]);
+            $this->collectStatement($locations[$i]['start'] ?? [], $locations[$i]['end'] ?? [], $coverage[$i]);
         }
     }
 
@@ -650,6 +672,8 @@ final class Processor implements ProcessorInterface
      *
      * @param mixed[] $start
      * @param mixed[] $end
+     * @phpstan-param array{line?: int, column?: int|false} $start
+     * @phpstan-param array{line?: int, column?: int|false} $end
      *
      * @throws void
      */
