@@ -406,16 +406,16 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "8.0.5",
+            "version": "8.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "f5fbd1a682bdf6890e779b43a2a0fbc79ac80ca2"
+                "reference": "0b7c2a2e592d4d535cdef9c5d7486454c40946c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/f5fbd1a682bdf6890e779b43a2a0fbc79ac80ca2",
-                "reference": "f5fbd1a682bdf6890e779b43a2a0fbc79ac80ca2",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/0b7c2a2e592d4d535cdef9c5d7486454c40946c1",
+                "reference": "0b7c2a2e592d4d535cdef9c5d7486454c40946c1",
                 "shasum": ""
             },
             "require": {
@@ -423,12 +423,12 @@
                 "php": "^7.4.3 || ^8.0.0"
             },
             "require-dev": {
-                "mimmi20/coding-standard": "^2.5.0",
+                "mimmi20/coding-standard": "^2.6.2",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "^0.12.99",
-                "phpstan/phpstan-deprecation-rules": "^0.12.6",
-                "phpstan/phpstan-phpunit": "^0.12.22",
-                "phpunit/phpunit": "^9.5.10"
+                "phpstan/phpstan": "^1.4.2",
+                "phpstan/phpstan-deprecation-rules": "^1.0.0",
+                "phpstan/phpstan-phpunit": "^1.0.0",
+                "phpunit/phpunit": "^9.5.12"
             },
             "type": "library",
             "autoload": {
@@ -464,7 +464,7 @@
                 "issues": "https://github.com/mimmi20/ua-device-type/issues",
                 "source": "https://github.com/mimmi20/ua-device-type"
             },
-            "time": "2021-10-12T18:24:50+00:00"
+            "time": "2022-01-21T19:41:36+00:00"
         },
         {
             "name": "monolog/monolog",
