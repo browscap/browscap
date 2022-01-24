@@ -344,16 +344,16 @@
         },
         {
             "name": "mimmi20/ua-browser-type",
-            "version": "8.0.5",
+            "version": "8.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-browser-type.git",
-                "reference": "460f4a9eba46142787b89cf2f58e9149a7afdb84"
+                "reference": "5fca0a96114979dd986e05fa5cb09d1c2c90461b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/460f4a9eba46142787b89cf2f58e9149a7afdb84",
-                "reference": "460f4a9eba46142787b89cf2f58e9149a7afdb84",
+                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/5fca0a96114979dd986e05fa5cb09d1c2c90461b",
+                "reference": "5fca0a96114979dd986e05fa5cb09d1c2c90461b",
                 "shasum": ""
             },
             "require": {
@@ -361,12 +361,12 @@
                 "php": "^7.4.3 || ^8.0.0"
             },
             "require-dev": {
-                "mimmi20/coding-standard": "^2.5.0",
+                "mimmi20/coding-standard": "^2.6.2",
                 "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "^0.12.99",
-                "phpstan/phpstan-deprecation-rules": "^0.12.6",
-                "phpstan/phpstan-phpunit": "^0.12.22",
-                "phpunit/phpunit": "^9.5.10"
+                "phpstan/phpstan": "^1.4.2",
+                "phpstan/phpstan-deprecation-rules": "^1.0.0",
+                "phpstan/phpstan-phpunit": "^1.0.0",
+                "phpunit/phpunit": "^9.5.12"
             },
             "type": "library",
             "autoload": {
@@ -402,7 +402,7 @@
                 "issues": "https://github.com/mimmi20/ua-browser-type/issues",
                 "source": "https://github.com/mimmi20/ua-browser-type"
             },
-            "time": "2021-10-12T18:27:51+00:00"
+            "time": "2022-01-21T20:03:14+00:00"
         },
         {
             "name": "mimmi20/ua-device-type",
