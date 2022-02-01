@@ -1994,6 +1994,24 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "iOS_A_15_4": {
+    "match": "*CPU iPhone OS 15?4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "15.4"
+    }
+  },
+  "iOS_A_15_3": {
+    "match": "*CPU iPhone OS 15?3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "15.3"
+    }
+  },
   "iOS_A_15_2": {
     "match": "*CPU iPhone OS 15?2* like Mac OS X*",
     "lite": false,
