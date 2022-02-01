@@ -1834,6 +1834,24 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "ipadOS_15_4": {
+    "match": "*CPU OS 15_4* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "15.4"
+    }
+  },
+  "ipadOS_15_3": {
+    "match": "*CPU OS 15_3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "15.3"
+    }
+  },
   "ipadOS_15_2": {
     "match": "*CPU OS 15_2* like Mac OS X*",
     "lite": false,
