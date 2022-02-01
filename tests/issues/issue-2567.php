@@ -71,7 +71,7 @@ return [
             "Browser_Version" => "Safari",
             "Browser_Version" => "15.3",
             "Comment" => "Mobile Safari 15.3",
-            "Device_Name" => "iPhone",
+            "Device_Name" => "iPad",
         ],
         'lite' => false,
         'standard' => true,
