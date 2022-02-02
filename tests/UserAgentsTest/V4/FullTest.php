@@ -147,12 +147,14 @@ class FullTest extends TestCase
             $updater = new BrowscapUpdater($cache, $logger);
             $updater->convertFile($buildFolder . '/full_php_browscap.ini');
         } catch (Throwable $e) {
-            exit(sprintf(
+            echo sprintf(
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
                 self::class,
                 $e::class,
                 $e->getMessage()
-            ));
+            );
+
+            exit(1);
         }
     }
 

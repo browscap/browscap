@@ -17,30 +17,11 @@ updates:
       - "dependencies"
     versioning-strategy: "increase-if-necessary"
     ignore:
-      - dependency-name: "browscap/browscap-php"
-        versions:
-          - ">= 0"
-      - dependency-name: "ergebnis/json-normalizer"
-        versions:
-          - ">= 0"
-      - dependency-name: "monolog/monolog"
-        versions:
-          - ">= 0"
-      - dependency-name: "phpunit/phpunit"
-        versions:
-          - ">= 0"
-      - dependency-name: "symfony/cache"
-        versions:
-          - ">= 0"
       - dependency-name: "symfony/console"
         versions:
           - ">= 0"
       - dependency-name: "symfony/finder"
         versions:
-          - ">= 0"
-      - dependency-name: "twig/twig"
-        versions:
-          - ">= 0"
     commit-message:
       include: "scope"
       prefix: "Build"
