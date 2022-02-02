@@ -1024,10 +1024,6 @@
           "browser": "linkfluence yak bot"
         },
         {
-          "match": "Amazon CloudFront*",
-          "browser": "amazon cloudfront"
-        },
-        {
           "match": "Arachnida Web Crawler*",
           "browser": "arachnida web crawler"
         },
