@@ -29,7 +29,6 @@
         <ini name="date.timezone" value="UTC"/>
         <ini name="zend.assertions" value="1"/>
         <ini name="assert.exception" value="On"/>
-        <ini name="intl.use_exceptions" value="1"/>
     </php>
 
     <testsuites>

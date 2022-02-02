@@ -9,8 +9,8 @@ name: "Continuous Integration"
 env:
   PHP_EXTENSIONS: "json, zip, opcache, mbstring"
   # Note - opcache.enable_cli=1 seems to be crashing phpstan, but ONLY in CI, could not reproduce locally
-  # PHP_INI_VALUES: "opcache.enable=1, opcache.enable_cli=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, intl.use_exceptions=1, zend.exception_ignore_args=0"
-  PHP_INI_VALUES: "opcache.enable=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, intl.use_exceptions=1, zend.exception_ignore_args=0"
+  # PHP_INI_VALUES: "opcache.enable=1, opcache.enable_cli=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, zend.exception_ignore_args=0"
+  PHP_INI_VALUES: "opcache.enable=1, opcache.fast_shutdown=0, zend.assertions=1, assert.exception=On, zend.exception_ignore_args=0"
   COMPOSER_OPTIONS: "--optimize-autoloader --prefer-dist -v"
   TOOLS: "composer:v2"
 
