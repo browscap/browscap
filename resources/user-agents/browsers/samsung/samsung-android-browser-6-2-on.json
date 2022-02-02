@@ -54,6 +54,7 @@
             "SM-G950F": "Samsung SM-G950F",
             "SM-G955F": "Samsung SM-G955F",
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G975F": "Samsung SM-G975F",
             "SM-J400F": "Samsung SM-J400F",
             "SM-J415F": "Samsung SM-J415F",
@@ -68,6 +69,7 @@
             "SM-T830": "Samsung SM-T830"
           },
           "platforms": [
+            "Android_10_0",
             "Android_9_0"
           ]
         },
@@ -124,12 +126,15 @@
             "SM-G955F*": "Samsung SM-G955F",
             "SM-G960U": "Samsung SM-G960U",
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F",
             "SM-J600G": "Samsung SM-J600G",
             "SM-J720F": "Samsung SM-J720F",
             "SM-T830": "Samsung SM-T830"
           },
           "platforms": [
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0"
           ]
         },

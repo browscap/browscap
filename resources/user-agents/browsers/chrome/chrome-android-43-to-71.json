@@ -33,9 +33,11 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F"
           },
           "platforms": [
+            "Android_10_0",
             "Android_9_0",
             "Android_8_0"
           ]
@@ -258,6 +260,7 @@
             "SM-G955F": "Samsung SM-G955F",
             "SM-G955U": "Samsung SM-G955U",
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F",
             "SM-J330G": "Samsung SM-J330G",
             "SM-J600G": "Samsung SM-J600G",

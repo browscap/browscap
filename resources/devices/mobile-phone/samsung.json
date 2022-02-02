@@ -8689,6 +8689,17 @@
     },
     "standard": false
   },
+  "Samsung SM-G960N": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S9",
+      "Device_Code_Name": "SM-G960N",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-G960U": {
     "type": "mobile-phone",
     "properties": {
