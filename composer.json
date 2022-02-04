@@ -36,29 +36,28 @@
     "php": ">=8.1.0,<8.2.0",
     "ext-json": "*",
     "beberlei/assert": "^3.3.2",
-    "ergebnis/json-normalizer": "^2.1.0",
-    "mimmi20/ua-browser-type": "^8.0.5",
-    "mimmi20/ua-device-type": "^8.0.5",
+    "ergebnis/json-normalizer": "^2.2.0",
+    "mimmi20/ua-browser-type": "^8.0.6",
+    "mimmi20/ua-device-type": "^8.0.6",
     "monolog/monolog": "^2.3.5",
     "seld/jsonlint": "^1.8.3",
-    "symfony/console": "^v5.4.2 || ^v6.0.2",
-    "symfony/finder": "^v5.4.2 || ^v6.0.2",
+    "symfony/console": "^v5.4.2 || ^v6.0.3",
+    "symfony/finder": "^v5.4.2 || ^v6.0.3",
     "twig/twig": "^v3.3.7"
   },
   "require-dev": {
     "ext-zip": "*",
-    "browscap/browscap-php": "^6.0.0",
+    "browscap/browscap-php": "^6.1.0",
     "doctrine/coding-standard": "^9.0.0",
-    "ergebnis/composer-normalize": "^2.23.0",
-    "league/flysystem": "^2.4.0 || ^3.0.1",
+    "league/flysystem": "^2.4.0 || ^3.0.3",
     "matthiasmullie/scrapbook": "^1.4.8",
     "mikey179/vfsstream": "^v1.6.10",
     "phpstan/extension-installer": "^1.1.0",
-    "phpstan/phpstan": "^1.4.1",
+    "phpstan/phpstan": "^1.4.5",
     "phpstan/phpstan-beberlei-assert": "^1.0.0",
     "phpstan/phpstan-deprecation-rules": "^1.0.0",
     "phpstan/phpstan-phpunit": "^1.0.0",
-    "phpunit/phpunit": "^9.5.11"
+    "phpunit/phpunit": "^9.5.13"
   },
   "suggest": {
     "ext-zip": "to create a zip file containing all other generated files"
@@ -80,12 +79,11 @@
     "bin/browscap"
   ],
   "config": {
-    "preferred-install": "dist",
-    "sort-packages": true,
     "allow-plugins": {
       "dealerdirect/phpcodesniffer-composer-installer": true,
-      "phpstan/extension-installer": true,
-      "ergebnis/composer-normalize": true
-    }
+      "phpstan/extension-installer": true
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
   }
 }

@@ -1,0 +1,40 @@
+{
+  "division": "Amazon Crawlers",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Amazon CloudFront",
+      "browser": "amazon cloudfront",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Amazon CloudFront"
+      },
+      "children": [
+        {
+          "match": "Amazon CloudFront*"
+        }
+      ]
+    },
+    {
+      "userAgent": "Amazonbot",
+      "browser": "amazonbot",
+      "platform": "OSX",
+      "device": "Macintosh",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Amazonbot"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/* Safari/* (Amazonbot/*",
+          "platforms": [
+            "OSX_10_10",
+            "OSX"
+          ]
+        }
+      ]
+    }
+  ]
+}

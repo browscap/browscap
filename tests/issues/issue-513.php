@@ -262,7 +262,7 @@ return [
     'issue-513-G' => [
         'ua' => 'Amazon CloudFront',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Amazon CloudFront',
             'Browser' => 'Amazon CloudFront',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',

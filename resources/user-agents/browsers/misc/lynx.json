@@ -51,6 +51,12 @@
           }
         },
         {
+          "match": "Lynx?2.9*",
+          "properties": {
+            "Version": "2.9"
+          }
+        },
+        {
           "match": "Lynx*"
         }
       ]

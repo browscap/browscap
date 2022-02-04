@@ -746,6 +746,15 @@
     "lite": false,
     "standard": true
   },
+  "amazonbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Amazonbot",
+      "Browser_Maker": "Amazon.com, Inc."
+    },
+    "lite": false,
+    "standard": true
+  },
   "amazon cloudfront": {
     "type": "bot",
     "properties": {
