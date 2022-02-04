@@ -22,6 +22,7 @@ updates:
           - ">= 0"
       - dependency-name: "symfony/finder"
         versions:
+          - ">= 0"
     commit-message:
       include: "scope"
       prefix: "Build"

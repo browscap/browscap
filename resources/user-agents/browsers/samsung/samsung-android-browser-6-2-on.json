@@ -20,6 +20,27 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "devices": {
+            "SM-A605F": "Samsung SM-A605F",
+            "SM-G935F": "Samsung SM-G935F",
+            "SM-G935W8": "Samsung SM-G935W8",
+            "SM-G950F": "Samsung SM-G950F",
+            "SM-G955F*": "Samsung SM-G955F",
+            "SM-G960U": "Samsung SM-G960U",
+            "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
+            "SM-G965F*": "Samsung SM-G965F",
+            "SM-J600G": "Samsung SM-J600G",
+            "SM-J720F": "Samsung SM-J720F",
+            "SM-T830": "Samsung SM-T830"
+          },
+          "platforms": [
+            "Android_10_0",
+            "Android_9_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
+          "devices": {
             "SM-T510": "Samsung SM-T510",
             "SM-T720": "Samsung SM-T720"
           },
