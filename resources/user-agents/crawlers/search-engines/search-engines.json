@@ -852,6 +852,10 @@
         {
           "match": "Mozilla/5.0 (compatible; Shopit*",
           "browser": "shopit bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Neevabot/*",
+          "browser": "neevabot"
         }
       ]
     }

@@ -19,10 +19,10 @@
           "match": "Pinterest/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla/5.0 (compatible; Pinterestbot/#MAJORVER#.#MINORVER#*; +http*://www.pinterest.com/bot.html*"
+          "match": "Mozilla/5.0 (compatible; Pinterestbot/#MAJORVER#.#MINORVER#*"
         },
         {
-          "match": "Mozilla/5.0 (*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Pinterestbot/#MAJORVER#.#MINORVER#* +http*://www.pinterest.com/bot.html*"
+          "match": "Mozilla/5.0 (*linux*android?6.0*nexus 5x build/*) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Pinterestbot/#MAJORVER#.#MINORVER#*"
         }
       ]
     }
