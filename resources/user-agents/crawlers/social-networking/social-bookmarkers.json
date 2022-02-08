@@ -1,11 +1,11 @@
 {
-  "division": "Social Networking",
+  "division": "Social Bookmarkers",
   "sortIndex": 500,
   "lite": false,
   "standard": true,
   "userAgents": [
     {
-      "userAgent": "Social Networking",
+      "userAgent": "Social Bookmarkers",
       "browser": "social bookmarkers",
       "properties": {
         "Parent": "DefaultProperties",

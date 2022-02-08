@@ -290,6 +290,14 @@
         {
           "match": "BacklinkCrawler*",
           "browser": "backlinkcrawler"
+        },
+        {
+          "match": "AwarioRssBot/*",
+          "browser": "awario-rss-bot"
+        },
+        {
+          "match": "AwarioSmartBot/*",
+          "browser": "awario-smart-bot"
         }
       ]
     }
