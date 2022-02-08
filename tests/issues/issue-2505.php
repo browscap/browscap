@@ -1,8 +1,9 @@
 <?php
+declare(strict_types = 1);
 
 return [
-    'issue-1819-A' => [
-        'ua' => 'Barkrowler/0.7 (+http://www.exensa.com/crawl)',
+    'issue-2505-A' => [
+        'ua' => 'Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)',
         'properties' => [
             'Comment' => 'Barkrowler',
             'Browser' => 'Barkrowler',
@@ -10,7 +11,7 @@ return [
             'Browser_Bits' => '0',
             'Browser_Maker' => 'eXenSa',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.7',
+            'Version' => '0.9',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',

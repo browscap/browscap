@@ -1,0 +1,36 @@
+{
+  "division": "Barkrowler",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Barkrowler",
+      "browser": "barkrowler",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Barkrowler"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (compatible; Barkrowler/0.9*",
+          "properties": {
+            "Version": "0.9"
+          }
+        },
+        {
+          "match": "Barkrowler/0.7*",
+          "properties": {
+            "Version": "0.7"
+          }
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Barkrowler/*"
+        },
+        {
+          "match": "Barkrowler/*"
+        }
+      ]
+    }
+  ]
+}
