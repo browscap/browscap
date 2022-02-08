@@ -290,6 +290,10 @@
         {
           "match": "BacklinkCrawler*",
           "browser": "backlinkcrawler"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Adsbot/*",
+          "browser": "seostar-adsbot"
         }
       ]
     }
