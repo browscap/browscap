@@ -505,6 +505,10 @@
         {
           "match": "Feedspot*",
           "browser": "feedspot"
+        },
+        {
+          "match": "SerendeputyBot/*",
+          "browser": "serendeputy-bot"
         }
       ]
     }

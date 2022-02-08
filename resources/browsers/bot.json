@@ -17071,5 +17071,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "serendeputy-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "SerendeputyBot",
+      "Browser_Maker": "Serendeputy"
+    },
+    "lite": false,
+    "standard": true
   }
 }
