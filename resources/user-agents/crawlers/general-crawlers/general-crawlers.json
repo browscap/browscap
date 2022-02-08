@@ -2368,6 +2368,10 @@
         {
           "match":  "CEPCrawler (*)*",
           "browser":  "cep-crawler"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; ThinkBot/*",
+          "browser":  "think-bot"
         }
       ]
     }

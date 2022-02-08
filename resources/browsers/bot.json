@@ -17071,5 +17071,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "think-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "ThinkBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
   }
 }
