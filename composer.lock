@@ -3195,16 +3195,16 @@
         },
         {
             "name": "phpstan/phpstan-beberlei-assert",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-beberlei-assert.git",
-                "reference": "b60cedb58a3668136977bf9e6e9bd7292391c78a"
+                "reference": "522c761589747e49b0ccb54683a91826b1a95b34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/b60cedb58a3668136977bf9e6e9bd7292391c78a",
-                "reference": "b60cedb58a3668136977bf9e6e9bd7292391c78a",
+                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/522c761589747e49b0ccb54683a91826b1a95b34",
+                "reference": "522c761589747e49b0ccb54683a91826b1a95b34",
                 "shasum": ""
             },
             "require": {
@@ -3242,9 +3242,9 @@
             "description": "PHPStan beberlei/assert extension",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-beberlei-assert/issues",
-                "source": "https://github.com/phpstan/phpstan-beberlei-assert/tree/1.0.0"
+                "source": "https://github.com/phpstan/phpstan-beberlei-assert/tree/1.0.1"
             },
-            "time": "2021-10-14T08:11:20+00:00"
+            "time": "2022-02-23T08:43:53+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
