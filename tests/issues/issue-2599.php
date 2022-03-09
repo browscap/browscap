@@ -44,4 +44,18 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-2599-D' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/107.0',
+        'properties' => [
+            "Platform"=> "Win10",
+            'Platform_Version' => '10.0',
+            'Platform_Maker' => 'Microsoft Corporation',
+            "Browser_Version" => "Firefox",
+            "Browser_Version" => "107",
+            "Comment" => "Firefox 107.0"
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
 ];
