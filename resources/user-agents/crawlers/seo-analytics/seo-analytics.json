@@ -298,6 +298,14 @@
         {
           "match": "Mozilla/5.0 (compatible; Adsbot/*",
           "browser": "seostar-adsbot"
+        },
+        {
+          "match": "AwarioRssBot/*",
+          "browser": "awario-rss-bot"
+        },
+        {
+          "match": "AwarioSmartBot/*",
+          "browser": "awario-smart-bot"
         }
       ]
     }

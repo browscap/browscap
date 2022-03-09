@@ -17134,5 +17134,23 @@
     },
     "lite": false,
     "standard": true
+  },
+  "awario-smart-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AwarioSmartBot",
+      "Browser_Maker": "Awario"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "awario-rss-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AwarioRssBot",
+      "Browser_Maker": "Awario"
+    },
+    "lite": false,
+    "standard": true
   }
 }
