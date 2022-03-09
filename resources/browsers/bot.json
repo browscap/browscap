@@ -17080,5 +17080,77 @@
     },
     "lite": false,
     "standard": true
+  },
+  "startmebot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "startmebot",
+      "Browser_Maker": "start.me BV"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "data-for-seo-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "DataForSeoBot",
+      "Browser_Maker": "DataForSEO OU"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "linespider": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Linespider",
+      "Browser_Maker": "Line Corporation"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "neevabot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Neevabot",
+      "Browser_Maker": "Neeva Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "think-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "ThinkBot",
+      "Browser_Maker": "unknown"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "seostar-adsbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Adsbot",
+      "Browser_Maker": "Seostar.co"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "awario-smart-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AwarioSmartBot",
+      "Browser_Maker": "Awario"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "awario-rss-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "AwarioRssBot",
+      "Browser_Maker": "Awario"
+    },
+    "lite": false,
+    "standard": true
   }
 }

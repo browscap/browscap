@@ -33,7 +33,7 @@
 
     <testsuites>
         <testsuite name="Browscap Test Suite">
-            <directory>./tests/BrowscapTest</directory>
+            <directory>./BrowscapTest</directory>
         </testsuite>
     </testsuites>
 

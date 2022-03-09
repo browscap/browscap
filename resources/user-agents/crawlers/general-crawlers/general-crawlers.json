@@ -2357,6 +2357,30 @@
         {
           "match":  "CEPCrawler (*)*",
           "browser":  "cep-crawler"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; startmebot/*",
+          "browser":  "startmebot"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; Googlebot/*; startmebot/*",
+          "browser":  "startmebot"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; Linespider/*",
+          "browser":  "linespider"
+        },
+        {
+          "match":  "Mozilla/5.0 AppleWebKit/* (*khtml*like*gecko*compatible; Linespider/*) Chrome/* Safari/*",
+          "browser":  "linespider"
+        },
+        {
+          "match":  "Mozilla/5.0 (Windows NT 6.1; Win64; x64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Linespider/*",
+          "browser":  "linespider"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; ThinkBot/*",
+          "browser":  "think-bot"
         }
       ]
     }
