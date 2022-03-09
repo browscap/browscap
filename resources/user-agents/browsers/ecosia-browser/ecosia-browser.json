@@ -19,9 +19,12 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/*Ecosia android@*",
           "devices": {
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F"
           },
           "platforms": [
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0"
           ]
         },
