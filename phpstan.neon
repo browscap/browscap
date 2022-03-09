@@ -157,8 +157,3 @@ parameters:
     -
       message: "~array{Browser: 'def'} given~"
       path: tests/BrowscapTest/Data/Factory/BrowserFactoryTest.php
-
-    # the two core files do not have a children structure, thus we cant it make mandatory
-    -
-      message: "~Offset 'children' does not exist on array~"
-      path: src/Browscap/Data/Validator/DivisionDataValidator.php

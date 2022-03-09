@@ -71,6 +71,8 @@ class Expander
         $allExpandedDivisions = [];
 
         foreach ($this->parseDivision($division, $divisionName) as $ua => $properties) {
+            assert(is_string($ua));
+
             if (array_key_exists($ua, $allInputDivisions)) {
                 throw new DuplicateDataException(
                     sprintf(
@@ -113,6 +115,8 @@ class Expander
     /**
      * parses and expands a single division
      *
+     * @return Generator<array<string>>
+     *
      * @throws OutOfBoundsException
      */
     private function parseDivision(Division $division, string $divisionName): Generator
@@ -137,6 +141,8 @@ class Expander
 
     /**
      * parses and expands a single User Agent block
+     *
+     * @return Generator<array<string>>
      *
      * @throws OutOfBoundsException
      */
@@ -244,6 +250,8 @@ class Expander
      * parses and expands the children section in a single User Agent block
      *
      * @param mixed[] $uaDataChild
+     *
+     * @return Generator<array<string>>
      *
      * @throws OutOfBoundsException
      */
