@@ -17125,5 +17125,14 @@
     },
     "lite": false,
     "standard": true
+  },
+  "seostar-adsbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "Adsbot",
+      "Browser_Maker": "Seostar.co"
+    },
+    "lite": false,
+    "standard": true
   }
 }

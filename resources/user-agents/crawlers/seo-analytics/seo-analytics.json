@@ -292,8 +292,12 @@
           "browser": "backlinkcrawler"
         },
         {
-          "match":  "Mozilla/5.0 (compatible; DataForSeoBot/*",
-          "browser":  "data-for-seo-bot"
+          "match": "Mozilla/5.0 (compatible; DataForSeoBot/*",
+          "browser": "data-for-seo-bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; Adsbot/*",
+          "browser": "seostar-adsbot"
         }
       ]
     }
