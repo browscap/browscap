@@ -4,7 +4,7 @@ return [
     'issue-1819-A' => [
         'ua' => 'Barkrowler/0.7 (+http://www.exensa.com/crawl)',
         'properties' => [
-            'Comment' => 'General Crawlers',
+            'Comment' => 'Barkrowler',
             'Browser' => 'Barkrowler',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
