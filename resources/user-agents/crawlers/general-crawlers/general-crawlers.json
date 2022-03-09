@@ -1947,17 +1947,6 @@
           "browser": "toweya.com bot"
         },
         {
-          "match": "Barkrowler/0.7 *",
-          "browser": "barkrowler",
-          "properties": {
-            "Version": "0.7"
-          }
-        },
-        {
-          "match": "Barkrowler/*",
-          "browser": "barkrowler"
-        },
-        {
           "match": "Mixmax-LinkPreview 1.0*",
           "browser": "mixmax link preview",
           "properties": {

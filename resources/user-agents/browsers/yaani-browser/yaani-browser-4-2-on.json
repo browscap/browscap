@@ -22,6 +22,7 @@
           "devices": {
             "SM-G950F": "Samsung SM-G950F",
             "SM-G960F*": "Samsung SM-G960F",
+            "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F"
           },
           "platforms": [

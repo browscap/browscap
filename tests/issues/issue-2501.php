@@ -1,16 +1,17 @@
 <?php
+declare(strict_types = 1);
 
 return [
-    'issue-1819-A' => [
-        'ua' => 'Barkrowler/0.7 (+http://www.exensa.com/crawl)',
+    'issue-2501-A' => [
+        'ua' => 'SerendeputyBot/0.8.6 (http://serendeputy.com/about/serendeputy-bot)',
         'properties' => [
-            'Comment' => 'Barkrowler',
-            'Browser' => 'Barkrowler',
+            'Comment' => 'Feeds Syndicators',
+            'Browser' => 'SerendeputyBot',
             'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
-            'Browser_Maker' => 'eXenSa',
+            'Browser_Maker' => 'Serendeputy',
             'Browser_Modus' => 'unknown',
-            'Version' => '0.7',
+            'Version' => '0.0',
             'Platform' => 'unknown',
             'Platform_Version' => 'unknown',
             'Platform_Description' => 'unknown',
