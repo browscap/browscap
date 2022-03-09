@@ -2377,6 +2377,10 @@
         {
           "match":  "Mozilla/5.0 (Windows NT 6.1; Win64; x64) applewebkit* (*khtml*like*gecko*) Chrome/* Safari/* (compatible; Linespider/*",
           "browser":  "linespider"
+        },
+        {
+          "match":  "Mozilla/5.0 (compatible; ThinkBot/*",
+          "browser":  "think-bot"
         }
       ]
     }
