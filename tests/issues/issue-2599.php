@@ -58,4 +58,18 @@ return [
         'standard' => true,
         'full' => true,
     ],
+    'issue-2599-E' => [
+        'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4867.0 Safari/537.36 Edg/103.0.1169.1',
+        'properties' => [
+            "Platform"=> "Win10",
+            'Platform_Version' => '10.0',
+            'Platform_Maker' => 'Microsoft Corporation',
+            "Browser_Version" => "Edge",
+            "Browser_Version" => "103",
+            "Comment" => "Edge 103.0"
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => true,
+    ],
 ];
