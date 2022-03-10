@@ -47,7 +47,7 @@
   },
   "require-dev": {
     "ext-zip": "*",
-    "browscap/browscap-php": "^6.1.0",
+    "browscap/browscap-php": "^7.0.0",
     "doctrine/coding-standard": "^9.0.0",
     "league/flysystem": "^2.4.0 || ^3.0.3",
     "matthiasmullie/scrapbook": "^1.4.8",
