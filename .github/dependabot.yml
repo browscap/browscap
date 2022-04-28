@@ -23,6 +23,9 @@ updates:
       - dependency-name: "symfony/finder"
         versions:
           - ">= 0"
+      - dependency-name: "league/flysystem"
+        versions:
+          - ">= 0"
     commit-message:
       include: "scope"
       prefix: "Build"
