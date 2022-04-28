@@ -68,8 +68,6 @@ jobs:
           - "ubuntu-20.04"
 
         php-version:
-          - "7.4"
-          - "8.0"
           - "8.1"
 
     steps:
@@ -89,11 +87,6 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Lint PHP"
-        if: "${{ matrix.php-version == '7.4' }}"
-        uses: "overtrue/phplint@7.4"
-
-      - name: "Lint PHP"
-        if: "${{ matrix.php-version != '7.4' }}"
         uses: "overtrue/phplint@8.0"
 
   install:
