@@ -36,7 +36,7 @@ parameters:
       message: "~Offset '.*' does not exist on array~"
       path: src/Browscap/Data/Factory/EngineFactory.php
     -
-      message: '~array<literal-string&non-empty-string, bool\|int\|string> given~'
+      message: "~array\\<'ActiveXControls'\\|'BackgroundSounds'\\|'Cookies'\\|'CssVersion'\\|'Frames'\\|'IFrames'\\|'JavaApplets'\\|'JavaScript'\\|'RenderingEngine…'\\|'RenderingEngine…'\\|'RenderingEngine_Name'\\|'RenderingEngine…'\\|'Tables'\\|'VBScript', bool\\|int\\|string\\> given~"
       path: src/Browscap/Data/Factory/EngineFactory.php
     -
       message: "~Offset '.*' does not exist on array~"

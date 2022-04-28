@@ -19,7 +19,7 @@ class BrowserTest extends TestCase
      */
     public function testGetter(): void
     {
-        $properties = ['abc' => 'def'];
+        $properties = ['Browser' => 'def'];
         $standard   = false;
         $lite       = true;
         $type       = 'application';

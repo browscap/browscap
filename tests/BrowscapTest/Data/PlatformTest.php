@@ -20,7 +20,7 @@ class PlatformTest extends TestCase
     public function testGetter(): void
     {
         $match      = 'TestMatchName';
-        $properties = ['abc' => 'def'];
+        $properties = ['Platform' => 'def'];
 
         $object = new Platform($match, $properties, true, false);
 

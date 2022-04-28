@@ -19,7 +19,7 @@ class EngineTest extends TestCase
      */
     public function testGetProperties(): void
     {
-        $properties = ['abc' => 'def'];
+        $properties = ['RenderingEngine_Name' => 'def'];
 
         $object = new Engine($properties);
 
