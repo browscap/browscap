@@ -39,25 +39,25 @@
     "ergebnis/json-normalizer": "^2.2.0",
     "mimmi20/ua-browser-type": "^8.0.6",
     "mimmi20/ua-device-type": "^8.0.6",
-    "monolog/monolog": "^2.3.5",
-    "seld/jsonlint": "^1.8.3",
-    "symfony/console": "^v5.4.2 || ^v6.0.3",
-    "symfony/finder": "^v5.4.2 || ^v6.0.3",
-    "twig/twig": "^v3.3.7"
+    "monolog/monolog": "^2.5.0",
+    "seld/jsonlint": "^1.9.0",
+    "symfony/console": "^v5.4.8 || ^v6.0.8",
+    "symfony/finder": "^v5.4.8 || ^v6.0.8",
+    "twig/twig": "^v3.3.10"
   },
   "require-dev": {
     "ext-zip": "*",
     "browscap/browscap-php": "^7.0.0",
     "doctrine/coding-standard": "^9.0.0",
-    "league/flysystem": "^2.4.0 || ^3.0.3",
+    "league/flysystem": "^2.4.5 || ^3.0.18",
     "matthiasmullie/scrapbook": "^1.4.8",
     "mikey179/vfsstream": "^v1.6.10",
     "phpstan/extension-installer": "^1.1.0",
-    "phpstan/phpstan": "^1.4.5",
-    "phpstan/phpstan-beberlei-assert": "^1.0.0",
+    "phpstan/phpstan": "^1.6.3",
+    "phpstan/phpstan-beberlei-assert": "^1.0.1",
     "phpstan/phpstan-deprecation-rules": "^1.0.0",
-    "phpstan/phpstan-phpunit": "^1.0.0",
-    "phpunit/phpunit": "^9.5.13"
+    "phpstan/phpstan-phpunit": "^1.1.1",
+    "phpunit/phpunit": "^9.5.20"
   },
   "suggest": {
     "ext-zip": "to create a zip file containing all other generated files"

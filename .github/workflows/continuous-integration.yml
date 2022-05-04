@@ -51,6 +51,44 @@ jobs:
       - name: "Validate composer.json"
         run: "composer validate --strict"
 
+  lint:
+    name: "Linting"
+
+    needs: "validate"
+
+    runs-on: "${{ matrix.operating-system }}"
+
+    continue-on-error: false
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        operating-system:
+          - "ubuntu-20.04"
+
+        php-version:
+          - "8.1"
+
+    steps:
+      - name: "Checkout"
+        uses: "actions/checkout@v3"
+        with:
+          # Disabling shallow clone is recommended for improving relevancy of reporting
+          fetch-depth: 0
+
+      - name: "Install PHP"
+        uses: "shivammathur/setup-php@2.18.1"
+        with:
+          php-version: "${{ matrix.php-version }}"
+          extensions: "${{ env.PHP_EXTENSIONS }}"
+          ini-values: "${{ env.PHP_INI_VALUES }}"
+          coverage: "none"
+          tools: "${{ env.TOOLS }}"
+
+      - name: "Lint PHP"
+        uses: "overtrue/phplint@8.0"
+
   install:
     name: "Install dependencies"
 
@@ -374,10 +412,11 @@ jobs:
         run: "vendor/bin/phpunit -c phpunit.xml.dist --colors --coverage-text --coverage-clover=coverage.clover"
 
       - name: "Upload coverage to Codecov"
-        uses: "codecov/codecov-action@master"
+        uses: "codecov/codecov-action@v3.1.0"
         with:
-          token: "${{secrets.CODECOV_TOKEN}}"
           file: "coverage.clover"
+          flags: "phpunit"
+          verbose: false
 
   integration-tests:
     name: "Integration Tests with PHPUnit"
@@ -442,7 +481,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'full'"
         if: "matrix.test-set == 'full'"
-        uses: "codecov/codecov-action@master"
+        uses: "codecov/codecov-action@v3.1.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           file: "coverage-full4.json"
@@ -450,7 +489,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'standard'"
         if: "matrix.test-set == 'standard'"
-        uses: "codecov/codecov-action@master"
+        uses: "codecov/codecov-action@v3.1.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           file: "coverage-standard4.json"
@@ -458,7 +497,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'lite'"
         if: "matrix.test-set == 'lite'"
-        uses: "codecov/codecov-action@master"
+        uses: "codecov/codecov-action@v3.1.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           file: "coverage-lite4.json"
