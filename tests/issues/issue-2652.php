@@ -31,5 +31,17 @@ return [
         'lite' => false,
         'standard' => true,
         'full' => true,
-    ]
+    ],
+    'issue-2652-C' => [
+        'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15',
+        'properties' => [
+            "Platform" => "macOS",
+            "Platform_Version" => "10.15",
+            "Browser_Version" => "Safari",
+            "Browser_Version" => "15.5",
+        ],
+        'lite' => false,
+        'standard' => true,
+        'full' => false,
+    ],
 ];

@@ -1,6 +1,6 @@
 {
     "division": "Safari #MAJORVER#.#MINORVER#",
-    "versions": ["15.5", "15.4", "15.3", "15.2", "15.1", 15],
+    "versions": ["15.6", "15.5", "15.4", "15.3", "15.2", "15.1", 15],
     "sortIndex": 1968,
     "lite": true,
     "standard": true,
