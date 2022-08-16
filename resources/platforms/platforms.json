@@ -1834,6 +1834,15 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "ipadOS_15_6": {
+    "match": "*CPU OS 15_6* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "15.6"
+    }
+  },
   "ipadOS_15_5": {
     "match": "*CPU OS 15_5* like Mac OS X*",
     "lite": false,
@@ -2019,6 +2028,15 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_A_15_6": {
+    "match": "*CPU iPhone OS 15?6* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "15.6"
     }
   },
   "iOS_A_15_5": {
