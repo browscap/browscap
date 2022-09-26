@@ -1,0 +1,33 @@
+{
+    "division": "Safari #MAJORVER#.#MINORVER#",
+    "versions": ["16.2", "16.1", 16],
+    "sortIndex": 1969,
+    "lite": true,
+    "standard": true,
+    "userAgents": [
+      {
+        "userAgent": "Safari #MAJORVER#.#MINORVER#",
+        "browser": "safari",
+        "platform": "OSX",
+        "engine": "WebKit",
+        "device": "Macintosh",
+        "properties": {
+          "Parent": "DefaultProperties",
+          "Comment": "Safari #MAJORVER#.#MINORVER#",
+          "Version": "#MAJORVER#.#MINORVER#"
+        },
+        "children": [
+          {
+            "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) *Version/#MAJORVER#.#MINORVER#* Safari/*",
+            "device": "Macintosh",
+            "platforms": [
+              "OSX_12_0",
+              "OSX_11_1", "OSX_11_0",
+              "OSX_10_16", "OSX_10_15",
+              "OSX"
+            ]
+          }
+        ]
+      }
+    ]
+  }

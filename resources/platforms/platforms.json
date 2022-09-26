@@ -1834,6 +1834,24 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "ipadOS_16_1": {
+    "match": "*CPU OS 16_1* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "16.1"
+    }
+  },
+  "ipadOS_16_0": {
+    "match": "*CPU OS 16_0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "16.0"
+    }
+  },
   "ipadOS_15_6": {
     "match": "*CPU OS 15_6* like Mac OS X*",
     "lite": false,
@@ -2028,6 +2046,24 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_A_16_1": {
+    "match": "*CPU iPhone OS 16?1* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "16.1"
+    }
+  },
+  "iOS_A_16_0": {
+    "match": "*CPU iPhone OS 16?0* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "16.0"
     }
   },
   "iOS_A_15_6": {
