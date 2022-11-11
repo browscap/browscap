@@ -2290,38 +2290,40 @@
         },
         {
             "name": "matthiasmullie/scrapbook",
-            "version": "1.4.8",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/scrapbook.git",
-                "reference": "df200ba063722798a73bc020ff154604830043d4"
+                "reference": "1dba2e674b28ea3348e3509b13bf7429bb1a4917"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/df200ba063722798a73bc020ff154604830043d4",
-                "reference": "df200ba063722798a73bc020ff154604830043d4",
+                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/1dba2e674b28ea3348e3509b13bf7429bb1a4917",
+                "reference": "1dba2e674b28ea3348e3509b13bf7429bb1a4917",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0",
-                "psr/cache": "~1.0",
-                "psr/simple-cache": "~1.0"
+                "php": ">=8.0.0",
+                "psr/cache": "^2.0||^3.0",
+                "psr/simple-cache": "^2.0||^3.0"
             },
             "provide": {
-                "psr/cache-implementation": "~1.0",
-                "psr/simple-cache-implementation": "~1.0"
+                "psr/cache-implementation": "^1.0||^2.0||^3.0",
+                "psr/simple-cache-implementation": "^1.0||^2.0||^3.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.0",
-                "phpunit/phpunit": ">=4.8"
+                "ext-pcntl": "*",
+                "friendsofphp/php-cs-fixer": ">=2.0",
+                "phpunit/phpunit": ">=9.0"
             },
             "suggest": {
-                "ext-apc": ">=3.1.1",
-                "ext-couchbase": ">=2.0.0",
+                "couchbase/couchbase": ">=3.0",
+                "ext-apcu": ">=4.0.0",
+                "ext-couchbase": ">=3.0.0",
                 "ext-memcached": ">=2.0.0",
                 "ext-pdo": ">=0.1.0",
-                "ext-redis": ">=2.2.0 || 0.0.0.0",
-                "league/flysystem": "~1.0"
+                "ext-redis": ">=2.2.0||0.0.0.0",
+                "league/flysystem": ">=1.0"
             },
             "type": "library",
             "autoload": {
@@ -2341,7 +2343,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Scrapbook is a PHP cache library, with adapters for e.g. Memcached, Redis, Couchbase, APC(u), SQL and additional capabilities (e.g. transactions, stampede protection) built on top.",
+            "description": "Scrapbook is a PHP cache library, with adapters for e.g. Memcached, Redis, Couchbase, APCu, SQL and additional capabilities (e.g. transactions, stampede protection) built on top.",
             "homepage": "https://scrapbook.cash",
             "keywords": [
                 "Buffer",
@@ -2375,7 +2377,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/scrapbook/issues",
-                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.4.8"
+                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.0"
             },
             "funding": [
                 {
@@ -2383,7 +2385,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-01-27T18:04:01+00:00"
+            "time": "2022-11-10T12:00:43+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -3387,20 +3389,20 @@
         },
         {
             "name": "psr/cache",
-            "version": "1.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/cache.git",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
+                "reference": "aa5030cfa5405eccfdcb1083ce040c2cb8d253bf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
@@ -3420,7 +3422,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for caching libraries",
@@ -3430,9 +3432,9 @@
                 "psr-6"
             ],
             "support": {
-                "source": "https://github.com/php-fig/cache/tree/master"
+                "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
-            "time": "2016-08-06T20:24:11+00:00"
+            "time": "2021-02-03T23:26:27+00:00"
         },
         {
             "name": "psr/http-client",
@@ -3596,25 +3598,25 @@
         },
         {
             "name": "psr/simple-cache",
-            "version": "1.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/simple-cache.git",
-                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
-                "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+                "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/764e0b3939f5ca87cb904f570ef9be2d78a07865",
+                "reference": "764e0b3939f5ca87cb904f570ef9be2d78a07865",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=8.0.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "3.0.x-dev"
                 }
             },
             "autoload": {
@@ -3629,7 +3631,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interfaces for simple caching",
@@ -3641,9 +3643,9 @@
                 "simple-cache"
             ],
             "support": {
-                "source": "https://github.com/php-fig/simple-cache/tree/master"
+                "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
-            "time": "2017-10-23T01:57:42+00:00"
+            "time": "2021-10-29T13:26:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
