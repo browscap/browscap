@@ -143,28 +143,28 @@ jobs:
 
       - name: "Install lowest dependencies"
         if: "${{ matrix.dependencies == 'lowest' }}"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Install highest dependencies"
         if: "${{ matrix.dependencies == 'highest' && matrix.experimental == false }}"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Install highest dependencies (Experimental)"
         if: "${{ matrix.dependencies == 'highest' && matrix.experimental == true }}"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable --ignore-platform-reqs"
 
       - name: "Install locked dependencies"
         if: "${{ matrix.dependencies == 'locked' }}"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }}"
@@ -211,7 +211,7 @@ jobs:
           tools: "${{ env.TOOLS }}, cs2pr"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
@@ -258,7 +258,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }}"
@@ -306,7 +306,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
@@ -356,7 +356,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
@@ -403,7 +403,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
@@ -462,7 +462,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Update dependencies with composer"
-        uses: "ramsey/composer-install@v1"
+        uses: "ramsey/composer-install@v2"
         with:
           dependency-versions: "${{ matrix.dependencies }}"
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
