@@ -39,7 +39,7 @@
     "ergebnis/json-normalizer": "^2.2.0",
     "mimmi20/ua-browser-type": "^8.0.6",
     "mimmi20/ua-device-type": "^8.0.6",
-    "monolog/monolog": "^2.5.0",
+    "monolog/monolog": "^3.2.0",
     "seld/jsonlint": "^1.9.0",
     "symfony/console": "^v5.4.8 || ^v6.0.8",
     "symfony/finder": "^v5.4.8 || ^v6.0.8",
