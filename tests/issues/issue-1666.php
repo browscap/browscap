@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1666-A' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 11_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) BaiduHD/5.4.0.0 Mobile/10A406 Safari/8536.25',

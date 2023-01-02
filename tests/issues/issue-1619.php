@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1619-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:25.9) Gecko/20160817 FossaMail/25.2.3',

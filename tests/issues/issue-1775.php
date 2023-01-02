@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1775-A' => [
         'ua' => 'uipcrawler/1.0 (uipcrawler@semasio.net)',

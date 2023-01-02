@@ -26,8 +26,6 @@ use const PHP_EOL;
  */
 class XmlWriter implements WriterInterface
 {
-    private LoggerInterface $logger;
-
     /** @var resource */
     private $file;
 
@@ -40,13 +38,10 @@ class XmlWriter implements WriterInterface
     /** @var bool[] */
     private array $outputProperties = [];
 
-    /**
-     * @throws InvalidArgumentException
-     */
-    public function __construct(string $file, LoggerInterface $logger)
+    /** @throws InvalidArgumentException */
+    public function __construct(string $file, private LoggerInterface $logger)
     {
-        $this->logger = $logger;
-        $ressource    = fopen($file, 'w');
+        $ressource = fopen($file, 'w');
 
         if ($ressource === false) {
             throw new InvalidArgumentException(sprintf('An error occured while opening File: %s', $file));
@@ -75,50 +70,38 @@ class XmlWriter implements WriterInterface
         fclose($this->file);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFilter(FilterInterface $filter): void
     {
         $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isSilent(): bool
     {
         return $this->silent;
@@ -241,7 +224,7 @@ class XmlWriter implements WriterInterface
 
         fwrite(
             $this->file,
-            '<browscapitem name="' . $this->formatter->formatPropertyName($sectionName) . '">' . PHP_EOL
+            '<browscapitem name="' . $this->formatter->formatPropertyName($sectionName) . '">' . PHP_EOL,
         );
     }
 
@@ -283,7 +266,7 @@ class XmlWriter implements WriterInterface
                 $this->file,
                 '<item name="' . $this->formatter->formatPropertyName($property)
                 . '" value="' . $this->formatter->formatPropertyValue($section[$property], $property)
-                . '"/>' . PHP_EOL
+                . '"/>' . PHP_EOL,
             );
         }
     }

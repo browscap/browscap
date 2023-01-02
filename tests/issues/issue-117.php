@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-117' => [
         'ua' => 'netEstate NE Crawler (+http://www.website-datenbank.de/)',

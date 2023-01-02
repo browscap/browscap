@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-806-A' => [
         'ua' => 'Mozilla/5.0 (compatible; DeuSu/0.1.0; +https://deusu.de/robot.html)',

@@ -26,9 +26,9 @@ class CustomWriterFactory
     public function createCollection(
         LoggerInterface $logger,
         string $buildFolder,
-        ?string $file = null,
+        string|null $file = null,
         array $fields = [],
-        string $format = FormatterInterface::TYPE_PHP
+        string $format = FormatterInterface::TYPE_PHP,
     ): WriterCollection {
         $writerCollection = new WriterCollection();
         $propertyHolder   = new PropertyHolder();

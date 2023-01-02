@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1630-A' => [
         'ua' => 'SAMSUNG-GT-C3590/1.0 NetFront/4.2 Profile/MIDP-2.0 Configuration/CLDC-1.1',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-267-A' => [
         'ua' => 'BoardReader Favicon Fetcher /1.0 info@boardreader.com',

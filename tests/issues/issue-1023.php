@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1023' => [
         'ua' => 'Netcraft SSL Server Survey - contact info@netcraft.com',

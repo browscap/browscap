@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1772-A' => [
         'ua' => 'HubSpot Links Crawler 2.0 http://www.hubspot.com/',

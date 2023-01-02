@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-537' => [
         'ua' => 'ltx71 - (http://ltx71.com/)',

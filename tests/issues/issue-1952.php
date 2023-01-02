@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1952-00000' => [
         'ua' => 'AngleSharp/0.9.9',

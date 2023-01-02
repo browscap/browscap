@@ -13,9 +13,7 @@ class ValidateTest extends TestCase
 {
     private ValidateHelper $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new ValidateHelper();

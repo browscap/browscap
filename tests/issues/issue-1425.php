@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1425-A' => [
         'ua' => 'JUC (Linux; U; 2.3.4; zh-cn; GT-S5570; 240*320) UCWEB7.9.0.94/139/352',

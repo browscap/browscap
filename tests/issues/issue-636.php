@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-636' => [
         'ua' => 'MacAppStore/2.0 (Macintosh; OS X 10.10.2; 14C81f) AppleWebKit/0600.3.10.2',

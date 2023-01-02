@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-317-A' => [
         'ua' => 'Android-Cloud-X2/1.0 Linux/2.6.35.7 Android/2.3 Release/06.17.2013 Browser/AppleWebKit533.1 (KHTML, like Gecko) Mozilla/5.0 Mobile',

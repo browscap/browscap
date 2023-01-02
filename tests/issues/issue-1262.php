@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1262-A' => [
         'ua' => 'WhatsApp/2.6.4 iPhone_OS/4.3.3 Device/iPhone_4',

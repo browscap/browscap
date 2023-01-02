@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1059-4' => [
         'ua' => 'DVBViewer/TV HbbTV/1.1.1 (+PVR+DL;CMUV;DVBViewer;1.0;1.0;) SmartTV',

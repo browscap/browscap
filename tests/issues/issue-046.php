@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-046-a' => [
         'ua' => 'Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)',

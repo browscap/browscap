@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1064-A' => [
         'ua' => 'NL-Crawler',

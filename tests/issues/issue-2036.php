@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2036-A' => [
         'ua' => 'Google-AdWords-Express',

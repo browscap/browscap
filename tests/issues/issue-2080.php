@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2080-A' => [
         'ua' => 'arquivo-web-crawler (compatible; heritrix/3.3.0-SNAPSHOT-2018-05-28T10:30:31Z +http://arquivo.pt)',

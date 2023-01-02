@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-629' => [
         'ua' => 'uipbot/1.0 (uipbot@semasio.net)',

@@ -6,12 +6,11 @@ namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
 use Ergebnis\Json\Normalizer;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
-use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
-use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptions;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineString;
 use Ergebnis\Json\Printer\Printer;
-use Exception;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
@@ -22,7 +21,6 @@ use Symfony\Component\Finder\Finder;
 use Throwable;
 
 use function file_put_contents;
-use function sprintf;
 
 use const JSON_PRETTY_PRINT;
 use const JSON_UNESCAPED_SLASHES;
@@ -30,9 +28,7 @@ use const JSON_UNESCAPED_UNICODE;
 
 class RewriteTestFixturesCommand extends Command
 {
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $this
@@ -44,10 +40,10 @@ class RewriteTestFixturesCommand extends Command
      * @return int 0 if everything went fine, or an error code
      *
      * @throws DirectoryNotFoundException
-     * @throws InvalidNewLineStringException
-     * @throws InvalidIndentStyleException
-     * @throws InvalidIndentSizeException
-     * @throws InvalidJsonEncodeOptionsException
+     * @throws InvalidNewLineString
+     * @throws InvalidIndentStyle
+     * @throws InvalidIndentSize
+     * @throws InvalidJsonEncodeOptions
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
@@ -61,11 +57,11 @@ class RewriteTestFixturesCommand extends Command
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
-            true
+            true,
         );
 
         $printer   = new Printer();
-        $formatter = new Normalizer\Format\Formatter($printer);
+        $formatter = new Normalizer\Format\DefaultFormatter($printer);
 
         $finder = new Finder();
         $finder->files();
@@ -82,7 +78,13 @@ class RewriteTestFixturesCommand extends Command
             try {
                 $json = $file->getContents();
             } catch (RuntimeException $e) {
-                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not readable',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }
@@ -90,7 +92,13 @@ class RewriteTestFixturesCommand extends Command
             try {
                 $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
             } catch (Throwable $e) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not valid',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }

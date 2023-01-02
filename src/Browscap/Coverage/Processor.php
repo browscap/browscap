@@ -51,8 +51,6 @@ final class Processor implements ProcessorInterface
     private const JSON_STRING       = 4;
     private const JSON_COLON        = 21;
 
-    private string $resourceDir;
-
     /**
      * The pattern ids encountered during the test run. These are compared against the JSON file structure to determine
      * if the statement/function/branch is covered.
@@ -135,9 +133,8 @@ final class Processor implements ProcessorInterface
      *
      * @throws void
      */
-    public function __construct(string $resourceDir)
+    public function __construct(private string $resourceDir)
     {
-        $this->resourceDir = $resourceDir;
     }
 
     /**
@@ -174,7 +171,7 @@ final class Processor implements ProcessorInterface
             $this->coverage[$patternFileName] = $this->processFile(
                 $patternFileName,
                 $file->getContents(),
-                $this->coveredIds[$patternFileName]
+                $this->coveredIds[$patternFileName],
             );
         }
     }
@@ -194,7 +191,7 @@ final class Processor implements ProcessorInterface
             // codecov.io. Owner of the service said he was going to patch it, haven't tested since
             // Note: Can't use JSON_FORCE_OBJECT here as we **do** want arrays for the 'b' structure
             // which FORCE_OBJECT turns into objects, breaking at least the Istanbul coverage reporter
-            str_replace('[]', '{}', $content)
+            str_replace('[]', '{}', $content),
         );
     }
 
@@ -502,7 +499,7 @@ final class Processor implements ProcessorInterface
 
         $functionCoverage = $this->getCoverageCount(
             sprintf('u%d::c%d::d::p', $useragentPosition, $childPosition),
-            $this->fileCoveredIds
+            $this->fileCoveredIds,
         );
 
         $this->collectFunction($functionStart, $functionEnd, $functionDeclaration, $functionCoverage);
@@ -534,7 +531,7 @@ final class Processor implements ProcessorInterface
                 ];
                 $branchCoverage[]  = $this->getCoverageCount(
                     sprintf('u%d::c%d::d%s::p', $useragentPosition, $childPosition, $lexer->yytext),
-                    $this->fileCoveredIds
+                    $this->fileCoveredIds,
                 );
                 $capturedKey       = true;
             } elseif ($code === self::JSON_COLON) {
@@ -575,7 +572,7 @@ final class Processor implements ProcessorInterface
             ];
             $branchCoverage[]  = $this->getCoverageCount(
                 sprintf('u%d::c%d::d::p%s', $useragentPosition, $childPosition, $lexer->yytext),
-                $this->fileCoveredIds
+                $this->fileCoveredIds,
             );
         } while ($code !== self::JSON_ARRAY_END);
 

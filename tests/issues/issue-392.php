@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-392-A' => [
         'ua' => 'Mozilla/5.0 (Mobile; ALCATELOneTouch4012X/SVN 01014G; rv:18.1) Gecko/18.1 Firefox/18.1',

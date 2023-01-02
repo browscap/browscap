@@ -35,9 +35,7 @@ class CsvWriterTest extends TestCase
 
     private string $file;
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -49,9 +47,7 @@ class CsvWriterTest extends TestCase
         $this->object = new CsvWriter($this->file, $logger);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function teardown(): void
     {
         $this->object->close();
@@ -191,7 +187,7 @@ class CsvWriterTest extends TestCase
         $this->object->renderVersion($version);
         static::assertSame(
             '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"test","' . date('Y-m-d') . '"' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -210,7 +206,7 @@ class CsvWriterTest extends TestCase
         $this->object->renderVersion($version);
         static::assertSame(
             '"GJK_Browscap_Version","GJK_Browscap_Version"' . PHP_EOL . '"0",""' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 

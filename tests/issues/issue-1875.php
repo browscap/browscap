@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1875-A' => [
         'ua' => 'Mozilla/5.0 (compatible; proximic; +https://www.comscore.com/Web-Crawler)',

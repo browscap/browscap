@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1628-A' => [
         'ua' => 'mobmail android 5.7.0.22182 ru.mail.mailapp',

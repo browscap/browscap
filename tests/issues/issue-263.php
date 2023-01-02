@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-263' => [
         'ua' => 'Domnutch-Bot/Nutch-1.0 (Domnutch; http://www.Nutch.de/)',

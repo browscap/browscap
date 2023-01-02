@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-968-A' => [
         'ua' => 'HbbTV/1.1.1 (;;;;;) Maple_2011',

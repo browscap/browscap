@@ -12,6 +12,7 @@ namespace Browscap\Data;
  */
 class Platform
 {
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $match;
 
     /**
@@ -20,6 +21,7 @@ class Platform
      */
     private array $properties = [];
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $isLite = false;
 
     private bool $isStandard = false;
@@ -38,9 +40,7 @@ class Platform
         $this->isStandard = $standard;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getMatch(): string
     {
         return $this->match;
@@ -57,17 +57,13 @@ class Platform
         return $this->properties;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isLite(): bool
     {
         return $this->isLite;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isStandard(): bool
     {
         return $this->isStandard;

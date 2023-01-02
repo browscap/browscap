@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-436-A' => [
         'ua' => 'Mozilla/5.0 (compatible; ca-crawler/1.0)',

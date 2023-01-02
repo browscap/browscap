@@ -1,16 +1,17 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 
 return [
     'issue-2537-A' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 12_0_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15',
         'properties' => [
-            "Platform"=> "macOS",
-            "Platform_Description"=> "macOS",
+            'Platform' => 'macOS',
+            'Platform_Description' => 'macOS',
             'Platform_Version' => '12.0',
             'Platform_Maker' => 'Apple Inc',
-            "Browser_Version" => "Safari",
-            "Browser_Version" => "15.3",
+            'Browser_Version' => 'Safari',
+            'Browser_Version' => '15.3',
         ],
         'lite' => false,
         'standard' => true,
@@ -19,9 +20,9 @@ return [
     'issue-2537-B' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 14_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/14.2 Safari/602.1.50',
         'properties' => [
-            "Comment" => 'Mobile Safari 14.2',
-            "Browser_Version" => "Safari",
-            "Browser_Version" => "14.2",
+            'Comment' => 'Mobile Safari 14.2',
+            'Browser_Version' => 'Safari',
+            'Browser_Version' => '14.2',
         ],
         'lite' => false,
         'standard' => true,

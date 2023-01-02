@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2041-A' => [
         'ua' => 'WinampMPEG/2.8',

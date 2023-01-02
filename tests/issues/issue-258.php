@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-258' => [
         'ua' => 'Mozilla/5.0 (compatible; nbot/2.0)',

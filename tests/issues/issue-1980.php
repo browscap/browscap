@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1980-A' => [
         'ua' => 'Apache-HttpClient/4.5.1 (Java/1.7.0_79)',

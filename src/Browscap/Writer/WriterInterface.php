@@ -31,14 +31,10 @@ interface WriterInterface
      */
     public function close(): void;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setSilent(bool $silent): void;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isSilent(): bool;
 
     /**
@@ -125,23 +121,15 @@ interface WriterInterface
      */
     public function renderAllDivisionsFooter(): void;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFormatter(FormatterInterface $formatter): void;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFormatter(): FormatterInterface;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFilter(FilterInterface $filter): void;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilter(): FilterInterface;
 }

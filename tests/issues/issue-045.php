@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-045' => [
         'ua' => 'Mozilla/5.0 (compatible; SISTRIX Crawler; http://crawler.sistrix.net/)',

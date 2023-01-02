@@ -25,9 +25,7 @@ use function sys_get_temp_dir;
 use function tempnam;
 use function unlink;
 
-/**
- * @covers \Browscap\Parser\IniParser
- */
+/** @covers \Browscap\Parser\IniParser */
 final class IniParserTest extends TestCase
 {
     /**

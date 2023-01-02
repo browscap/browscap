@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1950-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 6.0; Lenovo TB3-X70F Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36',

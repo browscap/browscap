@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-mobiles-G' => [
         'ua' => 'S8500 UCWEB6.0/UC Browser7.7.0.81',

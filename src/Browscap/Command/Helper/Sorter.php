@@ -17,17 +17,13 @@ use const JSON_THROW_ON_ERROR;
 
 class Sorter extends Helper
 {
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getName(): string
     {
         return 'sorter';
     }
 
-    /**
-     * @throws JsonException
-     */
+    /** @throws JsonException */
     public function sort(string $json): string
     {
         $data = json_decode($json, true, 512, JSON_THROW_ON_ERROR);

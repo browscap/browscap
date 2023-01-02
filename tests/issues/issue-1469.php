@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1469-A' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 7.0; AOL 10.1; AOLBuild 2.1.103.1; brand=aol; Windows NT 5.2; WOW64; Trident/5.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; CPNTDF; .NET4.0C)',

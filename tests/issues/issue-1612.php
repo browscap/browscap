@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1612-A' => [
         'ua' => 'Mozilla/5.0 (ClickMagick Link Monitor v1.4)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-972' => [
         'ua' => 'CaptiveNetworkSupport-324 wispr',

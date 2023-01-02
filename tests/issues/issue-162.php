@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-162' => [
         'ua' => 'Google-HTTP-Java-Client/1.17.0-rc (gzip)',

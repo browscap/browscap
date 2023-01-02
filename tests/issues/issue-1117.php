@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1117' => [
         'ua' => 'MacOutlook/15.27.0.161010 (Intelx64 Mac OS X Version 10.11.6 (Build 15G1108))',

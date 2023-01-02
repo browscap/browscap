@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-237-A' => [
         'ua' => 'Mozilla/5.0 (iPhone5,2; iPhone; U; CPU OS 7_1_1 like Mac OS X; de_DE) com.google.GooglePlus/33839 (KHTML, like Gecko) Mobile/N42AP (gzip)',

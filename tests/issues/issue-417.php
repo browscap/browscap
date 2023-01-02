@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-417' => [
         'ua' => 'psbot-page (+http://www.picsearch.com/bot.html)',

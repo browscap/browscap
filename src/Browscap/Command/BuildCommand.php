@@ -33,9 +33,7 @@ class BuildCommand extends Command
 
     private const DEFAULT_GENERATION_DATE = 'now';
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $defaultBuildFolder    = __DIR__ . self::DEFAULT_BUILD_FOLDER;
@@ -88,7 +86,7 @@ class BuildCommand extends Command
             $buildFolder,
             $logger,
             $writerCollection,
-            $dataCollectionFactory
+            $dataCollectionFactory,
         );
 
         if ($input->getOption('coverage') !== false) {

@@ -13,9 +13,7 @@ use UnexpectedValueException;
 
 use function is_array;
 
-/**
- * @phpstan-import-type BrowserData from Browser
- */
+/** @phpstan-import-type BrowserData from Browser */
 class BrowserFactory
 {
     /**

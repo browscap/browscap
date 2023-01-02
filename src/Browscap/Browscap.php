@@ -9,9 +9,7 @@ use Symfony\Component\Console\Exception\LogicException;
 
 class Browscap extends Application
 {
-    /**
-     * @throws LogicException
-     */
+    /** @throws LogicException */
     public function __construct()
     {
         parent::__construct('Browser Capabilities Project', 'dev-master');

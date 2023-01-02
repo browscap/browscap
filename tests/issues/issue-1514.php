@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1514-A' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; es-ES) AppleWebKit/533.3 (KHTML, like Gecko) QupZilla/1.1.0 Safari/533.3',

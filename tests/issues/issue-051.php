@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-051-3' => [
         'ua' => 'Mozilla/5.0 (compatible; grapeFX/0.9; crawler@grapeshot.co.uk',

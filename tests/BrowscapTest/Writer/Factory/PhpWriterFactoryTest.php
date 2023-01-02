@@ -20,9 +20,7 @@ class PhpWriterFactoryTest extends TestCase
 
     private PhpWriterFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);

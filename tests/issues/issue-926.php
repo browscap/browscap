@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-926' => [
         'ua' => 'DMCA.com Page Protection Crawling Service',

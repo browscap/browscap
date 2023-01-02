@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2001-A' => [
         'ua' => 'Acast/1.25.2 (Phone; Android 8.0.2; OnePlus 5.0)',

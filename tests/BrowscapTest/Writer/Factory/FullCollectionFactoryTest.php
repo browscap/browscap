@@ -20,9 +20,7 @@ class FullCollectionFactoryTest extends TestCase
 
     private FullCollectionFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);

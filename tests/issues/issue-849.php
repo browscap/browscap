@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-849-A' => [
         'ua' => 'SophosUpdateManager/1.5.7.50 SDDS/2.0 (u= EO2ANA123G c= 6342da15-f351-4ab7-9656-3f5f2d50885d )',

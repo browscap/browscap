@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2176-A' => [
         'ua' => 'Binance/X.X.X (com.binance.mac-client; build:XX; OS X XX.XX.XX) Alamofire/X.X.X',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1446-A' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; en-US; rv:1.9.2.3) Gecko/20101201 Songbird/2.2.0 (20130204082828)',

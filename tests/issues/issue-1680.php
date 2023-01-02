@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1680' => [
         'ua' => 'CloudEndure Scanner (ops@cloudendure.com)',

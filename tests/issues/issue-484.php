@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-484-A' => [
         'ua' => 'Mozilla/5.0 (compatible; AskPeterBot; +http://www.askpeter.de/bot.html)',

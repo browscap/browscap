@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-492-A' => [
         'ua' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',

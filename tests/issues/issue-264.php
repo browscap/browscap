@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-264' => [
         'ua' => 'DiscoverEd/Nutch-1.7 (OER search crawler; http://wiki.creativecommons.org/DiscoverEd; webmaster@creativecommons.org)',

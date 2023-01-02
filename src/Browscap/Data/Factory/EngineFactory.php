@@ -14,9 +14,7 @@ use function array_key_exists;
 use function array_merge;
 use function is_array;
 
-/**
- * @phpstan-import-type EngineData from Engine
- */
+/** @phpstan-import-type EngineData from Engine */
 final class EngineFactory
 {
     /**
@@ -61,14 +59,14 @@ final class EngineFactory
                 ) {
                     throw new UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $engineName
-                        . '" and its parent "' . $parentName . '"'
+                        . '" and its parent "' . $parentName . '"',
                     );
                 }
             }
 
             $engineData['properties'] = array_merge(
                 $parentEngineData,
-                $engineProperties
+                $engineProperties,
             );
         }
 

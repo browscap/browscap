@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1303-A' => [
         'ua' => 'Blackjack/22 CFNetwork/808.3 Darwin/16.3.0',

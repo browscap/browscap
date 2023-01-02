@@ -15,14 +15,9 @@ use function trim;
  */
 class AspFormatter implements FormatterInterface
 {
-    private PropertyHolder $propertyHolder;
-
-    /**
-     * @throws void
-     */
-    public function __construct(PropertyHolder $propertyHolder)
+    /** @throws void */
+    public function __construct(private PropertyHolder $propertyHolder)
     {
-        $this->propertyHolder = $propertyHolder;
     }
 
     /**
@@ -70,7 +65,7 @@ class AspFormatter implements FormatterInterface
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
                     $valueOutput = (string) $this->propertyHolder->checkValueInArray($property, (string) $value);
-                } catch (InvalidArgumentException $ex) {
+                } catch (InvalidArgumentException) {
                     $valueOutput = '';
                 }
 

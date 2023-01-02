@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-780' => [
         'ua' => 'Alizee iPod 2005 (Beta; Mac OS X)',

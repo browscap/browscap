@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1381-A' => [
         'ua' => 'Mozilla/5.0 (X11; U; OpenBSD amd64; de; rv:1.9.2.3) Gecko/20090703 Firefox/3.5',

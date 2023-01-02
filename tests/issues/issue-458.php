@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-458' => [
         'ua' => 'Mozilla/5.0 (compatible; SMTBot/1.0; +http://www.similartech.com/smtbot)',

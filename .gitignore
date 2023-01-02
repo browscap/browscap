@@ -8,3 +8,5 @@ composer.phar
 test*.txt
 /coverage
 coverage*.*
+.phpcs.cache
+/outdated.sh

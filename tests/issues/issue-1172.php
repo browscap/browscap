@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1172-1' => [
         'ua' => 'TestApp/1.0 CFNetwork/808.1.4 Darwin/16.1.0',

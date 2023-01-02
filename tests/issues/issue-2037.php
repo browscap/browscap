@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2037-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 8.0; SM-G935P Build/NRD90M) Gecko/20100101 Firefox/58.0.1',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1590-A' => [
         'ua' => 'MOT-VE538/1.0 Profile/MIDP-2.0 Configuration/CLDC-1.1 Browser/UP.Browser/7.2.7.2 (GUI) MMP/2.0 Push/PO',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-408' => [
         'ua' => 'Pingdom.com_bot_version_1.4_(http://www.pingdom.com)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2242-A' => [
         'ua' => 'python-requests/2.20.1',

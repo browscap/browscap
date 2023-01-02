@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1981-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.2.1; ru-ru; NT-3506M Build/JOP40D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',

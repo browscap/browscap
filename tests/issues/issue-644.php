@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-644' => [
         'ua' => 'MS Web Services Client Protocol 1.0.3705.0',

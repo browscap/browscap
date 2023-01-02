@@ -27,9 +27,7 @@ class ExpanderTest extends TestCase
 {
     private Expander $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $logger     = $this->createMock(LoggerInterface::class);
@@ -193,7 +191,7 @@ class ExpanderTest extends TestCase
             ->expects(static::once())
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
 
         $property = new ReflectionProperty($this->object, 'collection');

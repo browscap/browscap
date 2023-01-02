@@ -29,10 +29,6 @@ use function str_replace;
 
 class Expander
 {
-    private DataCollection $collection;
-
-    private LoggerInterface $logger;
-
     /**
      * This store the components of the pattern id that are later merged into a string. Format for this
      * can be seen in the {@see resetPatternId} method.
@@ -48,10 +44,8 @@ class Expander
      *
      * @throws void
      */
-    public function __construct(LoggerInterface $logger, DataCollection $collection)
+    public function __construct(private LoggerInterface $logger, private DataCollection $collection)
     {
-        $this->logger       = $logger;
-        $this->collection   = $collection;
         $this->trimProperty = new TrimProperty();
     }
 
@@ -79,8 +73,8 @@ class Expander
                         'tried to add section "%s" for division "%s" in file "%s", but this was already added before',
                         $ua,
                         $division->getName(),
-                        (string) realpath((string) $division->getFileName())
-                    )
+                        (string) realpath((string) $division->getFileName()),
+                    ),
                 );
             }
 
@@ -89,7 +83,7 @@ class Expander
                 $ua,
                 $properties,
                 $defaultproperties->getProperties(),
-                $allInputDivisions
+                $allInputDivisions,
             );
         }
 
@@ -132,7 +126,7 @@ class Expander
                 $division->isLite(),
                 $division->isStandard(),
                 $division->getSortIndex(),
-                $divisionName
+                $divisionName,
             );
 
             ++$i;
@@ -210,7 +204,7 @@ class Expander
             $engineProperties,
             $deviceProperties,
             $browserProperties,
-            $uaProperties
+            $uaProperties,
         );
 
         $i = 0;
@@ -310,7 +304,7 @@ class Expander
                     $engineProperties,
                     $deviceProperties,
                     $browserProperties,
-                    $platform->getProperties()
+                    $platform->getProperties(),
                 );
 
                 if (
@@ -364,7 +358,7 @@ class Expander
                 ],
                 $engineProperties,
                 $deviceProperties,
-                $browserProperties
+                $browserProperties,
             );
 
             if (
@@ -475,7 +469,7 @@ class Expander
             $this->patternId['useragent'],
             $this->patternId['child'],
             $this->patternId['device'],
-            $this->patternId['platform']
+            $this->patternId['platform'],
         );
     }
 
@@ -519,13 +513,13 @@ class Expander
 
             if (! isset($allInputDivisions[$parent])) {
                 throw new ParentNotDefinedException(
-                    sprintf('the parent "%s" for useragent "%s" is not defined', $parent, $ua)
+                    sprintf('the parent "%s" for useragent "%s" is not defined', $parent, $ua),
                 );
             }
 
             if (! is_array($allInputDivisions[$parent])) {
                 throw new UnexpectedValueException(
-                    'Parent "' . $parent . '" is not an array for useragent "' . $ua . '"'
+                    'Parent "' . $parent . '" is not an array for useragent "' . $ua . '"',
                 );
             }
 
@@ -538,7 +532,7 @@ class Expander
                 if ($allInputDivisions[$parent]['sortIndex'] >= $properties['sortIndex']) {
                     throw new UnexpectedValueException(
                         'sorting not ready for useragent "'
-                        . $ua . '"'
+                        . $ua . '"',
                     );
                 }
             }

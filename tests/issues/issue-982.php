@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-982' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.0.2; Mi 4i Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.36 Mobile Safari/537.36',

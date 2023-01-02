@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-850' => [
         'ua' => 'Mozilla/5.0 (compatible; online-webceo-bot/1.0; +http://online.webceo.com)',

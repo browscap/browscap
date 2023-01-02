@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1275-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Mobile/14D27 [FBAN/FBIOS;FBAV/82.0.0.42.69;FBBV/51077300;FBRV/0;FBDV/iPhone9,4;FBMD/iPhone;FBSN/iOS;FBSV/10.2.1;FBSS/3;FBCR/T-Mobile;FBID/phone;FBLC/en_US;FBOP/5]',

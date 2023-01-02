@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1902-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Statusdroid/1.0; +http://www.statusdroid.com/pages/bot/)',

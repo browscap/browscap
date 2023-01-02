@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1971-A' => [
         'ua' => 'AppEngine-Google; (+http://code.google.com/appengine; appid: s~snapchat-proxy)',

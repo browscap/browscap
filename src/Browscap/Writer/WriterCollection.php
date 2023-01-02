@@ -40,9 +40,7 @@ class WriterCollection
         }
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setSilent(Division $division): void
     {
         foreach ($this->writers as $writer) {
@@ -114,7 +112,7 @@ class WriterCollection
                     'released' => $generationDate->format('r'),
                     'format' => $writer->getFormatter()->getType(),
                     'type' => $writer->getFilter()->getType(),
-                ]
+                ],
             );
         }
     }

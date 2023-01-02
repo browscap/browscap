@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-529-A' => [
         'ua' => 'Mozilla/5.0 (Linux;Android 4.0.4; Digma iDsD7 3G Build/IMM76D) AppleWebKit/537.36(KHTML,like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36',

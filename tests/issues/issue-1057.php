@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1057-A' => [
         'ua' => 'Mozilla/5.0(Linux;Android 4.4.2;es-us;CHC-U03 Build/HuweiCHC-U03)AppleWebKit/537.36 (KHTML, likeGecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36',

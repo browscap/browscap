@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2204-A' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 10.0; en-US; Valve Steam Client/pw_csgo/1576550251; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',

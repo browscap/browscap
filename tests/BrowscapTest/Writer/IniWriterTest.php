@@ -39,9 +39,7 @@ class IniWriterTest extends TestCase
 
     private string $file;
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -53,9 +51,7 @@ class IniWriterTest extends TestCase
         $this->object = new IniWriter($this->file, $logger);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function teardown(): void
     {
         $this->object->close();
@@ -173,7 +169,7 @@ class IniWriterTest extends TestCase
             ';;; TestData to be rendered into the Header' . PHP_EOL
             . ';;; more data to be rendered' . PHP_EOL
             . ';;; much more data' . PHP_EOL . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -220,7 +216,7 @@ class IniWriterTest extends TestCase
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
             . PHP_EOL . 'Version=test' . PHP_EOL . 'Released=' . date('Y-m-d') . PHP_EOL . 'Format=TEST' . PHP_EOL
             . 'Type=full' . PHP_EOL . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -241,7 +237,7 @@ class IniWriterTest extends TestCase
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Browscap Version' . PHP_EOL . PHP_EOL . '[GJK_Browscap_Version]'
             . PHP_EOL . 'Version=0' . PHP_EOL . 'Released=' . PHP_EOL . 'Format=' . PHP_EOL . 'Type='
             . PHP_EOL . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -273,7 +269,7 @@ class IniWriterTest extends TestCase
         $this->object->renderDivisionHeader('test');
         static::assertSame(
             ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; test' . PHP_EOL . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -676,7 +672,7 @@ class IniWriterTest extends TestCase
         $this->object->renderSectionBody($section, $collection, $sections);
         static::assertSame(
             'Parent="DefaultProperties"' . PHP_EOL . 'Comment="1"' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 

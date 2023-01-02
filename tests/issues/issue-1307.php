@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1307-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; BLU STUDIO 5.5 K Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36 Instagram 10.4.0 Android (19/4.4.2; 240dpi; 480x854; BLU; BLU STUDIO 5.5 K; BLU; mt6571; en_US)',

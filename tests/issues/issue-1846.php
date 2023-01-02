@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1846-A' => [
         'ua' => 'Mozilla/5.0 (compatible; MSIE 7.0; Windows NT 5.1)',

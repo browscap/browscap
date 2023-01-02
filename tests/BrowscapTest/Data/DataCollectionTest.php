@@ -22,17 +22,13 @@ class DataCollectionTest extends TestCase
 {
     private DataCollection $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new DataCollection();
     }
 
-    /**
-     * @throws OutOfBoundsException
-     */
+    /** @throws OutOfBoundsException */
     public function testGetPlatformThrowsExceptionIfPlatformDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -58,9 +54,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedPlatform, $platform);
     }
 
-    /**
-     * @throws OutOfBoundsException
-     */
+    /** @throws OutOfBoundsException */
     public function testGetEngineThrowsExceptionIfEngineDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -86,9 +80,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedEngine, $engine);
     }
 
-    /**
-     * @throws OutOfBoundsException
-     */
+    /** @throws OutOfBoundsException */
     public function testGetDeviceThrowsExceptionIfDeviceDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);
@@ -115,9 +107,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedDevice, $device);
     }
 
-    /**
-     * @throws OutOfBoundsException
-     */
+    /** @throws OutOfBoundsException */
     public function testGetBrowserThrowsExceptionIfBrowserDoesNotExist(): void
     {
         $this->expectException(OutOfBoundsException::class);

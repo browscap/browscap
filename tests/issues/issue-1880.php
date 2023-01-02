@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1880-A' => [
         'ua' => 'stagefright/1.2 (Linux;Android 4.1.2)',

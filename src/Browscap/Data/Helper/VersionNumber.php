@@ -16,7 +16,7 @@ class VersionNumber
         return str_replace(
             ['#MAJORVER#', '#MINORVER#'],
             [$majorVer, $minorVer],
-            $value
+            $value,
         );
     }
 }

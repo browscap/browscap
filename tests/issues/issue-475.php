@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-475' => [
         'ua' => 'Java/1.7',

@@ -25,9 +25,7 @@ class BuildGeneratorTest extends TestCase
 {
     private LoggerInterface $logger;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->logger = $this->createMock(LoggerInterface::class);
@@ -151,7 +149,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
         $division
             ->expects(static::once())
@@ -231,7 +229,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $defaultProperties]
+                [0 => $defaultProperties],
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -389,7 +387,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
         $division
             ->expects(static::once())
@@ -469,7 +467,7 @@ class BuildGeneratorTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $defaultProperties]
+                [0 => $defaultProperties],
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)

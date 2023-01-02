@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2014-A' => [
         'ua' => 'DomainStatsBot/1.0 (https://domainstats.com/pages/our-bot)',

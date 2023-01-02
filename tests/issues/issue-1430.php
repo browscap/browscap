@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1430-A' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 10_0 like Mac OS X; en-US) AppleWebKit/537.36 (KHTML, like Gecko) Version/10.0 Mobile/14A5261v Safari/537.36 Puffin/5.0.3IT Chrome/49.0.2623',

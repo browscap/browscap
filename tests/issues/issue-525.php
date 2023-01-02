@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-525-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; LIFETAB_E10320 Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.114 Safari/537.36',

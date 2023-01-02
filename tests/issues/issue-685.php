@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-685-A' => [
         'ua' => 'UCWEB/2.0 (MIDP-2.0; U; Adr 5.0.2; en-US; AO5510) U2/1.0.0 UCBrowser',

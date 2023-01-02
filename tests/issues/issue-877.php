@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-877' => [
         'ua' => 'Roku/DVP-6.2 (096.02E06005A)',

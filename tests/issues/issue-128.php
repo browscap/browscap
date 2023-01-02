@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-128' => [
         'ua' => 'Mozilla/5.0 (compatible; Another Web Mining Tool 1.0; +none; awmt)',

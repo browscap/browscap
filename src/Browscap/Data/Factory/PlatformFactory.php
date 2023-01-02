@@ -68,14 +68,14 @@ final class PlatformFactory
                 if (array_key_exists($name, $parentPlatformData) && $parentPlatformData[$name] === $value) {
                     throw new UnexpectedValueException(
                         'the value for property "' . $name . '" has the same value in the keys "' . $platformName
-                        . '" and its parent "' . $parentName . '"'
+                        . '" and its parent "' . $parentName . '"',
                     );
                 }
             }
 
             $platformData['properties'] = array_merge(
                 $parentPlatformData,
-                $platformProperties
+                $platformProperties,
             );
 
             if (! $parentPlatform->isLite()) {
@@ -91,7 +91,7 @@ final class PlatformFactory
             $platformData['match'],
             $platformData['properties'],
             $platformData['lite'],
-            $platformData['standard']
+            $platformData['standard'],
         );
     }
 }

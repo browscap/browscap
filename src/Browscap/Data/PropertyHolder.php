@@ -285,9 +285,7 @@ class PropertyHolder
         return isset($deprecatedProperties[$propertyName]);
     }
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function checkValueInArray(string $property, string $value): string|int
     {
         switch ($property) {
@@ -326,7 +324,7 @@ class PropertyHolder
 
         throw new InvalidArgumentException(
             'invalid value given for Property "' . $property . '": given value "' . $value . '", allowed: '
-            . json_encode($allowedValues)
+            . json_encode($allowedValues),
         );
     }
 }

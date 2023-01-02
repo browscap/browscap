@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1014-A' => [
         'ua' => 'Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)',

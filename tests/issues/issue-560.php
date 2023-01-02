@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-560' => [
         'ua' => 'Mozilla/5.0 (Mobile; rv:32.0) Gecko/32.0 Firefox/32.0',

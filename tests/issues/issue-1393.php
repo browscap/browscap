@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1393-A' => [
         'ua' => 'Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/8.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 920) like Gecko',

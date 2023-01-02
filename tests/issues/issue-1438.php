@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1438-A' => [
         'ua' => 'BlackBerry7100/4.0.0 Profile/MIDP-2.0 Configuration/CLDC-1.1',

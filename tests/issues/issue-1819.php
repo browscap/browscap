@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1819-A' => [
         'ua' => 'Barkrowler/0.7 (+http://www.exensa.com/crawl)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1529-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Thunderbird/45.5.0',

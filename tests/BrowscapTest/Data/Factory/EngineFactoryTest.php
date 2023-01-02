@@ -16,9 +16,7 @@ class EngineFactoryTest extends TestCase
 {
     private EngineFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new EngineFactory();

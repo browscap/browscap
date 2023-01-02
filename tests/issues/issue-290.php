@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-290' => [
         'ua' => 'woobot/2.0',

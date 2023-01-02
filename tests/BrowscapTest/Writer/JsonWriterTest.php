@@ -38,9 +38,7 @@ class JsonWriterTest extends TestCase
 
     private string $file;
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -52,9 +50,7 @@ class JsonWriterTest extends TestCase
         $this->object = new JsonWriter($this->file, $logger);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function teardown(): void
     {
         $this->object->close();
@@ -126,7 +122,7 @@ class JsonWriterTest extends TestCase
         $this->object->fileStart();
         static::assertSame(
             '{' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -206,7 +202,7 @@ class JsonWriterTest extends TestCase
         static::assertSame(
             '  "comments": [' . PHP_EOL . '    "TestData to be renderd into the Header",' . PHP_EOL . '    "more data to be rendered",' . PHP_EOL . '    "much more data"' . PHP_EOL . '  ],'
             . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -254,7 +250,7 @@ class JsonWriterTest extends TestCase
         static::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "test",' . PHP_EOL
             . '    "Released": "' . date('Y-m-d') . '"' . PHP_EOL . '  },' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -275,7 +271,7 @@ class JsonWriterTest extends TestCase
         static::assertSame(
             '  "GJK_Browscap_Version": {' . PHP_EOL . '    "Version": "0",' . PHP_EOL
             . '    "Released": ""' . PHP_EOL . '  },' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -459,7 +455,7 @@ class JsonWriterTest extends TestCase
         $this->object->renderSectionBody($section, $collection);
         static::assertSame(
             '{"Test":1,"abc":"bcd"}',
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -580,7 +576,7 @@ class JsonWriterTest extends TestCase
         $this->object->renderSectionBody($section, $collection, $sections);
         static::assertSame(
             '{"Parent":"X1","Comment":"1"}',
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -694,7 +690,7 @@ class JsonWriterTest extends TestCase
         $this->object->renderSectionBody($section, $collection, $sections);
         static::assertSame(
             '{"Parent":"DefaultProperties","Comment":"1"}',
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 

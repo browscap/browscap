@@ -12,20 +12,31 @@ namespace Browscap\Data;
  */
 class Division
 {
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $name = '';
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $fileName = '';
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private int $sortIndex = 0;
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $lite = false;
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $standard = false;
 
-    /** @var array<int, int|string> */
+    /**
+     * @var array<int, int|string>
+     * @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion
+     */
     private array $versions = [];
 
-    /** @var UserAgent[] */
+    /**
+     * @var UserAgent[]
+     * @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion
+     */
     private array $userAgents = [];
 
     /**
@@ -41,7 +52,7 @@ class Division
         bool $lite,
         bool $standard,
         array $versions,
-        string $fileName
+        string $fileName,
     ) {
         $this->name       = $name;
         $this->sortIndex  = $sortIndex;
@@ -52,33 +63,25 @@ class Division
         $this->fileName   = $fileName;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isLite(): bool
     {
         return $this->lite;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isStandard(): bool
     {
         return $this->standard;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getName(): string
     {
         return $this->name;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getSortIndex(): int
     {
         return $this->sortIndex;
@@ -104,10 +107,8 @@ class Division
         return $this->versions;
     }
 
-    /**
-     * @throws void
-     */
-    public function getFileName(): ?string
+    /** @throws void */
+    public function getFileName(): string|null
     {
         return $this->fileName;
     }

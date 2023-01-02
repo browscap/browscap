@@ -31,8 +31,6 @@ use const PHP_EOL;
  */
 class JsonWriter implements WriterInterface
 {
-    private LoggerInterface $logger;
-
     /** @var resource */
     private $file;
 
@@ -47,12 +45,9 @@ class JsonWriter implements WriterInterface
 
     private TrimProperty $trimProperty;
 
-    /**
-     * @throws InvalidArgumentException
-     */
-    public function __construct(string $file, LoggerInterface $logger)
+    /** @throws InvalidArgumentException */
+    public function __construct(string $file, private LoggerInterface $logger)
     {
-        $this->logger       = $logger;
         $this->trimProperty = new TrimProperty();
         $ressource          = fopen($file, 'w');
 
@@ -83,50 +78,38 @@ class JsonWriter implements WriterInterface
         fclose($this->file);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFilter(FilterInterface $filter): void
     {
         $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isSilent(): bool
     {
         return $this->silent;
@@ -327,7 +310,7 @@ class JsonWriter implements WriterInterface
 
         fwrite(
             $this->file,
-            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput, JSON_THROW_ON_ERROR), 'Comment')
+            $this->formatter->formatPropertyValue(json_encode($propertiesToOutput, JSON_THROW_ON_ERROR), 'Comment'),
         );
     }
 

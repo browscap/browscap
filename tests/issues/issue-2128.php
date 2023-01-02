@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2128-A' => [
         'ua' => 'Snapchat/9.34.4.0 (Discovery Elite; Android 4.4.2#eng.android.20150829.160954#19; gzip)',

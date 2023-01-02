@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1369-A' => [
         'ua' => 'Reddit/Version 2.6.0/Build 200033/iOS Version 10.0.2 (Build 14A456)',

@@ -37,9 +37,7 @@ class XmlWriterTest extends TestCase
 
     private string $file;
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);
@@ -51,9 +49,7 @@ class XmlWriterTest extends TestCase
         $this->object = new XmlWriter($this->file, $logger);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function teardown(): void
     {
         $this->object->close();
@@ -125,7 +121,7 @@ class XmlWriterTest extends TestCase
         $this->object->fileStart();
         static::assertSame(
             '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL . '<browsercaps>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -203,7 +199,7 @@ class XmlWriterTest extends TestCase
         static::assertSame(
             '<comments>' . PHP_EOL . '<comment><![CDATA[TestData to be renderd into the Header]]></comment>' . PHP_EOL
             . '</comments>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -263,7 +259,7 @@ class XmlWriterTest extends TestCase
         static::assertSame(
             '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
             . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -297,7 +293,7 @@ class XmlWriterTest extends TestCase
         static::assertSame(
             '<gjk_browscap_version>' . PHP_EOL . '<item name="Version" value="test"/>' . PHP_EOL
             . '<item name="Released" value="test"/>' . PHP_EOL . '</gjk_browscap_version>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -474,7 +470,7 @@ class XmlWriterTest extends TestCase
         $this->object->renderSectionBody($section, $collection);
         static::assertSame(
             '<item name="Test" value="1"/>' . PHP_EOL . '<item name="abc" value="bcd"/>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -581,7 +577,7 @@ class XmlWriterTest extends TestCase
         static::assertSame(
             '<item name="Parent" value="X1"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
             . '<item name="Platform" value="bcd"/>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 
@@ -681,7 +677,7 @@ class XmlWriterTest extends TestCase
         static::assertSame(
             '<item name="Parent" value="DefaultProperties"/>' . PHP_EOL . '<item name="Comment" value="1"/>' . PHP_EOL
             . '<item name="Platform" value="bcd"/>' . PHP_EOL,
-            file_get_contents($this->file)
+            file_get_contents($this->file),
         );
     }
 

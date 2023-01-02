@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1640-A' => [
         'ua' => 'Mozilla/5.0 SeznamEmailProxy/1.0',

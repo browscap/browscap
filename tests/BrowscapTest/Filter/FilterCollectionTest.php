@@ -16,9 +16,7 @@ class FilterCollectionTest extends TestCase
 {
     private FilterCollection $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new FilterCollection();

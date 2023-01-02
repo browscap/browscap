@@ -14,9 +14,7 @@ class SorterTest extends TestCase
 {
     private Sorter $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new Sorter();
@@ -31,9 +29,7 @@ class SorterTest extends TestCase
         static::assertSame('sorter', $this->object->getName());
     }
 
-    /**
-     * @throws JsonException
-     */
+    /** @throws JsonException */
     public function testSort(): void
     {
         $data         = '{"b": "1","a": "2"}';

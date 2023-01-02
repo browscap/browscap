@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1378-A' => [
         'ua' => 'Opera/4.02 (X11; U; br)',

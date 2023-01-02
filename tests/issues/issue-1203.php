@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1203-1' => [
         'ua' => 'Callpod Keeper for Android 1.0 (10.5.0/264) Dalvik/2.1.0 (Linux; U; Android 6.0; LG-H810 Build/MRA58K)',

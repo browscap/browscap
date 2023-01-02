@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2089-A' => [
         'ua' => 'APIs-Google (+https://developers.google.com/webmasters/APIs-Google.html)',

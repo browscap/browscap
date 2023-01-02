@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2211-A' => [
         'ua' => 'LCC (+http://corpora.uni-leipzig.de/crawler_faq.html)',

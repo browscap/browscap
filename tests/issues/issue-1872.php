@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1872-A' => [
         'ua' => 'MauiBot (crawler.feedback+dc@gmail.com)',

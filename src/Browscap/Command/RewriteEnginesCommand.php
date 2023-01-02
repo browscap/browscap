@@ -6,10 +6,10 @@ namespace Browscap\Command;
 
 use Browscap\Command\Helper\RewriteHelper;
 use Browscap\Helper\LoggerHelper;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
-use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
-use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptions;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineString;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Exception\LogicException;
@@ -26,9 +26,7 @@ class RewriteEnginesCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -45,10 +43,10 @@ class RewriteEnginesCommand extends Command
      * @throws InvalidArgumentException
      * @throws LogicException
      * @throws DirectoryNotFoundException
-     * @throws InvalidNewLineStringException
-     * @throws InvalidIndentStyleException
-     * @throws InvalidIndentSizeException
-     * @throws InvalidJsonEncodeOptionsException
+     * @throws InvalidNewLineString
+     * @throws InvalidIndentStyle
+     * @throws InvalidIndentSize
+     * @throws InvalidJsonEncodeOptions
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {

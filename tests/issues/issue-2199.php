@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2199-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 10; MRX-AL09 Build/HUAWEIMRX-AL09) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/70.0.3538.64 HuaweiBrowser/10.0.1.337 Safari/537.36',

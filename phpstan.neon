@@ -32,15 +32,15 @@ parameters:
     -
       message: '~getTestFiles\(\) should return array~'
       path: src/Browscap/Helper/IteratorHelper.php
-    -
-      message: "~Offset '.*' does not exist on array~"
-      path: src/Browscap/Data/Factory/EngineFactory.php
+#    -
+#      message: "~Offset '.*' does not exist on array~"
+#      path: src/Browscap/Data/Factory/EngineFactory.php
     -
       message: "~array\\<'ActiveXControls'\\|'BackgroundSounds'\\|'Cookies'\\|'CssVersion'\\|'Frames'\\|'IFrames'\\|'JavaApplets'\\|'JavaScript'\\|'RenderingEngine…'\\|'RenderingEngine…'\\|'RenderingEngine_Name'\\|'RenderingEngine…'\\|'Tables'\\|'VBScript', bool\\|int\\|string\\> given~"
       path: src/Browscap/Data/Factory/EngineFactory.php
-    -
-      message: "~Offset '.*' does not exist on array~"
-      path: src/Browscap/Data/Factory/PlatformFactory.php
+#    -
+#      message: "~Offset '.*' does not exist on array~"
+#      path: src/Browscap/Data/Factory/PlatformFactory.php
 
     # some test where we check the data structure
     -

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-497-A' => [
         'ua' => 'Superfeedr bot/2.0 http://superfeedr.com - Make your feeds realtime: get in touch',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1740-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 4.1.1; en-us; O+ 8.36 Android Build/Oplus8.36_Oplus) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30',

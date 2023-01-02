@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace Browscap\Command\Helper;
 
 use Ergebnis\Json\Normalizer;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentSizeException;
-use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyleException;
-use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptionsException;
-use Ergebnis\Json\Normalizer\Exception\InvalidNewLineStringException;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
+use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
+use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptions;
+use Ergebnis\Json\Normalizer\Exception\InvalidNewLineString;
 use Ergebnis\Json\Printer\Printer;
 use Ergebnis\Json\SchemaValidator\SchemaValidator;
-use Exception;
 use JsonException;
 use JsonSchema\SchemaStorage;
 use Psr\Log\LoggerInterface;
@@ -23,7 +22,6 @@ use Throwable;
 
 use function assert;
 use function file_put_contents;
-use function sprintf;
 
 use const JSON_PRETTY_PRINT;
 use const JSON_THROW_ON_ERROR;
@@ -32,9 +30,7 @@ use const JSON_UNESCAPED_UNICODE;
 
 class RewriteHelper extends Helper
 {
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getName(): string
     {
         return 'rewrite';
@@ -42,26 +38,26 @@ class RewriteHelper extends Helper
 
     /**
      * @throws DirectoryNotFoundException
-     * @throws InvalidNewLineStringException
-     * @throws InvalidIndentStyleException
-     * @throws InvalidIndentSizeException
-     * @throws InvalidJsonEncodeOptionsException
+     * @throws InvalidNewLineString
+     * @throws InvalidIndentStyle
+     * @throws InvalidIndentSize
+     * @throws InvalidJsonEncodeOptions
      */
     public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false): void
     {
         $normalizer = new Normalizer\SchemaNormalizer(
             $schema,
             new SchemaStorage(),
-            new SchemaValidator()
+            new SchemaValidator(),
         );
         $format     = Normalizer\Format\Format::create(
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_THROW_ON_ERROR),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
-            true
+            true,
         );
         $printer    = new Printer();
-        $formatter  = new Normalizer\Format\Formatter($printer);
+        $formatter  = new Normalizer\Format\DefaultFormatter($printer);
 
         $finder = new Finder();
         $finder->files();
@@ -78,7 +74,13 @@ class RewriteHelper extends Helper
             try {
                 $json = $file->getContents();
             } catch (RuntimeException $e) {
-                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not readable',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }
@@ -90,7 +92,13 @@ class RewriteHelper extends Helper
                 try {
                     $json = $sorterHelper->sort($json);
                 } catch (JsonException $e) {
-                    $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                    $logger->critical(
+                        'File "{File}" had invalid JSON.',
+                        [
+                            'File' => $file->getPathname(),
+                            'Exception' => $e,
+                        ],
+                    );
 
                     continue;
                 }
@@ -99,7 +107,13 @@ class RewriteHelper extends Helper
             try {
                 $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
             } catch (Throwable $e) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not valid',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }

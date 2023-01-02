@@ -16,14 +16,9 @@ use function trim;
  */
 class PhpFormatter implements FormatterInterface
 {
-    private PropertyHolder $propertyHolder;
-
-    /**
-     * @throws void
-     */
-    public function __construct(PropertyHolder $propertyHolder)
+    /** @throws void */
+    public function __construct(private PropertyHolder $propertyHolder)
     {
-        $this->propertyHolder = $propertyHolder;
     }
 
     /**
@@ -73,7 +68,7 @@ class PhpFormatter implements FormatterInterface
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
                     $valueOutput = '"' . $this->propertyHolder->checkValueInArray($property, (string) $value) . '"';
-                } catch (InvalidArgumentException $ex) {
+                } catch (InvalidArgumentException) {
                     $valueOutput = '';
                 }
 

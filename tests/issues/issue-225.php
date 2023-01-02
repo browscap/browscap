@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-225' => [
         'ua' => 'New-Sogou-Spider/1.0 (compatible; MSIE 5.5; Windows 98)',

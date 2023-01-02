@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-637' => [
         'ua' => 'iTunes/12.0.1 (Macintosh; OS X 10.9.2) AppleWebKit/537.74.9',

@@ -32,8 +32,6 @@ use const FILE_SKIP_EMPTY_LINES;
 
 final class IniParser implements ParserInterface
 {
-    private string $filename;
-
     private bool $shouldSort = false;
 
     /** @var array<array<array<string>|string>> */
@@ -42,25 +40,18 @@ final class IniParser implements ParserInterface
     /** @var array<string> */
     private array $fileLines = [];
 
-    /**
-     * @throws void
-     */
-    public function __construct(string $filename)
+    /** @throws void */
+    public function __construct(private string $filename)
     {
-        $this->filename = $filename;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setShouldSort(bool $shouldSort): void
     {
         $this->shouldSort = $shouldSort;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function shouldSort(): bool
     {
         return $this->shouldSort;
@@ -76,9 +67,7 @@ final class IniParser implements ParserInterface
         return $this->data;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilename(): string
     {
         return $this->filename;

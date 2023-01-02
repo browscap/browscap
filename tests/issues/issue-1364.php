@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1364-A' => [
         'ua' => 'UCWEB/2.0 (Windows; U; wds 10.0; en-IN; Microsoft; RM-1067_1005) U2/1.0.0 UCBrowser/4.2.1.541 U2/1.0.0 Mobile',

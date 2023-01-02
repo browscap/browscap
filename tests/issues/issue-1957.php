@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1957-A' => [
         'ua' => 'Manzama Fetcher/2.0',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-459' => [
         'ua' => 'Facebot/1.0',

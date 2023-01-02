@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1626' => [
         'ua' => 'lua-resty-http/0.10 (Lua) ngx_lua/10000',

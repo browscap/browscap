@@ -69,7 +69,7 @@ class IteratorHelper
                         'UA "%s" added more than once, now for key "%s", before for key "%s"',
                         $test['ua'],
                         $key,
-                        $checks[$test['ua']]
+                        $checks[$test['ua']],
                     );
 
                     $logger->error($error);

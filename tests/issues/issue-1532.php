@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1532-A' => [
         'ua' => 'Snapchat/10.12.0.2 (iPhone8,1; iOS 10.3.2; gzip)',

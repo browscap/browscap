@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1621-A' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; fr; rv:1.9.2.19pre) Gecko/20110902 Prism zdesktop/7.2.5',

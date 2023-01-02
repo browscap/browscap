@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-562-A' => [
         'ua' => 'Cyberduck/4.6.4 (16610) (Windows XP/5.1) (x86)',

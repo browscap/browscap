@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-578-A' => [
         'ua' => 'check_http/v1.4.16 (nagios-plugins 1.4.16)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1642' => [
         'ua' => 'Mozilla/5.0 (X11; SunOS i86pc; rv:52.0) Gecko/20100101 Thunderbird/52.3.0',

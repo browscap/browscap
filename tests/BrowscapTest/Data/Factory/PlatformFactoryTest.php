@@ -16,9 +16,7 @@ class PlatformFactoryTest extends TestCase
 {
     private PlatformFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new PlatformFactory();

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1624-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.3; rv:31.0) Gecko/20100101 Framabird/31.2.0',

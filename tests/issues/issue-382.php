@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-382' => [
         'ua' => 'iOS/6.1.3 (10B329) dataaccessd/1.0',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2032-A' => [
         'ua' => 'TwitterAndroid/7.71.1-release.15 (8900196-r-15) TA-1028/8.0.0 (HMD Global;TA-1028;Nokia;TA-1028_00WW;0;;1;2013)',

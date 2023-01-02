@@ -16,9 +16,7 @@ class BrowserFactoryTest extends TestCase
 {
     private BrowserFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new BrowserFactory();

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-350-A' => [
         'ua' => 'Mozilla/5.0 (compatible; XoviBot/2.0; +http://www.xovibot.net/)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2033-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 7.1.1; SM-T380) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.99 Mobile Safari/537.36',

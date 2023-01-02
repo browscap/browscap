@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-531-A' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 7_1 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Mobile/11D167 [FBAN/FBIOS;FBAV/20.1.0.15.10;FBBV/5758778;FBDV/iPad2,4;FBMD/iPad;FBSN/iPhone OS;FBSV/7.1;FBSS/1; FBCR/;FBID/tablet;FBLC/da_DK;FBOP/1]',

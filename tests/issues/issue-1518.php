@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1518-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; X11; en-US; Valve Client/1439401440; ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-985-A' => [
         'ua' => 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; MI PAD MIUI/KXFCNBF2.0)',

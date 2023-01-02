@@ -26,9 +26,7 @@ use Psr\Log\LoggerInterface;
  */
 class FullCollectionFactory
 {
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function createCollection(LoggerInterface $logger, string $buildFolder): WriterCollection
     {
         $writerCollection = new WriterCollection();
