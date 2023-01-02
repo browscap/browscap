@@ -389,7 +389,6 @@ class JsonWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
@@ -512,7 +511,6 @@ class JsonWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
@@ -626,7 +624,6 @@ class JsonWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)

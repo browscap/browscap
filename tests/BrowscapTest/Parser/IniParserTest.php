@@ -104,7 +104,6 @@ final class IniParserTest extends TestCase
         $parser = new IniParser('');
 
         $sortMethod = new ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
-        $sortMethod->setAccessible(true);
         self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
 

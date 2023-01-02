@@ -47,7 +47,6 @@ class DataCollectionFactoryTest extends TestCase
             ->getMock();
 
         $property = new ReflectionProperty($this->object, 'collection');
-        $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
         $this->expectException(RuntimeException::class);
@@ -88,7 +87,6 @@ class DataCollectionFactoryTest extends TestCase
             ->willReturnSelf();
 
         $property = new ReflectionProperty($this->object, 'collection');
-        $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures/build-ok');

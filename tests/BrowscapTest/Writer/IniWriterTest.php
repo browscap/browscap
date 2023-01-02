@@ -357,7 +357,6 @@ class IniWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
@@ -474,7 +473,6 @@ class IniWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $useragent = $this->getMockBuilder(UserAgent::class)
@@ -603,7 +601,6 @@ class IniWriterTest extends TestCase
             ->willReturnArgument(0);
 
         $property = new ReflectionProperty($this->object, 'trimProperty');
-        $property->setAccessible(true);
         $property->setValue($this->object, $mockExpander);
 
         $division = $this->getMockBuilder(Division::class)
