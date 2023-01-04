@@ -955,7 +955,7 @@ class ExpanderTest extends TestCase
         $device2
             ->expects(static::exactly(2))
             ->method('getType')
-            ->willReturn('tablet');
+            ->willReturn('console');
 
         $platform1 = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
@@ -1136,7 +1136,7 @@ class ExpanderTest extends TestCase
         $device1
             ->expects(static::exactly(2))
             ->method('getType')
-            ->willReturn('tablet');
+            ->willReturn('tv');
 
         $device2 = $this->getMockBuilder(Device::class)
             ->disableOriginalConstructor()
@@ -1149,7 +1149,7 @@ class ExpanderTest extends TestCase
         $device2
             ->expects(static::exactly(2))
             ->method('getType')
-            ->willReturn('tablet');
+            ->willReturn('car-entertainment-system');
 
         $platform1 = $this->getMockBuilder(Platform::class)
             ->disableOriginalConstructor()
