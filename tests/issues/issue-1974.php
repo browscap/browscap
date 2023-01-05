@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1974-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:12.2) Gecko/20120605 Firefox/12.2 PaleMoon/12.2',

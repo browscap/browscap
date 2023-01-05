@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1634' => [
         'ua' => 'Microsoft Office/16.0 (Microsoft Outlook 16.0.8241; Pro)',

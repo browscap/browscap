@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1828-00000' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; Sgrunt|V109|3913|S1142691310|dial; ###186617437428792537435615###; Browsezilla; snprtz|S29715600000224|2600##2#5#1; .NET CLR 1.1.4322)',

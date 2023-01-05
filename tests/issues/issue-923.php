@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-923' => [
         'ua' => 'FeedlyBot/1.0 (http://feedly.com)',

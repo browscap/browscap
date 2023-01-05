@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2234-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Cincraw/1.0; +http://cincrawdata.net/bot/)',

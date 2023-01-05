@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1408-A' => [
         'ua' => 'SAMSUNG-B5722/B5722XXJA1, SAMSUNG-GT-B5722/B5722XXJA1 Profile/MIDP-2.0 Configuration/CLDC-1.1 Untrusted/1.0',

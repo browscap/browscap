@@ -20,8 +20,8 @@ class Browser
      */
     private array $properties = [];
 
-    private bool $isLite = false;
-
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
+    private bool $isLite     = false;
     private bool $isStandard = false;
 
     /**
@@ -60,17 +60,13 @@ class Browser
         return $this->properties;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isLite(): bool
     {
         return $this->isLite;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isStandard(): bool
     {
         return $this->isStandard;

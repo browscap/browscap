@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1663-A' => [
         'ua' => 'Mozilla/5.0 (rv:38) Thunderbird/MSSante-1.2.0',

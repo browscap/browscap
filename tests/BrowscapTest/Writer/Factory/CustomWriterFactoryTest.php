@@ -21,9 +21,7 @@ class CustomWriterFactoryTest extends TestCase
 
     private CustomWriterFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);

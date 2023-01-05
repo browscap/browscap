@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-148' => [
         'ua' => 'Yahoo:LinkExpander:Slingstone',

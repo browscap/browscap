@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-340' => [
         'ua' => 'Mozilla/5.0 (Android; U; -GB) AppleWebKit/533.19.4 (KHTML, like Gecko) AdobeAIR/13.0',

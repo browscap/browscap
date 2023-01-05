@@ -13,9 +13,7 @@ class RewriteTest extends TestCase
 {
     private RewriteHelper $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new RewriteHelper();

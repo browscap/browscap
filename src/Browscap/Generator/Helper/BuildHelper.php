@@ -40,7 +40,7 @@ final class BuildHelper
         LoggerInterface $logger,
         WriterCollection $writerCollection,
         DataCollectionFactory $dataCollectionFactory,
-        bool $collectPatternIds = false
+        bool $collectPatternIds = false,
     ): void {
         $logger->info('started creating a data collection');
 
@@ -134,7 +134,7 @@ final class BuildHelper
 
                     if (array_key_exists($sectionName, $allSections)) {
                         $logger->error(
-                            'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped'
+                            'tried to add section "' . $sectionName . '" from "' . $division->getName() . '" more than once -> skipped',
                         );
 
                         continue;
@@ -171,7 +171,7 @@ final class BuildHelper
         $sectionName = $ua->getUserAgent();
         $section     = array_merge(
             ['Parent' => 'DefaultProperties'],
-            $ua->getProperties()
+            $ua->getProperties(),
         );
 
         if (! $collectPatternIds) {

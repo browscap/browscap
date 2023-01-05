@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1801-A' => [
         'ua' => 'WhatsApp/2.18.20 i',

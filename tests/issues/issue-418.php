@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-418-A' => [
         'ua' => 'Mozilla/5.0 (compatible; 200PleaseBot/1.0; +http://www.200please.com/bot)',

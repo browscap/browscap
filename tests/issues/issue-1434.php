@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1434-A' => [
         'ua' => 'Mozilla/4.0 (compatible MSIE 8.0 Windows NT 6.0 en) Opera 11.00',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-174' => [
         'ua' => 'Mozilla/5.0 (compatible; spbot/4.0.9; +http://OpenLinkProfiler.org/bot )',

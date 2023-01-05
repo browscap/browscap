@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-924' => [
         'ua' => 'PayPal IPN ( https://www.paypal.com/ipn )',

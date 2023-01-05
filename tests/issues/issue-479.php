@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-479' => [
         'ua' => 'facebookscraper/1.0( http://www.facebook.com/sharescraper_help.php)',

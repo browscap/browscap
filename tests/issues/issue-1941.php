@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1941-A' => [
         'ua' => 'BLP_bbot/0.1',

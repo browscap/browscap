@@ -15,9 +15,7 @@ class PropertiesValidatorTest extends TestCase
 {
     private PropertiesValidator $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new PropertiesValidator();

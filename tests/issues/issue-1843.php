@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1843-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone iPhone OS/10.3.2 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Mobile/13G36 Snapchat/10.13.2.0',

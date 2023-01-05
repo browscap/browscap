@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-227' => [
         'ua' => 'RankFlex.com Webspider',

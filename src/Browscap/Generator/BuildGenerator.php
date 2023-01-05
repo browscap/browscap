@@ -24,29 +24,18 @@ final class BuildGenerator implements GeneratorInterface
 
     private string $buildFolder;
 
-    private LoggerInterface $logger;
-
-    private DataCollectionFactory $dataCollectionFactory;
-
-    private WriterCollection $writerCollection;
-
     private bool $collectPatternIds = false;
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function __construct(
         string $resourceFolder,
         string $buildFolder,
-        LoggerInterface $logger,
-        WriterCollection $writerCollection,
-        DataCollectionFactory $dataCollectionFactory
+        private LoggerInterface $logger,
+        private WriterCollection $writerCollection,
+        private DataCollectionFactory $dataCollectionFactory,
     ) {
-        $this->resourceFolder        = $this->checkDirectoryExists($resourceFolder);
-        $this->buildFolder           = $this->checkDirectoryExists($buildFolder);
-        $this->logger                = $logger;
-        $this->writerCollection      = $writerCollection;
-        $this->dataCollectionFactory = $dataCollectionFactory;
+        $this->resourceFolder = $this->checkDirectoryExists($resourceFolder);
+        $this->buildFolder    = $this->checkDirectoryExists($buildFolder);
     }
 
     /**
@@ -67,7 +56,7 @@ final class BuildGenerator implements GeneratorInterface
             $this->logger,
             $this->writerCollection,
             $this->dataCollectionFactory,
-            $this->collectPatternIds
+            $this->collectPatternIds,
         );
 
         if (! $createZipFile) {
@@ -116,9 +105,7 @@ final class BuildGenerator implements GeneratorInterface
         $this->collectPatternIds = $value;
     }
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     private function checkDirectoryExists(string $directory): string
     {
         $realDirectory = realpath($directory);

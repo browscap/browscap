@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-904-A' => [
         'ua' => 'Rome Client (http://tinyurl.com/64t5n)',

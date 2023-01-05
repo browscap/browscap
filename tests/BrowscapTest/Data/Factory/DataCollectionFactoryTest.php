@@ -23,9 +23,7 @@ class DataCollectionFactoryTest extends TestCase
 {
     private DataCollectionFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $logger = $this->createMock(LoggerInterface::class);
@@ -49,7 +47,6 @@ class DataCollectionFactoryTest extends TestCase
             ->getMock();
 
         $property = new ReflectionProperty($this->object, 'collection');
-        $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
         $this->expectException(RuntimeException::class);
@@ -90,7 +87,6 @@ class DataCollectionFactoryTest extends TestCase
             ->willReturnSelf();
 
         $property = new ReflectionProperty($this->object, 'collection');
-        $property->setAccessible(true);
         $property->setValue($this->object, $collection);
 
         $result = $this->object->createDataCollection(__DIR__ . '/../../../fixtures/build-ok');
@@ -113,7 +109,7 @@ class DataCollectionFactoryTest extends TestCase
         $this->expectExceptionMessage('it was tried to add device "unknown", but this was already added before');
 
         $this->object->createDataCollection(
-            __DIR__ . '/../../../fixtures/duplicate-device-entries'
+            __DIR__ . '/../../../fixtures/duplicate-device-entries',
         );
     }
 
@@ -131,7 +127,7 @@ class DataCollectionFactoryTest extends TestCase
         $this->expectExceptionMessage('it was tried to add browser "chrome", but this was already added before');
 
         $this->object->createDataCollection(
-            __DIR__ . '/../../../fixtures/duplicate-browser-entries'
+            __DIR__ . '/../../../fixtures/duplicate-browser-entries',
         );
     }
 

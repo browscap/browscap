@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-909' => [
         'ua' => 'Echoping/6.0.2',

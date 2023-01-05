@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
-use Exception;
 use JsonException;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
@@ -43,7 +42,6 @@ use function json_decode;
 use function json_encode;
 use function key;
 use function mb_strpos;
-use function sprintf;
 use function uksort;
 
 use const JSON_THROW_ON_ERROR;
@@ -55,9 +53,7 @@ class RewriteDivisionsCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -97,7 +93,12 @@ class RewriteDivisionsCommand extends Command
         $content = file_get_contents($resources . '/platforms/platforms.json');
 
         if ($content === false) {
-            $logger->critical('could not read File "' . $resources . '/platforms.json"');
+            $logger->critical(
+                'File "{File}" is not readable',
+                [
+                    'File' => $resources . '/platforms.json',
+                ],
+            );
 
             return self::FAILURE;
         }
@@ -105,7 +106,13 @@ class RewriteDivisionsCommand extends Command
         try {
             $allPlatforms = json_decode($content, true, 512, JSON_THROW_ON_ERROR);
         } catch (JsonException $e) {
-            $logger->critical(new Exception(sprintf('file "%s" is not valid', $resources . '/platforms.json'), 0, $e));
+            $logger->critical(
+                'File "{File}" is not valid',
+                [
+                    'File' => $resources . '/platforms.json',
+                    'Exception' => $e,
+                ],
+            );
 
             return self::FAILURE;
         }
@@ -128,7 +135,13 @@ class RewriteDivisionsCommand extends Command
             try {
                 $json = $file->getContents();
             } catch (RuntimeException $e) {
-                $logger->critical(new Exception(sprintf('could not read file "%s"', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not readable',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }
@@ -136,7 +149,13 @@ class RewriteDivisionsCommand extends Command
             try {
                 $divisionData = json_decode($json, true, 512, JSON_THROW_ON_ERROR);
             } catch (JsonException $e) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid', $file->getPathname()), 0, $e));
+                $logger->critical(
+                    'File "{File}" is not valid',
+                    [
+                        'File' => $file->getPathname(),
+                        'Exception' => $e,
+                    ],
+                );
 
                 continue;
             }
@@ -144,37 +163,67 @@ class RewriteDivisionsCommand extends Command
             assert(is_array($divisionData));
 
             if (! array_key_exists('division', $divisionData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! "division" property is missing', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! "division" property is missing',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
 
                 continue;
             }
 
             if (! array_key_exists('sortIndex', $divisionData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! "sortIndex" property is missing', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! "sortIndex" property is missing',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
 
                 continue;
             }
 
             if (! array_key_exists('lite', $divisionData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! "lite" property is missing', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! "lite" property is missing',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
 
                 continue;
             }
 
             if (! array_key_exists('standard', $divisionData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! "standard" property is missing', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! "standard" property is missing',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
 
                 continue;
             }
 
             if (! array_key_exists('userAgents', $divisionData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is missing', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! userAgents section is missing',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
 
                 continue;
             }
 
             if (! is_array($divisionData['userAgents'])) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is not an array', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! userAgents section is not an array',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
                 unset($divisionData['userAgents']);
 
                 continue;
@@ -184,14 +233,24 @@ class RewriteDivisionsCommand extends Command
                 if (is_array($divisionData['versions'])) {
                     $divisionData['versions'] = $this->sortVersions($divisionData);
                 } else {
-                    $logger->critical(new Exception(sprintf('file "%s" is not valid! versions section is not an array', $file->getPathname())));
+                    $logger->critical(
+                        'File "{File}" is not valid! versions section is not an array',
+                        [
+                            'File' => $file->getPathname(),
+                        ],
+                    );
                     unset($divisionData['versions']);
                 }
             }
 
             foreach ($divisionData['userAgents'] as $key => $useragentData) {
                 if (! is_int($key)) {
-                    $logger->critical(new Exception(sprintf('file "%s" is not valid! not-numeric key in userAgents section found', $file->getPathname())));
+                    $logger->critical(
+                        'File "{File}" is not valid! not-numeric key in userAgents section found',
+                        [
+                            'File' => $file->getPathname(),
+                        ],
+                    );
                     unset($divisionData['userAgents'][$key]);
 
                     continue;
@@ -201,11 +260,16 @@ class RewriteDivisionsCommand extends Command
                     $useragentData,
                     $file,
                     $logger,
-                    $allPlatforms
+                    $allPlatforms,
                 );
 
                 if (empty($useragentData)) {
-                    $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgents section is empty', $file->getPathname())));
+                    $logger->critical(
+                        'File "{File}" is not valid! userAgents section is empty',
+                        [
+                            'File' => $file->getPathname(),
+                        ],
+                    );
                     unset($divisionData['userAgents'][$key]);
 
                     continue;
@@ -250,7 +314,7 @@ class RewriteDivisionsCommand extends Command
             $platformVersions,
             SORT_NUMERIC,
             SORT_ASC,
-            $platforms
+            $platforms,
         );
 
         return $platforms;
@@ -299,7 +363,7 @@ class RewriteDivisionsCommand extends Command
             $keyVersions,
             SORT_ASC,
             SORT_NUMERIC,
-            $divisionData['versions']
+            $divisionData['versions'],
         );
 
         assert(is_array($divisionData['versions']));
@@ -325,10 +389,15 @@ class RewriteDivisionsCommand extends Command
         array $useragentData,
         SplFileInfo $file,
         LoggerInterface $logger,
-        array $allPlatforms
+        array $allPlatforms,
     ): array {
         if (! array_key_exists('userAgent', $useragentData)) {
-            $logger->critical(new Exception(sprintf('file "%s" is not valid! userAgent property is missing', $file->getPathname())));
+            $logger->critical(
+                'File "{File}" is not valid! userAgent property is missing',
+                [
+                    'File' => $file->getPathname(),
+                ],
+            );
 
             return [];
         }
@@ -343,7 +412,7 @@ class RewriteDivisionsCommand extends Command
                     $useragentData['properties']['Browser_Maker'],
                     $useragentData['properties']['isSyndicationReader'],
                     $useragentData['properties']['Crawler'],
-                    $useragentData['properties']['Division']
+                    $useragentData['properties']['Division'],
                 );
 
                 if (empty($useragentData['properties'])) {
@@ -357,7 +426,12 @@ class RewriteDivisionsCommand extends Command
         }
 
         if (! is_array($useragentData['children'])) {
-            $logger->critical(new Exception(sprintf('file "%s" is not valid! children section is not an array', $file->getPathname())));
+            $logger->critical(
+                'File "{File}" is not valid! children section is not an array',
+                [
+                    'File' => $file->getPathname(),
+                ],
+            );
             unset($useragentData['children']);
 
             return $useragentData;
@@ -365,7 +439,12 @@ class RewriteDivisionsCommand extends Command
 
         foreach ($useragentData['children'] as $key => $childData) {
             if (! is_int($key)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! not-numeric key in children section found', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! not-numeric key in children section found',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
                 unset($useragentData['children'][$key]);
 
                 continue;
@@ -375,11 +454,16 @@ class RewriteDivisionsCommand extends Command
                 $childData,
                 $file,
                 $logger,
-                $allPlatforms
+                $allPlatforms,
             );
 
             if (empty($childData)) {
-                $logger->critical(new Exception(sprintf('file "%s" is not valid! children section is empty', $file->getPathname())));
+                $logger->critical(
+                    'File "{File}" is not valid! children section is empty',
+                    [
+                        'File' => $file->getPathname(),
+                    ],
+                );
                 unset($useragentData['children'][$key]);
 
                 continue;
@@ -403,10 +487,15 @@ class RewriteDivisionsCommand extends Command
         array $childData,
         SplFileInfo $file,
         LoggerInterface $logger,
-        array $allPlatforms
+        array $allPlatforms,
     ): array {
         if (! array_key_exists('match', $childData)) {
-            $logger->critical(new Exception(sprintf('file "%s" is not valid! match property is missing', $file->getPathname())));
+            $logger->critical(
+                'File "{File}" is not valid! match property is missing',
+                [
+                    'File' => $file->getPathname(),
+                ],
+            );
 
             return [];
         }
@@ -421,7 +510,7 @@ class RewriteDivisionsCommand extends Command
                     $childData['properties']['Browser_Maker'],
                     $childData['properties']['isSyndicationReader'],
                     $childData['properties']['Crawler'],
-                    $childData['properties']['Division']
+                    $childData['properties']['Division'],
                 );
 
                 if (empty($childData['properties'])) {
@@ -440,7 +529,13 @@ class RewriteDivisionsCommand extends Command
         }
 
         if (array_key_exists('device', $childData)) {
-            $logger->warning(sprintf('file "%s" is not valid! device property is used in section "%s", try to use the devices property', $file->getPathname(), $childData['match']));
+            $logger->warning(
+                'File "{File}" is not valid! device property is used in section "{match}", try to use the devices property',
+                [
+                    'File' => $file->getPathname(),
+                    'match' => $childData['match'],
+                ],
+            );
         }
 
         if (! array_key_exists('platforms', $childData)) {

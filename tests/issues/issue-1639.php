@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1639' => [
         'ua' => 'Pocomail/4.8.4400',

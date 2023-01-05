@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1417-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU OS 8.1.2 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) 1Password/5.2 (like Version/12B440 Mobile/8.1.2 Safari/8536.25)',

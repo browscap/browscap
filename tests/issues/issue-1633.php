@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1633-A' => [
         'ua' => 'AtomicBrowser/7.0.1 CFNetwork/758.5.3 Darwin/15.6.0',

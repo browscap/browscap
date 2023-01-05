@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-993-A' => [
         'ua' => 'okhttp/2.7.5',

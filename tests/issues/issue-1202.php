@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1202-1' => [
         'ua' => 'Mozilla/5.0 (compatible; IBrowse 3.0; AmigaOS4.0)',

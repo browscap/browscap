@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1920-A' => [
         'ua' => 'Shopkeep-Pocket/4.4.0.389 (Android/7.0 LGE LG-H820)',

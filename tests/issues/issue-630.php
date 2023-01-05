@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-630' => [
         'ua' => 'mbot v.1.16',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1523-A' => [
         'ua' => 'Mozilla/5.0 (compatible; SemrushBot-BA; +http://www.semrush.com/bot.html)',

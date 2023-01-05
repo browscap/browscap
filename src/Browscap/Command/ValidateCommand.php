@@ -7,6 +7,7 @@ namespace Browscap\Command;
 use Browscap\Helper\LoggerHelper;
 use Exception;
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Exception\ExceptionInterface;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Input\ArrayInput;
 use Symfony\Component\Console\Input\InputInterface;
@@ -20,9 +21,7 @@ class ValidateCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;
@@ -37,6 +36,7 @@ class ValidateCommand extends Command
      * @return int 0 if everything went fine, or an error code
      *
      * @throws Exception
+     * @throws ExceptionInterface
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
@@ -61,7 +61,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-browsers',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);
@@ -78,7 +78,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-devices',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);
@@ -95,7 +95,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-engines',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);
@@ -112,7 +112,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-platforms',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);
@@ -129,7 +129,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-core-divisions',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);
@@ -146,7 +146,7 @@ class ValidateCommand extends Command
             [
                 'command' => 'validate-divisions',
                 '--resources' => $resources,
-            ]
+            ],
         );
 
         $returnCode = $command->run($input, $output);

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1770-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; rv:52.0) Gecko/20100101 AOLShield/52.4.2',

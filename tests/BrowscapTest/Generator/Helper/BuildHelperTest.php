@@ -27,9 +27,7 @@ class BuildHelperTest extends TestCase
 {
     private LoggerInterface $logger;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->logger = $this->createMock(LoggerInterface::class);
@@ -215,14 +213,14 @@ class BuildHelperTest extends TestCase
                     'RenderingEngine_Description' => 'unknown',
                     'RenderingEngine_Maker' => 'unknown',
                     'PatternId' => 'resources/core/default-browser.json::u0',
-                ]
+                ],
             );
 
         $division
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
         $division
             ->expects(static::once())
@@ -238,7 +236,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $defaultProperties]
+                [0 => $defaultProperties],
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -394,7 +392,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(3))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
         $division
             ->expects(static::exactly(2))
@@ -464,7 +462,7 @@ class BuildHelperTest extends TestCase
                     'RenderingEngine_Description' => 'unknown',
                     'RenderingEngine_Maker' => 'unknown',
                     'PatternId' => 'resources/core/default-browser.json::u0',
-                ]
+                ],
             );
 
         $coreDivision = $this->getMockBuilder(Division::class)
@@ -476,7 +474,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(3))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $defaultProperties]
+                [0 => $defaultProperties],
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -632,7 +630,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $useragent]
+                [0 => $useragent],
             );
         $division
             ->expects(static::once())
@@ -702,7 +700,7 @@ class BuildHelperTest extends TestCase
                     'RenderingEngine_Description' => 'unknown',
                     'RenderingEngine_Maker' => 'unknown',
                     'PatternId' => 'resources/core/default-browser.json::u0',
-                ]
+                ],
             );
 
         $coreDivision = $this->getMockBuilder(Division::class)
@@ -714,7 +712,7 @@ class BuildHelperTest extends TestCase
             ->expects(static::exactly(2))
             ->method('getUserAgents')
             ->willReturn(
-                [0 => $defaultProperties]
+                [0 => $defaultProperties],
             );
 
         $collection = $this->getMockBuilder(DataCollection::class)
@@ -766,7 +764,7 @@ class BuildHelperTest extends TestCase
                     'renderSectionHeader',
                     'renderSectionBody',
                     'fileEnd',
-                ]
+                ],
             )
             ->getMock();
 
@@ -809,7 +807,7 @@ class BuildHelperTest extends TestCase
             $this->logger,
             $writerCollection,
             $dataCollectionFactory,
-            false
+            false,
         );
     }
 }

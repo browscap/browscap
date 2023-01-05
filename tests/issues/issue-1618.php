@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1618-A' => [
         'ua' => 'CamelHttpStream/1.0 Evolution/3.2.3',

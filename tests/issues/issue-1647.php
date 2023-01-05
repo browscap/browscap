@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1647-A' => [
         'ua' => 'Apple-PubSub/65',

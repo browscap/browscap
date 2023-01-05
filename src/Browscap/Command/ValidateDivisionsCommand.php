@@ -21,9 +21,7 @@ class ValidateDivisionsCommand extends Command
 {
     private const DEFAULT_RESOURCES_FOLDER = '/../../../resources';
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $defaultResourceFolder = __DIR__ . self::DEFAULT_RESOURCES_FOLDER;

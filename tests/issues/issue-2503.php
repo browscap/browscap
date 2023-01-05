@@ -1,5 +1,7 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
+
 return [
     'issue-2503-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Adsbot/3.1; +https://seostar.co/robot/)',

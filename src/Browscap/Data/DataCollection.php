@@ -38,9 +38,7 @@ class DataCollection
 
     private bool $divisionsHaveBeenSorted = false;
 
-    /**
-     * @param string $platformName Name of the platform
-     */
+    /** @param string $platformName Name of the platform */
     public function addPlatform(string $platformName, Platform $platform): void
     {
         $this->platforms[$platformName] = $platform;
@@ -48,9 +46,7 @@ class DataCollection
         $this->divisionsHaveBeenSorted = false;
     }
 
-    /**
-     * @param string $engineName Name of the engine
-     */
+    /** @param string $engineName Name of the engine */
     public function addEngine(string $engineName, Engine $engine): void
     {
         $this->engines[$engineName] = $engine;
@@ -67,7 +63,7 @@ class DataCollection
     {
         if (array_key_exists($browserName, $this->browsers)) {
             throw new DuplicateDataException(
-                sprintf('it was tried to add browser "%s", but this was already added before', $browserName)
+                sprintf('it was tried to add browser "%s", but this was already added before', $browserName),
             );
         }
 
@@ -85,7 +81,7 @@ class DataCollection
     {
         if (array_key_exists($deviceName, $this->devices)) {
             throw new DuplicateDataException(
-                sprintf('it was tried to add device "%s", but this was already added before', $deviceName)
+                sprintf('it was tried to add device "%s", but this was already added before', $deviceName),
             );
         }
 
@@ -158,7 +154,7 @@ class DataCollection
             $sortPosition,
             SORT_DESC,
             SORT_NUMERIC, // if the sortIndex is identical the later added file comes first
-            $this->divisions
+            $this->divisions,
         );
 
         $this->divisionsHaveBeenSorted = true;
@@ -189,7 +185,7 @@ class DataCollection
     {
         if (! array_key_exists($platform, $this->platforms)) {
             throw new OutOfBoundsException(
-                'Platform "' . $platform . '" does not exist in data'
+                'Platform "' . $platform . '" does not exist in data',
             );
         }
 
@@ -205,7 +201,7 @@ class DataCollection
     {
         if (! array_key_exists($engine, $this->engines)) {
             throw new OutOfBoundsException(
-                'Rendering Engine "' . $engine . '" does not exist in data'
+                'Rendering Engine "' . $engine . '" does not exist in data',
             );
         }
 
@@ -221,7 +217,7 @@ class DataCollection
     {
         if (! array_key_exists($browser, $this->browsers)) {
             throw new OutOfBoundsException(
-                'Browser "' . $browser . '" does not exist in data'
+                'Browser "' . $browser . '" does not exist in data',
             );
         }
 
@@ -237,7 +233,7 @@ class DataCollection
     {
         if (! array_key_exists($device, $this->devices)) {
             throw new OutOfBoundsException(
-                'Device "' . $device . '" does not exist in data'
+                'Device "' . $device . '" does not exist in data',
             );
         }
 

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-620' => [
         'ua' => 'this user agent should never exist hopefully as it is is only used in browscap tests',

@@ -13,14 +13,9 @@ use Browscap\Writer\WriterInterface;
  */
 class FullFilter implements FilterInterface
 {
-    private PropertyHolder $propertyHolder;
-
-    /**
-     * @throws void
-     */
-    public function __construct(PropertyHolder $propertyHolder)
+    /** @throws void */
+    public function __construct(private PropertyHolder $propertyHolder)
     {
-        $this->propertyHolder = $propertyHolder;
     }
 
     /**

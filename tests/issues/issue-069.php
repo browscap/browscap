@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-069' => [
         'ua' => 'ContextAd Bot 1.0',

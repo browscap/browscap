@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1613-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.4.2; AdTab 7 Lite Build/KVT49L) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Safari/537.36 bdbrowser_i18n/4.7.0.5',

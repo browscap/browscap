@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-329-A' => [
         'ua' => 'AppStore/2.0 iOS/7.1.1 model/iPhone5,1 build/11D201 (6; dt:79)',

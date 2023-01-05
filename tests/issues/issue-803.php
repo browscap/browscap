@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-803-A' => [
         'ua' => 'Instagram 3.4.1 (iPhone5,1; iPhone OS 6.0.2; en_US; en) AppleWebKit/420+',

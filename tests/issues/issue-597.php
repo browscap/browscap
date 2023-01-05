@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-597' => [
         'ua' => 'AddThis.com robot tech.support@clearspring.com',

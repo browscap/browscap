@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1996-A' => [
         'ua' => 'Mozilla/5.0 (en-US) AppleWebKit/537.36 (KHTML, like Gecko; Google-Assess) Chrome/34.0.1847.116 Safari/537.36',

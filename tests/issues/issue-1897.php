@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1897-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Coveobot/2.0;+http://www.coveo.com/bot.html',

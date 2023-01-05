@@ -6,9 +6,7 @@ namespace Browscap\Data\Factory;
 
 use Browscap\Data\UserAgent;
 
-/**
- * @phpstan-import-type UserAgentData from UserAgent
- */
+/** @phpstan-import-type UserAgentData from UserAgent */
 class UserAgentFactory
 {
     /**
@@ -37,7 +35,7 @@ class UserAgentFactory
                 $useragent['platform'] ?? null,
                 $useragent['engine'] ?? null,
                 $useragent['device'] ?? null,
-                $useragent['browser'] ?? null
+                $useragent['browser'] ?? null,
             );
         }
 

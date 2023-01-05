@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1833-A' => [
         'ua' => 'Mixmax-LinkPreview 1.0 (+https://sdk.mixmax.com)',

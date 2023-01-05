@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2126-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Embedly/0.2; +http://support.embed.ly/)',

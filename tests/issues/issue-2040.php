@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2040-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Eyeotabot/1.0; +http://www.eyeota.com) The Audience Technology Platform | Eyeota',

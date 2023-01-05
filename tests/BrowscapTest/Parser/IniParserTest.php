@@ -25,9 +25,7 @@ use function sys_get_temp_dir;
 use function tempnam;
 use function unlink;
 
-/**
- * @covers \Browscap\Parser\IniParser
- */
+/** @covers \Browscap\Parser\IniParser */
 final class IniParserTest extends TestCase
 {
     /**
@@ -106,7 +104,6 @@ final class IniParserTest extends TestCase
         $parser = new IniParser('');
 
         $sortMethod = new ReflectionMethod('\Browscap\Parser\IniParser', 'sortArrayAndChildArrays');
-        $sortMethod->setAccessible(true);
         self::assertSame($sorted, $sortMethod->invokeArgs($parser, [$unsorted]));
     }
 

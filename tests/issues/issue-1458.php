@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1458-A' => [
         'ua' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30',

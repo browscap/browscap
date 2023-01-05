@@ -13,11 +13,16 @@ namespace Browscap\Data;
  */
 class Device
 {
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $type;
 
-    /** @var array<string, string> */
+    /**
+     * @var array<string, string>
+     * @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion
+     */
     private array $properties = [];
 
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $standard = false;
 
     /**
@@ -32,9 +37,7 @@ class Device
         $this->standard   = $standard;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getType(): string
     {
         return $this->type;
@@ -50,9 +53,7 @@ class Device
         return $this->properties;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isStandard(): bool
     {
         return $this->standard;

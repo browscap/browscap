@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1021' => [
         'ua' => 'GetIntent Crawler (http://getintent.com/bot.html)',

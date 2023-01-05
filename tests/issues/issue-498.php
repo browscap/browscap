@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-498-A' => [
         'ua' => 'curl/7.35.0',

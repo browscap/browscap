@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-416' => [
         'ua' => 'Pinterest/0.2 (+http://www.pinterest.com/)',

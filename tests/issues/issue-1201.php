@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1201' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru-RU) AppleWebKit/533.3 (KHTML, like Gecko) SecondLife/3.7.28.300847 (Second Life Release; default skin) Safari/533.3',

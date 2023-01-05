@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-844' => [
         'ua' => 'Mozilla/5.0 (compatible; yoozBot-2.2; http://yooz.ir; info@yooz.ir)',

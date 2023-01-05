@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-651-A' => [
         'ua' => 'AdSheet/1.0 CFNetwork/548.1.4 Darwin/11.0.0',

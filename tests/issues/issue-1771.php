@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1771-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Taboolabot/3.7; +http://www.taboola.com)',

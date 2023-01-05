@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1176' => [
         'ua' => 'Mozilla/5.0 (compatible; PRTG Network Monitor (www.paessler.com); Windows)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1400-A' => [
         'ua' => 'Alcatel-BF3/1.0 UP.Browser/4.1.23a',

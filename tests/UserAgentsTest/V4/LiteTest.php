@@ -54,9 +54,7 @@ class LiteTest extends TestCase
 
     private static WriterInterface $writer;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public static function setUpBeforeClass(): void
     {
         // First, generate the INI files
@@ -126,14 +124,14 @@ class LiteTest extends TestCase
                 $buildFolder,
                 $logger,
                 $writerCollection,
-                $dataCollectionFactory
+                $dataCollectionFactory,
             );
 
             $buildGenerator->setCollectPatternIds(true);
             $buildGenerator->run($version, new DateTimeImmutable(), false);
 
             $cache = new SimpleCache(
-                new MemoryStore()
+                new MemoryStore(),
             );
             $cache->clear();
 
@@ -149,7 +147,7 @@ class LiteTest extends TestCase
                 'Browscap ini file could not be built in %s test class, there was an uncaught exception: %s (%s)' . PHP_EOL,
                 self::class,
                 $e::class,
-                $e->getMessage()
+                $e->getMessage(),
             );
 
             exit(1);
@@ -187,7 +185,7 @@ class LiteTest extends TestCase
 
         if (! empty($errors)) {
             throw new RuntimeException(
-                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors)
+                'Errors occured while collecting test files' . PHP_EOL . implode(PHP_EOL, $errors),
             );
         }
 
@@ -223,21 +221,21 @@ class LiteTest extends TestCase
             static::assertFalse(
                 self::$propertyHolder->isDeprecatedProperty($propName),
                 'Actual result expects to test for deprecated property "' . $propName . '"'
-                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
+                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")',
             );
 
             static::assertArrayHasKey(
                 $propName,
                 $actualProps,
                 'Actual result does not have "' . $propName . '" property'
-                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
+                . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")',
             );
 
             static::assertSame(
                 $propValue,
                 $actualProps[$propName],
                 'Expected actual "' . $propName . '" to be "' . $propValue . '" (was "' . $actualProps[$propName]
-                . '"; used pattern: "' . $actualProps['browser_name_pattern'] . '")'
+                . '"; used pattern: "' . $actualProps['browser_name_pattern'] . '")',
             );
         }
     }

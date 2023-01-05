@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1423-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.0; rv:25.3) Gecko/20150425 BlackHawk/25.3.1',

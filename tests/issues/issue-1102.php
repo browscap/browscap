@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1102' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:7.0.1) Gecko/20151105 Postbox/4.0.8',

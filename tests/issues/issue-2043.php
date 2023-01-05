@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2043-A' => [
         'ua' => 'Mozilla/5.0 (compatible; SEOmonitorBot/1.0)',

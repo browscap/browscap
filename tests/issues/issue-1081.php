@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1081' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1.1; ASUS MeMO Pad 7 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.89 Safari/537.36',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-409' => [
         'ua' => 'CRAZYWEBCRAWLER 0.9.0, http://www.crazywebcrawler.com',

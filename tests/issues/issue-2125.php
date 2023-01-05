@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2125-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-T830 Build/PPR1.180610.011) AppleWebKit 537.36 (KHTML, like Gecko) SamsungBrowser/8.0 Chrome/63.0.4349.111 Safari/537.36',

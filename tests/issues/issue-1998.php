@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1998-A' => [
         'ua' => 'Mozilla/5.0 (Android 8.0.0; SM-G950F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.9 YaaniBrowser/4.2.0.186 (Turkcell-TR) Mobile Safari/537.36',

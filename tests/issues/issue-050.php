@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-050-2' => [
         'ua' => 'Mozilla/5.0 (X11; Linux) AppleWebKit/531.2+ Midori/0.3',

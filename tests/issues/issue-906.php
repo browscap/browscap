@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-906' => [
         'ua' => 'SetLinks bot 1.0',

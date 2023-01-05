@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2375-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Seekport Crawler; http://seekport.com/)',

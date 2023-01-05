@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1648' => [
         'ua' => 'Mozilla/5.0 (Windows; U; Windows NT 6.2; fr-FR; rv:1.4) Gecko/20030624 Netscape/7.1 (ax)',

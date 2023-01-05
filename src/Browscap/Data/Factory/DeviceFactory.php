@@ -11,9 +11,7 @@ use RuntimeException;
 use UaDeviceType\TypeLoader;
 use UnexpectedValueException;
 
-/**
- * @phpstan-import-type DeviceData from Device
- */
+/** @phpstan-import-type DeviceData from Device */
 final class DeviceFactory
 {
     /**

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1959-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 5.1; vivo 1707 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.102 Mobile Safari/537.36 VivoBrowser/5.2.0',

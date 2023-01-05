@@ -9,6 +9,7 @@ use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\PsrHandler;
 use Monolog\Logger;
 use Psr\Log\LoggerInterface;
+use Psr\Log\LogLevel;
 use Symfony\Component\Console\Logger\ConsoleLogger;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -26,7 +27,7 @@ class LoggerHelper
         $psrHandler    = new PsrHandler($consoleLogger);
 
         $logger->pushHandler($psrHandler);
-        $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, Logger::NOTICE));
+        $logger->pushHandler(new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, LogLevel::NOTICE));
 
         ErrorHandler::register($logger);
 

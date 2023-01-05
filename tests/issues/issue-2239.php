@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2239-A' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 7.1.2; zh-CN; MZ-M6 Note Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.97 MZBrowser/8.5.1 Mobile Safari/537.36',

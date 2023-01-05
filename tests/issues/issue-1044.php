@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1044-A' => [
         'ua' => 'Mozilla/4.0 (compatible; Lotus-Notes/5.0; Windows-NT)',

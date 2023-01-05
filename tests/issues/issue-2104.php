@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2104-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 9; ONEPLUS A6000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36 V1_AND_SQ_7.7.6_899_GM_D QQ/7.7.6.3680 NetType/WIFI WebP/0.4.1 Pixel/1080',

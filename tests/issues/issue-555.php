@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-555' => [
         'ua' => 'Mozilla/5.0 (compatible; Qwantify/2.0; +https://www.qwant.com/)',

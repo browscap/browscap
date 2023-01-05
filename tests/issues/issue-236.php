@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-236' => [
         'ua' => 'Mozilla/5.0 (compatible;picmole/1.0 +http://www.picmole.com)',

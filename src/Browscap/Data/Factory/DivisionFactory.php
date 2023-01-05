@@ -10,16 +10,11 @@ use function is_array;
 use function mb_strpos;
 use function mb_substr;
 
-/**
- * @phpstan-import-type DivisionData from Division
- */
+/** @phpstan-import-type DivisionData from Division */
 final class DivisionFactory
 {
-    private UserAgentFactory $useragentFactory;
-
-    public function __construct(UserAgentFactory $useragentFactory)
+    public function __construct(private UserAgentFactory $useragentFactory)
     {
-        $this->useragentFactory = $useragentFactory;
     }
 
     /**
@@ -31,7 +26,7 @@ final class DivisionFactory
     public function build(
         array $divisionData,
         string $filename,
-        bool $isCore
+        bool $isCore,
     ): Division {
         if (isset($divisionData['versions']) && is_array($divisionData['versions'])) {
             $versions = $divisionData['versions'];
@@ -46,7 +41,7 @@ final class DivisionFactory
             (bool) $divisionData['lite'],
             (bool) $divisionData['standard'],
             $versions,
-            mb_substr($filename, (int) mb_strpos($filename, 'resources/'))
+            mb_substr($filename, (int) mb_strpos($filename, 'resources/')),
         );
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1649-A' => [
         'ua' => 'gvfs/1.22.2',

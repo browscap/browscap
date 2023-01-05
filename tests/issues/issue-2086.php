@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2086-A' => [
         'ua' => 'Trackuity (+http://trackuity.com)',

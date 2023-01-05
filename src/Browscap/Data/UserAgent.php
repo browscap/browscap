@@ -13,6 +13,7 @@ namespace Browscap\Data;
  */
 class UserAgent
 {
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $userAgent = '';
 
     /**
@@ -27,13 +28,17 @@ class UserAgent
      */
     private array $children = [];
 
-    private ?string $platform = null;
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
+    private string|null $platform = null;
 
-    private ?string $engine = null;
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
+    private string|null $engine = null;
 
-    private ?string $device = null;
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
+    private string|null $device = null;
 
-    private ?string $browser = null;
+    /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
+    private string|null $browser = null;
 
     /**
      * @param array<string> $properties
@@ -47,10 +52,10 @@ class UserAgent
         string $userAgent,
         array $properties,
         array $children = [],
-        ?string $platform = null,
-        ?string $engine = null,
-        ?string $device = null,
-        ?string $browser = null
+        string|null $platform = null,
+        string|null $engine = null,
+        string|null $device = null,
+        string|null $browser = null,
     ) {
         $this->userAgent  = $userAgent;
         $this->properties = $properties;
@@ -61,9 +66,7 @@ class UserAgent
         $this->browser    = $browser;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getUserAgent(): string
     {
         return $this->userAgent;
@@ -91,34 +94,26 @@ class UserAgent
         return $this->children;
     }
 
-    /**
-     * @throws void
-     */
-    public function getPlatform(): ?string
+    /** @throws void */
+    public function getPlatform(): string|null
     {
         return $this->platform;
     }
 
-    /**
-     * @throws void
-     */
-    public function getEngine(): ?string
+    /** @throws void */
+    public function getEngine(): string|null
     {
         return $this->engine;
     }
 
-    /**
-     * @throws void
-     */
-    public function getDevice(): ?string
+    /** @throws void */
+    public function getDevice(): string|null
     {
         return $this->device;
     }
 
-    /**
-     * @throws void
-     */
-    public function getBrowser(): ?string
+    /** @throws void */
+    public function getBrowser(): string|null
     {
         return $this->browser;
     }

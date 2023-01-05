@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-925' => [
         'ua' => 'Comodo SSL Checker',

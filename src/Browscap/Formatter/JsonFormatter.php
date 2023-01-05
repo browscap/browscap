@@ -19,14 +19,9 @@ use const JSON_THROW_ON_ERROR;
  */
 class JsonFormatter implements FormatterInterface
 {
-    private PropertyHolder $propertyHolder;
-
-    /**
-     * @throws void
-     */
-    public function __construct(PropertyHolder $propertyHolder)
+    /** @throws void */
+    public function __construct(private PropertyHolder $propertyHolder)
     {
-        $this->propertyHolder = $propertyHolder;
     }
 
     /**
@@ -75,7 +70,7 @@ class JsonFormatter implements FormatterInterface
             case PropertyHolder::TYPE_IN_ARRAY:
                 try {
                     $valueOutput = json_encode($this->propertyHolder->checkValueInArray($property, (string) $value), JSON_THROW_ON_ERROR);
-                } catch (InvalidArgumentException $ex) {
+                } catch (InvalidArgumentException) {
                     $valueOutput = '""';
                 }
 

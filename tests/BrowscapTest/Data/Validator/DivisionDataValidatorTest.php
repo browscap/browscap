@@ -14,9 +14,7 @@ class DivisionDataValidatorTest extends TestCase
 {
     private DivisionDataValidator $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new DivisionDataValidator();

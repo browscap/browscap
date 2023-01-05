@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1972-A' => [
         'ua' => 'Mozilla/5.0 (compatible; localsearch-web/2.0; +http://www.localsearch.ch/en/legal-notice)',

@@ -14,9 +14,7 @@ use UnexpectedValueException;
 
 class CheckDuplicateTestsCommand extends Command
 {
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     protected function configure(): void
     {
         $this

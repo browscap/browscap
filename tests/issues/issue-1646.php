@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1646-A' => [
         'ua' => 'Athens15_TD/V2 Linux/3.0.13 Android/5.1 andy_5EI3 Release/02.15.2012 Browser/AppleWebKit534.30 Mobile Safari/534.30 System/Android 5.1;',

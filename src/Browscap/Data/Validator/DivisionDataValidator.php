@@ -40,7 +40,7 @@ class DivisionDataValidator implements ValidatorInterface
         array $divisionData,
         string $filename,
         array $allDivisions = [],
-        bool $isCore = false
+        bool $isCore = false,
     ): array {
         Assertion::keyExists($divisionData, 'division', 'required attibute "division" is missing in File ' . $filename);
         Assertion::string($divisionData['division'], 'required attibute "division" has to be a string in File ' . $filename);
@@ -92,7 +92,7 @@ class DivisionDataValidator implements ValidatorInterface
         array $allDivisions,
         bool $isCore,
         string $filename,
-        int $index
+        int $index,
     ): void {
         Assertion::keyExists($useragentData, 'userAgent', 'required attibute "userAgent" is missing in userAgents section ' . $index . ' in File ' . $filename);
         Assertion::string($useragentData['userAgent'], 'required attibute "userAgent" has to be a string in userAgents section ' . $index . ' in File ' . $filename);
@@ -115,7 +115,7 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'Division "' . $useragentData['userAgent']
-                . '" is defined with version placeholders, but no versions are set in file "' . $filename . '"'
+                . '" is defined with version placeholders, but no versions are set in file "' . $filename . '"',
             );
         }
 
@@ -127,7 +127,7 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'Division "' . $useragentData['userAgent']
-                . '" is defined without version placeholders, but there are versions set in file "' . $filename . '"'
+                . '" is defined without version placeholders, but there are versions set in file "' . $filename . '"',
             );
         }
 
@@ -146,7 +146,7 @@ class DivisionDataValidator implements ValidatorInterface
         if (! array_key_exists('Version', $useragentData['properties']) && $versions !== ['0.0']) {
             throw new LogicException(
                 'the "Version" property is missing for key "' . $useragentData['userAgent'] . '" in file "' . $filename
-                . '", but there are defined versions'
+                . '", but there are defined versions',
             );
         }
 
@@ -164,7 +164,7 @@ class DivisionDataValidator implements ValidatorInterface
             ) {
                 throw new LogicException(
                     'the "Version" property has version placeholders for key "' . $useragentData['userAgent'] . '" in file "' . $filename
-                    . '", but no versions are defined'
+                    . '", but no versions are defined',
                 );
             }
 
@@ -176,7 +176,7 @@ class DivisionDataValidator implements ValidatorInterface
             ) {
                 throw new LogicException(
                     'the "Version" property has no version placeholders for key "' . $useragentData['userAgent'] . '" in file "' . $filename
-                    . '", but versions are defined'
+                    . '", but versions are defined',
                 );
             }
         }
@@ -184,30 +184,30 @@ class DivisionDataValidator implements ValidatorInterface
         $this->checkPlatformProperties(
             $useragentData['properties'],
             'the properties array contains platform data for key "' . $useragentData['userAgent']
-            . '", please use the "platform" keyword'
+            . '", please use the "platform" keyword',
         );
 
         $this->checkEngineProperties(
             $useragentData['properties'],
             'the properties array contains engine data for key "' . $useragentData['userAgent']
-            . '", please use the "engine" keyword'
+            . '", please use the "engine" keyword',
         );
 
         $this->checkDeviceProperties(
             $useragentData['properties'],
             'the properties array contains device data for key "' . $useragentData['userAgent']
-            . '", please use the "device" keyword'
+            . '", please use the "device" keyword',
         );
 
         $this->checkBrowserProperties(
             $useragentData['properties'],
             'the properties array contains browser data for key "' . $useragentData['userAgent']
-            . '", please use the "browser" keyword'
+            . '", please use the "browser" keyword',
         );
 
         $this->checkDeprecatedProperties(
             $useragentData['properties'],
-            'the properties array contains deprecated properties for key "' . $useragentData['userAgent'] . '"'
+            'the properties array contains deprecated properties for key "' . $useragentData['userAgent'] . '"',
         );
 
         Assertion::keyExists($useragentData, 'children', 'required attibute "children" is missing in userAgents section ' . $index . ' in File ' . $filename);
@@ -236,7 +236,7 @@ class DivisionDataValidator implements ValidatorInterface
         if (array_key_exists('device', $childData) && array_key_exists('devices', $childData)) {
             throw new LogicException(
                 'a child entry may not define both the "device" and the "devices" entries for key "'
-                . $useragentData['userAgent'] . '"'
+                . $useragentData['userAgent'] . '"',
             );
         }
 
@@ -249,7 +249,7 @@ class DivisionDataValidator implements ValidatorInterface
             ) {
                 throw new LogicException(
                     'the "devices" entry contains multiple devices but there is no #DEVICE# token for key "'
-                    . $useragentData['userAgent'] . '"'
+                    . $useragentData['userAgent'] . '"',
                 );
             }
         }
@@ -273,7 +273,7 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'the key "' . $childData['match']
-                . '" is defined with platform placeholder, but no platforms are assigned'
+                . '" is defined with platform placeholder, but no platforms are assigned',
             );
         }
 
@@ -286,7 +286,7 @@ class DivisionDataValidator implements ValidatorInterface
             ) {
                 throw new LogicException(
                     'the "platforms" entry contains multiple platforms but there is no #PLATFORM# token for key "'
-                    . $useragentData['userAgent'] . '"'
+                    . $useragentData['userAgent'] . '"',
                 );
             }
         }
@@ -298,7 +298,7 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'the key "' . $childData['match']
-                . '" is defined with version placeholders, but no versions are set'
+                . '" is defined with version placeholders, but no versions are set',
             );
         }
 
@@ -311,7 +311,7 @@ class DivisionDataValidator implements ValidatorInterface
             if (! array_key_exists('platforms', $childData)) {
                 throw new LogicException(
                     'the key "' . $childData['match']
-                    . '" is defined without version placeholders, but there are versions set'
+                    . '" is defined without version placeholders, but there are versions set',
                 );
             }
 
@@ -328,7 +328,7 @@ class DivisionDataValidator implements ValidatorInterface
             if (! $dynamicPlatforms) {
                 throw new LogicException(
                     'the key "' . $childData['match']
-                    . '" is defined without version placeholders, but there are versions set'
+                    . '" is defined without version placeholders, but there are versions set',
                 );
             }
         }
@@ -339,7 +339,7 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'the key "' . $childData['match']
-                . '" is defined with device placeholder, but no devices are assigned'
+                . '" is defined with device placeholder, but no devices are assigned',
             );
         }
 
@@ -358,37 +358,37 @@ class DivisionDataValidator implements ValidatorInterface
         ) {
             throw new LogicException(
                 'the "Version" property is set for key "' . $childData['match']
-                . '", but was already set for its parent "' . $useragentData['userAgent'] . '" with the same value'
+                . '", but was already set for its parent "' . $useragentData['userAgent'] . '" with the same value',
             );
         }
 
         $this->checkPlatformProperties(
             $childData['properties'],
             'the properties array contains platform data for key "' . $childData['match']
-            . '", please use the "platforms" keyword'
+            . '", please use the "platforms" keyword',
         );
 
         $this->checkEngineProperties(
             $childData['properties'],
             'the properties array contains engine data for key "' . $childData['match']
-            . '", please use the "engine" keyword'
+            . '", please use the "engine" keyword',
         );
 
         $this->checkDeviceProperties(
             $childData['properties'],
             'the properties array contains device data for key "' . $childData['match']
-            . '", please use the "device" or the "devices" keyword'
+            . '", please use the "device" or the "devices" keyword',
         );
 
         $this->checkBrowserProperties(
             $childData['properties'],
             'the properties array contains browser data for key "' . $childData['match']
-            . '", please use the "browser" keyword'
+            . '", please use the "browser" keyword',
         );
 
         $this->checkDeprecatedProperties(
             $childData['properties'],
-            'the properties array contains deprecated properties for key "' . $childData['match'] . '"'
+            'the properties array contains deprecated properties for key "' . $childData['match'] . '"',
         );
     }
 

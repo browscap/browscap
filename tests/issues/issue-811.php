@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-811-A' => [
         'ua' => 'Mozilla/5.0 (compatible; Scopia Crawler 1.2; +http://www.scopia.co)',

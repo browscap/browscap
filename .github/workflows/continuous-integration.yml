@@ -69,6 +69,7 @@ jobs:
 
         php-version:
           - "8.1"
+          - "8.2"
 
     steps:
       - name: "Checkout"
@@ -92,7 +93,7 @@ jobs:
   install:
     name: "Install dependencies"
 
-    needs: "validate"
+    needs: "lint"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -108,6 +109,7 @@ jobs:
 
         php-version:
           - "8.1"
+          - "8.2"
 
         dependencies:
           - "lowest"
@@ -122,6 +124,10 @@ jobs:
             experimental: false
           - operating-system: "ubuntu-20.04"
             php-version: "8.2"
+            dependencies: "locked"
+            experimental: false
+          - operating-system: "ubuntu-20.04"
+            php-version: "8.3"
             dependencies: "highest"
             experimental: true
 
@@ -175,7 +181,7 @@ jobs:
   coding-standards:
     name: "Check Coding Standards with PHPCS"
 
-    needs: "validate"
+    needs: "lint"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -217,12 +223,12 @@ jobs:
           composer-options: "${{ env.COMPOSER_OPTIONS }} --prefer-stable"
 
       - name: "Run squizlabs/php_codesniffer"
-        run: "vendor/bin/phpcs --report=checkstyle -q | cs2pr"
+        run: "vendor/bin/phpcs --cache=.phpcs.cache --report=checkstyle -q | cs2pr"
 
   static-code-analysis:
     name: "Static Code Analysis with PHPStan"
 
-    needs: "validate"
+    needs: "lint"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -269,7 +275,7 @@ jobs:
   validate-sources:
     name: "Validate sources and tests"
 
-    needs: "validate"
+    needs: "lint"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -320,7 +326,7 @@ jobs:
   tests:
     name: "UnitTests with PHPUnit"
 
-    needs: "validate"
+    needs: "lint"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -335,6 +341,7 @@ jobs:
 
         php-version:
           - "8.1"
+          - "8.2"
 
         dependencies:
           - "highest"
@@ -436,6 +443,7 @@ jobs:
 
         php-version:
           - "8.1"
+          - "8.2"
 
         dependencies:
           - "highest"

@@ -15,9 +15,7 @@ class UseragentFactoryTest extends TestCase
 {
     private UserAgentFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new UserAgentFactory();

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-308' => [
         'ua' => 'Microsoft Office Excel 2013',

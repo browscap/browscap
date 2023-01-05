@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1082-A' => [
         'ua' => 'msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)',

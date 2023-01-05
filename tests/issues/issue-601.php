@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-601' => [
         'ua' => 'Mozilla/5.0 (compatible; worldwebheritage.org/1.0; +crawl@worldwebheritage.org)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1810-A' => [
         'ua' => 'Jersey/2.6 (HttpUrlConnection 1.8.0_152)',

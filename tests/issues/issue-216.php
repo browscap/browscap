@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-216' => [
         'ua' => 'Mozilla/5.0 (compatible; WebmasterCoffee/0.7; +http://webmastercoffee.com/about)',

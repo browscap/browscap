@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-860-A' => [
         'ua' => 'SoundCloud/3.0.0 build 2547; iPhone/iPhone OS/7.1.1',

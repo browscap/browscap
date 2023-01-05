@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1876-A' => [
         'ua' => 'Mozilla/5.0 (compatible; MailPoet Cron/1.0; +http://docs.mailpoet.com/article/241-cron-service)',

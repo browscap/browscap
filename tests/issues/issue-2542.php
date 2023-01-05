@@ -1,16 +1,17 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 
 return [
     'issue-2542-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) VonageBusiness/2.9.9 Chrome/87.0.4280.141 Electron/11.3.0 Safari/537.36',
         'properties' => [
             'Comment' => 'Electron 11.3',
-            "Platform"=> "Win10",
-            "Platform_Description"=> "Windows 10",
+            'Platform' => 'Win10',
+            'Platform_Description' => 'Windows 10',
             'Platform_Version' => '10.0',
-            "Browser" => "Electron",
-            "Browser_Version" => "11.3",
+            'Browser' => 'Electron',
+            'Browser_Version' => '11.3',
         ],
         'lite' => false,
         'standard' => true,
@@ -19,10 +20,10 @@ return [
     'issue-2542-B' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) edu_proxy/3.15.0 Chrome/91.0.4472.164 Electron/13.2.0 Safari/537.36',
         'properties' => [
-            "Comment" => 'Electron 13.2',
-            "Browser_Version" => "Electron",
-            "Browser_Version" => "13.2",
-            "Platform"=> "Linux",
+            'Comment' => 'Electron 13.2',
+            'Browser_Version' => 'Electron',
+            'Browser_Version' => '13.2',
+            'Platform' => 'Linux',
         ],
         'lite' => false,
         'standard' => true,
@@ -31,10 +32,10 @@ return [
     'issue-2542-C' => [
         'ua' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) edu_proxy/3.0.0 Chrome/85.0.4183.98 Electron/10.1.2 Safari/537.36',
         'properties' => [
-            "Comment" => 'Electron 10.1',
-            "Browser_Version" => "Electron",
-            "Browser_Version" => "10.1",
-            "Platform"=> "Linux",
+            'Comment' => 'Electron 10.1',
+            'Browser_Version' => 'Electron',
+            'Browser_Version' => '10.1',
+            'Platform' => 'Linux',
         ],
         'lite' => false,
         'standard' => true,

@@ -30,8 +30,6 @@ use const PHP_EOL;
  */
 class CsvWriter implements WriterInterface
 {
-    private LoggerInterface $logger;
-
     /** @var resource */
     private $file;
 
@@ -44,13 +42,10 @@ class CsvWriter implements WriterInterface
     /** @var bool[] */
     private array $outputProperties = [];
 
-    /**
-     * @throws InvalidArgumentException
-     */
-    public function __construct(string $file, LoggerInterface $logger)
+    /** @throws InvalidArgumentException */
+    public function __construct(string $file, private LoggerInterface $logger)
     {
-        $this->logger = $logger;
-        $ressource    = fopen($file, 'w');
+        $ressource = fopen($file, 'w');
 
         if ($ressource === false) {
             throw new InvalidArgumentException(sprintf('An error occured while opening File: %s', $file));
@@ -79,50 +74,38 @@ class CsvWriter implements WriterInterface
         fclose($this->file);
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFormatter(FormatterInterface $formatter): void
     {
         $this->formatter = $formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFormatter(): FormatterInterface
     {
         return $this->formatter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setFilter(FilterInterface $filter): void
     {
         $this->filter           = $filter;
         $this->outputProperties = [];
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilter(): FilterInterface
     {
         return $this->filter;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function setSilent(bool $silent): void
     {
         $this->silent = $silent;
     }
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function isSilent(): bool
     {
         return $this->silent;
@@ -207,7 +190,7 @@ class CsvWriter implements WriterInterface
         $defaultproperties = $ua->getProperties();
         $properties        = array_merge(
             ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
-            array_keys($defaultproperties)
+            array_keys($defaultproperties),
         );
 
         $values = [];
@@ -268,7 +251,7 @@ class CsvWriter implements WriterInterface
         $defaultproperties = $ua->getProperties();
         $properties        = array_merge(
             ['PropertyName', 'MasterParent', 'LiteMode', 'Parent'],
-            array_keys($defaultproperties)
+            array_keys($defaultproperties),
         );
 
         $section['PropertyName'] = $sectionName;

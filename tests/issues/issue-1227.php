@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1227' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_1_1 like Mac OS X; ja-JP) AppleWebKit/537.36 (KHTML, like Gecko)  Version/10.1.1 Mobile/14B100 Safari/537.36 Puffin/5.1.3IP',

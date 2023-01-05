@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1625-A' => [
         'ua' => 'Mozilla/5.0 (compatible Konqueror/3.0 i686 Linux 20020825)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1597-A' => [
         'ua' => '20090717_aa_page (larbin2.6.3@unspecified.mail)',

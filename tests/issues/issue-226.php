@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-226' => [
         'ua' => 'Mozilla/5.0 (compatible; oBot/2.3.1; +http://filterdb.iss.net/crawler/)',

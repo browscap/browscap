@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1695-A' => [
         'ua' => 'Dalvik/1.2.0 (Linux; U; Android 2.2; GT-P1000 Build/FROYO)',

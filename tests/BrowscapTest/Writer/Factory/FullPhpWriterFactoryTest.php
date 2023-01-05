@@ -20,9 +20,7 @@ class FullPhpWriterFactoryTest extends TestCase
 
     private FullPhpWriterFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         vfsStream::setup(self::STORAGE_DIR);

@@ -13,9 +13,7 @@ use Symfony\Component\Console\Exception\LogicException;
 
 class BrowscapTest extends TestCase
 {
-    /**
-     * @throws CommandNotFoundException
-     */
+    /** @throws CommandNotFoundException */
     private static function assertAppHasCommand(Application $app, string $command): void
     {
         $cmdObject = $app->get($command);

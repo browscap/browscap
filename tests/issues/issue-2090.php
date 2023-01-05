@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-2090-A' => [
         'ua' => 'HTTPie/1.0.2',

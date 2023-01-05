@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-573-A' => [
         'ua' => 'Microsoft Office Word 2013 (15.0.4693) Windows NT 6.2',

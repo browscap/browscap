@@ -24,9 +24,7 @@ class WriterCollectionTest extends TestCase
 {
     private WriterCollection $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new WriterCollection();
@@ -199,7 +197,7 @@ class WriterCollectionTest extends TestCase
                     'released' => $date->format('r'),
                     'format' => $formatterType,
                     'type' => $filterType,
-                ]
+                ],
             );
 
         $this->object->addWriter($mockWriter);

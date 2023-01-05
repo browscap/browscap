@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1604-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.0.3; Lenovo A390t Build/IML74K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.102 YaBrowser/14.2.1700.12535.00 Mobile Safari/537.36',

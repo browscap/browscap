@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-163' => [
         'ua' => 'Validator.nu/LV http://validator.w3.org/services',

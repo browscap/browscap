@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1785-A' => [
         'ua' => 'MBCrawler/1.0 (https://monitorbacklinks.com)',

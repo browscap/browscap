@@ -18,9 +18,7 @@ class PropertyHolderTest extends TestCase
 {
     private PropertyHolder $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new PropertyHolder();
@@ -93,9 +91,7 @@ class PropertyHolderTest extends TestCase
         static::assertSame($expectedType, $actualType, sprintf('Property %s should be %s (was %s)', $propertyName, $expectedType, $actualType));
     }
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function testGetPropertyTypeThrowsExceptionIfPropertyNameNotMapped(): void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -485,9 +481,7 @@ class PropertyHolderTest extends TestCase
         static::assertSame($propertyValue, $actualValue);
     }
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function testCheckValueInArrayExceptionUndfinedProperty(): void
     {
         $this->expectException(InvalidArgumentException::class);
@@ -496,9 +490,7 @@ class PropertyHolderTest extends TestCase
         $this->object->checkValueInArray('abc', 'bcd');
     }
 
-    /**
-     * @throws InvalidArgumentException
-     */
+    /** @throws InvalidArgumentException */
     public function testCheckValueInArrayExceptionWrongValue(): void
     {
         $this->expectException(InvalidArgumentException::class);

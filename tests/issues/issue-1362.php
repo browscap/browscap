@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1362-A' => [
         'ua' => 'Opera/8.50 (Macintosh; U; fr)',

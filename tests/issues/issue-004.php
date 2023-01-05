@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-004' => [
         'ua' => 'Mozilla/5.0 (PLAYSTATION 3; 2.00)',

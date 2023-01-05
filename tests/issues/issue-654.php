@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-654' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 6.0; Windows CE)',

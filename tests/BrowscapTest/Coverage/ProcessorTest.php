@@ -53,7 +53,7 @@ final class ProcessorTest extends TestCase
         $coverage = $this->object->processFile(
             $fileName,
             $content,
-            []
+            [],
         );
 
         self::assertCount($expected['statementCount'], $coverage['statementMap']);
@@ -161,7 +161,7 @@ final class ProcessorTest extends TestCase
         $coverage = $this->object->processFile(
             $fileName,
             $content,
-            $coveredIds
+            $coveredIds,
         );
 
         self::assertSame($expected['s'], array_sum($coverage['s']));
@@ -196,7 +196,7 @@ final class ProcessorTest extends TestCase
                 'def.json' => ['u0::c1::d::p'],
                 'ghi.json' => ['u0::c1::d::p'],
             ],
-            $this->object->getCoveredPatternIds()
+            $this->object->getCoveredPatternIds(),
         );
     }
 }

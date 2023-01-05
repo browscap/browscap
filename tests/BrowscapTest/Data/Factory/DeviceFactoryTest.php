@@ -16,9 +16,7 @@ class DeviceFactoryTest extends TestCase
 {
     private DeviceFactory $object;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     protected function setUp(): void
     {
         $this->object = new DeviceFactory();

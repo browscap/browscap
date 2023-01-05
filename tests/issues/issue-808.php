@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-808-A' => [
         'ua' => 'Googlebot',

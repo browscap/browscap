@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     // Mozilla removed support for Windows 98 in Firefox 3.0 (2.0.x is the last version that supported Windows 98)
     // https://bugzilla.mozilla.org/show_bug.cgi?id=330276

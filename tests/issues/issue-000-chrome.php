@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'chrome34' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1760.0 Safari/537.36',

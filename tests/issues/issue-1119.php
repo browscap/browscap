@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1119' => [
         'ua' => 'Kurio/3.1.9 Build 66400(Android Kitkat 4.4.4; Phone)',

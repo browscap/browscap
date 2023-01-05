@@ -15,20 +15,13 @@ use function in_array;
  */
 class CustomFilter implements FilterInterface
 {
-    /** @var array<string> */
-    private array $fields = [];
-
-    private PropertyHolder $propertyHolder;
-
     /**
      * @param array<string> $fields
      *
      * @throws void
      */
-    public function __construct(PropertyHolder $propertyHolder, array $fields)
+    public function __construct(private PropertyHolder $propertyHolder, private array $fields = [])
     {
-        $this->fields         = $fields;
-        $this->propertyHolder = $propertyHolder;
     }
 
     /**

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1668' => [
         'ua' => 'ZoomBot (Linkbot 1.0 http://suite.seozoom.it/bot.html)',

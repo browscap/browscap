@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-807' => [
         'ua' => 'Mozilla/5.0 (compatible; Orangebot/2.0; support.orangebot@orange.com)',

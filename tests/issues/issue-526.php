@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-526-A' => [
         'ua' => 'bot-pge.chlooe.com/1.0.0 (+http://www.chlooe.com/)',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-245' => [
         'ua' => 'Mozilla/5.0 (compatible; Zollard; Linux)',

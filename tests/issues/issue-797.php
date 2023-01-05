@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-797' => [
         'ua' => 'mozilla/5.0 (iphone; cpu iphone os 8_3 like mac os x) applewebkit/600.1.4 (khtml, like gecko) version/8.0 mobile/12f70 safari/600.1.4 (compatible; googlebot/2.1; +http://www.google.com/bot.html)',

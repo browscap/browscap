@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1677-A' => [
         'ua' => 'Mozilla/5.0 (Windows NT 6.1; stumbleupon.com) Chrome/58.0.3029.110 Safari/537.36',

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-728-A' => [
         'ua' => 'Mozilla/5.0 (Linux; Android 4.2.2; Plane 10.5 3G PS1005MG Build/JDQ39) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 YaBrowser/15.4.2272.3842.01 Safari/537.36',

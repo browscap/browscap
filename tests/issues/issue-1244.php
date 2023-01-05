@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1244' => [
         'ua' => 'RedFlagDealsApp/3.7.2 (Linux; U; Android 4.1.1; en-ca; Arc Build/JRO03L) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30',

@@ -44,8 +44,6 @@ class DataCollectionFactory
 {
     private DataCollection $collection;
 
-    private LoggerInterface $logger;
-
     private DivisionFactory $divisionFactory;
 
     private DeviceFactory $deviceFactory;
@@ -55,12 +53,9 @@ class DataCollectionFactory
     /** @var array<string> */
     private array $allDivisions = [];
 
-    /**
-     * @throws void
-     */
-    public function __construct(LoggerInterface $logger)
+    /** @throws void */
+    public function __construct(private LoggerInterface $logger)
     {
-        $this->logger                = $logger;
         $useragentFactory            = new UserAgentFactory();
         $this->divisionFactory       = new DivisionFactory($useragentFactory);
         $this->deviceFactory         = new DeviceFactory();
@@ -108,7 +103,7 @@ class DataCollectionFactory
             $this->logger,
             function (string $file): void {
                 $this->addPlatformsFile($file);
-            }
+            },
         );
 
         $this->logger->debug('add engine file');
@@ -118,7 +113,7 @@ class DataCollectionFactory
             $this->logger,
             function (string $file): void {
                 $this->addEnginesFile($file);
-            }
+            },
         );
 
         $this->logger->debug('add file for default properties');
@@ -132,7 +127,7 @@ class DataCollectionFactory
             $this->logger,
             function (string $file): void {
                 $this->addDevicesFile($file);
-            }
+            },
         );
 
         $iterator(
@@ -140,7 +135,7 @@ class DataCollectionFactory
             $this->logger,
             function (string $file): void {
                 $this->addBrowserFile($file);
-            }
+            },
         );
 
         $iterator(
@@ -148,7 +143,7 @@ class DataCollectionFactory
             $this->logger,
             function (string $file): void {
                 $this->addSourceFile($file);
-            }
+            },
         );
 
         return $this->collection;
@@ -180,7 +175,7 @@ class DataCollectionFactory
 
             $this->collection->addPlatform(
                 $platformName,
-                $platformFactory->build($platformData, $decodedFileContent, $platformName)
+                $platformFactory->build($platformData, $decodedFileContent, $platformName),
             );
         }
     }
@@ -209,7 +204,7 @@ class DataCollectionFactory
 
             $this->collection->addEngine(
                 $engineName,
-                $engineFactory->build($engineData, $decodedFileContent, $engineName)
+                $engineFactory->build($engineData, $decodedFileContent, $engineName),
             );
         }
     }
@@ -288,8 +283,8 @@ class DataCollectionFactory
             $this->divisionFactory->build(
                 $divisionData,
                 $filename,
-                false
-            )
+                false,
+            ),
         );
     }
 
@@ -313,8 +308,8 @@ class DataCollectionFactory
             $this->divisionFactory->build(
                 $divisionData,
                 $filename,
-                true
-            )
+                true,
+            ),
         );
     }
 
@@ -338,8 +333,8 @@ class DataCollectionFactory
             $this->divisionFactory->build(
                 $divisionData,
                 $filename,
-                true
-            )
+                true,
+            ),
         );
     }
 
@@ -366,7 +361,7 @@ class DataCollectionFactory
             throw new RuntimeException(
                 'File "' . $filename . '" had invalid JSON.',
                 0,
-                $e
+                $e,
             );
         }
 

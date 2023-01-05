@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1939-A' => [
         'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_4 like Mac OS X; zh-CN) AppleWebKit/537.51.1 (KHTML, like Gecko) Mobile/15F79 UCBrowser/12.0.5.1082 Mobile  AliApp(TUnionSDK/0.1.20.3)',

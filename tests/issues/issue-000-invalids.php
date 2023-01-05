@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * This fixture file contains useragents that should be considered "invalid" and thus parse to the Default Browser.
  * These useragents are maintained here in order to prevent new patterns from accidentally picking up these agents.

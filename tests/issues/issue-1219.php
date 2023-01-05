@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'issue-1219-000' => [
         'ua' => 'Mozilla/4.0 (compatible; MSIE 4.01; Mac_PowerPC)',

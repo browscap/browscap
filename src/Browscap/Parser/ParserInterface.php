@@ -30,8 +30,6 @@ interface ParserInterface
      */
     public function getParsed(): array;
 
-    /**
-     * @throws void
-     */
+    /** @throws void */
     public function getFilename(): string;
 }
