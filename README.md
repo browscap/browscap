@@ -182,6 +182,7 @@ Note: It is not possible to build a custom browscap.ini file with the CLI comman
 
 ```php
 $logger = new \Monolog\Logger('browscap'); // or maybe any other PSR-3 compatible Logger
+// If using Monolog, you need specify a log handler, e.g. for STDOUT: $logger->pushHandler(new \Monolog\Handler\ErrorLogHandler());
 
 $format = \Browscap\Formatter\FormatterInterface::TYPE_PHP; // you may choose the output format you want, the format must be already supported
 $file   = null; // you may set a custom file name here
