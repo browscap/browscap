@@ -182,6 +182,7 @@ Note: It is not possible to build a custom browscap.ini file with the CLI comman
 
 ```php
 $logger = new \Monolog\Logger('browscap'); // or maybe any other PSR-3 compatible Logger
+// If using Monolog, you need specify a log handler, e.g. for STDOUT: $logger->pushHandler(new \Monolog\Handler\ErrorLogHandler());
 
 $format = \Browscap\Formatter\FormatterInterface::TYPE_PHP; // you may choose the output format you want, the format must be already supported
 $file   = null; // you may set a custom file name here
@@ -190,7 +191,7 @@ $fields = []; // choose the fields you want inside of your browscap file
 $resourceFolder = 'resources/'; // please point to the resources directory inside the project
 $buildFolder = ''; // choose the directory where the generated file should be written to
 
-$writerCollection = (new \Browscap\Writer\Factory\CustomWriterFactory())->createCollection($logger, $buildFolder, $file, $fields);
+$writerCollection = (new \Browscap\Writer\Factory\CustomWriterFactory())->createCollection($logger, $buildFolder, $file, $fields, $format);
 
 $dataCollectionFactory = new \Browscap\Data\Factory\DataCollectionFactory($logger);
 
@@ -202,10 +203,11 @@ $buildGenerator = new BuildGenerator(
     $dataCollectionFactory
 );
 
-$version       = '';    // what you want to be written into the generated file
-$createZipFile = false; // It is not possible yet to create a zipped version of a custom named browscap file
+$version       = '';                       // version what you want to be written into the generated file
+$dateTime      = new \DateTimeImmutable(); // date what you want to be written into the generated file
+$createZipFile = false;                    // It is not possible yet to create a zipped version of a custom named browscap file
 
-$buildGenerator->run($version, $createZipFile);
+$buildGenerator->run($version, $dateTime, $createZipFile);
 ```
 
 ## Issues and feature requests
