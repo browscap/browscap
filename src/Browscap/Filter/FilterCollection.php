@@ -10,10 +10,20 @@ use Browscap\Writer\WriterInterface;
 /**
  * with this filter it is possible to combine other filters
  */
-class FilterCollection
+class FilterCollection implements FilterInterface
 {
     /** @var FilterInterface[] */
     private array $filters = [];
+
+    /**
+     * returns the Type of the filter
+     *
+     * @throws void
+     */
+    public function getType(): string
+    {
+        return FilterInterface::TYPE_COLLECTION;
+    }
 
     /**
      * add a new filter to the collection
