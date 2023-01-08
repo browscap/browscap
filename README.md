@@ -190,7 +190,7 @@ $fields = []; // choose the fields you want inside of your browscap file
 $resourceFolder = 'resources/'; // please point to the resources directory inside the project
 $buildFolder = ''; // choose the directory where the generated file should be written to
 
-$writerCollection = (new \Browscap\Writer\Factory\CustomWriterFactory())->createCollection($logger, $buildFolder, $file, $fields);
+$writerCollection = (new \Browscap\Writer\Factory\CustomWriterFactory())->createCollection($logger, $buildFolder, $file, $fields, $format);
 
 $dataCollectionFactory = new \Browscap\Data\Factory\DataCollectionFactory($logger);
 
