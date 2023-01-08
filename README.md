@@ -202,10 +202,11 @@ $buildGenerator = new BuildGenerator(
     $dataCollectionFactory
 );
 
-$version       = '';    // what you want to be written into the generated file
-$createZipFile = false; // It is not possible yet to create a zipped version of a custom named browscap file
+$version       = '';                       // version what you want to be written into the generated file
+$dateTime      = new \DateTimeImmutable(); // date what you want to be written into the generated file
+$createZipFile = false;                    // It is not possible yet to create a zipped version of a custom named browscap file
 
-$buildGenerator->run($version, $createZipFile);
+$buildGenerator->run($version, $dateTime, $createZipFile);
 ```
 
 ## Issues and feature requests
