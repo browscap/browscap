@@ -27,6 +27,7 @@ parameters:
     - '~Parameter #1 \$array of method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) expects array<array<string>\|string>, array<array<array<string>\|string>\|string> given~'
     - '~Method Browscap\\Parser\\IniParser::sortArrayAndChildArrays\(\) should return array<array<array<string>\|string>> but returns array<array<array<array<string>\|string>\|string>\|string>~'
     - '~Expression in empty\(\) is not falsy~'
+    - '~Call to an undefined method PHPUnit\\Framework\\MockObject\\MockObject::isOutput~'
 
     # some issues I could not fix
     -
