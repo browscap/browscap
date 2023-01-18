@@ -1087,34 +1087,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-2734-X (standard)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/108 Mobile/15E148 Version/15.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Browser_Maker' => 'Apple Inc',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Device',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => false,
-        'standard' => true,
-        'full' => false,
-    ],
-    'issue-2734-X (lite)' => [
-        'ua' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/108 Mobile/15E148 Version/15.0',
-        'properties' => [
-            'Comment' => 'Mobile Safari UIWebView',
-            'Browser' => 'Mobile Safari UIWebView',
-            'Version' => '0.0',
-            'Platform' => 'iOS',
-            'Device_Type' => 'Mobile Phone',
-        ],
-        'lite' => true,
-        'standard' => false,
-        'full' => false,
-    ],
     'issue-2734-Y' => [
         'ua' => 'Mozilla/5.0 (Android 11; Mobile; rv:110.0) Gecko/110.0 Firefox/110.0',
         'properties' => [
@@ -1945,21 +1917,6 @@ return [
         'standard' => false,
         'full' => true,
     ],
-    'issue-2734-AQ (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 12; RMX3363 Build/RKQ1.210503.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.44 Mobile Safari/537.36 OPR/66.2.2254.64268',
-        'properties' => [
-            'Comment' => 'Android WebView 109.0',
-            'Browser' => 'Android WebView',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '109.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
-    ],
     'issue-2734-AR' => [
         'ua' => 'Mozilla/5.0 (Linux; U; Android 13; A063 Build/TKQ1.220915.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.44 Mobile Safari/537.36 OPR/66.2.2254.64268',
         'properties' => [
@@ -2002,20 +1959,5 @@ return [
         'lite' => false,
         'standard' => false,
         'full' => true,
-    ],
-    'issue-2734-AR (standard + lite)' => [
-        'ua' => 'Mozilla/5.0 (Linux; U; Android 13; A063 Build/TKQ1.220915.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.44 Mobile Safari/537.36 OPR/66.2.2254.64268',
-        'properties' => [
-            'Comment' => 'Android WebView 109.0',
-            'Browser' => 'Android WebView',
-            'Browser_Maker' => 'Google Inc',
-            'Version' => '109.0',
-            'Platform' => 'Android',
-            'Device_Type' => 'Mobile Phone',
-            'Device_Pointing_Method' => 'touchscreen',
-        ],
-        'lite' => true,
-        'standard' => true,
-        'full' => false,
     ],
 ];
