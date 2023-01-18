@@ -105,6 +105,19 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
           "devices": {
+            "RMX3363": "Realme RMX3363",
+            "RMX3360": "Realme RMX3360",
+            "SM-A135F": "Samsung SM-A135F",
+            "SM-A135M": "Samsung SM-A135M",
+            "SM-A135U*": "Samsung SM-A135U"
+          },
+          "platforms": [
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/* Chrome/* Safari/*?FB*/*;FBAV/*",
+          "devices": {
             "Pixel 2": "Google Pixel 2",
             "Pixel 2 XL": "Google Pixel 2 XL"
           },

@@ -1,6 +1,6 @@
 {
   "division": "Edge #MAJORVER#.#MINORVER# for Android",
-  "versions": [107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 45, 44, 43, 42, 41],
+  "versions": [112, 111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 45, 44, 43, 42, 41],
   "sortIndex": 1139,
   "lite": true,
   "standard": true,
@@ -41,6 +41,15 @@
             "Android_10_0",
             "Android_9_0",
             "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
+          "devices": {
+            "Redmi Note 7": "Xiaomi Redmi Note 7"
+          },
+          "platforms": [
+            "Android_10_0"
           ]
         },
         {
@@ -94,6 +103,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/* Mobile Safari/* EdgA/#MAJORVER#.*",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",

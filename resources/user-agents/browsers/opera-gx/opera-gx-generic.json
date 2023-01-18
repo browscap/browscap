@@ -1,0 +1,38 @@
+{
+  "division": "Opera GX Generic",
+  "sortIndex": 1046,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera GX Generic for Android",
+      "browser": "opera gx",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera GX Generic"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* OPX/*",
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* OPX/*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

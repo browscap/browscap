@@ -24,7 +24,7 @@
             "iPod": "iPod Touch"
           },
           "platforms": [
-            "iOS_A_16_1", "iOS_A_16_0",
+            "iOS_A_16_3", "iOS_A_16_2", "iOS_A_16_1", "iOS_A_16_0",
             "iOS_A_15_6", "iOS_A_15_5", "iOS_A_15_4", "iOS_A_15_3", "iOS_A_15_2", "iOS_A_15_1", "iOS_A_15_0",
             "iOS_A"
           ]
@@ -35,7 +35,7 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "iOS_A_16_1", "iOS_A_16_0",
+            "iOS_A_16_3", "iOS_A_16_2", "iOS_A_16_1", "iOS_A_16_0",
             "iOS_A_15_6", "iOS_A_15_5", "iOS_A_15_4", "iOS_A_15_3", "iOS_A_15_2", "iOS_A_15_1", "iOS_A_15_0",
             "iOS_A"
           ],
@@ -51,8 +51,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_16_1", "ipadOS_16_0",
-            "ipadOS_15_6", "ipadOS_15_5", "ipadOS_15_4","ipadOS_15_3","ipadOS_15_2", "ipadOS_15_1", "ipadOS_15_0",
+            "ipadOS_16_3", "ipadOS_16_2", "ipadOS_16_1", "ipadOS_16_0",
+            "ipadOS_15_6", "ipadOS_15_5", "ipadOS_15_4", "ipadOS_15_3", "ipadOS_15_2", "ipadOS_15_1", "ipadOS_15_0",
             "ipadOS"
           ]
         },

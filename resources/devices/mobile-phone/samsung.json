@@ -5180,6 +5180,39 @@
     },
     "standard": false
   },
+  "Samsung SM-A135F": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A13",
+      "Device_Code_Name": "SM-A135F",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A135M": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A13",
+      "Device_Code_Name": "SM-A135M",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A135U": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A13",
+      "Device_Code_Name": "SM-A135U",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-A205F": {
     "type": "mobile-phone",
     "properties": {
@@ -8744,6 +8777,28 @@
     },
     "standard": false
   },
+  "Samsung SM-G990": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S21 FE 5G",
+      "Device_Code_Name": "SM-G990",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-G780": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy S20 FE",
+      "Device_Code_Name": "SM-G780",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
   "Samsung SM-J330FN": {
     "type": "mobile-phone",
     "properties": {
@@ -8859,6 +8914,28 @@
     "properties": {
       "Device_Name": "Focus",
       "Device_Code_Name": "SGH-I917",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-M307": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy M30s",
+      "Device_Code_Name": "SM-M307",
+      "Device_Maker": "Samsung",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Samsung"
+    },
+    "standard": false
+  },
+  "Samsung SM-A202": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Galaxy A20e",
+      "Device_Code_Name": "SM-A202",
       "Device_Maker": "Samsung",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Samsung"

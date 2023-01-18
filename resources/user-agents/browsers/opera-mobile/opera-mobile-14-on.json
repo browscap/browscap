@@ -18,6 +18,30 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Mobile Safari/* OPR/#MAJORVER#.*",
+          "devices": {
+            "A063": "Nothing Phone One"
+          },
+          "platforms": [
+            "Android_13_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Mobile Safari/* OPR/#MAJORVER#.*",
+          "devices": {
+            "220333Q*": "Xiaomi Redmi 10C",
+            "Mi Note 10 Lite": "Xiaomi Mi Note 10 Lite",
+            "RMX3363": "Realme RMX3363",
+            "RMX3360": "Realme RMX3360",
+            "SM-A135F": "Samsung SM-A135F",
+            "SM-A135M": "Samsung SM-A135M",
+            "SM-A135U*": "Samsung SM-A135U"
+          },
+          "platforms": [
+            "Android_12_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "devices": {
             "SM-T510": "Samsung SM-T510",
@@ -619,6 +643,9 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Mobile Safari/* OPR/#MAJORVER#.*",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android_11_0",
             "Android_10_0",
             "Android_9_0",
             "Android_8_0",
@@ -634,6 +661,9 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*)*Chrome/*Safari/* OPR/#MAJORVER#.*",
           "device": "general Tablet",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android_11_0",
             "Android_10_0",
             "Android_9_0",
             "Android_8_0",

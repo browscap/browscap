@@ -1872,6 +1872,15 @@
     "lite": false,
     "standard": true
   },
+  "opera gx": {
+    "type": "browser",
+    "properties": {
+      "Browser": "Opera GX",
+      "Browser_Maker": "Opera Software ASA"
+    },
+    "lite": false,
+    "standard": true
+  },
   "orca": {
     "type": "browser",
     "properties": {

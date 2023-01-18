@@ -1,0 +1,46 @@
+{
+  "Realme RMX3363": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GT Master Edition",
+      "Device_Code_Name": "RMX3363",
+      "Device_Maker": "Realme",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Realme"
+    },
+    "standard": false
+  },
+  "Realme RMX3360": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "GT Master Edition",
+      "Device_Code_Name": "RMX3360",
+      "Device_Maker": "Realme",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Realme"
+    },
+    "standard": false
+  },
+  "Realme RMX3261": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C21Y",
+      "Device_Code_Name": "RMX3261",
+      "Device_Maker": "Realme",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Realme"
+    },
+    "standard": false
+  },
+  "Realme RMX3263": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "C21Y",
+      "Device_Code_Name": "RMX3263",
+      "Device_Maker": "Realme",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Realme"
+    },
+    "standard": false
+  }
+}

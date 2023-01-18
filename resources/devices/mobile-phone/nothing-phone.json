@@ -1,0 +1,13 @@
+{
+  "Nothing Phone One": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Phone One",
+      "Device_Code_Name": "Phone One",
+      "Device_Maker": "Nothing",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Nothing"
+    },
+    "standard": false
+  }
+}

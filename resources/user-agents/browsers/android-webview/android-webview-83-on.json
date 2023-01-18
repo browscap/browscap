@@ -1,6 +1,6 @@
 {
   "division": "Android WebView #MAJORVER#.#MINORVER#",
-  "versions": [99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83],
+  "versions": [112, 111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83],
   "sortIndex": 954,
   "lite": true,
   "standard": true,
@@ -20,6 +20,50 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "devices": {
+            "A063": "Nothing Phone One"
+          },
+          "platforms": [
+            "Android_13_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "SM-G780*": "Samsung SM-G780"
+          },
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "220333Q*": "Xiaomi Redmi 10C",
+            "Mi Note 10 Lite": "Xiaomi Mi Note 10 Lite",
+            "RMX3363": "Realme RMX3363",
+            "RMX3360": "Realme RMX3360",
+            "SM-A135F": "Samsung SM-A135F",
+            "SM-A135M": "Samsung SM-A135M",
+            "SM-A135U*": "Samsung SM-A135U"
+          },
+          "platforms": [
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "RMX3261": "Realme RMX3261",
+            "RMX3263": "Realme RMX3263"
+          },
+          "platforms": [
+            "Android_11_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
             "SM-G960F*": "Samsung SM-G960F",
             "SM-G960N*": "Samsung SM-G960N",
             "SM-G965F*": "Samsung SM-G965F"
@@ -28,6 +72,17 @@
             "Android_10_0",
             "Android_9_0",
             "Android_8_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
+          "devices": {
+            "TA-1021": "Nokia TA-1021"
+          },
+          "platforms": [
+            "Android_9_0",
+            "Android_8_1", "Android_8_0",
+            "Android_7_1"
           ]
         },
         {
@@ -78,7 +133,6 @@
           "devices": {
             "CPH1717": "OPPO CPH1717",
             "Redmi Note 5": "Xiaomi Redmi Note 5",
-            "TA-1021": "Nokia TA-1021",
             "TA-1053": "Nokia TA-1053"
           },
           "platforms": [
@@ -245,6 +299,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Mobile*Safari*",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",
@@ -259,6 +315,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*)*Version/*Chrome/#MAJORVER#.#MINORVER#*Safari*",
           "device": "general Tablet",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",

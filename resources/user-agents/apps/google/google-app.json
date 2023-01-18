@@ -15,6 +15,37 @@
       },
       "children": [
         {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GoogleApp/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-G780*": "Samsung SM-G780"
+          },
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GoogleApp/*",
+          "engine": "Blink",
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
+          "engine": "Blink",
+          "devices": {
+            "SM-G780*": "Samsung SM-G780"
+          },
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0"
+          ]
+        },
+        {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
           "engine": "Blink",
           "devices": {
@@ -111,6 +142,11 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Version/?.?* Chrome/* Mobile Safari/* GSA/*",
           "engine": "Blink",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android_11_0",
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",
@@ -168,6 +204,11 @@
           "engine": "Blink",
           "device": "general Tablet",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android_11_0",
+            "Android_10_0",
+            "Android_9_0",
             "Android_8_0",
             "Android_7_1", "Android_7_0",
             "Android_6_0",

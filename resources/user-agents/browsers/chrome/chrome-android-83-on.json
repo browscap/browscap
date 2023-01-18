@@ -1,6 +1,6 @@
 {
   "division": "Chrome #MAJORVER#.#MINORVER# for Android",
-  "versions": [107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83],
+  "versions": [112, 111, 110, 109, 108, 107, 106, 105, 104, 103, 102, 101, 100, 99, 98, 97, 96, 95, 94, 93, 92, 91, 90, 89, 88, 87, 86, 85, 84, 83],
   "sortIndex": 1145,
   "lite": true,
   "standard": true,
@@ -20,10 +20,60 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
           "devices": {
+            "A063": "Nothing Phone One",
+            "Pixel 5": "Google Pixel 5"
+          },
+          "platforms": [
+            "Android_13_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-G780*": "Samsung SM-G780"
+          },
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "220333Q*": "Xiaomi Redmi 10C",
+            "Mi Note 10 Lite": "Xiaomi Mi Note 10 Lite",
+            "RMX3363": "Realme RMX3363",
+            "RMX3360": "Realme RMX3360",
+            "SM-A135F": "Samsung SM-A135F",
+            "SM-A135M": "Samsung SM-A135M",
+            "SM-A135U*": "Samsung SM-A135U",
+            "SM-G990*": "Samsung SM-G990"
+          },
+          "platforms": [
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
+            "SM-A202*": "Samsung SM-A202",
+            "SM-M307*": "Samsung SM-M307",
+            "RMX3261": "Realme RMX3261",
+            "RMX3263": "Realme RMX3263"
+          },
+          "platforms": [
+            "Android_11_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#* Safari/*",
+          "devices": {
             "MRX-W09": "Huawei MRX-W09",
             "MRX-W19": "Huawei MRX-W19",
             "MRX-AL09": "Huawei MRX-AL09",
-            "MRX-AL19": "Huawei MRX-AL19"
+            "MRX-AL19": "Huawei MRX-AL19",
+            "Nokia 7 plus": "Nokia 7 plus",
+            "Redmi Note 7": "Xiaomi Redmi Note 7"
           },
           "platforms": [
             "Android_10_0"
@@ -164,6 +214,7 @@
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
             "Mi A1": "Xiaomi Mi A1",
+            "TA-1021": "Nokia TA-1021",
             "Pixel XL": "Google Pixel XL",
             "Pixel": "Google Pixel"
           },
@@ -239,7 +290,6 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "devices": {
-            "TA-1021": "Nokia TA-1021",
             "TA-1033": "Nokia TA-1033"
           },
           "platforms": [
@@ -803,6 +853,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Mobile Safari/*",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",
@@ -817,6 +869,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) Chrome/#MAJORVER#.#MINORVER#*Safari/*",
           "device": "general Tablet",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",
