@@ -49,7 +49,6 @@ class ValidateHelper extends Helper
         ));
 
         $schemaDecoded = $schemaStorage->getSchema($schemaUri);
-
         assert($schemaDecoded instanceof stdClass || $schemaDecoded === null);
 
         if ($schemaDecoded === null) {
@@ -117,8 +116,11 @@ class ValidateHelper extends Helper
 
                 if ($errors !== []) {
                     $logger->critical(
-                        sprintf('File "%s" is not valid', $file->getPathname()),
-                        ['errors' => $errors],
+                        'File "{File}" is not valid',
+                        [
+                            'File' => $file->getPathname(),
+                            'errors' => $errors,
+                        ],
                     );
                     $failed = true;
                 }
