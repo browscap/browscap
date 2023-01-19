@@ -186,6 +186,28 @@
     },
     "standard": false
   },
+  "Xiaomi Mi Note 10 Lite": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Mi Note 10 Lite",
+      "Device_Code_Name": "Mi Note 10 Lite",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi 10C": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi 10C",
+      "Device_Code_Name": "Redmi 10C",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
   "Xiaomi Mi 4 LTE": {
     "type": "mobile-phone",
     "properties": {
@@ -323,6 +345,17 @@
     "properties": {
       "Device_Name": "Redmi Note 5 Pro",
       "Device_Code_Name": "Redmi Note 5 Pro",
+      "Device_Maker": "Xiaomi Tech",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Xiaomi"
+    },
+    "standard": false
+  },
+  "Xiaomi Redmi Note 7": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Redmi Note 7",
+      "Device_Code_Name": "Redmi Note 7",
       "Device_Maker": "Xiaomi Tech",
       "Device_Pointing_Method": "touchscreen",
       "Device_Brand_Name": "Xiaomi"

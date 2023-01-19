@@ -3881,5 +3881,16 @@
       "Device_Brand_Name": "Nokia"
     },
     "standard": false
+  },
+  "Nokia 7 plus": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "7 plus",
+      "Device_Code_Name": "7 plus",
+      "Device_Maker": "Nokia",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Nokia"
+    },
+    "standard": false
   }
 }

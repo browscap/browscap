@@ -1012,13 +1012,13 @@ return [
     'issue-2169-AT' => [
         'ua' => 'Mozilla/5.0 (iPad; CPU OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/19.1b16203 Mobile/15E148 Safari/605.1.15',
         'properties' => [
-            'Comment' => 'Firefox 19.1 for iOS',
+            'Comment' => 'Firefox 19.0 for iOS',
             'Browser' => 'Firefox for iOS',
             'Browser_Type' => 'Browser',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Mozilla Foundation',
             'Browser_Modus' => 'unknown',
-            'Version' => '19.1',
+            'Version' => '19.0',
             'Platform' => 'iOS',
             'Platform_Version' => '12.3',
             'Platform_Description' => 'iPod, iPhone & iPad',

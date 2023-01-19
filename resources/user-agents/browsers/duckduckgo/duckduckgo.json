@@ -64,6 +64,8 @@
           {
             "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) *Chrome/* Mobile DuckDuckGo/* Safari/*",
             "platforms": [
+              "Android_13_0_B",
+              "Android_12_0_B",
               "Android_11_0_B",
               "Android_10_0_B",
               "Android_9_0_B",
@@ -78,6 +80,8 @@
             "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) *Chrome/* DuckDuckGo/* Safari/*",
             "device": "general Tablet",
             "platforms": [
+              "Android_13_0_B",
+              "Android_12_0_B",
               "Android_11_0_B",
               "Android_10_0_B",
               "Android_9_0_B",
@@ -91,6 +95,8 @@
           {
             "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) *Chrome/* Mobile Safari/* DuckDuckGo/*",
             "platforms": [
+              "Android_13_0_B",
+              "Android_12_0_B",
               "Android_11_0_B",
               "Android_10_0_B",
               "Android_9_0_B",
@@ -105,6 +111,8 @@
             "match": "Mozilla/5.0 (#PLATFORM#) applewebkit*(*khtml*like*gecko*) *Chrome/* Safari/* DuckDuckGo/*",
             "device": "general Tablet",
             "platforms": [
+              "Android_13_0_B",
+              "Android_12_0_B",
               "Android_11_0_B",
               "Android_10_0_B",
               "Android_9_0_B",

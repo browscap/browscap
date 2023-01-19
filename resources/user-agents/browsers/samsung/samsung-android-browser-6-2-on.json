@@ -345,6 +345,8 @@
         {
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Mobile*Safari*",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",
@@ -359,6 +361,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*TV*Safari*",
           "device": "general TV Device",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",
@@ -373,6 +377,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) applewebkit* (*khtml*like*gecko*) SamsungBrowser/#MAJORVER#.#MINORVER#*Chrome*Safari*",
           "device": "general Tablet",
           "platforms": [
+            "Android_13_0",
+            "Android_12_0",
             "Android_11_0",
             "Android_10_0",
             "Android_9_0",

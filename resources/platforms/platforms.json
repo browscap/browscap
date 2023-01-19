@@ -1834,6 +1834,24 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "ipadOS_16_3": {
+    "match": "*CPU OS 16_3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "16.3"
+    }
+  },
+  "ipadOS_16_2": {
+    "match": "*CPU OS 16_2* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "ipadOS",
+    "properties": {
+      "Platform_Version": "16.2"
+    }
+  },
   "ipadOS_16_1": {
     "match": "*CPU OS 16_1* like Mac OS X*",
     "lite": false,
@@ -2046,6 +2064,24 @@
     "inherits": "iOS",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "iOS_A_16_3": {
+    "match": "*CPU iPhone OS 16?3* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "16.3"
+    }
+  },
+  "iOS_A_16_2": {
+    "match": "*CPU iPhone OS 16?2* like Mac OS X*",
+    "lite": false,
+    "standard": true,
+    "inherits": "iOS_A_11_0",
+    "properties": {
+      "Platform_Version": "16.2"
     }
   },
   "iOS_A_16_1": {
@@ -4662,6 +4698,42 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "Android_13_0_B": {
+    "match": "*Linux*Android?13*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "13.0"
+    }
+  },
+  "Android_13_0": {
+    "match": "*Linux*Android?13;*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "13.0"
+    }
+  },
+  "Android_12_0_B": {
+    "match": "*Linux*Android?12*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "12.0"
+    }
+  },
+  "Android_12_0": {
+    "match": "*Linux*Android?12;*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "12.0"
+    }
+  },
   "Android_11_0_B": {
     "match": "*Linux*Android?11*",
     "lite": false,
@@ -5824,6 +5896,24 @@
     "standard": true,
     "inherits": "Android"
   },
+  "AndroidTablet_13_0": {
+    "match": "*Android 13*Tablet*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "13.0"
+    }
+  },
+  "AndroidTablet_12_0": {
+    "match": "*Android 12*Tablet*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "12.0"
+    }
+  },
   "AndroidTablet_11_0": {
     "match": "*Android 11*Tablet*",
     "lite": false,
@@ -6027,6 +6117,24 @@
     "lite": true,
     "standard": true,
     "inherits": "Android"
+  },
+  "AndroidMobile_13_0": {
+    "match": "*Android 13*Mobile*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "13.0"
+    }
+  },
+  "AndroidMobile_12_0": {
+    "match": "*Android 12*Mobile*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "12.0"
+    }
   },
   "AndroidMobile_11_0": {
     "match": "*Android 11*Mobile*",

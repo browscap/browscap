@@ -26,6 +26,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Mobile Phone (Touch)",
           "platforms": [
+            "AndroidMobile_13_0",
+            "AndroidMobile_12_0",
             "AndroidMobile_11_0",
             "AndroidMobile_10_0",
             "AndroidMobile_9_0",
@@ -42,6 +44,8 @@
           "match": "Mozilla/5.0 (#PLATFORM#) Gecko* Firefox/*",
           "device": "general Tablet",
           "platforms": [
+            "AndroidTablet_13_0",
+            "AndroidTablet_12_0",
             "AndroidTablet_11_0",
             "AndroidTablet_10_0",
             "AndroidTablet_9_0",

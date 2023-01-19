@@ -1,0 +1,49 @@
+{
+  "division": "Opera GX #MAJORVER#.#MINORVER#",
+  "versions": ["1.8"],
+  "sortIndex": 1045,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "Opera GX #MAJORVER#.#MINORVER# for Android",
+      "browser": "opera gx",
+      "platform": "Android",
+      "engine": "Blink",
+      "device": "general Mobile Phone (Touch)",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "Opera GX #MAJORVER#.#MINORVER#",
+        "Version": "#MAJORVER#.#MINORVER#"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 (#PLATFORM##DEVICE# Build/*)*applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* OPX/#MAJORVER#.#MINORVER#*",
+          "devices": {
+            "220333Q*": "Xiaomi Redmi 10C"
+          },
+          "platforms": [
+            "Android_12_0"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Chrome/* Mobile Safari/* OPX/#MAJORVER#.#MINORVER#*",
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android"
+          ]
+        },
+        {
+          "match": "Mozilla/5.0 (#PLATFORM#)*applewebkit*(*khtml*like*gecko*) Chrome/* Safari/* OPX/#MAJORVER#.#MINORVER#*",
+          "device": "general Tablet",
+          "platforms": [
+            "Android_13_0",
+            "Android_12_0",
+            "Android"
+          ]
+        }
+      ]
+    }
+  ]
+}

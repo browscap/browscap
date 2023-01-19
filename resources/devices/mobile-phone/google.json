@@ -76,6 +76,17 @@
     },
     "standard": false
   },
+  "Google Pixel 5": {
+    "type": "mobile-phone",
+    "properties": {
+      "Device_Name": "Pixel 5",
+      "Device_Code_Name": "Pixel 5",
+      "Device_Maker": "Google",
+      "Device_Pointing_Method": "touchscreen",
+      "Device_Brand_Name": "Google"
+    },
+    "standard": false
+  },
   "Google Pixel XL": {
     "type": "mobile-phone",
     "properties": {

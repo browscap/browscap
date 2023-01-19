@@ -49,7 +49,8 @@
             "iPad": "iPad"
           },
           "platforms": [
-            "ipadOS_15_6", "ipadOS_15_5", "ipadOS_15_4","ipadOS_15_3","ipadOS_15_2", "ipadOS_15_1", "ipadOS_15_0",
+            "ipadOS_16_3", "ipadOS_16_2", "ipadOS_16_1", "ipadOS_16_0",
+            "ipadOS_15_6", "ipadOS_15_5", "ipadOS_15_4", "ipadOS_15_3", "ipadOS_15_2", "ipadOS_15_1", "ipadOS_15_0",
             "ipadOS"
           ]
         },
