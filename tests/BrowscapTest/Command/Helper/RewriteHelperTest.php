@@ -16,7 +16,6 @@ use PHPUnit\Framework\Constraint\IsInstanceOf;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 use Symfony\Component\Console\Helper\HelperSet;
 use Throwable;
 
@@ -37,7 +36,6 @@ class RewriteHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetName(): void

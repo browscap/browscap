@@ -11,7 +11,6 @@ use PHPUnit\Framework\Constraint\IsInstanceOf;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 use Throwable;
 
 use function realpath;
@@ -31,7 +30,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetName(): void
@@ -40,7 +38,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testInvalidJsonSchema(): void
@@ -74,7 +71,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testResourceDirNotFound(): void
@@ -108,7 +104,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testResourceDirFoundButWithUnreadableFile(): void
@@ -180,7 +175,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testResourceDirFoundButWithInvalidFile(): void
@@ -259,7 +253,6 @@ class ValidateHelperTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testResourceDirFoundButWithDuplicateKeysInFile(): void
