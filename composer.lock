@@ -2350,16 +2350,16 @@
         },
         {
             "name": "matthiasmullie/scrapbook",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/scrapbook.git",
-                "reference": "1dba2e674b28ea3348e3509b13bf7429bb1a4917"
+                "reference": "d49068fab714b0056c0a82ff055882e0de4e3620"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/1dba2e674b28ea3348e3509b13bf7429bb1a4917",
-                "reference": "1dba2e674b28ea3348e3509b13bf7429bb1a4917",
+                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/d49068fab714b0056c0a82ff055882e0de4e3620",
+                "reference": "d49068fab714b0056c0a82ff055882e0de4e3620",
                 "shasum": ""
             },
             "require": {
@@ -2374,7 +2374,8 @@
             "require-dev": {
                 "ext-pcntl": "*",
                 "friendsofphp/php-cs-fixer": ">=2.0",
-                "phpunit/phpunit": ">=9.0"
+                "phpunit/phpunit": ">=9.0",
+                "squizlabs/php_codesniffer": ">=3.0"
             },
             "suggest": {
                 "couchbase/couchbase": ">=3.0",
@@ -2437,7 +2438,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/scrapbook/issues",
-                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.0"
+                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.1"
             },
             "funding": [
                 {
@@ -2445,7 +2446,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-11-10T12:00:43+00:00"
+            "time": "2023-01-26T11:04:25+00:00"
         },
         {
             "name": "mikey179/vfsstream",
