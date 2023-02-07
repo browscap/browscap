@@ -37,6 +37,7 @@ class ValidateCommand extends Command
      *
      * @throws Exception
      * @throws ExceptionInterface
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {

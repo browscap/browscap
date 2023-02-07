@@ -70,6 +70,7 @@ class RewriteDivisionsCommand extends Command
      * @throws InvalidArgumentException
      * @throws DirectoryNotFoundException
      * @throws JsonException
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {

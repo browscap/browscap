@@ -55,6 +55,7 @@ class BuildCommand extends Command
      *
      * @throws Exception
      * @throws AssertionFailedException
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {

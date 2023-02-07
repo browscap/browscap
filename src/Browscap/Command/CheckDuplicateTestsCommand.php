@@ -26,6 +26,7 @@ class CheckDuplicateTestsCommand extends Command
      * @return int null or 0 if everything went fine, or an error code
      *
      * @throws UnexpectedValueException
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
