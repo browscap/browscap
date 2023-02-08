@@ -10,3 +10,4 @@ test*.txt
 coverage*.*
 .phpcs.cache
 /outdated.sh
+*.bak

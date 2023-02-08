@@ -57,7 +57,7 @@ class FilterCollectionTest extends TestCase
      *
      * @return array<array<int>>
      */
-    public function dataProviderForTestGetType(): array
+    public static function dataProviderForTestGetType(): array
     {
         $funcArgs = [];
 

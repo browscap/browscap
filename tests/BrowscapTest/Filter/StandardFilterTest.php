@@ -109,7 +109,7 @@ class StandardFilterTest extends TestCase
      *
      * @throws void
      */
-    public function outputPropertiesDataProvider(): array
+    public static function outputPropertiesDataProvider(): array
     {
         return [
             ['Comment', true],

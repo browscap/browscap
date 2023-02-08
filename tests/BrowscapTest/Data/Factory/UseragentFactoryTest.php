@@ -6,7 +6,6 @@ namespace BrowscapTest\Data\Factory;
 
 use Browscap\Data\Factory\UserAgentFactory;
 use Browscap\Data\UserAgent;
-use LogicException;
 use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
@@ -22,7 +21,6 @@ class UseragentFactoryTest extends TestCase
     }
 
     /**
-     * @throws LogicException
      * @throws Exception
      * @throws RuntimeException
      */
@@ -52,7 +50,6 @@ class UseragentFactoryTest extends TestCase
     }
 
     /**
-     * @throws LogicException
      * @throws Exception
      * @throws RuntimeException
      */
