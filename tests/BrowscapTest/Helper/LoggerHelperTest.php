@@ -18,6 +18,7 @@ class LoggerHelperTest extends TestCase
      *
      * @throws InvalidArgumentException
      * @throws ExpectationFailedException
+     * @throws \InvalidArgumentException
      */
     public function testCreate(): void
     {

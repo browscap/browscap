@@ -47,6 +47,7 @@ class RewriteEnginesCommand extends Command
      * @throws InvalidIndentStyle
      * @throws InvalidIndentSize
      * @throws InvalidJsonEncodeOptions
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Browscap\Helper;
 
+use InvalidArgumentException;
 use Monolog\ErrorHandler;
 use Monolog\Handler\ErrorLogHandler;
 use Monolog\Handler\PsrHandler;
@@ -18,7 +19,7 @@ class LoggerHelper
     /**
      * creates an instance of a PSR-3 Logger
      *
-     * @throws void
+     * @throws InvalidArgumentException
      */
     public function create(OutputInterface $output): LoggerInterface
     {

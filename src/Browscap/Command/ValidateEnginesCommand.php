@@ -37,6 +37,7 @@ class ValidateEnginesCommand extends Command
      *
      * @throws InvalidArgumentException
      * @throws LogicException
+     * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
