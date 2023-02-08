@@ -74,7 +74,7 @@ class JsonFormatterTest extends TestCase
      *
      * @throws void
      */
-    public function propertyNameTypeDataProvider(): array
+    public static function propertyNameTypeDataProvider(): array
     {
         return [
             ['Comment', 'test', '"test"'],

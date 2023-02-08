@@ -75,7 +75,7 @@ final class IniParserTest extends TestCase
      *
      * @throws void
      */
-    public function sortArrayDataProvider(): array
+    public static function sortArrayDataProvider(): array
     {
         return [
             'flatArray' => [

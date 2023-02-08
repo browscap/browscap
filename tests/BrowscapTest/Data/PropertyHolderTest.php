@@ -31,7 +31,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function propertyNameTypeDataProvider(): array
+    public static function propertyNameTypeDataProvider(): array
     {
         return [
             ['Comment', PropertyHolder::TYPE_STRING],
@@ -107,7 +107,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function litePropertiesDataProvider(): array
+    public static function litePropertiesDataProvider(): array
     {
         return [
             ['Comment', true],
@@ -205,7 +205,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function standardPropertiesDataProvider(): array
+    public static function standardPropertiesDataProvider(): array
     {
         return [
             ['Comment', false],
@@ -324,7 +324,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function outputPropertiesDataProvider(): array
+    public static function outputPropertiesDataProvider(): array
     {
         return [
             ['Comment', true],
@@ -459,7 +459,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function checkValueInArrayProvider(): array
+    public static function checkValueInArrayProvider(): array
     {
         return [
             ['Device_Pointing_Method', 'touchscreen'],
@@ -506,7 +506,7 @@ class PropertyHolderTest extends TestCase
      *
      * @throws void
      */
-    public function deprecatedPropertiesDataProvider(): array
+    public static function deprecatedPropertiesDataProvider(): array
     {
         return [
             ['Comment', false],

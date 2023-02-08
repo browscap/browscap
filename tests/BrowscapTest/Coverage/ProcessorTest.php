@@ -31,7 +31,7 @@ final class ProcessorTest extends TestCase
      *
      * @return array<int, array<int, array<string, int>|string>>
      */
-    public function jsonStructureProvider(): array
+    public static function jsonStructureProvider(): array
     {
         return [
             ['test1.json', ['statementCount' => 5, 'branchCount' => 1, 'functionCount' => 1]],
@@ -71,7 +71,7 @@ final class ProcessorTest extends TestCase
      *
      * @return array<string, array<int, array<int|string, int|string>|string>>
      */
-    public function coverageProvider(): array
+    public static function coverageProvider(): array
     {
         return [
             'test1-no-coverage' => [
