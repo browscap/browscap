@@ -1,45 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <phpunit
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="../vendor/phpunit/phpunit/phpunit.xsd"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
     backupGlobals="false"
-    backupStaticAttributes="false"
     beStrictAboutChangesToGlobalState="true"
-    beStrictAboutCoversAnnotation="false"
     beStrictAboutOutputDuringTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
-    beStrictAboutTodoAnnotatedTests="true"
-    beStrictAboutResourceUsageDuringSmallTests="true"
-    convertDeprecationsToExceptions="true"
     failOnEmptyTestSuite="true"
     failOnIncomplete="true"
     failOnRisky="true"
     failOnSkipped="true"
     failOnWarning="true"
-    verbose="false"
     bootstrap="../vendor/autoload.php"
     enforceTimeLimit="false"
     executionOrder="default"
     resolveDependencies="true"
->
-    <php>
-        <ini name="error_reporting" value="-1"/>
-        <ini name="memory_limit" value="-1"/>
-        <ini name="date.timezone" value="UTC"/>
-        <ini name="zend.assertions" value="1"/>
-        <ini name="assert.exception" value="On"/>
-    </php>
+    cacheDirectory=".phpunit.cache"
+    backupStaticProperties="false" beStrictAboutCoverageMetadata="false">
+  <php>
+    <ini name="error_reporting" value="-1"/>
+    <ini name="memory_limit" value="-1"/>
+    <ini name="date.timezone" value="UTC"/>
+    <ini name="zend.assertions" value="1"/>
+    <ini name="assert.exception" value="On"/>
+  </php>
 
-    <testsuites>
-        <testsuite name="Browscap Test Suite">
-            <directory>./BrowscapTest</directory>
-        </testsuite>
-    </testsuites>
+  <testsuites>
+    <testsuite name="Browscap Test Suite">
+      <directory>./BrowscapTest</directory>
+    </testsuite>
+  </testsuites>
 
-    <coverage includeUncoveredFiles="true" processUncoveredFiles="true">
-        <include>
-            <directory suffix=".php">../src/</directory>
-        </include>
-    </coverage>
+  <coverage includeUncoveredFiles="true">
+    <include>
+      <directory suffix=".php">../src/</directory>
+    </include>
+  </coverage>
 </phpunit>
