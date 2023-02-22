@@ -2805,21 +2805,21 @@
         },
         {
             "name": "phpstan/phpstan-beberlei-assert",
-            "version": "1.0.1",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-beberlei-assert.git",
-                "reference": "522c761589747e49b0ccb54683a91826b1a95b34"
+                "reference": "bbf7df77f65f2c8136eef38718910634c5c60351"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/522c761589747e49b0ccb54683a91826b1a95b34",
-                "reference": "522c761589747e49b0ccb54683a91826b1a95b34",
+                "url": "https://api.github.com/repos/phpstan/phpstan-beberlei-assert/zipball/bbf7df77f65f2c8136eef38718910634c5c60351",
+                "reference": "bbf7df77f65f2c8136eef38718910634c5c60351",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1 || ^8.0",
-                "phpstan/phpstan": "^1.0"
+                "php": "^7.2 || ^8.0",
+                "phpstan/phpstan": "^1.10"
             },
             "require-dev": {
                 "beberlei/assert": "^3.3.0",
@@ -2831,9 +2831,6 @@
             },
             "type": "phpstan-extension",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                },
                 "phpstan": {
                     "includes": [
                         "extension.neon"
@@ -2852,9 +2849,9 @@
             "description": "PHPStan beberlei/assert extension",
             "support": {
                 "issues": "https://github.com/phpstan/phpstan-beberlei-assert/issues",
-                "source": "https://github.com/phpstan/phpstan-beberlei-assert/tree/1.0.1"
+                "source": "https://github.com/phpstan/phpstan-beberlei-assert/tree/1.1.0"
             },
-            "time": "2022-02-23T08:43:53+00:00"
+            "time": "2023-02-18T13:10:37+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
