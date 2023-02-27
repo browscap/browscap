@@ -36,7 +36,7 @@
     "php": ">=8.1.0,<8.3.0",
     "ext-json": "*",
     "beberlei/assert": "^3.3.2",
-    "ergebnis/json-normalizer": "^3.0.0",
+    "ergebnis/json-normalizer": "^4.0.0",
     "mimmi20/ua-browser-type": "^8.0.6",
     "mimmi20/ua-device-type": "^8.0.6",
     "monolog/monolog": "^3.2.0",

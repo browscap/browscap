@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c07d781abcbd5f49781e0a0ef03c8243",
+    "content-hash": "18dbc38861e73526cd525bbf88c3362a",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -74,36 +74,106 @@
             "time": "2021-12-16T21:41:27+00:00"
         },
         {
-            "name": "ergebnis/json-normalizer",
-            "version": "3.0.0",
+            "name": "ergebnis/json",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ergebnis/json-normalizer.git",
-                "reference": "07b693b974c0ee6a9f0e7ed76151e33992967c24"
+                "url": "https://github.com/ergebnis/json.git",
+                "reference": "d66ea30060856d0729a4aa319a02752519ca63a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/07b693b974c0ee6a9f0e7ed76151e33992967c24",
-                "reference": "07b693b974c0ee6a9f0e7ed76151e33992967c24",
+                "url": "https://api.github.com/repos/ergebnis/json/zipball/d66ea30060856d0729a4aa319a02752519ca63a0",
+                "reference": "d66ea30060856d0729a4aa319a02752519ca63a0",
                 "shasum": ""
             },
             "require": {
-                "ergebnis/json-pointer": "^3.1.0",
-                "ergebnis/json-printer": "^3.2.0",
-                "ergebnis/json-schema-validator": "^3.1.0",
-                "ext-json": "*",
-                "justinrainbow/json-schema": "^5.2.12",
-                "php": "^7.4 || ^8.0"
+                "php": "^8.0"
             },
             "require-dev": {
+                "ergebnis/composer-normalize": "^2.29.0",
                 "ergebnis/data-provider": "^1.2.0",
-                "ergebnis/license": "^1.2.0",
-                "ergebnis/php-cs-fixer-config": "^4.6.0",
+                "ergebnis/license": "^2.1.0",
+                "ergebnis/php-cs-fixer-config": "^5.0.0",
+                "ergebnis/phpstan-rules": "^1.0.0",
                 "fakerphp/faker": "^1.20.0",
-                "infection/infection": "~0.26.6",
-                "phpunit/phpunit": "^9.5.21",
-                "psalm/plugin-phpunit": "~0.17.0",
-                "vimeo/psalm": "^4.26"
+                "infection/infection": "~0.26.16",
+                "phpunit/phpunit": "^9.5.27",
+                "psalm/plugin-phpunit": "~0.18.4",
+                "vimeo/psalm": "^5.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "composer-normalize": {
+                    "indent-size": 2,
+                    "indent-style": "space"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ergebnis\\Json\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andreas Möller",
+                    "email": "am@localheinz.com"
+                }
+            ],
+            "description": "Provides a Json value object for representing a valid JSON string.",
+            "homepage": "https://github.com/ergebnis/json",
+            "keywords": [
+                "json"
+            ],
+            "support": {
+                "issues": "https://github.com/ergebnis/json/issues",
+                "source": "https://github.com/ergebnis/json"
+            },
+            "time": "2022-12-10T22:38:50+00:00"
+        },
+        {
+            "name": "ergebnis/json-normalizer",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ergebnis/json-normalizer.git",
+                "reference": "250f41057e1e62662c076d9c133fe487760c0c2d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ergebnis/json-normalizer/zipball/250f41057e1e62662c076d9c133fe487760c0c2d",
+                "reference": "250f41057e1e62662c076d9c133fe487760c0c2d",
+                "shasum": ""
+            },
+            "require": {
+                "ergebnis/json": "^1.0.1",
+                "ergebnis/json-pointer": "^3.2.0",
+                "ergebnis/json-printer": "^3.3.0",
+                "ergebnis/json-schema-validator": "^4.0.0",
+                "ext-json": "*",
+                "justinrainbow/json-schema": "^5.2.12",
+                "php": "~8.0.0 || ~8.1.0 || ~8.2.0"
+            },
+            "require-dev": {
+                "composer/semver": "^3.2.1",
+                "ergebnis/data-provider": "^1.3.0",
+                "ergebnis/license": "^2.1.0",
+                "ergebnis/php-cs-fixer-config": "^5.3.1",
+                "fakerphp/faker": "^1.21.0",
+                "infection/infection": "~0.26.19",
+                "phpunit/phpunit": "^9.6.3",
+                "psalm/plugin-phpunit": "~0.18.4",
+                "rector/rector": "~0.15.18",
+                "symfony/filesystem": "^6.0.19",
+                "symfony/finder": "^6.0.19",
+                "vimeo/psalm": "^5.7.7"
+            },
+            "suggest": {
+                "composer/semver": "If you want to use ComposerJsonNormalizer or VersionConstraintNormalizer"
             },
             "type": "library",
             "autoload": {
@@ -131,7 +201,7 @@
                 "issues": "https://github.com/ergebnis/json-normalizer/issues",
                 "source": "https://github.com/ergebnis/json-normalizer"
             },
-            "time": "2022-08-10T07:08:29+00:00"
+            "time": "2023-02-26T10:58:43+00:00"
         },
         {
             "name": "ergebnis/json-pointer",
@@ -255,20 +325,21 @@
         },
         {
             "name": "ergebnis/json-schema-validator",
-            "version": "3.2.0",
+            "version": "4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/json-schema-validator.git",
-                "reference": "dba66b66ff9ec6fa94003eb420b0d08a5d48069e"
+                "reference": "a6166272ac5691a9bc791f185841e5f92a6d4723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/json-schema-validator/zipball/dba66b66ff9ec6fa94003eb420b0d08a5d48069e",
-                "reference": "dba66b66ff9ec6fa94003eb420b0d08a5d48069e",
+                "url": "https://api.github.com/repos/ergebnis/json-schema-validator/zipball/a6166272ac5691a9bc791f185841e5f92a6d4723",
+                "reference": "a6166272ac5691a9bc791f185841e5f92a6d4723",
                 "shasum": ""
             },
             "require": {
-                "ergebnis/json-pointer": "^3.1.0",
+                "ergebnis/json": "^1.0.0",
+                "ergebnis/json-pointer": "^3.2.0",
                 "ext-json": "*",
                 "justinrainbow/json-schema": "^5.2.12",
                 "php": "^8.0"
@@ -277,12 +348,12 @@
                 "ergebnis/composer-normalize": "^2.21.0",
                 "ergebnis/data-provider": "^1.2.0",
                 "ergebnis/license": "^2.1.0",
-                "ergebnis/php-cs-fixer-config": "~4.11.0",
+                "ergebnis/php-cs-fixer-config": "~5.0.0",
                 "fakerphp/faker": "^1.20.0",
                 "infection/infection": "~0.26.16",
-                "phpunit/phpunit": "~9.5.26",
-                "psalm/plugin-phpunit": "~0.18.3",
-                "vimeo/psalm": "^4.30"
+                "phpunit/phpunit": "~9.5.27",
+                "psalm/plugin-phpunit": "~0.18.4",
+                "vimeo/psalm": "^5.1.0"
             },
             "type": "library",
             "extra": {
@@ -317,7 +388,7 @@
                 "issues": "https://github.com/ergebnis/json-schema-validator/issues",
                 "source": "https://github.com/ergebnis/json-schema-validator"
             },
-            "time": "2022-11-28T11:23:54+00:00"
+            "time": "2022-12-10T14:50:15+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
