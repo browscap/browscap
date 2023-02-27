@@ -50,10 +50,8 @@ class ValidateHelper extends Helper
 
         $schemaDecoded = $schemaStorage->getSchema($schemaUri);
 
-        /** @phpstan-ignore-next-line  */
         assert($schemaDecoded instanceof stdClass || $schemaDecoded === null);
 
-        /** @phpstan-ignore-next-line  */
         if ($schemaDecoded === null) {
             $logger->critical('the given json schema is invalid');
 
