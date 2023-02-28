@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Browscap\Command;
 
 use Browscap\Helper\LoggerHelper;
+use Ergebnis\Json;
 use Ergebnis\Json\Normalizer;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
@@ -61,9 +62,6 @@ class RewriteTestFixturesCommand extends Command
             true,
         );
 
-        $printer   = new Printer();
-        $formatter = new Normalizer\Format\DefaultFormatter($printer);
-
         $finder = new Finder();
         $finder->files();
         $finder->name('*.json');
@@ -91,7 +89,11 @@ class RewriteTestFixturesCommand extends Command
             }
 
             try {
-                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
+                $chainNormalizer = new Normalizer\ChainNormalizer(
+                    $normalizer,
+                    new Normalizer\FormatNormalizer(new Printer(), $format),
+                );
+                $normalized      = $chainNormalizer->normalize(Json\Json::fromString($json));
             } catch (Throwable $e) {
                 $logger->critical(
                     'File "{File}" is not valid',

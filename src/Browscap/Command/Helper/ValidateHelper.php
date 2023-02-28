@@ -4,10 +4,11 @@ declare(strict_types=1);
 
 namespace Browscap\Command\Helper;
 
+use Ergebnis\Json;
+use Ergebnis\Json\Exception\NotJson;
 use Ergebnis\Json\Pointer\JsonPointer;
 use Ergebnis\Json\SchemaValidator;
 use Ergebnis\Json\SchemaValidator\Exception\CanNotResolve;
-use Ergebnis\Json\SchemaValidator\Exception\InvalidJson;
 use Exception;
 use JsonException;
 use JsonSchema\SchemaStorage;
@@ -46,7 +47,7 @@ class ValidateHelper extends Helper
             $schema = $schemaStorage->getSchema($schema);
             assert($schema instanceof stdClass);
 
-            $schema = SchemaValidator\Json::fromString(json_encode($schema, JSON_THROW_ON_ERROR));
+            $schema = Json\Json::fromString(json_encode($schema, JSON_THROW_ON_ERROR));
         } catch (Throwable $exception) {
             $logger->critical(new Exception('the schema file is invalid', 0, $exception));
 
@@ -96,7 +97,7 @@ class ValidateHelper extends Helper
 
                 assert($decoded instanceof stdClass);
 
-                $decoded = SchemaValidator\Json::fromString(json_encode($decoded, JSON_THROW_ON_ERROR));
+                $decoded = Json\Json::fromString(json_encode($decoded, JSON_THROW_ON_ERROR));
 
                 if (! $schemaValidator->validate($decoded, $schema, $jsonPointer)->isValid()) {
                     $logger->critical(
@@ -107,7 +108,7 @@ class ValidateHelper extends Helper
                     );
                     $failed = true;
                 }
-            } catch (ParsingException | JsonException | InvalidJson | CanNotResolve $e) {
+            } catch (ParsingException | JsonException | NotJson | CanNotResolve $e) {
                 $logger->critical(
                     'File "{File}" had invalid JSON.',
                     [

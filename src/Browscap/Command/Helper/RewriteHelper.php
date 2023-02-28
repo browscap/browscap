@@ -4,11 +4,13 @@ declare(strict_types=1);
 
 namespace Browscap\Command\Helper;
 
+use Ergebnis\Json;
 use Ergebnis\Json\Normalizer;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
 use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptions;
 use Ergebnis\Json\Normalizer\Exception\InvalidNewLineString;
+use Ergebnis\Json\Pointer;
 use Ergebnis\Json\Printer\Printer;
 use Ergebnis\Json\SchemaValidator\SchemaValidator;
 use JsonException;
@@ -49,15 +51,15 @@ class RewriteHelper extends Helper
             $schema,
             new SchemaStorage(),
             new SchemaValidator(),
+            Pointer\Specification::never(),
         );
-        $format     = Normalizer\Format\Format::create(
+
+        $format = Normalizer\Format\Format::create(
             Normalizer\Format\JsonEncodeOptions::fromInt(JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT | JSON_THROW_ON_ERROR),
             Normalizer\Format\Indent::fromSizeAndStyle(2, 'space'),
             Normalizer\Format\NewLine::fromString("\n"),
             true,
         );
-        $printer    = new Printer();
-        $formatter  = new Normalizer\Format\DefaultFormatter($printer);
 
         $finder = new Finder();
         $finder->files();
@@ -105,7 +107,11 @@ class RewriteHelper extends Helper
             }
 
             try {
-                $normalized = (new Normalizer\FixedFormatNormalizer($normalizer, $format, $formatter))->normalize(Normalizer\Json::fromEncoded($json));
+                $chainNormalizer = new Normalizer\ChainNormalizer(
+                    $normalizer,
+                    new Normalizer\FormatNormalizer(new Printer(), $format),
+                );
+                $normalized      = $chainNormalizer->normalize(Json\Json::fromString($json));
             } catch (Throwable $e) {
                 $logger->critical(
                     'File "{File}" is not valid',
