@@ -74,7 +74,7 @@ class FilterCollectionTest extends TestCase
      * @throws MethodNameAlreadyConfiguredException
      * @throws MethodCannotBeConfiguredException
      */
-    public function testAddFilterAndIsSilent(): void
+    public function testAddFilterAndIsOutput(): void
     {
         $division = $this->createMock(Division::class);
 
@@ -87,7 +87,43 @@ class FilterCollectionTest extends TestCase
 
         $this->object->addFilter($mockFilter);
 
-        $this->object->isOutput($division);
+        self::assertTrue($this->object->isOutput($division));
+    }
+
+    /**
+     * tests setting and getting a writer
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     */
+    public function testAddFilterAndIsOutput2(): void
+    {
+        $division = $this->createMock(Division::class);
+
+        $mockFilter1 = $this->createMock(FilterInterface::class);
+        $mockFilter1
+            ->expects(static::once())
+            ->method('isOutput')
+            ->with($division)
+            ->willReturn(true);
+
+        $mockFilter2 = $this->createMock(FilterInterface::class);
+        $mockFilter2
+            ->expects(static::once())
+            ->method('isOutput')
+            ->with($division)
+            ->willReturn(false);
+
+        $mockFilter3 = $this->createMock(FilterInterface::class);
+        $mockFilter3
+            ->expects(static::never())
+            ->method('isOutput');
+
+        $this->object->addFilter($mockFilter1);
+        $this->object->addFilter($mockFilter2);
+        $this->object->addFilter($mockFilter3);
+
+        self::assertFalse($this->object->isOutput($division));
     }
 
     /**
@@ -109,7 +145,43 @@ class FilterCollectionTest extends TestCase
 
         $this->object->addFilter($mockFilter);
 
-        $this->object->isOutputSection($section);
+        self::assertTrue($this->object->isOutputSection($section));
+    }
+
+    /**
+     * tests setting and getting a writer
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     */
+    public function testAddFilterAndIsOutputSection2(): void
+    {
+        $section = [];
+
+        $mockFilter1 = $this->createMock(FilterInterface::class);
+        $mockFilter1
+            ->expects(static::once())
+            ->method('isOutputSection')
+            ->with($section)
+            ->willReturn(true);
+
+        $mockFilter2 = $this->createMock(FilterInterface::class);
+        $mockFilter2
+            ->expects(static::once())
+            ->method('isOutputSection')
+            ->with($section)
+            ->willReturn(false);
+
+        $mockFilter3 = $this->createMock(FilterInterface::class);
+        $mockFilter3
+            ->expects(static::never())
+            ->method('isOutputSection');
+
+        $this->object->addFilter($mockFilter1);
+        $this->object->addFilter($mockFilter2);
+        $this->object->addFilter($mockFilter3);
+
+        self::assertFalse($this->object->isOutputSection($section));
     }
 
     /**
@@ -132,6 +204,43 @@ class FilterCollectionTest extends TestCase
 
         $this->object->addFilter($mockFilter);
 
-        $this->object->isOutputProperty($property, $mockWriter);
+        self::assertTrue($this->object->isOutputProperty($property, $mockWriter));
+    }
+
+    /**
+     * tests setting and getting a writer
+     *
+     * @throws MethodNameAlreadyConfiguredException
+     * @throws MethodCannotBeConfiguredException
+     */
+    public function testAddFilterAndIsOutputProperty2(): void
+    {
+        $mockWriter = $this->createMock(WriterInterface::class);
+        $property   = 'test';
+
+        $mockFilter1 = $this->createMock(FilterInterface::class);
+        $mockFilter1
+            ->expects(static::once())
+            ->method('isOutputProperty')
+            ->with($property, $mockWriter)
+            ->willReturn(true);
+
+        $mockFilter2 = $this->createMock(FilterInterface::class);
+        $mockFilter2
+            ->expects(static::once())
+            ->method('isOutputProperty')
+            ->with($property, $mockWriter)
+            ->willReturn(false);
+
+        $mockFilter3 = $this->createMock(FilterInterface::class);
+        $mockFilter3
+            ->expects(static::never())
+            ->method('isOutputProperty');
+
+        $this->object->addFilter($mockFilter1);
+        $this->object->addFilter($mockFilter2);
+        $this->object->addFilter($mockFilter3);
+
+        self::assertFalse($this->object->isOutputProperty($property, $mockWriter));
     }
 }

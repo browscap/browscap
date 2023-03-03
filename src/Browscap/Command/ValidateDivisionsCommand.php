@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Browscap\Command;
 
+use Browscap\Command\Helper\LoggerHelper;
 use Browscap\Command\Helper\ValidateHelper;
-use Browscap\Helper\LoggerHelper;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
 use Symfony\Component\Console\Exception\LogicException;
@@ -43,8 +43,9 @@ class ValidateDivisionsCommand extends Command
     {
         $output->write('validate division files ');
 
-        $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($output);
+        $loggerHelper = $this->getHelper('logger');
+        assert($loggerHelper instanceof LoggerHelper);
+        $logger = $loggerHelper->create($output);
 
         $resources = $input->getOption('resources');
         assert(is_string($resources));
@@ -62,10 +63,12 @@ class ValidateDivisionsCommand extends Command
 
         if ($failed) {
             $output->writeln('<fg=red>invalid</>');
-        } else {
-            $output->writeln('<fg=green>valid</>');
+
+            return Command::FAILURE;
         }
 
-        return (int) $failed;
+        $output->writeln('<fg=green>valid</>');
+
+        return Command::SUCCESS;
     }
 }

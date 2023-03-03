@@ -122,21 +122,24 @@
               "RenderingEngine_Description",
               "RenderingEngine_Maker",
               "PatternId"
-            ]
+            ],
+            "additionalProperties": false
           }
         },
         "required": [
           "userAgent",
           "properties"
-        ]
+        ],
+        "additionalProperties": false
       }
-    },
-    "required": [
-      "division",
-      "sortIndex",
-      "lite",
-      "standard",
-      "userAgents"
-    ]
-  }
+    }
+  },
+  "required": [
+    "division",
+    "sortIndex",
+    "lite",
+    "standard",
+    "userAgents"
+  ],
+  "additionalProperties": false
 }

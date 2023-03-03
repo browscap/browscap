@@ -1,67 +1,70 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "minItems": 1,
-  "uniqueItems": true,
-  "items": {
-    "type": "object",
-    "properties": {
-      "inherits": {
-        "type": "string"
-      },
+  "minProperties": 1,
+  "patternProperties": {
+    "^.*$": {
+      "type": "object",
       "properties": {
-        "type": "object",
-        "properties": {
-          "RenderingEngine_Name": {
-            "type": "string"
-          },
-          "RenderingEngine_Version": {
-            "type": "string"
-          },
-          "RenderingEngine_Description": {
-            "type": "string"
-          },
-          "RenderingEngine_Maker": {
-            "type": "string"
-          },
-          "JavaScript": {
-            "type": "boolean"
-          },
-          "Cookies": {
-            "type": "boolean"
-          },
-          "Frames": {
-            "type": "boolean"
-          },
-          "IFrames": {
-            "type": "boolean"
-          },
-          "Tables": {
-            "type": "boolean"
-          },
-          "JavaApplets": {
-            "type": "boolean"
-          },
-          "VBScript": {
-            "type": "boolean"
-          },
-          "ActiveXControls": {
-            "type": "boolean"
-          },
-          "BackgroundSounds": {
-            "type": "boolean"
-          },
-          "CssVersion": {
-            "type": "integer"
-          }
+        "inherits": {
+          "type": "string"
         },
-        "required": [
-          "RenderingEngine_Version"
-        ]
-      }
-    },
-    "required": [
-      "properties"
-    ]
+        "properties": {
+          "type": "object",
+          "properties": {
+            "RenderingEngine_Name": {
+              "type": "string"
+            },
+            "RenderingEngine_Version": {
+              "type": "string"
+            },
+            "RenderingEngine_Description": {
+              "type": "string"
+            },
+            "RenderingEngine_Maker": {
+              "type": "string"
+            },
+            "JavaScript": {
+              "type": "boolean"
+            },
+            "Cookies": {
+              "type": "boolean"
+            },
+            "Frames": {
+              "type": "boolean"
+            },
+            "IFrames": {
+              "type": "boolean"
+            },
+            "Tables": {
+              "type": "boolean"
+            },
+            "JavaApplets": {
+              "type": "boolean"
+            },
+            "VBScript": {
+              "type": "boolean"
+            },
+            "ActiveXControls": {
+              "type": "boolean"
+            },
+            "BackgroundSounds": {
+              "type": "boolean"
+            },
+            "CssVersion": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "RenderingEngine_Version"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "properties"
+      ],
+      "additionalProperties": false
+    }
   }
 }

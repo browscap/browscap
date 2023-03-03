@@ -4,14 +4,12 @@ declare(strict_types=1);
 
 namespace Browscap\Command\Helper;
 
-use Ergebnis\Json;
-use Ergebnis\Json\Exception\NotJson;
-use Ergebnis\Json\Pointer\JsonPointer;
-use Ergebnis\Json\SchemaValidator;
-use Ergebnis\Json\SchemaValidator\Exception\CanNotResolve;
 use Exception;
 use JsonException;
+use JsonSchema\Constraints;
 use JsonSchema\SchemaStorage;
+use JsonSchema\Uri;
+use JsonSchema\Validator;
 use Psr\Log\LoggerInterface;
 use RuntimeException;
 use Seld\JsonLint\JsonParser;
@@ -21,10 +19,10 @@ use Symfony\Component\Console\Helper\Helper;
 use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\Finder\SplFileInfo;
-use Throwable;
 
 use function assert;
-use function json_encode;
+use function json_decode;
+use function sprintf;
 
 use const JSON_THROW_ON_ERROR;
 
@@ -37,19 +35,25 @@ class ValidateHelper extends Helper
     }
 
     /** @throws void */
-    public function validate(LoggerInterface $logger, string $resources, string $schema): bool
+    public function validate(LoggerInterface $logger, string $resources, string $schemaUri, string|array|null $notPath = null): bool
     {
-        $schemaStorage   = new SchemaStorage();
-        $schemaValidator = new SchemaValidator\SchemaValidator();
-        $jsonPointer     = JsonPointer::document();
+        $uriRetriever  = new Uri\UriRetriever();
+        $schemaStorage = new SchemaStorage(
+            $uriRetriever,
+            new Uri\UriResolver(),
+        );
 
-        try {
-            $schema = $schemaStorage->getSchema($schema);
-            assert($schema instanceof stdClass);
+        $validator = new Validator(new Constraints\Factory(
+            $schemaStorage,
+            $uriRetriever,
+        ));
 
-            $schema = Json\Json::fromString(json_encode($schema, JSON_THROW_ON_ERROR));
-        } catch (Throwable $exception) {
-            $logger->critical(new Exception('the schema file is invalid', 0, $exception));
+        $schemaDecoded = $schemaStorage->getSchema($schemaUri);
+
+        assert($schemaDecoded instanceof stdClass || $schemaDecoded === null);
+
+        if ($schemaDecoded === null) {
+            $logger->critical('the given json schema is invalid');
 
             return true;
         }
@@ -65,6 +69,10 @@ class ValidateHelper extends Helper
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
 
+        if ($notPath !== null) {
+            $finder->notPath($notPath);
+        }
+
         try {
             $finder->in($resources);
         } catch (DirectoryNotFoundException $exception) {
@@ -75,17 +83,14 @@ class ValidateHelper extends Helper
 
         foreach ($finder as $file) {
             /** @var SplFileInfo $file */
-            $logger->info('read source file ' . $file->getPathname());
+            $logger->info(sprintf('source file %s: read', $file->getPathname()));
 
             try {
                 $json = $file->getContents();
             } catch (RuntimeException $e) {
                 $logger->critical(
-                    'File "{File}" is not readable',
-                    [
-                        'File' => $file->getPathname(),
-                        'Exception' => $e,
-                    ],
+                    sprintf('File "%s" is not readable', $file->getPathname()),
+                    ['Exception' => $e],
                 );
                 $failed = true;
 
@@ -93,28 +98,48 @@ class ValidateHelper extends Helper
             }
 
             try {
-                $decoded = $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
+                $logger->debug(sprintf('source file %s: validate', $file->getPathname()));
 
-                assert($decoded instanceof stdClass);
+                $jsonDecoded = json_decode(
+                    $json,
+                    false,
+                    512,
+                    JSON_THROW_ON_ERROR,
+                );
 
-                $decoded = Json\Json::fromString(json_encode($decoded, JSON_THROW_ON_ERROR));
+                $validator->validate(
+                    $jsonDecoded,
+                    $schemaDecoded,
+                );
 
-                if (! $schemaValidator->validate($decoded, $schema, $jsonPointer)->isValid()) {
+                /** @var array<int, array> $errors */
+                $errors = $validator->getErrors();
+
+                if ($errors !== []) {
                     $logger->critical(
-                        'File "{File}" is not valid',
-                        [
-                            'File' => $file->getPathname(),
-                        ],
+                        sprintf('File "%s" is not valid', $file->getPathname()),
+                        ['errors' => $errors],
                     );
                     $failed = true;
                 }
-            } catch (ParsingException | JsonException | NotJson | CanNotResolve $e) {
+            } catch (JsonException $e) {
                 $logger->critical(
-                    'File "{File}" had invalid JSON.',
-                    [
-                        'File' => $file->getPathname(),
-                        'Exception' => $e,
-                    ],
+                    sprintf('validating File "%s" failed, because it had invalid JSON.', $file->getPathname()),
+                    ['Exception' => $e],
+                );
+                $failed = true;
+
+                continue;
+            }
+
+            try {
+                $logger->debug(sprintf('source file %s: parse with json parser', $file->getPathname()));
+
+                $jsonParser->parse($json, JsonParser::DETECT_KEY_CONFLICTS);
+            } catch (ParsingException $e) {
+                $logger->critical(
+                    sprintf('parsing File "%s" failed, because it had invalid JSON.', $file->getPathname()),
+                    ['Exception' => $e],
                 );
                 $failed = true;
             }

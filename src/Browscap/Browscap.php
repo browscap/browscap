@@ -47,5 +47,8 @@ class Browscap extends Application
 
         $validateHelper = new Command\Helper\ValidateHelper();
         $this->getHelperSet()->set($validateHelper);
+
+        $loggerHelper = new Command\Helper\LoggerHelper();
+        $this->getHelperSet()->set($loggerHelper);
     }
 }

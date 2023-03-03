@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Browscap\Command;
 
-use Browscap\Helper\LoggerHelper;
+use Browscap\Command\Helper\LoggerHelper;
 use Ergebnis\Json;
 use Ergebnis\Json\Normalizer;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
@@ -15,12 +15,14 @@ use Ergebnis\Json\Printer\Printer;
 use RuntimeException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\InvalidArgumentException;
+use Symfony\Component\Console\Exception\LogicException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Symfony\Component\Finder\Finder;
 use Throwable;
 
+use function assert;
 use function file_put_contents;
 
 use const JSON_PRETTY_PRINT;
@@ -45,12 +47,15 @@ class RewriteTestFixturesCommand extends Command
      * @throws InvalidIndentStyle
      * @throws InvalidIndentSize
      * @throws InvalidJsonEncodeOptions
+     * @throws LogicException
+     * @throws InvalidArgumentException
      * @throws \InvalidArgumentException
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($output);
+        $loggerHelper = $this->getHelper('logger');
+        assert($loggerHelper instanceof LoggerHelper);
+        $logger = $loggerHelper->create($output);
 
         $resourcePath = __DIR__ . '/../../../tests/fixtures';
 
