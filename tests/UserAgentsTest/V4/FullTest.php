@@ -181,7 +181,7 @@ class FullTest extends TestCase
      *
      * @throws RuntimeException
      */
-    public function userAgentDataProvider(): array
+    public static function userAgentDataProvider(): array
     {
         [$data, $errors] = (new IteratorHelper())->getTestFiles(new NullLogger(), 'full');
 
