@@ -15,12 +15,6 @@ class Platform
     /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private string $match;
 
-    /**
-     * @var array<string, string|int|bool>
-     * @phpstan-var PlatformProperties
-     */
-    private array $properties = [];
-
     /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $isLite = false;
 
@@ -32,10 +26,9 @@ class Platform
      *
      * @throws void
      */
-    public function __construct(string $match, array $properties, bool $isLite, bool $standard)
+    public function __construct(string $match, private readonly array $properties, bool $isLite, bool $standard)
     {
         $this->match      = $match;
-        $this->properties = $properties;
         $this->isLite     = $isLite;
         $this->isStandard = $standard;
     }

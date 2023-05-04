@@ -13,20 +13,13 @@ namespace Browscap\Data;
 class Engine
 {
     /**
-     * @var array<string, string|int|bool>
-     * @phpstan-var EngineProperties
-     */
-    private array $properties = [];
-
-    /**
      * @param array<string, string|bool|int> $properties
      * @phpstan-param EngineProperties $properties
      *
      * @throws void
      */
-    public function __construct(array $properties)
+    public function __construct(private readonly array $properties = [])
     {
-        $this->properties = $properties;
     }
 
     /**
