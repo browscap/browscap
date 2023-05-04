@@ -520,6 +520,7 @@
                 "issues": "https://github.com/mimmi20/ua-browser-type/issues",
                 "source": "https://github.com/mimmi20/ua-browser-type"
             },
+            "abandoned": true,
             "time": "2022-01-21T20:03:14+00:00"
         },
         {
@@ -582,6 +583,7 @@
                 "issues": "https://github.com/mimmi20/ua-device-type/issues",
                 "source": "https://github.com/mimmi20/ua-device-type"
             },
+            "abandoned": true,
             "time": "2022-01-21T19:41:36+00:00"
         },
         {

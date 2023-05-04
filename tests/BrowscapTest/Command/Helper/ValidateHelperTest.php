@@ -29,17 +29,13 @@ class ValidateHelperTest extends TestCase
         $this->object = new ValidateHelper();
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testGetName(): void
     {
         static::assertSame('validate', $this->object->getName());
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testInvalidJsonSchema(): void
     {
         $logger = $this->getMockBuilder(LoggerInterface::class)
@@ -70,9 +66,7 @@ class ValidateHelperTest extends TestCase
         self::assertTrue($this->object->validate($logger, $resources, $schemaUri));
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testResourceDirNotFound(): void
     {
         $logger = $this->getMockBuilder(LoggerInterface::class)
@@ -103,9 +97,7 @@ class ValidateHelperTest extends TestCase
         self::assertTrue($this->object->validate($logger, $resources, $schemaUri));
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testResourceDirFoundButWithUnreadableFile(): void
     {
         $root = vfsStream::setup(self::STORAGE_DIR);
@@ -174,9 +166,7 @@ class ValidateHelperTest extends TestCase
         self::assertTrue($this->object->validate($logger, $resources, $schemaUri));
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testResourceDirFoundButWithInvalidFile(): void
     {
         $root = vfsStream::setup(self::STORAGE_DIR);
@@ -252,9 +242,7 @@ class ValidateHelperTest extends TestCase
         self::assertTrue($this->object->validate($logger, $resources, $schemaUri));
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testResourceDirFoundButWithDuplicateKeysInFile(): void
     {
         $root = vfsStream::setup(self::STORAGE_DIR);

@@ -35,9 +35,7 @@ class RewriteHelperTest extends TestCase
         $this->object = new RewriteHelper();
     }
 
-    /**
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testGetName(): void
     {
         static::assertSame('rewrite', $this->object->getName());
