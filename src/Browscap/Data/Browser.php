@@ -11,15 +11,6 @@ namespace Browscap\Data;
  */
 class Browser
 {
-    /** @phpstan-var BrowserType */
-    private string $type;
-
-    /**
-     * @var array<string, string>
-     * @phpstan-var BrowserProperties
-     */
-    private array $properties = [];
-
     /** @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion */
     private bool $isLite     = false;
     private bool $isStandard = false;
@@ -31,10 +22,8 @@ class Browser
      *
      * @throws void
      */
-    public function __construct(array $properties, string $type, bool $isLite, bool $standard)
+    public function __construct(private readonly array $properties, private readonly string $type, bool $isLite, bool $standard)
     {
-        $this->type       = $type;
-        $this->properties = $properties;
         $this->isLite     = $isLite;
         $this->isStandard = $standard;
     }

@@ -17,14 +17,9 @@ class UserAgent
     private string $userAgent = '';
 
     /**
-     * @var array<string>
-     * @phpstan-var UserAgentProperties
-     */
-    private array $properties;
-
-    /**
      * @var mixed[]
      * @phpstan-var array<UserAgentChild>
+     * @phpcsSuppress SlevomatCodingStandard.Classes.RequireConstructorPropertyPromotion.RequiredConstructorPropertyPromotion
      */
     private array $children = [];
 
@@ -50,20 +45,19 @@ class UserAgent
      */
     public function __construct(
         string $userAgent,
-        array $properties,
+        private readonly array $properties,
         array $children = [],
         string|null $platform = null,
         string|null $engine = null,
         string|null $device = null,
         string|null $browser = null,
     ) {
-        $this->userAgent  = $userAgent;
-        $this->properties = $properties;
-        $this->children   = $children;
-        $this->platform   = $platform;
-        $this->engine     = $engine;
-        $this->device     = $device;
-        $this->browser    = $browser;
+        $this->userAgent = $userAgent;
+        $this->children  = $children;
+        $this->platform  = $platform;
+        $this->engine    = $engine;
+        $this->device    = $device;
+        $this->browser   = $browser;
     }
 
     /** @throws void */
