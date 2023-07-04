@@ -27,13 +27,11 @@ class IteratorHelper
      */
     public function getTestFiles(LoggerInterface $logger, string $testKey = 'full'): array
     {
-        $data = [];
-
+        $data            = [];
         $checks          = [];
+        $errors          = [];
         $sourceDirectory = __DIR__ . '/../../../tests/issues/';
         $iterator        = new RecursiveDirectoryIterator($sourceDirectory);
-
-        $errors = [];
 
         foreach (new RecursiveIteratorIterator($iterator) as $file) {
             assert($file instanceof SplFileInfo);
@@ -51,6 +49,8 @@ class IteratorHelper
 
                     $logger->error($error);
                     $errors[] = $error;
+
+                    continue;
                 }
 
                 if (! array_key_exists($testKey, $test)) {
@@ -58,6 +58,8 @@ class IteratorHelper
 
                     $logger->error($error);
                     $errors[] = $error;
+
+                    continue;
                 }
 
                 if (! $test[$testKey]) {
@@ -74,6 +76,8 @@ class IteratorHelper
 
                     $logger->error($error);
                     $errors[] = $error;
+
+                    continue;
                 }
 
                 $data[$key]          = $test;

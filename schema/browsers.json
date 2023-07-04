@@ -1,44 +1,47 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
-  "minItems": 1,
-  "uniqueItems": true,
-  "items": {
-    "type": "object",
-    "properties": {
-      "type": {
-        "type": "string"
-      },
+  "minProperties": 1,
+  "patternProperties": {
+    "^.*$": {
+      "type": "object",
       "properties": {
-        "type": "object",
-        "properties": {
-          "Browser": {
-            "type": "string"
-          },
-          "Browser_Maker": {
-            "type": "string"
-          },
-          "JavaApplets": {
-            "type": "boolean"
-          }
+        "type": {
+          "type": "string"
         },
-        "required": [
-          "Browser",
-          "Browser_Maker"
-        ]
+        "properties": {
+          "type": "object",
+          "properties": {
+            "Browser": {
+              "type": "string"
+            },
+            "Browser_Maker": {
+              "type": "string"
+            },
+            "JavaApplets": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "Browser",
+            "Browser_Maker"
+          ],
+          "additionalProperties": false
+        },
+        "lite": {
+          "type": "boolean"
+        },
+        "standard": {
+          "type": "boolean"
+        }
       },
-      "lite": {
-        "type": "boolean"
-      },
-      "standard": {
-        "type": "boolean"
-      }
-    },
-    "required": [
-      "type",
-      "properties",
-      "lite",
-      "standard"
-    ]
+      "required": [
+        "type",
+        "properties",
+        "lite",
+        "standard"
+      ],
+      "additionalProperties": false
+    }
   }
 }

@@ -132,11 +132,12 @@
           },
           "properties": {
             "allOf": [
-              {"properties": {
-                "Parent": {
-                  "type": { "enum": [ "DefaultProperties" ] }
+              {
+                "properties": {
+                  "Parent": {
+                    "type": { "enum": [ "DefaultProperties" ] }
+                  }
                 }
-              }
               },
               {"$ref": "#/definitions/properties"},
               {"required": [
@@ -153,15 +154,17 @@
         },
         "required": [
           "userAgent"
-        ]
+        ],
+        "additionalProperties": false
       }
-    },
-    "required": [
-      "division",
-      "sortIndex",
-      "lite",
-      "standard",
-      "userAgents"
-    ]
-  }
+    }
+  },
+  "required": [
+    "division",
+    "sortIndex",
+    "lite",
+    "standard",
+    "userAgents"
+  ],
+  "additionalProperties": false
 }

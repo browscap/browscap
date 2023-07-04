@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Browscap\Command;
 
 use Assert\AssertionFailedException;
+use Browscap\Command\Helper\LoggerHelper;
 use Browscap\Data\Factory\DataCollectionFactory;
 use Browscap\Generator\BuildGenerator;
-use Browscap\Helper\LoggerHelper;
 use Browscap\Writer\Factory\FullCollectionFactory;
 use DateTimeImmutable;
 use DateTimeZone;
@@ -59,8 +59,9 @@ class BuildCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($output);
+        $loggerHelper = $this->getHelper('logger');
+        assert($loggerHelper instanceof LoggerHelper);
+        $logger = $loggerHelper->create($output);
 
         $version = $input->getArgument('version');
         assert(is_string($version));

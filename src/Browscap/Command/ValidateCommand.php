@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Browscap\Command;
 
-use Browscap\Helper\LoggerHelper;
+use Browscap\Command\Helper\LoggerHelper;
 use Exception;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\ExceptionInterface;
@@ -41,15 +41,16 @@ class ValidateCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($output);
+        $loggerHelper = $this->getHelper('logger');
+        assert($loggerHelper instanceof LoggerHelper);
+        $logger = $loggerHelper->create($output);
 
         $application = $this->getApplication();
 
         if ($application === null) {
-            $logger->error('Coul not load Application instance');
+            $logger->error('Could not load Application instance');
 
-            return 1;
+            return Command::FAILURE;
         }
 
         $resources = $input->getOption('resources');
@@ -70,7 +71,7 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-browsers" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
         $command = $application->find('validate-devices');
@@ -87,7 +88,7 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-devices" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
         $command = $application->find('validate-engines');
@@ -104,7 +105,7 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-engines" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
         $command = $application->find('validate-platforms');
@@ -121,7 +122,7 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-platforms" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
         $command = $application->find('validate-core-divisions');
@@ -138,7 +139,7 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-core-divisions" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
         $command = $application->find('validate-divisions');
@@ -155,13 +156,11 @@ class ValidateCommand extends Command
         if (0 < $returnCode) {
             $logger->error('There was an error executing the "validate-divisions" command, cannot continue.');
 
-            $failed = true;
+            return Command::FAILURE;
         }
 
-        if (! $failed) {
-            $output->writeln('<fg=green>the files are valid</>');
-        }
+        $output->writeln('<fg=green>the files are valid</>');
 
-        return (int) $failed;
+        return Command::SUCCESS;
     }
 }

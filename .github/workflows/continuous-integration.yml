@@ -104,7 +104,6 @@ jobs:
 
       matrix:
         operating-system:
-          - "ubuntu-18.04"
           - "ubuntu-20.04"
 
         php-version:

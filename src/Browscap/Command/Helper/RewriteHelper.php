@@ -13,6 +13,7 @@ use Ergebnis\Json\Normalizer\Exception\InvalidNewLineString;
 use Ergebnis\Json\Pointer;
 use Ergebnis\Json\Printer\Printer;
 use Ergebnis\Json\SchemaValidator\SchemaValidator;
+use Exception;
 use JsonException;
 use JsonSchema\SchemaStorage;
 use Psr\Log\LoggerInterface;
@@ -24,6 +25,7 @@ use Throwable;
 
 use function assert;
 use function file_put_contents;
+use function sprintf;
 
 use const JSON_PRETTY_PRINT;
 use const JSON_THROW_ON_ERROR;
@@ -39,7 +41,6 @@ class RewriteHelper extends Helper
     }
 
     /**
-     * @throws DirectoryNotFoundException
      * @throws InvalidNewLineString
      * @throws InvalidIndentStyle
      * @throws InvalidIndentSize
@@ -47,6 +48,8 @@ class RewriteHelper extends Helper
      */
     public function rewrite(LoggerInterface $logger, string $resources, string $schema, bool $sort = false): void
     {
+        $logger->debug('initialize rewrite helper');
+
         $normalizer = new Normalizer\SchemaNormalizer(
             $schema,
             new SchemaStorage(),
@@ -61,6 +64,8 @@ class RewriteHelper extends Helper
             true,
         );
 
+        $logger->debug('initialize file finder');
+
         $finder = new Finder();
         $finder->files();
         $finder->name('*.json');
@@ -68,26 +73,32 @@ class RewriteHelper extends Helper
         $finder->ignoreVCS(true);
         $finder->sortByName();
         $finder->ignoreUnreadableDirs();
-        $finder->in($resources);
+
+        try {
+            $finder->in($resources);
+        } catch (DirectoryNotFoundException $exception) {
+            $logger->critical(new Exception('the resource directory was not found', 0, $exception));
+
+            return;
+        }
 
         foreach ($finder as $file) {
-            $logger->info('read source file ' . $file->getPathname());
+            $logger->info(sprintf('source file %s: read', $file->getPathname()));
 
             try {
                 $json = $file->getContents();
             } catch (RuntimeException $e) {
                 $logger->critical(
-                    'File "{File}" is not readable',
-                    [
-                        'File' => $file->getPathname(),
-                        'Exception' => $e,
-                    ],
+                    sprintf('File "%s" is not readable', $file->getPathname()),
+                    ['Exception' => $e],
                 );
 
                 continue;
             }
 
             if ($sort) {
+                $logger->debug(sprintf('source file %s: sort content', $file->getPathname()));
+
                 $sorterHelper = $this->helperSet->get('sorter');
                 assert($sorterHelper instanceof Sorter);
 
@@ -95,16 +106,15 @@ class RewriteHelper extends Helper
                     $json = $sorterHelper->sort($json);
                 } catch (JsonException $e) {
                     $logger->critical(
-                        'File "{File}" had invalid JSON.',
-                        [
-                            'File' => $file->getPathname(),
-                            'Exception' => $e,
-                        ],
+                        sprintf('sorting File "%s" failed, because it had invalid JSON.', $file->getPathname()),
+                        ['Exception' => $e],
                     );
 
                     continue;
                 }
             }
+
+            $logger->debug(sprintf('source file %s: normalize content', $file->getPathname()));
 
             try {
                 $chainNormalizer = new Normalizer\ChainNormalizer(
@@ -114,17 +124,16 @@ class RewriteHelper extends Helper
                 $normalized      = $chainNormalizer->normalize(Json\Json::fromString($json));
             } catch (Throwable $e) {
                 $logger->critical(
-                    'File "{File}" is not valid',
-                    [
-                        'File' => $file->getPathname(),
-                        'Exception' => $e,
-                    ],
+                    sprintf('normalizing File "%s" failed, because it had invalid JSON.', $file->getPathname()),
+                    ['Exception' => $e],
                 );
 
                 continue;
             }
 
-            file_put_contents($file->getPathname(), $normalized);
+            $logger->debug(sprintf('source file %s: write content', $file->getPathname()));
+
+            file_put_contents($file->getPathname(), $normalized->toString());
         }
     }
 }

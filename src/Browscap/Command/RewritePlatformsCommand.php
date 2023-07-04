@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Browscap\Command;
 
+use Browscap\Command\Helper\LoggerHelper;
 use Browscap\Command\Helper\RewriteHelper;
-use Browscap\Helper\LoggerHelper;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentSize;
 use Ergebnis\Json\Normalizer\Exception\InvalidIndentStyle;
 use Ergebnis\Json\Normalizer\Exception\InvalidJsonEncodeOptions;
@@ -16,11 +16,11 @@ use Symfony\Component\Console\Exception\LogicException;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 
 use function assert;
 use function is_string;
 use function realpath;
+use function sprintf;
 
 class RewritePlatformsCommand extends Command
 {
@@ -42,7 +42,6 @@ class RewritePlatformsCommand extends Command
      *
      * @throws InvalidArgumentException
      * @throws LogicException
-     * @throws DirectoryNotFoundException
      * @throws InvalidNewLineString
      * @throws InvalidIndentStyle
      * @throws InvalidIndentSize
@@ -51,15 +50,16 @@ class RewritePlatformsCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $loggerHelper = new LoggerHelper();
-        $logger       = $loggerHelper->create($output);
+        $loggerHelper = $this->getHelper('logger');
+        assert($loggerHelper instanceof LoggerHelper);
+        $logger = $loggerHelper->create($output);
 
         $resources = $input->getOption('resources');
         assert(is_string($resources));
 
         $platformsResourcePath = $resources . '/platforms';
 
-        $logger->info('Resource folder: ' . $resources);
+        $logger->info(sprintf('Resource folder: %s', $resources));
 
         $schema = 'file://' . realpath(__DIR__ . '/../../../schema/platforms.json');
 
