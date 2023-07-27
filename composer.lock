@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a66a2848059dcd8aaa7a6fd71584efb4",
+    "content-hash": "f7e2281c6d04aa689ba41c1dd23b9f3f",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -463,29 +463,39 @@
         },
         {
             "name": "mimmi20/ua-browser-type",
-            "version": "8.0.6",
+            "version": "9.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-browser-type.git",
-                "reference": "5fca0a96114979dd986e05fa5cb09d1c2c90461b"
+                "reference": "55dd5388c1b9dba4ef2d08ee52c1a6f41f52a9f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/5fca0a96114979dd986e05fa5cb09d1c2c90461b",
-                "reference": "5fca0a96114979dd986e05fa5cb09d1c2c90461b",
+                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/55dd5388c1b9dba4ef2d08ee52c1a6f41f52a9f1",
+                "reference": "55dd5388c1b9dba4ef2d08ee52c1a6f41f52a9f1",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
-                "php": "^7.4.3 || ^8.0.0"
+                "php": "^8.1.0"
             },
             "require-dev": {
-                "mimmi20/coding-standard": "^2.6.2",
-                "phpstan/extension-installer": "^1.1.0",
-                "phpstan/phpstan": "^1.4.2",
-                "phpstan/phpstan-deprecation-rules": "^1.0.0",
-                "phpstan/phpstan-phpunit": "^1.0.0",
-                "phpunit/phpunit": "^9.5.12"
+                "ext-ctype": "*",
+                "ext-dom": "*",
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "infection/infection": "^0.27.0",
+                "mimmi20/coding-standard": "^5.1.7",
+                "nikic/php-parser": "^4.16.0",
+                "phpstan/extension-installer": "^1.3.1",
+                "phpstan/phpstan": "^1.10.26",
+                "phpstan/phpstan-deprecation-rules": "^1.1.3",
+                "phpstan/phpstan-phpunit": "^1.3.13",
+                "phpunit/phpunit": "^10.2.6",
+                "rector/rector": "^0.17.7",
+                "vimeo/psalm": "^5.13.1"
             },
             "type": "library",
             "autoload": {
@@ -521,8 +531,7 @@
                 "issues": "https://github.com/mimmi20/ua-browser-type/issues",
                 "source": "https://github.com/mimmi20/ua-browser-type"
             },
-            "abandoned": true,
-            "time": "2022-01-21T20:03:14+00:00"
+            "time": "2023-07-26T18:37:30+00:00"
         },
         {
             "name": "mimmi20/ua-device-type",
