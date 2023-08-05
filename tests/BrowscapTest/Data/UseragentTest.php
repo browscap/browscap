@@ -7,7 +7,6 @@ namespace BrowscapTest\Data;
 use Browscap\Data\UserAgent;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function is_iterable;
 
@@ -16,7 +15,6 @@ class UseragentTest extends TestCase
     /**
      * tests setter and getter for the match property
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetter(): void

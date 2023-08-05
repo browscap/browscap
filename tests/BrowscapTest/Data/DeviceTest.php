@@ -7,14 +7,12 @@ namespace BrowscapTest\Data;
 use Browscap\Data\Device;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class DeviceTest extends TestCase
 {
     /**
      * tests setter and getter for the match property
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetter(): void

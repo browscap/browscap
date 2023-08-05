@@ -31,7 +31,6 @@ final class IniParserTest extends TestCase
     /**
      * tests creating the parser class
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @group parser
@@ -46,7 +45,6 @@ final class IniParserTest extends TestCase
     /**
      * tests setting the should sort flag
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @group parser
@@ -110,7 +108,6 @@ final class IniParserTest extends TestCase
     /**
      * tests getting lines from a file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      *
@@ -167,7 +164,6 @@ HERE;
     /**
      * tests getting lines from a file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      *
@@ -205,7 +201,6 @@ HERE;
     /**
      * tests setting and getting lines of a file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      *
@@ -225,7 +220,6 @@ HERE;
     /**
      * tests parsing sections without sorting
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws RuntimeException
      * @throws InvalidArgumentException
@@ -278,7 +272,6 @@ HERE;
     /**
      * tests parsing sections with sorting
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws RuntimeException
      * @throws InvalidArgumentException

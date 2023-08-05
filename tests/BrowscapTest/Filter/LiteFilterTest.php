@@ -12,14 +12,12 @@ use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class LiteFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetType(): void
@@ -41,7 +39,6 @@ class LiteFilterTest extends TestCase
     /**
      * tests detecting if a divion should be in the output
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutput(): void
@@ -126,7 +123,6 @@ class LiteFilterTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -160,7 +156,6 @@ class LiteFilterTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -193,7 +188,6 @@ class LiteFilterTest extends TestCase
     /**
      * tests if a section is always in the output, if the lite flag is true
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutputSectionOnlyWhenLite(): void

@@ -8,7 +8,6 @@ use Browscap\Command\Helper\Sorter;
 use JsonException;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class SorterTest extends TestCase
 {
@@ -20,10 +19,7 @@ class SorterTest extends TestCase
         $this->object = new Sorter();
     }
 
-    /**
-     * @throws InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testGetName(): void
     {
         static::assertSame('sorter', $this->object->getName());

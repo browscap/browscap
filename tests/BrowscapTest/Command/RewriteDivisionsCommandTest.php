@@ -7,13 +7,11 @@ namespace BrowscapTest\Command;
 use Browscap\Command\RewriteDivisionsCommand;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 use Symfony\Component\Console\Exception\LogicException;
 
 class RewriteDivisionsCommandTest extends TestCase
 {
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws LogicException
      */

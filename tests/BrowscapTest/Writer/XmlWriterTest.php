@@ -60,7 +60,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests getting the writer type
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetType(): void
@@ -71,7 +70,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests setting and getting a formatter
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
@@ -85,7 +83,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests setting and getting a filter
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
@@ -99,7 +96,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests setting a file into silent mode
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
@@ -111,7 +107,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the start of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileStartIfNotSilent(): void
@@ -128,7 +123,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the start of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileStartIfSilent(): void
@@ -142,7 +136,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the end of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileEndIfNotSilent(): void
@@ -156,7 +149,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the end of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileEndIfSilent(): void
@@ -170,7 +162,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfSilent(): void
@@ -186,7 +177,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderHeaderIfNotSilent(): void
@@ -206,7 +196,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -228,7 +217,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -266,7 +254,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -300,7 +287,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsHeader(): void
@@ -315,7 +301,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header of one division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeader(): void
@@ -329,7 +314,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -357,7 +341,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -372,7 +355,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      * @throws JsonException
@@ -477,7 +459,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      * @throws JsonException
@@ -584,7 +565,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      * @throws JsonException
@@ -708,7 +688,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfNotSilent(): void
@@ -722,7 +701,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderSectionFooterIfSilent(): void
@@ -736,7 +714,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the footer of one division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
@@ -748,7 +725,6 @@ class XmlWriterTest extends TestCase
     /**
      * tests rendering the footer after all divisions
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void

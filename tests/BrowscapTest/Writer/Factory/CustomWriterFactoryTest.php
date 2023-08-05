@@ -7,11 +7,11 @@ namespace BrowscapTest\Writer\Factory;
 use Browscap\Formatter\FormatterInterface;
 use Browscap\Writer\Factory\CustomWriterFactory;
 use Browscap\Writer\WriterCollection;
+use InvalidArgumentException;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function assert;
 
@@ -32,9 +32,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionWithDefaultParams(): void
     {
@@ -48,9 +47,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionForCsvFile(): void
     {
@@ -64,9 +62,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionForAspFile(): void
     {
@@ -80,9 +77,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionForXmlFile(): void
     {
@@ -96,9 +92,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionForJsonFile(): void
     {
@@ -112,9 +107,8 @@ class CustomWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollectionForPhpFile(): void
     {

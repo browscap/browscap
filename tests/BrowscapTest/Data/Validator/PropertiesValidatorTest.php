@@ -9,7 +9,6 @@ use Browscap\Data\Validator\PropertiesValidator;
 use LogicException;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class PropertiesValidatorTest extends TestCase
 {
@@ -38,7 +37,6 @@ class PropertiesValidatorTest extends TestCase
     /**
      * tests if no error is raised if all went well
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws LogicException
      * @throws AssertionFailedException

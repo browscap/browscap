@@ -14,7 +14,6 @@ use Browscap\Data\Platform;
 use OutOfBoundsException;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function assert;
 
@@ -38,7 +37,6 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws OutOfBoundsException
      */
@@ -64,7 +62,6 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws OutOfBoundsException
      */
@@ -90,7 +87,6 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws OutOfBoundsException
      * @throws DuplicateDataException
@@ -117,7 +113,6 @@ class DataCollectionTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws OutOfBoundsException
      * @throws DuplicateDataException
@@ -134,10 +129,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($expectedBrowser, $browser);
     }
 
-    /**
-     * @throws InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testGetDivisions(): void
     {
         $divisionName     = 'test-division';
@@ -168,10 +160,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($divisions, $divisionsSecond);
     }
 
-    /**
-     * @throws InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testSetDefaultProperties(): void
     {
         $defaultProperties = $this->createMock(Division::class);
@@ -182,10 +171,7 @@ class DataCollectionTest extends TestCase
         static::assertSame($defaultProperties, $this->object->getDefaultProperties());
     }
 
-    /**
-     * @throws InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testSetDefaultBrowser(): void
     {
         $defaultBrowser = $this->createMock(Division::class);
