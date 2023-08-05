@@ -12,14 +12,12 @@ use Browscap\Writer\IniWriter;
 use Browscap\Writer\WriterInterface;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 class CustomFilterTest extends TestCase
 {
     /**
      * tests getter for the filter type
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetType(): void
@@ -41,7 +39,6 @@ class CustomFilterTest extends TestCase
     /**
      * tests detecting if a divion should be in the output
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutput(): void
@@ -118,7 +115,6 @@ class CustomFilterTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -151,7 +147,6 @@ class CustomFilterTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -183,7 +178,6 @@ class CustomFilterTest extends TestCase
     }
 
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -216,7 +210,6 @@ class CustomFilterTest extends TestCase
     /**
      * tests if a section is always in the output
      *
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutputSectionAlways(): void

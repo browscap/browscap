@@ -6,11 +6,11 @@ namespace BrowscapTest\Writer\Factory;
 
 use Browscap\Writer\Factory\PhpWriterFactory;
 use Browscap\Writer\WriterCollection;
+use InvalidArgumentException;
 use org\bovigo\vfs\vfsStream;
 use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 
 use function assert;
 
@@ -31,9 +31,8 @@ class PhpWriterFactoryTest extends TestCase
     /**
      * tests creating a writer collection
      *
-     * @throws InvalidArgumentException
      * @throws Exception
-     * @throws \InvalidArgumentException
+     * @throws InvalidArgumentException
      */
     public function testCreateCollection(): void
     {

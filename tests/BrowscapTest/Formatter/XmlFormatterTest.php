@@ -13,7 +13,6 @@ use PHPUnit\Framework\InvalidArgumentException;
 use PHPUnit\Framework\MockObject\CannotUseOnlyMethodsException;
 use PHPUnit\Framework\MockObject\MethodCannotBeConfiguredException;
 use PHPUnit\Framework\MockObject\MethodNameAlreadyConfiguredException;
-use PHPUnit\Framework\MockObject\ReflectionException;
 use PHPUnit\Framework\TestCase;
 
 use function sprintf;
@@ -26,7 +25,6 @@ class XmlFormatterTest extends TestCase
      * @throws MethodNameAlreadyConfiguredException
      * @throws MethodCannotBeConfiguredException
      * @throws InvalidArgumentException
-     * @throws ReflectionException
      * @throws CannotUseOnlyMethodsException
      */
     protected function setUp(): void
@@ -46,7 +44,6 @@ class XmlFormatterTest extends TestCase
     /**
      * tests getter for the formatter type
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetType(): void
@@ -57,7 +54,6 @@ class XmlFormatterTest extends TestCase
     /**
      * tests formatting a property name
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFormatPropertyName(): void

@@ -58,7 +58,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests getting the writer type
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testGetType(): void
@@ -69,7 +68,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting and getting a formatter
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetFormatter(): void
@@ -84,7 +82,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting and getting a filter
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetFilter(): void
@@ -99,7 +96,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests setting a file into silent mode
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testSetGetSilent(): void
@@ -111,7 +107,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the start of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileStart(): void
@@ -123,7 +118,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the end of the file
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testFileEnd(): void
@@ -135,7 +129,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderHeader(): void
@@ -149,7 +142,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderVersionIfSilent(): void
@@ -170,7 +162,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilent(): void
@@ -194,7 +185,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the version information
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderVersionIfNotSilentButWithoutVersion(): void
@@ -213,7 +203,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -297,7 +286,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header for all division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws JsonException
      */
@@ -341,7 +329,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header of one division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderDivisionHeader(): void
@@ -353,7 +340,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the header of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderSectionHeader(): void
@@ -365,7 +351,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      * @throws Exception
@@ -470,7 +455,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the body of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      * @throws Exception
@@ -496,7 +480,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer of one section
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderSectionFooter(): void
@@ -508,7 +491,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer of one division
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderDivisionFooter(): void
@@ -520,7 +502,6 @@ class CsvWriterTest extends TestCase
     /**
      * tests rendering the footer after all divisions
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testRenderAllDivisionsFooter(): void

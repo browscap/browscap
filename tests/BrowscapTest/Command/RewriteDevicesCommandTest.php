@@ -14,7 +14,6 @@ use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use ReflectionException;
 use ReflectionMethod;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Exception\LogicException;
 use Symfony\Component\Console\Helper\HelperSet;
@@ -27,7 +26,6 @@ use function sprintf;
 class RewriteDevicesCommandTest extends TestCase
 {
     /**
-     * @throws InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws LogicException
      */

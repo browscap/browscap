@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <phpunit
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.0/phpunit.xsd"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.1/phpunit.xsd"
     backupGlobals="false"
+    backupStaticProperties="false"
     beStrictAboutChangesToGlobalState="true"
+    beStrictAboutCoverageMetadata="false"
     beStrictAboutOutputDuringTests="true"
     beStrictAboutTestsThatDoNotTestAnything="true"
     failOnEmptyTestSuite="true"
@@ -15,25 +18,29 @@
     enforceTimeLimit="false"
     executionOrder="default"
     resolveDependencies="true"
-    cacheDirectory=".phpunit.cache"
-    backupStaticProperties="false" beStrictAboutCoverageMetadata="false">
-  <php>
-    <ini name="error_reporting" value="-1"/>
-    <ini name="memory_limit" value="-1"/>
-    <ini name="date.timezone" value="UTC"/>
-    <ini name="zend.assertions" value="1"/>
-    <ini name="assert.exception" value="On"/>
-  </php>
+    colors="true"
+    cacheDirectory="./.coverage-cache"
+>
+    <php>
+        <ini name="error_reporting" value="-1"/>
+        <ini name="memory_limit" value="-1"/>
+        <ini name="date.timezone" value="UTC"/>
+        <ini name="assert.exception" value="On"/>
+        <ini name="intl.default_locale" value="de"/>
+        <ini name="intl.use_exceptions" value="1"/>
 
-  <testsuites>
-    <testsuite name="Browscap Test Suite">
-      <directory>./BrowscapTest</directory>
-    </testsuite>
-  </testsuites>
+        <env name="COLUMNS" value="100" force="true"/>
+    </php>
 
-  <coverage includeUncoveredFiles="true">
-    <include>
-      <directory suffix=".php">../src/</directory>
-    </include>
-  </coverage>
+    <source>
+        <include>
+            <directory suffix=".php">../src/</directory>
+        </include>
+    </source>
+
+    <testsuites>
+        <testsuite name="Browscap Test Suite">
+            <directory>./BrowscapTest</directory>
+        </testsuite>
+    </testsuites>
 </phpunit>

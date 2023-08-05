@@ -79,7 +79,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      *
@@ -156,7 +155,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider litePropertiesDataProvider
@@ -180,7 +178,6 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsLiteModePropertyWithWriter(): void
@@ -256,7 +253,6 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsLiteModePropertyWithIniWriter(): void
@@ -275,7 +271,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider standardPropertiesDataProvider
@@ -299,7 +294,6 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a standard mode property
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsStandardModePropertyWithWriter(): void
@@ -377,7 +371,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider outputPropertiesDataProvider
@@ -401,7 +394,6 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a output property if a writer is given
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutputPropertyWithCsvWriter(): void
@@ -434,7 +426,6 @@ class PropertyHolderTest extends TestCase
     /**
      * tests detecting a output property if a writer is given
      *
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      */
     public function testIsOutputPropertyWithIniWriter(): void
@@ -469,7 +460,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      * @throws InvalidArgumentException
      *
@@ -559,7 +549,6 @@ class PropertyHolderTest extends TestCase
     }
 
     /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
      * @throws ExpectationFailedException
      *
      * @dataProvider deprecatedPropertiesDataProvider

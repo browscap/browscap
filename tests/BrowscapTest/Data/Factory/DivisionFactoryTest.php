@@ -39,10 +39,7 @@ class DivisionFactoryTest extends TestCase
         $this->object = new DivisionFactory($useragentFactory);
     }
 
-    /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testCreationOfDivision(): void
     {
         $divisionData = [
@@ -57,10 +54,7 @@ class DivisionFactoryTest extends TestCase
         static::assertInstanceOf(Division::class, $this->object->build($divisionData, $filename, false));
     }
 
-    /**
-     * @throws \SebastianBergmann\RecursionContext\InvalidArgumentException
-     * @throws ExpectationFailedException
-     */
+    /** @throws ExpectationFailedException */
     public function testBuildOkWithVersions(): void
     {
         $divisionData = [
