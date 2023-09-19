@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MailPoet Cron Service',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Wysija SARL',
             'Browser_Modus' => 'unknown',

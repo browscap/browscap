@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Amazonbot',
             'Browser' => 'Amazonbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Neevabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Neeva Inc',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Linespider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Line Corporation',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot Generic',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'DataForSeoBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'DataForSEO OU',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'startmebot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'start.me BV',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'startmebot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'start.me BV',
             'Browser_Modus' => 'unknown',

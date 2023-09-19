@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'YandexBot',
             'Browser' => 'YandexBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexAccessibilityBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexDynamicBannerBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexScreenshotBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexImages',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexVideo',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexVideoParser',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexMedia',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexBlogs',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -395,7 +395,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexFavicons',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -438,7 +438,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexWebmaster',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexPagechecker',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -524,7 +524,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexImageResizer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -567,7 +567,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexDirectFetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -610,7 +610,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexCalendarBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -653,7 +653,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexSitelinksBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -696,7 +696,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexMetrika',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -739,7 +739,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexNews',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -782,7 +782,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexVertisBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -825,7 +825,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'Yandex MirrorDetector',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -868,7 +868,7 @@ return [
         'properties' => [
             'Comment' => 'YandexBot',
             'Browser' => 'YandexBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',

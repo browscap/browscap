@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'python-requests 2.20',
             'Browser' => 'python-requests',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',

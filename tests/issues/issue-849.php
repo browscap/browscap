@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SophosUpdateManager',
             'Browser' => 'SophosUpdateManager',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sophos Ltd.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Debian APT-HTTP',
             'Browser' => 'Apt HTTP Transport',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Software in the Public Interest, Inc.',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'urlgrabber',
             'Browser' => 'URL Grabber',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'urlgrabber',
             'Browser' => 'URL Grabber',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'Univention Corporate Server 4.0',
             'Browser' => 'Univention Corporate Server',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Univention GmbH',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'Ubuntu APT-HTTP',
             'Browser' => 'Apt HTTP Transport',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Software in the Public Interest, Inc.',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Microsoft CryptoAPI',
             'Browser' => 'Microsoft CryptoAPI',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -395,7 +395,7 @@ return [
         'properties' => [
             'Comment' => 'libwww',
             'Browser' => 'libwww',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'SophosAgent',
             'Browser' => 'SophosAgent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sophos Ltd.',
             'Browser_Modus' => 'unknown',
@@ -524,7 +524,7 @@ return [
         'properties' => [
             'Comment' => 'libcurl',
             'Browser' => 'libcurl',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -653,7 +653,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'cURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -696,7 +696,7 @@ return [
         'properties' => [
             'Comment' => 'Jupdate',
             'Browser' => 'Jupdate',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'DM Solutions e.K.',
             'Browser_Modus' => 'unknown',

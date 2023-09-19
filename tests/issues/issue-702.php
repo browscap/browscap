@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => '360Spider',
             'Browser' => '360Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Qihoo 360 Technology Co. Ltd.',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Embedly',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'embed.ly',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Apache HttpClient',
             'Browser' => 'Apache HttpClient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'The Apache Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'cURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Postman Runtime',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Postman, Inc.',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'python-requests 2.21',
             'Browser' => 'python-requests',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'AdsBot Google-Mobile for Android',
             'Browser' => 'AdsBot Google-Mobile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sogou Inc',
             'Browser_Modus' => 'unknown',

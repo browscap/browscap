@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Paper.li Bot',
             'Browser' => 'Paper.li Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Paper.li',
             'Browser_Modus' => 'unknown',

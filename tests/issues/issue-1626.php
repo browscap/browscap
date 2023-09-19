@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Lua HTTP client cosocket driver',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'James Hurst',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Mixmax Link Preview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mixmax, Inc.',
             'Browser_Modus' => 'unknown',

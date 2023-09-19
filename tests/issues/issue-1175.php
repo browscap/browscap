@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Pingdom',
             'Browser' => 'Pingdom Transaction Monitoring',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Pingdom AB.',
             'Browser_Modus' => 'unknown',

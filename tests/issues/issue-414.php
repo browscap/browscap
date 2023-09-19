@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'WeSEE:Ads',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'WeSEE Ltd',
             'Browser_Modus' => 'unknown',

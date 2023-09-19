@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'uMBot',
             'Browser' => 'uMBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ubermetrics-technologies.com',
             'Browser_Modus' => 'unknown',

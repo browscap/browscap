@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'AskPeterBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.askpeter.info',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Discovery Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'discoveryengine.com',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'AcoonBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Michael Schoebel',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'AboutUs Bot',
             'Browser' => 'AboutUs Bot Johnny5',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'aboutus.org',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'woriobot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Flipboard, Inc.',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'woriobot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Flipboard, Inc.',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'GIDBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'J de Silva',
             'Browser_Modus' => 'unknown',
@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Zookabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'zookabot.com',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'FreeWebMonitoring SiteChecker',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.freewebmonitoring.com',
             'Browser_Modus' => 'unknown',
@@ -395,7 +395,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'IPv4Scan',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ipv4scan.com',
             'Browser_Modus' => 'unknown',
@@ -438,7 +438,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MetaURI Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'metauri.com',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'DomainsBot',
             'Browser' => 'DomainsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.domainsbot.com',
             'Browser_Modus' => 'unknown',
@@ -524,7 +524,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'netEstate NE Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'netEstate GmbH',
             'Browser_Modus' => 'unknown',
@@ -567,7 +567,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'redbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'redbot.org',
             'Browser_Modus' => 'unknown',

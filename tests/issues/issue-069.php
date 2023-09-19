@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'ContextAd Bot',
             'Browser' => 'ContextAd Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

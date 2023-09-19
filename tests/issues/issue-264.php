@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Nutch',
             'Browser' => 'DiscoverEd',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Creative Commons',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'SpringBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Springbot, Inc.',
             'Browser_Modus' => 'unknown',

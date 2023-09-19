@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'chlooe Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'AsiaWS network',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'SeeBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seegnify',
             'Browser_Modus' => 'unknown',

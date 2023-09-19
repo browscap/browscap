@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ltx71 Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ltx71.com',
             'Browser_Modus' => 'unknown',

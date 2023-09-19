@@ -120,7 +120,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'AdsTxtCrawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -163,7 +163,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Alignabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -206,7 +206,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Micro Focus Web-Connector',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Micro Focus International PLC',
             'Browser_Modus' => 'unknown',
@@ -249,7 +249,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'IVW-Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -292,7 +292,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => '2GDPR',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -335,7 +335,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'OnCrawl',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -378,7 +378,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'OpenindexSpider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -421,7 +421,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot 1.0',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -464,7 +464,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'iSec_v2_Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -507,7 +507,7 @@ return [
         'properties' => [
             'Comment' => 'WooRank',
             'Browser' => 'WooRank Review',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'woorank.com',
             'Browser_Modus' => 'unknown',
@@ -550,7 +550,7 @@ return [
         'properties' => [
             'Comment' => 'Diffbot',
             'Browser' => 'Diffbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -593,7 +593,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Squirrly Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -636,7 +636,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'pyspider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'cURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'PHP',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'the PHP Group',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'python-requests 2.2',
             'Browser' => 'python-requests',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -1665,7 +1665,7 @@ return [
         'properties' => [
             'Comment' => 'FlipboardProxy',
             'Browser' => 'FlipboardProxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Flipboard, Inc.',
             'Browser_Modus' => 'unknown',
@@ -1966,7 +1966,7 @@ return [
         'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Powermarks',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kaylon Technologies',
             'Browser_Modus' => 'unknown',
@@ -2052,7 +2052,7 @@ return [
         'properties' => [
             'Comment' => 'profiller',
             'Browser' => 'profiller',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2095,7 +2095,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'SimplePie',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ryan Parman, Geoffrey Sneddon, Ryan McCue and contributors',
             'Browser_Modus' => 'unknown',

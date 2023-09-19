@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Kraken',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Linkfluence SAS',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'okhttp',
             'Browser' => 'okhttp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Square, Inc.',
             'Browser_Modus' => 'unknown',
@@ -2560,7 +2560,7 @@ return [
         'properties' => [
             'Comment' => 'Microsoft',
             'Browser' => 'BackgroundTransferService',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -3164,7 +3164,7 @@ return [
         'properties' => [
             'Comment' => 'Heritrix',
             'Browser' => 'Heritrix',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -3207,7 +3207,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Custom-Feed Reader',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -3938,7 +3938,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Liferea',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4383,7 +4383,7 @@ return [
         'properties' => [
             'Comment' => 'NetNewsWire',
             'Browser' => 'NetNewsWire',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4426,7 +4426,7 @@ return [
         'properties' => [
             'Comment' => 'NetNewsWire',
             'Browser' => 'NetNewsWire',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4469,7 +4469,7 @@ return [
         'properties' => [
             'Comment' => 'NetNewsWire',
             'Browser' => 'NetNewsWire',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4512,7 +4512,7 @@ return [
         'properties' => [
             'Comment' => 'NetNewsWire',
             'Browser' => 'NetNewsWire',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4957,7 +4957,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'CITA RSS Aggregator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

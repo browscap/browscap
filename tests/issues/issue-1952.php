@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'AngleSharp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'buff library',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'DomainCrawler',
             'Browser' => 'CipaCrawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Companybook Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Companybook (Europe) Limited',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'DocBase Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'DocBase',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena Pagetitle Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena Star UserAgent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena Favicon',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -395,7 +395,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Fetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -438,7 +438,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Scissors',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -524,7 +524,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::UserAgent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -567,7 +567,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Bookmark',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -610,7 +610,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Bookmark',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -653,7 +653,7 @@ return [
         'properties' => [
             'Comment' => 'Hatena',
             'Browser' => 'Hatena::Bookmark',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Hatena Co., Ltd.',
             'Browser_Modus' => 'unknown',
@@ -696,7 +696,7 @@ return [
         'properties' => [
             'Comment' => 'Lightspeed Systems RocketCrawler',
             'Browser' => 'Lightspeed Systems Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Lightspeed Systems',
             'Browser_Modus' => 'unknown',
@@ -739,7 +739,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'LinqiaMetadataDownloaderBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Linqia, Inc',
             'Browser_Modus' => 'unknown',
@@ -782,7 +782,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'AlphaBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'alphaseobot.com',
             'Browser_Modus' => 'unknown',
@@ -825,7 +825,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'Website Security Scanner',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Vistex Ltd',
             'Browser_Modus' => 'unknown',
@@ -868,7 +868,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'LetsearchBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'LetSearch.ru',
             'Browser_Modus' => 'unknown',
@@ -911,7 +911,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Mappy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Core Inc',
             'Browser_Modus' => 'unknown',
@@ -954,7 +954,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Nimbostratus Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Cloud System Networks',
             'Browser_Modus' => 'unknown',
@@ -1083,7 +1083,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'tracemyfile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Tracemyfile Ltd.',
             'Browser_Modus' => 'unknown',
@@ -1126,7 +1126,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'NinjaBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1169,7 +1169,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'OnPageBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ryte GmbH',
             'Browser_Modus' => 'unknown',
@@ -1212,7 +1212,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'RankingBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1255,7 +1255,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'SeobilityBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'seobility GmbH',
             'Browser_Modus' => 'unknown',
@@ -1298,7 +1298,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Serf',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1341,7 +1341,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'SuperPagesUrlVerifyBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Dex Media, Inc',
             'Browser_Modus' => 'unknown',
@@ -1384,7 +1384,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'The Knowledge AI',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1427,7 +1427,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Upflow',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1470,7 +1470,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Yooo Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yooo!',
             'Browser_Modus' => 'unknown',
@@ -1513,7 +1513,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'adstxtlab.com Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Jaohawi AB',
             'Browser_Modus' => 'unknown',
@@ -1556,7 +1556,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'axios',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1599,7 +1599,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'bidswitchbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1642,7 +1642,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'Bluetooth Diagnostic & Discovery Tool',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1685,7 +1685,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'nominet bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Nominet UK',
             'Browser_Modus' => 'unknown',
@@ -1728,7 +1728,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'muhstik scanner',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1771,7 +1771,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'muhstik scanner',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1814,7 +1814,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'muhstik scanner',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1857,7 +1857,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'nanagogo-bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1900,7 +1900,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'struts-pwn',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1943,7 +1943,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'twieve bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Twieve',
             'Browser_Modus' => 'unknown',
@@ -1986,7 +1986,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'zoomsquare robot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'zoomsquare GmbH',
             'Browser_Modus' => 'unknown',
@@ -2029,7 +2029,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'Ryte Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ryte GmbH',
             'Browser_Modus' => 'unknown',

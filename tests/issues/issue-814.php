@@ -1984,7 +1984,7 @@ return [
         'properties' => [
             'Comment' => 'Riddler',
             'Browser' => 'Riddler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'riddler.io',
             'Browser_Modus' => 'unknown',

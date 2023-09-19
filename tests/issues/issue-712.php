@@ -5559,7 +5559,7 @@ return [
         'properties' => [
             'Comment' => 'Seznam Screenshot Generator',
             'Browser' => 'Seznam Screenshot Generator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',
@@ -6348,7 +6348,7 @@ return [
         'properties' => [
             'Comment' => 'Daumoa',
             'Browser' => 'Daumoa',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
@@ -6578,7 +6578,7 @@ return [
         'properties' => [
             'Comment' => 'SMTBot',
             'Browser' => 'SMTBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SimilarTech Ltd.',
             'Browser_Modus' => 'unknown',
@@ -6621,7 +6621,7 @@ return [
         'properties' => [
             'Comment' => 'Daumoa',
             'Browser' => 'Daumoa',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
@@ -6722,7 +6722,7 @@ return [
         'properties' => [
             'Comment' => 'ScoutJet',
             'Browser' => 'ScoutJet',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Blekko Inc.',
             'Browser_Modus' => 'unknown',

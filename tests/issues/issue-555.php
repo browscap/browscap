@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Qwantify',
             'Browser' => 'Qwantify',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'QWANT SAS',
             'Browser_Modus' => 'unknown',

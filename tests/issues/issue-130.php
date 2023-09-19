@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Google Wireless Transcoder',
             'Browser' => 'Google Wireless Transcoder',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'YandexBot',
             'Browser' => 'YandexBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'BUbiNG Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'http://law.di.unimi.it',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'MSN-Media for iOS 1.0b',
             'Browser' => 'msnbot-media',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -539,7 +539,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'semantic-visions.com crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'semantic-visions.com',
             'Browser_Modus' => 'unknown',
@@ -625,7 +625,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'memoryBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Internet Memory Foundation',
             'Browser_Modus' => 'unknown',
@@ -668,7 +668,7 @@ return [
         'properties' => [
             'Comment' => 'Wayback Archive Bot',
             'Browser' => 'Wayback Archive Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'archive.org',
             'Browser_Modus' => 'unknown',
@@ -797,7 +797,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Mozilla Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'fairshare.cc',
             'Browser_Modus' => 'unknown',
@@ -982,7 +982,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'RamblerMail Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1025,7 +1025,7 @@ return [
         'properties' => [
             'Comment' => 'Spinn3r RSS Aggregator',
             'Browser' => 'Spinn3r RSS Aggregator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Tailrank Inc',
             'Browser_Modus' => 'unknown',
@@ -1068,7 +1068,7 @@ return [
         'properties' => [
             'Comment' => 'BingPreview 1.0b',
             'Browser' => 'BingPreview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -1283,7 +1283,7 @@ return [
         'properties' => [
             'Comment' => 'spbot',
             'Browser' => 'SEOprofiler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Axandra GmbH',
             'Browser_Modus' => 'unknown',
@@ -1326,7 +1326,7 @@ return [
         'properties' => [
             'Comment' => 'BingPreview for iOS 1.0b',
             'Browser' => 'BingPreview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -1698,7 +1698,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'Open Vulnerability Assessment System',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'OpenVAS',
             'Browser_Modus' => 'unknown',
@@ -2429,7 +2429,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'memoryBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Internet Memory Foundation',
             'Browser_Modus' => 'unknown',
@@ -2528,7 +2528,7 @@ return [
         'properties' => [
             'Comment' => 'Ichiro Bot',
             'Browser' => 'Ichiro Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ichiro',
             'Browser_Modus' => 'unknown',
@@ -2902,7 +2902,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',
@@ -4493,7 +4493,7 @@ return [
         'properties' => [
             'Comment' => 'Seznam Screenshot Generator',
             'Browser' => 'Seznam Screenshot Generator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',
@@ -4839,7 +4839,7 @@ return [
         'properties' => [
             'Comment' => 'Microsoft',
             'Browser' => 'IIS Site Analysis Web Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.iis.net',
             'Browser_Modus' => 'unknown',
@@ -5127,7 +5127,7 @@ return [
         'properties' => [
             'Comment' => 'BingPreview 1.0b',
             'Browser' => 'BingPreview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',

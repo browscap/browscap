@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Comodo SSL Checker',
             'Browser' => 'Comodo SSL Checker',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Comodo Group Inc',
             'Browser_Modus' => 'unknown',

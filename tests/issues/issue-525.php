@@ -655,7 +655,7 @@ return [
         'properties' => [
             'Comment' => 'Mail.Ru Bot',
             'Browser' => 'Mail.Ru Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mail.Ru Group',
             'Browser_Modus' => 'unknown',
@@ -698,7 +698,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',
@@ -4193,7 +4193,7 @@ return [
         'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'Finderlein Research Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -4567,7 +4567,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Esribot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.esrihu.hu',
             'Browser_Modus' => 'unknown',
@@ -5936,7 +5936,7 @@ return [
         'properties' => [
             'Comment' => 'Ichiro Mobile Bot',
             'Browser' => 'Ichiro Mobile Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ichiro',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Lipperhey SEO Service',
             'Browser' => 'Lipperhey Kaus Australis',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Lipperhey',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Digincore Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

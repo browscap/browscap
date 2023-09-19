@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Evernote Clip Resolver',
             'Browser' => 'Evernote Clip Resolver',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Evernote Corporation',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'NetzCheckBot',
             'Browser' => 'NetzCheckBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'netzcheck.com',
             'Browser_Modus' => 'unknown',

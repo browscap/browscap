@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SetLinks.ru Crawler',
             'Browser' => 'SetLinks.ru Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SetLinks.ru',
             'Browser_Modus' => 'unknown',

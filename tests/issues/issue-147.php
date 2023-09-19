@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo! Slurp',
             'Browser' => 'Yahoo! Slurp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',

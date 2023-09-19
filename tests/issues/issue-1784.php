@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'JamesBOT',
             'Browser' => 'JamesBOT',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'GESKIMO SRL',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'JamesBOT',
             'Browser' => 'JamesBOT',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'GESKIMO SRL',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Netcraft',
             'Browser' => 'Netcraft SSL Server Survey',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Netcraft Ltd.',
             'Browser_Modus' => 'unknown',

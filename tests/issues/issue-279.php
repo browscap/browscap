@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'Zend_Http_Client',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Zend Technologies Ltd.',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Gomez Site Monitor 3.0',
             'Browser' => 'Gomez Site Monitor',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Compuware Corporation',
             'Browser_Modus' => 'unknown',
@@ -324,7 +324,7 @@ return [
         'properties' => [
             'Comment' => 'Scrapy',
             'Browser' => 'Scrapy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'scrapy.org',
             'Browser_Modus' => 'unknown',
@@ -367,7 +367,7 @@ return [
         'properties' => [
             'Comment' => 'MJ12bot',
             'Browser' => 'MJ12bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Majestic-12 Ltd',
             'Browser_Modus' => 'unknown',
@@ -410,7 +410,7 @@ return [
         'properties' => [
             'Comment' => 'MSN',
             'Browser' => 'adidxbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -496,7 +496,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'SEOkicks Robot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Torsten Rueckert Internetdienstleistungen',
             'Browser_Modus' => 'unknown',
@@ -539,7 +539,7 @@ return [
         'properties' => [
             'Comment' => 'MJ12bot',
             'Browser' => 'MJ12bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Majestic-12 Ltd',
             'Browser_Modus' => 'unknown',
@@ -582,7 +582,7 @@ return [
         'properties' => [
             'Comment' => 'BingPreview 1.0b',
             'Browser' => 'BingPreview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -683,7 +683,7 @@ return [
         'properties' => [
             'Comment' => 'UnisterBot',
             'Browser' => 'UnisterBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Unister Holding GmbH',
             'Browser_Modus' => 'unknown',
@@ -812,7 +812,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Moozilla',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1575,7 +1575,7 @@ return [
         'properties' => [
             'Comment' => 'Exalead',
             'Browser' => 'Exabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Dassault Systemes',
             'Browser_Modus' => 'unknown',

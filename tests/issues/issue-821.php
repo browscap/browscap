@@ -969,7 +969,7 @@ return [
         'properties' => [
             'Comment' => 'Heritrix',
             'Browser' => 'bl.uk_lddc_bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'The British Legal Deposit Libraries',
             'Browser_Modus' => 'unknown',
@@ -2528,7 +2528,7 @@ return [
         'properties' => [
             'Comment' => 'DueDil Crawler',
             'Browser' => 'DueDil Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'DueDil Ltd',
             'Browser_Modus' => 'unknown',
@@ -2945,7 +2945,7 @@ return [
         'properties' => [
             'Comment' => 'SemrushBot',
             'Browser' => 'SemrushBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SEMrush',
             'Browser_Modus' => 'unknown',
@@ -3375,7 +3375,7 @@ return [
         'properties' => [
             'Comment' => 'SemrushBot',
             'Browser' => 'SemrushBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SEMrush',
             'Browser_Modus' => 'unknown',

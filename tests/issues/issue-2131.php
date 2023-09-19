@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'AdSense Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',

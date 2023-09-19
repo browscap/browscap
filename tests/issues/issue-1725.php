@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'AppleNewsBot',
             'Browser' => 'AppleNewsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',

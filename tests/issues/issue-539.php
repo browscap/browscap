@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Cookie Reports Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Cookie Reports Limited',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Image Crawlers',
             'Browser' => 'Elmer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ThingLink Oy',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Iframely Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Itteco',
             'Browser_Modus' => 'unknown',
@@ -468,7 +468,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MetaInspector',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Jaime Iniesta',
             'Browser_Modus' => 'unknown',
@@ -511,7 +511,7 @@ return [
         'properties' => [
             'Comment' => 'Microsoft CryptoAPI',
             'Browser' => 'Microsoft CryptoAPI',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -726,7 +726,7 @@ return [
         'properties' => [
             'Comment' => 'Digg Bot',
             'Browser' => 'Digg Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'News.me Inc',
             'Browser_Modus' => 'unknown',
@@ -1485,7 +1485,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'AjaxSnapBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Tockify Ltd',
             'Browser_Modus' => 'unknown',
@@ -1528,7 +1528,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'CrawlRobot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1571,7 +1571,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Owler Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Owler, Inc.',
             'Browser_Modus' => 'unknown',
@@ -1614,7 +1614,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo Link Preview',
             'Browser' => 'Yahoo Link Preview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
@@ -1657,7 +1657,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'pub-crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1945,7 +1945,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Reverse IP Lookup',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'binarymonkey.com',
             'Browser_Modus' => 'unknown',
@@ -2117,7 +2117,7 @@ return [
         'properties' => [
             'Comment' => 'Vulnerability Scanners',
             'Browser' => 'OWASP_SECRET_BROWSER',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2160,7 +2160,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'SMRF URL Expander',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2203,7 +2203,7 @@ return [
         'properties' => [
             'Comment' => 'Entireweb',
             'Browser' => 'Entireweb',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Entireweb Sweden AB',
             'Browser_Modus' => 'unknown',
@@ -2246,7 +2246,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Superarama.com - BOT',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2691,7 +2691,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'WNMbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2734,7 +2734,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Website Explorer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'umechando.com',
             'Browser_Modus' => 'unknown',
@@ -2777,7 +2777,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'city-map screenshot service',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'city-map Internetmarketing AG',
             'Browser_Modus' => 'unknown',
@@ -2863,7 +2863,7 @@ return [
         'properties' => [
             'Comment' => 'Thumbnail Generators',
             'Browser' => 'gosquared-thumbnailer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Go Squared Ltd.',
             'Browser_Modus' => 'unknown',
@@ -2964,7 +2964,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'optivo NetHelper',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'optivo GmbH',
             'Browser_Modus' => 'unknown',
@@ -3050,7 +3050,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'Screenshot Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'pr-cy.ru',
             'Browser_Modus' => 'unknown',

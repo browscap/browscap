@@ -610,7 +610,7 @@ return [
         'properties' => [
             'Comment' => 'Daum Bot',
             'Browser' => 'Daum Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
@@ -739,7 +739,7 @@ return [
         'properties' => [
             'Comment' => 'Download Managers',
             'Browser' => 'MyComGameCenter Downloader',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'My.com',
             'Browser_Modus' => 'unknown',

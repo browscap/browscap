@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Scopia Crawler',
             'Browser' => 'Scopia Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Pagedesign GmbH',
             'Browser_Modus' => 'unknown',
@@ -582,7 +582,7 @@ return [
         'properties' => [
             'Comment' => 'fastbot crawler',
             'Browser' => 'fastbot crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Pagedesign GmbH',
             'Browser_Modus' => 'unknown',
