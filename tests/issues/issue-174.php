@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'spbot',
             'Browser' => 'SEOprofiler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Axandra GmbH',
             'Browser_Modus' => 'unknown',

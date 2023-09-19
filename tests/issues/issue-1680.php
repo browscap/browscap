@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'CloudEndure Scanner',
             'Browser' => 'CloudEndure Scanner',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'CloudEndure Ltd.',
             'Browser_Modus' => 'unknown',

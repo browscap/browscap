@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Seznam Email Proxy',
             'Browser' => 'Seznam Email Proxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Seznam Email Proxy',
             'Browser' => 'Seznam Email Proxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',

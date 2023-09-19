@@ -1042,7 +1042,7 @@ return [
         'properties' => [
             'Comment' => 'Miscellaneous Browsers',
             'Browser' => 'WEB.DE MailCheck',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => '1 & 1',
             'Browser_Modus' => 'unknown',
@@ -1085,7 +1085,7 @@ return [
         'properties' => [
             'Comment' => 'CareerBot',
             'Browser' => 'CareerBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'career-x.de',
             'Browser_Modus' => 'unknown',
@@ -1128,7 +1128,7 @@ return [
         'properties' => [
             'Comment' => 'Screaming Frog SEO Spider 2.22',
             'Browser' => 'Screaming Frog SEO Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1171,7 +1171,7 @@ return [
         'properties' => [
             'Comment' => 'oBot',
             'Browser' => 'oBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'IBM',
             'Browser_Modus' => 'unknown',
@@ -1214,7 +1214,7 @@ return [
         'properties' => [
             'Comment' => 'SeznamBot',
             'Browser' => 'SeznamBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',
@@ -1429,7 +1429,7 @@ return [
         'properties' => [
             'Comment' => '80Legs',
             'Browser' => '80Legs',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1472,7 +1472,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Wada.vn Search Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'WADA',
             'Browser_Modus' => 'unknown',
@@ -1558,7 +1558,7 @@ return [
         'properties' => [
             'Comment' => 'Anonymizied',
             'Browser' => 'Anonymizied',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

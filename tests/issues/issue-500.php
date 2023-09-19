@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Online Scanners',
             'Browser' => 'CloudFlare AlwaysOnline',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'CloudFlare, Inc.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'BigBozz - Financial Search',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ECCP',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'Web Glance',
             'Browser' => 'Web Glance',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'webglance.com',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Facebook',
             'Browser' => 'FacebookExternalHit',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
@@ -539,7 +539,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Gigablast Search Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'gigablast.com',
             'Browser_Modus' => 'unknown',
@@ -668,7 +668,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Linkfluence SAS',
             'Browser_Modus' => 'unknown',
@@ -797,7 +797,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'WebIndex',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -883,7 +883,7 @@ return [
         'properties' => [
             'Comment' => 'Jobs',
             'Browser' => 'MetaJobBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Dr. Manfred Schauer',
             'Browser_Modus' => 'unknown',
@@ -926,7 +926,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ArchiveBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ArchiveTeam',
             'Browser_Modus' => 'unknown',
@@ -1012,7 +1012,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Smartsite HTTPClient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

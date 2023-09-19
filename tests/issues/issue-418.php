@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => '200PleaseBot',
             'Browser' => '200PleaseBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => '200please.com',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Abonti WebSearch',
             'Browser' => 'Abonti WebSearch',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'abonti.com',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'GG PeekBot',
             'Browser' => 'GG PeekBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'gadu-gadu.pl',
             'Browser_Modus' => 'unknown',

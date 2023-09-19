@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SemrushBot',
             'Browser' => 'SemrushBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SEMrush',
             'Browser_Modus' => 'unknown',
@@ -152,7 +152,7 @@ return [
         'properties' => [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Browser_Modus' => 'unknown',
@@ -238,7 +238,7 @@ return [
         'properties' => [
             'Comment' => 'MJ12bot',
             'Browser' => 'MJ12bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Majestic-12 Ltd',
             'Browser_Modus' => 'unknown',
@@ -367,7 +367,7 @@ return [
         'properties' => [
             'Comment' => 'MSN',
             'Browser' => 'BingBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -1739,7 +1739,7 @@ return [
         'properties' => [
             'Comment' => 'okhttp',
             'Browser' => 'okhttp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Square, Inc.',
             'Browser_Modus' => 'unknown',
@@ -5706,7 +5706,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'zgrab',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -7054,7 +7054,7 @@ return [
         'properties' => [
             'Comment' => 'Apache HttpClient',
             'Browser' => 'Apache HttpClient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'The Apache Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -7213,7 +7213,7 @@ return [
         'properties' => [
             'Comment' => 'MJ12bot',
             'Browser' => 'MJ12bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Majestic-12 Ltd',
             'Browser_Modus' => 'unknown',
@@ -35515,7 +35515,7 @@ return [
         'properties' => [
             'Comment' => 'ZumBot',
             'Browser' => 'ZumBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'ZUMinternet Corp',
             'Browser_Modus' => 'unknown',
@@ -47328,7 +47328,7 @@ return [
         'properties' => [
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Oracle',
             'Browser_Modus' => 'unknown',
@@ -47558,7 +47558,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'zgrab',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

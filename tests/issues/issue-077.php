@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -152,7 +152,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Google Bot Mobile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -210,7 +210,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -253,7 +253,7 @@ return [
         'properties' => [
             'Comment' => 'Link Checkers',
             'Browser' => 'Integrity',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

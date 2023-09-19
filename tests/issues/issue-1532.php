@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.12 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -66,7 +66,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.11 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -124,7 +124,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.2 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -182,7 +182,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 9.45 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',

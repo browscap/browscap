@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'BCKLINKS',
             'Browser' => 'Monitor Backlinks Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Monitor Backlinks Ltd.',
             'Browser_Modus' => 'unknown',

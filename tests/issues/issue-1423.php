@@ -5062,7 +5062,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5105,7 +5105,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5148,7 +5148,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5191,7 +5191,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5234,7 +5234,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5277,7 +5277,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5320,7 +5320,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5363,7 +5363,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -8618,7 +8618,7 @@ return [
         'properties' => [
             'Comment' => 'Gomez Site Monitor 3.0',
             'Browser' => 'Gomez Site Monitor',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Compuware Corporation',
             'Browser_Modus' => 'unknown',
@@ -8661,7 +8661,7 @@ return [
         'properties' => [
             'Comment' => 'Gomez Site Monitor 3.0',
             'Browser' => 'Gomez Site Monitor',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Compuware Corporation',
             'Browser_Modus' => 'unknown',
@@ -9564,7 +9564,7 @@ return [
         'properties' => [
             'Comment' => 'AdsBot Google-Mobile for iOS',
             'Browser' => 'AdsBot Google-Mobile',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -9622,7 +9622,7 @@ return [
         'properties' => [
             'Comment' => 'Facebook',
             'Browser' => 'FacebookExternalHit',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Facebook',
             'Browser_Modus' => 'unknown',
@@ -10353,7 +10353,7 @@ return [
         'properties' => [
             'Comment' => 'Gomez Site Monitor 3.0',
             'Browser' => 'Gomez Site Monitor',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Compuware Corporation',
             'Browser_Modus' => 'unknown',
@@ -10396,7 +10396,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -10439,7 +10439,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -10482,7 +10482,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -10525,7 +10525,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -10568,7 +10568,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -12773,7 +12773,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo',
             'Browser' => 'Yahoo Ad Monitoring',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
@@ -22609,7 +22609,7 @@ return [
         'properties' => [
             'Comment' => 'Image Crawlers',
             'Browser' => 'Taringa Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Taringa.net',
             'Browser_Modus' => 'unknown',
@@ -22738,7 +22738,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MailDB Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'MailDB',
             'Browser_Modus' => 'unknown',
@@ -22781,7 +22781,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MuckRack Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Muckrack.com',
             'Browser_Modus' => 'unknown',
@@ -22824,7 +22824,7 @@ return [
         'properties' => [
             'Comment' => 'HttpClient for Google Go Programming Language',
             'Browser' => 'GO HttpClient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -22867,7 +22867,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Mozilla Metadata Service',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mozilla Foundation',
             'Browser_Modus' => 'unknown',
@@ -22910,7 +22910,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Alamofire Http Client',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Christian Noon',
             'Browser_Modus' => 'unknown',
@@ -22953,7 +22953,7 @@ return [
         'properties' => [
             'Comment' => 'Thumbnail Generators',
             'Browser' => 'Wordpress.com MShots Thumbnailer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Automattic',
             'Browser_Modus' => 'unknown',
@@ -22996,7 +22996,7 @@ return [
         'properties' => [
             'Comment' => 'Thumbnail Generators',
             'Browser' => 'webkit2png',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Paul Hammond',
             'Browser_Modus' => 'unknown',

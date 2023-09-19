@@ -2071,7 +2071,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.3 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',

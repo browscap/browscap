@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 9.34 for Android',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 9.44 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -109,7 +109,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 9.39 for Android',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -152,7 +152,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 9.45 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -210,7 +210,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.3 for Android',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -253,7 +253,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.4 for iOS',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',
@@ -311,7 +311,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Agent 10.7 for Android',
             'Browser' => 'Snapchat Agent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',

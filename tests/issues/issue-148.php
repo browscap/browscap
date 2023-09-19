@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo',
             'Browser' => 'Yahoo Slingstone',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',

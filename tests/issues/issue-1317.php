@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Catchpoint Monitoring Service',
             'Browser' => 'Catchpoint Monitoring Service',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Catchpoint Systems, Inc.',
             'Browser_Modus' => 'unknown',

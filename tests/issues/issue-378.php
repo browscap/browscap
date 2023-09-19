@@ -210,7 +210,7 @@ return [
         'properties' => [
             'Comment' => 'WordPress 4.0',
             'Browser' => 'WordPress',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'wordpress.org',
             'Browser_Modus' => 'unknown',
@@ -296,7 +296,7 @@ return [
         'properties' => [
             'Comment' => 'MSN',
             'Browser' => 'Windows Phone Search',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -526,7 +526,7 @@ return [
         'properties' => [
             'Comment' => 'Screaming Frog SEO Spider 2.40',
             'Browser' => 'Screaming Frog SEO Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

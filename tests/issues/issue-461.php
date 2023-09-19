@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'MSN',
             'Browser' => 'BingBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',

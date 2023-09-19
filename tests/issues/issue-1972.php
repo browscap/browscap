@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'localsearch',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Data Mining',
             'Browser' => 'Datanyze',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

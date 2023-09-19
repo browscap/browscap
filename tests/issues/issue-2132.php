@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => '360Spider',
             'Browser' => '360Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Qihoo 360 Technology Co. Ltd.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Internet Archive',
             'Browser' => 'Internet Archive',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'archive.org',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'Applebot 0.1',
             'Browser' => 'Applebot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'baidu Transcoder',
             'Browser' => 'baidu Transcoder',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Baidu',
             'Browser_Modus' => 'unknown',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Baidu',
             'Browser_Modus' => 'unknown',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'baidu Transcoder',
             'Browser' => 'baidu Transcoder',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Baidu',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'msnbot',
             'Browser' => 'msnbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'msnbot',
             'Browser' => 'msnbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Bitlybot',
             'Browser' => 'BitlyBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -438,7 +438,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Butterfly',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'Daumoa',
             'Browser' => 'Daumoa',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
@@ -524,7 +524,7 @@ return [
         'properties' => [
             'Comment' => 'Exalead',
             'Browser' => 'Exabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Dassault Systemes',
             'Browser_Modus' => 'unknown',
@@ -567,7 +567,7 @@ return [
         'properties' => [
             'Comment' => 'Jayde Online',
             'Browser' => 'ExactSeek Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -696,7 +696,7 @@ return [
         'properties' => [
             'Comment' => 'Comodo SSL Checker',
             'Browser' => 'Comodo SSL Checker',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Comodo Group Inc',
             'Browser_Modus' => 'unknown',
@@ -739,7 +739,7 @@ return [
         'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'PHPCrawl',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -782,7 +782,7 @@ return [
         'properties' => [
             'Comment' => 'Ichiro Mobile Bot',
             'Browser' => 'Ichiro Mobile Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ichiro',
             'Browser_Modus' => 'unknown',
@@ -825,7 +825,7 @@ return [
         'properties' => [
             'Comment' => 'Google PageSpeed Insights',
             'Browser' => 'Google PageSpeed Insights',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -883,7 +883,7 @@ return [
         'properties' => [
             'Comment' => 'Google Partner Monitoring',
             'Browser' => 'Google Partner Monitoring',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -926,7 +926,7 @@ return [
         'properties' => [
             'Comment' => 'Google Structured-Data Testing Tool',
             'Browser' => 'Google Structured-Data Testing Tool',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -969,7 +969,7 @@ return [
         'properties' => [
             'Comment' => 'AdsBot Google',
             'Browser' => 'AdsBot Google',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -1055,7 +1055,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Googlebot-News',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -1098,7 +1098,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot 2.1',
             'Browser' => 'Google Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -1141,7 +1141,7 @@ return [
         'properties' => [
             'Comment' => 'Google-Shopping-Quality',
             'Browser' => 'Google Shopping Quality Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -1184,7 +1184,7 @@ return [
         'properties' => [
             'Comment' => 'GrapeshotCrawler',
             'Browser' => 'GrapeshotCrawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Grapeshot Limited',
             'Browser_Modus' => 'unknown',
@@ -1227,7 +1227,7 @@ return [
         'properties' => [
             'Comment' => 'Heritrix',
             'Browser' => 'Heritrix',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1270,7 +1270,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'ICC-Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'National Institute of Information and Communications Technology, Japan',
             'Browser_Modus' => 'unknown',
@@ -1313,7 +1313,7 @@ return [
         'properties' => [
             'Comment' => 'Larbin',
             'Browser' => 'Larbin',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1356,7 +1356,7 @@ return [
         'properties' => [
             'Comment' => 'Linkdex Bot',
             'Browser' => 'Linkdex Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Linkdex Limited',
             'Browser_Modus' => 'unknown',
@@ -1399,7 +1399,7 @@ return [
         'properties' => [
             'Comment' => 'LinkedInBot',
             'Browser' => 'LinkedInBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'LinkedIn Corporation',
             'Browser_Modus' => 'unknown',
@@ -1485,7 +1485,7 @@ return [
         'properties' => [
             'Comment' => 'Jobs',
             'Browser' => 'MetaJobBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Dr. Manfred Schauer',
             'Browser_Modus' => 'unknown',
@@ -1528,7 +1528,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'MnoGoSearch',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1571,7 +1571,7 @@ return [
         'properties' => [
             'Comment' => 'MojeekBot',
             'Browser' => 'MojeekBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Mojeek Ltd.',
             'Browser_Modus' => 'unknown',
@@ -1614,7 +1614,7 @@ return [
         'properties' => [
             'Comment' => 'libwww',
             'Browser' => 'libwww',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1786,7 +1786,7 @@ return [
         'properties' => [
             'Comment' => 'Online Scanners',
             'Browser' => 'Nmap Scripting Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Gordon Lyon',
             'Browser_Modus' => 'unknown',
@@ -1829,7 +1829,7 @@ return [
         'properties' => [
             'Comment' => 'Nutch',
             'Browser' => 'Nutch',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1872,7 +1872,7 @@ return [
         'properties' => [
             'Comment' => 'Orangebot',
             'Browser' => 'Orangebot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Orange S.A.',
             'Browser_Modus' => 'unknown',
@@ -1915,7 +1915,7 @@ return [
         'properties' => [
             'Comment' => 'VoilaBot',
             'Browser' => 'VoilaBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Orange S.A.',
             'Browser_Modus' => 'unknown',
@@ -1958,7 +1958,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'General Crawlers',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2001,7 +2001,7 @@ return [
         'properties' => [
             'Comment' => 'Pingdom',
             'Browser' => 'Pingdom',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Pingdom AB.',
             'Browser_Modus' => 'unknown',
@@ -2044,7 +2044,7 @@ return [
         'properties' => [
             'Comment' => 'Qwantify',
             'Browser' => 'Qwantify',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'QWANT SAS',
             'Browser_Modus' => 'unknown',
@@ -2087,7 +2087,7 @@ return [
         'properties' => [
             'Comment' => 'Rogerbot',
             'Browser' => 'Rogerbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SEOmoz',
             'Browser_Modus' => 'unknown',
@@ -2130,7 +2130,7 @@ return [
         'properties' => [
             'Comment' => 'SEO & Analytics',
             'Browser' => 'SEOkicks Robot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Torsten Rueckert Internetdienstleistungen',
             'Browser_Modus' => 'unknown',
@@ -2173,7 +2173,7 @@ return [
         'properties' => [
             'Comment' => 'Scrapy',
             'Browser' => 'Scrapy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'scrapy.org',
             'Browser_Modus' => 'unknown',
@@ -2216,7 +2216,7 @@ return [
         'properties' => [
             'Comment' => 'Screaming Frog SEO Spider 2.22',
             'Browser' => 'Screaming Frog SEO Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2259,7 +2259,7 @@ return [
         'properties' => [
             'Comment' => 'Seznam Email Proxy',
             'Browser' => 'Seznam Email Proxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Seznam.cz, a.s.',
             'Browser_Modus' => 'unknown',
@@ -2388,7 +2388,7 @@ return [
         'properties' => [
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Image Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sogou Inc',
             'Browser_Modus' => 'unknown',
@@ -2431,7 +2431,7 @@ return [
         'properties' => [
             'Comment' => 'Sogou',
             'Browser' => 'Sogou Web Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Sogou Inc',
             'Browser_Modus' => 'unknown',
@@ -2560,7 +2560,7 @@ return [
         'properties' => [
             'Comment' => 'TurnitinBot',
             'Browser' => 'TurnitinBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Turnitin LLC',
             'Browser_Modus' => 'unknown',
@@ -2646,7 +2646,7 @@ return [
         'properties' => [
             'Comment' => 'Vagabondo',
             'Browser' => 'Vagabondo',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'wise-guys.nl',
             'Browser_Modus' => 'unknown',
@@ -2689,7 +2689,7 @@ return [
         'properties' => [
             'Comment' => 'W3C',
             'Browser' => 'Jigsaw_W3C_CSS_Validator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'W3C',
             'Browser_Modus' => 'unknown',
@@ -2732,7 +2732,7 @@ return [
         'properties' => [
             'Comment' => 'W3C',
             'Browser' => 'W3C-checklink',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'W3C',
             'Browser_Modus' => 'unknown',
@@ -2775,7 +2775,7 @@ return [
         'properties' => [
             'Comment' => 'W3C',
             'Browser' => 'W3C_Validator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'W3C',
             'Browser_Modus' => 'unknown',
@@ -2818,7 +2818,7 @@ return [
         'properties' => [
             'Comment' => 'WordPress 4.7',
             'Browser' => 'WordPress',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'wordpress.org',
             'Browser_Modus' => 'unknown',
@@ -2861,7 +2861,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Wotbox',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2904,7 +2904,7 @@ return [
         'properties' => [
             'Comment' => 'YaCy Bot',
             'Browser' => 'YaCy Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2947,7 +2947,7 @@ return [
         'properties' => [
             'Comment' => 'YaCy Bot',
             'Browser' => 'YaCy Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -2990,7 +2990,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo! Slurp',
             'Browser' => 'Yahoo! Slurp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
@@ -3033,7 +3033,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexDirectFetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -3076,7 +3076,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexBlogs',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -3119,7 +3119,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'YandexNews',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -3162,7 +3162,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex',
             'Browser' => 'Yandex',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',
@@ -3205,7 +3205,7 @@ return [
         'properties' => [
             'Comment' => 'Research Projects',
             'Browser' => 'Zao',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -3248,7 +3248,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Zookabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'zookabot.com',
             'Browser_Modus' => 'unknown',
@@ -3291,7 +3291,7 @@ return [
         'properties' => [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Browser_Modus' => 'unknown',
@@ -3334,7 +3334,7 @@ return [
         'properties' => [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Browser_Modus' => 'unknown',
@@ -3678,7 +3678,7 @@ return [
         'properties' => [
             'Comment' => 'Miscellaneous Browsers',
             'Browser' => 'Amiga',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -6695,7 +6695,7 @@ return [
         'properties' => [
             'Comment' => 'Miscellaneous Browsers',
             'Browser' => 'BrowseX',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -9899,7 +9899,7 @@ return [
         'properties' => [
             'Comment' => 'Download Managers',
             'Browser' => 'QQDownload',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Tencent Ltd.',
             'Browser_Modus' => 'unknown',
@@ -37563,7 +37563,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Rippers',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -37864,7 +37864,7 @@ return [
         'properties' => [
             'Comment' => 'Proxy Servers',
             'Browser' => 'Squid',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -39644,7 +39644,7 @@ return [
         'properties' => [
             'Comment' => 'Y!J-AGENT',
             'Browser' => 'Y!J-AGENT',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo!JAPAN',
             'Browser_Modus' => 'unknown',
@@ -39687,7 +39687,7 @@ return [
         'properties' => [
             'Comment' => 'Yahoo',
             'Browser' => 'Yahoo Pipes',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
@@ -39730,7 +39730,7 @@ return [
         'properties' => [
             'Comment' => 'Baidu',
             'Browser' => 'Baiduspider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Baidu',
             'Browser_Modus' => 'unknown',
@@ -39773,7 +39773,7 @@ return [
         'properties' => [
             'Comment' => 'msnbot',
             'Browser' => 'msnbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -39902,7 +39902,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -39945,7 +39945,7 @@ return [
         'properties' => [
             'Comment' => 'MJ12bot',
             'Browser' => 'MJ12bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Majestic-12 Ltd',
             'Browser_Modus' => 'unknown',
@@ -39988,7 +39988,7 @@ return [
         'properties' => [
             'Comment' => 'Tweetmeme Bot',
             'Browser' => 'Tweetmeme Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'datasift.com',
             'Browser_Modus' => 'unknown',
@@ -40160,7 +40160,7 @@ return [
         'properties' => [
             'Comment' => 'Jakarta Commons HttpClient',
             'Browser' => 'Jakarta Commons HttpClient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'The Apache Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -40203,7 +40203,7 @@ return [
         'properties' => [
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Oracle',
             'Browser_Modus' => 'unknown',
@@ -40246,7 +40246,7 @@ return [
         'properties' => [
             'Comment' => 'libwww',
             'Browser' => 'libwww',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40289,7 +40289,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'WWW-Mechanize',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40332,7 +40332,7 @@ return [
         'properties' => [
             'Comment' => 'lwp',
             'Browser' => 'lwp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40375,7 +40375,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Twisted PageGetter',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40418,7 +40418,7 @@ return [
         'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'PHP',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'the PHP Group',
             'Browser_Modus' => 'unknown',
@@ -40461,7 +40461,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'PEAR-PHP',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40504,7 +40504,7 @@ return [
         'properties' => [
             'Comment' => 'PEAR HTTP_Request2',
             'Browser' => 'PEAR HTTP_Request2',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'the PHP Group',
             'Browser_Modus' => 'unknown',
@@ -40547,7 +40547,7 @@ return [
         'properties' => [
             'Comment' => 'PHP',
             'Browser' => 'PECL HTTP',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40590,7 +40590,7 @@ return [
         'properties' => [
             'Comment' => 'WordPress 3.2',
             'Browser' => 'WordPress',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'wordpress.org',
             'Browser_Modus' => 'unknown',
@@ -40633,7 +40633,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'cURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -40962,7 +40962,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Instapaper Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'instapaper.com',
             'Browser_Modus' => 'unknown',
@@ -42992,7 +42992,7 @@ return [
         'properties' => [
             'Comment' => 'Charlotte (searchme.com bot)',
             'Browser' => 'Charlotte',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'searchme.com',
             'Browser_Modus' => 'unknown',
@@ -43035,7 +43035,7 @@ return [
         'properties' => [
             'Comment' => 'website test',
             'Browser' => 'UnisterTesting',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Unister Holding GmbH',
             'Browser_Modus' => 'unknown',
@@ -43480,7 +43480,7 @@ return [
         'properties' => [
             'Comment' => 'python-requests 2.4',
             'Browser' => 'python-requests',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -43652,7 +43652,7 @@ return [
         'properties' => [
             'Comment' => 'Java Standard Library',
             'Browser' => 'Java Standard Library',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Oracle',
             'Browser_Modus' => 'unknown',
@@ -43781,7 +43781,7 @@ return [
         'properties' => [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Browser_Modus' => 'unknown',
@@ -46901,7 +46901,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'httpclient',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'www.phpclasses.org',
             'Browser_Modus' => 'unknown',

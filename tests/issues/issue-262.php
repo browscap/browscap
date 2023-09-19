@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'AhrefsBot',
             'Browser' => 'AhrefsBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ahrefs Pte Ltd',
             'Browser_Modus' => 'unknown',

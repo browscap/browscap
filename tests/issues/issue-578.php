@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Nagios',
             'Browser' => 'Nagios',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Nagios Enterprises, LLC.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Nagios',
             'Browser' => 'Nagios',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Nagios Enterprises, LLC.',
             'Browser_Modus' => 'unknown',

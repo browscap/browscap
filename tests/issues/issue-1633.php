@@ -1258,7 +1258,7 @@ return [
         'properties' => [
             'Comment' => 'RedCarpet',
             'Browser' => 'RedCarpet',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

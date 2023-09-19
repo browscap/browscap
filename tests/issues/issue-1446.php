@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',
@@ -238,7 +238,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',
@@ -281,7 +281,7 @@ return [
         'properties' => [
             'Comment' => 'Google App Engine',
             'Browser' => 'Google App Engine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -582,7 +582,7 @@ return [
         'properties' => [
             'Comment' => 'CloudFlare Bots',
             'Browser' => 'CloudFlare AMP Discovery Fetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'CloudFlare, Inc.',
             'Browser_Modus' => 'unknown',
@@ -625,7 +625,7 @@ return [
         'properties' => [
             'Comment' => 'CloudFlare Bots',
             'Browser' => 'CloudFlare AMP Discovery Fetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'CloudFlare, Inc.',
             'Browser_Modus' => 'unknown',
@@ -668,7 +668,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'YouTube Links Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -711,7 +711,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'IDBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'id-search.xyz',
             'Browser_Modus' => 'unknown',
@@ -754,7 +754,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'SimpleScraper',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -797,7 +797,7 @@ return [
         'properties' => [
             'Comment' => 'Wappalyzer',
             'Browser' => 'Wappalyzer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Elbert Alias',
             'Browser_Modus' => 'unknown',

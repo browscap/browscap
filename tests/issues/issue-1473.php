@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'IE',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'IE',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'IE',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -180,7 +180,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -223,7 +223,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -395,7 +395,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -438,7 +438,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',
@@ -481,7 +481,7 @@ return [
         'properties' => [
             'Comment' => 'SpeedCurve WebPage Test',
             'Browser' => 'SpeedCurve WebPage Test',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'SpeedCurve',
             'Browser_Modus' => 'Chrome',

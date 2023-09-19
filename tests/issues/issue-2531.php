@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Amazonbot',
             'Browser' => 'Amazonbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Amazon.com, Inc.',
             'Browser_Modus' => 'unknown',

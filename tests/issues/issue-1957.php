@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'Manzama Fetcher',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Manzama Inc.',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'Refindbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -137,7 +137,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'e.ventures Investment Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'eVenture Capital Partners II, LLC',
             'Browser_Modus' => 'unknown',
@@ -266,7 +266,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'MAZBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'MAZ Systems Inc.',
             'Browser_Modus' => 'unknown',
@@ -352,7 +352,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'Google Widget Server',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -580,7 +580,7 @@ return [
         'properties' => [
             'Comment' => 'Proxy Servers',
             'Browser' => 'Yahoo MailProxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Yahoo! Inc.',
             'Browser_Modus' => 'unknown',
@@ -709,7 +709,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Founderspider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -967,7 +967,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'MagentaNews',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Meltwater US Inc.',
             'Browser_Modus' => 'unknown',
@@ -1096,7 +1096,7 @@ return [
         'properties' => [
             'Comment' => 'Daum Bot',
             'Browser' => 'Daum Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Kakao Corp',
             'Browser_Modus' => 'unknown',
@@ -1367,7 +1367,7 @@ return [
         'properties' => [
             'Comment' => 'DuckDuckBot',
             'Browser' => 'DuckDuckBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'DuckDuckGo',
             'Browser_Modus' => 'unknown',
@@ -1410,7 +1410,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'Shamrock',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1625,7 +1625,7 @@ return [
         'properties' => [
             'Comment' => 'Wappalyzer',
             'Browser' => 'Wappalyzer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Elbert Alias',
             'Browser_Modus' => 'unknown',
@@ -1668,7 +1668,7 @@ return [
         'properties' => [
             'Comment' => 'Wappalyzer',
             'Browser' => 'Wappalyzer',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Elbert Alias',
             'Browser_Modus' => 'unknown',
@@ -1754,7 +1754,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'PressRush',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Aito Software Inc.',
             'Browser_Modus' => 'unknown',
@@ -1840,7 +1840,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'fuelbot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1926,7 +1926,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'theEmployeeApp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'APPrise Mobile',
             'Browser_Modus' => 'unknown',
@@ -1969,7 +1969,7 @@ return [
         'properties' => [
             'Comment' => 'Thumbnail Generators',
             'Browser' => 'thumbnail.ws Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'thumbnail.ws',
             'Browser_Modus' => 'unknown',
@@ -2141,7 +2141,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'MeltwaterNews',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Meltwater US Inc.',
             'Browser_Modus' => 'unknown',
@@ -2270,7 +2270,7 @@ return [
         'properties' => [
             'Comment' => 'Social Bookmarkers',
             'Browser' => 'EchoboxBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Echobox Limited',
             'Browser_Modus' => 'unknown',
@@ -2399,7 +2399,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'Google Apps Script',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -2442,7 +2442,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'CreateSend Screenshot Generator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Acton BV',
             'Browser_Modus' => 'unknown',

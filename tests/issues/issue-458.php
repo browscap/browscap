@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SMTBot',
             'Browser' => 'SMTBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'SimilarTech Ltd.',
             'Browser_Modus' => 'unknown',

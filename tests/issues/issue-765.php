@@ -382,7 +382,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot 0.1',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -425,7 +425,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot 3.2',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -468,7 +468,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot 3.3',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',
@@ -554,7 +554,7 @@ return [
         'properties' => [
             'Comment' => 'Pinterest Bot 4.1',
             'Browser' => 'Pinterest Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ericsson Research',
             'Browser_Modus' => 'unknown',

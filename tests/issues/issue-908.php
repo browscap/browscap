@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'GetintentCrawler',
             'Browser' => 'Getintent Crawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'getintent.com',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'BCKLINKS',
             'Browser' => 'Incoming Links - WordPress Plugin',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Monitor Backlinks Ltd.',
             'Browser_Modus' => 'unknown',
@@ -94,7 +94,7 @@ return [
         'properties' => [
             'Comment' => 'AddThis.com robot',
             'Browser' => 'AddThis.com robot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'AddThis.com',
             'Browser_Modus' => 'unknown',

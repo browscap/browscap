@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Google Favicon',
             'Browser' => 'Google Favicon',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',

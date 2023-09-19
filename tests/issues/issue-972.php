@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'CaptiveNetworkAgent',
             'Browser' => 'CaptiveNetworkAgent',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Apple Inc',
             'Browser_Modus' => 'unknown',

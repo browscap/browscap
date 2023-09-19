@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'PagePeeker Screenshot Maker',
             'Browser' => 'PagePeeker Screenshot Maker',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'pagepeeker SRL',
             'Browser_Modus' => 'unknown',

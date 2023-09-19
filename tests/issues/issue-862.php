@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Rival IQ Bot',
             'Browser' => 'Rival IQ Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Rival IQ Corporation',
             'Browser_Modus' => 'unknown',

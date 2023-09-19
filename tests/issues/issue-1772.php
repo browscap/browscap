@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'HubSpot Webcrawler',
             'Browser' => 'HubSpot Webcrawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'HubSpot, Inc.',
             'Browser_Modus' => 'unknown',

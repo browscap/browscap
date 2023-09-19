@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'SurveyBot',
             'Browser' => 'SurveyBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'DomainTools',
             'Browser_Modus' => 'unknown',

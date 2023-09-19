@@ -66,7 +66,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'netvigie Bot',
             'Browser' => 'netvigie Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'netvigie.com',
             'Browser_Modus' => 'unknown',

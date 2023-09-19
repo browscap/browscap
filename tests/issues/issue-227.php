@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'RankFlex',
             'Browser' => 'RankFlex',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'rankflex.com',
             'Browser_Modus' => 'unknown',

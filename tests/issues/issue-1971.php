@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Snapchat Proxy',
             'Browser' => 'Snapchat Proxy',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Snap Inc.',
             'Browser_Modus' => 'unknown',

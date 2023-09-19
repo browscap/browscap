@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Google HTTP Client Library for Java',
             'Browser' => 'Google HTTP Client Library for Java',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',

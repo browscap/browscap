@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Yandex Mobile Bot 3.0',
             'Browser' => 'Yandex Mobile Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Yandex LLC',
             'Browser_Modus' => 'unknown',

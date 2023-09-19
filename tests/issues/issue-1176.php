@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Site Monitors',
             'Browser' => 'PRTG Network Monitor',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Paessler AG',
             'Browser_Modus' => 'unknown',

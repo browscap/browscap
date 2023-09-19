@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Data Mining',
             'Browser' => 'Eyeotabot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Eyeota Pte Ltd',
             'Browser_Modus' => 'unknown',

@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'MSN-Media',
             'Browser' => 'msnbot-media',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Website Thumbnail Generator',
             'Browser' => 'Website Thumbnail Generator',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'webthumbnail.org',
             'Browser_Modus' => 'unknown',
@@ -382,7 +382,7 @@ return [
         'properties' => [
             'Comment' => 'Web Glance',
             'Browser' => 'Web Glance',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'webglance.com',
             'Browser_Modus' => 'unknown',

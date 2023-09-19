@@ -1781,7 +1781,7 @@ return [
         'properties' => [
             'Comment' => 'SkypeUriPreview 0.5',
             'Browser' => 'SkypeUriPreview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',

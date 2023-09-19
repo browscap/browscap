@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'webceo Bot',
             'Browser' => 'webceo Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Web CEO Limited',
             'Browser_Modus' => 'unknown',

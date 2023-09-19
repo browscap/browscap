@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Criteo Bot',
             'Browser' => 'Criteo Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Criteo SA',
             'Browser_Modus' => 'unknown',

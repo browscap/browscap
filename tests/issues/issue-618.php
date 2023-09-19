@@ -840,7 +840,7 @@ return [
         'properties' => [
             'Comment' => 'Google PageSpeed Insights',
             'Browser' => 'Google PageSpeed Insights',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -1803,7 +1803,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'cURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1846,7 +1846,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'NetLyzer FastProbe',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1932,7 +1932,7 @@ return [
         'properties' => [
             'Comment' => 'General Crawlers',
             'Browser' => 'TestCrawler',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -3153,7 +3153,7 @@ return [
         'properties' => [
             'Comment' => '360Spider',
             'Browser' => '360Spider',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Qihoo 360 Technology Co. Ltd.',
             'Browser_Modus' => 'unknown',
@@ -3542,7 +3542,7 @@ return [
         'properties' => [
             'Comment' => 'python-requests 2.5',
             'Browser' => 'python-requests',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Python Software Foundation',
             'Browser_Modus' => 'unknown',
@@ -3671,7 +3671,7 @@ return [
         'properties' => [
             'Comment' => 'NaverBot',
             'Browser' => 'NaverBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'NHN Corporation',
             'Browser_Modus' => 'unknown',
@@ -3714,7 +3714,7 @@ return [
         'properties' => [
             'Comment' => 'Rippers',
             'Browser' => 'PycURL',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -3843,7 +3843,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'WinHttp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -4290,7 +4290,7 @@ return [
         'properties' => [
             'Comment' => 'Googlebot',
             'Browser' => 'Google Image Search',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -4376,7 +4376,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'AdSense Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5264,7 +5264,7 @@ return [
         'properties' => [
             'Comment' => 'cURL',
             'Browser' => 'TrendWinHttp',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -5408,7 +5408,7 @@ return [
         'properties' => [
             'Comment' => 'Adbeat',
             'Browser' => 'Adbeat Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'adbeat.com',
             'Browser_Modus' => 'unknown',
@@ -5466,7 +5466,7 @@ return [
         'properties' => [
             'Comment' => 'SMTBot',
             'Browser' => 'SMTBot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'SimilarTech Ltd.',
             'Browser_Modus' => 'unknown',
@@ -5567,7 +5567,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'Google Web Preview',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -5653,7 +5653,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'MnoGoSearch',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -5739,7 +5739,7 @@ return [
         'properties' => [
             'Comment' => 'Google',
             'Browser' => 'Google Toolbar',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -6027,7 +6027,7 @@ return [
         'properties' => [
             'Comment' => 'Jobs',
             'Browser' => 'JobBoerse Bot',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Jobboerse.com',
             'Browser_Modus' => 'unknown',

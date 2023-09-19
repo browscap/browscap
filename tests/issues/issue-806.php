@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Werbefreie Deutsche Suchmaschine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Michael Schoebel',
             'Browser_Modus' => 'unknown',
@@ -51,7 +51,7 @@ return [
         'properties' => [
             'Comment' => 'Search Engines',
             'Browser' => 'Werbefreie Deutsche Suchmaschine',
-            'Browser_Type' => 'Bot/Crawler',
+            'Browser_Type' => 'Bot',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Michael Schoebel',
             'Browser_Modus' => 'unknown',
