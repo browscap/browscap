@@ -309,7 +309,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Feed Wrangler',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -453,7 +453,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'feedraider',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1457,7 +1457,7 @@ return [
         'properties' => [
             'Comment' => 'NewsGator',
             'Browser' => 'NewsGatorOnline',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -1758,7 +1758,7 @@ return [
         'properties' => [
             'Comment' => 'Google Feedfetcher',
             'Browser' => 'Google Feedfetcher',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Google Inc',
             'Browser_Modus' => 'unknown',
@@ -2188,7 +2188,7 @@ return [
         'properties' => [
             'Comment' => 'NewsGator',
             'Browser' => 'NewsGatorOnline',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

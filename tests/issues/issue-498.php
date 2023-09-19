@@ -2095,7 +2095,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'SimplePie',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Ryan Parman, Geoffrey Sneddon, Ryan McCue and contributors',
             'Browser_Modus' => 'unknown',

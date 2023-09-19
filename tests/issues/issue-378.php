@@ -253,7 +253,7 @@ return [
         'properties' => [
             'Comment' => 'Windows-RSS-Platform 2.0',
             'Browser' => 'Windows-RSS-Platform',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'Microsoft Corporation',
             'Browser_Modus' => 'unknown',
@@ -440,7 +440,7 @@ return [
         'properties' => [
             'Comment' => 'Tiny Tiny RSS 1.10',
             'Browser' => 'Tiny Tiny RSS',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -698,7 +698,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'NewsBlur Feed Fetcher',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'www.newsblur.com',
             'Browser_Modus' => 'unknown',

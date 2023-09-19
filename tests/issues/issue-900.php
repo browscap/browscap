@@ -48257,7 +48257,7 @@ return [
         'properties' => [
             'Comment' => 'Become',
             'Browser' => 'BecomeBot',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Become, Inc.',
             'Browser_Modus' => 'unknown',
@@ -48300,7 +48300,7 @@ return [
         'properties' => [
             'Comment' => 'Become',
             'Browser' => 'BecomeBot',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'Become, Inc.',
             'Browser_Modus' => 'unknown',
@@ -55868,7 +55868,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Blogs',
             'Browser' => 'BlogLines Web',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -55911,7 +55911,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Blogs',
             'Browser' => 'BlogLines Web',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -55954,7 +55954,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'GreatNews',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -55997,7 +55997,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Gregarius',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',
@@ -56040,7 +56040,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'MagpieRSS',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

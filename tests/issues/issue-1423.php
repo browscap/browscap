@@ -22652,7 +22652,7 @@ return [
         'properties' => [
             'Comment' => 'Feeds Syndicators',
             'Browser' => 'Newsbeuter RSS Aggregator',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'newsbeuter.org',
             'Browser_Modus' => 'unknown',
@@ -22695,7 +22695,7 @@ return [
         'properties' => [
             'Comment' => 'Tiny Tiny RSS Generic',
             'Browser' => 'Tiny Tiny RSS',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '0',
             'Browser_Maker' => 'unknown',
             'Browser_Modus' => 'unknown',

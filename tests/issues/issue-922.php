@@ -8,7 +8,7 @@ return [
         'properties' => [
             'Comment' => 'General RSS',
             'Browser' => 'Digg Feed Fetcher',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '32',
             'Browser_Maker' => 'News.me Inc',
             'Browser_Modus' => 'unknown',

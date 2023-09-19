@@ -1025,7 +1025,7 @@ return [
         'properties' => [
             'Comment' => 'Spinn3r RSS Aggregator',
             'Browser' => 'Spinn3r RSS Aggregator',
-            'Browser_Type' => 'Bot',
+            'Browser_Type' => 'Bot/Crawler',
             'Browser_Bits' => '64',
             'Browser_Maker' => 'Tailrank Inc',
             'Browser_Modus' => 'unknown',
