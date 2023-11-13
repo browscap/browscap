@@ -550,16 +550,16 @@
         },
         {
             "name": "mimmi20/ua-device-type",
-            "version": "9.0.2",
+            "version": "9.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-device-type.git",
-                "reference": "b7cfbc7bf0c49e703abcf5c121e39577f6f5c07e"
+                "reference": "6962c521ce23b5a9934e6dc40aa973061f060999"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/b7cfbc7bf0c49e703abcf5c121e39577f6f5c07e",
-                "reference": "b7cfbc7bf0c49e703abcf5c121e39577f6f5c07e",
+                "url": "https://api.github.com/repos/mimmi20/ua-device-type/zipball/6962c521ce23b5a9934e6dc40aa973061f060999",
+                "reference": "6962c521ce23b5a9934e6dc40aa973061f060999",
                 "shasum": ""
             },
             "require": {
@@ -572,16 +572,15 @@
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
-                "infection/infection": "^0.27.0",
-                "mimmi20/coding-standard": "^5.1.13",
+                "infection/infection": "^0.27.7",
+                "mimmi20/coding-standard": "^5.1.23",
                 "nikic/php-parser": "^4.17.1",
                 "phpstan/extension-installer": "^1.3.1",
-                "phpstan/phpstan": "^1.10.32",
+                "phpstan/phpstan": "^1.10.41",
                 "phpstan/phpstan-deprecation-rules": "^1.1.4",
-                "phpstan/phpstan-phpunit": "^1.3.14",
-                "phpunit/phpunit": "^10.3.2",
-                "rector/rector": "^0.18.1",
-                "vimeo/psalm": "^5.15.0"
+                "phpstan/phpstan-phpunit": "^1.3.15",
+                "phpunit/phpunit": "^10.4.2",
+                "rector/rector": "^0.18.6"
             },
             "type": "library",
             "autoload": {
@@ -617,7 +616,7 @@
                 "issues": "https://github.com/mimmi20/ua-device-type/issues",
                 "source": "https://github.com/mimmi20/ua-device-type"
             },
-            "time": "2023-09-06T15:24:16+00:00"
+            "time": "2023-11-06T06:42:47+00:00"
         },
         {
             "name": "monolog/monolog",
