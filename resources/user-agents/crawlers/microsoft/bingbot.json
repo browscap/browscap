@@ -82,6 +82,14 @@
           "browser": "bing ads adinsight bot",
           "engine": "unknown",
           "device": "unknown"
+        },
+        {
+          "match": "Mozilla/5.0 applewebkit* (*khtml*like*gecko*compatible; bingbot/2.0*) Chrome/* Safari/*",
+          "engine": "unknown",
+          "device": "unknown",
+          "properties": {
+            "Version": "2.0"
+          }
         }
       ]
     }
