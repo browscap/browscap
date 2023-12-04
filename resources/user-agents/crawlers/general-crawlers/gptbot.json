@@ -1,0 +1,24 @@
+{
+  "division": "GPTBot",
+  "sortIndex": 170,
+  "lite": false,
+  "standard": true,
+  "userAgents": [
+    {
+      "userAgent": "GPTBot",
+      "browser": "gptbot",
+      "properties": {
+        "Parent": "DefaultProperties",
+        "Comment": "OpenAI"
+      },
+      "children": [
+        {
+          "match": "Mozilla/5.0 AppleWebKit/* (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)",
+          "properties": {
+            "Version": "1.0"
+          }
+        }
+      ]
+    }
+  ]
+}

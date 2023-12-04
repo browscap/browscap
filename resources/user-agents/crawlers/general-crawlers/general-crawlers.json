@@ -2255,6 +2255,10 @@
           "browser": "seekport-crawler"
         },
         {
+          "match": "Mozilla/5.0 (compatible; SeekportBot; *",
+          "browser": "seekport-crawler"
+        },
+        {
           "match":  "BrightEdge Crawler/*",
           "browser":  "bright-edge-crawler"
         },
@@ -2381,6 +2385,10 @@
         {
           "match":  "Mozilla/5.0 (compatible; ThinkBot/*",
           "browser":  "think-bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)",
+          "browser": "imagesift-bot"
         }
       ]
     }
