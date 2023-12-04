@@ -2255,6 +2255,10 @@
           "browser": "seekport-crawler"
         },
         {
+          "match": "Mozilla/5.0 (compatible; SeekportBot; *",
+          "browser": "seekport-crawler"
+        },
+        {
           "match":  "BrightEdge Crawler/*",
           "browser":  "bright-edge-crawler"
         },
