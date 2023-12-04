@@ -1029,6 +1029,45 @@
       "Platform_Version": "#MAJORVER#.#MINORVER#"
     }
   },
+  "OSX_14_1": {
+    "match": "*Mac OS X 14?1*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "14.1",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
+    }
+  },
+  "OSX_13_4": {
+    "match": "*Mac OS X 13?4*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "13.4",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
+    }
+  },
+  "OSX_12_5": {
+    "match": "*Mac OS X 12?5*",
+    "lite": false,
+    "standard": true,
+    "inherits": "OSX",
+    "properties": {
+      "Platform": "macOS",
+      "Platform_Description": "macOS",
+      "Platform_Version": "12.5",
+      "Browser_Bits": 64,
+      "Platform_Bits": 64
+    }
+  },
   "OSX_12_0": {
     "match": "*Mac OS X 12?0*",
     "lite": false,
@@ -4696,6 +4735,15 @@
     "inherits": "Android",
     "properties": {
       "Platform_Version": "#MAJORVER#.#MINORVER#"
+    }
+  },
+  "Android_14_0": {
+    "match": "*Linux*Android?14;*",
+    "lite": false,
+    "standard": true,
+    "inherits": "Android",
+    "properties": {
+      "Platform_Version": "14.0"
     }
   },
   "Android_13_0_B": {
