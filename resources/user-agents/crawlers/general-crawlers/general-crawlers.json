@@ -2385,6 +2385,10 @@
         {
           "match":  "Mozilla/5.0 (compatible; ThinkBot/*",
           "browser":  "think-bot"
+        },
+        {
+          "match": "Mozilla/5.0 (compatible; ImagesiftBot; +imagesift.com)",
+          "browser": "imagesift-bot"
         }
       ]
     }

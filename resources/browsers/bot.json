@@ -5579,6 +5579,15 @@
     "lite": false,
     "standard": true
   },
+  "gptbot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "GPTBot",
+      "Browser_Maker": "OpenAI"
+    },
+    "lite": false,
+    "standard": true
+  },
   "grammarly": {
     "type": "bot",
     "properties": {
@@ -17113,6 +17122,15 @@
     "properties": {
       "Browser": "Neevabot",
       "Browser_Maker": "Neeva Inc"
+    },
+    "lite": false,
+    "standard": true
+  },
+  "imagesift-bot": {
+    "type": "bot",
+    "properties": {
+      "Browser": "ImagesiftBot",
+      "Browser_Maker": "unknown"
     },
     "lite": false,
     "standard": true
