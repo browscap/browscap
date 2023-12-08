@@ -89,7 +89,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Lint PHP"
-        uses: "overtrue/phplint@8.2"
+        uses: "overtrue/phplint@9.1"
 
   install:
     name: "Install dependencies"
