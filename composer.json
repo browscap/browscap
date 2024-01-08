@@ -33,7 +33,7 @@
     "source": "https://github.com/browscap/browscap"
   },
   "require": {
-    "php": ">=8.1.0,<8.3.0",
+    "php": ">=8.1.0,<8.4.0",
     "ext-json": "*",
     "beberlei/assert": "^3.3.2",
     "ergebnis/json-normalizer": "^4.2.0",
