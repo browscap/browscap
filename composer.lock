@@ -477,16 +477,16 @@
         },
         {
             "name": "mimmi20/ua-browser-type",
-            "version": "9.0.4",
+            "version": "9.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mimmi20/ua-browser-type.git",
-                "reference": "5f7d31c8d0a908d7079e8da9c825c5861e60d7af"
+                "reference": "e4b024582f0a23ab54db56986508321c29785e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/5f7d31c8d0a908d7079e8da9c825c5861e60d7af",
-                "reference": "5f7d31c8d0a908d7079e8da9c825c5861e60d7af",
+                "url": "https://api.github.com/repos/mimmi20/ua-browser-type/zipball/e4b024582f0a23ab54db56986508321c29785e80",
+                "reference": "e4b024582f0a23ab54db56986508321c29785e80",
                 "shasum": ""
             },
             "require": {
@@ -499,15 +499,15 @@
                 "ext-tokenizer": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
-                "infection/infection": "^0.27.9",
-                "mimmi20/coding-standard": "^5.2.9",
+                "infection/infection": "^0.27.10",
+                "mimmi20/coding-standard": "^5.2.17",
                 "nikic/php-parser": "^4.18.0",
                 "phpstan/extension-installer": "^1.3.1",
-                "phpstan/phpstan": "^1.10.55",
+                "phpstan/phpstan": "^1.10.59",
                 "phpstan/phpstan-deprecation-rules": "^1.1.4",
-                "phpstan/phpstan-phpunit": "^1.3.15",
-                "phpunit/phpunit": "^10.5.7",
-                "rector/rector": "^0.19.0"
+                "phpstan/phpstan-phpunit": "^1.3.16",
+                "phpunit/phpunit": "^10.5.11",
+                "rector/rector": "^1.0.2"
             },
             "type": "library",
             "autoload": {
@@ -543,7 +543,7 @@
                 "issues": "https://github.com/mimmi20/ua-browser-type/issues",
                 "source": "https://github.com/mimmi20/ua-browser-type"
             },
-            "time": "2024-01-15T08:31:50+00:00"
+            "time": "2024-03-04T06:27:40+00:00"
         },
         {
             "name": "mimmi20/ua-device-type",
