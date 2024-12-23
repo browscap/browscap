@@ -2715,16 +2715,16 @@
         },
         {
             "name": "matthiasmullie/scrapbook",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/scrapbook.git",
-                "reference": "c339d56e136713aab532718eff453663b4b38efe"
+                "reference": "6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/c339d56e136713aab532718eff453663b4b38efe",
-                "reference": "c339d56e136713aab532718eff453663b4b38efe",
+                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1",
+                "reference": "6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1",
                 "shasum": ""
             },
             "require": {
@@ -2738,9 +2738,8 @@
             },
             "require-dev": {
                 "ext-pcntl": "*",
-                "friendsofphp/php-cs-fixer": ">=2.0",
-                "phpunit/phpunit": ">=10.0",
-                "squizlabs/php_codesniffer": ">=3.0"
+                "friendsofphp/php-cs-fixer": ">=3.0",
+                "phpunit/phpunit": ">=10.0"
             },
             "suggest": {
                 "couchbase/couchbase": ">=3.0",
@@ -2803,7 +2802,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/scrapbook/issues",
-                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.3"
+                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.4"
             },
             "funding": [
                 {
@@ -2811,7 +2810,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-04-02T13:33:01+00:00"
+            "time": "2024-12-20T11:47:12+00:00"
         },
         {
             "name": "mikey179/vfsstream",
