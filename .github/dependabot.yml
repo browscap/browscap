@@ -29,6 +29,7 @@ updates:
     commit-message:
       include: "scope"
       prefix: "Build"
+    rebase-strategy: "auto"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -44,3 +45,4 @@ updates:
       - "dependencies"
     commit-message:
       prefix: "github-actions"
+    rebase-strategy: "auto"
