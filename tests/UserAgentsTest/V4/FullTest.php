@@ -30,6 +30,7 @@ use RuntimeException;
 use Symfony\Component\Finder\Exception\DirectoryNotFoundException;
 use Throwable;
 
+use function array_key_exists;
 use function assert;
 use function count;
 use function file_exists;
@@ -211,14 +212,16 @@ class FullTest extends TestCase
 
         $actualProps = (array) self::$browscap->getBrowser($userAgent);
 
-        if (isset($actualProps['PatternId'])) {
+        if (isset($actualProps['PatternId']) && is_string($actualProps['PatternId'])) {
             self::$coveredPatterns[] = $actualProps['PatternId'];
         }
 
         foreach ($expectedProperties as $propName => $propValue) {
-            if (! self::$filter->isOutputProperty($propName, self::$writer)) {
+            if (! is_string($propName) || ! self::$filter->isOutputProperty($propName, self::$writer)) {
                 continue;
             }
+
+            assert(array_key_exists('browser_name_pattern', $actualProps) && is_string($actualProps['browser_name_pattern']));
 
             static::assertFalse(
                 self::$propertyHolder->isDeprecatedProperty($propName),
@@ -232,6 +235,8 @@ class FullTest extends TestCase
                 'Actual result does not have "' . $propName . '" property'
                 . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")',
             );
+
+            assert(array_key_exists($propName, $actualProps) && is_string($actualProps[$propName]));
 
             static::assertSame(
                 $propValue,

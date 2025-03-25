@@ -499,7 +499,7 @@ jobs:
         uses: "codecov/codecov-action@v5.4.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
-          file: "coverage-full4.json"
+          files: "coverage-full4.json"
           flags: "full"
 
       - name: "Upload coverage to Codecov for Test-Set 'standard'"
@@ -507,7 +507,7 @@ jobs:
         uses: "codecov/codecov-action@v5.4.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
-          file: "coverage-standard4.json"
+          files: "coverage-standard4.json"
           flags: "standard"
 
       - name: "Upload coverage to Codecov for Test-Set 'lite'"
@@ -515,5 +515,5 @@ jobs:
         uses: "codecov/codecov-action@v5.4.0"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
-          file: "coverage-lite4.json"
+          files: "coverage-lite4.json"
           flags: "lite"

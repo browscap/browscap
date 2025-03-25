@@ -34,7 +34,11 @@ class ValidateHelper extends Helper
         return 'validate';
     }
 
-    /** @throws void */
+    /**
+     * @param string|array<string>|null $notPath
+     *
+     * @throws void
+     */
     public function validate(LoggerInterface $logger, string $resources, string $schemaUri, string|array|null $notPath = null): bool
     {
         $uriRetriever  = new Uri\UriRetriever();
@@ -112,7 +116,7 @@ class ValidateHelper extends Helper
                     $schemaDecoded,
                 );
 
-                /** @var array<int, array> $errors */
+                /** @var array<int, array<mixed>> $errors */
                 $errors = $validator->getErrors();
 
                 if ($errors !== []) {
