@@ -34,6 +34,7 @@ use function array_key_exists;
 use function assert;
 use function count;
 use function file_exists;
+use function get_debug_type;
 use function implode;
 use function is_string;
 use function mkdir;
