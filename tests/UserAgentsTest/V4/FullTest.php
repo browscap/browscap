@@ -36,6 +36,7 @@ use function count;
 use function file_exists;
 use function get_debug_type;
 use function implode;
+use function is_scalar;
 use function is_string;
 use function mkdir;
 use function sprintf;
@@ -222,7 +223,7 @@ class FullTest extends TestCase
                 continue;
             }
 
-            assert(array_key_exists('browser_name_pattern', $actualProps) && is_string($actualProps['browser_name_pattern']));
+            assert(array_key_exists('browser_name_pattern', $actualProps) && is_scalar($actualProps['browser_name_pattern']));
 
             static::assertFalse(
                 self::$propertyHolder->isDeprecatedProperty($propName),
@@ -238,7 +239,7 @@ class FullTest extends TestCase
             );
 
             assert(array_key_exists($propName, $actualProps), sprintf('Property %s does not exist', $propName));
-            assert(is_string($actualProps[$propName]), get_debug_type($actualProps[$propName]));
+            assert(is_scalar($actualProps[$propName]), get_debug_type($actualProps[$propName]));
 
             static::assertSame(
                 $propValue,
