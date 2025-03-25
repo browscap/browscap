@@ -31,9 +31,6 @@ parameters:
     -
       message: '~getTestFiles\(\) should return array~'
       path: src/Browscap/Helper/IteratorHelper.php
-    -
-      message: "~array\\<'ActiveXControls'\\|'BackgroundSounds'\\|'Cookies'\\|'CssVersion'\\|'Frames'\\|'IFrames'\\|'JavaApplets'\\|'JavaScript'\\|'RenderingEngine…'\\|'RenderingEngine_Name'\\|'Tables'\\|'VBScript', bool\\|int\\|string\\> given~"
-      path: src/Browscap/Data/Factory/EngineFactory.php
 
     # some test where we check the data structure
     -
