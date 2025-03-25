@@ -234,7 +234,8 @@ class LiteTest extends TestCase
                 . '; used pattern: "' . $actualProps['browser_name_pattern'] . '")',
             );
 
-            assert(array_key_exists($propName, $actualProps) && is_string($actualProps[$propName]));
+            assert(array_key_exists($propName, $actualProps), sprintf('Property %s does not exist', $propName));
+            assert(is_string($actualProps[$propName]), get_debug_type($actualProps[$propName]));
 
             static::assertSame(
                 $propValue,
