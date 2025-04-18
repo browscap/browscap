@@ -226,7 +226,7 @@ jobs:
   coding-standards:
     name: "Check Coding Standards with PHPCS"
 
-    needs: "lint-status"
+    needs: "install-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -273,7 +273,7 @@ jobs:
   static-code-analysis:
     name: "Static Code Analysis with PHPStan"
 
-    needs: "lint-status"
+    needs: "install-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -320,7 +320,7 @@ jobs:
   validate-sources:
     name: "Validate sources and tests"
 
-    needs: "lint-status"
+    needs: "install-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -394,7 +394,7 @@ jobs:
   tests:
     name: "UnitTests with PHPUnit"
 
-    needs: "lint-status"
+    needs: "analytics-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
