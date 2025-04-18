@@ -91,10 +91,30 @@ jobs:
       - name: "Lint PHP"
         uses: "overtrue/phplint@10.0"
 
+  # This is a meta job to avoid to have to constantly change the protection rules
+  # whenever we touch the matrix.
+  lint-status:
+    name: "Lint & Validate Status"
+
+    runs-on: "ubuntu-latest"
+
+    if: always()
+
+    needs: "lint"
+
+    steps:
+      - name: Failing run
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
+
+      - name: Successful run
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+
   install:
     name: "Install dependencies"
 
-    needs: "lint"
+    needs: "lint-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -183,10 +203,30 @@ jobs:
       - name: "Check dependencies with composer"
         run: "composer outdated --direct"
 
+  # This is a meta job to avoid to have to constantly change the protection rules
+  # whenever we touch the matrix.
+  install-status:
+    name: "Install Status"
+
+    runs-on: "ubuntu-latest"
+
+    if: always()
+
+    needs: "install"
+
+    steps:
+      - name: Failing run
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
+
+      - name: Successful run
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+
   coding-standards:
     name: "Check Coding Standards with PHPCS"
 
-    needs: "lint"
+    needs: "lint-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -233,7 +273,7 @@ jobs:
   static-code-analysis:
     name: "Static Code Analysis with PHPStan"
 
-    needs: "lint"
+    needs: "lint-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -280,7 +320,7 @@ jobs:
   validate-sources:
     name: "Validate sources and tests"
 
-    needs: "lint"
+    needs: "lint-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -328,10 +368,33 @@ jobs:
       - name: "Validate sources and tests"
         run: "bin/browscap -v validate"
 
+  # This is a meta job to avoid to have to constantly change the protection rules
+  # whenever we touch the matrix.
+  analytics-status:
+    name: "Status Analytics"
+
+    runs-on: "ubuntu-latest"
+
+    if: always()
+
+    needs:
+      - "validate-sources"
+      - "static-code-analysis"
+      - "coding-standards"
+
+    steps:
+      - name: Failing run
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
+
+      - name: Successful run
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+
   tests:
     name: "UnitTests with PHPUnit"
 
-    needs: "lint"
+    needs: "lint-status"
 
     runs-on: "${{ matrix.operating-system }}"
 
@@ -517,3 +580,26 @@ jobs:
           token: "${{secrets.CODECOV_TOKEN}}"
           files: "coverage-lite4.json"
           flags: "lite"
+
+  # This is a meta job to avoid to have to constantly change the protection rules
+  # whenever we touch the matrix.
+  tests-status:
+    name: "Unit & Integration Tests Status"
+
+    runs-on: "ubuntu-latest"
+
+    if: always()
+
+    needs:
+      - "tests"
+      - "code-coverage"
+      - "integration-tests"
+
+    steps:
+      - name: Successful run
+        if: ${{ !(contains(needs.*.result, 'failure')) }}
+        run: exit 0
+
+      - name: Failing run
+        if: ${{ contains(needs.*.result, 'failure') }}
+        run: exit 1
