@@ -488,7 +488,7 @@ jobs:
         run: "vendor/bin/phpunit -c phpunit.xml.dist --colors --coverage-text --coverage-clover=coverage.clover"
 
       - name: "Upload coverage to Codecov"
-        uses: "codecov/codecov-action@v5.4.2"
+        uses: "codecov/codecov-action@v5.4.3"
         with:
           files: "coverage.clover"
           flags: "phpunit"
@@ -559,7 +559,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'full'"
         if: "matrix.test-set == 'full'"
-        uses: "codecov/codecov-action@v5.4.2"
+        uses: "codecov/codecov-action@v5.4.3"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           files: "coverage-full4.json"
@@ -567,7 +567,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'standard'"
         if: "matrix.test-set == 'standard'"
-        uses: "codecov/codecov-action@v5.4.2"
+        uses: "codecov/codecov-action@v5.4.3"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           files: "coverage-standard4.json"
@@ -575,7 +575,7 @@ jobs:
 
       - name: "Upload coverage to Codecov for Test-Set 'lite'"
         if: "matrix.test-set == 'lite'"
-        uses: "codecov/codecov-action@v5.4.2"
+        uses: "codecov/codecov-action@v5.4.3"
         with:
           token: "${{secrets.CODECOV_TOKEN}}"
           files: "coverage-lite4.json"
