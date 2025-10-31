@@ -16,8 +16,6 @@ interface ValidatorInterface
      * @return void|string[]
      *
      * @throws LogicException
-     *
-     * @phpcsSuppress SlevomatCodingStandard.TypeHints.ReturnTypeHint.MissingNativeTypeHint
      */
     public function validate(array $properties, string $key);
 }
