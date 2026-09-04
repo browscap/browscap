@@ -87,7 +87,7 @@ jobs:
           tools: "${{ env.TOOLS }}"
 
       - name: "Lint PHP"
-        uses: "overtrue/phplint@9.7"
+        uses: "overtrue/phplint@9.8"
 
   # This is a meta job to avoid to have to constantly change the protection rules
   # whenever we touch the matrix.
