@@ -2593,16 +2593,16 @@
         },
         {
             "name": "matthiasmullie/scrapbook",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/scrapbook.git",
-                "reference": "6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1"
+                "reference": "7a7ee03e33e138f8b7cf715e52120218cfe17dad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1",
-                "reference": "6ca64d54d7106deffbb98cb9c6a6f5fdb13ce1f1",
+                "url": "https://api.github.com/repos/matthiasmullie/scrapbook/zipball/7a7ee03e33e138f8b7cf715e52120218cfe17dad",
+                "reference": "7a7ee03e33e138f8b7cf715e52120218cfe17dad",
                 "shasum": ""
             },
             "require": {
@@ -2680,7 +2680,7 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/scrapbook/issues",
-                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.4"
+                "source": "https://github.com/matthiasmullie/scrapbook/tree/1.5.5"
             },
             "funding": [
                 {
@@ -2688,7 +2688,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-20T11:47:12+00:00"
+            "time": "2026-11-03T11:44:52+00:00"
         },
         {
             "name": "mikey179/vfsstream",
